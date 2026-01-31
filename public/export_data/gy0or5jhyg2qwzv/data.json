@@ -1,0 +1,86 @@
+{
+  "season_id": "gy0or5jhyg2qwzv",
+  "brackets": [
+    {
+      "id": "k82rekh9nnxrepz",
+      "competition_id": "gy0or5jhlgoqwzv",
+      "season_id": "gy0or5jhyg2qwzv",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1662739200,
+      "end_time": 1662911940,
+      "rounds": [
+        {
+          "id": "y39mp1hkwzpmojx",
+          "bracket_id": "k82rekh9nnxrepz",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1662836400,
+          "end_time": 1662836400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "8yomo4h76kwdq0j",
+              "round_id": "y39mp1hkwzpmojx",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "23xmvkh3v94qg8n",
+              "away_team_id": "vjxm8gh4nynr6od",
+              "winner_team_id": "vjxm8gh4nynr6od",
+              "home_score": 0,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "ednm9wh20o0pryo"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "vjxm8gh4nynr6od": {
+      "id": "vjxm8gh4nynr6od",
+      "name": "Renaissance de Berkane"
+    },
+    "23xmvkh3v94qg8n": {
+      "id": "23xmvkh3v94qg8n",
+      "name": "Wydad Casablanca"
+    }
+  },
+  "sport_events": {
+    "ednm9wh20o0pryo": {
+      "id": "ednm9wh20o0pryo",
+      "home_team_id": "23xmvkh3v94qg8n",
+      "away_team_id": "vjxm8gh4nynr6od",
+      "start_timestamp": 1662836400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "season_id": "9vjxm8gh678r6od",
+  "brackets": [
+    {
+      "id": "dn1m1gheknomoep",
+      "competition_id": "vl7oqdeholr510j",
+      "season_id": "9vjxm8gh678r6od",
+      "name": "Knockout stage",
+      "abbr": "Virsliga 2022",
+      "start_time": 1668355200,
+      "end_time": 1669823940,
+      "rounds": [
+        {
+          "id": "ednm9whd6w8ryox",
+          "bracket_id": "dn1m1gheknomoep",
+          "name": "Qualification round 1",
+          "abbr": "QR1",
+          "start_time": 1669309200,
+          "end_time": 1669546800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "4jwq2gh4w3o1m0v",
+              "round_id": "ednm9whd6w8ryox",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "318q66hol96qo9j",
+              "away_team_id": "4wyrn4hezy2q86p",
+              "winner_team_id": "318q66hol96qo9j",
+              "home_score": 5,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "8yomo4hgy0nkq0j",
+                "6ypq3nh7klxzmd7"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "318q66hol96qo9j": {
+      "id": "318q66hol96qo9j",
+      "name": "Metta/LU Riga"
+    },
+    "4wyrn4hezy2q86p": {
+      "id": "4wyrn4hezy2q86p",
+      "name": "Grobina"
+    }
+  },
+  "sport_events": {
+    "6ypq3nh7klxzmd7": {
+      "id": "6ypq3nh7klxzmd7",
+      "home_team_id": "4wyrn4hezy2q86p",
+      "away_team_id": "318q66hol96qo9j",
+      "start_timestamp": 1669546800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 3
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 7,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "8yomo4hgy0nkq0j": {
+      "id": "8yomo4hgy0nkq0j",
+      "home_team_id": "318q66hol96qo9j",
+      "away_team_id": "4wyrn4hezy2q86p",
+      "start_timestamp": 1669309200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 11,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "season_id": "kn54qllhon0qvy9",
+  "brackets": [
+    {
+      "id": "jw2r09hx7nvrz84",
+      "competition_id": "p4jwq2gh44wm0ve",
+      "season_id": "kn54qllhon0qvy9",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1747929600,
+      "end_time": 1748534340,
+      "rounds": [
+        {
+          "id": "1l4rjnhjlgnm7vx",
+          "bracket_id": "jw2r09hx7nvrz84",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1748016000,
+          "end_time": 1748023200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "318q66h0wp8wqo9",
+              "round_id": "1l4rjnhjlgnm7vx",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "jw2r09hlx8orz84",
+              "away_team_id": "l5ergphowpdr8k0",
+              "winner_team_id": "jw2r09hlx8orz84",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [
+                "y39mp1h5z216moj"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "4jwq2ghn49lem0v"
+              ]
+            },
+            {
+              "id": "k82rekh9w420rep",
+              "round_id": "1l4rjnhjlgnm7vx",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "k82rekhv2k2repz",
+              "away_team_id": "y0or5jhenvxqwzv",
+              "winner_team_id": "k82rekhv2k2repz",
+              "home_score": 5,
+              "away_score": 4,
+              "parent_ids": [
+                "y39mp1h5z216moj"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "1l4rjnh96lvjm7v"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4jwq2ghz9wwm0ve",
+          "bracket_id": "jw2r09hx7nvrz84",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1748541600,
+          "end_time": 1748541600,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "y39mp1h5z216moj",
+              "round_id": "4jwq2ghz9wwm0ve",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "jw2r09hlx8orz84",
+              "away_team_id": "k82rekhv2k2repz",
+              "winner_team_id": "jw2r09hlx8orz84",
+              "home_score": 3,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "k82rekh9w420rep",
+                "318q66h0wp8wqo9"
+              ],
+              "event_ids": [
+                "x7lm7phjkjj8m2w"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "y0or5jhenvxqwzv": {
+      "id": "y0or5jhenvxqwzv",
+      "name": "Al Bukayriyah"
+    },
+    "k82rekhv2k2repz": {
+      "id": "k82rekhv2k2repz",
+      "name": "Al-Adalah"
+    },
+    "jw2r09hlx8orz84": {
+      "id": "jw2r09hlx8orz84",
+      "name": "Al Hazem"
+    },
+    "l5ergphowpdr8k0": {
+      "id": "l5ergphowpdr8k0",
+      "name": "Al-Tai"
+    }
+  },
+  "sport_events": {
+    "1l4rjnh96lvjm7v": {
+      "id": "1l4rjnh96lvjm7v",
+      "home_team_id": "k82rekhv2k2repz",
+      "away_team_id": "y0or5jhenvxqwzv",
+      "start_timestamp": 1748016000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 4,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 5,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 11,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 1,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 1,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 104,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 105,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 115,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 119,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 119,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 120,
+          "type": 19,
+          "add_time": 2,
+          "position": 0
+        },
+        {
+          "time": 0,
+          "type": 29,
+          "position": 2,
+          "away_score": 4,
+          "home_score": 5
+        },
+        {
+          "time": 0,
+          "type": 29,
+          "position": 1,
+          "away_score": 4,
+          "home_score": 5
+        },
+        {
+          "time": 0,
+          "type": 29,
+          "position": 2,
+          "away_score": 4,
+          "home_score": 5
+        },
+        {
+          "time": 0,
+          "type": 29,
+          "position": 1,
+          "away_score": 4,
+          "home_score": 5
+        },
+        {
+          "time": 0,
+          "type": 29,
+          "position": 2,
+          "away_score": 4,
+          "home_score": 5
+        },
+        {
+          "time": 0,
+          "type": 29,
+          "position": 1
+        },
+        {
+          "time": 0,
+          "type": 29,
+          "position": 2
+        },
+        {
+          "time": 0,
+          "type": 29,
+          "position": 1
+        },
+        {
+          "time": 0,
+          "type": 30,
+          "position": 2
+        },
+        {
+          "time": 0,
+          "type": 29,
+          "position": 1
+        }
+      ]
+    },
+    "4jwq2ghn49lem0v": {
+      "id": "4jwq2ghn49lem0v",
+      "home_team_id": "jw2r09hlx8orz84",
+      "away_team_id": "l5ergphowpdr8k0",
+      "start_timestamp": 1748023200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 9,
+          "red_card": 1,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 1,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 20,
+          "type": 4,
+          "position": 1,
+          "player_id": "vjxm8ghxyy7r6od",
+          "player_name": "Jurien Gaari"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 65,
+          "type": 1,
+          "position": 1,
+          "player_id": "1l4rjnh611xm7vx",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Karim Yoda"
+        },
+        {
+          "time": 97,
+          "type": 4,
+          "add_time": 7,
+          "position": 2
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "x7lm7phjkjj8m2w": {
+      "id": "x7lm7phjkjj8m2w",
+      "home_team_id": "jw2r09hlx8orz84",
+      "away_team_id": "k82rekhv2k2repz",
+      "start_timestamp": 1748541600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 1,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 1,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 21,
+          "type": 1,
+          "position": 1,
+          "player_id": "dn1m1ghnkke1moe",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Abdurahman Al-Dakheel"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 1,
+          "position": 1,
+          "player_id": "n54qllhey9yqvy9",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Zinho Gano"
+        },
+        {
+          "time": 73,
+          "type": 1,
+          "position": 1,
+          "player_id": "dj2ryohg2gv8q1z",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Basil Al Sayyali"
+        },
+        {
+          "time": 77,
+          "type": 4,
+          "position": 2,
+          "player_id": "6ypq3nhwod8nmd7",
+          "player_name": "Mohammed Abo Abd"
+        },
+        {
+          "time": 81,
+          "type": 4,
+          "position": 1,
+          "player_id": "dj2ryohg2gv8q1z",
+          "player_name": "Basil Al Sayyali"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

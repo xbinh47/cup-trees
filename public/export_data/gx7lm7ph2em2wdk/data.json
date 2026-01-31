@@ -1,0 +1,109 @@
+{
+  "season_id": "gx7lm7ph2em2wdk",
+  "brackets": [
+    {
+      "id": "ednm9wh9gk6ryox",
+      "competition_id": "8y39mp1hjzmojxg",
+      "season_id": "gx7lm7ph2em2wdk",
+      "name": "Knockout stage",
+      "abbr": "League One 05",
+      "start_time": 1147017600,
+      "end_time": 1148831940,
+      "rounds": [
+        {
+          "id": "dn1m1gh1j8xmoep",
+          "bracket_id": "ednm9wh9gk6ryox",
+          "name": "Semifinals",
+          "abbr": "SF",
+          "start_time": 1147373100,
+          "end_time": 1147719600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "pxwrxlhgy1z5ryk",
+              "round_id": "dn1m1gh1j8xmoep",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "z318q66hdxgqo9j",
+              "away_team_id": "kn54qllhy42qvy9",
+              "winner_team_id": "kn54qllhy42qvy9",
+              "home_score": 2,
+              "away_score": 3,
+              "parent_ids": [
+                "vjxm8gh4egpkr6o"
+              ],
+              "children_ids": [],
+              "event_ids": []
+            },
+            {
+              "id": "3glrw7hwn1znqdy",
+              "round_id": "dn1m1gh1j8xmoep",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "kjw2r09hdk5rz84",
+              "away_team_id": "gx7lm7ph6jzm2wd",
+              "winner_team_id": "gx7lm7ph6jzm2wd",
+              "home_score": 1,
+              "away_score": 3,
+              "parent_ids": [
+                "vjxm8gh4egpkr6o"
+              ],
+              "children_ids": [],
+              "event_ids": []
+            }
+          ]
+        },
+        {
+          "id": "4wyrn4h93v5q86p",
+          "bracket_id": "ednm9wh9gk6ryox",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1148738400,
+          "end_time": 1148738400,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "vjxm8gh4egpkr6o",
+              "round_id": "4wyrn4h93v5q86p",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "kn54qllhy42qvy9",
+              "away_team_id": "gx7lm7ph6jzm2wd",
+              "winner_team_id": "kn54qllhy42qvy9",
+              "home_score": 6,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [
+                "pxwrxlhgy1z5ryk",
+                "3glrw7hwn1znqdy"
+              ],
+              "event_ids": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "kjw2r09hdk5rz84": {
+      "id": "kjw2r09hdk5rz84",
+      "name": "Brentford"
+    },
+    "gx7lm7ph6jzm2wd": {
+      "id": "gx7lm7ph6jzm2wd",
+      "name": "Swansea City"
+    },
+    "kn54qllhy42qvy9": {
+      "id": "kn54qllhy42qvy9",
+      "name": "Barnsley"
+    },
+    "z318q66hdxgqo9j": {
+      "id": "z318q66hdxgqo9j",
+      "name": "Huddersfield Town"
+    }
+  },
+  "sport_events": {}
+}

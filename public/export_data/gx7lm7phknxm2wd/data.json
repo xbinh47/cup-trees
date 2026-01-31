@@ -1,0 +1,117 @@
+{
+  "season_id": "gx7lm7phknxm2wd",
+  "brackets": [
+    {
+      "id": "dj2ryohk0goq1zp",
+      "competition_id": "kn54qllhjzqvy9d",
+      "season_id": "gx7lm7phknxm2wd",
+      "name": "Knockout stage",
+      "abbr": "2nd Bundeslig",
+      "start_time": 1336665600,
+      "end_time": 1337097540,
+      "rounds": [
+        {
+          "id": "l5ergphn3ojr8k0",
+          "bracket_id": "dj2ryohk0goq1zp",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1336761000,
+          "end_time": 1337020200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "jw2r09hlxj68rz8",
+              "round_id": "l5ergphn3ojr8k0",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "z318q66hp2kqo9j",
+              "away_team_id": "56ypq3nho91md7o",
+              "winner_team_id": "56ypq3nho91md7o",
+              "home_score": 3,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "zp5rzgh7ddglq82",
+                "1l4rjnh1dd98m7v"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "56ypq3nho91md7o": {
+      "id": "56ypq3nho91md7o",
+      "name": "SSV Jahn Regensburg"
+    },
+    "z318q66hp2kqo9j": {
+      "id": "z318q66hp2kqo9j",
+      "name": "Karlsruher SC"
+    }
+  },
+  "sport_events": {
+    "1l4rjnh1dd98m7v": {
+      "id": "1l4rjnh1dd98m7v",
+      "home_team_id": "z318q66hp2kqo9j",
+      "away_team_id": "56ypq3nho91md7o",
+      "start_timestamp": 1337020200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 2,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "zp5rzgh7ddglq82": {
+      "id": "zp5rzgh7ddglq82",
+      "home_team_id": "56ypq3nho91md7o",
+      "away_team_id": "z318q66hp2kqo9j",
+      "start_timestamp": 1336761000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

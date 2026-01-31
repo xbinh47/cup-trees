@@ -1,0 +1,116 @@
+{
+  "season_id": "kjw2r09hnvrz84o",
+  "brackets": [
+    {
+      "id": "6ypq3nh5xwgmd7o",
+      "competition_id": "xe4wyrn4h5q86pv",
+      "season_id": "kjw2r09hnvrz84o",
+      "name": "Knockout Stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1265817600,
+      "end_time": 1267891140,
+      "rounds": [
+        {
+          "id": "2y8m4zhxkyxql07",
+          "bracket_id": "6ypq3nh5xwgmd7o",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 1,
+          "match_ups": []
+        },
+        {
+          "id": "pxwrxlhek85ryk0",
+          "bracket_id": "6ypq3nh5xwgmd7o",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1267632000,
+          "end_time": 1267632000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "3glrw7h1y99lqdy",
+              "round_id": "pxwrxlhek85ryk0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "4wyrn4h8exdq86p",
+              "away_team_id": "4jwq2gh4znzm0ve",
+              "winner_team_id": "4jwq2gh4znzm0ve",
+              "home_score": 2,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "1l4rjnh1lzz7m7v"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6ypq3nhejy7md7o",
+          "bracket_id": "6ypq3nh5xwgmd7o",
+          "name": "Placement match for 3rd",
+          "abbr": "3rd",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 1,
+          "match_ups": []
+        },
+        {
+          "id": "8yomo4hxdl4q0j6",
+          "bracket_id": "6ypq3nh5xwgmd7o",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 2,
+          "match_ups": []
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "4wyrn4h8exdq86p": {
+      "id": "4wyrn4h8exdq86p",
+      "name": "Germany Women"
+    },
+    "4jwq2gh4znzm0ve": {
+      "id": "4jwq2gh4znzm0ve",
+      "name": "USA Women"
+    }
+  },
+  "sport_events": {
+    "1l4rjnh1lzz7m7v": {
+      "id": "1l4rjnh1lzz7m7v",
+      "home_team_id": "4wyrn4h8exdq86p",
+      "away_team_id": "4jwq2gh4znzm0ve",
+      "start_timestamp": 1267632000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "season_id": "d23xmvkh5vvqg8n",
+  "brackets": [
+    {
+      "id": "n54qllhe78wqvy9",
+      "competition_id": "gx7lm7ph0j5m2wd",
+      "season_id": "d23xmvkh5vvqg8n",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1683820800,
+      "end_time": 1684166340,
+      "rounds": [
+        {
+          "id": "y0or5jhjljkqwzv",
+          "bracket_id": "n54qllhe78wqvy9",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1683892800,
+          "end_time": 1683892800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l5ergphoxlp3r8k",
+              "round_id": "y0or5jhjljkqwzv",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "3glrw7hw044qdyj",
+              "away_team_id": "4jwq2ghvp12m0ve",
+              "winner_team_id": "3glrw7hw044qdyj",
+              "home_score": 4,
+              "away_score": 0,
+              "parent_ids": [
+                "jw2r09hly61xrz8",
+                "965mkyh7d292r1g"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "y0or5jhzyvn5qwz"
+              ]
+            },
+            {
+              "id": "4wyrn4h8po98q86",
+              "round_id": "y0or5jhjljkqwzv",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "965mkyh7g41r1ge",
+              "away_team_id": "pxwrxlhg7lyryk0",
+              "winner_team_id": "pxwrxlhg7lyryk0",
+              "home_score": 2,
+              "away_score": 4,
+              "parent_ids": [
+                "jw2r09hly61xrz8",
+                "965mkyh7d292r1g"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "n54qllhpgl7wqvy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "23xmvkhw3w5qg8n",
+          "bracket_id": "n54qllhe78wqvy9",
+          "name": "Placement match for 3rd",
+          "abbr": "3rd",
+          "start_time": 1684139400,
+          "end_time": 1684139400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "jw2r09hly61xrz8",
+              "round_id": "23xmvkhw3w5qg8n",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "4jwq2ghvp12m0ve",
+              "away_team_id": "965mkyh7g41r1ge",
+              "winner_team_id": "965mkyh7g41r1ge",
+              "home_score": 0,
+              "away_score": 6,
+              "parent_ids": [],
+              "children_ids": [
+                "4wyrn4h8po98q86",
+                "l5ergphoxlp3r8k"
+              ],
+              "event_ids": [
+                "l5ergphl13e2r8k"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n54qllh929gqvy9",
+          "bracket_id": "n54qllhe78wqvy9",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1684153800,
+          "end_time": 1684153800,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "965mkyh7d292r1g",
+              "round_id": "n54qllh929gqvy9",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "3glrw7hw044qdyj",
+              "away_team_id": "pxwrxlhg7lyryk0",
+              "winner_team_id": "3glrw7hw044qdyj",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "4wyrn4h8po98q86",
+                "l5ergphoxlp3r8k"
+              ],
+              "event_ids": [
+                "dj2ryoheoygeq1z"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "4jwq2ghvp12m0ve": {
+      "id": "4jwq2ghvp12m0ve",
+      "name": "Cambodia Women"
+    },
+    "pxwrxlhg7lyryk0": {
+      "id": "pxwrxlhg7lyryk0",
+      "name": "Myanmar (w)"
+    },
+    "965mkyh7g41r1ge": {
+      "id": "965mkyh7g41r1ge",
+      "name": "Thailand (w)"
+    },
+    "3glrw7hw044qdyj": {
+      "id": "3glrw7hw044qdyj",
+      "name": "Vietnam Women"
+    }
+  },
+  "sport_events": {
+    "dj2ryoheoygeq1z": {
+      "id": "dj2ryoheoygeq1z",
+      "home_team_id": "3glrw7hw044qdyj",
+      "away_team_id": "pxwrxlhg7lyryk0",
+      "start_timestamp": 1684153800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "l5ergphl13e2r8k": {
+      "id": "l5ergphl13e2r8k",
+      "home_team_id": "4jwq2ghvp12m0ve",
+      "away_team_id": "965mkyh7g41r1ge",
+      "start_timestamp": 1684141200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 10,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 6,
+          "overTime_score": 0,
+          "half_time_score": 3
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "n54qllhpgl7wqvy": {
+      "id": "n54qllhpgl7wqvy",
+      "home_team_id": "pxwrxlhg7lyryk0",
+      "away_team_id": "965mkyh7g41r1ge",
+      "start_timestamp": 1683892800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "y0or5jhzyvn5qwz": {
+      "id": "y0or5jhzyvn5qwz",
+      "home_team_id": "4jwq2ghvp12m0ve",
+      "away_team_id": "3glrw7hw044qdyj",
+      "start_timestamp": 1683892800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 3
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

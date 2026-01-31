@@ -1,0 +1,169 @@
+{
+  "season_id": "8y39mp1hx0ymojx",
+  "cup_trees": [
+    {
+      "bracket_id": "318q66hv64nqo9j",
+      "bracket_name": "Knockout stage",
+      "nodes": {
+        "0": {
+          "1": {
+            "home_team_id": "318q66hogyeqo9j",
+            "home_team_name": "Bucheon FC 1995",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "318q66hogyeqo9j",
+            "position": 1,
+            "round_number": 1,
+            "is_bye": true,
+            "status": {
+              "code": 0,
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
+          },
+          "2": {
+            "id": "l5ergph3d7y4r8k",
+            "home_team_id": "zp5rzgh700pq82w",
+            "away_team_id": "9vjxm8ghoknr6od",
+            "home_team_name": "Seoul E-Land FC",
+            "away_team_name": "Seongnam FC",
+            "home_score": 0,
+            "away_score": 1,
+            "winner_team_id": "9vjxm8ghoknr6od",
+            "position": 2,
+            "round_id": "jw2r09h6ey9rz84",
+            "round_number": 1,
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1764237600,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 4,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 3,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "home_team_id": "zp5rzgh700pq82w",
+              "away_team_id": "9vjxm8ghoknr6od",
+              "home_team_name": "Seoul E-Land FC",
+              "away_team_name": "Seongnam FC"
+            },
+            "event_ids": [
+              "4jwq2ghn99kvm0v"
+            ],
+            "status": {
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
+            }
+          }
+        },
+        "1": {
+          "1": {
+            "id": "vjxm8ghg07wnr6o",
+            "home_team_id": "318q66hogyeqo9j",
+            "away_team_id": "9vjxm8ghoknr6od",
+            "home_team_name": "Bucheon FC 1995",
+            "away_team_name": "Seongnam FC",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 1,
+            "round_id": "l7oqdeh8vw3r510",
+            "round_number": 2,
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1764478800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 3,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 5,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "318q66hogyeqo9j",
+              "away_team_id": "9vjxm8ghoknr6od",
+              "home_team_name": "Bucheon FC 1995",
+              "away_team_name": "Seongnam FC"
+            },
+            "event_ids": [
+              "zp5rzghgw6lzq82"
+            ],
+            "status": {
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
+            }
+          }
+        }
+      },
+      "rounds": [
+        {
+          "id": "jw2r09h6ey9rz84",
+          "description": "Qualification Round1",
+          "number": 1
+        },
+        {
+          "id": "l7oqdeh8vw3r510",
+          "description": "Qualification Round2",
+          "number": 2
+        }
+      ],
+      "total_rounds": 2
+    }
+  ]
+}

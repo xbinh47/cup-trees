@@ -1,0 +1,753 @@
+{
+  "season_id": "gx7lm7ph13jm2wd",
+  "brackets": [
+    {
+      "id": "23xmvkhdwkpqg8n",
+      "competition_id": "yl5ergphk2r8k0o",
+      "season_id": "gx7lm7ph13jm2wd",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1748361600,
+      "end_time": 1748793540,
+      "rounds": [
+        {
+          "id": "l7oqdeh83v1r510",
+          "bracket_id": "23xmvkhdwkpqg8n",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1748446200,
+          "end_time": 1748800800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "k82rekh9w712rep",
+              "round_id": "l7oqdeh83v1r510",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 6,
+              "home_team_id": "pxwrxlhjx35ryk0",
+              "away_team_id": "jw2r09hl16yrz84",
+              "winner_team_id": "",
+              "home_score": 0,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "8yomo4h17yp8q0j",
+                "2y8m4zh53vovql0"
+              ]
+            },
+            {
+              "id": "1l4rjnh148ykm7v",
+              "round_id": "l7oqdeh83v1r510",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "y39mp1h37z7mojx",
+              "away_team_id": "d23xmvkh5k4qg8n",
+              "winner_team_id": "d23xmvkh5k4qg8n",
+              "home_score": 0,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "pxwrxlhygl4wryk",
+                "dj2ryohlk7olq1z"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "pxwrxlhjx35ryk0": {
+      "id": "pxwrxlhjx35ryk0",
+      "name": "Mladost Novi Sad"
+    },
+    "d23xmvkh5k4qg8n": {
+      "id": "d23xmvkh5k4qg8n",
+      "name": "Radnicki Nis"
+    },
+    "y39mp1h37z7mojx": {
+      "id": "y39mp1h37z7mojx",
+      "name": "Macva Sabac"
+    },
+    "jw2r09hl16yrz84": {
+      "id": "jw2r09hl16yrz84",
+      "name": "FK Napredak Krusevac"
+    }
+  },
+  "sport_events": {
+    "2y8m4zh53vovql0": {
+      "id": "2y8m4zh53vovql0",
+      "home_team_id": "jw2r09hl16yrz84",
+      "away_team_id": "pxwrxlhjx35ryk0",
+      "start_timestamp": 1748800800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 12,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "8yomo4h17yp8q0j",
+      "incidents": [
+        {
+          "time": 12,
+          "type": 3,
+          "position": 2,
+          "player_id": "2y8m4zhz9w1ql07",
+          "player_name": "Ognjen Ilic"
+        },
+        {
+          "time": 41,
+          "type": 3,
+          "position": 2,
+          "player_id": "y39mp1hy1d1wmoj",
+          "player_name": "Stefan Radić"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 59,
+          "type": 3,
+          "position": 1,
+          "player_id": "pxwrxlh98917ryk",
+          "player_name": "nikola vukajlovic"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "23xmvkhkv29nqg8",
+          "out_player_id": "2y8m4zhg3xlql07",
+          "in_player_name": "Dusan·Stoiljkovic",
+          "out_player_name": "Nikola Karaklajić"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l5ergphvknnor8k",
+          "out_player_id": "y39mp1hy1d1wmoj",
+          "in_player_name": "Nikola Tasic",
+          "out_player_name": "Stefan Radić"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "8yomo4hvw9z5q0j",
+          "out_player_id": "4wyrn4hv9k1vq86",
+          "in_player_name": "lukijan abadzija",
+          "out_player_name": "luka kljajic"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "318q66hv4e0gqo9",
+          "out_player_id": "vjxm8ghj5o5r6od",
+          "in_player_name": "Milos Toseski",
+          "out_player_name": "Andrija Luković"
+        },
+        {
+          "time": 76,
+          "type": 1,
+          "position": 1,
+          "player_id": "23xmvkhkv29nqg8",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Dusan·Stoiljkovic"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y0or5jh3wd5kqwz",
+          "out_player_id": "pxwrxlhgk6lryk0",
+          "in_player_name": "Mihajlo·Petkovic",
+          "out_player_name": "Saša Marjanović"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dj2ryohgeyn4q1z",
+          "out_player_id": "l7oqdehn5okr510",
+          "in_player_name": "M. Bubanj",
+          "out_player_name": "Marko Obradović"
+        },
+        {
+          "time": 81,
+          "type": 3,
+          "position": 1,
+          "player_id": "23xmvkhkpgjqg8n",
+          "player_name": "Stefan Bukorac"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dj2ryohnpe9gq1z",
+          "out_player_id": "x7lm7phwye4ym2w",
+          "in_player_name": "veljko lolic",
+          "out_player_name": "luka milojevic"
+        },
+        {
+          "time": 85,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jh3wd5kqwz",
+          "player_name": "Mihajlo·Petkovic"
+        },
+        {
+          "time": 92,
+          "type": 3,
+          "add_time": 2,
+          "position": 1,
+          "player_id": "zp5rzghxxg3eq82",
+          "player_name": "Lazar Balevic"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "8yomo4h17yp8q0j": {
+      "id": "8yomo4h17yp8q0j",
+      "home_team_id": "pxwrxlhjx35ryk0",
+      "away_team_id": "jw2r09hl16yrz84",
+      "start_timestamp": 1748446200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "2y8m4zh53vovql0",
+      "incidents": [
+        {
+          "time": 34,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "2y8m4zh8wezjql0",
+          "out_player_id": "2y8m4zh8eejvql0",
+          "in_player_name": "uros lazic",
+          "out_player_name": "Uros Ignjatovic"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l7oqdehn5okr510",
+          "out_player_id": "dj2ryohgeyn4q1z",
+          "in_player_name": "Marko Obradović",
+          "out_player_name": "M. Bubanj"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "318q66hv4e0gqo9",
+          "out_player_id": "pxwrxlhgk6lryk0",
+          "in_player_name": "Milos Toseski",
+          "out_player_name": "Saša Marjanović"
+        },
+        {
+          "time": 51,
+          "type": 3,
+          "position": 1,
+          "player_id": "y39mp1hydjpmojx",
+          "player_name": "Aleksandar Tanasin"
+        },
+        {
+          "time": 57,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jhgl246qwz",
+          "player_name": "godswill vadze"
+        },
+        {
+          "time": 74,
+          "type": 3,
+          "position": 2,
+          "player_id": "23xmvkh43nn8qg8",
+          "player_name": "filip krstic"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "3glrw7hjlggnqdy",
+          "out_player_id": "2y8m4zhg3xlql07",
+          "in_player_name": "Nikola Bogdanovski",
+          "out_player_name": "Nikola Karaklajić"
+        },
+        {
+          "time": 80,
+          "type": 3,
+          "position": 1,
+          "player_id": "965mkyhel3g9r1g",
+          "player_name": "nenad lalic"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7ph0jy17m2w",
+          "out_player_id": "vjxm8ghj5o5r6od",
+          "in_player_name": "Vladimir·Miletic",
+          "out_player_name": "Andrija Luković"
+        },
+        {
+          "time": 83,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdehn5okr510",
+          "player_name": "Marko Obradović"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4wyrn4hdylgkq86",
+          "out_player_id": "965mkyhel3g9r1g",
+          "in_player_name": "Nemanja Božović",
+          "out_player_name": "nenad lalic"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y0or5jhgl2dgqwz",
+          "out_player_id": "y0or5jhgl246qwz",
+          "in_player_name": "Collins·Atule",
+          "out_player_name": "godswill vadze"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4wyrn4hv9k1vq86",
+          "out_player_id": "x7lm7phwye4ym2w",
+          "in_player_name": "luka kljajic",
+          "out_player_name": "luka milojevic"
+        },
+        {
+          "time": 93,
+          "type": 9,
+          "add_time": 3,
+          "position": 1,
+          "in_player_id": "8yomo4hvw9z5q0j",
+          "out_player_id": "23xmvkhgko2qg8n",
+          "in_player_name": "lukijan abadzija",
+          "out_player_name": "Đorđe Šušnjar"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "dj2ryohlk7olq1z": {
+      "id": "dj2ryohlk7olq1z",
+      "home_team_id": "d23xmvkh5k4qg8n",
+      "away_team_id": "y39mp1h37z7mojx",
+      "start_timestamp": 1748791800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "pxwrxlhygl4wryk",
+      "incidents": [
+        {
+          "time": 14,
+          "type": 3,
+          "position": 2,
+          "player_id": "4jwq2gh7zk3vm0v",
+          "player_name": "luka nikolic"
+        },
+        {
+          "time": 22,
+          "type": 3,
+          "position": 2,
+          "player_id": "4jwq2ghx15k3m0v",
+          "player_name": "Slobodan Sladojević"
+        },
+        {
+          "time": 37,
+          "type": 3,
+          "position": 2,
+          "player_id": "4wyrn4h442egq86",
+          "player_name": "L. Pejović"
+        },
+        {
+          "time": 44,
+          "type": 3,
+          "position": 2,
+          "player_id": "vjxm8ghj66xvr6o",
+          "player_name": "Stefan duric"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 3,
+          "position": 1,
+          "player_id": "2y8m4zhzyn4ql07",
+          "player_name": "Miodrag Gemovic"
+        },
+        {
+          "time": 58,
+          "type": 3,
+          "position": 1,
+          "player_id": "4wyrn4hvkypq86p",
+          "player_name": "Jovan Nišić"
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "k82rekhy03k9rep",
+          "out_player_id": "k82rekhy6oklrep",
+          "in_player_name": "Ibrahim Tanko",
+          "out_player_name": "Vanja Ilić"
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "8yomo4hk4ojq0j6",
+          "out_player_id": "318q66h0k0pqo9j",
+          "in_player_name": "Uroš Vitas",
+          "out_player_name": "Marko Petković"
+        },
+        {
+          "time": 60,
+          "type": 1,
+          "position": 1,
+          "player_id": "8yomo4hv3o6yq0j",
+          "assist1_id": "x7lm7phwepem2wd",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "trivante stewart",
+          "assist1_name": "Dejan Stanivuković"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlh9gzkryk0",
+          "out_player_id": "vjxm8ghj66xvr6o",
+          "in_player_name": "Nenad Gavrić",
+          "out_player_name": "Stefan duric"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "23xmvkhk3w0oqg8",
+          "out_player_id": "4jwq2gh7zk3vm0v",
+          "in_player_name": "Aleksa·Vujic",
+          "out_player_name": "luka nikolic"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "3glrw7hy34ldqdy",
+          "out_player_id": "2y8m4zhzyn4ql07",
+          "in_player_name": "jovan mituljkic",
+          "out_player_name": "Miodrag Gemovic"
+        },
+        {
+          "time": 71,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnh1x3lm7vx",
+          "player_name": "Radomir Milosavljević"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dn1m1gh8pew7moe",
+          "out_player_id": "y39mp1h10529moj",
+          "in_player_name": "dejan zivkov",
+          "out_player_name": "muhammad sani abdullahi"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "4wyrn4hvoeklq86",
+          "out_player_id": "1l4rjnhzoe7em7v",
+          "in_player_name": "jovanovic nikola",
+          "out_player_name": "Andrija Markovic"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "ednm9whg2zkxryo",
+          "out_player_id": "jw2r09hxpperz84",
+          "in_player_name": "vladimir rakic",
+          "out_player_name": "Dragoljub Srnić"
+        },
+        {
+          "time": 81,
+          "type": 1,
+          "position": 1,
+          "player_id": "k82rekhy03k9rep",
+          "assist1_id": "318q66h4vo7lqo9",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Ibrahim Tanko",
+          "assist1_name": "Yamkam mbouri basile"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnh1pw8pm7v",
+          "out_player_id": "y39mp1hjedknmoj",
+          "in_player_name": "Simon Amin",
+          "out_player_name": "nemanja belakovic"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7phpe12m2wd",
+          "out_player_id": "k82rekhy03k9rep",
+          "in_player_name": "Iliya Yurukov",
+          "out_player_name": "Ibrahim Tanko"
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "add_time": 4,
+          "position": 2,
+          "player_id": "4wyrn4hvoeklq86",
+          "player_name": "jovanovic nikola"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "pxwrxlhygl4wryk": {
+      "id": "pxwrxlhygl4wryk",
+      "home_team_id": "y39mp1h37z7mojx",
+      "away_team_id": "d23xmvkh5k4qg8n",
+      "start_timestamp": 1748453400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "dj2ryohlk7olq1z",
+      "incidents": [
+        {
+          "time": 11,
+          "type": 3,
+          "position": 1,
+          "player_id": "4wyrn4h442egq86",
+          "player_name": "L. Pejović"
+        },
+        {
+          "time": 13,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jhgogl4qwz",
+          "player_name": "igor milanovic"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 57,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "8yomo4hv3o6yq0j",
+          "out_player_id": "y39mp1hjedknmoj",
+          "in_player_name": "trivante stewart",
+          "out_player_name": "nemanja belakovic"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y39mp1h10529moj",
+          "out_player_id": "y0or5jhgogl4qwz",
+          "in_player_name": "muhammad sani abdullahi",
+          "out_player_name": "igor milanovic"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "ednm9whg2zkxryo",
+          "out_player_id": "23xmvkhk3w0oqg8",
+          "in_player_name": "vladimir rakic",
+          "out_player_name": "Aleksa·Vujic"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dn1m1gh8pew7moe",
+          "out_player_id": "pxwrxlh9gzkryk0",
+          "in_player_name": "dejan zivkov",
+          "out_player_name": "Nenad Gavrić"
+        },
+        {
+          "time": 71,
+          "type": 3,
+          "position": 2,
+          "player_id": "k82rekhy6oklrep",
+          "player_name": "Vanja Ilić"
+        },
+        {
+          "time": 73,
+          "type": 3,
+          "position": 2,
+          "player_id": "318q66h4vo7lqo9",
+          "player_name": "Yamkam mbouri basile"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dn1m1ghn73w4moe",
+          "out_player_id": "n54qllhx7xygqvy",
+          "in_player_name": "Andreja Stojanovic",
+          "out_player_name": "Radivoj Bosić"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4wyrn4hvoeklq86",
+          "out_player_id": "1l4rjnhzoe7em7v",
+          "in_player_name": "jovanovic nikola",
+          "out_player_name": "Andrija Markovic"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8ghj66xvr6o",
+          "out_player_id": "4wyrn4h442egq86",
+          "in_player_name": "Stefan duric",
+          "out_player_name": "L. Pejović"
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "add_time": 2,
+          "position": 2,
+          "in_player_id": "3glrw7hy34ldqdy",
+          "out_player_id": "2y8m4zhzyn4ql07",
+          "in_player_name": "jovan mituljkic",
+          "out_player_name": "Miodrag Gemovic"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

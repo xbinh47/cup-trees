@@ -1,0 +1,117 @@
+{
+  "season_id": "v2y8m4zhyyzql07",
+  "brackets": [
+    {
+      "id": "pxwrxlh185pryk0",
+      "competition_id": "9vjxm8ghdnr6odg",
+      "season_id": "v2y8m4zhyyzql07",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1701705600,
+      "end_time": 1702915140,
+      "rounds": [
+        {
+          "id": "y0or5jh610eqwzv",
+          "bracket_id": "pxwrxlh185pryk0",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1702243800,
+          "end_time": 1702848600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "pxwrxlh1g7n2ryk",
+              "round_id": "y0or5jh610eqwzv",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "dn1m1gh40ppmoep",
+              "away_team_id": "z8yomo4hd49q0j6",
+              "winner_team_id": "z8yomo4hd49q0j6",
+              "home_score": 1,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "2y8m4zh68733ql0",
+                "y0or5jhn35ejqwz"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "dn1m1gh40ppmoep": {
+      "id": "dn1m1gh40ppmoep",
+      "name": "Independiente del Valle"
+    },
+    "z8yomo4hd49q0j6": {
+      "id": "z8yomo4hd49q0j6",
+      "name": "Liga Dep Universitaria Quito"
+    }
+  },
+  "sport_events": {
+    "2y8m4zh68733ql0": {
+      "id": "2y8m4zh68733ql0",
+      "home_team_id": "dn1m1gh40ppmoep",
+      "away_team_id": "z8yomo4hd49q0j6",
+      "start_timestamp": 1702243800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "y0or5jhn35ejqwz": {
+      "id": "y0or5jhn35ejqwz",
+      "home_team_id": "z8yomo4hd49q0j6",
+      "away_team_id": "dn1m1gh40ppmoep",
+      "start_timestamp": 1702848600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 3,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

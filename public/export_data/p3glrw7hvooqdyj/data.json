@@ -1,0 +1,450 @@
+{
+  "season_id": "p3glrw7hvooqdyj",
+  "brackets": [
+    {
+      "id": "ednm9whzg83ryox",
+      "competition_id": "vl7oqdeholr510j",
+      "season_id": "p3glrw7hvooqdyj",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1731686400,
+      "end_time": 1732377540,
+      "rounds": [
+        {
+          "id": "8yomo4h4w3lq0j6",
+          "bracket_id": "ednm9whzg83ryox",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1732100400,
+          "end_time": 1732356000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "y39mp1h54jw1moj",
+              "round_id": "8yomo4h4w3lq0j6",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "4wyrn4hezy2q86p",
+              "away_team_id": "dj2ryohkp8jq1zp",
+              "winner_team_id": "4wyrn4hezy2q86p",
+              "home_score": 4,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "k82rekhw4786rep",
+                "3glrw7h75v71qdy"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "dj2ryohkp8jq1zp": {
+      "id": "dj2ryohkp8jq1zp",
+      "name": "JDFS Alberts"
+    },
+    "4wyrn4hezy2q86p": {
+      "id": "4wyrn4hezy2q86p",
+      "name": "Grobina"
+    }
+  },
+  "sport_events": {
+    "3glrw7h75v71qdy": {
+      "id": "3glrw7h75v71qdy",
+      "home_team_id": "dj2ryohkp8jq1zp",
+      "away_team_id": "4wyrn4hezy2q86p",
+      "start_timestamp": 1732357800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "k82rekhw4786rep",
+      "incidents": [
+        {
+          "time": 20,
+          "type": 3,
+          "position": 2,
+          "player_id": "3glrw7h0zp9qdyj",
+          "player_name": "Zakaria Sdaigui"
+        },
+        {
+          "time": 26,
+          "type": 16,
+          "position": 2,
+          "player_id": "6ypq3nhwo1d3md7",
+          "player_name": "Devids dobrecovs"
+        },
+        {
+          "time": 31,
+          "type": 3,
+          "position": 1,
+          "player_id": "n54qllhxw4dpqvy",
+          "player_name": "Matiss zegele"
+        },
+        {
+          "time": 35,
+          "type": 1,
+          "position": 2,
+          "player_id": "zp5rzghpd972q82",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "rodrigo gaucis"
+        },
+        {
+          "time": 36,
+          "type": 3,
+          "position": 2,
+          "player_id": "zp5rzgh11e1q82w",
+          "player_name": "Ralfs Dzerins"
+        },
+        {
+          "time": 41,
+          "type": 1,
+          "position": 2,
+          "player_id": "zp5rzghpd972q82",
+          "assist1_id": "1l4rjnhxd012m7v",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "rodrigo gaucis",
+          "assist1_name": "rudolfs melkis"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7phw2ewnm2w",
+          "out_player_id": "4wyrn4h4y87pq86",
+          "in_player_name": "Karlis pirktins",
+          "out_player_name": "Renards krisjanis"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "k82rekhox8y2rep",
+          "out_player_id": "y39mp1hyo6ppmoj",
+          "in_player_name": "roberts aditajs",
+          "out_player_name": "markus prohorenkovs"
+        },
+        {
+          "time": 69,
+          "type": 3,
+          "position": 1,
+          "player_id": "4wyrn4hd166lq86",
+          "player_name": "Renars Guliaks"
+        },
+        {
+          "time": 70,
+          "type": 4,
+          "position": 1
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7ph9pykjm2w",
+          "out_player_id": "n54qllhxw4dpqvy",
+          "in_player_name": "milans brahmanis",
+          "out_player_name": "Matiss zegele"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "n54qllhx6do4qvy",
+          "out_player_id": "zp5rzghpd972q82",
+          "in_player_name": "Markuss Kruglaužs",
+          "out_player_name": "rodrigo gaucis"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y39mp1h5xp3mojx",
+          "out_player_id": "3glrw7h0zp9qdyj",
+          "in_player_name": "Emils Knapsis",
+          "out_player_name": "Zakaria Sdaigui"
+        },
+        {
+          "time": 80,
+          "type": 3,
+          "position": 2,
+          "player_id": "8yomo4h09d2wq0j",
+          "player_name": "denys halata"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dn1m1gh3gzk4moe",
+          "out_player_id": "4wyrn4hd5y9jq86",
+          "in_player_name": "Karlis strautmanis",
+          "out_player_name": "Rihards ozolins"
+        },
+        {
+          "time": 86,
+          "type": 3,
+          "position": 2,
+          "player_id": "2y8m4zhgy99lql0",
+          "player_name": "Artem malysh"
+        },
+        {
+          "time": 88,
+          "type": 3,
+          "position": 1,
+          "player_id": "pxwrxlhj0o23ryk",
+          "player_name": "Oto kristers august"
+        },
+        {
+          "time": 92,
+          "type": 3,
+          "position": 1,
+          "player_id": "dj2ryohjx9gjq1z",
+          "player_name": "Krišs Andersons"
+        },
+        {
+          "time": 95,
+          "type": 3,
+          "position": 2,
+          "player_id": "1l4rjnhxd012m7v",
+          "player_name": "rudolfs melkis"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "k82rekhw4786rep": {
+      "id": "k82rekhw4786rep",
+      "home_team_id": "4wyrn4hezy2q86p",
+      "away_team_id": "dj2ryohkp8jq1zp",
+      "start_timestamp": 1732100400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 3
+        },
+        "home_score": {
+          "corners": 12,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "3glrw7h75v71qdy",
+      "incidents": [
+        {
+          "time": 15,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7h0zp9qdyj",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Zakaria Sdaigui"
+        },
+        {
+          "time": 16,
+          "type": 1,
+          "position": 2,
+          "player_id": "8yomo4h2k3zq0j6",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Davis Indrans"
+        },
+        {
+          "time": 20,
+          "type": 1,
+          "position": 1,
+          "player_id": "8yomo4h09d2wq0j",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "denys halata"
+        },
+        {
+          "time": 22,
+          "type": 3,
+          "position": 1,
+          "player_id": "965mkyh39dv9r1g",
+          "player_name": "Janis krautmanis"
+        },
+        {
+          "time": 23,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 23,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 29,
+          "type": 3,
+          "position": 2,
+          "player_id": "n54qllhxw4dpqvy",
+          "player_name": "Matiss zegele"
+        },
+        {
+          "time": 40,
+          "type": 1,
+          "position": 2,
+          "player_id": "n54qllhxw4dpqvy",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Matiss zegele"
+        },
+        {
+          "time": 43,
+          "type": 1,
+          "position": 2,
+          "player_id": "dj2ryohjx9gjq1z",
+          "away_score": 3,
+          "home_score": 2,
+          "player_name": "Krišs Andersons"
+        },
+        {
+          "time": 48,
+          "type": 3,
+          "position": 2,
+          "player_id": "8yomo4h2k3zq0j6",
+          "player_name": "Davis Indrans"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnhxd012m7v",
+          "out_player_id": "965mkyh39dv9r1g",
+          "in_player_name": "rudolfs melkis",
+          "out_player_name": "Janis krautmanis"
+        },
+        {
+          "time": 60,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y39mp1h5xp3mojx",
+          "out_player_id": "3glrw7h0zp9qdyj",
+          "in_player_name": "Emils Knapsis",
+          "out_player_name": "Zakaria Sdaigui"
+        },
+        {
+          "time": 60,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "n54qllhx6do4qvy",
+          "out_player_id": "zp5rzghpd972q82",
+          "in_player_name": "Markuss Kruglaužs",
+          "out_player_name": "rodrigo gaucis"
+        },
+        {
+          "time": 61,
+          "type": 3,
+          "position": 1,
+          "player_id": "6ypq3nhwo1d3md7",
+          "player_name": "Devids dobrecovs"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7phw2ewnm2w",
+          "out_player_id": "4wyrn4h4y87pq86",
+          "in_player_name": "Karlis pirktins",
+          "out_player_name": "Renards krisjanis"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "ednm9whvp490ryo",
+          "out_player_id": "6ypq3nhwo1d3md7",
+          "in_player_name": "Samietis raimonds",
+          "out_player_name": "Devids dobrecovs"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l7oqdeh0gn8jr51",
+          "out_player_id": "6ypq3nhz3jgemd7",
+          "in_player_name": "Dairon mosquera",
+          "out_player_name": "Maksims Fjodorovs"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "ednm9whg0jlvryo",
+          "out_player_id": "x7lm7ph9o233m2w",
+          "in_player_name": "sebastians fabio rosa",
+          "out_player_name": "Kristians prieditis"
+        },
+        {
+          "time": 89,
+          "type": 3,
+          "position": 1,
+          "player_id": "8yomo4hvozjgq0j",
+          "player_name": "davids druzinins"
+        },
+        {
+          "time": 92,
+          "type": 3,
+          "position": 1,
+          "player_id": "y39mp1h5xp3mojx",
+          "player_name": "Emils Knapsis"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

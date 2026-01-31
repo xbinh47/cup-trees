@@ -1,0 +1,86 @@
+{
+  "season_id": "gpxwrxlhoo2ryk0",
+  "brackets": [
+    {
+      "id": "pxwrxlh17ekryk0",
+      "competition_id": "yl5ergphz6r8k0o",
+      "season_id": "gpxwrxlhoo2ryk0",
+      "name": "Relegation Playoffs",
+      "abbr": "Relegation Playoffs",
+      "start_time": 1669046400,
+      "end_time": 1669305540,
+      "rounds": [
+        {
+          "id": "4wyrn4h72pjq86p",
+          "bracket_id": "pxwrxlh17ekryk0",
+          "name": "Placement Qualification Match",
+          "abbr": "QPM",
+          "start_time": 1669186800,
+          "end_time": 1669186800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dj2ryohk9g3zq1z",
+              "round_id": "4wyrn4h72pjq86p",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "v2y8m4zhyopql07",
+              "away_team_id": "n54qllh89vgqvy9",
+              "winner_team_id": "v2y8m4zhyopql07",
+              "home_score": 3,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "4wyrn4hoyvylq86"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "v2y8m4zhyopql07": {
+      "id": "v2y8m4zhyopql07",
+      "name": "Henan Women"
+    },
+    "n54qllh89vgqvy9": {
+      "id": "n54qllh89vgqvy9",
+      "name": "Dalian Professional Women"
+    }
+  },
+  "sport_events": {
+    "4wyrn4hoyvylq86": {
+      "id": "4wyrn4hoyvylq86",
+      "home_team_id": "v2y8m4zhyopql07",
+      "away_team_id": "n54qllh89vgqvy9",
+      "start_timestamp": 1669186800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

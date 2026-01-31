@@ -1,0 +1,117 @@
+{
+  "season_id": "p4jwq2ghy28m0ve",
+  "brackets": [
+    {
+      "id": "dn1m1gheye8moep",
+      "competition_id": "gx7lm7phzjm2wdk",
+      "season_id": "p4jwq2ghy28m0ve",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1699977600,
+      "end_time": 1700582340,
+      "rounds": [
+        {
+          "id": "6ypq3nhewp0md7o",
+          "bracket_id": "dn1m1gheye8moep",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1700067600,
+          "end_time": 1700586000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "318q66h0zlwoqo9",
+              "round_id": "6ypq3nhewp0md7o",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "3glrw7hy63oqdyj",
+              "away_team_id": "vjxm8gh8gk8r6od",
+              "winner_team_id": "vjxm8gh8gk8r6od",
+              "home_score": 3,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "zp5rzgh5pp49q82",
+                "x7lm7phzw5djm2w"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "vjxm8gh8gk8r6od": {
+      "id": "vjxm8gh8gk8r6od",
+      "name": "FK Panevezys B"
+    },
+    "3glrw7hy63oqdyj": {
+      "id": "3glrw7hy63oqdyj",
+      "name": "Hegelmann Litauen II"
+    }
+  },
+  "sport_events": {
+    "x7lm7phzw5djm2w": {
+      "id": "x7lm7phzw5djm2w",
+      "home_team_id": "vjxm8gh8gk8r6od",
+      "away_team_id": "3glrw7hy63oqdyj",
+      "start_timestamp": 1700586000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 1,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 2,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "zp5rzgh5pp49q82": {
+      "id": "zp5rzgh5pp49q82",
+      "home_team_id": "3glrw7hy63oqdyj",
+      "away_team_id": "vjxm8gh8gk8r6od",
+      "start_timestamp": 1700067600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

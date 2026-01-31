@@ -1,0 +1,268 @@
+{
+  "season_id": "p3glrw7hgvqdyjv",
+  "brackets": [
+    {
+      "id": "zp5rzghj9nzq82w",
+      "competition_id": "8y39mp1hjzmojxg",
+      "season_id": "p3glrw7hgvqdyjv",
+      "name": "Knockout stage",
+      "abbr": "League One 08",
+      "start_time": 1241712000,
+      "end_time": 1243353540,
+      "rounds": [
+        {
+          "id": "n54qllhj8dyqvy9",
+          "bracket_id": "zp5rzghj9nzq82w",
+          "name": "Semifinals",
+          "abbr": "SF",
+          "start_time": 1241808300,
+          "end_time": 1242413100,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "318q66hovpe5qo9",
+              "round_id": "n54qllhj8dyqvy9",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "gx7lm7phdv4m2wd",
+              "away_team_id": "gy0or5jhk8lqwzv",
+              "winner_team_id": "gy0or5jhk8lqwzv",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [
+                "4wyrn4h8dn3gq86"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "6ypq3nh5p3yxmd7",
+                "pxwrxlh1054pryk"
+              ]
+            },
+            {
+              "id": "dn1m1gh4nzj5moe",
+              "round_id": "n54qllhj8dyqvy9",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "kdj2ryoh0ndq1zp",
+              "away_team_id": "yl5ergphxgpr8k0",
+              "winner_team_id": "yl5ergphxgpr8k0",
+              "home_score": 7,
+              "away_score": 8,
+              "parent_ids": [
+                "4wyrn4h8dn3gq86"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "2y8m4zhje6ykql0",
+                "8yomo4hk63lwq0j"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "23xmvkh4kxjqg8n",
+          "bracket_id": "zp5rzghj9nzq82w",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1243166400,
+          "end_time": 1243166400,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "4wyrn4h8dn3gq86",
+              "round_id": "23xmvkh4kxjqg8n",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "gy0or5jhk8lqwzv",
+              "away_team_id": "yl5ergphxgpr8k0",
+              "winner_team_id": "yl5ergphxgpr8k0",
+              "home_score": 2,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [
+                "318q66hovpe5qo9",
+                "dn1m1gh4nzj5moe"
+              ],
+              "event_ids": [
+                "4jwq2gh0824m0ve"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "kdj2ryoh0ndq1zp": {
+      "id": "kdj2ryoh0ndq1zp",
+      "name": "Milton Keynes Dons"
+    },
+    "gx7lm7phdv4m2wd": {
+      "id": "gx7lm7phdv4m2wd",
+      "name": "Leeds United"
+    },
+    "yl5ergphxgpr8k0": {
+      "id": "yl5ergphxgpr8k0",
+      "name": "Scunthorpe United"
+    },
+    "gy0or5jhk8lqwzv": {
+      "id": "gy0or5jhk8lqwzv",
+      "name": "Millwall"
+    }
+  },
+  "sport_events": {
+    "2y8m4zhje6ykql0": {
+      "id": "2y8m4zhje6ykql0",
+      "home_team_id": "yl5ergphxgpr8k0",
+      "away_team_id": "kdj2ryoh0ndq1zp",
+      "start_timestamp": 1241808300,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "4jwq2gh0824m0ve": {
+      "id": "4jwq2gh0824m0ve",
+      "home_team_id": "gy0or5jhk8lqwzv",
+      "away_team_id": "yl5ergphxgpr8k0",
+      "start_timestamp": 1243166400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "6ypq3nh5p3yxmd7": {
+      "id": "6ypq3nh5p3yxmd7",
+      "home_team_id": "gy0or5jhk8lqwzv",
+      "away_team_id": "gx7lm7phdv4m2wd",
+      "start_timestamp": 1241869500,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "8yomo4hk63lwq0j": {
+      "id": "8yomo4hk63lwq0j",
+      "home_team_id": "kdj2ryoh0ndq1zp",
+      "away_team_id": "yl5ergphxgpr8k0",
+      "start_timestamp": 1242413100,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 7,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 6,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "pxwrxlh1054pryk": {
+      "id": "pxwrxlh1054pryk",
+      "home_team_id": "gx7lm7phdv4m2wd",
+      "away_team_id": "gy0or5jhk8lqwzv",
+      "start_timestamp": 1242326700,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

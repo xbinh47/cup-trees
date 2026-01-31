@@ -1,0 +1,972 @@
+{
+  "season_id": "p4jwq2ghl45m0ve",
+  "brackets": [
+    {
+      "id": "dj2ryohj5peq1zp",
+      "competition_id": "j1l4rjnh10jm7vx",
+      "season_id": "p4jwq2ghl45m0ve",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1750867200,
+      "end_time": 1751471940,
+      "rounds": [
+        {
+          "id": "y0or5jhznwdqwzv",
+          "bracket_id": "dj2ryohj5peq1zp",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1750953600,
+          "end_time": 1751040000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "ednm9wh9wgj3ryo",
+              "round_id": "y0or5jhznwdqwzv",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "4wyrn4he915q86p",
+              "away_team_id": "kn54qllhgynqvy9",
+              "winner_team_id": "kn54qllhgynqvy9",
+              "home_score": 1,
+              "away_score": 3,
+              "parent_ids": [
+                "965mkyh4knjjr1g",
+                "x7lm7phoj5v3m2w"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "6ypq3nhv5e0gmd7"
+              ]
+            },
+            {
+              "id": "4jwq2ghkn782m0v",
+              "round_id": "y0or5jhznwdqwzv",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "l5ergphvkl8r8k0",
+              "away_team_id": "4wyrn4h8825q86p",
+              "winner_team_id": "l5ergphvkl8r8k0",
+              "home_score": 4,
+              "away_score": 3,
+              "parent_ids": [
+                "965mkyh4knjjr1g",
+                "x7lm7phoj5v3m2w"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "vjxm8gheg3g5r6o"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3glrw7h37g2qdyj",
+          "bracket_id": "dj2ryohj5peq1zp",
+          "name": "Placement match for 3rd",
+          "abbr": "3rd",
+          "start_time": 1751385600,
+          "end_time": 1751385600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "965mkyh4knjjr1g",
+              "round_id": "3glrw7h37g2qdyj",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "4wyrn4he915q86p",
+              "away_team_id": "4wyrn4h8825q86p",
+              "winner_team_id": "4wyrn4h8825q86p",
+              "home_score": 2,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [
+                "4jwq2ghkn782m0v",
+                "ednm9wh9wgj3ryo"
+              ],
+              "event_ids": [
+                "6ypq3nhv53odmd7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pxwrxlhx50oryk0",
+          "bracket_id": "dj2ryohj5peq1zp",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1751472000,
+          "end_time": 1751472000,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "x7lm7phoj5v3m2w",
+              "round_id": "pxwrxlhx50oryk0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "kn54qllhgynqvy9",
+              "away_team_id": "l5ergphvkl8r8k0",
+              "winner_team_id": "kn54qllhgynqvy9",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "4jwq2ghkn782m0v",
+                "ednm9wh9wgj3ryo"
+              ],
+              "event_ids": [
+                "pxwrxlhy15ooryk"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "kn54qllhgynqvy9": {
+      "id": "kn54qllhgynqvy9",
+      "name": "Dila Gori"
+    },
+    "4wyrn4he915q86p": {
+      "id": "4wyrn4he915q86p",
+      "name": "FC Iberia 1999 Tbilisi"
+    },
+    "4wyrn4h8825q86p": {
+      "id": "4wyrn4h8825q86p",
+      "name": "Torpedo Kutaisi"
+    },
+    "l5ergphvkl8r8k0": {
+      "id": "l5ergphvkl8r8k0",
+      "name": "Spaeri FC"
+    }
+  },
+  "sport_events": {
+    "6ypq3nhv53odmd7": {
+      "id": "6ypq3nhv53odmd7",
+      "home_team_id": "4wyrn4he915q86p",
+      "away_team_id": "4wyrn4h8825q86p",
+      "start_timestamp": 1751385600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 3,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 2,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 8,
+          "type": 3,
+          "position": 1,
+          "player_id": "3glrw7hjn3wxqdy",
+          "player_name": "Gizo Mamageishvili"
+        },
+        {
+          "time": 13,
+          "type": 3,
+          "position": 1,
+          "player_id": "318q66h4zn37qo9",
+          "player_name": "Derek Agyakwa"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "23xmvkhkvvv6qg8",
+          "out_player_id": "dj2ryohjwky1q1z",
+          "in_player_name": "Armel Zohouri",
+          "out_player_name": "I. Gelashvili"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y39mp1hjoz8pmoj",
+          "out_player_id": "8yomo4h249n6q0j",
+          "in_player_name": "Tornike Akhvlediani",
+          "out_player_name": "Luka Silagadze"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l7oqdehey73r510",
+          "out_player_id": "6ypq3nhz753vmd7",
+          "in_player_name": "Giorgi Kokhreidze",
+          "out_player_name": "Warley Leandro da Silva"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "6ypq3nh0o2ymd7o",
+          "out_player_id": "318q66h4687qo9j",
+          "in_player_name": "Irakli Sikharulidze",
+          "out_player_name": "Anes Rušević"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4jwq2gh70z4jm0v",
+          "out_player_id": "dj2ryohjnzxzq1z",
+          "in_player_name": "dadian nikoloz",
+          "out_player_name": "Dhoraso·Klas"
+        },
+        {
+          "time": 70,
+          "type": 3,
+          "position": 1,
+          "player_id": "965mkyhe2n1xr1g",
+          "player_name": "Giorgi tabatadze"
+        },
+        {
+          "time": 70,
+          "type": 3,
+          "position": 2,
+          "player_id": "y0or5jhe6782qwz",
+          "player_name": "Irakli Bidzinashvili"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "n54qllh88xz3qvy",
+          "out_player_id": "y0or5jhe6782qwz",
+          "in_player_name": "paata ghudushauri",
+          "out_player_name": "Irakli Bidzinashvili"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dn1m1gh3lzo0moe",
+          "out_player_id": "n54qllh8n3dpqvy",
+          "in_player_name": "Amiran Dzagania",
+          "out_player_name": "Nika Khorkheli"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "zp5rzghxolzlq82",
+          "out_player_id": "vjxm8gh85p93r6o",
+          "in_player_name": "kisley zita",
+          "out_player_name": "Aleko basiladze"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 1,
+          "player_id": "3glrw7hjn3wxqdy",
+          "player_name": "Gizo Mamageishvili"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 2,
+          "player_id": "k82rekhozdnrepz",
+          "player_name": "Felipe Pires"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 1,
+          "player_id": "6ypq3nh0o2ymd7o",
+          "player_name": "Irakli Sikharulidze"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "4jwq2ghvp9w5m0v",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Vladimer Mamuchashvili"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "6ypq3nhz0ko2md7",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Giorgi Jgerenaia"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "n54qllh88xz3qvy",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "paata ghudushauri"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 1,
+          "player_id": "965mkyhe2n1xr1g",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Giorgi tabatadze"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 2,
+          "player_id": "l7oqdehey73r510",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Giorgi Kokhreidze"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "4jwq2gh70z4jm0v",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "dadian nikoloz"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "23xmvkhd0kgyqg8",
+          "away_score": 3,
+          "home_score": 2,
+          "player_name": "Tsotne Nadaraia"
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    },
+    "6ypq3nhv5e0gmd7": {
+      "id": "6ypq3nhv5e0gmd7",
+      "home_team_id": "4wyrn4he915q86p",
+      "away_team_id": "kn54qllhgynqvy9",
+      "start_timestamp": 1750953600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 10,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 1,
+          "type": 3,
+          "position": 1,
+          "player_id": "6ypq3nhz0ko2md7",
+          "player_name": "Giorgi Jgerenaia"
+        },
+        {
+          "time": 19,
+          "type": 1,
+          "position": 1,
+          "player_id": "pxwrxlh9xd6pryk",
+          "assist1_id": "jw2r09hj803rz84",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Iuri Tabatadze",
+          "assist1_name": "Guram Goshteliani"
+        },
+        {
+          "time": 21,
+          "type": 1,
+          "position": 2,
+          "player_id": "318q66h45yd4qo9",
+          "assist1_id": "n54qllhxz0ylqvy",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Deo Bassinga",
+          "assist1_name": "Aboubacar Konte"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "3glrw7hjn3wxqdy",
+          "out_player_id": "jw2r09hj803rz84",
+          "in_player_name": "Gizo Mamageishvili",
+          "out_player_name": "Guram Goshteliani"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "n54qllh8n3dpqvy",
+          "out_player_id": "y39mp1hjoz8pmoj",
+          "in_player_name": "Nika Khorkheli",
+          "out_player_name": "Tornike Akhvlediani"
+        },
+        {
+          "time": 56,
+          "type": 3,
+          "position": 1,
+          "player_id": "pxwrxlh9xd6pryk",
+          "player_name": "Iuri Tabatadze"
+        },
+        {
+          "time": 56,
+          "type": 3,
+          "position": 2,
+          "player_id": "2y8m4zh3pwdql07",
+          "player_name": "Pedro Mendes"
+        },
+        {
+          "time": 62,
+          "type": 8,
+          "position": 2,
+          "player_id": "965mkyh14x9r1ge",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Aleksandre Andronikashvili"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dj2ryohjnzxzq1z",
+          "out_player_id": "4jwq2gh70z4jm0v",
+          "in_player_name": "Dhoraso·Klas",
+          "out_player_name": "dadian nikoloz"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "318q66h4687qo9j",
+          "out_player_id": "6ypq3nh0o2ymd7o",
+          "in_player_name": "Anes Rušević",
+          "out_player_name": "Irakli Sikharulidze"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dn1m1gh3lzo0moe",
+          "out_player_id": "965mkyhe2n1xr1g",
+          "in_player_name": "Amiran Dzagania",
+          "out_player_name": "Giorgi tabatadze"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "2y8m4zhz7kwkql0",
+          "out_player_id": "2y8m4zhg4lgkql0",
+          "in_player_name": "emmanuel boansi",
+          "out_player_name": "Shota Shekiladze"
+        },
+        {
+          "time": 79,
+          "type": 1,
+          "position": 2,
+          "player_id": "dn1m1gh3go15moe",
+          "assist1_id": "2y8m4zhz7kwkql0",
+          "away_score": 3,
+          "home_score": 1,
+          "player_name": "Otar Parulava",
+          "assist1_name": "emmanuel boansi"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "vjxm8ghpx09jr6o",
+          "out_player_id": "dn1m1gh3go15moe",
+          "in_player_name": "marc jean tiboue",
+          "out_player_name": "Otar Parulava"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dj2ryohgw8llq1z",
+          "out_player_id": "318q66h45yd4qo9",
+          "in_player_name": "Arouna ouattara",
+          "out_player_name": "Deo Bassinga"
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7ph955ejm2w",
+          "out_player_id": "dn1m1ghn0y52moe",
+          "in_player_name": "lekso otinashvili",
+          "out_player_name": "Ibrahima Drame"
+        },
+        {
+          "time": 96,
+          "type": 3,
+          "add_time": 6,
+          "position": 2,
+          "player_id": "dj2ryohgw8llq1z",
+          "player_name": "Arouna ouattara"
+        },
+        {
+          "time": 98,
+          "type": 3,
+          "add_time": 8,
+          "position": 2,
+          "player_id": "n54qllhxz0ylqvy",
+          "player_name": "Aboubacar Konte"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "pxwrxlhy15ooryk": {
+      "id": "pxwrxlhy15ooryk",
+      "home_team_id": "kn54qllhgynqvy9",
+      "away_team_id": "l5ergphvkl8r8k0",
+      "start_timestamp": 1751472000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "318q66h4xdxxqo9",
+          "out_player_id": "dj2ryohgljxq1zp",
+          "in_player_name": "Temuri tsalughelashvili",
+          "out_player_name": "Papuna Poniava"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "23xmvkhdzv99qg8",
+          "out_player_id": "318q66h45yd4qo9",
+          "in_player_name": "irakli bugridze",
+          "out_player_name": "Deo Bassinga"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dj2ryohnpzeoq1z",
+          "out_player_id": "dn1m1ghn0y52moe",
+          "in_player_name": "cyril edudzi",
+          "out_player_name": "Ibrahima Drame"
+        },
+        {
+          "time": 81,
+          "type": 3,
+          "position": 2,
+          "player_id": "x7lm7phwxn5xm2w",
+          "player_name": "saba maisuradze"
+        },
+        {
+          "time": 86,
+          "type": 1,
+          "position": 1,
+          "player_id": "vjxm8ghp0yzdr6o",
+          "assist1_id": "2y8m4zhg4lgkql0",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "araujo joao",
+          "assist1_name": "Shota Shekiladze"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "965mkyh35o0xr1g",
+          "out_player_id": "2y8m4zhg4lgkql0",
+          "in_player_name": "Grigol Chabradze",
+          "out_player_name": "Shota Shekiladze"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l7oqdeh4kyx5r51",
+          "out_player_id": "2y8m4zh8v3o7ql0",
+          "in_player_name": "Zurab Golubiani",
+          "out_player_name": "levan barabadze"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "2y8m4zh8w4djql0",
+          "out_player_id": "x7lm7phwxn5xm2w",
+          "in_player_name": "giorgi tsetskhladze",
+          "out_player_name": "saba maisuradze"
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8ghpx09jr6o",
+          "out_player_id": "dn1m1gh3go15moe",
+          "in_player_name": "marc jean tiboue",
+          "out_player_name": "Otar Parulava"
+        },
+        {
+          "time": 92,
+          "type": 1,
+          "add_time": 2,
+          "position": 1,
+          "player_id": "965mkyh35o0xr1g",
+          "assist1_id": "dj2ryohnpzeoq1z",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Grigol Chabradze",
+          "assist1_name": "cyril edudzi"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "vjxm8gheg3g5r6o": {
+      "id": "vjxm8gheg3g5r6o",
+      "home_team_id": "l5ergphvkl8r8k0",
+      "away_team_id": "4wyrn4h8825q86p",
+      "start_timestamp": 1751040000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 1,
+          "yellow_card": 3,
+          "penalty_score": 3,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 4,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 14,
+          "type": 3,
+          "position": 2,
+          "player_id": "4wyrn4h4xy1nq86",
+          "player_name": "Eric Lima·Pimentel"
+        },
+        {
+          "time": 30,
+          "type": 3,
+          "position": 2,
+          "player_id": "23xmvkhd0kgyqg8",
+          "player_name": "Tsotne Nadaraia"
+        },
+        {
+          "time": 32,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7phwxn5xm2w",
+          "player_name": "saba maisuradze"
+        },
+        {
+          "time": 42,
+          "type": 15,
+          "position": 2,
+          "player_id": "4wyrn4h4xy1nq86",
+          "player_name": "Eric Lima·Pimentel"
+        },
+        {
+          "time": 44,
+          "type": 16,
+          "position": 1,
+          "player_id": "x7lm7phwlyypm2w",
+          "player_name": "Saba gegiadze"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dn1m1ghoj77moep",
+          "out_player_id": "zp5rzghxolzlq82",
+          "in_player_name": "Matej Simic",
+          "out_player_name": "kisley zita"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "4jwq2ghvp9w5m0v",
+          "out_player_id": "l7oqdehey73r510",
+          "in_player_name": "Vladimer Mamuchashvili",
+          "out_player_name": "Giorgi Kokhreidze"
+        },
+        {
+          "time": 46,
+          "type": 3,
+          "position": 1,
+          "player_id": "y39mp1h11d8ymoj",
+          "player_name": "Giorgi Bunturi"
+        },
+        {
+          "time": 60,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7phwlyypm2w",
+          "player_name": "Saba gegiadze"
+        },
+        {
+          "time": 65,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "6ypq3nhz753vmd7",
+          "out_player_id": "l5ergphe2zoyr8k",
+          "in_player_name": "Warley Leandro da Silva",
+          "out_player_name": "mohamed cherif"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l7oqdeh4kyx5r51",
+          "out_player_id": "dj2ryohgljxq1zp",
+          "in_player_name": "Zurab Golubiani",
+          "out_player_name": "Papuna Poniava"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "318q66h4xdxxqo9",
+          "out_player_id": "318q66h4e1w1qo9",
+          "in_player_name": "Temuri tsalughelashvili",
+          "out_player_name": "Giga tsurtsumia"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y39mp1h16p81moj",
+          "out_player_id": "vjxm8gh85p93r6o",
+          "in_player_name": "luka kuprava",
+          "out_player_name": "Aleko basiladze"
+        },
+        {
+          "time": 85,
+          "type": 3,
+          "position": 1,
+          "player_id": "318q66h4xdxxqo9",
+          "player_name": "Temuri tsalughelashvili"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "2y8m4zh8w4djql0",
+          "out_player_id": "x7lm7phwxn5xm2w",
+          "in_player_name": "giorgi tsetskhladze",
+          "out_player_name": "saba maisuradze"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "y0or5jh38dnvqwz",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "giga samcharadze"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "k82rekhozdnrepz",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Felipe Pires"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "2y8m4zh8w4djql0",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "giorgi tsetskhladze"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 2,
+          "player_id": "l5ergphvp30er8k",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Mateo Itrak"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 1,
+          "player_id": "y39mp1h11d8ymoj",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Giorgi Bunturi"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "6ypq3nhz753vmd7",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Warley Leandro da Silva"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "n54qllhj42kyqvy",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "d giorgi tsetskhladze"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "4jwq2ghvp9w5m0v",
+          "away_score": 3,
+          "home_score": 3,
+          "player_name": "Vladimer Mamuchashvili"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "x7lm7phwlyypm2w",
+          "away_score": 3,
+          "home_score": 4,
+          "player_name": "Saba gegiadze"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 2,
+          "player_id": "318q66h0z5wqo9j",
+          "away_score": 3,
+          "home_score": 4,
+          "player_name": "Solomon Kvirkvelia"
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

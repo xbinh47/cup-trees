@@ -1,0 +1,86 @@
+{
+  "season_id": "gy0or5jhp0eqwzv",
+  "brackets": [
+    {
+      "id": "4jwq2ghknydm0ve",
+      "competition_id": "kjw2r09h0jrz84o",
+      "season_id": "gy0or5jhp0eqwzv",
+      "name": "Super Cup 2023",
+      "abbr": "Super Cup 202",
+      "start_time": 1689350400,
+      "end_time": 1689523140,
+      "rounds": [
+        {
+          "id": "k82rekhnny1repz",
+          "bracket_id": "4jwq2ghknydm0ve",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1689429600,
+          "end_time": 1689429600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "pxwrxlhg4dk6ryk",
+              "round_id": "k82rekhnny1repz",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "j1l4rjnhpnxm7vx",
+              "away_team_id": "l965mkyhx21r1ge",
+              "winner_team_id": "j1l4rjnhpnxm7vx",
+              "home_score": 5,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "6ypq3nh72ok1md7"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "j1l4rjnhpnxm7vx": {
+      "id": "j1l4rjnhpnxm7vx",
+      "name": "Zenit St. Petersburg"
+    },
+    "l965mkyhx21r1ge": {
+      "id": "l965mkyhx21r1ge",
+      "name": "CSKA Moscow"
+    }
+  },
+  "sport_events": {
+    "6ypq3nh72ok1md7": {
+      "id": "6ypq3nh72ok1md7",
+      "home_team_id": "j1l4rjnhpnxm7vx",
+      "away_team_id": "l965mkyhx21r1ge",
+      "start_timestamp": 1689429600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 4,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 5,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

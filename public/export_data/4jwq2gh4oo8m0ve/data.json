@@ -1,0 +1,330 @@
+{
+  "season_id": "4jwq2gh4oo8m0ve",
+  "brackets": [
+    {
+      "id": "x7lm7ph03v5m2wd",
+      "competition_id": "p3glrw7hooqdyjv",
+      "season_id": "4jwq2gh4oo8m0ve",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1767888000,
+      "end_time": 1767974400,
+      "rounds": [
+        {
+          "id": "pxwrxlh5pk9ryk0",
+          "bracket_id": "x7lm7ph03v5m2wd",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1767895200,
+          "end_time": 1767895200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "2y8m4zhjezpgql0",
+              "round_id": "pxwrxlh5pk9ryk0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "kjw2r09hv44rz84",
+              "away_team_id": "kjw2r09hyl1rz84",
+              "winner_team_id": "kjw2r09hv44rz84",
+              "home_score": 6,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "2y8m4zh5wj9pql0"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "kjw2r09hyl1rz84": {
+      "id": "kjw2r09hyl1rz84",
+      "name": "Marseille"
+    },
+    "kjw2r09hv44rz84": {
+      "id": "kjw2r09hv44rz84",
+      "name": "Paris Saint Germain"
+    }
+  },
+  "sport_events": {
+    "2y8m4zh5wj9pql0": {
+      "id": "2y8m4zh5wj9pql0",
+      "home_team_id": "kjw2r09hv44rz84",
+      "away_team_id": "kjw2r09hyl1rz84",
+      "start_timestamp": 1767895200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 12,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 1,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 4,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 13,
+          "type": 1,
+          "position": 1,
+          "player_id": "318q66hjv6kqo9j",
+          "assist1_id": "l5ergphv839er8k",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Ousmane Dembélé",
+          "assist1_name": "Vitor Machado Ferreira"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 1,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 3,
+          "position": 2,
+          "player_id": "318q66h7k57qo9j",
+          "player_name": "Timothy Weah",
+          "reason_type": 1
+        },
+        {
+          "time": 53,
+          "type": 3,
+          "position": 2,
+          "player_id": "x7lm7phovw0m2wd",
+          "player_name": "Pierre-Emile Højbjerg",
+          "reason_type": 1
+        },
+        {
+          "time": 63,
+          "type": 3,
+          "position": 1,
+          "player_id": "dn1m1gh30vw3moe",
+          "player_name": "Warren Zaire Emery",
+          "reason_type": 15
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "k82rekhvg7grepz",
+          "out_player_id": "3glrw7holkpqdyj",
+          "in_player_name": "Pierre-Emerick Aubameyang",
+          "out_player_name": "Amine Gouiri"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zh4d0eql07",
+          "out_player_id": "y39mp1hj22x4moj",
+          "in_player_name": "Hamed Junior Traorè",
+          "out_player_name": "Igor Paixão"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhg6dygql0",
+          "out_player_id": "l7oqdehe9j7r510",
+          "in_player_name": "Bradley Barcola",
+          "out_player_name": "Khvicha Kvaratskhelia"
+        },
+        {
+          "time": 76,
+          "type": 8,
+          "position": 2,
+          "player_id": "l5ergphvyyovr8k",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Mason Greenwood"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whgl54ryox",
+          "out_player_id": "318q66h7k57qo9j",
+          "in_player_name": "Michael Murillo",
+          "out_player_name": "Timothy Weah"
+        },
+        {
+          "time": 86,
+          "type": 3,
+          "position": 2,
+          "player_id": "x7lm7phpnwem2wd",
+          "player_name": "Facundo Medina",
+          "reason_type": 1
+        },
+        {
+          "time": 87,
+          "type": 17,
+          "position": 2,
+          "player_id": "pxwrxlh9zk74ryk",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "William Pacho"
+        },
+        {
+          "time": 89,
+          "type": 3,
+          "position": 2,
+          "player_id": "k82rekhvg7grepz",
+          "player_name": "Pierre-Emerick Aubameyang",
+          "reason_type": 15
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y39mp1hj09e5moj",
+          "out_player_id": "318q66h4jjyqo9j",
+          "in_player_name": "Gonçalo Ramos",
+          "out_player_name": "Fabián Ruiz"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "23xmvkhkewo2qg8",
+          "out_player_id": "dn1m1gh30vw3moe",
+          "in_player_name": "Senny Mayulu",
+          "out_player_name": "Warren Zaire Emery"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 6,
+          "position": 0
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "add_time": 2,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "3glrw7h1evy4qdy",
+          "out_player_id": "l5ergphvyyovr8k",
+          "in_player_name": "Matt O'Riley",
+          "out_player_name": "Mason Greenwood"
+        },
+        {
+          "time": 95,
+          "type": 1,
+          "add_time": 5,
+          "position": 1,
+          "player_id": "y39mp1hj09e5moj",
+          "assist1_id": "2y8m4zhg6dygql0",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Gonçalo Ramos",
+          "assist1_name": "Bradley Barcola"
+        },
+        {
+          "time": 97,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 29,
+          "position": 1,
+          "player_id": "y39mp1hj09e5moj",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Gonçalo Ramos"
+        },
+        {
+          "time": 92,
+          "type": 30,
+          "position": 2,
+          "player_id": "3glrw7h1evy4qdy",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Matt O'Riley"
+        },
+        {
+          "time": 92,
+          "type": 29,
+          "position": 1,
+          "player_id": "l5ergphv839er8k",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Vitor Machado Ferreira"
+        },
+        {
+          "time": 93,
+          "type": 30,
+          "position": 2,
+          "player_id": "2y8m4zh4d0eql07",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Hamed Junior Traorè"
+        },
+        {
+          "time": 94,
+          "type": 29,
+          "position": 1,
+          "player_id": "l5ergphvlzwor8k",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Nuno Mendes"
+        },
+        {
+          "time": 95,
+          "type": 29,
+          "position": 2,
+          "player_id": "ednm9whgl54ryox",
+          "away_score": 1,
+          "home_score": 3,
+          "player_name": "Michael Murillo"
+        },
+        {
+          "time": 96,
+          "type": 29,
+          "position": 1,
+          "player_id": "vjxm8gh85pnpr6o",
+          "away_score": 1,
+          "home_score": 4,
+          "player_name": "Désiré Doue"
+        },
+        {
+          "time": 90,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

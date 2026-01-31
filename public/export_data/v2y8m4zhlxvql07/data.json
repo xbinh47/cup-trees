@@ -1,0 +1,312 @@
+{
+  "season_id": "v2y8m4zhlxvql07",
+  "brackets": [
+    {
+      "id": "318q66hv2wkqo9j",
+      "competition_id": "p3glrw7hzwvqdyj",
+      "season_id": "v2y8m4zhlxvql07",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1759334400,
+      "end_time": 1759420740,
+      "rounds": [
+        {
+          "id": "zp5rzgh6d7yq82w",
+          "bracket_id": "318q66hv2wkqo9j",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1759372800,
+          "end_time": 1759372800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "3glrw7h141ogqdy",
+              "round_id": "zp5rzgh6d7yq82w",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "8y39mp1hny7mojx",
+              "away_team_id": "z318q66h9p6qo9j",
+              "winner_team_id": "z318q66h9p6qo9j",
+              "home_score": 2,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "l7oqdehglgdwr51"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "z318q66h9p6qo9j": {
+      "id": "z318q66h9p6qo9j",
+      "name": "Toluca"
+    },
+    "8y39mp1hny7mojx": {
+      "id": "8y39mp1hny7mojx",
+      "name": "Los Angeles Galaxy"
+    }
+  },
+  "sport_events": {
+    "l7oqdehglgdwr51": {
+      "id": "l7oqdehglgdwr51",
+      "home_team_id": "8y39mp1hny7mojx",
+      "away_team_id": "z318q66h9p6qo9j",
+      "start_timestamp": 1759372800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 11,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 33,
+          "type": 3,
+          "position": 2,
+          "player_id": "4jwq2ghv9e43m0v",
+          "player_name": "Federico Pereira",
+          "reason_type": 1
+        },
+        {
+          "time": 34,
+          "type": 3,
+          "position": 2,
+          "player_id": "x7lm7ph088kjm2w",
+          "player_name": "Marcel Ruíz",
+          "reason_type": 19
+        },
+        {
+          "time": 36,
+          "type": 8,
+          "position": 1,
+          "player_id": "1l4rjnh1g1zm7vx",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Diego Fagúndez"
+        },
+        {
+          "time": 38,
+          "type": 3,
+          "position": 1,
+          "player_id": "318q66hvw66nqo9",
+          "player_name": "Gabriel Pec",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 3,
+          "add_time": 2,
+          "position": 1,
+          "player_id": "k82rekhy6x33rep",
+          "player_name": "Edwin Cerrillo",
+          "reason_type": 1
+        },
+        {
+          "time": 49,
+          "type": 3,
+          "add_time": 4,
+          "position": 2,
+          "player_id": "pxwrxlhznz0gryk",
+          "player_name": "Antonio Ricardo Mohamed Matijevich",
+          "reason_type": 19
+        },
+        {
+          "time": 49,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghjejnwr6o",
+          "out_player_id": "4wyrn4hd0vpyq86",
+          "in_player_name": "Santiago Simon",
+          "out_player_name": "Diego Barbosa"
+        },
+        {
+          "time": 53,
+          "type": 1,
+          "position": 2,
+          "player_id": "l5ergphvwj52r8k",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Nicolás Castro"
+        },
+        {
+          "time": 62,
+          "type": 3,
+          "position": 2,
+          "player_id": "dj2ryohggpnq1zp",
+          "player_name": "Jesús Gallardo",
+          "reason_type": 1
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghxld5nm0v",
+          "out_player_id": "y0or5jh118vqwzv",
+          "in_player_name": "Juan Dominguez",
+          "out_player_name": "Jesús Ricardo Angulo"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l5ergphvjgpvr8k",
+          "out_player_id": "3glrw7hzn66qdyj",
+          "in_player_name": "Mauricio Cuevas",
+          "out_player_name": "Miki Yamane"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4hvd60q86p",
+          "out_player_id": "2y8m4zhgdjjjql0",
+          "in_player_name": "John Nelson",
+          "out_player_name": "Bernardi Julian Ezequiel Aude"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlh98z40ryk",
+          "out_player_id": "l5ergphn204vr8k",
+          "in_player_name": "Matheus Nascimento",
+          "out_player_name": "Harbor Miller"
+        },
+        {
+          "time": 78,
+          "type": 3,
+          "position": 1,
+          "player_id": "2y8m4zh8x1klql0",
+          "player_name": "Carlos Emiro Garces Torres",
+          "reason_type": 1
+        },
+        {
+          "time": 80,
+          "type": 3,
+          "position": 1,
+          "player_id": "zp5rzgh29z0q82w",
+          "player_name": "Joseph Paintsil",
+          "reason_type": 19
+        },
+        {
+          "time": 81,
+          "type": 28,
+          "position": 2,
+          "player_id": "vjxm8ghgy5zr6od",
+          "var_reason": 1,
+          "var_result": 2,
+          "player_name": "João Paulo Dias Fernandes"
+        },
+        {
+          "time": 84,
+          "type": 1,
+          "position": 1,
+          "player_id": "318q66hvw66nqo9",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Gabriel Pec"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hl2z0qdyj",
+          "out_player_id": "l5ergphvwj52r8k",
+          "in_player_name": "Hélinho",
+          "out_player_name": "Nicolás Castro"
+        },
+        {
+          "time": 87,
+          "type": 3,
+          "position": 1,
+          "player_id": "pxwrxlh98z40ryk",
+          "player_name": "Matheus Nascimento",
+          "reason_type": 18
+        },
+        {
+          "time": 88,
+          "type": 1,
+          "position": 2,
+          "player_id": "4wyrn4hdg55vq86",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "F. Romero"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "add_time": 1,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h29y0pq0j",
+          "out_player_id": "vjxm8ghgy5zr6od",
+          "in_player_name": "Robert·Morales",
+          "out_player_name": "João Paulo Dias Fernandes"
+        },
+        {
+          "time": 93,
+          "type": 1,
+          "add_time": 3,
+          "position": 2,
+          "player_id": "4jwq2ghv9e43m0v",
+          "assist1_id": "3glrw7hl2z0qdyj",
+          "away_score": 3,
+          "home_score": 2,
+          "player_name": "Federico Pereira",
+          "assist1_name": "Hélinho"
+        },
+        {
+          "time": 95,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "season_id": "v2y8m4zhkjkql07",
+  "brackets": [
+    {
+      "id": "dn1m1ghn3lpmoep",
+      "competition_id": "56ypq3nhgwmd7oj",
+      "season_id": "v2y8m4zhkjkql07",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1726329600,
+      "end_time": 1730390340,
+      "rounds": [
+        {
+          "id": "l5ergph81w3r8k0",
+          "bracket_id": "dn1m1ghn3lpmoep",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1729684800,
+          "end_time": 1729954800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "8yomo4hkx653q0j",
+              "round_id": "l5ergph81w3r8k0",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "ednm9wh9657ryox",
+              "away_team_id": "y0or5jhl936qwzv",
+              "winner_team_id": "y0or5jhl936qwzv",
+              "home_score": 1,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "dj2ryoh10n43q1z",
+                "pxwrxlh5ozekryk"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "ednm9wh9657ryox": {
+      "id": "ednm9wh9657ryox",
+      "name": "KPV"
+    },
+    "y0or5jhl936qwzv": {
+      "id": "y0or5jhl936qwzv",
+      "name": "Käpylän Pallo"
+    }
+  },
+  "sport_events": {
+    "dj2ryoh10n43q1z": {
+      "id": "dj2ryoh10n43q1z",
+      "home_team_id": "ednm9wh9657ryox",
+      "away_team_id": "y0or5jhl936qwzv",
+      "start_timestamp": 1729684800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "pxwrxlh5ozekryk",
+      "incidents": [
+        {
+          "time": 17,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnhzxvlzm7v",
+          "player_name": "Jusa Ihalainen"
+        },
+        {
+          "time": 23,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "3glrw7hype3yqdy",
+          "out_player_id": "x7lm7ph01j07m2w",
+          "in_player_name": "yllson lika",
+          "out_player_name": "miro turunen"
+        },
+        {
+          "time": 26,
+          "type": 3,
+          "position": 2,
+          "player_id": "y0or5jh378kkqwz",
+          "player_name": "Adam jouhi"
+        },
+        {
+          "time": 27,
+          "type": 1,
+          "position": 1,
+          "player_id": "pxwrxlh9o656ryk",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "badreddine bushara"
+        },
+        {
+          "time": 33,
+          "type": 3,
+          "position": 2,
+          "player_id": "8yomo4hvj3d0q0j",
+          "player_name": "aleksi piispa"
+        },
+        {
+          "time": 38,
+          "type": 1,
+          "position": 2,
+          "player_id": "n54qllh81l2qvy9",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Mikko Kuningas"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 58,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "318q66h4xvw5qo9",
+          "out_player_id": "318q66h457ljqo9",
+          "in_player_name": "Ville Valipakka",
+          "out_player_name": "Topias helle"
+        },
+        {
+          "time": 67,
+          "type": 3,
+          "position": 1,
+          "player_id": "dj2ryohgl6pyq1z",
+          "player_name": "Abraham Okyere"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "6ypq3nhw8gnxmd7",
+          "out_player_id": "dj2ryohj9pywq1z",
+          "in_player_name": "Aleksi wahlman",
+          "out_player_name": "samuel tammivuori"
+        },
+        {
+          "time": 69,
+          "type": 3,
+          "position": 2,
+          "player_id": "8yomo4hv61dwq0j",
+          "player_name": "pekka hietalahti"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "6ypq3nhwz351md7",
+          "out_player_id": "vjxm8ghjzdv5r6o",
+          "in_player_name": "wegye wegye",
+          "out_player_name": "torfiq abubakar ali"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "jw2r09hw73l6rz8",
+          "out_player_id": "6ypq3nhww235md7",
+          "in_player_name": "justice adarkwa",
+          "out_player_name": "Eric Oteng"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l5ergphvjl34r8k",
+          "out_player_id": "y0or5jh378kkqwz",
+          "in_player_name": "casper lonnqvist",
+          "out_player_name": "Adam jouhi"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "8yomo4hv523nq0j",
+          "out_player_id": "k82rekhojw5wrep",
+          "in_player_name": "Benjamin heikkinen",
+          "out_player_name": "elias kallio"
+        },
+        {
+          "time": 91,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7phw5ze9m2w",
+          "player_name": "Elias Vesala"
+        },
+        {
+          "time": 92,
+          "type": 4,
+          "position": 1
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "pxwrxlh5ozekryk": {
+      "id": "pxwrxlh5ozekryk",
+      "home_team_id": "y0or5jhl936qwzv",
+      "away_team_id": "ednm9wh9657ryox",
+      "start_timestamp": 1729954800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "dj2ryoh10n43q1z",
+      "incidents": [
+        {
+          "time": 22,
+          "type": 3,
+          "position": 2,
+          "player_id": "4wyrn4hv8w6lq86",
+          "player_name": "Arop ring"
+        },
+        {
+          "time": 22,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jh378kkqwz",
+          "player_name": "Adam jouhi"
+        },
+        {
+          "time": 22,
+          "type": 3,
+          "position": 1,
+          "player_id": "3glrw7hype3yqdy",
+          "player_name": "yllson lika"
+        },
+        {
+          "time": 24,
+          "type": 1,
+          "position": 1,
+          "player_id": "965mkyhewepyr1g",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "mikael pulkkinen"
+        },
+        {
+          "time": 30,
+          "type": 3,
+          "position": 1,
+          "player_id": "k82rekhy5l1repz",
+          "player_name": "Topi Pasi"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdehl3vnvr51",
+          "player_name": "david"
+        },
+        {
+          "time": 58,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlh9o656ryk",
+          "out_player_id": "318q66h4j0wwqo9",
+          "in_player_name": "badreddine bushara",
+          "out_player_name": "Ricardo Cardoso"
+        },
+        {
+          "time": 59,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hype3yqdy",
+          "assist1_id": "dj2ryohj9pywq1z",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "yllson lika",
+          "assist1_name": "samuel tammivuori"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7ph01j07m2w",
+          "out_player_id": "3glrw7hype3yqdy",
+          "in_player_name": "miro turunen",
+          "out_player_name": "yllson lika"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "jw2r09hw73l6rz8",
+          "out_player_id": "4wyrn4hv8w6lq86",
+          "in_player_name": "justice adarkwa",
+          "out_player_name": "Arop ring"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "6ypq3nhwz351md7",
+          "out_player_id": "318q66h4xvw5qo9",
+          "in_player_name": "wegye wegye",
+          "out_player_name": "Ville Valipakka"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "6ypq3nhw8gnxmd7",
+          "out_player_id": "dj2ryohj9pywq1z",
+          "in_player_name": "Aleksi wahlman",
+          "out_player_name": "samuel tammivuori"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "2y8m4zhzxdkwql0",
+          "out_player_id": "1l4rjnhzxvlzm7v",
+          "in_player_name": "onni lansipaa",
+          "out_player_name": "Jusa Ihalainen"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "318q66h457ljqo9",
+          "out_player_id": "4wyrn4hd08v4q86",
+          "in_player_name": "Topias helle",
+          "out_player_name": "Santeri Makinen"
+        },
+        {
+          "time": 87,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7ph01j07m2w",
+          "player_name": "miro turunen"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnhxgxj0m7v",
+          "out_player_id": "k82rekhojw5wrep",
+          "in_player_name": "Joel Huovinen",
+          "out_player_name": "elias kallio"
+        },
+        {
+          "time": 93,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "position": 1,
+          "player_id": "dj2ryohj2v0oq1z",
+          "player_name": "Miika Kauppila"
+        },
+        {
+          "time": 95,
+          "type": 4,
+          "position": 2,
+          "player_id": "pxwrxlh9o656ryk",
+          "player_name": "badreddine bushara"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

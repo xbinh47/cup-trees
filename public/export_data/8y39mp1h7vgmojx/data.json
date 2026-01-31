@@ -1,0 +1,917 @@
+{
+  "season_id": "8y39mp1h7vgmojx",
+  "brackets": [
+    {
+      "id": "n54qllhx9n0qvy9",
+      "competition_id": "l965mkyhex4r1ge",
+      "season_id": "8y39mp1h7vgmojx",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1755532800,
+      "end_time": 1755964800,
+      "rounds": [
+        {
+          "id": "zp5rzgh654oq82w",
+          "bracket_id": "n54qllhx9n0qvy9",
+          "name": "Semifinals",
+          "abbr": "SF",
+          "start_time": 1755604800,
+          "end_time": 1755691200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l5ergph34e4wr8k",
+              "round_id": "zp5rzgh654oq82w",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "9vjxm8ghyv3r6od",
+              "away_team_id": "318q66hoklkqo9j",
+              "winner_team_id": "318q66hoklkqo9j",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [
+                "jw2r09hnkjkkrz8"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "23xmvkh6o4ypqg8"
+              ]
+            },
+            {
+              "id": "4wyrn4he646oq86",
+              "round_id": "zp5rzgh654oq82w",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "yl5ergphgy8r8k0",
+              "away_team_id": "d23xmvkh5p0qg8n",
+              "winner_team_id": "yl5ergphgy8r8k0",
+              "home_score": 5,
+              "away_score": 1,
+              "parent_ids": [
+                "jw2r09hnkjkkrz8"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "n54qllhnej4zqvy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1l4rjnhj45dm7vx",
+          "bracket_id": "n54qllhx9n0qvy9",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1755950400,
+          "end_time": 1755950400,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "jw2r09hnkjkkrz8",
+              "round_id": "1l4rjnhj45dm7vx",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "318q66hoklkqo9j",
+              "away_team_id": "yl5ergphgy8r8k0",
+              "winner_team_id": "yl5ergphgy8r8k0",
+              "home_score": 5,
+              "away_score": 7,
+              "parent_ids": [],
+              "children_ids": [
+                "l5ergph34e4wr8k",
+                "4wyrn4he646oq86"
+              ],
+              "event_ids": [
+                "1l4rjnh9e777m7v"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "9vjxm8ghyv3r6od": {
+      "id": "9vjxm8ghyv3r6od",
+      "name": "Al-Ittihad Club"
+    },
+    "d23xmvkh5p0qg8n": {
+      "id": "d23xmvkh5p0qg8n",
+      "name": "Al Qadsiah"
+    },
+    "yl5ergphgy8r8k0": {
+      "id": "yl5ergphgy8r8k0",
+      "name": "Al-Ahli SFC"
+    },
+    "318q66hoklkqo9j": {
+      "id": "318q66hoklkqo9j",
+      "name": "Al Nassr FC"
+    }
+  },
+  "sport_events": {
+    "1l4rjnh9e777m7v": {
+      "id": "1l4rjnh9e777m7v",
+      "home_team_id": "318q66hoklkqo9j",
+      "away_team_id": "yl5ergphgy8r8k0",
+      "start_timestamp": 1755950400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 5,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 3,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 12,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdeh42z5r510",
+          "player_name": "Ivan Toney",
+          "reason_type": 1
+        },
+        {
+          "time": 30,
+          "type": 3,
+          "position": 1,
+          "player_id": "jw2r09hj33ngrz8",
+          "player_name": "Wesley Gassova Ribeiro Teixeira",
+          "reason_type": 1
+        },
+        {
+          "time": 39,
+          "type": 3,
+          "position": 2,
+          "player_id": "965mkyh3d48r1ge",
+          "player_name": "Franck Kessié",
+          "reason_type": 19
+        },
+        {
+          "time": 41,
+          "type": 8,
+          "position": 1,
+          "player_id": "j1l4rjnhpgxm7vx",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Cristiano Ronaldo"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 7,
+          "position": 0
+        },
+        {
+          "time": 51,
+          "type": 1,
+          "add_time": 6,
+          "position": 2,
+          "player_id": "965mkyh3d48r1ge",
+          "assist1_id": "4jwq2ghvp7ewm0v",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Franck Kessié",
+          "assist1_name": "Enzo Millot"
+        },
+        {
+          "time": 53,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 51,
+          "type": 3,
+          "position": 2,
+          "player_id": "ednm9whvyljryox",
+          "player_name": "Merih Demiral",
+          "reason_type": 1
+        },
+        {
+          "time": 53,
+          "type": 3,
+          "position": 1,
+          "player_id": "vjxm8ghgjejr6od",
+          "player_name": "Marcelo Brozović",
+          "reason_type": 1
+        },
+        {
+          "time": 74,
+          "type": 3,
+          "position": 2,
+          "player_id": "pxwrxlhjxk5xryk",
+          "player_name": "Matteo Dams",
+          "reason_type": 1
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "jw2r09hw21zrz84",
+          "out_player_id": "jw2r09hj33ngrz8",
+          "in_player_name": "Sultan Al-Ghannam",
+          "out_player_name": "Wesley Gassova Ribeiro Teixeira"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4hdg5wvq86",
+          "out_player_id": "pxwrxlhjxk5xryk",
+          "in_player_name": "Saad Yaslam Balobaid",
+          "out_player_name": "Matteo Dams"
+        },
+        {
+          "time": 82,
+          "type": 1,
+          "position": 1,
+          "player_id": "vjxm8ghgjejr6od",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Marcelo Brozović"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "1l4rjnhz8vpwm7v",
+          "out_player_id": "318q66hvwp35qo9",
+          "in_player_name": "Angelo Borges",
+          "out_player_name": "Ayman Yahya"
+        },
+        {
+          "time": 89,
+          "type": 1,
+          "position": 2,
+          "player_id": "3glrw7hlgnzqdyj",
+          "assist1_id": "3glrw7h1evyqdyj",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Roger Ibañez",
+          "assist1_name": "Riyad Mahrez"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 93,
+          "type": 3,
+          "add_time": 3,
+          "position": 1,
+          "player_id": "dn1m1ghnl44xmoe",
+          "player_name": "Nawaf Al-Boushal",
+          "reason_type": 1
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 29,
+          "position": 2,
+          "player_id": "l7oqdeh42z5r510",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Ivan Toney"
+        },
+        {
+          "time": 92,
+          "type": 29,
+          "position": 1,
+          "player_id": "j1l4rjnhpgxm7vx",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Cristiano Ronaldo"
+        },
+        {
+          "time": 93,
+          "type": 29,
+          "position": 2,
+          "player_id": "965mkyh3d48r1ge",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Franck Kessié"
+        },
+        {
+          "time": 93,
+          "type": 29,
+          "position": 1,
+          "player_id": "vjxm8ghgjejr6od",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Marcelo Brozović"
+        },
+        {
+          "time": 94,
+          "type": 29,
+          "position": 2,
+          "player_id": "3glrw7h1evyqdyj",
+          "away_score": 3,
+          "home_score": 2,
+          "player_name": "Riyad Mahrez"
+        },
+        {
+          "time": 95,
+          "type": 29,
+          "position": 1,
+          "player_id": "4wyrn4h9d5eq86p",
+          "away_score": 3,
+          "home_score": 3,
+          "player_name": "Joao Felix"
+        },
+        {
+          "time": 96,
+          "type": 29,
+          "position": 2,
+          "player_id": "n54qllhe65zyqvy",
+          "away_score": 4,
+          "home_score": 3,
+          "player_name": "Firas Al-Buraikan"
+        },
+        {
+          "time": 97,
+          "type": 30,
+          "position": 1,
+          "player_id": "vjxm8ghx5kzr6od",
+          "away_score": 4,
+          "home_score": 3,
+          "player_name": "Abdullah Al-Khaibari"
+        },
+        {
+          "time": 98,
+          "type": 29,
+          "position": 2,
+          "player_id": "8yomo4h0wwjq0j6",
+          "away_score": 5,
+          "home_score": 3,
+          "player_name": "Wenderson Galeno"
+        },
+        {
+          "time": 90,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    },
+    "23xmvkh6o4ypqg8": {
+      "id": "23xmvkh6o4ypqg8",
+      "home_team_id": "9vjxm8ghyv3r6od",
+      "away_team_id": "318q66hoklkqo9j",
+      "start_timestamp": 1755604800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 10,
+          "type": 1,
+          "position": 2,
+          "player_id": "4wyrn4hdz9xq86p",
+          "assist1_id": "vjxm8ghgjejr6od",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Sadio Mané",
+          "assist1_name": "Marcelo Brozović"
+        },
+        {
+          "time": 16,
+          "type": 1,
+          "position": 1,
+          "player_id": "n54qllhxg7vqvy9",
+          "assist1_id": "3glrw7hoyl1qdyj",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Steven Bergwijn",
+          "assist1_name": "Moussa Diaby"
+        },
+        {
+          "time": 24,
+          "type": 28,
+          "position": 2,
+          "player_id": "4wyrn4hdz9xq86p",
+          "var_reason": 6,
+          "var_result": 7,
+          "player_name": "Sadio Mané"
+        },
+        {
+          "time": 25,
+          "type": 4,
+          "position": 2,
+          "player_id": "4wyrn4hdz9xq86p",
+          "player_name": "Sadio Mané",
+          "reason_type": 12
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 3,
+          "add_time": 1,
+          "position": 1,
+          "player_id": "23xmvkhdd05qg8n",
+          "player_name": "Fabinho",
+          "reason_type": 1
+        },
+        {
+          "time": 51,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 53,
+          "type": 3,
+          "position": 1,
+          "player_id": "dn1m1ghoendmoep",
+          "player_name": "Muhannad Al-Shanqeeti",
+          "reason_type": 18
+        },
+        {
+          "time": 61,
+          "type": 1,
+          "position": 2,
+          "player_id": "4wyrn4h9d5eq86p",
+          "assist1_id": "j1l4rjnhpgxm7vx",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Joao Felix",
+          "assist1_name": "Cristiano Ronaldo"
+        },
+        {
+          "time": 63,
+          "type": 28,
+          "position": 2,
+          "player_id": "j1l4rjnhpgxm7vx",
+          "var_reason": 2,
+          "var_result": 1,
+          "player_name": "Cristiano Ronaldo"
+        },
+        {
+          "time": 67,
+          "type": 28,
+          "position": 2,
+          "player_id": "4wyrn4h9d5eq86p",
+          "var_reason": 1,
+          "var_result": 2,
+          "player_name": "Joao Felix"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "jw2r09hj33ngrz8",
+          "out_player_id": "vjxm8ghj9p2r6od",
+          "in_player_name": "Wesley Gassova Ribeiro Teixeira",
+          "out_player_name": "Kingsley Coman"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "jw2r09hw21zrz84",
+          "out_player_id": "318q66hvwp35qo9",
+          "in_player_name": "Sultan Al-Ghannam",
+          "out_player_name": "Ayman Yahya"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "x7lm7phpxnpm2wd",
+          "out_player_id": "n54qllhxg7vqvy9",
+          "in_player_name": "Abdulrahman Al-Oboud",
+          "out_player_name": "Steven Bergwijn"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhz961ryk0",
+          "out_player_id": "zp5rzghx815q82w",
+          "in_player_name": "Saleh Al-Shehri",
+          "out_player_name": "Houssem Aouar"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l5ergphewwgjr8k",
+          "out_player_id": "3glrw7hoyl1qdyj",
+          "in_player_name": "Unai Hernández",
+          "out_player_name": "Moussa Diaby"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "vjxm8gh8j2o8r6o",
+          "out_player_id": "1l4rjnhkznk4m7v",
+          "in_player_name": "Faisal Al-Ghamdi",
+          "out_player_name": "Saad Al-Mousa"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 8,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l5ergph2eedr8k0",
+          "out_player_id": "vjxm8ghx5kzr6od",
+          "in_player_name": "Ali Al-Hassan",
+          "out_player_name": "Abdullah Al Khaibari"
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "add_time": 1,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhz8vpwm7v",
+          "out_player_id": "j1l4rjnhpgxm7vx",
+          "in_player_name": "Angelo Borges",
+          "out_player_name": "Cristiano Ronaldo"
+        },
+        {
+          "time": 92,
+          "type": 3,
+          "add_time": 2,
+          "position": 2,
+          "player_id": "jw2r09hj33ngrz8",
+          "player_name": "Wesley Gassova Ribeiro Teixeira",
+          "reason_type": 18
+        },
+        {
+          "time": 92,
+          "type": 3,
+          "add_time": 2,
+          "position": 1,
+          "player_id": "vjxm8gh8j2o8r6o",
+          "player_name": "Faisal Al-Ghamdi",
+          "reason_type": 18
+        },
+        {
+          "time": 96,
+          "type": 3,
+          "add_time": 6,
+          "position": 2,
+          "player_id": "vjxm8ghgjejr6od",
+          "player_name": "Marcelo Brozović",
+          "reason_type": 1
+        },
+        {
+          "time": 99,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "n54qllhnej4zqvy": {
+      "id": "n54qllhnej4zqvy",
+      "home_team_id": "d23xmvkh5p0qg8n",
+      "away_team_id": "yl5ergphgy8r8k0",
+      "start_timestamp": 1755691200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 5,
+          "overTime_score": 0,
+          "half_time_score": 4
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 8,
+          "type": 1,
+          "position": 1,
+          "player_id": "l7oqdeh43xw9r51",
+          "assist1_id": "965mkyhejkj9r1g",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Gastón Álvarez",
+          "assist1_name": "Christopher Bonsu Baah"
+        },
+        {
+          "time": 12,
+          "type": 1,
+          "position": 2,
+          "player_id": "965mkyh3d48r1ge",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Franck Kessié"
+        },
+        {
+          "time": 15,
+          "type": 3,
+          "position": 1,
+          "player_id": "l5ergphn2wv9r8k",
+          "player_name": "Jehad Thakri",
+          "reason_type": 1
+        },
+        {
+          "time": 24,
+          "type": 28,
+          "position": 2,
+          "player_id": "3glrw7hlgnzqdyj",
+          "var_reason": 4,
+          "var_result": 3,
+          "player_name": "Roger Ibañez"
+        },
+        {
+          "time": 27,
+          "type": 28,
+          "position": 2,
+          "player_id": "4jwq2ghvp7ewm0v",
+          "var_reason": 6,
+          "var_result": 7,
+          "player_name": "Enzo Millot"
+        },
+        {
+          "time": 28,
+          "type": 8,
+          "position": 2,
+          "player_id": "l7oqdeh42z5r510",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Ivan Toney"
+        },
+        {
+          "time": 31,
+          "type": 1,
+          "position": 2,
+          "player_id": "4jwq2ghvp7ewm0v",
+          "assist1_id": "3glrw7h1evyqdyj",
+          "away_score": 3,
+          "home_score": 1,
+          "player_name": "Enzo Millot",
+          "assist1_name": "Riyad Mahrez"
+        },
+        {
+          "time": 41,
+          "type": 28,
+          "position": 1,
+          "player_id": "965mkyhejkj9r1g",
+          "var_reason": 6,
+          "var_result": 7,
+          "player_name": "Christopher Bonsu Baah"
+        },
+        {
+          "time": 42,
+          "type": 4,
+          "position": 1,
+          "player_id": "965mkyhejkj9r1g",
+          "player_name": "Christopher Bonsu Baah",
+          "reason_type": 12
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 10,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 1,
+          "add_time": 2,
+          "position": 2,
+          "player_id": "965mkyh3d48r1ge",
+          "assist1_id": "3glrw7h1evyqdyj",
+          "away_score": 4,
+          "home_score": 1,
+          "player_name": "Franck Kessié",
+          "assist1_name": "Riyad Mahrez"
+        },
+        {
+          "time": 48,
+          "type": 28,
+          "add_time": 3,
+          "position": 2,
+          "player_id": "965mkyh3d48r1ge",
+          "var_reason": 2,
+          "var_result": 1,
+          "player_name": "Franck Kessié"
+        },
+        {
+          "time": 56,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "8yomo4hko0gq0j6",
+          "out_player_id": "l5ergphn2wv9r8k",
+          "in_player_name": "Yasir Al-Shahrani",
+          "out_player_name": "Jehad Thakri"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghkjojkm0v",
+          "out_player_id": "vjxm8ghpj18r6od",
+          "in_player_name": "Turki Al-Ammar",
+          "out_player_name": "Ali Hazazi"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhwldgemd7",
+          "out_player_id": "l7oqdeh4dewlr51",
+          "in_player_name": "Musab Al-Juwayr",
+          "out_player_name": "Mohammed Al-Thain"
+        },
+        {
+          "time": 56,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdeh42z5r510",
+          "player_name": "Ivan Toney",
+          "reason_type": 1
+        },
+        {
+          "time": 61,
+          "type": 17,
+          "position": 2,
+          "player_id": "y39mp1h3gw7mojx",
+          "away_score": 5,
+          "home_score": 1,
+          "player_name": "Nacho Fernández"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "3glrw7h0jpjqdyj",
+          "out_player_id": "n54qllhe65zyqvy",
+          "in_player_name": "Fahad Ayed Al-Rashidi",
+          "out_player_name": "Firas Al-Buraikan"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jhg4xdkqwz",
+          "out_player_id": "4jwq2ghvp7ewm0v",
+          "in_player_name": "Eid Al-Muwallad",
+          "out_player_name": "Enzo Millot"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "965mkyh4xlxer1g",
+          "out_player_id": "6ypq3nhl579pmd7",
+          "in_player_name": "Ali Majrashi",
+          "out_player_name": "Mohammed Abdulrahman Yousef"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghp905pr6o",
+          "out_player_id": "318q66hjex6qo9j",
+          "in_player_name": "Gabriel Carvalho",
+          "out_player_name": "Julián Quiñones"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "x7lm7phw61jpm2w",
+          "out_player_id": "8yomo4h0wwjq0j6",
+          "in_player_name": "Saleh Aboulshamat",
+          "out_player_name": "Wenderson Galeno"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "8yomo4hvw7gxq0j",
+          "out_player_id": "3glrw7h1evyqdyj",
+          "in_player_name": "Yaseen Al Zubaidi",
+          "out_player_name": "Riyad Mahrez"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghxzv4q82w",
+          "out_player_id": "23xmvkhdw2j3qg8",
+          "in_player_name": "Abdullah Al-Salem",
+          "out_player_name": "Mateo Retegui"
+        },
+        {
+          "time": 89,
+          "type": 3,
+          "position": 1,
+          "player_id": "l7oqdeh43xw9r51",
+          "player_name": "Gastón Álvarez",
+          "reason_type": 19
+        },
+        {
+          "time": 89,
+          "type": 3,
+          "position": 2,
+          "player_id": "8yomo4hvw7gxq0j",
+          "player_name": "Yaseen Al Zubaidi",
+          "reason_type": 1
+        },
+        {
+          "time": 91,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

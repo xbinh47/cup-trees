@@ -1,0 +1,86 @@
+{
+  "season_id": "8y39mp1hg0omojx",
+  "brackets": [
+    {
+      "id": "4wyrn4hexnnq86p",
+      "competition_id": "kjw2r09hl1wrz84",
+      "season_id": "8y39mp1hg0omojx",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1685721600,
+      "end_time": 1685807940,
+      "rounds": [
+        {
+          "id": "dj2ryoh5j65q1zp",
+          "bracket_id": "4wyrn4hexnnq86p",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1685804400,
+          "end_time": 1685804400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dn1m1gh4jv7xmoe",
+              "round_id": "dj2ryoh5j65q1zp",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "23xmvkh3dn9qg8n",
+              "away_team_id": "pxwrxlhgp7dryk0",
+              "winner_team_id": "pxwrxlhgp7dryk0",
+              "home_score": 4,
+              "away_score": 6,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "k82rekh0kwx0rep"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "pxwrxlhgp7dryk0": {
+      "id": "pxwrxlhgp7dryk0",
+      "name": "E.Gawafel.S.Gafsa"
+    },
+    "23xmvkh3dn9qg8n": {
+      "id": "23xmvkh3dn9qg8n",
+      "name": "AS Marsa"
+    }
+  },
+  "sport_events": {
+    "k82rekh0kwx0rep": {
+      "id": "k82rekh0kwx0rep",
+      "home_team_id": "23xmvkh3dn9qg8n",
+      "away_team_id": "pxwrxlhgp7dryk0",
+      "start_timestamp": 1685804400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

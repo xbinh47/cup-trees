@@ -1,0 +1,193 @@
+{
+  "season_id": "kjw2r09hov5rz84",
+  "brackets": [
+    {
+      "id": "4wyrn4hd04kq86p",
+      "competition_id": "vl7oqdeh41gr510",
+      "season_id": "kjw2r09hov5rz84",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1748016000,
+      "end_time": 1748793540,
+      "rounds": [
+        {
+          "id": "4jwq2ghzzo4m0ve",
+          "bracket_id": "4wyrn4hd04kq86p",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1748095200,
+          "end_time": 1748095200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dn1m1ghe2w9emoe",
+              "round_id": "4jwq2ghzzo4m0ve",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "y0or5jhe180qwzv",
+              "away_team_id": "n54qllhx277qvy9",
+              "winner_team_id": "y0or5jhe180qwzv",
+              "home_score": 3,
+              "away_score": 1,
+              "parent_ids": [
+                "k82rekh9w5verep"
+              ],
+              "children_ids": [],
+              "event_ids": []
+            }
+          ]
+        },
+        {
+          "id": "ednm9wh2289ryox",
+          "bracket_id": "4wyrn4hd04kq86p",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1748700000,
+          "end_time": 1748700000,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "k82rekh9w5verep",
+              "round_id": "ednm9wh2289ryox",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "y0or5jhe180qwzv",
+              "away_team_id": "8yomo4h279eq0j6",
+              "winner_team_id": "8yomo4h279eq0j6",
+              "home_score": 1,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [
+                "dn1m1ghe2w9emoe"
+              ],
+              "event_ids": [
+                "l5ergph4ok98r8k"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "n54qllhx277qvy9": {
+      "id": "n54qllhx277qvy9",
+      "name": "KF Liria Prizren"
+    },
+    "y0or5jhe180qwzv": {
+      "id": "y0or5jhe180qwzv",
+      "name": "KF Vushtrria"
+    },
+    "8yomo4h279eq0j6": {
+      "id": "8yomo4h279eq0j6",
+      "name": "KF Llapi"
+    }
+  },
+  "sport_events": {
+    "l5ergph4ok98r8k": {
+      "id": "l5ergph4ok98r8k",
+      "home_team_id": "y0or5jhe180qwzv",
+      "away_team_id": "8yomo4h279eq0j6",
+      "start_timestamp": 1748700000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 4,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 1,
+          "yellow_card": 1,
+          "penalty_score": 1,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 99,
+          "type": 15,
+          "position": 1
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "player_id": "vjxm8gh84jg7r6o",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Arbnor·Ramadani"
+        },
+        {
+          "time": 120,
+          "type": 30,
+          "position": 1,
+          "away_score": 1,
+          "home_score": 0
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "away_score": 2,
+          "home_score": 0
+        },
+        {
+          "time": 120,
+          "type": 30,
+          "position": 1,
+          "away_score": 2,
+          "home_score": 0
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "away_score": 3,
+          "home_score": 0
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "away_score": 3,
+          "home_score": 1
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "away_score": 4,
+          "home_score": 1
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "season_id": "d23xmvkhe1wqg8n",
+  "brackets": [
+    {
+      "id": "y0or5jheo94qwzv",
+      "competition_id": "p4jwq2gh4o9m0ve",
+      "season_id": "d23xmvkhe1wqg8n",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1761840000,
+      "end_time": 1763222340,
+      "rounds": [
+        {
+          "id": "x7lm7ph363km2wd",
+          "bracket_id": "y0or5jheo94qwzv",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1761973200,
+          "end_time": 1761973200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "23xmvkho2ddxqg8",
+              "round_id": "x7lm7ph363km2wd",
+              "number": 1,
+              "type_id": 7,
+              "state_id": 7,
+              "home_team_id": "k82rekhvd25repz",
+              "away_team_id": "2y8m4zh3lwgql07",
+              "winner_team_id": "k82rekhvd25repz",
+              "home_score": 0,
+              "away_score": 0,
+              "parent_ids": [
+                "zp5rzgh7ow6jq82"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "dj2ryohl49o8q1z"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "y0or5jhzpz4qwzv",
+          "bracket_id": "y0or5jheo94qwzv",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1762578000,
+          "end_time": 1763182800,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "zp5rzgh7ow6jq82",
+              "round_id": "y0or5jhzpz4qwzv",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "k82rekhvd25repz",
+              "away_team_id": "zp5rzgh7jk6q82w",
+              "winner_team_id": "zp5rzgh7jk6q82w",
+              "home_score": 5,
+              "away_score": 7,
+              "parent_ids": [],
+              "children_ids": [
+                "23xmvkho2ddxqg8"
+              ],
+              "event_ids": [
+                "965mkyhk56jwr1g",
+                "y0or5jh8627jqwz"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "2y8m4zh3lwgql07": {
+      "id": "2y8m4zh3lwgql07",
+      "name": "Incheon Hyundai Steel Red Angels (w)"
+    },
+    "zp5rzgh7jk6q82w": {
+      "id": "zp5rzgh7jk6q82w",
+      "name": "Hwacheon KSPO WFC"
+    },
+    "k82rekhvd25repz": {
+      "id": "k82rekhvd25repz",
+      "name": "Seoul Amazones Women"
+    }
+  },
+  "sport_events": {
+    "965mkyhk56jwr1g": {
+      "id": "965mkyhk56jwr1g",
+      "home_team_id": "k82rekhvd25repz",
+      "away_team_id": "zp5rzgh7jk6q82w",
+      "start_timestamp": 1762578000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 3
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "y0or5jh8627jqwz",
+      "incidents": [
+        {
+          "time": 10,
+          "type": 1,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 0
+        },
+        {
+          "time": 14,
+          "type": 1,
+          "position": 2,
+          "away_score": 2,
+          "home_score": 0
+        },
+        {
+          "time": 37,
+          "type": 1,
+          "position": 2,
+          "away_score": 3,
+          "home_score": 0
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 61,
+          "type": 1,
+          "position": 1,
+          "away_score": 3,
+          "home_score": 1
+        },
+        {
+          "time": 64,
+          "type": 1,
+          "position": 1,
+          "away_score": 3,
+          "home_score": 2
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "dj2ryohl49o8q1z": {
+      "id": "dj2ryohl49o8q1z",
+      "home_team_id": "k82rekhvd25repz",
+      "away_team_id": "2y8m4zh3lwgql07",
+      "start_timestamp": 1761973200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "y0or5jh8627jqwz": {
+      "id": "y0or5jh8627jqwz",
+      "home_team_id": "zp5rzgh7jk6q82w",
+      "away_team_id": "k82rekhvd25repz",
+      "start_timestamp": 1763182800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 3
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "965mkyhk56jwr1g",
+      "incidents": [
+        {
+          "time": 6,
+          "type": 1,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 1
+        },
+        {
+          "time": 9,
+          "type": 1,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 2
+        },
+        {
+          "time": 20,
+          "type": 1,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 3
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 69,
+          "type": 1,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 4
+        },
+        {
+          "time": 88,
+          "type": 1,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 4
+        },
+        {
+          "time": 92,
+          "type": 1,
+          "add_time": 2,
+          "position": 2,
+          "player_id": "dn1m1ghngkxvmoe",
+          "away_score": 2,
+          "home_score": 4,
+          "player_name": "Kim Mi-yeon"
+        },
+        {
+          "time": 94,
+          "type": 1,
+          "add_time": 4,
+          "position": 2,
+          "player_id": "dj2ryohnl699q1z",
+          "away_score": 3,
+          "home_score": 4,
+          "player_name": "rin chae han"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

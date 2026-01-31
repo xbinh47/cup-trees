@@ -1,0 +1,613 @@
+{
+  "season_id": "8y39mp1hly0mojx",
+  "brackets": [
+    {
+      "id": "n54qllhev54qvy9",
+      "competition_id": "gy0or5jhg6qwzv3",
+      "season_id": "8y39mp1hly0mojx",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1716393600,
+      "end_time": 1716911940,
+      "rounds": [
+        {
+          "id": "3glrw7h6vjeqdyj",
+          "bracket_id": "n54qllhev54qvy9",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1716489000,
+          "end_time": 1716834600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l5ergph3ewd8r8k",
+              "round_id": "3glrw7h6vjeqdyj",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "kn54qllhy10qvy9",
+              "away_team_id": "v2y8m4zh9vlql07",
+              "winner_team_id": "kn54qllhy10qvy9",
+              "home_score": 9,
+              "away_score": 8,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "pxwrxlh53ngzryk",
+                "3glrw7h7p9woqdy"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "kn54qllhy10qvy9": {
+      "id": "kn54qllhy10qvy9",
+      "name": "VfL Bochum 1848"
+    },
+    "v2y8m4zh9vlql07": {
+      "id": "v2y8m4zh9vlql07",
+      "name": "Fortuna Dusseldorf"
+    }
+  },
+  "sport_events": {
+    "3glrw7h7p9woqdy": {
+      "id": "3glrw7h7p9woqdy",
+      "home_team_id": "v2y8m4zh9vlql07",
+      "away_team_id": "kn54qllhy10qvy9",
+      "start_timestamp": 1716834600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 6,
+          "regular_score": 3,
+          "overTime_score": 3,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 5,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "pxwrxlh53ngzryk",
+      "incidents": [
+        {
+          "time": 5,
+          "type": 3,
+          "position": 2,
+          "player_id": "8yomo4h28d5q0j6",
+          "player_name": "Philipp Hofmann",
+          "reason_type": 22
+        },
+        {
+          "time": 8,
+          "type": 3,
+          "position": 2,
+          "player_id": "l5ergphek22er8k",
+          "player_name": "Tim Oermann",
+          "reason_type": 1
+        },
+        {
+          "time": 18,
+          "type": 1,
+          "position": 2,
+          "player_id": "8yomo4h28d5q0j6",
+          "assist1_id": "4jwq2ghkoj0m0ve",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Philipp Hofmann",
+          "assist1_name": "Kevin Stöger"
+        },
+        {
+          "time": 39,
+          "type": 3,
+          "position": 2,
+          "player_id": "k82rekhy37vrepz",
+          "player_name": "Maximilian Wittek",
+          "reason_type": 19
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 58,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlh9x7dryk0",
+          "out_player_id": "3glrw7hypeeqdyj",
+          "in_player_name": "Takuma Asano",
+          "out_player_name": "Felix Passlack"
+        },
+        {
+          "time": 58,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "n54qllh8dyeqvy9",
+          "out_player_id": "l5ergphek22er8k",
+          "in_player_name": "Noah Loosli",
+          "out_player_name": "Tim Oermann"
+        },
+        {
+          "time": 66,
+          "type": 1,
+          "position": 2,
+          "player_id": "8yomo4h28d5q0j6",
+          "assist1_id": "4jwq2ghkoj0m0ve",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Philipp Hofmann",
+          "assist1_name": "Kevin Stöger"
+        },
+        {
+          "time": 70,
+          "type": 8,
+          "position": 2,
+          "player_id": "4jwq2ghkoj0m0ve",
+          "away_score": 3,
+          "home_score": 0,
+          "player_name": "Kevin Stöger"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whv6jddryo",
+          "out_player_id": "4wyrn4hev9pq86p",
+          "in_player_name": "Jona Niemiec",
+          "out_player_name": "Felix Klaus"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hjp4k8qdy",
+          "out_player_id": "ednm9wheokxryox",
+          "in_player_name": "Isak Bergmann Johanneson",
+          "out_player_name": "Ao Tanaka"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohjj65dq1z",
+          "out_player_id": "l5ergphp6zpr8k0",
+          "in_player_name": "Patrick·Osterhage",
+          "out_player_name": "Lukas Daschner"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghp1eyr6od",
+          "out_player_id": "l5ergphvdk7r8k0",
+          "in_player_name": "Christoph Daferner",
+          "out_player_name": "Vincent Vermeij"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghzndxlq82",
+          "out_player_id": "8yomo4hk124q0j6",
+          "in_player_name": "Takashi Uchino",
+          "out_player_name": "Marcel Sobottka"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlh1x23ryk0",
+          "out_player_id": "8yomo4h28d5q0j6",
+          "in_player_name": "Gonçalo Paciência",
+          "out_player_name": "Philipp Hofmann"
+        },
+        {
+          "time": 97,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 97,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzgh7j6jq82w",
+          "out_player_id": "y0or5jheyx4qwzv",
+          "in_player_name": "Andre Hoffmann",
+          "out_player_name": "Jordy de Wijs"
+        },
+        {
+          "time": 99,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y39mp1h1d92mojx",
+          "out_player_id": "k82rekh93j8repz",
+          "in_player_name": "Erhan Mašović",
+          "out_player_name": "Anthony Losilla"
+        },
+        {
+          "time": 103,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnhz3jpom7v",
+          "player_name": "Yannik Engelhardt",
+          "reason_type": 1
+        },
+        {
+          "time": 106,
+          "type": 3,
+          "position": 2,
+          "player_id": "y39mp1h1d92mojx",
+          "player_name": "Erhan Mašović",
+          "reason_type": 1
+        },
+        {
+          "time": 120,
+          "type": 26,
+          "position": 0
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "player_id": "pxwrxlh1x23ryk0",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Gonçalo Paciência"
+        },
+        {
+          "time": 121,
+          "type": 30,
+          "position": 1,
+          "player_id": "zp5rzgh7j6jq82w",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Andre Hoffmann"
+        },
+        {
+          "time": 122,
+          "type": 29,
+          "position": 2,
+          "player_id": "dn1m1ghewylmoep",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Matúš Bero"
+        },
+        {
+          "time": 122,
+          "type": 29,
+          "position": 1,
+          "player_id": "3glrw7hjp4k8qdy",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Isak Bergmann Johanneson"
+        },
+        {
+          "time": 123,
+          "type": 30,
+          "position": 2,
+          "player_id": "y39mp1h1d92mojx",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Erhan Mašović"
+        },
+        {
+          "time": 124,
+          "type": 29,
+          "position": 1,
+          "player_id": "1l4rjnhz3jpom7v",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Yannik Engelhardt"
+        },
+        {
+          "time": 125,
+          "type": 29,
+          "position": 2,
+          "player_id": "pxwrxlh9x7dryk0",
+          "away_score": 3,
+          "home_score": 2,
+          "player_name": "Takuma Asano"
+        },
+        {
+          "time": 125,
+          "type": 29,
+          "position": 1,
+          "player_id": "pxwrxlhzk36ryk0",
+          "away_score": 3,
+          "home_score": 3,
+          "player_name": "Tim Christopher Oberdorf"
+        },
+        {
+          "time": 126,
+          "type": 29,
+          "position": 2,
+          "player_id": "4jwq2ghkoj0m0ve",
+          "away_score": 4,
+          "home_score": 3,
+          "player_name": "Kevin Stöger"
+        },
+        {
+          "time": 126,
+          "type": 29,
+          "position": 1,
+          "player_id": "vjxm8ghj71xwr6o",
+          "away_score": 4,
+          "home_score": 4,
+          "player_name": "Christos Tzolis"
+        },
+        {
+          "time": 127,
+          "type": 29,
+          "position": 2,
+          "player_id": "318q66h7354qo9j",
+          "away_score": 5,
+          "home_score": 4,
+          "player_name": "Keven Schlotterbeck"
+        },
+        {
+          "time": 128,
+          "type": 29,
+          "position": 1,
+          "player_id": "ednm9whv6jddryo",
+          "away_score": 5,
+          "home_score": 5,
+          "player_name": "Jona Niemiec"
+        },
+        {
+          "time": 128,
+          "type": 29,
+          "position": 2,
+          "player_id": "k82rekhy37vrepz",
+          "away_score": 6,
+          "home_score": 5,
+          "player_name": "Maximilian Wittek"
+        },
+        {
+          "time": 129,
+          "type": 30,
+          "position": 1,
+          "player_id": "zp5rzghzndxlq82",
+          "away_score": 6,
+          "home_score": 5,
+          "player_name": "Takashi Uchino"
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    },
+    "pxwrxlh53ngzryk": {
+      "id": "pxwrxlh53ngzryk",
+      "home_team_id": "kn54qllhy10qvy9",
+      "away_team_id": "v2y8m4zh9vlql07",
+      "start_timestamp": 1716489000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "3glrw7h7p9woqdy",
+      "incidents": [
+        {
+          "time": 13,
+          "type": 17,
+          "position": 2,
+          "player_id": "8yomo4h28d5q0j6",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Philipp Hofmann"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhzg852md7",
+          "out_player_id": "pxwrxlh9x7dryk0",
+          "in_player_name": "Moritz Broschinski",
+          "out_player_name": "Takuma Asano"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "k82rekh93j8repz",
+          "out_player_id": "dj2ryohjj65dq1z",
+          "in_player_name": "Anthony Losilla",
+          "out_player_name": "Patrick·Osterhage"
+        },
+        {
+          "time": 64,
+          "type": 1,
+          "position": 2,
+          "player_id": "4wyrn4hev9pq86p",
+          "assist1_id": "vjxm8ghj71xwr6o",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Felix Klaus",
+          "assist1_name": "Christos Tzolis"
+        },
+        {
+          "time": 71,
+          "type": 3,
+          "position": 1,
+          "player_id": "jw2r09hw615rz84",
+          "player_name": "Bernardo",
+          "reason_type": 1
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlh1x23ryk0",
+          "out_player_id": "k82rekhy37vrepz",
+          "in_player_name": "Gonçalo Paciência",
+          "out_player_name": "Maximilian Wittek"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "x7lm7ph913km2wd",
+          "out_player_id": "8yomo4h28d5q0j6",
+          "in_player_name": "Christopher Antwi-Adjei",
+          "out_player_name": "Philipp Hofmann"
+        },
+        {
+          "time": 72,
+          "type": 1,
+          "position": 2,
+          "player_id": "1l4rjnhz3jpom7v",
+          "away_score": 3,
+          "home_score": 0,
+          "player_name": "Yannik Engelhardt"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hjp4k8qdy",
+          "out_player_id": "8yomo4hk124q0j6",
+          "in_player_name": "Isak Bergmann Johanneson",
+          "out_player_name": "Marcel Sobottka"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l5ergphp6zpr8k0",
+          "out_player_id": "dn1m1ghewylmoep",
+          "in_player_name": "Lukas Daschner",
+          "out_player_name": "Matúš Bero"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghp1eyr6od",
+          "out_player_id": "l5ergphvdk7r8k0",
+          "in_player_name": "Christoph Daferner",
+          "out_player_name": "Vincent Vermeij"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "ednm9whv6jddryo",
+          "out_player_id": "4wyrn4hev9pq86p",
+          "in_player_name": "Jona Niemiec",
+          "out_player_name": "Felix Klaus"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghzndxlq82",
+          "out_player_id": "1l4rjnhz3jpom7v",
+          "in_player_name": "Takashi Uchino",
+          "out_player_name": "Yannik Engelhardt"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlh93g8zryk",
+          "out_player_id": "vjxm8ghj71xwr6o",
+          "in_player_name": "Shinta Karl Appelkamp",
+          "out_player_name": "Christos Tzolis"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 93,
+          "type": 3,
+          "position": 1,
+          "player_id": "k82rekh93j8repz",
+          "player_name": "Anthony Losilla",
+          "reason_type": 1
+        },
+        {
+          "time": 95,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

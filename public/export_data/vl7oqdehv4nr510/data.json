@@ -1,0 +1,98 @@
+{
+  "season_id": "vl7oqdehv4nr510",
+  "brackets": [
+    {
+      "id": "y39mp1hj10wmojx",
+      "competition_id": "v2y8m4zh3zgql07",
+      "season_id": "vl7oqdehv4nr510",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1732982400,
+      "end_time": 1733068740,
+      "rounds": [
+        {
+          "id": "jw2r09h64pdrz84",
+          "bracket_id": "y39mp1hj10wmojx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1733022000,
+          "end_time": 1733022000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "6ypq3nh5n314md7",
+              "round_id": "jw2r09h64pdrz84",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "23xmvkho629qg8n",
+              "away_team_id": "4jwq2gh478ym0ve",
+              "winner_team_id": "4jwq2gh478ym0ve",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "965mkyhyd4wkr1g"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "4jwq2gh478ym0ve": {
+      "id": "4jwq2gh478ym0ve",
+      "name": "Auckland City"
+    },
+    "23xmvkho629qg8n": {
+      "id": "23xmvkho629qg8n",
+      "name": "Birkenhead United"
+    }
+  },
+  "sport_events": {
+    "965mkyhyd4wkr1g": {
+      "id": "965mkyhyd4wkr1g",
+      "home_team_id": "23xmvkho629qg8n",
+      "away_team_id": "4jwq2gh478ym0ve",
+      "start_timestamp": 1733022000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 10,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 2,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

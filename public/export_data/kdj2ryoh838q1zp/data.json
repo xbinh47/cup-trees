@@ -1,0 +1,132 @@
+{
+  "season_id": "kdj2ryoh838q1zp",
+  "brackets": [
+    {
+      "id": "318q66hv6knqo9j",
+      "competition_id": "v2y8m4zh3zgql07",
+      "season_id": "kdj2ryoh838q1zp",
+      "name": "Knockout stage",
+      "abbr": "National Leag",
+      "start_time": 1765555200,
+      "end_time": 1765641540,
+      "rounds": [
+        {
+          "id": "l7oqdeh874pr510",
+          "bracket_id": "318q66hv6knqo9j",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1765602000,
+          "end_time": 1765602000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "4jwq2ghkwjpem0v",
+              "round_id": "l7oqdeh874pr510",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "965mkyh4kw8r1ge",
+              "away_team_id": "4jwq2gh478ym0ve",
+              "winner_team_id": "4jwq2gh478ym0ve",
+              "home_score": 8,
+              "away_score": 9,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "4jwq2ghn9jd6m0v"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "965mkyh4kw8r1ge": {
+      "id": "965mkyh4kw8r1ge",
+      "name": "Wellington Olympic"
+    },
+    "4jwq2gh478ym0ve": {
+      "id": "4jwq2gh478ym0ve",
+      "name": "Auckland City"
+    }
+  },
+  "sport_events": {
+    "4jwq2ghn9jd6m0v": {
+      "id": "4jwq2ghn9jd6m0v",
+      "home_team_id": "965mkyh4kw8r1ge",
+      "away_team_id": "4jwq2gh478ym0ve",
+      "start_timestamp": 1765602000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 11,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 7,
+          "regular_score": 1,
+          "overTime_score": 2,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 6,
+          "regular_score": 1,
+          "overTime_score": 2,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 77,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 81,
+          "type": 1,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 0
+        },
+        {
+          "time": 84,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 87,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 90,
+          "type": 1,
+          "position": 1,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

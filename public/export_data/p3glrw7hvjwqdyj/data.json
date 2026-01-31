@@ -1,0 +1,398 @@
+{
+  "season_id": "p3glrw7hvjwqdyj",
+  "brackets": [
+    {
+      "id": "l7oqdeh4lx5r510",
+      "competition_id": "9vjxm8ghdnr6odg",
+      "season_id": "p3glrw7hvjwqdyj",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1733328000,
+      "end_time": 1734537540,
+      "rounds": [
+        {
+          "id": "3glrw7h3ww8qdyj",
+          "bracket_id": "l7oqdeh4lx5r510",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1733603400,
+          "end_time": 1734208200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "1l4rjnh1lgv6m7v",
+              "round_id": "3glrw7h3ww8qdyj",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "z8yomo4hd49q0j6",
+              "away_team_id": "dn1m1gh40ppmoep",
+              "winner_team_id": "z8yomo4hd49q0j6",
+              "home_score": 3,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "l7oqdehowe54r51",
+                "dn1m1gh2yow6moe"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "dn1m1gh40ppmoep": {
+      "id": "dn1m1gh40ppmoep",
+      "name": "Independiente del Valle"
+    },
+    "z8yomo4hd49q0j6": {
+      "id": "z8yomo4hd49q0j6",
+      "name": "Liga Dep Universitaria Quito"
+    }
+  },
+  "sport_events": {
+    "dn1m1gh2yow6moe": {
+      "id": "dn1m1gh2yow6moe",
+      "home_team_id": "dn1m1gh40ppmoep",
+      "away_team_id": "z8yomo4hd49q0j6",
+      "start_timestamp": 1734208200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 6,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 12,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "l7oqdehowe54r51",
+      "incidents": [
+        {
+          "time": 36,
+          "type": 3,
+          "position": 1,
+          "player_id": "23xmvkhde74kqg8",
+          "player_name": "Mateo Carabajal"
+        },
+        {
+          "time": 36,
+          "type": 3,
+          "position": 2,
+          "player_id": "23xmvkhdpgngqg8",
+          "player_name": "Gabriel Villamil"
+        },
+        {
+          "time": 38,
+          "type": 3,
+          "position": 2,
+          "player_id": "8yomo4h2l3z5q0j",
+          "player_name": "Leonel quinonez"
+        },
+        {
+          "time": 42,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jh4dv0qwzv",
+          "player_name": "Alex Ibarra"
+        },
+        {
+          "time": 47,
+          "type": 3,
+          "position": 2,
+          "player_id": "4jwq2ghx2ey0m0v",
+          "player_name": "Daniel cruz la de"
+        },
+        {
+          "time": 47,
+          "type": 3,
+          "position": 2,
+          "player_id": "pxwrxlh1k711ryk",
+          "player_name": "Ricardo Ade"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "4wyrn4hdpk8oq86",
+          "out_player_id": "4jwq2ghx2ey0m0v",
+          "in_player_name": "Jose quinteros",
+          "out_player_name": "Daniel cruz la de"
+        },
+        {
+          "time": 46,
+          "type": 3,
+          "position": 2,
+          "player_id": "4wyrn4hdpk8oq86",
+          "player_name": "Jose quinteros"
+        },
+        {
+          "time": 56,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l7oqdehl2w7r510",
+          "out_player_id": "23xmvkhdpgngqg8",
+          "in_player_name": "Madison Julio",
+          "out_player_name": "Gabriel Villamil"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4jwq2ghvyejpm0v",
+          "out_player_id": "y0or5jh4dv0qwzv",
+          "in_player_name": "michael hoyos",
+          "out_player_name": "Alex Ibarra"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8gh8jz8pr6o",
+          "out_player_id": "23xmvkhde74kqg8",
+          "in_player_name": "Luis Zárate",
+          "out_player_name": "Mateo Carabajal"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7ph0jx74m2w",
+          "out_player_id": "8yomo4h2l3z5q0j",
+          "in_player_name": "Gian Franco Allala",
+          "out_player_name": "Leonel quinonez"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l7oqdeh4d3gdr51",
+          "out_player_id": "l7oqdeh4w86zr51",
+          "in_player_name": "Lisandro Alzugaray",
+          "out_player_name": "jhojan julio"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "zp5rzghx4k6q82w",
+          "out_player_id": "k82rekho4g2repz",
+          "in_player_name": "Anthony Landazuri",
+          "out_player_name": "Matías Fernández"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4jwq2gh74eggm0v",
+          "out_player_id": "pxwrxlhje8j0ryk",
+          "in_player_name": "Garcia bryan",
+          "out_player_name": "Cristian Exequiel·Zabala"
+        },
+        {
+          "time": 82,
+          "type": 3,
+          "position": 2,
+          "player_id": "x7lm7phwzp59m2w",
+          "player_name": "Alex Arce"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlhv7xgryk0",
+          "out_player_id": "x7lm7phwzp59m2w",
+          "in_player_name": "Michael Estrada",
+          "out_player_name": "Alex Arce"
+        },
+        {
+          "time": 83,
+          "type": 3,
+          "position": 1,
+          "player_id": "dn1m1gh1d0omoep",
+          "player_name": "Beder Caicedo"
+        },
+        {
+          "time": 96,
+          "type": 1,
+          "position": 1,
+          "player_id": "vjxm8gh8jz8pr6o",
+          "assist1_id": "4jwq2ghvyejpm0v",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Luis Zárate",
+          "assist1_name": "michael hoyos"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "l7oqdehowe54r51": {
+      "id": "l7oqdehowe54r51",
+      "home_team_id": "z8yomo4hd49q0j6",
+      "away_team_id": "dn1m1gh40ppmoep",
+      "start_timestamp": 1733603400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "dn1m1gh2yow6moe",
+      "incidents": [
+        {
+          "time": 47,
+          "type": 1,
+          "position": 1,
+          "player_id": "x7lm7phwzp59m2w",
+          "assist1_id": "l7oqdeh4w86zr51",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Alex Arce",
+          "assist1_name": "jhojan julio"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 58,
+          "type": 1,
+          "position": 1,
+          "player_id": "x7lm7phwzp59m2w",
+          "assist1_id": "2y8m4zh856kzql0",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Alex Arce",
+          "assist1_name": "bryan ramirez"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "k82rekho7kxlrep",
+          "out_player_id": "4wyrn4hdp23dq86",
+          "in_player_name": "Kendry Páez",
+          "out_player_name": "Julio ortiz"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y0or5jh3l7oqwzv",
+          "out_player_id": "4jwq2gh74eggm0v",
+          "in_player_name": "Romario Ibarra",
+          "out_player_name": "Garcia bryan"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l7oqdeh4d3gdr51",
+          "out_player_id": "2y8m4zh856kzql0",
+          "in_player_name": "Lisandro Alzugaray",
+          "out_player_name": "bryan ramirez"
+        },
+        {
+          "time": 73,
+          "type": 1,
+          "position": 1,
+          "player_id": "23xmvkhdpgngqg8",
+          "assist1_id": "l7oqdeh4w86zr51",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Gabriel Villamil",
+          "assist1_name": "jhojan julio"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y0or5jh4dv0qwzv",
+          "out_player_id": "pxwrxlhj65llryk",
+          "in_player_name": "Alex Ibarra",
+          "out_player_name": "Keny arroyo"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "pxwrxlhv7xgryk0",
+          "out_player_id": "x7lm7phwzp59m2w",
+          "in_player_name": "Michael Estrada",
+          "out_player_name": "Alex Arce"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l7oqdehl2w7r510",
+          "out_player_id": "23xmvkhozeenqg8",
+          "in_player_name": "Madison Julio",
+          "out_player_name": "Fernando Cornejo"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnhz5vkgm7v",
+          "out_player_id": "l7oqdeh4w86zr51",
+          "in_player_name": "Luis Estupiñan",
+          "out_player_name": "jhojan julio"
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 1,
+          "player_id": "pxwrxlhv7xgryk0",
+          "player_name": "Michael Estrada"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

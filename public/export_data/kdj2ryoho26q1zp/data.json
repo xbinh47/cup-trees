@@ -1,0 +1,86 @@
+{
+  "season_id": "kdj2ryoho26q1zp",
+  "brackets": [
+    {
+      "id": "y39mp1h56nlmojx",
+      "competition_id": "9vjxm8ghwlr6odg",
+      "season_id": "kdj2ryoho26q1zp",
+      "name": "Superpuchar Polski 2023",
+      "abbr": "Superpuchar P",
+      "start_time": 1689350400,
+      "end_time": 1689523140,
+      "rounds": [
+        {
+          "id": "l7oqdehde7er510",
+          "bracket_id": "y39mp1h56nlmojx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1689444600,
+          "end_time": 1689444600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "23xmvkh3573dqg8",
+              "round_id": "l7oqdehde7er510",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "3glrw7hw8ynqdyj",
+              "away_team_id": "jednm9whln2ryox",
+              "winner_team_id": "jednm9whln2ryox",
+              "home_score": 5,
+              "away_score": 6,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "x7lm7ph3lv45m2w"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "3glrw7hw8ynqdyj": {
+      "id": "3glrw7hw8ynqdyj",
+      "name": "Rakow Czestochowa"
+    },
+    "jednm9whln2ryox": {
+      "id": "jednm9whln2ryox",
+      "name": "Legia Warszawa"
+    }
+  },
+  "sport_events": {
+    "x7lm7ph3lv45m2w": {
+      "id": "x7lm7ph3lv45m2w",
+      "home_team_id": "3glrw7hw8ynqdyj",
+      "away_team_id": "jednm9whln2ryox",
+      "start_timestamp": 1689444600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 6,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 5,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

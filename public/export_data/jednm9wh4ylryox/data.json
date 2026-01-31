@@ -1,0 +1,117 @@
+{
+  "season_id": "jednm9wh4ylryox",
+  "brackets": [
+    {
+      "id": "6ypq3nh541kmd7o",
+      "competition_id": "z8yomo4h76lq0j6",
+      "season_id": "jednm9wh4ylryox",
+      "name": "Knockout stage",
+      "abbr": "Primera D 202",
+      "start_time": 1665072000,
+      "end_time": 1672502340,
+      "rounds": [
+        {
+          "id": "2y8m4zh4z34ql07",
+          "bracket_id": "6ypq3nh541kmd7o",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1665426600,
+          "end_time": 1665939600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "vjxm8gh40gegr6o",
+              "round_id": "2y8m4zh4z34ql07",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "3glrw7h114wqdyj",
+              "away_team_id": "gpxwrxlh69vryk0",
+              "winner_team_id": "gpxwrxlh69vryk0",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "dn1m1ghplepemoe",
+                "2y8m4zhw5j6nql0"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "3glrw7h114wqdyj": {
+      "id": "3glrw7h114wqdyj",
+      "name": "Centro Espanol"
+    },
+    "gpxwrxlh69vryk0": {
+      "id": "gpxwrxlh69vryk0",
+      "name": "Yupanqui"
+    }
+  },
+  "sport_events": {
+    "2y8m4zhw5j6nql0": {
+      "id": "2y8m4zhw5j6nql0",
+      "home_team_id": "gpxwrxlh69vryk0",
+      "away_team_id": "3glrw7h114wqdyj",
+      "start_timestamp": 1665939600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 1,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "dn1m1ghplepemoe": {
+      "id": "dn1m1ghplepemoe",
+      "home_team_id": "3glrw7h114wqdyj",
+      "away_team_id": "gpxwrxlh69vryk0",
+      "start_timestamp": 1665426600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 10,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "season_id": "gy0or5jhpjjqwzv",
+  "brackets": [
+    {
+      "id": "x7lm7phoxw1m2wd",
+      "competition_id": "p3glrw7hloqdyjv",
+      "season_id": "gy0or5jhpjjqwzv",
+      "name": "Johan Cruijff Schaal 2023",
+      "abbr": "Johan Cruijff",
+      "start_time": 1691078400,
+      "end_time": 1691251140,
+      "rounds": [
+        {
+          "id": "4wyrn4h0259q86p",
+          "bracket_id": "x7lm7phoxw1m2wd",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1691172000,
+          "end_time": 1691172000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "vjxm8gh4z2zkr6o",
+              "round_id": "4wyrn4h0259q86p",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "p4jwq2ghdeom0ve",
+              "away_team_id": "p3glrw7h5klqdyj",
+              "winner_team_id": "p3glrw7h5klqdyj",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "dn1m1ghp6l20moe"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "p4jwq2ghdeom0ve": {
+      "id": "p4jwq2ghdeom0ve",
+      "name": "Feyenoord"
+    },
+    "p3glrw7h5klqdyj": {
+      "id": "p3glrw7h5klqdyj",
+      "name": "PSV Eindhoven"
+    }
+  },
+  "sport_events": {
+    "dn1m1ghp6l20moe": {
+      "id": "dn1m1ghp6l20moe",
+      "home_team_id": "p4jwq2ghdeom0ve",
+      "away_team_id": "p3glrw7h5klqdyj",
+      "start_timestamp": 1691172000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

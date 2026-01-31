@@ -1,0 +1,259 @@
+{
+  "season_id": "d23xmvkh5e3qg8n",
+  "brackets": [
+    {
+      "id": "l5ergphvneyr8k0",
+      "competition_id": "l965mkyhg0r1ge4",
+      "season_id": "d23xmvkh5e3qg8n",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1732118400,
+      "end_time": 1732463940,
+      "rounds": [
+        {
+          "id": "vjxm8ghwy8kr6od",
+          "bracket_id": "l5ergphvneyr8k0",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1732212000,
+          "end_time": 1732456800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "y0or5jh4o1v1qwz",
+              "round_id": "vjxm8ghwy8kr6od",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "gx7lm7phdx4m2wd",
+              "away_team_id": "v2y8m4zho37ql07",
+              "winner_team_id": "v2y8m4zho37ql07",
+              "home_score": 2,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "965mkyhyxdpwr1g",
+                "y39mp1hzn2kpmoj"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "gx7lm7phdx4m2wd": {
+      "id": "gx7lm7phdx4m2wd",
+      "name": "Landskrona BoIS"
+    },
+    "v2y8m4zho37ql07": {
+      "id": "v2y8m4zho37ql07",
+      "name": "IFK Varnamo"
+    }
+  },
+  "sport_events": {
+    "965mkyhyxdpwr1g": {
+      "id": "965mkyhyxdpwr1g",
+      "home_team_id": "gx7lm7phdx4m2wd",
+      "away_team_id": "v2y8m4zho37ql07",
+      "start_timestamp": 1732215000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 1,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "y39mp1hzn2kpmoj",
+      "incidents": []
+    },
+    "y39mp1hzn2kpmoj": {
+      "id": "y39mp1hzn2kpmoj",
+      "home_team_id": "v2y8m4zho37ql07",
+      "away_team_id": "gx7lm7phdx4m2wd",
+      "start_timestamp": 1732456800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "965mkyhyxdpwr1g",
+      "incidents": [
+        {
+          "time": 37,
+          "type": 1,
+          "position": 1,
+          "player_id": "x7lm7ph9vwjm2wd",
+          "assist1_id": "3glrw7hj0joqdyj",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Albin Lohikangas",
+          "assist1_name": "Gustav Engvall"
+        },
+        {
+          "time": 46,
+          "type": 3,
+          "position": 1,
+          "player_id": "dj2ryohj2z9pq1z",
+          "player_name": "Michael Stanwind"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnhep8gm7vx",
+          "out_player_id": "y39mp1hy9k21moj",
+          "in_player_name": "Ajdin Zeljkovic",
+          "out_player_name": "Joel Persson Voelkerling"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "6ypq3nhwg9jwmd7",
+          "out_player_id": "1l4rjnhkl9ygm7v",
+          "in_player_name": "Kofi Asare",
+          "out_player_name": "christian stark"
+        },
+        {
+          "time": 54,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "vjxm8ghxpekr6od",
+          "out_player_id": "vjxm8ghj5k74r6o",
+          "in_player_name": "Edi Sylisufaj",
+          "out_player_name": "Victor Karlsson"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "2y8m4zhg91lwql0",
+          "out_player_id": "4wyrn4hd5owpq86",
+          "in_player_name": "Melker Jonsson",
+          "out_player_name": "Jesper Strid"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "ednm9whvg6w0ryo",
+          "out_player_id": "vjxm8ghj7l15r6o",
+          "in_player_name": "Constantino Capotondi",
+          "out_player_name": "Robin Dzabic"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8ghgewvr6od",
+          "out_player_id": "dj2ryohj2z9pq1z",
+          "in_player_name": "Freddy Winst",
+          "out_player_name": "Michael Stanwind"
+        },
+        {
+          "time": 75,
+          "type": 3,
+          "position": 1,
+          "player_id": "4wyrn4hdnkyq86p",
+          "player_name": "Marco Bustos"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "pxwrxlhjg4knryk",
+          "out_player_id": "4wyrn4hdnkyq86p",
+          "in_player_name": "Johan Rapp",
+          "out_player_name": "Marco Bustos"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4wyrn4h4o6k4q86",
+          "out_player_id": "3glrw7hj0joqdyj",
+          "in_player_name": "Frank Junior Adjei",
+          "out_player_name": "Gustav Engvall"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y0or5jhg4e3qwzv",
+          "out_player_id": "3glrw7h1n6dqdyj",
+          "in_player_name": "Carl Johansson",
+          "out_player_name": "Simon Thern"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y0or5jhe88pqwzv",
+          "out_player_id": "6ypq3nh0e8omd7o",
+          "in_player_name": "Filip Sachpekidis",
+          "out_player_name": "Philip Andersson"
+        },
+        {
+          "time": 88,
+          "type": 3,
+          "position": 1,
+          "player_id": "vjxm8ghgewvr6od",
+          "player_name": "Freddy Winst"
+        },
+        {
+          "time": 96,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnhz9eyxm7v",
+          "player_name": "Luke Le Roux"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

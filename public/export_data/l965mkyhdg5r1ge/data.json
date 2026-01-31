@@ -1,0 +1,117 @@
+{
+  "season_id": "l965mkyhdg5r1ge",
+  "brackets": [
+    {
+      "id": "l7oqdeh6gy6r510",
+      "competition_id": "gy0or5jho9qwzv3",
+      "season_id": "l965mkyhdg5r1ge",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1685721600,
+      "end_time": 1686326340,
+      "rounds": [
+        {
+          "id": "6ypq3nhgwp3md7o",
+          "bracket_id": "l7oqdeh6gy6r510",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1685790000,
+          "end_time": 1686308400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "8yomo4h7pvn9q0j",
+              "round_id": "6ypq3nhgwp3md7o",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "3glrw7hz632qdyj",
+              "away_team_id": "x7lm7phwwjzm2wd",
+              "winner_team_id": "3glrw7hz632qdyj",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "2y8m4zhwowx5ql0",
+                "l5ergphl1l8yr8k"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "3glrw7hz632qdyj": {
+      "id": "3glrw7hz632qdyj",
+      "name": "Khust City"
+    },
+    "x7lm7phwwjzm2wd": {
+      "id": "x7lm7phwwjzm2wd",
+      "name": "Fenix Mariupol"
+    }
+  },
+  "sport_events": {
+    "2y8m4zhwowx5ql0": {
+      "id": "2y8m4zhwowx5ql0",
+      "home_team_id": "3glrw7hz632qdyj",
+      "away_team_id": "x7lm7phwwjzm2wd",
+      "start_timestamp": 1685790000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "l5ergphl1l8yr8k": {
+      "id": "l5ergphl1l8yr8k",
+      "home_team_id": "x7lm7phwwjzm2wd",
+      "away_team_id": "3glrw7hz632qdyj",
+      "start_timestamp": 1686308400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

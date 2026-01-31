@@ -1,0 +1,86 @@
+{
+  "season_id": "vl7oqdehpngr510",
+  "brackets": [
+    {
+      "id": "2y8m4zhj508ql07",
+      "competition_id": "z318q66hjyqo9jd",
+      "season_id": "vl7oqdehpngr510",
+      "name": "Knockout stage",
+      "abbr": "Supercup 2023",
+      "start_time": 1691769600,
+      "end_time": 1691855940,
+      "rounds": [
+        {
+          "id": "ednm9wh6vp1ryox",
+          "bracket_id": "2y8m4zhj508ql07",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1691865900,
+          "end_time": 1691865900,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dj2ryohkonn9q1z",
+              "round_id": "ednm9wh6vp1ryox",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "yl5ergphjy2r8k0",
+              "away_team_id": "z318q66hdleqo9j",
+              "winner_team_id": "z318q66hdleqo9j",
+              "home_score": 0,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "8yomo4hgp1j5q0j"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "yl5ergphjy2r8k0": {
+      "id": "yl5ergphjy2r8k0",
+      "name": "FC Bayern Munich"
+    },
+    "z318q66hdleqo9j": {
+      "id": "z318q66hdleqo9j",
+      "name": "RB Leipzig"
+    }
+  },
+  "sport_events": {
+    "8yomo4hgp1j5q0j": {
+      "id": "8yomo4hgp1j5q0j",
+      "home_team_id": "yl5ergphjy2r8k0",
+      "away_team_id": "z318q66hdleqo9j",
+      "start_timestamp": 1691865900,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

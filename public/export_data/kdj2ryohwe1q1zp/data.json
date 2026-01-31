@@ -1,0 +1,381 @@
+{
+  "season_id": "kdj2ryohwe1q1zp",
+  "brackets": [
+    {
+      "id": "6ypq3nhznx3md7o",
+      "competition_id": "l965mkyhg0r1ge4",
+      "season_id": "kdj2ryohwe1q1zp",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1763740800,
+      "end_time": 1764431940,
+      "rounds": [
+        {
+          "id": "vjxm8gh5n4zr6od",
+          "bracket_id": "6ypq3nhznx3md7o",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1763820000,
+          "end_time": 1764424800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dj2ryohyp1xzq1z",
+              "round_id": "vjxm8gh5n4zr6od",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "yl5ergph1k3r8k0",
+              "away_team_id": "vl7oqdehk28r510",
+              "winner_team_id": "yl5ergph1k3r8k0",
+              "home_score": 3,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "4wyrn4h6ldxxq86",
+                "l5ergph48vw4r8k"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "yl5ergph1k3r8k0": {
+      "id": "yl5ergph1k3r8k0",
+      "name": "Orgryte"
+    },
+    "vl7oqdehk28r510": {
+      "id": "vl7oqdehk28r510",
+      "name": "IFK Norrkoping FK"
+    }
+  },
+  "sport_events": {
+    "4wyrn4h6ldxxq86": {
+      "id": "4wyrn4h6ldxxq86",
+      "home_team_id": "yl5ergph1k3r8k0",
+      "away_team_id": "vl7oqdehk28r510",
+      "start_timestamp": 1763820000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 1,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "l5ergph48vw4r8k",
+      "incidents": [
+        {
+          "time": 10,
+          "type": 1,
+          "position": 1,
+          "player_id": "pxwrxlh9x1oryk0",
+          "assist1_id": "965mkyh7zoyr1ge",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Daniel Paulson",
+          "assist1_name": "Tobias Sana"
+        },
+        {
+          "time": 37,
+          "type": 3,
+          "position": 1,
+          "player_id": "pxwrxlh1px5ryk0",
+          "player_name": "Jonathan Azulay"
+        },
+        {
+          "time": 43,
+          "type": 1,
+          "position": 1,
+          "player_id": "l7oqdehdlpwr510",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Noah Christoffersson"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 55,
+          "type": 15,
+          "position": 1,
+          "player_id": "pxwrxlh1px5ryk0",
+          "player_name": "Jonathan Azulay"
+        },
+        {
+          "time": 58,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "n54qllh87788qvy",
+          "out_player_id": "n54qllhx3d6qvy9",
+          "in_player_name": "Waylon Renecke",
+          "out_player_name": "Anton Andreasson"
+        },
+        {
+          "time": 66,
+          "type": 1,
+          "position": 1,
+          "player_id": "l7oqdehdlpwr510",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Noah Christoffersson"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "1l4rjnhz8l9em7v",
+          "out_player_id": "ednm9whz4z7ryox",
+          "in_player_name": "Yahya·Kalley",
+          "out_player_name": "Max Watson"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "6ypq3nhlgl3lmd7",
+          "out_player_id": "l7oqdehdlpwr510",
+          "in_player_name": "owen price parker",
+          "out_player_name": "Noah Christoffersson"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "3glrw7hz9nywqdy",
+          "out_player_id": "1l4rjnhxwjlzm7v",
+          "in_player_name": "Axel Vilhelm Lorens Brönner",
+          "out_player_name": "Marcus Baggesen"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "318q66hj796qo9j",
+          "out_player_id": "x7lm7ph0zyokm2w",
+          "in_player_name": "William Kenndal",
+          "out_player_name": "Amel Mujanić"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "k82rekhye2yvrep",
+          "out_player_id": "y0or5jhe0pe5qwz",
+          "in_player_name": "William Svensson",
+          "out_player_name": "Isak·Dahlqvist"
+        },
+        {
+          "time": 89,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 96,
+          "type": 3,
+          "add_time": 6,
+          "position": 2,
+          "player_id": "6ypq3nhzeexnmd7",
+          "player_name": "Ismet Lushaku"
+        },
+        {
+          "time": 96,
+          "type": 3,
+          "add_time": 6,
+          "position": 1,
+          "player_id": "965mkyh355pjr1g",
+          "player_name": "Charlie Vindehall"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "l5ergph48vw4r8k": {
+      "id": "l5ergph48vw4r8k",
+      "home_team_id": "vl7oqdehk28r510",
+      "away_team_id": "yl5ergph1k3r8k0",
+      "start_timestamp": 1764424800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 10,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "4wyrn4h6ldxxq86",
+      "incidents": [
+        {
+          "time": 39,
+          "type": 3,
+          "position": 1,
+          "player_id": "dj2ryohydwyq1zp",
+          "player_name": "Christoffer Nyman"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "k82rekhye2yvrep",
+          "out_player_id": "n54qllhx3d6qvy9",
+          "in_player_name": "William Svensson",
+          "out_player_name": "Anton Andreasson"
+        },
+        {
+          "time": 55,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "6ypq3nhlgl3lmd7",
+          "out_player_id": "965mkyh355pjr1g",
+          "in_player_name": "owen price parker",
+          "out_player_name": "Charlie Vindehall"
+        },
+        {
+          "time": 65,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "3glrw7hz9nywqdy",
+          "out_player_id": "dn1m1ghnkx1moep",
+          "in_player_name": "Axel Vilhelm Lorens Brönner",
+          "out_player_name": "Alexander Fransson"
+        },
+        {
+          "time": 67,
+          "type": 3,
+          "position": 1,
+          "player_id": "vjxm8ghgvekr6od",
+          "player_name": "Arnór Traustason"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "6ypq3nh4oelmd7o",
+          "out_player_id": "n54qllh86z5yqvy",
+          "in_player_name": "Amadeus Sögaard",
+          "out_player_name": "Moutaz Neffati"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnhz8l9em7v",
+          "out_player_id": "1l4rjnhxwjlzm7v",
+          "in_player_name": "Yahya·Kalley",
+          "out_player_name": "Marcus Baggesen"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "6ypq3nhzeexnmd7",
+          "out_player_id": "pxwrxlh9g83lryk",
+          "in_player_name": "Ismet Lushaku",
+          "out_player_name": "Anton·Eriksson"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7ph9wnewm2w",
+          "out_player_id": "vjxm8ghgvekr6od",
+          "in_player_name": "Jónatan Gudni Arnarsson",
+          "out_player_name": "Arnór Traustason"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l7oqdehn45vr510",
+          "out_player_id": "965mkyh7zoyr1ge",
+          "in_player_name": "Nicklas Bärkroth",
+          "out_player_name": "Tobias Sana"
+        },
+        {
+          "time": 84,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnhz8l9em7v",
+          "player_name": "Yahya·Kalley"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7ph9y38gm2w",
+          "out_player_id": "3glrw7hz6wo8qdy",
+          "in_player_name": "Abdoulie Tamba",
+          "out_player_name": "Ake Andersson"
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "add_time": 1,
+          "position": 2,
+          "in_player_id": "4wyrn4h4odz9q86",
+          "out_player_id": "l7oqdehdlpwr510",
+          "in_player_name": "filip liam andersson",
+          "out_player_name": "Noah Christoffersson"
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "add_time": 1,
+          "position": 2,
+          "in_player_id": "318q66hj796qo9j",
+          "out_player_id": "pxwrxlh9x1oryk0",
+          "in_player_name": "William Kenndal",
+          "out_player_name": "Daniel Paulson"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

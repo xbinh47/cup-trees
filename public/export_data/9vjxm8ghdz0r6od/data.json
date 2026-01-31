@@ -1,0 +1,96 @@
+{
+  "season_id": "9vjxm8ghdz0r6od",
+  "brackets": [
+    {
+      "id": "8yomo4hk6enq0j6",
+      "competition_id": "p4jwq2gh4o9m0ve",
+      "season_id": "9vjxm8ghdz0r6od",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1699027200,
+      "end_time": 1699718340,
+      "rounds": [
+        {
+          "id": "y0or5jhjd8eqwzv",
+          "bracket_id": "8yomo4hk6enq0j6",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1699678800,
+          "end_time": 1699678800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l7oqdehn74lkr51",
+              "round_id": "y0or5jhjd8eqwzv",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "zp5rzgh7jk6q82w",
+              "away_team_id": "2y8m4zh3d4oql07",
+              "winner_team_id": "2y8m4zh3d4oql07",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "l7oqdeho455gr51"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n54qllh9yn8qvy9",
+          "bracket_id": "8yomo4hk6enq0j6",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 2,
+          "match_ups": []
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "2y8m4zh3d4oql07": {
+      "id": "2y8m4zh3d4oql07",
+      "name": "Suwon FC Women"
+    },
+    "zp5rzgh7jk6q82w": {
+      "id": "zp5rzgh7jk6q82w",
+      "name": "Hwacheon KSPO WFC"
+    }
+  },
+  "sport_events": {
+    "l7oqdeho455gr51": {
+      "id": "l7oqdeho455gr51",
+      "home_team_id": "zp5rzgh7jk6q82w",
+      "away_team_id": "2y8m4zh3d4oql07",
+      "start_timestamp": 1699678800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 2,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

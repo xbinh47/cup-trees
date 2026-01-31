@@ -1,0 +1,1015 @@
+{
+  "season_id": "4zp5rzghl5eq82w",
+  "brackets": [
+    {
+      "id": "4jwq2ghv61gm0ve",
+      "competition_id": "8y39mp1hwxmojxg",
+      "season_id": "4zp5rzghl5eq82w",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1748361600,
+      "end_time": 1748707140,
+      "rounds": [
+        {
+          "id": "jw2r09h6613rz84",
+          "bracket_id": "4jwq2ghv61gm0ve",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1748440800,
+          "end_time": 1748709000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "k82rekh9w5k0rep",
+              "round_id": "jw2r09h6613rz84",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "4zp5rzgh9gpq82w",
+              "away_team_id": "9dn1m1ghd6wmoep",
+              "winner_team_id": "9dn1m1ghd6wmoep",
+              "home_score": 2,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "l5ergph4oknkr8k",
+                "dj2ryohlk7n3q1z"
+              ]
+            },
+            {
+              "id": "318q66h0w9ewqo9",
+              "round_id": "jw2r09h6613rz84",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "ednm9whk686ryox",
+              "away_team_id": "k82rekh9nkvrepz",
+              "winner_team_id": "ednm9whk686ryox",
+              "home_score": 4,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "4wyrn4h68yv6q86",
+                "l7oqdehgnjl9r51"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "9dn1m1ghd6wmoep": {
+      "id": "9dn1m1ghd6wmoep",
+      "name": "Akhmat Grozny"
+    },
+    "ednm9whk686ryox": {
+      "id": "ednm9whk686ryox",
+      "name": "FC Sochi"
+    },
+    "4zp5rzgh9gpq82w": {
+      "id": "4zp5rzgh9gpq82w",
+      "name": "Ural Yekaterinburg"
+    },
+    "k82rekh9nkvrepz": {
+      "id": "k82rekh9nkvrepz",
+      "name": "FC Pari Nizhniy Novgorod"
+    }
+  },
+  "sport_events": {
+    "4wyrn4h68yv6q86": {
+      "id": "4wyrn4h68yv6q86",
+      "home_team_id": "ednm9whk686ryox",
+      "away_team_id": "k82rekh9nkvrepz",
+      "start_timestamp": 1748449800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 11,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 1,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "l7oqdehgnjl9r51",
+      "incidents": [
+        {
+          "time": 14,
+          "type": 1,
+          "position": 1,
+          "player_id": "23xmvkhd22dvqg8",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Roman Pasevich"
+        },
+        {
+          "time": 37,
+          "type": 28,
+          "position": 1,
+          "player_id": "jw2r09hxej09rz8",
+          "var_reason": 6,
+          "var_result": 7,
+          "player_name": "vladimir sychevoi"
+        },
+        {
+          "time": 38,
+          "type": 4,
+          "position": 1,
+          "player_id": "jw2r09hxej09rz8",
+          "player_name": "vladimir sychevoi",
+          "reason_type": 12
+        },
+        {
+          "time": 39,
+          "type": 3,
+          "position": 1,
+          "player_id": "23xmvkh4zgkxqg8",
+          "player_name": "Robert Moreno",
+          "reason_type": 19
+        },
+        {
+          "time": 42,
+          "type": 3,
+          "position": 1,
+          "player_id": "pxwrxlhzvepryk0",
+          "player_name": "Ignacio Saavedra",
+          "reason_type": 18
+        },
+        {
+          "time": 42,
+          "type": 3,
+          "position": 2,
+          "player_id": "6ypq3nhz3v8lmd7",
+          "player_name": "Aleksandr Ektov",
+          "reason_type": 18
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 1,
+          "add_time": 4,
+          "position": 2,
+          "player_id": "pxwrxlh9d16ryk0",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Aleksandr Troshechkin"
+        },
+        {
+          "time": 51,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh0gxw9r51",
+          "out_player_id": "23xmvkhd22dvqg8",
+          "in_player_name": "Maksim Kaynov",
+          "out_player_name": "Roman Pasevich"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l5ergphpn50r8k0",
+          "out_player_id": "8yomo4hz6pnq0j6",
+          "in_player_name": "Vladislav Karapuzov",
+          "out_player_name": "Nikita Kakkoev"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghvnk02m0v",
+          "out_player_id": "6ypq3nhz3v8lmd7",
+          "in_player_name": "Valeriy Tsarukyan",
+          "out_player_name": "Aleksandr Ektov"
+        },
+        {
+          "time": 52,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "1l4rjnhk1l6vm7v",
+          "out_player_id": "n54qllhj03kqvy9",
+          "in_player_name": "Yaroslav Krashevskiy",
+          "out_player_name": "Kirill Gotsuk"
+        },
+        {
+          "time": 57,
+          "type": 3,
+          "position": 1,
+          "player_id": "k82rekhogp2prep",
+          "player_name": "Nabil Aberdin",
+          "reason_type": 1
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dn1m1ghnpzy9moe",
+          "out_player_id": "k82rekh8g2orepz",
+          "in_player_name": "Thiago Vecino",
+          "out_player_name": "Vyacheslav Grulev"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "k82rekh3ex6repz",
+          "out_player_id": "dj2ryohnvnlq1zp",
+          "in_player_name": "Pavel Maslov",
+          "out_player_name": "Kirill Zaika"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghzz1dq82w",
+          "out_player_id": "k82rekhogp2prep",
+          "in_player_name": "Kirill Suslov",
+          "out_player_name": "Nabil Aberdin"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh318o8qwz",
+          "out_player_id": "dn1m1gh1xd8moep",
+          "in_player_name": "Juan Camilo Castillo",
+          "out_player_name": "Juan Manuel Boselli"
+        },
+        {
+          "time": 88,
+          "type": 1,
+          "position": 2,
+          "player_id": "4jwq2ghv92z3m0v",
+          "assist1_id": "n54qllh8n3zqvy9",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Viktor·Aleksandrov",
+          "assist1_name": "Nikolay Kalinskiy"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohk1x8q1zp",
+          "out_player_id": "pxwrxlhzvepryk0",
+          "in_player_name": "Sergey Terekhov",
+          "out_player_name": "Ignacio Saavedra"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zh84k9vql0",
+          "out_player_id": "jw2r09hw416rz84",
+          "in_player_name": "Daniil Martovoy",
+          "out_player_name": "Oleg Kozhemyakin"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 2,
+          "player_id": "4jwq2ghv92z3m0v",
+          "player_name": "Viktor·Aleksandrov",
+          "reason_type": 1
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "dj2ryohlk7n3q1z": {
+      "id": "dj2ryohlk7n3q1z",
+      "home_team_id": "9dn1m1ghd6wmoep",
+      "away_team_id": "4zp5rzgh9gpq82w",
+      "start_timestamp": 1748709000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 10,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "l5ergph4oknkr8k",
+      "incidents": [
+        {
+          "time": 14,
+          "type": 28,
+          "position": 2,
+          "player_id": "6ypq3nh46xkmd7o",
+          "var_reason": 1,
+          "var_result": 2,
+          "player_name": "Timur Ayupov"
+        },
+        {
+          "time": 38,
+          "type": 3,
+          "position": 1,
+          "player_id": "k82rekhy1egvrep",
+          "player_name": "Arsen Adamov",
+          "reason_type": 1
+        },
+        {
+          "time": 41,
+          "type": 3,
+          "position": 1,
+          "player_id": "l7oqdeh4d90yr51",
+          "player_name": "Lechii Sadulaev",
+          "reason_type": 15
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 51,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "965mkyhexng1r1g",
+          "out_player_id": "8yomo4hvwjnq0j6",
+          "in_player_name": "Daniil Zorin",
+          "out_player_name": "Vladislav Kamilov"
+        },
+        {
+          "time": 49,
+          "type": 3,
+          "position": 2,
+          "player_id": "pxwrxlhjy43ryk0",
+          "player_name": "Silvije Begić",
+          "reason_type": 1
+        },
+        {
+          "time": 51,
+          "type": 8,
+          "position": 1,
+          "player_id": "y0or5jh3zgzqwzv",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Georgi Melkadze"
+        },
+        {
+          "time": 56,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jh3zgzqwzv",
+          "player_name": "Georgi Melkadze",
+          "reason_type": 1
+        },
+        {
+          "time": 56,
+          "type": 3,
+          "position": 2,
+          "player_id": "6ypq3nh46xkmd7o",
+          "player_name": "Timur Ayupov",
+          "reason_type": 1
+        },
+        {
+          "time": 65,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whv614vryo",
+          "out_player_id": "l7oqdeh0kgnpr51",
+          "in_player_name": "Egor Mosin",
+          "out_player_name": "ilya ishkov"
+        },
+        {
+          "time": 74,
+          "type": 3,
+          "position": 2,
+          "player_id": "23xmvkhxk2zqg8n",
+          "player_name": "Vladislav Malkevich",
+          "reason_type": 1
+        },
+        {
+          "time": 74,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghpozpq82w",
+          "out_player_id": "pxwrxlhjy43ryk0",
+          "in_player_name": "Artem Mamin",
+          "out_player_name": "Silvije Begić"
+        },
+        {
+          "time": 83,
+          "type": 3,
+          "position": 2,
+          "player_id": "y39mp1hj4lzvmoj",
+          "player_name": "Yuriy·Zheleznov",
+          "reason_type": 1
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 93,
+          "type": 1,
+          "add_time": 3,
+          "position": 1,
+          "player_id": "965mkyhexng1r1g",
+          "assist1_id": "318q66h0dl3oqo9",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Daniil Zorin",
+          "assist1_name": "Amine Talal"
+        },
+        {
+          "time": 94,
+          "type": 9,
+          "add_time": 4,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dn1m1gh8l419moe",
+          "out_player_id": "4wyrn4he1gn0q86",
+          "in_player_name": "Maksim Voronov",
+          "out_player_name": "Andrey Egorychev"
+        },
+        {
+          "time": 95,
+          "type": 9,
+          "add_time": 5,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh3dn81qwz",
+          "out_player_id": "y39mp1hj4lzvmoj",
+          "in_player_name": "S. Bessmertny",
+          "out_player_name": "Yuriy·Zheleznov"
+        },
+        {
+          "time": 95,
+          "type": 9,
+          "add_time": 5,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "vjxm8gh8eegr6od",
+          "out_player_id": "3glrw7hjz6o7qdy",
+          "in_player_name": "Evgeni Markov",
+          "out_player_name": "Fanil·Sungatulin"
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "l5ergph4oknkr8k": {
+      "id": "l5ergph4oknkr8k",
+      "home_team_id": "4zp5rzgh9gpq82w",
+      "away_team_id": "9dn1m1ghd6wmoep",
+      "start_timestamp": 1748440800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "dj2ryohlk7n3q1z",
+      "incidents": [
+        {
+          "time": 14,
+          "type": 28,
+          "position": 1,
+          "player_id": "pxwrxlhjy43ryk0",
+          "var_reason": 1,
+          "var_result": 2,
+          "player_name": "Silvije Begić"
+        },
+        {
+          "time": 15,
+          "type": 3,
+          "position": 1,
+          "player_id": "4wyrn4he1gn0q86",
+          "player_name": "Andrey Egorychev",
+          "reason_type": 6
+        },
+        {
+          "time": 16,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdehlp41r510",
+          "player_name": "Darko Todorović",
+          "reason_type": 1
+        },
+        {
+          "time": 21,
+          "type": 1,
+          "position": 2,
+          "player_id": "y0or5jh3zgzqwzv",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Georgi Melkadze"
+        },
+        {
+          "time": 25,
+          "type": 28,
+          "position": 1,
+          "player_id": "3glrw7hjz6o7qdy",
+          "var_reason": 6,
+          "var_result": 7,
+          "player_name": "Fanil·Sungatulin"
+        },
+        {
+          "time": 26,
+          "type": 3,
+          "position": 1,
+          "player_id": "3glrw7hjz6o7qdy",
+          "player_name": "Fanil·Sungatulin",
+          "reason_type": 1
+        },
+        {
+          "time": 33,
+          "type": 28,
+          "position": 1,
+          "player_id": "4wyrn4he1gn0q86",
+          "var_reason": 4,
+          "var_result": 4,
+          "player_name": "Andrey Egorychev"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 6,
+          "position": 0
+        },
+        {
+          "time": 52,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nh46xkmd7o",
+          "out_player_id": "3glrw7hjz6o7qdy",
+          "in_player_name": "Timur Ayupov",
+          "out_player_name": "Fanil·Sungatulin"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whz7j4lryo",
+          "out_player_id": "l7oqdehlp41r510",
+          "in_player_name": "Maksim·Samorodov",
+          "out_player_name": "Darko Todorović"
+        },
+        {
+          "time": 50,
+          "type": 8,
+          "position": 1,
+          "player_id": "zp5rzghz05xnq82",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Martin Sekulic"
+        },
+        {
+          "time": 59,
+          "type": 1,
+          "position": 1,
+          "player_id": "zp5rzghz05xnq82",
+          "assist1_id": "l7oqdeh0kgnpr51",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Martin Sekulic",
+          "assist1_name": "ilya ishkov"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "318q66h0dl3oqo9",
+          "out_player_id": "965mkyhexng1r1g",
+          "in_player_name": "Amine Talal",
+          "out_player_name": "Daniil Zorin"
+        },
+        {
+          "time": 65,
+          "type": 3,
+          "position": 1,
+          "player_id": "pxwrxlhjy43ryk0",
+          "player_name": "Silvije Begić",
+          "reason_type": 1
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dn1m1gh8l419moe",
+          "out_player_id": "l7oqdeh0kgnpr51",
+          "in_player_name": "Maksim Voronov",
+          "out_player_name": "ilya ishkov"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whv614vryo",
+          "out_player_id": "y39mp1hj4lzvmoj",
+          "in_player_name": "Egor Mosin",
+          "out_player_name": "Yuriy·Zheleznov"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "vjxm8gh8eegr6od",
+          "out_player_id": "4wyrn4he1gn0q86",
+          "in_player_name": "Evgeni Markov",
+          "out_player_name": "Andrey Egorychev"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "965mkyhzdenr1ge",
+          "out_player_id": "y0or5jh3zgzqwzv",
+          "in_player_name": "Rodrigo Ruiz Díaz",
+          "out_player_name": "Georgi Melkadze"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "965mkyhe7v52r1g",
+          "out_player_id": "8yomo4hvwjnq0j6",
+          "in_player_name": "Zaim Divanović",
+          "out_player_name": "Vladislav Kamilov"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 6,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh3dn81qwz",
+          "out_player_id": "zp5rzghz05xnq82",
+          "in_player_name": "S. Bessmertny",
+          "out_player_name": "Martin Sekulic"
+        },
+        {
+          "time": 93,
+          "type": 3,
+          "add_time": 3,
+          "position": 1,
+          "player_id": "1l4rjnhzzo4ym7v",
+          "player_name": "Aleksey·Mamin",
+          "reason_type": 15
+        },
+        {
+          "time": 97,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "l7oqdehgnjl9r51": {
+      "id": "l7oqdehgnjl9r51",
+      "home_team_id": "k82rekh9nkvrepz",
+      "away_team_id": "ednm9whk686ryox",
+      "start_timestamp": 1748700000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 3
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "4wyrn4h68yv6q86",
+      "incidents": [
+        {
+          "time": 21,
+          "type": 1,
+          "position": 2,
+          "player_id": "dj2ryohnvnlq1zp",
+          "assist1_id": "jw2r09hw416rz84",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Kirill Zaika",
+          "assist1_name": "Oleg Kozhemyakin"
+        },
+        {
+          "time": 28,
+          "type": 28,
+          "position": 2,
+          "player_id": "k82rekhogp2prep",
+          "var_reason": 5,
+          "var_result": 6,
+          "player_name": "Nabil Aberdin"
+        },
+        {
+          "time": 29,
+          "type": 3,
+          "position": 2,
+          "player_id": "k82rekhogp2prep",
+          "player_name": "Nabil Aberdin",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 7,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 28,
+          "add_time": 2,
+          "position": 2,
+          "player_id": "pxwrxlhzvepryk0",
+          "var_reason": 4,
+          "var_result": 3,
+          "player_name": "Ignacio Saavedra"
+        },
+        {
+          "time": 49,
+          "type": 8,
+          "add_time": 4,
+          "position": 2,
+          "player_id": "dn1m1ghn57dmoep",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Martin Kramarič"
+        },
+        {
+          "time": 52,
+          "type": 1,
+          "add_time": 7,
+          "position": 2,
+          "player_id": "dn1m1ghn57dmoep",
+          "assist1_id": "jw2r09hw416rz84",
+          "away_score": 3,
+          "home_score": 0,
+          "player_name": "Martin Kramarič",
+          "assist1_name": "Oleg Kozhemyakin"
+        },
+        {
+          "time": 53,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghvnk02m0v",
+          "out_player_id": "dj2ryoh2j7kq1zp",
+          "in_player_name": "Valeriy Tsarukyan",
+          "out_player_name": "Stanislav Magkeev"
+        },
+        {
+          "time": 47,
+          "type": 3,
+          "position": 2,
+          "player_id": "dj2ryohnvnlq1zp",
+          "player_name": "Kirill Zaika",
+          "reason_type": 1
+        },
+        {
+          "time": 49,
+          "type": 3,
+          "position": 1,
+          "player_id": "4jwq2ghvnk02m0v",
+          "player_name": "Valeriy Tsarukyan",
+          "reason_type": 22
+        },
+        {
+          "time": 57,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dn1m1ghnpzy9moe",
+          "out_player_id": "k82rekh8g2orepz",
+          "in_player_name": "Thiago Vecino",
+          "out_player_name": "Vyacheslav Grulev"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whk9y9ryox",
+          "out_player_id": "ednm9whglxl6ryo",
+          "in_player_name": "Nikita Burmistrov",
+          "out_player_name": "Amur Balkizov"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh318o8qwz",
+          "out_player_id": "l5ergphpn50r8k0",
+          "in_player_name": "Juan Camilo Castillo",
+          "out_player_name": "Vladislav Karapuzov"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghzgkvoq82",
+          "out_player_id": "pxwrxlh9d16ryk0",
+          "in_player_name": "Nikita·Ermakov",
+          "out_player_name": "Aleksandr Troshechkin"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "1l4rjnhk1l6vm7v",
+          "out_player_id": "n54qllhj03kqvy9",
+          "in_player_name": "Yaroslav Krashevskiy",
+          "out_player_name": "Kirill Gotsuk"
+        },
+        {
+          "time": 80,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jh318o8qwz",
+          "player_name": "Juan Camilo Castillo",
+          "reason_type": 19
+        },
+        {
+          "time": 84,
+          "type": 8,
+          "position": 1,
+          "player_id": "dn1m1gh1xd8moep",
+          "away_score": 3,
+          "home_score": 1,
+          "player_name": "Juan Manuel Boselli"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh0gxw9r51",
+          "out_player_id": "jw2r09hw416rz84",
+          "in_player_name": "Maksim Kaynov",
+          "out_player_name": "Oleg Kozhemyakin"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "k82rekh3ex6repz",
+          "out_player_id": "zp5rzghpgo5q82w",
+          "in_player_name": "Pavel Maslov",
+          "out_player_name": "Ruslan Magal"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 93,
+          "type": 9,
+          "add_time": 3,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohk1x8q1zp",
+          "out_player_id": "dj2ryohnvnlq1zp",
+          "in_player_name": "Sergey Terekhov",
+          "out_player_name": "Kirill Zaika"
+        },
+        {
+          "time": 96,
+          "type": 3,
+          "add_time": 6,
+          "position": 2,
+          "player_id": "3glrw7hzz65vqdy",
+          "player_name": "Aleksandr Degtev",
+          "reason_type": 15
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

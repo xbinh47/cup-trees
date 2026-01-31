@@ -1,0 +1,117 @@
+{
+  "season_id": "gx7lm7phel7m2wd",
+  "brackets": [
+    {
+      "id": "965mkyh4yxkr1ge",
+      "competition_id": "z8yomo4hx9q0j6l",
+      "season_id": "gx7lm7phel7m2wd",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1685721600,
+      "end_time": 1686585540,
+      "rounds": [
+        {
+          "id": "k82rekhny4vrepz",
+          "bracket_id": "965mkyh4yxkr1ge",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1685808000,
+          "end_time": 1686076200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "4jwq2gh42oolm0v",
+              "round_id": "k82rekhny4vrepz",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "yl5ergph6kxr8k0",
+              "away_team_id": "8yomo4h73ogq0j6",
+              "winner_team_id": "8yomo4h73ogq0j6",
+              "home_score": 2,
+              "away_score": 6,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "y0or5jhzpz15qwz",
+                "l5ergphl1lner8k"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "8yomo4h73ogq0j6": {
+      "id": "8yomo4h73ogq0j6",
+      "name": "Stade Ouchy"
+    },
+    "yl5ergph6kxr8k0": {
+      "id": "yl5ergph6kxr8k0",
+      "name": "FC Sion"
+    }
+  },
+  "sport_events": {
+    "l5ergphl1lner8k": {
+      "id": "l5ergphl1lner8k",
+      "home_team_id": "8yomo4h73ogq0j6",
+      "away_team_id": "yl5ergph6kxr8k0",
+      "start_timestamp": 1686076200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 2
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "y0or5jhzpz15qwz": {
+      "id": "y0or5jhzpz15qwz",
+      "home_team_id": "yl5ergph6kxr8k0",
+      "away_team_id": "8yomo4h73ogq0j6",
+      "start_timestamp": 1685808000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "season_id": "4zp5rzghl05q82w",
+  "brackets": [
+    {
+      "id": "jw2r09hnejnrz84",
+      "competition_id": "9dn1m1gh24moepl",
+      "season_id": "4zp5rzghl05q82w",
+      "name": "Super Cup 2024",
+      "abbr": "Super Cup 202",
+      "start_time": 1711900800,
+      "end_time": 1712073540,
+      "rounds": [
+        {
+          "id": "jw2r09h9d51rz84",
+          "bracket_id": "jw2r09hnejnrz84",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1711999800,
+          "end_time": 1711999800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "318q66h0vpxeqo9",
+              "round_id": "jw2r09h9d51rz84",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "vjxm8gh4jldr6od",
+              "away_team_id": "x7lm7phkw03m2wd",
+              "winner_team_id": "vjxm8gh4jldr6od",
+              "home_score": 5,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "6ypq3nh3e5o0md7"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "x7lm7phkw03m2wd": {
+      "id": "x7lm7phkw03m2wd",
+      "name": "Valur Reykjavik"
+    },
+    "vjxm8gh4jldr6od": {
+      "id": "vjxm8gh4jldr6od",
+      "name": "Vikingur Reykjavik"
+    }
+  },
+  "sport_events": {
+    "6ypq3nh3e5o0md7": {
+      "id": "6ypq3nh3e5o0md7",
+      "home_team_id": "vjxm8gh4jldr6od",
+      "away_team_id": "x7lm7phkw03m2wd",
+      "start_timestamp": 1711999800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 2,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 1,
+          "yellow_card": 4,
+          "penalty_score": 4,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 1,
+          "type": 17,
+          "position": 1,
+          "player_id": "zp5rzghj9z2q82w",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Elfar Freyr Helgason"
+        },
+        {
+          "time": 13,
+          "type": 1,
+          "position": 2,
+          "player_id": "x7lm7phko4gm2wd",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Birkir Már Sævarsson"
+        },
+        {
+          "time": 40,
+          "type": 3,
+          "position": 1,
+          "player_id": "dj2ryohge2jq1zp",
+          "player_name": "Halldór Smári Sigurðsson"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4jwq2ghx5epdm0v",
+          "out_player_id": "4wyrn4h45yjjq86",
+          "in_player_name": "Fridleifur karl gunnarsson",
+          "out_player_name": "Gísli Gottskálk Þórðarson"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "8yomo4h7o2wq0j6",
+          "out_player_id": "4jwq2gh4p5pm0ve",
+          "in_player_name": "Kristinn Freyr Sigurðsson",
+          "out_player_name": "Gylfi Sigurðsson"
+        },
+        {
+          "time": 60,
+          "type": 15,
+          "position": 1,
+          "player_id": "dj2ryohge2jq1zp",
+          "player_name": "Halldór Smári Sigurðsson"
+        },
+        {
+          "time": 60,
+          "type": 3,
+          "position": 1,
+          "player_id": "jw2r09hp1w3rz84",
+          "player_name": "Oliver Ekroth"
+        },
+        {
+          "time": 60,
+          "type": 3,
+          "position": 2,
+          "player_id": "dj2ryohk8xyq1zp",
+          "player_name": "Hólmar Örn Eyjólfsson"
+        },
+        {
+          "time": 65,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 65,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "k82rekhowj7yrep",
+          "out_player_id": "4jwq2ghv9e88m0v",
+          "in_player_name": "Sveinn gisli",
+          "out_player_name": "Danijel Dejan Djuric"
+        },
+        {
+          "time": 73,
+          "type": 3,
+          "position": 1,
+          "player_id": "2y8m4zh3j95ql07",
+          "player_name": "Matthías Vilhjálmsson"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "8yomo4h2528lq0j",
+          "out_player_id": "x7lm7ph9yk0m2wd",
+          "in_player_name": "Adam Egir Palsson",
+          "out_player_name": "Tryggvi Hrafn Haraldsson"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "n54qllhel4vqvy9",
+          "out_player_id": "jw2r09h197zrz84",
+          "in_player_name": "Nikolaj Hansen",
+          "out_player_name": "Helgi Gudjonsson"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "3glrw7hjp201qdy",
+          "out_player_id": "3glrw7hz84xqdyj",
+          "in_player_name": "Ari Sigurpalsson",
+          "out_player_name": "Valdimar Thor Ingimundarson"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "ednm9whzp738ryo",
+          "out_player_id": "l5ergphv2v12r8k",
+          "in_player_name": "Gisli Unnarsson",
+          "out_player_name": "Jónatan Ingi Jónsson"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "4jwq2ghx5v45m0v",
+          "out_player_id": "dn1m1ghn0w27moe",
+          "in_player_name": "Bjarni Guðjón Brynjólfsson",
+          "out_player_name": "Lúkas Logi Heimisson"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 1,
+          "player_id": "n54qllhel4vqvy9",
+          "player_name": "Nikolaj Hansen"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "zp5rzghj9onq82w",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Sigurður Egill Lárusson"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "2y8m4zh3j95ql07",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Matthías Vilhjálmsson"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 2,
+          "player_id": "jw2r09hn8lxrz84",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Patrick Pedersen"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "3glrw7hjp201qdy",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Ari Sigurpalsson"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "8yomo4h2528lq0j",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Adam Egir Palsson"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "4jwq2ghx5epdm0v",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "Fridleifur karl gunnarsson"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 2,
+          "player_id": "8yomo4h7o2wq0j6",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "Kristinn Freyr Sigurðsson"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "jw2r09hp1w3rz84",
+          "away_score": 2,
+          "home_score": 4,
+          "player_name": "Oliver Ekroth"
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

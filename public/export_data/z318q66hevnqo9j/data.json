@@ -1,0 +1,637 @@
+{
+  "season_id": "z318q66hevnqo9j",
+  "brackets": [
+    {
+      "id": "dj2ryohy8w2q1zp",
+      "competition_id": "v2y8m4zhp4ql074",
+      "season_id": "z318q66hevnqo9j",
+      "name": "Promotion Playoffs",
+      "abbr": "Promotion Playoffs",
+      "start_time": 1716739200,
+      "end_time": 1718035140,
+      "rounds": [
+        {
+          "id": "4wyrn4hlz31q86p",
+          "bracket_id": "dj2ryohy8w2q1zp",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1716991200,
+          "end_time": 1717001100,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l7oqdeh6ld0xr51",
+              "round_id": "4wyrn4hlz31q86p",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "dj2ryohkn6kq1zp",
+              "away_team_id": "x7lm7phkg91m2wd",
+              "winner_team_id": "dj2ryohkn6kq1zp",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [
+                "y39mp1h510ozmoj"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "x7lm7phz7yxem2w"
+              ]
+            },
+            {
+              "id": "dj2ryohyn5g9q1z",
+              "round_id": "4wyrn4hlz31q86p",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "3glrw7hwg6dqdyj",
+              "away_team_id": "965mkyh7z44r1ge",
+              "winner_team_id": "3glrw7hwg6dqdyj",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [
+                "y39mp1h510ozmoj"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "vjxm8ghlwdkor6o"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l5ergph8016r8k0",
+          "bracket_id": "dj2ryohy8w2q1zp",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1717252200,
+          "end_time": 1717252200,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "y39mp1h510ozmoj",
+              "round_id": "l5ergph8016r8k0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "dj2ryohkn6kq1zp",
+              "away_team_id": "3glrw7hwg6dqdyj",
+              "winner_team_id": "3glrw7hwg6dqdyj",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [
+                "l7oqdeh6ld0xr51",
+                "dj2ryohyn5g9q1z"
+              ],
+              "event_ids": [
+                "x7lm7phz76e9m2w"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "dj2ryohkn6kq1zp": {
+      "id": "dj2ryohkn6kq1zp",
+      "name": "KKS 1925 Kalisz"
+    },
+    "965mkyh7z44r1ge": {
+      "id": "965mkyh7z44r1ge",
+      "name": "Chojniczanka Chojnice"
+    },
+    "3glrw7hwg6dqdyj": {
+      "id": "3glrw7hwg6dqdyj",
+      "name": "Stal Stalowa Wola"
+    },
+    "x7lm7phkg91m2wd": {
+      "id": "x7lm7phkg91m2wd",
+      "name": "Polonia Bytom"
+    }
+  },
+  "sport_events": {
+    "vjxm8ghlwdkor6o": {
+      "id": "vjxm8ghlwdkor6o",
+      "home_team_id": "3glrw7hwg6dqdyj",
+      "away_team_id": "965mkyh7z44r1ge",
+      "start_timestamp": 1717001100,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7phplpvm2wd",
+          "player_name": "Damian Oko"
+        },
+        {
+          "time": 57,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "965mkyhe48z9r1g",
+          "out_player_id": "y39mp1hy9d26moj",
+          "in_player_name": "vitalucci",
+          "out_player_name": "Dominik Banach"
+        },
+        {
+          "time": 57,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dn1m1gh3g851moe",
+          "out_player_id": "jw2r09hjo30xrz8",
+          "in_player_name": "antoni pralat",
+          "out_player_name": "Kacper Korczyc"
+        },
+        {
+          "time": 58,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "8yomo4hv92pwq0j",
+          "out_player_id": "zp5rzghpg7jeq82",
+          "in_player_name": "marcin kozina",
+          "out_player_name": "alef firmino"
+        },
+        {
+          "time": 60,
+          "type": 1,
+          "position": 1,
+          "player_id": "l5ergphe485zr8k",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Damian urban"
+        },
+        {
+          "time": 67,
+          "type": 3,
+          "position": 2,
+          "player_id": "n54qllh8yklwqvy",
+          "player_name": "sebastian szczytniewski"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8ghp474xr6o",
+          "out_player_id": "6ypq3nhw52dlmd7",
+          "in_player_name": "Arkadiusz ziarko",
+          "out_player_name": "kacper chelmecki"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "318q66h47lvlqo9",
+          "out_player_id": "l5ergphvvex9r8k",
+          "in_player_name": "adam imiela",
+          "out_player_name": "Patryk Zaucha"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7phwnw18m2w",
+          "out_player_id": "8yomo4h2wd4oq0j",
+          "in_player_name": "jakub banach",
+          "out_player_name": "jakub kowalski"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "2y8m4zhgpop8ql0",
+          "out_player_id": "965mkyhep8g0r1g",
+          "in_player_name": "Daniel·Skiba",
+          "out_player_name": "Blazej Sczepanek"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "n54qllhx88nyqvy",
+          "out_player_id": "23xmvkhk06jvqg8",
+          "in_player_name": "Oskar Paprzycki",
+          "out_player_name": "damian nowacki"
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7ph0vy6zm2w",
+          "out_player_id": "l7oqdeh421vzr51",
+          "in_player_name": "Lucjan Klisiewicz",
+          "out_player_name": "Sebastian Strózik"
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "pxwrxlhzg0geryk",
+          "out_player_id": "k82rekhyjjewrep",
+          "in_player_name": "Bartosz pioterczak",
+          "out_player_name": "Jakub Gorski"
+        },
+        {
+          "time": 92,
+          "type": 1,
+          "position": 1,
+          "player_id": "pxwrxlhzg0geryk",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Bartosz pioterczak"
+        },
+        {
+          "time": 95,
+          "type": 1,
+          "position": 2,
+          "player_id": "y0or5jhexxl4qwz",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Tomasz Boczek"
+        },
+        {
+          "time": 97,
+          "type": 3,
+          "position": 1,
+          "player_id": "318q66h47lvlqo9",
+          "player_name": "adam imiela"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "x7lm7phz76e9m2w": {
+      "id": "x7lm7phz76e9m2w",
+      "home_team_id": "dj2ryohkn6kq1zp",
+      "away_team_id": "3glrw7hwg6dqdyj",
+      "start_timestamp": 1717252200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 3,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 3,
+          "type": 1,
+          "position": 1,
+          "player_id": "4wyrn4hdgyx1q86",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "hubert sobol"
+        },
+        {
+          "time": 9,
+          "type": 3,
+          "position": 2,
+          "player_id": "6ypq3nhwnp30md7",
+          "player_name": "olivier sukiennicki"
+        },
+        {
+          "time": 23,
+          "type": 3,
+          "position": 2,
+          "player_id": "x7lm7phplpvm2wd",
+          "player_name": "Damian Oko"
+        },
+        {
+          "time": 46,
+          "type": 3,
+          "position": 1,
+          "player_id": "4wyrn4hdgyx1q86",
+          "player_name": "hubert sobol"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlhzg0geryk",
+          "out_player_id": "l7oqdeh421vzr51",
+          "in_player_name": "Bartosz pioterczak",
+          "out_player_name": "Sebastian Strózik"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7phwnw18m2w",
+          "out_player_id": "x7lm7phplpvm2wd",
+          "in_player_name": "jakub banach",
+          "out_player_name": "Damian Oko"
+        },
+        {
+          "time": 50,
+          "type": 4,
+          "position": 1
+        },
+        {
+          "time": 51,
+          "type": 1,
+          "position": 2,
+          "player_id": "k82rekhyjjewrep",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Jakub Gorski"
+        },
+        {
+          "time": 52,
+          "type": 1,
+          "position": 2,
+          "player_id": "k82rekhyjjewrep",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Jakub Gorski"
+        },
+        {
+          "time": 54,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7phww6ewm2w",
+          "out_player_id": "1l4rjnhxz9jm7vx",
+          "in_player_name": "bartlomiej putno",
+          "out_player_name": "Nestor Gordillo"
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "ednm9whz2gl1ryo",
+          "out_player_id": "y39mp1hykeoymoj",
+          "in_player_name": "Filip Szewczyk",
+          "out_player_name": "michal bednarski"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "vjxm8ghp474xr6o",
+          "out_player_id": "8yomo4h2wd4oq0j",
+          "in_player_name": "Arkadiusz ziarko",
+          "out_player_name": "jakub kowalski"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "2y8m4zh88496ql0",
+          "out_player_id": "l5ergphe7nz2r8k",
+          "in_player_name": "kamil koczy",
+          "out_player_name": "maciej bialczyk"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8ghjy0xyr6o",
+          "out_player_id": "l7oqdeh0d0zpr51",
+          "in_player_name": "Oskar Kalenik",
+          "out_player_name": "mateusz wysokinski"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "318q66h47lvlqo9",
+          "out_player_id": "k82rekhyjjewrep",
+          "in_player_name": "adam imiela",
+          "out_player_name": "Jakub Gorski"
+        },
+        {
+          "time": 85,
+          "type": 4,
+          "position": 1,
+          "player_id": "vjxm8ghjy0xyr6o",
+          "player_name": "Oskar Kalenik"
+        },
+        {
+          "time": 88,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnhzvndnm7v",
+          "player_name": "mateusz gawlik"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7ph0vy6zm2w",
+          "out_player_id": "6ypq3nhw52dlmd7",
+          "in_player_name": "Lucjan Klisiewicz",
+          "out_player_name": "kacper chelmecki"
+        },
+        {
+          "time": 88,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 91,
+          "type": 15,
+          "position": 1,
+          "player_id": "1l4rjnhzvndnm7v",
+          "player_name": "mateusz gawlik"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "x7lm7phz7yxem2w": {
+      "id": "x7lm7phz7yxem2w",
+      "home_team_id": "dj2ryohkn6kq1zp",
+      "away_team_id": "x7lm7phkg91m2wd",
+      "start_timestamp": 1716991200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 10,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 19,
+          "type": 3,
+          "position": 2,
+          "player_id": "jw2r09hx856yrz8",
+          "player_name": "lucjan zielinski"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "ednm9whz2gl1ryo",
+          "out_player_id": "y39mp1hykeoymoj",
+          "in_player_name": "Filip Szewczyk",
+          "out_player_name": "michal bednarski"
+        },
+        {
+          "time": 63,
+          "type": 3,
+          "position": 2,
+          "player_id": "ednm9whzj34pryo",
+          "player_name": "tomasz gajda"
+        },
+        {
+          "time": 76,
+          "type": 1,
+          "position": 1,
+          "player_id": "4wyrn4hdgyx1q86",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "hubert sobol"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7phww6ewm2w",
+          "out_player_id": "1l4rjnhxz9jm7vx",
+          "in_player_name": "bartlomiej putno",
+          "out_player_name": "Nestor Gordillo"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l5ergphe2vxjr8k",
+          "out_player_id": "l7oqdehl48oxr51",
+          "in_player_name": "filip zagiel",
+          "out_player_name": "Michal bedronka"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "1l4rjnhz8w0nm7v",
+          "out_player_id": "k82rekhy0d6krep",
+          "in_player_name": "dawid wolny",
+          "out_player_name": "Daniel Ściślak"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8ghjy0xyr6o",
+          "out_player_id": "4wyrn4hdgyx1q86",
+          "in_player_name": "Oskar Kalenik",
+          "out_player_name": "hubert sobol"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "2y8m4zh88496ql0",
+          "out_player_id": "l5ergphe7nz2r8k",
+          "in_player_name": "kamil koczy",
+          "out_player_name": "maciej bialczyk"
+        },
+        {
+          "time": 92,
+          "type": 3,
+          "position": 1,
+          "player_id": "ednm9whz2gl1ryo",
+          "player_name": "Filip Szewczyk"
+        },
+        {
+          "time": 92,
+          "type": 3,
+          "position": 2,
+          "player_id": "2y8m4zhglvw2ql0",
+          "player_name": "kamil wojtyra"
+        },
+        {
+          "time": 92,
+          "type": 3,
+          "position": 2,
+          "player_id": "pxwrxlhj6xg6ryk",
+          "player_name": "Patryk Romanowski"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

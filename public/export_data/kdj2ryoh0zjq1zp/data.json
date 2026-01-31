@@ -1,0 +1,86 @@
+{
+  "season_id": "kdj2ryoh0zjq1zp",
+  "brackets": [
+    {
+      "id": "k82rekh9w3zrepz",
+      "competition_id": "e4wyrn4h8ejq86p",
+      "season_id": "kdj2ryoh0zjq1zp",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1683993600,
+      "end_time": 1684166340,
+      "rounds": [
+        {
+          "id": "k82rekhnvxnrepz",
+          "bracket_id": "k82rekh9w3zrepz",
+          "name": "Qualification Round1",
+          "abbr": "QR1",
+          "start_time": 1684080000,
+          "end_time": 1684080000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "y39mp1h3g08zmoj",
+              "round_id": "k82rekhnvxnrepz",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "318q66ho4xnqo9j",
+              "away_team_id": "x7lm7phkwl5m2wd",
+              "winner_team_id": "318q66ho4xnqo9j",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "jw2r09h6zlkvrz8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "x7lm7phkwl5m2wd": {
+      "id": "x7lm7phkwl5m2wd",
+      "name": "Al Khor SC"
+    },
+    "318q66ho4xnqo9j": {
+      "id": "318q66ho4xnqo9j",
+      "name": "Al Shamal"
+    }
+  },
+  "sport_events": {
+    "jw2r09h6zlkvrz8": {
+      "id": "jw2r09h6zlkvrz8",
+      "home_team_id": "318q66ho4xnqo9j",
+      "away_team_id": "x7lm7phkwl5m2wd",
+      "start_timestamp": 1684080000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "season_id": "56ypq3nhj7emd7o",
+  "brackets": [
+    {
+      "id": "dj2ryohj5dkq1zp",
+      "competition_id": "4zp5rzgh0eq82w1",
+      "season_id": "56ypq3nhj7emd7o",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1748707200,
+      "end_time": 1748793540,
+      "rounds": [
+        {
+          "id": "x7lm7ph33n9m2wd",
+          "bracket_id": "dj2ryohj5dkq1zp",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1748795400,
+          "end_time": 1748795400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "6ypq3nh53xz4md7",
+              "round_id": "x7lm7ph33n9m2wd",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "e4wyrn4h1o7q86p",
+              "away_team_id": "kjw2r09hd29rz84",
+              "winner_team_id": "kjw2r09hd29rz84",
+              "home_score": 1,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "jw2r09hkldjjrz8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "e4wyrn4h1o7q86p": {
+      "id": "e4wyrn4h1o7q86p",
+      "name": "Randers FC"
+    },
+    "kjw2r09hd29rz84": {
+      "id": "kjw2r09hd29rz84",
+      "name": "Silkeborg"
+    }
+  },
+  "sport_events": {
+    "jw2r09hkldjjrz8": {
+      "id": "jw2r09hkldjjrz8",
+      "home_team_id": "e4wyrn4h1o7q86p",
+      "away_team_id": "kjw2r09hd29rz84",
+      "start_timestamp": 1748795400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 8,
+          "type": 1,
+          "position": 2,
+          "player_id": "23xmvkhd8z4nqg8",
+          "assist1_id": "y0or5jhg6jdqwzv",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Pelle Mattsson",
+          "assist1_name": "Andreas Poulsen"
+        },
+        {
+          "time": 26,
+          "type": 1,
+          "position": 2,
+          "player_id": "x7lm7ph9pyem2wd",
+          "assist1_id": "23xmvkhd8z4nqg8",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Callum McCowatt",
+          "assist1_name": "Pelle Mattsson"
+        },
+        {
+          "time": 39,
+          "type": 1,
+          "position": 1,
+          "player_id": "6ypq3nhzo6znmd7",
+          "assist1_id": "23xmvkhkgzykqg8",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Elies Mahmoud",
+          "assist1_name": "Oliver Olsen"
+        },
+        {
+          "time": 43,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "965mkyh403yr1ge",
+          "out_player_id": "pxwrxlhj508eryk",
+          "in_player_name": "Jeppe Andersen",
+          "out_player_name": "Alexander Simmelhack"
+        },
+        {
+          "time": 44,
+          "type": 3,
+          "position": 1,
+          "player_id": "zp5rzgh1d8gq82w",
+          "player_name": "John Bjorkengren",
+          "reason_type": 19
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "8yomo4hv0epoq0j",
+          "out_player_id": "y0or5jhg6jdqwzv",
+          "in_player_name": "Alexander Busch",
+          "out_player_name": "Andreas Poulsen"
+        },
+        {
+          "time": 49,
+          "type": 3,
+          "position": 2,
+          "player_id": "8yomo4hv0epoq0j",
+          "player_name": "Alexander Busch",
+          "reason_type": 1
+        },
+        {
+          "time": 62,
+          "type": 3,
+          "position": 2,
+          "player_id": "3glrw7hjgkn8qdy",
+          "player_name": "Robin Öström",
+          "reason_type": 1
+        },
+        {
+          "time": 69,
+          "type": 3,
+          "position": 1,
+          "player_id": "pxwrxlhjpllryk0",
+          "player_name": "Mathias Greve",
+          "reason_type": 1
+        },
+        {
+          "time": 71,
+          "type": 1,
+          "position": 2,
+          "player_id": "965mkyh403yr1ge",
+          "assist1_id": "3glrw7hjgkn8qdy",
+          "away_score": 3,
+          "home_score": 1,
+          "player_name": "Jeppe Andersen",
+          "assist1_name": "Robin Öström"
+        },
+        {
+          "time": 75,
+          "type": 3,
+          "position": 1,
+          "player_id": "vjxm8ghjg9pr6od",
+          "player_name": "André Rømer",
+          "reason_type": 18
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h0zdp6q0j",
+          "out_player_id": "l5ergphvkv04r8k",
+          "in_player_name": "Mike Themsen",
+          "out_player_name": "Mohamed Toure"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hz3x8nqdy",
+          "out_player_id": "vjxm8ghjg9pr6od",
+          "in_player_name": "Abdul Hakim Sulemana",
+          "out_player_name": "André Rømer"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohjo092q1z",
+          "out_player_id": "318q66hvkyd0qo9",
+          "in_player_name": "Mads Lautrup",
+          "out_player_name": "Mads Larsen"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4h476v2q86",
+          "out_player_id": "k82rekhn34nrepz",
+          "in_player_name": "norman campbell",
+          "out_player_name": "Simen Bolkan Nordli"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4hd05veq86",
+          "out_player_id": "6ypq3nhzo6znmd7",
+          "in_player_name": "Stephen Odey",
+          "out_player_name": "Elies Mahmoud"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zh856kql07",
+          "out_player_id": "zp5rzgh1d8gq82w",
+          "in_player_name": "Frederik Lauenborg",
+          "out_player_name": "John Bjorkengren"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 28,
+          "position": 2,
+          "player_id": "965mkyh403yr1ge",
+          "var_reason": 4,
+          "var_result": 3,
+          "player_name": "Jeppe Andersen"
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "add_time": 1,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whvjowwryo",
+          "out_player_id": "x7lm7ph9pyem2wd",
+          "in_player_name": "O. Boesen",
+          "out_player_name": "Callum McCowatt"
+        },
+        {
+          "time": 92,
+          "type": 16,
+          "add_time": 2,
+          "position": 2,
+          "player_id": "pxwrxlhjz60kryk",
+          "away_score": 3,
+          "home_score": 1,
+          "player_name": "Tonni Adamsen"
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

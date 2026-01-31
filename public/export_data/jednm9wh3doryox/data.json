@@ -1,0 +1,608 @@
+{
+  "season_id": "jednm9wh3doryox",
+  "brackets": [
+    {
+      "id": "2y8m4zhg0knql07",
+      "competition_id": "kdj2ryohx95q1zp",
+      "season_id": "jednm9wh3doryox",
+      "name": "Knockout",
+      "abbr": "",
+      "start_time": 1719158400,
+      "end_time": 1719763200,
+      "rounds": [
+        {
+          "id": "8yomo4h4vdoq0j6",
+          "bracket_id": "2y8m4zhg0knql07",
+          "name": "Semifinals",
+          "abbr": "SF",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "y0or5jh413o3qwz",
+              "round_id": "8yomo4h4vdoq0j6",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "ednm9whkk88ryox",
+              "away_team_id": "dj2ryohk31vq1zp",
+              "winner_team_id": "ednm9whkk88ryox",
+              "home_score": 5,
+              "away_score": 0,
+              "parent_ids": [
+                "23xmvkhoxk0xqg8"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "3glrw7h73vy1qdy"
+              ]
+            },
+            {
+              "id": "n54qllhed8zjqvy",
+              "round_id": "8yomo4h4vdoq0j6",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "y39mp1h33kzmojx",
+              "away_team_id": "dn1m1gh49ejmoep",
+              "winner_team_id": "dn1m1gh49ejmoep",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [
+                "23xmvkhoxk0xqg8"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "vjxm8ghl5z8jr6o"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2y8m4zhp8kdql07",
+          "bracket_id": "2y8m4zhg0knql07",
+          "name": "3rd",
+          "abbr": "3rd",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "x7lm7phopw70m2w",
+              "round_id": "2y8m4zhp8kdql07",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "dj2ryohk31vq1zp",
+              "away_team_id": "y39mp1h33kzmojx",
+              "winner_team_id": "dj2ryohk31vq1zp",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "dn1m1gh2p50nmoe"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6ypq3nhnwjymd7o",
+          "bracket_id": "2y8m4zhg0knql07",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "23xmvkhoxk0xqg8",
+              "round_id": "6ypq3nhnwjymd7o",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "ednm9whkk88ryox",
+              "away_team_id": "dn1m1gh49ejmoep",
+              "winner_team_id": "ednm9whkk88ryox",
+              "home_score": 3,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "y0or5jh413o3qwz",
+                "n54qllhed8zjqvy"
+              ],
+              "event_ids": [
+                "4wyrn4hxojl4q86"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "dj2ryohk31vq1zp": {
+      "id": "dj2ryohk31vq1zp",
+      "name": "Tahiti"
+    },
+    "y39mp1h33kzmojx": {
+      "id": "y39mp1h33kzmojx",
+      "name": "Fiji"
+    },
+    "ednm9whkk88ryox": {
+      "id": "ednm9whkk88ryox",
+      "name": "New Zealand"
+    },
+    "dn1m1gh49ejmoep": {
+      "id": "dn1m1gh49ejmoep",
+      "name": "Vanuatu"
+    }
+  },
+  "sport_events": {
+    "3glrw7h73vy1qdy": {
+      "id": "3glrw7h73vy1qdy",
+      "home_team_id": "ednm9whkk88ryox",
+      "away_team_id": "dj2ryohk31vq1zp",
+      "start_timestamp": 1719446400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 5,
+          "overTime_score": 0,
+          "half_time_score": 3
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 7,
+          "type": 1,
+          "position": 1,
+          "player_id": "vjxm8gh88xz7r6o",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Finn Surman"
+        },
+        {
+          "time": 19,
+          "type": 3,
+          "position": 2,
+          "player_id": "k82rekh3xzzxrep",
+          "player_name": "teva lossec"
+        },
+        {
+          "time": 25,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7phk559m2wd",
+          "out_player_id": "318q66hvk82eqo9",
+          "in_player_name": "Tommy Smith",
+          "out_player_name": "Tim Payne"
+        },
+        {
+          "time": 39,
+          "type": 3,
+          "position": 1,
+          "player_id": "2y8m4zhz3oeeql0",
+          "player_name": "Tyler Bindon"
+        },
+        {
+          "time": 45,
+          "type": 1,
+          "position": 1,
+          "player_id": "965mkyh31g47r1g",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Ben Waine"
+        },
+        {
+          "time": 48,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hwy4kqdyj",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Kosta Barbarouses"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "4jwq2ghxlk84m0v",
+          "out_player_id": "318q66hjgzz6qo9",
+          "in_player_name": "Ariiura labaste",
+          "out_player_name": "manuarii shan"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l5ergph2n6wr8k0",
+          "out_player_id": "2y8m4zhz3oeeql0",
+          "in_player_name": "Sam Sutton",
+          "out_player_name": "Tyler Bindon"
+        },
+        {
+          "time": 53,
+          "type": 1,
+          "position": 1,
+          "player_id": "965mkyh31g47r1g",
+          "away_score": 0,
+          "home_score": 4,
+          "player_name": "Ben Waine"
+        },
+        {
+          "time": 56,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y39mp1h14vvwmoj",
+          "out_player_id": "965mkyhzw87r1ge",
+          "in_player_name": "rainui aroita",
+          "out_player_name": "Taumihau Tiatia"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "965mkyhnoll1r1g",
+          "out_player_id": "pxwrxlhjy10vryk",
+          "in_player_name": "franck papaura",
+          "out_player_name": "Shawn Roonui Tinirauarii"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8gh87g29r6o",
+          "out_player_id": "vjxm8ghg6v88r6o",
+          "in_player_name": "Alex greive",
+          "out_player_name": "Cameron Howieson"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnh30nym7vx",
+          "out_player_id": "965mkyh31g47r1g",
+          "in_player_name": "Max Mata",
+          "out_player_name": "Ben Waine"
+        },
+        {
+          "time": 72,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hwy4kqdyj",
+          "away_score": 0,
+          "home_score": 5,
+          "player_name": "Kosta Barbarouses"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnhz9ze7m7v",
+          "out_player_id": "y0or5jh30k6vqwz",
+          "in_player_name": "Jesse Randall",
+          "out_player_name": "Benjamin old"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "8yomo4hvj4pwq0j",
+          "out_player_id": "4jwq2ghxd93pm0v",
+          "in_player_name": "Mauri heitaa",
+          "out_player_name": "Terai bremond"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "4wyrn4hxojl4q86": {
+      "id": "4wyrn4hxojl4q86",
+      "home_team_id": "ednm9whkk88ryox",
+      "away_team_id": "dn1m1gh49ejmoep",
+      "start_timestamp": 1719720000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 2,
+          "type": 1,
+          "position": 1,
+          "player_id": "vjxm8ghg6v88r6o",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Cameron Howieson"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 83,
+          "type": 1,
+          "position": 1,
+          "player_id": "1l4rjnhz9ze7m7v",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Jesse Randall"
+        },
+        {
+          "time": 93,
+          "type": 1,
+          "position": 1,
+          "player_id": "1l4rjnh30nym7vx",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Max Mata"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "dn1m1gh2p50nmoe": {
+      "id": "dn1m1gh2p50nmoe",
+      "home_team_id": "dj2ryohk31vq1zp",
+      "away_team_id": "y39mp1h33kzmojx",
+      "start_timestamp": 1719705600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 58,
+          "type": 1,
+          "position": 2,
+          "player_id": "6ypq3nhl155wmd7",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Roy krishna"
+        },
+        {
+          "time": 72,
+          "type": 1,
+          "position": 1,
+          "player_id": "y0or5jh3do23qwz",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Teaonui tehau"
+        },
+        {
+          "time": 83,
+          "type": 1,
+          "position": 1,
+          "player_id": "y0or5jh3do23qwz",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Teaonui tehau"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "vjxm8ghl5z8jr6o": {
+      "id": "vjxm8ghl5z8jr6o",
+      "home_team_id": "y39mp1h33kzmojx",
+      "away_team_id": "dn1m1gh49ejmoep",
+      "start_timestamp": 1719460800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 11,
+          "type": 1,
+          "position": 2,
+          "player_id": "ednm9whvjx72ryo",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Jonathan spokeyjack"
+        },
+        {
+          "time": 30,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlhjw3o8ryk",
+          "out_player_id": "4wyrn4h9kknq86p",
+          "in_player_name": "Kensi tangis",
+          "out_player_name": "Bong Kalo"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 1,
+          "position": 1,
+          "player_id": "318q66hjgzo6qo9",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "sitiveni cavuilagi"
+        },
+        {
+          "time": 57,
+          "type": 1,
+          "position": 2,
+          "player_id": "1l4rjnhx8545m7v",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Jason thomas"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "k82rekh398j0rep",
+          "out_player_id": "318q66hjgzo6qo9",
+          "in_player_name": "Mohammed raheem",
+          "out_player_name": "sitiveni cavuilagi"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "2y8m4zhzj4eyql0",
+          "out_player_id": "3glrw7hy4jxlqdy",
+          "in_player_name": "Etonia dogalau",
+          "out_player_name": "Setareki hughes"
+        },
+        {
+          "time": 74,
+          "type": 3,
+          "position": 2,
+          "player_id": "4jwq2ghx8pe9m0v",
+          "player_name": "Godine tenene"
+        },
+        {
+          "time": 74,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "6ypq3nhwd73ymd7",
+          "out_player_id": "zp5rzghp8760q82",
+          "in_player_name": "Alick worworbu",
+          "out_player_name": "John alick"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7phwd3z4m2w",
+          "out_player_id": "n54qllh8dkp7qvy",
+          "in_player_name": "Gabiriele matanisiga",
+          "out_player_name": "scott wara"
+        },
+        {
+          "time": 94,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "jw2r09hjd6n8rz8",
+          "out_player_id": "ednm9whvjx72ryo",
+          "in_player_name": "Joe Moses",
+          "out_player_name": "Jonathan spokeyjack"
+        },
+        {
+          "time": 94,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dn1m1gh3572gmoe",
+          "out_player_id": "pxwrxlhjw3o8ryk",
+          "in_player_name": "Claude aru",
+          "out_player_name": "Kensi tangis"
+        },
+        {
+          "time": 104,
+          "type": 3,
+          "position": 2,
+          "player_id": "1l4rjnhx8545m7v",
+          "player_name": "Jason thomas"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

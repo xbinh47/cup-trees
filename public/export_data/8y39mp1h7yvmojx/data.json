@@ -1,0 +1,323 @@
+{
+  "season_id": "8y39mp1h7yvmojx",
+  "brackets": [
+    {
+      "id": "965mkyh35njr1ge",
+      "competition_id": "j1l4rjnhe9m7vx5",
+      "season_id": "8y39mp1h7yvmojx",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1753891200,
+      "end_time": 1753977540,
+      "rounds": [
+        {
+          "id": "dj2ryohepkdq1zp",
+          "bracket_id": "965mkyh35njr1ge",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1753991100,
+          "end_time": 1753991100,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "8yomo4hk1lx0q0j",
+              "round_id": "dj2ryohepkdq1zp",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "kn54qllhyydqvy9",
+              "away_team_id": "z8yomo4hjyoq0j6",
+              "winner_team_id": "z8yomo4hjyoq0j6",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "y39mp1h6jye1moj"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "z8yomo4hjyoq0j6": {
+      "id": "z8yomo4hjyoq0j6",
+      "name": "Benfica"
+    },
+    "kn54qllhyydqvy9": {
+      "id": "kn54qllhyydqvy9",
+      "name": "Sporting CP"
+    }
+  },
+  "sport_events": {
+    "y39mp1h6jye1moj": {
+      "id": "y39mp1h6jye1moj",
+      "home_team_id": "kn54qllhyydqvy9",
+      "away_team_id": "z8yomo4hjyoq0j6",
+      "start_timestamp": 1753991100,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 6,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 7,
+          "type": 28,
+          "position": 1,
+          "player_id": "x7lm7ph5d7nm2wd",
+          "var_reason": 1,
+          "var_result": 2,
+          "player_name": "Pedro Goncalves"
+        },
+        {
+          "time": 23,
+          "type": 3,
+          "position": 2,
+          "player_id": "ednm9whz2d90ryo",
+          "player_name": "Amar Dedić",
+          "reason_type": 1
+        },
+        {
+          "time": 29,
+          "type": 3,
+          "position": 1,
+          "player_id": "l7oqdeh09p9vr51",
+          "player_name": "Ousmane Diomande",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 2,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 1,
+          "position": 2,
+          "player_id": "n54qllh8zvkqvy9",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Vangelis Pavlidis"
+        },
+        {
+          "time": 53,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7ph5d7nm2wd",
+          "player_name": "Pedro Goncalves",
+          "reason_type": 1
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "3glrw7h0loeqdyj",
+          "out_player_id": "dn1m1gh36d9ymoe",
+          "in_player_name": "Luis Suárez",
+          "out_player_name": "Conrad Harder"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dn1m1ghov61moep",
+          "out_player_id": "3glrw7h0ylyqdyj",
+          "in_player_name": "Giorgi Kochorashvili",
+          "out_player_name": "Hidemasa Morita"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "8yomo4hv2d57q0j",
+          "out_player_id": "l7oqdeh09p9vr51",
+          "in_player_name": "Zeno Koen Debast",
+          "out_player_name": "Ousmane Diomande"
+        },
+        {
+          "time": 73,
+          "type": 3,
+          "position": 2,
+          "player_id": "n54qllh2009qvy9",
+          "player_name": "Nicolás Otamendi",
+          "reason_type": 1
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhxvey0m7v",
+          "out_player_id": "318q66hv24ezqo9",
+          "in_player_name": "Geovany Quenda",
+          "out_player_name": "Maximiliano Araujo"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4h9471q86p",
+          "out_player_id": "6ypq3nhz3k40md7",
+          "in_player_name": "Florentino Luís",
+          "out_player_name": "Enzo Barrenechea"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4h4w70lq86",
+          "out_player_id": "8yomo4h21y51q0j",
+          "in_player_name": "Gianluca Prestianni",
+          "out_player_name": "Muhammed Kerem Akturkoglu"
+        },
+        {
+          "time": 81,
+          "type": 3,
+          "position": 1,
+          "player_id": "ednm9wh9ljdgryo",
+          "player_name": "Morten Hjulmand",
+          "reason_type": 1
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhj31zql07",
+          "out_player_id": "n54qllh851nvqvy",
+          "in_player_name": "Ricardo Esgaio",
+          "out_player_name": "Geny Catamo"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h2x0dyq0j",
+          "out_player_id": "n54qllh8zvkqvy9",
+          "in_player_name": "Tiago Gouveia",
+          "out_player_name": "Vangelis Pavlidis"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhg509wql0",
+          "out_player_id": "ednm9whz2d90ryo",
+          "in_player_name": "Henrique Pereira·Araujo",
+          "out_player_name": "Amar Dedić"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 8,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 3,
+          "add_time": 1,
+          "position": 2,
+          "player_id": "x7lm7ph0j6e3m2w",
+          "player_name": "Antonio Silva",
+          "reason_type": 15
+        },
+        {
+          "time": 96,
+          "type": 3,
+          "add_time": 6,
+          "position": 1,
+          "player_id": "3glrw7h0loeqdyj",
+          "player_name": "Luis Suárez",
+          "reason_type": 18
+        },
+        {
+          "time": 96,
+          "type": 3,
+          "add_time": 6,
+          "position": 2,
+          "player_id": "n54qllhx9w90qvy",
+          "player_name": "Anatolii Trubin",
+          "reason_type": 18
+        },
+        {
+          "time": 97,
+          "type": 3,
+          "add_time": 7,
+          "position": 1,
+          "player_id": "2y8m4zh8z22ql07",
+          "player_name": "Jeremiah St. Juste",
+          "reason_type": 19
+        },
+        {
+          "time": 98,
+          "type": 9,
+          "add_time": 8,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhx0d0vm7v",
+          "out_player_id": "x7lm7phod4w4m2w",
+          "in_player_name": "João Veloso",
+          "out_player_name": "Leandro Barreiro"
+        },
+        {
+          "time": 99,
+          "type": 3,
+          "add_time": 9,
+          "position": 2,
+          "player_id": "1l4rjnhx0d0vm7v",
+          "player_name": "João Veloso",
+          "reason_type": 15
+        },
+        {
+          "time": 99,
+          "type": 3,
+          "add_time": 9,
+          "position": 2,
+          "player_id": "4wyrn4h4w70lq86",
+          "player_name": "Gianluca Prestianni",
+          "reason_type": 18
+        },
+        {
+          "time": 99,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "season_id": "9dn1m1ghylzmoep",
+  "brackets": [
+    {
+      "id": "2y8m4zhjnx9ql07",
+      "competition_id": "gx7lm7phvem2wdk",
+      "season_id": "9dn1m1ghylzmoep",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1670428800,
+      "end_time": 1670601540,
+      "rounds": [
+        {
+          "id": "n54qllhk1gpqvy9",
+          "bracket_id": "2y8m4zhjnx9ql07",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1670511600,
+          "end_time": 1670511600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dj2ryohk9g7zq1z",
+              "round_id": "n54qllhk1gpqvy9",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "p3glrw7hedlqdyj",
+              "away_team_id": "l7oqdehnd8dr510",
+              "winner_team_id": "p3glrw7hedlqdyj",
+              "home_score": 5,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "vjxm8gh5kllyr6o"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "p3glrw7hedlqdyj": {
+      "id": "p3glrw7hedlqdyj",
+      "name": "Hibernians FC"
+    },
+    "l7oqdehnd8dr510": {
+      "id": "l7oqdehnd8dr510",
+      "name": "Floriana F.C."
+    }
+  },
+  "sport_events": {
+    "vjxm8gh5kllyr6o": {
+      "id": "vjxm8gh5kllyr6o",
+      "home_team_id": "p3glrw7hedlqdyj",
+      "away_team_id": "l7oqdehnd8dr510",
+      "start_timestamp": 1670511600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 4,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 5,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

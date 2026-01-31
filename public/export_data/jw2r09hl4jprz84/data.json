@@ -1,0 +1,1105 @@
+{
+  "season_id": "jw2r09hl4jprz84",
+  "brackets": [
+    {
+      "id": "8yomo4h23ejq0j6",
+      "competition_id": "jednm9wh71nryox",
+      "season_id": "jw2r09hl4jprz84",
+      "name": "Knockout stage",
+      "abbr": "Egypt (ACUD Cup)",
+      "start_time": 1711123200,
+      "end_time": 1711555200,
+      "rounds": [
+        {
+          "id": "6ypq3nh35jemd7o",
+          "bracket_id": "8yomo4h23ejq0j6",
+          "name": "Third place",
+          "abbr": "Third place",
+          "start_time": 1711483200,
+          "end_time": 1711483200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "k82rekh9j79grep",
+              "round_id": "6ypq3nh35jemd7o",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "ednm9whkk88ryox",
+              "away_team_id": "4zp5rzgh8oxq82w",
+              "winner_team_id": "4zp5rzgh8oxq82w",
+              "home_score": 2,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "y39mp1hzp7olmoj"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2y8m4zh6jk4ql07",
+          "bracket_id": "8yomo4h23ejq0j6",
+          "name": "Semifinals",
+          "abbr": "SF",
+          "start_time": 1711137600,
+          "end_time": 1711224000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "ednm9wh9p390ryo",
+              "round_id": "2y8m4zh6jk4ql07",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "4zp5rzgh84yq82w",
+              "away_team_id": "ednm9whkk88ryox",
+              "winner_team_id": "4zp5rzgh84yq82w",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [
+                "y39mp1h5e25zmoj"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "23xmvkh8wl1pqg8"
+              ]
+            },
+            {
+              "id": "965mkyh40642r1g",
+              "round_id": "2y8m4zh6jk4ql07",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "4zp5rzgh8oxq82w",
+              "away_team_id": "kdj2ryohoj7q1zp",
+              "winner_team_id": "kdj2ryohoj7q1zp",
+              "home_score": 4,
+              "away_score": 5,
+              "parent_ids": [
+                "y39mp1h5e25zmoj"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "n54qllh79wgzqvy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8yomo4h3kd9q0j6",
+          "bracket_id": "8yomo4h23ejq0j6",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1711483200,
+          "end_time": 1711483200,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "y39mp1h5e25zmoj",
+              "round_id": "8yomo4h3kd9q0j6",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "4zp5rzgh84yq82w",
+              "away_team_id": "kdj2ryohoj7q1zp",
+              "winner_team_id": "kdj2ryohoj7q1zp",
+              "home_score": 2,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [
+                "ednm9wh9p390ryo",
+                "965mkyh40642r1g"
+              ],
+              "event_ids": [
+                "4wyrn4hx0gwzq86"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "4zp5rzgh8oxq82w": {
+      "id": "4zp5rzgh8oxq82w",
+      "name": "Tunisia"
+    },
+    "ednm9whkk88ryox": {
+      "id": "ednm9whkk88ryox",
+      "name": "New Zealand"
+    },
+    "4zp5rzgh84yq82w": {
+      "id": "4zp5rzgh84yq82w",
+      "name": "Egypt"
+    },
+    "kdj2ryohoj7q1zp": {
+      "id": "kdj2ryohoj7q1zp",
+      "name": "Croatia"
+    }
+  },
+  "sport_events": {
+    "23xmvkh8wl1pqg8": {
+      "id": "23xmvkh8wl1pqg8",
+      "home_team_id": "4zp5rzgh84yq82w",
+      "away_team_id": "ednm9whkk88ryox",
+      "start_timestamp": 1711137600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 26,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "n54qllh9284qvy9",
+          "out_player_id": "l7oqdeh428dvr51",
+          "in_player_name": "Hamdy Fathy",
+          "out_player_name": "Emam Ashour"
+        },
+        {
+          "time": 26,
+          "type": 28,
+          "position": 1,
+          "player_id": "l7oqdeh428dvr51",
+          "var_reason": 4,
+          "var_result": 3,
+          "player_name": "Emam Ashour"
+        },
+        {
+          "time": 29,
+          "type": 8,
+          "position": 1,
+          "player_id": "6ypq3nh183gmd7o",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Mostafa Mohamed"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 51,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 3,
+          "position": 2,
+          "player_id": "y0or5jhl08wqwzv",
+          "player_name": "Michael Boxall",
+          "reason_type": 1
+        },
+        {
+          "time": 52,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jheogwqwzv",
+          "player_name": "Mahmoud Trezegue",
+          "reason_type": 22
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh30k6vqwz",
+          "out_player_id": "1l4rjnh30nym7vx",
+          "in_player_name": "Benjamin old",
+          "out_player_name": "Max Mata"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "965mkyh31g47r1g",
+          "out_player_id": "x7lm7ph9pyem2wd",
+          "in_player_name": "Ben Waine",
+          "out_player_name": "Callum McCowatt"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y0or5jhjlljqwzv",
+          "out_player_id": "y0or5jheogwqwzv",
+          "in_player_name": "Mohamed Sherif",
+          "out_player_name": "Mahmoud Trezegue"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnh3gjem7vx",
+          "out_player_id": "23xmvkhw3k2qg8n",
+          "in_player_name": "Akram Tawfik",
+          "out_player_name": "Mohamed Magdy Afsha"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "k82rekh89oerepz",
+          "out_player_id": "6ypq3nh183gmd7o",
+          "in_player_name": "Mohamed El Shamy",
+          "out_player_name": "Mostafa Mohamed"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hwy4kqdyj",
+          "out_player_id": "jw2r09hxkx11rz8",
+          "in_player_name": "Kosta Barbarouses",
+          "out_player_name": "Matthew Garbett"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhz3oeeql0",
+          "out_player_id": "2y8m4zh15kxql07",
+          "in_player_name": "Tyler Bindon",
+          "out_player_name": "Dane Ingham"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "23xmvkhgj6eqg8n",
+          "out_player_id": "y39mp1hjn24mojx",
+          "in_player_name": "Elijah Henry Just",
+          "out_player_name": "Clayton Rhys Lewis"
+        },
+        {
+          "time": 89,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdeh4g41er51",
+          "player_name": "Marko Stamenic",
+          "reason_type": 1
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "x7lm7ph9yjem2wd",
+          "out_player_id": "vjxm8ghx0l5r6od",
+          "in_player_name": "Mostafa Fathi",
+          "out_player_name": "Omar Marmoush"
+        },
+        {
+          "time": 93,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "n54qllhxgog0qvy",
+          "out_player_id": "vjxm8gh8vyw2r6o",
+          "in_player_name": "Mohamed Shokry",
+          "out_player_name": "Mohamed Hamdi"
+        },
+        {
+          "time": 95,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "4wyrn4hx0gwzq86": {
+      "id": "4wyrn4hx0gwzq86",
+      "home_team_id": "4zp5rzgh84yq82w",
+      "away_team_id": "kdj2ryohoj7q1zp",
+      "start_timestamp": 1711483200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 6,
+          "type": 1,
+          "position": 1,
+          "player_id": "2y8m4zhgpzxql07",
+          "assist1_id": "6ypq3nhzyz9gmd7",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Rami Rabia",
+          "assist1_name": "Mohamed hamdi"
+        },
+        {
+          "time": 21,
+          "type": 1,
+          "position": 2,
+          "player_id": "318q66hvp10qo9j",
+          "assist1_id": "4zp5rzghnopq82w",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Nikola Vlašić",
+          "assist1_name": "Luka Modrić"
+        },
+        {
+          "time": 27,
+          "type": 3,
+          "position": 1,
+          "player_id": "2y8m4zhgpzxql07",
+          "player_name": "Rami Rabia"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlhzn34ryk0",
+          "out_player_id": "ednm9whz03v4ryo",
+          "in_player_name": "Dominik Kotarski",
+          "out_player_name": "Nediljko Labrovic"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "n54qllhezp4qvy9",
+          "out_player_id": "vjxm8ghgjejr6od",
+          "in_player_name": "Mateo Kovačić",
+          "out_player_name": "Marcelo Brozović"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l5ergpheg03or8k",
+          "out_player_id": "1l4rjnh3gjem7vx",
+          "in_player_name": "Kouka ahmed",
+          "out_player_name": "Akram Tawfik"
+        },
+        {
+          "time": 57,
+          "type": 1,
+          "position": 2,
+          "player_id": "jw2r09hx6pdrz84",
+          "assist1_id": "4zp5rzghnopq82w",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Bruno Petković",
+          "assist1_name": "Luka Modrić"
+        },
+        {
+          "time": 60,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "3glrw7hjy7nxqdy",
+          "out_player_id": "4zp5rzghnopq82w",
+          "in_player_name": "Marco Pasalic",
+          "out_player_name": "Luka Modrić"
+        },
+        {
+          "time": 60,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "jw2r09hj7kerz84",
+          "out_player_id": "8yomo4h2x0xnq0j",
+          "in_player_name": "Josip Juranović",
+          "out_player_name": "Joško Gvardiol"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "4wyrn4hej9zq86p",
+          "out_player_id": "318q66hvp10qo9j",
+          "in_player_name": "Mario Pašalić",
+          "out_player_name": "Nikola Vlašić"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "3glrw7hw58vqdyj",
+          "out_player_id": "jw2r09hx6pdrz84",
+          "in_player_name": "Andrej Kramarić",
+          "out_player_name": "Bruno Petković"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "n54qllh9284qvy9",
+          "out_player_id": "dj2ryohg1w0dq1z",
+          "in_player_name": "Hamdy Fathy",
+          "out_player_name": "Afsha"
+        },
+        {
+          "time": 77,
+          "type": 1,
+          "position": 2,
+          "player_id": "3glrw7hw58vqdyj",
+          "assist1_id": "3glrw7hz2nvqdyj",
+          "away_score": 3,
+          "home_score": 1,
+          "player_name": "Andrej Kramarić",
+          "assist1_name": "Lovro Majer"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "jw2r09hx591rz84",
+          "out_player_id": "y0or5jheogwqwzv",
+          "in_player_name": "Mohamed El Shami",
+          "out_player_name": "Mahmoud Trezegue"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l5ergphelxgwr8k",
+          "out_player_id": "6ypq3nh183gmd7o",
+          "in_player_name": "Mostafa shalaby",
+          "out_player_name": "Mostafa Mohamed"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y0or5jhjlljqwzv",
+          "out_player_id": "vjxm8ghx0l5r6od",
+          "in_player_name": "Mohamed Sherif",
+          "out_player_name": "Omar Marmoush"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "zp5rzghp5vz3q82",
+          "out_player_id": "l5ergphv4674r8k",
+          "in_player_name": "Ahmed atef",
+          "out_player_name": "Marwan Attia"
+        },
+        {
+          "time": 86,
+          "type": 1,
+          "position": 2,
+          "player_id": "3glrw7hz2nvqdyj",
+          "assist1_id": "3glrw7hw58vqdyj",
+          "away_score": 4,
+          "home_score": 1,
+          "player_name": "Lovro Majer",
+          "assist1_name": "Andrej Kramarić"
+        },
+        {
+          "time": 94,
+          "type": 1,
+          "position": 1,
+          "player_id": "dn1m1ghk31zmoep",
+          "assist1_id": "vjxm8gh2e0nr6od",
+          "away_score": 4,
+          "home_score": 2,
+          "player_name": "Mohamed Abdelmoneim",
+          "assist1_name": "Mohamed Hany"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "n54qllh79wgzqvy": {
+      "id": "n54qllh79wgzqvy",
+      "home_team_id": "4zp5rzgh8oxq82w",
+      "away_team_id": "kdj2ryohoj7q1zp",
+      "start_timestamp": 1711224000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 10,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 5,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 4,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 18,
+          "type": 3,
+          "position": 1,
+          "player_id": "ednm9whe3dpryox",
+          "player_name": "Wajdi Kechrida",
+          "reason_type": 1
+        },
+        {
+          "time": 33,
+          "type": 28,
+          "position": 1,
+          "player_id": "4wyrn4h7e9gq86p",
+          "var_reason": 1,
+          "var_result": 2,
+          "player_name": "Hamza Jelassi"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnh18kdm7vx",
+          "out_player_id": "4jwq2ghk87dm0ve",
+          "in_player_name": "Ivica Ivušić",
+          "out_player_name": "Dominik Livaković"
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hjy7nxqdy",
+          "out_player_id": "vjxm8ghgjejr6od",
+          "in_player_name": "Marco Pasalic",
+          "out_player_name": "Marcelo Brozović"
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "318q66hvp10qo9j",
+          "out_player_id": "4zp5rzghnopq82w",
+          "in_player_name": "Nikola Vlašić",
+          "out_player_name": "Luka Modrić"
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "y39mp1hj90omojx",
+          "out_player_id": "318q66h4kp3qo9j",
+          "in_player_name": "Duje Ćaleta-Car",
+          "out_player_name": "Martin Erlić"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "jw2r09hx6pdrz84",
+          "out_player_id": "n54qllhezp4qvy9",
+          "in_player_name": "Bruno Petković",
+          "out_player_name": "Mateo Kovačić"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hz2nvqdyj",
+          "out_player_id": "4wyrn4hv925q86p",
+          "in_player_name": "Lovro Majer",
+          "out_player_name": "Luka Ivanušec"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohj9853q1z",
+          "out_player_id": "318q66hv01xvqo9",
+          "in_player_name": "Sayfallah Ltaief",
+          "out_player_name": "Hamza Rafia"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66hno74qo9j",
+          "out_player_id": "4jwq2ghv6n8km0v",
+          "in_player_name": "Seifeddine Jaziri",
+          "out_player_name": "Elias Achouri"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 2,
+          "player_id": "3glrw7hz2nvqdyj",
+          "player_name": "Lovro Majer",
+          "reason_type": 1
+        },
+        {
+          "time": 94,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohjekn8q1z",
+          "out_player_id": "dj2ryohje53wq1z",
+          "in_player_name": "Aymen Dahmen",
+          "out_player_name": "Bechir Ben Said"
+        },
+        {
+          "time": 95,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 30,
+          "position": 2,
+          "player_id": "318q66hvp10qo9j",
+          "player_name": "Nikola Vlašić"
+        },
+        {
+          "time": 91,
+          "type": 29,
+          "position": 1,
+          "player_id": "l5ergphvyzgkr8k",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Mohamed Ali Ben Romdhane"
+        },
+        {
+          "time": 92,
+          "type": 29,
+          "position": 2,
+          "player_id": "3glrw7hw58vqdyj",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Andrej Kramarić"
+        },
+        {
+          "time": 93,
+          "type": 29,
+          "position": 1,
+          "player_id": "2y8m4zhzpo4ql07",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Aissa Laïdouni"
+        },
+        {
+          "time": 94,
+          "type": 29,
+          "position": 2,
+          "player_id": "jw2r09hx6pdrz84",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Bruno Petković"
+        },
+        {
+          "time": 94,
+          "type": 29,
+          "position": 1,
+          "player_id": "jw2r09h7l77rz84",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "Ali Abdi"
+        },
+        {
+          "time": 95,
+          "type": 29,
+          "position": 2,
+          "player_id": "3glrw7hz2nvqdyj",
+          "away_score": 3,
+          "home_score": 3,
+          "player_name": "Lovro Majer"
+        },
+        {
+          "time": 96,
+          "type": 30,
+          "position": 1,
+          "player_id": "4wyrn4h7e9gq86p",
+          "away_score": 3,
+          "home_score": 3,
+          "player_name": "Hamza Jelassi"
+        },
+        {
+          "time": 96,
+          "type": 29,
+          "position": 2,
+          "player_id": "4wyrn4hej9zq86p",
+          "away_score": 4,
+          "home_score": 3,
+          "player_name": "Mario Pašalić"
+        },
+        {
+          "time": 97,
+          "type": 29,
+          "position": 1,
+          "player_id": "dj2ryohj9853q1z",
+          "away_score": 4,
+          "home_score": 4,
+          "player_name": "Sayfallah Ltaief"
+        },
+        {
+          "time": 98,
+          "type": 30,
+          "position": 2,
+          "player_id": "jw2r09hj7kerz84",
+          "away_score": 4,
+          "home_score": 4,
+          "player_name": "Josip Juranović"
+        },
+        {
+          "time": 99,
+          "type": 30,
+          "position": 1,
+          "player_id": "318q66hno74qo9j",
+          "away_score": 4,
+          "home_score": 4,
+          "player_name": "Seifeddine Jaziri"
+        },
+        {
+          "time": 99,
+          "type": 29,
+          "position": 2,
+          "player_id": "3glrw7hjy7nxqdy",
+          "away_score": 5,
+          "home_score": 4,
+          "player_name": "Marco Pasalic"
+        },
+        {
+          "time": 100,
+          "type": 30,
+          "position": 1,
+          "player_id": "x7lm7php3xlm2wd",
+          "away_score": 5,
+          "home_score": 4,
+          "player_name": "Oussama Haddadi"
+        },
+        {
+          "time": 90,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    },
+    "y39mp1hzp7olmoj": {
+      "id": "y39mp1hzp7olmoj",
+      "home_team_id": "ednm9whkk88ryox",
+      "away_team_id": "4zp5rzgh8oxq82w",
+      "start_timestamp": 1711483200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 4,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 2,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 34,
+          "type": 16,
+          "position": 1,
+          "player_id": "l7oqdehl1w3r510",
+          "player_name": "Sarpreet Singh"
+        },
+        {
+          "time": 37,
+          "type": 3,
+          "position": 1,
+          "player_id": "2y8m4zhz3oeeql0",
+          "player_name": "Tyler Bindon"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dj2ryohj9853q1z",
+          "out_player_id": "4wyrn4h7e9gq86p",
+          "in_player_name": "Sayfallah Ltaief",
+          "out_player_name": "Hamza Jelassi"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "8yomo4hvplyoq0j",
+          "out_player_id": "318q66hv01xvqo9",
+          "in_player_name": "Elias saad",
+          "out_player_name": "Hamza Rafia"
+        },
+        {
+          "time": 48,
+          "type": 3,
+          "position": 2,
+          "player_id": "1l4rjnhzd00m7vx",
+          "player_name": "Nader Ghandri"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "n54qllhx313kqvy",
+          "out_player_id": "4jwq2gh78znm0ve",
+          "in_player_name": "Alaa Ghram",
+          "out_player_name": "Dylan Bronn"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dj2ryohj97v9q1z",
+          "out_player_id": "1l4rjnhzd00m7vx",
+          "in_player_name": "Mootez zaddem",
+          "out_player_name": "Nader Ghandri"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "23xmvkhgj6eqg8n",
+          "out_player_id": "l7oqdehl1w3r510",
+          "in_player_name": "Elijah Henry Just",
+          "out_player_name": "Sarpreet Singh"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "965mkyh31g47r1g",
+          "out_player_id": "x7lm7ph9pyem2wd",
+          "in_player_name": "Ben Waine",
+          "out_player_name": "Callum McCowatt"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y0or5jh30k6vqwz",
+          "out_player_id": "jw2r09hxkx11rz8",
+          "in_player_name": "Benjamin old",
+          "out_player_name": "Matthew Garbett"
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dj2ryohjekn8q1z",
+          "out_player_id": "l5ergphey6d6r8k",
+          "in_player_name": "Aymen Dahmen",
+          "out_player_name": "Bechir said ben"
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7ph5ejym2wd",
+          "player_name": "Liberato Cacace"
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "position": 2,
+          "player_id": "4jwq2ghv6n8km0v",
+          "player_name": "Elias Achouri"
+        },
+        {
+          "time": 94,
+          "type": 15,
+          "position": 1,
+          "player_id": "x7lm7ph5ejym2wd",
+          "player_name": "Liberato Cacace"
+        },
+        {
+          "time": 94,
+          "type": 15,
+          "position": 2,
+          "player_id": "4jwq2ghv6n8km0v",
+          "player_name": "Elias Achouri"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 1,
+          "player_id": "965mkyh31g47r1g",
+          "player_name": "Ben Waine"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "1l4rjnhk1zdjm7v",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Mohamed romdhane"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "3glrw7hwy4kqdyj",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Kosta Barbarouses"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "2y8m4zhzpo4ql07",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Aissa Laïdouni"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 1,
+          "player_id": "23xmvkhgj6eqg8n",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Elijah Henry Just"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "jw2r09h7l77rz84",
+          "away_score": 3,
+          "home_score": 1,
+          "player_name": "Ali Abdi"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "2y8m4zhg95xql07",
+          "away_score": 3,
+          "home_score": 2,
+          "player_name": "Alex Rufer"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "n54qllhx313kqvy",
+          "away_score": 4,
+          "home_score": 2,
+          "player_name": "Alaa Ghram"
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

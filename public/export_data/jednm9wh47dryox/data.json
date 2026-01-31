@@ -1,0 +1,117 @@
+{
+  "season_id": "jednm9wh47dryox",
+  "brackets": [
+    {
+      "id": "dj2ryohydoyq1zp",
+      "competition_id": "gx7lm7phnjm2wdk",
+      "season_id": "jednm9wh47dryox",
+      "name": "Knockout stage",
+      "abbr": "Toppserien, W",
+      "start_time": 1667577600,
+      "end_time": 1668959940,
+      "rounds": [
+        {
+          "id": "pxwrxlh22e7ryk0",
+          "bracket_id": "dj2ryohydoyq1zp",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1667739600,
+          "end_time": 1668859200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "x7lm7phkvvo0m2w",
+              "round_id": "pxwrxlh22e7ryk0",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "318q66honzwqo9j",
+              "away_team_id": "ednm9whk16pryox",
+              "winner_team_id": "ednm9whk16pryox",
+              "home_score": 2,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "6ypq3nh7vjz3md7",
+                "pxwrxlhxyk9yryk"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "318q66honzwqo9j": {
+      "id": "318q66honzwqo9j",
+      "name": "Ovrevoll HosleWomen"
+    },
+    "ednm9whk16pryox": {
+      "id": "ednm9whk16pryox",
+      "name": "Avaldsnes Women"
+    }
+  },
+  "sport_events": {
+    "6ypq3nh7vjz3md7": {
+      "id": "6ypq3nh7vjz3md7",
+      "home_team_id": "318q66honzwqo9j",
+      "away_team_id": "ednm9whk16pryox",
+      "start_timestamp": 1667739600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "pxwrxlhxyk9yryk": {
+      "id": "pxwrxlhxyk9yryk",
+      "home_team_id": "ednm9whk16pryox",
+      "away_team_id": "318q66honzwqo9j",
+      "start_timestamp": 1668859200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 2,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

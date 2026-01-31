@@ -1,0 +1,365 @@
+{
+  "season_id": "yl5ergph9x4r8k0",
+  "brackets": [
+    {
+      "id": "318q66hvngzqo9j",
+      "competition_id": "jednm9wh0nryox8",
+      "season_id": "yl5ergph9x4r8k0",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1749571200,
+      "end_time": 1749916740,
+      "rounds": [
+        {
+          "id": "pxwrxlhxx8wryk0",
+          "bracket_id": "318q66hvngzqo9j",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1749657600,
+          "end_time": 1749909600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "n54qllhen27dqvy",
+              "round_id": "pxwrxlhxx8wryk0",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "6ypq3nh0p4pmd7o",
+              "away_team_id": "23xmvkh3v60qg8n",
+              "winner_team_id": "23xmvkh3v60qg8n",
+              "home_score": 2,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "6ypq3nhv569vmd7",
+                "2y8m4zh5j0owql0"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "6ypq3nh0p4pmd7o": {
+      "id": "6ypq3nh0p4pmd7o",
+      "name": "Domazlice"
+    },
+    "23xmvkh3v60qg8n": {
+      "id": "23xmvkh3v60qg8n",
+      "name": "FK Viagem Usti nad Labem"
+    }
+  },
+  "sport_events": {
+    "2y8m4zh5j0owql0": {
+      "id": "2y8m4zh5j0owql0",
+      "home_team_id": "23xmvkh3v60qg8n",
+      "away_team_id": "6ypq3nh0p4pmd7o",
+      "start_timestamp": 1749909600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "6ypq3nhv569vmd7",
+      "incidents": [
+        {
+          "time": 9,
+          "type": 1,
+          "position": 1,
+          "player_id": "8yomo4h25vdq0j6",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Daniel Richter"
+        },
+        {
+          "time": 19,
+          "type": 1,
+          "position": 1,
+          "player_id": "l7oqdeh68elr510",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Pavel Moulis"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 59,
+          "type": 1,
+          "position": 2,
+          "player_id": "dn1m1ghnke68moe",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Petr Dosly"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnhzjvy3m7v",
+          "out_player_id": "l7oqdeh68elr510",
+          "in_player_name": "Miroslav Turecek",
+          "out_player_name": "Pavel Moulis"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "8yomo4h2dkjwq0j",
+          "out_player_id": "4jwq2ghv22ozm0v",
+          "in_player_name": "vojtech cerny",
+          "out_player_name": "krystof pavlik"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "jw2r09hjd2e1rz8",
+          "out_player_id": "l7oqdehew16r510",
+          "in_player_name": "Martin kapolka",
+          "out_player_name": "Matyas Kodydek"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7ph0vlogm2w",
+          "out_player_id": "4wyrn4hvn93q86p",
+          "in_player_name": "adam cicovsky",
+          "out_player_name": "Filip Novotny"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y0or5jhe5kv0qwz",
+          "out_player_id": "4jwq2ghx5xem0ve",
+          "in_player_name": "jakub tersl",
+          "out_player_name": "Frantisek Dvorak"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "k82rekho5xl1rep",
+          "out_player_id": "dn1m1gh38x7zmoe",
+          "in_player_name": "Tadeas sobehart",
+          "out_player_name": "Stefan Fedak"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "6ypq3nhv569vmd7": {
+      "id": "6ypq3nhv569vmd7",
+      "home_team_id": "6ypq3nh0p4pmd7o",
+      "away_team_id": "23xmvkh3v60qg8n",
+      "start_timestamp": 1749657600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "2y8m4zh5j0owql0",
+      "incidents": [
+        {
+          "time": 13,
+          "type": 1,
+          "position": 2,
+          "player_id": "l7oqdeh68elr510",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Pavel Moulis"
+        },
+        {
+          "time": 30,
+          "type": 1,
+          "position": 1,
+          "player_id": "dn1m1gh3gn9lmoe",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "jan zajicek"
+        },
+        {
+          "time": 43,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dn1m1gh38x7zmoe",
+          "out_player_id": "vjxm8gh44ynr6od",
+          "in_player_name": "Stefan Fedak",
+          "out_player_name": "Radim Řezník"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 3,
+          "position": 2,
+          "player_id": "y0or5jh45o6qwzv",
+          "player_name": "Tomas Kucera"
+        },
+        {
+          "time": 56,
+          "type": 3,
+          "position": 1,
+          "player_id": "dn1m1gh38x7zmoe",
+          "player_name": "Stefan Fedak"
+        },
+        {
+          "time": 56,
+          "type": 3,
+          "position": 2,
+          "player_id": "dj2ryohnx4pq1zp",
+          "player_name": "David Brezina"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "k82rekhyppzkrep",
+          "out_player_id": "dj2ryohnx4pq1zp",
+          "in_player_name": "vojtech citek",
+          "out_player_name": "David Brezina"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4jwq2ghv22ozm0v",
+          "out_player_id": "jw2r09hjd2e1rz8",
+          "in_player_name": "krystof pavlik",
+          "out_player_name": "Martin kapolka"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dn1m1ghnke68moe",
+          "out_player_id": "l7oqdehew16r510",
+          "in_player_name": "Petr Dosly",
+          "out_player_name": "Matyas Kodydek"
+        },
+        {
+          "time": 73,
+          "type": 1,
+          "position": 2,
+          "player_id": "8yomo4h25vdq0j6",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Daniel Richter"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "1l4rjnhzjvy3m7v",
+          "out_player_id": "l7oqdeh68elr510",
+          "in_player_name": "Miroslav Turecek",
+          "out_player_name": "Pavel Moulis"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "8yomo4h2dkjwq0j",
+          "out_player_id": "zp5rzghp34dwq82",
+          "in_player_name": "vojtech cerny",
+          "out_player_name": "ondrej oravec"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "4jwq2gh42v5m0ve",
+          "out_player_id": "4wyrn4hvn93q86p",
+          "in_player_name": "Alois Hycka",
+          "out_player_name": "Filip Novotny"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7ph0vlogm2w",
+          "out_player_id": "318q66ho6ooqo9j",
+          "in_player_name": "adam cicovsky",
+          "out_player_name": "Antonin Fantis"
+        },
+        {
+          "time": 85,
+          "type": 3,
+          "position": 2,
+          "player_id": "p4jwq2gh36gm0ve",
+          "player_name": "Tomas Grigar"
+        },
+        {
+          "time": 88,
+          "type": 3,
+          "position": 2,
+          "player_id": "vjxm8ghp3jwr6od",
+          "player_name": "Ondrej Zezulka"
+        },
+        {
+          "time": 90,
+          "type": 1,
+          "position": 2,
+          "player_id": "vjxm8ghgw77r6od",
+          "away_score": 3,
+          "home_score": 1,
+          "player_name": "Marek Cervenka"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,781 @@
+{
+  "season_id": "8yomo4h7e7gq0j6",
+  "brackets": [
+    {
+      "id": "pxwrxlh9xedryk0",
+      "competition_id": "p3glrw7hngqdyjv",
+      "season_id": "8yomo4h7e7gq0j6",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1767628800,
+      "end_time": 1769702400,
+      "rounds": [
+        {
+          "id": "4wyrn4hogn6q86p",
+          "bracket_id": "pxwrxlh9xedryk0",
+          "name": "Semifinals",
+          "abbr": "SF",
+          "start_time": 1767634200,
+          "end_time": 1767720600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "8yomo4hk8dw0q0j",
+              "round_id": "4wyrn4hogn6q86p",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "z318q66hp66qo9j",
+              "away_team_id": "kn54qllhy0dqvy9",
+              "winner_team_id": "z318q66hp66qo9j",
+              "home_score": 4,
+              "away_score": 1,
+              "parent_ids": [
+                "pxwrxlh1nk62ryk"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "k82rekhg08z9rep"
+              ]
+            },
+            {
+              "id": "6ypq3nh58j21md7",
+              "round_id": "4wyrn4hogn6q86p",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "56ypq3nhdpymd7o",
+              "away_team_id": "z318q66hlxwqo9j",
+              "winner_team_id": "56ypq3nhdpymd7o",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [
+                "pxwrxlh1nk62ryk"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "318q66hx67zvqo9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l5ergphlg6kr8k0",
+          "bracket_id": "pxwrxlh9xedryk0",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1768059900,
+          "end_time": 1768059900,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "pxwrxlh1nk62ryk",
+              "round_id": "l5ergphlg6kr8k0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "z318q66hp66qo9j",
+              "away_team_id": "56ypq3nhdpymd7o",
+              "winner_team_id": "56ypq3nhdpymd7o",
+              "home_score": 0,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [
+                "8yomo4hk8dw0q0j",
+                "6ypq3nh58j21md7"
+              ],
+              "event_ids": [
+                "y0or5jh8z53nqwz"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "kn54qllhy0dqvy9": {
+      "id": "kn54qllhy0dqvy9",
+      "name": "Trabzonspor"
+    },
+    "z318q66hlxwqo9j": {
+      "id": "z318q66hlxwqo9j",
+      "name": "Samsunspor"
+    },
+    "56ypq3nhdpymd7o": {
+      "id": "56ypq3nhdpymd7o",
+      "name": "Fenerbahce"
+    },
+    "z318q66hp66qo9j": {
+      "id": "z318q66hp66qo9j",
+      "name": "Galatasaray"
+    }
+  },
+  "sport_events": {
+    "318q66hx67zvqo9": {
+      "id": "318q66hx67zvqo9",
+      "home_team_id": "56ypq3nhdpymd7o",
+      "away_team_id": "z318q66hlxwqo9j",
+      "start_timestamp": 1767720600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 1,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 4,
+          "type": 1,
+          "position": 1,
+          "player_id": "8yomo4h21y51q0j",
+          "assist1_id": "l7oqdeh42vv9r51",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Muhammed Kerem Akturkoglu",
+          "assist1_name": "Anthony Musaba"
+        },
+        {
+          "time": 33,
+          "type": 3,
+          "position": 2,
+          "player_id": "318q66h7on1qo9j",
+          "player_name": "Toni Borevković",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 1,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh187yr510",
+          "out_player_id": "1l4rjnhee3wm7vx",
+          "in_player_name": "Soner Gönül",
+          "out_player_name": "Logi Tomasson"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jhg2zv7qwz",
+          "out_player_id": "vjxm8ghp6ewnr6o",
+          "in_player_name": "Saikuba Jarju",
+          "out_player_name": "Ebrima Ceesay"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l5ergphoxyer8k0",
+          "out_player_id": "318q66h7on1qo9j",
+          "in_player_name": "Soner Aydoğdu",
+          "out_player_name": "Toni Borevković"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y39mp1hy4nw2moj",
+          "out_player_id": "dj2ryohj10n3q1z",
+          "in_player_name": "Efe Yigit Demir",
+          "out_player_name": "Bartuğ Elmaz"
+        },
+        {
+          "time": 67,
+          "type": 1,
+          "position": 1,
+          "player_id": "318q66hvn3zyqo9",
+          "assist1_id": "l7oqdeh42vv9r51",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Jhon Durán",
+          "assist1_name": "Anthony Musaba"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "8yomo4h2zv2dq0j",
+          "out_player_id": "l7oqdeh42vv9r51",
+          "in_player_name": "Oguz Aydin",
+          "out_player_name": "Anthony Musaba"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhxe2g1m7v",
+          "out_player_id": "4jwq2ghkex2m0ve",
+          "in_player_name": "Joe Mendes",
+          "out_player_name": "Zeki Yavru"
+        },
+        {
+          "time": 77,
+          "type": 4,
+          "position": 2,
+          "player_id": "dj2ryohj8ykyq1z",
+          "player_name": "Antoine Makoumbou",
+          "reason_type": 12
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "x7lm7ph913llm2w",
+          "out_player_id": "l7oqdeh65wzr510",
+          "in_player_name": "Ali Badra Diabaté",
+          "out_player_name": "Ľubomír Šatka"
+        },
+        {
+          "time": 84,
+          "type": 28,
+          "position": 1,
+          "player_id": "y39mp1hy4nw2moj",
+          "var_reason": 1,
+          "var_result": 2,
+          "player_name": "Efe Yigit Demir"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "8yomo4hzeweq0j6",
+          "out_player_id": "8yomo4h21y51q0j",
+          "in_player_name": "Sebastian Szymański",
+          "out_player_name": "Muhammed Kerem Akturkoglu"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhwwgzmd7o",
+          "out_player_id": "k82rekhy4k94rep",
+          "in_player_name": "Çağlar Söyüncü",
+          "out_player_name": "Jayden Oosterwolde"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 93,
+          "type": 3,
+          "add_time": 3,
+          "position": 1,
+          "player_id": "8yomo4h2zv2dq0j",
+          "player_name": "Oguz Aydin",
+          "reason_type": 1
+        },
+        {
+          "time": 95,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "k82rekhg08z9rep": {
+      "id": "k82rekhg08z9rep",
+      "home_team_id": "z318q66hp66qo9j",
+      "away_team_id": "kn54qllhy0dqvy9",
+      "start_timestamp": 1767634200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 28,
+          "type": 3,
+          "position": 1,
+          "player_id": "3glrw7hj6xkvqdy",
+          "player_name": "Gabriel",
+          "reason_type": 1
+        },
+        {
+          "time": 38,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hj5ol2qdy",
+          "assist1_id": "318q66hvpn5qo9j",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Baris Alper Yilmaz",
+          "assist1_name": "Roland Sallai"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 1,
+          "add_time": 3,
+          "position": 1,
+          "player_id": "l5ergphv8py2r8k",
+          "assist1_id": "ednm9whz9vwryox",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Eren Elmalı",
+          "assist1_name": "Mauro Icardi"
+        },
+        {
+          "time": 49,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 3,
+          "position": 2,
+          "player_id": "k82rekhyxvggrep",
+          "player_name": "Arseniy Batagov",
+          "reason_type": 11
+        },
+        {
+          "time": 55,
+          "type": 1,
+          "position": 2,
+          "player_id": "965mkyhez42jr1g",
+          "assist1_id": "y0or5jhe813gqwz",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Felipe Augusto",
+          "assist1_name": "Kazeem Olaigbe"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh004kr510",
+          "out_player_id": "vjxm8gh45g6r6od",
+          "in_player_name": "Lucas Torreira",
+          "out_player_name": "İlkay Gündoğan"
+        },
+        {
+          "time": 63,
+          "type": 1,
+          "position": 1,
+          "player_id": "jw2r09h1wygrz84",
+          "assist1_id": "y0or5jheolzqwzv",
+          "away_score": 1,
+          "home_score": 3,
+          "player_name": "Yunus Akgün",
+          "assist1_name": "Leroy Sané"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66h0gl8qo9j",
+          "out_player_id": "jw2r09h1wygrz84",
+          "in_player_name": "Kaan Ayhan",
+          "out_player_name": "Yunus Akgün"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h21143q0j",
+          "out_player_id": "l5ergphv8py2r8k",
+          "in_player_name": "Kazimcan Karatas",
+          "out_player_name": "Eren Elmalı"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "n54qllhepw2qvy9",
+          "out_player_id": "y0or5jhe813gqwz",
+          "in_player_name": "Anthony Nwakaeme",
+          "out_player_name": "Kazeem Olaigbe"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh48ndr510",
+          "out_player_id": "n54qllhxvv8qvy9",
+          "in_player_name": "Mario Lemina",
+          "out_player_name": "Davinson Sánchez"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66h7yz3qo9j",
+          "out_player_id": "3glrw7hj5ol2qdy",
+          "in_player_name": "Ahmed Kutucu",
+          "out_player_name": "Baris Alper Yilmaz"
+        },
+        {
+          "time": 81,
+          "type": 1,
+          "position": 1,
+          "player_id": "ednm9whz9vwryox",
+          "assist1_id": "8yomo4h21143q0j",
+          "away_score": 1,
+          "home_score": 4,
+          "player_name": "Mauro Icardi",
+          "assist1_name": "Kazimcan Karatas"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhj4e17ryk",
+          "out_player_id": "y0or5jhek4lqwzv",
+          "in_player_name": "Salih Malkoçoğlu",
+          "out_player_name": "Oleksandr Zubkov"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "23xmvkhkwp04qg8",
+          "out_player_id": "3glrw7hy81d1qdy",
+          "in_player_name": "Cihan Canak",
+          "out_player_name": "Wagner pina"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 2,
+          "player_id": "y39mp1hjxy0jmoj",
+          "player_name": "Serdar Saatçı",
+          "reason_type": 1
+        },
+        {
+          "time": 93,
+          "type": 9,
+          "add_time": 3,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y39mp1h1zz1lmoj",
+          "out_player_id": "965mkyhez42jr1g",
+          "in_player_name": "Onuralp Cakiroglu",
+          "out_player_name": "Felipe Augusto"
+        },
+        {
+          "time": 94,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "y0or5jh8z53nqwz": {
+      "id": "y0or5jh8z53nqwz",
+      "home_team_id": "z318q66hp66qo9j",
+      "away_team_id": "56ypq3nhdpymd7o",
+      "start_timestamp": 1768059900,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 18,
+          "type": 3,
+          "position": 1,
+          "player_id": "n54qllhxvv8qvy9",
+          "player_name": "Davinson Sánchez",
+          "reason_type": 1
+        },
+        {
+          "time": 23,
+          "type": 3,
+          "position": 2,
+          "player_id": "ednm9whgpg9ryox",
+          "player_name": "Mert Müldür",
+          "reason_type": 1
+        },
+        {
+          "time": 28,
+          "type": 1,
+          "position": 2,
+          "player_id": "23xmvkhxkooqg8n",
+          "assist1_id": "6ypq3nhz791kmd7",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Mattéo Guendouzi",
+          "assist1_name": "Levent Mercan"
+        },
+        {
+          "time": 33,
+          "type": 3,
+          "position": 1,
+          "player_id": "318q66hvpn5qo9j",
+          "player_name": "Roland Sallai",
+          "reason_type": 1
+        },
+        {
+          "time": 41,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jheolzqwzv",
+          "player_name": "Leroy Sané",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hj6xkvqdy",
+          "out_player_id": "n54qllhxvv8qvy9",
+          "in_player_name": "Gabriel",
+          "out_player_name": "Davinson Sánchez"
+        },
+        {
+          "time": 48,
+          "type": 1,
+          "position": 2,
+          "player_id": "k82rekhy4k94rep",
+          "assist1_id": "3glrw7hj2p4qdyj",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Jayden Oosterwolde",
+          "assist1_name": "Marco Asensio"
+        },
+        {
+          "time": 49,
+          "type": 3,
+          "position": 2,
+          "player_id": "k82rekhy4k94rep",
+          "player_name": "Jayden Oosterwolde",
+          "reason_type": 21
+        },
+        {
+          "time": 49,
+          "type": 3,
+          "position": 2,
+          "player_id": "3glrw7hz45d4qdy",
+          "player_name": "Domenico Tedesco",
+          "reason_type": 19
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "318q66h4084eqo9",
+          "out_player_id": "318q66hvn3zyqo9",
+          "in_player_name": "Nene Dorgeles",
+          "out_player_name": "Jhon Durán"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jhe8ylqwzv",
+          "out_player_id": "l7oqdeh42vv9r51",
+          "in_player_name": "Anderson Talisca",
+          "out_player_name": "Anthony Musaba"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "vjxm8gh45g6r6od",
+          "out_player_id": "l7oqdeh004kr510",
+          "in_player_name": "İlkay Gündoğan",
+          "out_player_name": "Lucas Torreira"
+        },
+        {
+          "time": 78,
+          "type": 3,
+          "position": 2,
+          "player_id": "23xmvkhxkooqg8n",
+          "player_name": "Mattéo Guendouzi",
+          "reason_type": 19
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66h7yz3qo9j",
+          "out_player_id": "y0or5jheolzqwzv",
+          "in_player_name": "Ahmed Kutucu",
+          "out_player_name": "Leroy Sané"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "6ypq3nhwwgzmd7o",
+          "out_player_id": "k82rekhy4k94rep",
+          "in_player_name": "Çağlar Söyüncü",
+          "out_player_name": "Jayden Oosterwolde"
+        },
+        {
+          "time": 83,
+          "type": 3,
+          "position": 1,
+          "player_id": "ednm9whz9vwryox",
+          "player_name": "Mauro Icardi",
+          "reason_type": 1
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h21143q0j",
+          "out_player_id": "318q66hvpn5qo9j",
+          "in_player_name": "Kazimcan Karatas",
+          "out_player_name": "Roland Sallai"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66h0gl8qo9j",
+          "out_player_id": "l5ergphv8py2r8k",
+          "in_player_name": "Kaan Ayhan",
+          "out_player_name": "Eren Elmalı"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y39mp1hy4nw2moj",
+          "out_player_id": "ednm9whgpg9ryox",
+          "in_player_name": "Efe Yigit Demir",
+          "out_player_name": "Mert Müldür"
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h2zv2dq0j",
+          "out_player_id": "8yomo4h21y51q0j",
+          "in_player_name": "Oguz Aydin",
+          "out_player_name": "Muhammed Kerem Akturkoglu"
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

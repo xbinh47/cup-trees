@@ -1,0 +1,86 @@
+{
+  "season_id": "d23xmvkh5ovqg8n",
+  "brackets": [
+    {
+      "id": "ednm9wh9w8jryox",
+      "competition_id": "p3glrw7h1wqdyjv",
+      "season_id": "d23xmvkh5ovqg8n",
+      "name": "Knockout stage",
+      "abbr": "UEFA Super Cu",
+      "start_time": 1692115200,
+      "end_time": 1692287940,
+      "rounds": [
+        {
+          "id": "1l4rjnh2xo1m7vx",
+          "bracket_id": "ednm9wh9w8jryox",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1692212400,
+          "end_time": 1692212400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "n54qllh20j6wqvy",
+              "round_id": "1l4rjnh2xo1m7vx",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "p4jwq2ghd57m0ve",
+              "away_team_id": "z8yomo4hokxq0j6",
+              "winner_team_id": "p4jwq2ghd57m0ve",
+              "home_score": 6,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "pxwrxlhx405wryk"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "p4jwq2ghd57m0ve": {
+      "id": "p4jwq2ghd57m0ve",
+      "name": "Manchester City"
+    },
+    "z8yomo4hokxq0j6": {
+      "id": "z8yomo4hokxq0j6",
+      "name": "Sevilla FC"
+    }
+  },
+  "sport_events": {
+    "pxwrxlhx405wryk": {
+      "id": "pxwrxlhx405wryk",
+      "home_team_id": "p4jwq2ghd57m0ve",
+      "away_team_id": "z8yomo4hokxq0j6",
+      "start_timestamp": 1692212400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 4,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 5,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

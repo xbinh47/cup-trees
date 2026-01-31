@@ -1,0 +1,757 @@
+{
+  "season_id": "kn54qllhop3qvy9",
+  "brackets": [
+    {
+      "id": "4jwq2ghv67gm0ve",
+      "competition_id": "kn54qllhn0qvy9d",
+      "season_id": "kn54qllhop3qvy9",
+      "name": "Parva Liga 24/25, Europa Playoffs",
+      "abbr": "Parva Liga 24",
+      "start_time": 1748620800,
+      "end_time": 1748707140,
+      "rounds": [
+        {
+          "id": "3glrw7h331xqdyj",
+          "bracket_id": "4jwq2ghv67gm0ve",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1748705400,
+          "end_time": 1748705400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dj2ryohy1wkwq1z",
+              "round_id": "3glrw7h331xqdyj",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "y39mp1hjw6wmojx",
+              "away_team_id": "j1l4rjnhp05m7vx",
+              "winner_team_id": "y39mp1hjw6wmojx",
+              "home_score": 5,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "x7lm7phjkvgkm2w"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1l4rjnhz2k9m7vx",
+      "competition_id": "kn54qllhn0qvy9d",
+      "season_id": "kn54qllhop3qvy9",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1748448000,
+      "end_time": 1748620740,
+      "rounds": [
+        {
+          "id": "pxwrxlhxx1kryk0",
+          "bracket_id": "1l4rjnhz2k9m7vx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1748534400,
+          "end_time": 1748620800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "jw2r09hn2elzrz8",
+              "round_id": "pxwrxlhxx1kryk0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "jednm9whn05ryox",
+              "away_team_id": "9vjxm8ghdowr6od",
+              "winner_team_id": "jednm9whn05ryox",
+              "home_score": 3,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "23xmvkh63ygwqg8"
+              ]
+            },
+            {
+              "id": "l7oqdeh6ovn5r51",
+              "round_id": "pxwrxlhxx1kryk0",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "l5ergphoz5jr8k0",
+              "away_team_id": "zp5rzghj28xq82w",
+              "winner_team_id": "l5ergphoz5jr8k0",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "3glrw7hnw45nqdy"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "l5ergphoz5jr8k0": {
+      "id": "l5ergphoz5jr8k0",
+      "name": "Botev Vratsa"
+    },
+    "zp5rzghj28xq82w": {
+      "id": "zp5rzghj28xq82w",
+      "name": "Pirin Blagoevgrad"
+    },
+    "9vjxm8ghdowr6od": {
+      "id": "9vjxm8ghdowr6od",
+      "name": "Marek Dupnitza"
+    },
+    "j1l4rjnhp05m7vx": {
+      "id": "j1l4rjnhp05m7vx",
+      "name": "CSKA Sofia"
+    },
+    "jednm9whn05ryox": {
+      "id": "jednm9whn05ryox",
+      "name": "Lokomotiv Plovdiv"
+    },
+    "y39mp1hjw6wmojx": {
+      "id": "y39mp1hjw6wmojx",
+      "name": "Arda"
+    }
+  },
+  "sport_events": {
+    "23xmvkh63ygwqg8": {
+      "id": "23xmvkh63ygwqg8",
+      "home_team_id": "jednm9whn05ryox",
+      "away_team_id": "9vjxm8ghdowr6od",
+      "start_timestamp": 1748620800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 25,
+          "type": 1,
+          "position": 1,
+          "player_id": "jw2r09hw59glrz8",
+          "assist1_id": "3glrw7hwe4pqdyj",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "perea",
+          "assist1_name": "Dimitar Iliev"
+        },
+        {
+          "time": 29,
+          "type": 1,
+          "position": 1,
+          "player_id": "x7lm7ph0z371m2w",
+          "assist1_id": "jw2r09hw59glrz8",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Julien Lamy",
+          "assist1_name": "perea"
+        },
+        {
+          "time": 32,
+          "type": 3,
+          "position": 2,
+          "player_id": "y0or5jhglpp3qwz",
+          "player_name": "Christian dzhadzharov"
+        },
+        {
+          "time": 46,
+          "type": 3,
+          "add_time": 1,
+          "position": 1,
+          "player_id": "965mkyh792wr1ge",
+          "player_name": "Parvizdzhon Umarbaev"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "23xmvkh4y6dzqg8",
+          "out_player_id": "x7lm7pho953m2wd",
+          "in_player_name": "daniel kirilov",
+          "out_player_name": "Rosen Yordanov"
+        },
+        {
+          "time": 48,
+          "type": 3,
+          "position": 1,
+          "player_id": "l5ergpheo5wwr8k",
+          "player_name": "Ivaylo Ivanov"
+        },
+        {
+          "time": 50,
+          "type": 1,
+          "position": 1,
+          "player_id": "jw2r09hw59glrz8",
+          "assist1_id": "x7lm7ph0z371m2w",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "perea",
+          "assist1_name": "Julien Lamy"
+        },
+        {
+          "time": 60,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l7oqdeh0x0jlr51",
+          "out_player_id": "l5ergphn8p5r8k0",
+          "in_player_name": "Todor Pavlov",
+          "out_player_name": "Angel Lyaskov"
+        },
+        {
+          "time": 60,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dn1m1ghnpz5ymoe",
+          "out_player_id": "l5ergpheo5wwr8k",
+          "in_player_name": "Khristo Ivanov",
+          "out_player_name": "Ivaylo Ivanov"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l7oqdeh430nzr51",
+          "out_player_id": "4wyrn4hv86dxq86",
+          "in_player_name": "Martin Detelinov Petkov",
+          "out_player_name": "Efe Ali"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "6ypq3nhw8ng1md7",
+          "out_player_id": "jw2r09hw59glrz8",
+          "in_player_name": "Petar Dimitrov Andreev",
+          "out_player_name": "perea"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y0or5jhgldl9qwz",
+          "out_player_id": "3glrw7hzpw8kqdy",
+          "in_player_name": "Valeri yordanov",
+          "out_player_name": "aleksandar veselinski"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "3glrw7hyejwgqdy",
+          "out_player_id": "23xmvkhkw34dqg8",
+          "in_player_name": "teodor ivanov",
+          "out_player_name": "aleksandar bliznakov"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dj2ryohn2xw9q1z",
+          "out_player_id": "2y8m4zhzelvql07",
+          "in_player_name": "marcilio",
+          "out_player_name": "Jorge Segura"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "ednm9whgo2p4ryo",
+          "out_player_id": "l5ergphojd3r8k0",
+          "in_player_name": "dobromir pancharevski",
+          "out_player_name": "Martin Kavdanski"
+        },
+        {
+          "time": 90,
+          "type": 16,
+          "position": 1,
+          "player_id": "l7oqdeh430nzr51",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Martin Detelinov Petkov"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "3glrw7hnw45nqdy": {
+      "id": "3glrw7hnw45nqdy",
+      "home_team_id": "l5ergphoz5jr8k0",
+      "away_team_id": "zp5rzghj28xq82w",
+      "start_timestamp": 1748534400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 34,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnhzyjolm7v",
+          "player_name": "Arian Kabashi"
+        },
+        {
+          "time": 38,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7h12j8qdyj",
+          "assist1_id": "l7oqdeh4e72lr51",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Daniel Genov",
+          "assist1_name": "Martin·Dichev"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 53,
+          "type": 3,
+          "position": 2,
+          "player_id": "965mkyh35zkpr1g",
+          "player_name": "Zapro Dinev"
+        },
+        {
+          "time": 56,
+          "type": 3,
+          "position": 2,
+          "player_id": "dj2ryohyk44q1zp",
+          "player_name": "Georgi Valchev"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "pxwrxlhj7x0eryk",
+          "out_player_id": "zp5rzghz0v9lq82",
+          "in_player_name": "Antoan Stoyanov",
+          "out_player_name": "Boubacar Traorè"
+        },
+        {
+          "time": 63,
+          "type": 3,
+          "position": 2,
+          "player_id": "23xmvkh4gdgqg8n",
+          "player_name": "Valentin Yoskov"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlh1vkzryk0",
+          "out_player_id": "23xmvkh4gdgqg8n",
+          "in_player_name": "Stanislav Kostov",
+          "out_player_name": "Valentin Yoskov"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "8yomo4hv66pgq0j",
+          "out_player_id": "dj2ryohyk44q1zp",
+          "in_player_name": "Bogomil Bojurkin",
+          "out_player_name": "Georgi Valchev"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "ednm9whgx9veryo",
+          "out_player_id": "965mkyh31y8yr1g",
+          "in_player_name": "potiguar ewerton",
+          "out_player_name": "Mehdi Boukassi"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l7oqdehlxolkr51",
+          "out_player_id": "1l4rjnhkd658m7v",
+          "in_player_name": "noam embarek",
+          "out_player_name": "mario ivov"
+        },
+        {
+          "time": 86,
+          "type": 3,
+          "position": 2,
+          "player_id": "4wyrn4hd0zy6q86",
+          "player_name": "Ilias Iliadis"
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "add_time": 2,
+          "position": 1,
+          "in_player_id": "k82rekho76yerep",
+          "out_player_id": "3glrw7h12j8qdyj",
+          "in_player_name": "Martin Stanislavov Bachev",
+          "out_player_name": "Daniel Genov"
+        },
+        {
+          "time": 95,
+          "type": 3,
+          "add_time": 5,
+          "position": 1,
+          "player_id": "pxwrxlhj7x0eryk",
+          "player_name": "Antoan Stoyanov"
+        },
+        {
+          "time": 95,
+          "type": 3,
+          "add_time": 5,
+          "position": 2,
+          "player_id": "ednm9wh9zwpryox",
+          "player_name": "Aleksandar Dyulgerov"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "x7lm7phjkvgkm2w": {
+      "id": "x7lm7phjkvgkm2w",
+      "home_team_id": "y39mp1hjw6wmojx",
+      "away_team_id": "j1l4rjnhp05m7vx",
+      "start_timestamp": 1748705400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 11,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 1,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 6,
+          "penalty_score": 4,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 20,
+          "type": 28,
+          "position": 1,
+          "var_reason": 0,
+          "var_result": 0
+        },
+        {
+          "time": 24,
+          "type": 3,
+          "position": 1,
+          "player_id": "dj2ryohgxz3q1zp",
+          "player_name": "Tonislav Yordanov"
+        },
+        {
+          "time": 26,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnh1d2om7vx",
+          "player_name": "Borislav Tsonev"
+        },
+        {
+          "time": 30,
+          "type": 3,
+          "position": 2,
+          "player_id": "1l4rjnhzegwem7v",
+          "player_name": "Lumbardh Dellova"
+        },
+        {
+          "time": 42,
+          "type": 3,
+          "position": 2,
+          "player_id": "2y8m4zh8lzljql0",
+          "player_name": "Sainey Sanyang"
+        },
+        {
+          "time": 43,
+          "type": 3,
+          "position": 1,
+          "player_id": "23xmvkh4e80qg8n",
+          "player_name": "Cascardo Gustavo"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 1,
+          "position": 2,
+          "player_id": "pxwrxlh9p74ryk0",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Thibaut Vion"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y39mp1hj3kdmojx",
+          "out_player_id": "ednm9wh9l153ryo",
+          "in_player_name": "Zymer Bytyqi",
+          "out_player_name": "Marcelino Carreazo"
+        },
+        {
+          "time": 65,
+          "type": 3,
+          "position": 1,
+          "player_id": "8yomo4hk4g5q0j6",
+          "player_name": "Anatoli Gospodinov"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "pxwrxlh9e3z0ryk",
+          "out_player_id": "4wyrn4h9xoxq86p",
+          "in_player_name": "Andre Shinyashiki",
+          "out_player_name": "Ivan Tilev"
+        },
+        {
+          "time": 70,
+          "type": 3,
+          "position": 1,
+          "player_id": "4wyrn4hd242oq86",
+          "player_name": "Lachezar Kotev"
+        },
+        {
+          "time": 71,
+          "type": 3,
+          "position": 1,
+          "player_id": "6ypq3nhz79k6md7",
+          "player_name": "Nnamdi Chinonso Offor"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8ghgz23r6od",
+          "out_player_id": "1l4rjnh1d2om7vx",
+          "in_player_name": "Serkan Yusein",
+          "out_player_name": "Borislav Tsonev"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "965mkyh7g6er1ge",
+          "out_player_id": "23xmvkhk267eqg8",
+          "in_player_name": "Liam Cooper",
+          "out_player_name": "Ilian Kostov"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7ph98xy4m2w",
+          "out_player_id": "zp5rzghz44n9q82",
+          "in_player_name": "petko panayotov",
+          "out_player_name": "Stanislav Shopov"
+        },
+        {
+          "time": 92,
+          "type": 1,
+          "add_time": 2,
+          "position": 1,
+          "player_id": "pxwrxlh9e3z0ryk",
+          "assist1_id": "6ypq3nhz79k6md7",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Andre Shinyashiki",
+          "assist1_name": "Nnamdi Chinonso Offor"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l7oqdeh49gzlr51",
+          "out_player_id": "ednm9whvee3ryox",
+          "in_player_name": "David idowu",
+          "out_player_name": "Félix Eboa Eboa"
+        },
+        {
+          "time": 97,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dn1m1ghn0j75moe",
+          "out_player_id": "n54qllhkdwyqvy9",
+          "in_player_name": "Ivan·Tasev",
+          "out_player_name": "Olaus Jair Skarsem"
+        },
+        {
+          "time": 101,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7ph01jvkm2w",
+          "out_player_id": "ednm9whg458ryox",
+          "in_player_name": "stefan statev",
+          "out_player_name": "Svetoslav Kovachev"
+        },
+        {
+          "time": 106,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7phwzpl6m2w",
+          "out_player_id": "965mkyh383j1r1g",
+          "in_player_name": "georgi chorbadzhiyski",
+          "out_player_name": "Enzo Adrian Ruiz"
+        },
+        {
+          "time": 106,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "jw2r09hpd3jrz84",
+          "out_player_id": "pxwrxlh9p74ryk0",
+          "in_player_name": "Ivan Turitsov",
+          "out_player_name": "Thibaut Vion"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "player_id": "6ypq3nhz79k6md7",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Nnamdi Chinonso Offor"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "player_id": "pxwrxlhj33xryk0",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Ioannis Pittas"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "player_id": "vjxm8ghgz23r6od",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Serkan Yusein"
+        },
+        {
+          "time": 120,
+          "type": 30,
+          "position": 2,
+          "player_id": "2y8m4zh8lzljql0",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Sainey Sanyang"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "player_id": "4wyrn4hd242oq86",
+          "away_score": 1,
+          "home_score": 3,
+          "player_name": "Lachezar Kotev"
+        },
+        {
+          "time": 120,
+          "type": 30,
+          "position": 2,
+          "player_id": "pxwrxlh9oeg1ryk",
+          "away_score": 1,
+          "home_score": 3,
+          "player_name": "James Eto'o"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "player_id": "l7oqdeh49gzlr51",
+          "away_score": 1,
+          "home_score": 4,
+          "player_name": "David idowu"
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

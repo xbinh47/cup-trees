@@ -1,0 +1,86 @@
+{
+  "season_id": "z318q66hpx6qo9j",
+  "brackets": [
+    {
+      "id": "23xmvkhogzgqg8n",
+      "competition_id": "v2y8m4zhydql074",
+      "season_id": "z318q66hpx6qo9j",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1667059200,
+      "end_time": 1672502340,
+      "rounds": [
+        {
+          "id": "8yomo4h5zw8q0j6",
+          "bracket_id": "23xmvkhogzgqg8n",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1667156400,
+          "end_time": 1667156400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l5ergphodwjxr8k",
+              "round_id": "8yomo4h5zw8q0j6",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "x7lm7phkp28m2wd",
+              "away_team_id": "k82rekhv9xprepz",
+              "winner_team_id": "k82rekhv9xprepz",
+              "home_score": 1,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "318q66h6xw9xqo9"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "k82rekhv9xprepz": {
+      "id": "k82rekhv9xprepz",
+      "name": "Nacional Montevideo"
+    },
+    "x7lm7phkp28m2wd": {
+      "id": "x7lm7phkp28m2wd",
+      "name": "Liverpool URU"
+    }
+  },
+  "sport_events": {
+    "318q66h6xw9xqo9": {
+      "id": "318q66h6xw9xqo9",
+      "home_team_id": "x7lm7phkp28m2wd",
+      "away_team_id": "k82rekhv9xprepz",
+      "start_timestamp": 1667156400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 4,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 1,
+          "yellow_card": 6,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

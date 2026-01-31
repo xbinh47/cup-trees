@@ -1,0 +1,86 @@
+{
+  "season_id": "vl7oqdehp1kr510",
+  "brackets": [
+    {
+      "id": "k82rekh9g47repz",
+      "competition_id": "jednm9whdoryox8",
+      "season_id": "vl7oqdehp1kr510",
+      "name": "Supercup",
+      "abbr": "Supercup 2023",
+      "start_time": 1690041600,
+      "end_time": 1690214340,
+      "rounds": [
+        {
+          "id": "dj2ryoh5d85q1zp",
+          "bracket_id": "k82rekh9g47repz",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1690128000,
+          "end_time": 1690128000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "zp5rzghjk8jpq82",
+              "round_id": "dj2ryoh5d85q1zp",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "l5ergphoe4lr8k0",
+              "away_team_id": "8y39mp1hly0mojx",
+              "winner_team_id": "l5ergphoe4lr8k0",
+              "home_score": 6,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "3glrw7h3xg78qdy"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "8y39mp1hly0mojx": {
+      "id": "8y39mp1hly0mojx",
+      "name": "KV Mechelen"
+    },
+    "l5ergphoe4lr8k0": {
+      "id": "l5ergphoe4lr8k0",
+      "name": "Royal Antwerp"
+    }
+  },
+  "sport_events": {
+    "3glrw7h3xg78qdy": {
+      "id": "3glrw7h3xg78qdy",
+      "home_team_id": "l5ergphoe4lr8k0",
+      "away_team_id": "8y39mp1hly0mojx",
+      "start_timestamp": 1690128000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 4,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 13,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 5,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

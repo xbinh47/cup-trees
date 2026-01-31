@@ -1,0 +1,214 @@
+{
+  "season_id": "j1l4rjnhoe6m7vx",
+  "brackets": [
+    {
+      "id": "4jwq2ghken1m0ve",
+      "competition_id": "4zp5rzgh5nq82w1",
+      "season_id": "j1l4rjnhoe6m7vx",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1685116800,
+      "end_time": 1686844740,
+      "rounds": [
+        {
+          "id": "k82rekhn9kzrepz",
+          "bracket_id": "4jwq2ghken1m0ve",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1685376000,
+          "end_time": 1685634300,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "4jwq2gh4yywjm0v",
+              "round_id": "k82rekhn9kzrepz",
+              "number": 1,
+              "type_id": 8,
+              "state_id": 7,
+              "home_team_id": "23xmvkh3ellqg8n",
+              "away_team_id": "k82rekhv4l2repz",
+              "winner_team_id": "23xmvkh3ellqg8n",
+              "home_score": 4,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "8yomo4hgp5n4q0j",
+                "l5ergphl1208r8k"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "318q66hn0eoqo9j",
+          "bracket_id": "4jwq2ghken1m0ve",
+          "name": "Placement match for 3rd",
+          "abbr": "3rd",
+          "start_time": 1685196000,
+          "end_time": 1685545200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "ednm9whkyyoyryo",
+              "round_id": "318q66hn0eoqo9j",
+              "number": 1,
+              "type_id": 8,
+              "state_id": 7,
+              "home_team_id": "n54qllh2lw3qvy9",
+              "away_team_id": "3glrw7hypj1qdyj",
+              "winner_team_id": "n54qllh2lw3qvy9",
+              "home_score": 7,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "4wyrn4ho3082q86",
+                "y39mp1h0lp51moj"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "3glrw7hypj1qdyj": {
+      "id": "3glrw7hypj1qdyj",
+      "name": "Puskas Akademia Women"
+    },
+    "n54qllh2lw3qvy9": {
+      "id": "n54qllh2lw3qvy9",
+      "name": "MTK Hungaria FC Women"
+    },
+    "23xmvkh3ellqg8n": {
+      "id": "23xmvkh3ellqg8n",
+      "name": "Ferencvarosi TC Women"
+    },
+    "k82rekhv4l2repz": {
+      "id": "k82rekhv4l2repz",
+      "name": "Gyori Dozsa Women"
+    }
+  },
+  "sport_events": {
+    "4wyrn4ho3082q86": {
+      "id": "4wyrn4ho3082q86",
+      "home_team_id": "n54qllh2lw3qvy9",
+      "away_team_id": "3glrw7hypj1qdyj",
+      "start_timestamp": 1685196000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "8yomo4hgp5n4q0j": {
+      "id": "8yomo4hgp5n4q0j",
+      "home_team_id": "23xmvkh3ellqg8n",
+      "away_team_id": "k82rekhv4l2repz",
+      "start_timestamp": 1685376000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "l5ergphl1208r8k": {
+      "id": "l5ergphl1208r8k",
+      "home_team_id": "k82rekhv4l2repz",
+      "away_team_id": "23xmvkh3ellqg8n",
+      "start_timestamp": 1685634300,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 3
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "y39mp1h0lp51moj": {
+      "id": "y39mp1h0lp51moj",
+      "home_team_id": "3glrw7hypj1qdyj",
+      "away_team_id": "n54qllh2lw3qvy9",
+      "start_timestamp": 1685545200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 2,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

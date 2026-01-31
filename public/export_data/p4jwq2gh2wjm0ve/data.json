@@ -1,0 +1,86 @@
+{
+  "season_id": "p4jwq2gh2wjm0ve",
+  "brackets": [
+    {
+      "id": "x7lm7phoyplm2wd",
+      "competition_id": "v2y8m4zh3zgql07",
+      "season_id": "p4jwq2gh2wjm0ve",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1700928000,
+      "end_time": 1701014340,
+      "rounds": [
+        {
+          "id": "x7lm7ph893pm2wd",
+          "bracket_id": "x7lm7phoyplm2wd",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1700956800,
+          "end_time": 1700956800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "x7lm7phok0dxm2w",
+              "round_id": "x7lm7ph893pm2wd",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "965mkyh4kw8r1ge",
+              "away_team_id": "4jwq2gh478ym0ve",
+              "winner_team_id": "965mkyh4kw8r1ge",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "6ypq3nh3wg7lmd7"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "965mkyh4kw8r1ge": {
+      "id": "965mkyh4kw8r1ge",
+      "name": "Wellington Olympic"
+    },
+    "4jwq2gh478ym0ve": {
+      "id": "4jwq2gh478ym0ve",
+      "name": "Auckland City"
+    }
+  },
+  "sport_events": {
+    "6ypq3nh3wg7lmd7": {
+      "id": "6ypq3nh3wg7lmd7",
+      "home_team_id": "4jwq2gh478ym0ve",
+      "away_team_id": "965mkyh4kw8r1ge",
+      "start_timestamp": 1700956800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

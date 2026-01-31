@@ -1,0 +1,109 @@
+{
+  "season_id": "jednm9whykjryox",
+  "brackets": [
+    {
+      "id": "ednm9wh97wdryox",
+      "competition_id": "d23xmvkh2nqg8ny",
+      "season_id": "jednm9whykjryox",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1684944000,
+      "end_time": 1685462340,
+      "rounds": [
+        {
+          "id": "dn1m1ghkejemoep",
+          "bracket_id": "ednm9wh97wdryox",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1685035800,
+          "end_time": 1685206800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "965mkyh7ddwvr1g",
+              "round_id": "dn1m1ghkejemoep",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "6ypq3nh0dpgmd7o",
+              "away_team_id": "2y8m4zhg2kvql07",
+              "winner_team_id": "6ypq3nh0dpgmd7o",
+              "home_score": 3,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "pxwrxlhx4vdxryk"
+              ]
+            },
+            {
+              "id": "y39mp1h3ggo2moj",
+              "round_id": "dn1m1ghkejemoep",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "1l4rjnh649dm7vx",
+              "away_team_id": "pxwrxlhgw0eryk0",
+              "winner_team_id": "1l4rjnh649dm7vx",
+              "home_score": 4,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "6ypq3nh0dpgmd7o": {
+      "id": "6ypq3nh0dpgmd7o",
+      "name": "UN Kaerjeng 97"
+    },
+    "1l4rjnh649dm7vx": {
+      "id": "1l4rjnh649dm7vx",
+      "name": "Fola Esch"
+    },
+    "2y8m4zhg2kvql07": {
+      "id": "2y8m4zhg2kvql07",
+      "name": "Bettembourg"
+    },
+    "pxwrxlhgw0eryk0": {
+      "id": "pxwrxlhgw0eryk0",
+      "name": "Jeunesse Canach"
+    }
+  },
+  "sport_events": {
+    "pxwrxlhx4vdxryk": {
+      "id": "pxwrxlhx4vdxryk",
+      "home_team_id": "6ypq3nh0dpgmd7o",
+      "away_team_id": "3glrw7hyowlqdyj",
+      "start_timestamp": 1685206800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

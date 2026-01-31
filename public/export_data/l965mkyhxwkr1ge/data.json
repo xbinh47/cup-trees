@@ -1,0 +1,117 @@
+{
+  "season_id": "l965mkyhxwkr1ge",
+  "brackets": [
+    {
+      "id": "pxwrxlh1710ryk0",
+      "competition_id": "z8yomo4h39q0j6l",
+      "season_id": "l965mkyhxwkr1ge",
+      "name": " Relegation Playoffs",
+      "abbr": " Relegation Playoffs",
+      "start_time": 1668528000,
+      "end_time": 1672415940,
+      "rounds": [
+        {
+          "id": "3glrw7hl0p9qdyj",
+          "bracket_id": "pxwrxlh1710ryk0",
+          "name": "Qualification Round1",
+          "abbr": "QR1",
+          "start_time": 1668610800,
+          "end_time": 1668938400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "8yomo4h78p3vq0j",
+              "round_id": "3glrw7hl0p9qdyj",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "2y8m4zhg939ql07",
+              "away_team_id": "pxwrxlhj17kryk0",
+              "winner_team_id": "pxwrxlhj17kryk0",
+              "home_score": 4,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "6ypq3nh7k5lvmd7",
+                "y39mp1h0d515moj"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "pxwrxlhj17kryk0": {
+      "id": "pxwrxlhj17kryk0",
+      "name": "Dnepr Rogachev"
+    },
+    "2y8m4zhg939ql07": {
+      "id": "2y8m4zhg939ql07",
+      "name": "Arsenal Dzerzhinsk"
+    }
+  },
+  "sport_events": {
+    "6ypq3nh7k5lvmd7": {
+      "id": "6ypq3nh7k5lvmd7",
+      "home_team_id": "2y8m4zhg939ql07",
+      "away_team_id": "pxwrxlhj17kryk0",
+      "start_timestamp": 1668610800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "y39mp1h0d515moj": {
+      "id": "y39mp1h0d515moj",
+      "home_team_id": "pxwrxlhj17kryk0",
+      "away_team_id": "2y8m4zhg939ql07",
+      "start_timestamp": 1668938400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "season_id": "z8yomo4hw7nq0j6",
+  "brackets": [
+    {
+      "id": "1l4rjnhz2e9m7vx",
+      "competition_id": "9dn1m1gh41emoep",
+      "season_id": "z8yomo4hw7nq0j6",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1748534400,
+      "end_time": 1749139140,
+      "rounds": [
+        {
+          "id": "l5ergphllpkr8k0",
+          "bracket_id": "1l4rjnhz2e9m7vx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1749052800,
+          "end_time": 1749052800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "965mkyh4yjv5r1g",
+              "round_id": "l5ergphllpkr8k0",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "",
+              "away_team_id": "x7lm7phk98lm2wd",
+              "winner_team_id": "",
+              "home_score": 3,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": []
+            },
+            {
+              "id": "y39mp1h5zxl4moj",
+              "round_id": "l5ergphllpkr8k0",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "vjxm8ghx398r6od",
+              "away_team_id": "ednm9whkp26ryox",
+              "winner_team_id": "vjxm8ghx398r6od",
+              "home_score": 4,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "dn1m1ghl4ykzmoe"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "vjxm8ghx398r6od": {
+      "id": "vjxm8ghx398r6od",
+      "name": "Union Sportive Boujaad"
+    },
+    "ednm9whkp26ryox": {
+      "id": "ednm9whkp26ryox",
+      "name": "CAYB Club Athletic Youssoufia"
+    },
+    "x7lm7phk98lm2wd": {
+      "id": "x7lm7phk98lm2wd",
+      "name": "MCO Mouloudia Oujda"
+    }
+  },
+  "sport_events": {
+    "dn1m1ghl4ykzmoe": {
+      "id": "dn1m1ghl4ykzmoe",
+      "home_team_id": "ednm9whkp26ryox",
+      "away_team_id": "vjxm8ghx398r6od",
+      "start_timestamp": 1749052800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 12,
+          "red_card": 1,
+          "yellow_card": 7,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 16,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 23,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 41,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 43,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 48,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 62,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 73,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 75,
+          "type": 1,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 1
+        },
+        {
+          "time": 84,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 87,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 90,
+          "type": 4,
+          "position": 1
+        },
+        {
+          "time": 90,
+          "type": 1,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 90,
+          "type": 1,
+          "position": 2,
+          "away_score": 2,
+          "home_score": 1
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 2
+        }
+      ]
+    }
+  }
+}

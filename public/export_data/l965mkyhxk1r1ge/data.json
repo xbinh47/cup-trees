@@ -1,0 +1,117 @@
+{
+  "season_id": "l965mkyhxk1r1ge",
+  "brackets": [
+    {
+      "id": "965mkyh4g9yr1ge",
+      "competition_id": "9vjxm8ghdnr6odg",
+      "season_id": "l965mkyhxk1r1ge",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1666627200,
+      "end_time": 1672502340,
+      "rounds": [
+        {
+          "id": "ednm9whde1zryox",
+          "bracket_id": "965mkyh4g9yr1ge",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1667768400,
+          "end_time": 1668380400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "y39mp1h3ozggmoj",
+              "round_id": "ednm9whde1zryox",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "vjxm8gh4gvnr6od",
+              "away_team_id": "pxwrxlhgj6jryk0",
+              "winner_team_id": "pxwrxlhgj6jryk0",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "dj2ryohel3n6q1z",
+                "l5ergphl4jp7r8k"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "pxwrxlhgj6jryk0": {
+      "id": "pxwrxlhgj6jryk0",
+      "name": "Sociedad Deportiva Aucas"
+    },
+    "vjxm8gh4gvnr6od": {
+      "id": "vjxm8gh4gvnr6od",
+      "name": "Barcelona SC(ECU)"
+    }
+  },
+  "sport_events": {
+    "dj2ryohel3n6q1z": {
+      "id": "dj2ryohel3n6q1z",
+      "home_team_id": "vjxm8gh4gvnr6od",
+      "away_team_id": "pxwrxlhgj6jryk0",
+      "start_timestamp": 1667768400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 1,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "l5ergphl4jp7r8k": {
+      "id": "l5ergphl4jp7r8k",
+      "home_team_id": "pxwrxlhgj6jryk0",
+      "away_team_id": "vjxm8gh4gvnr6od",
+      "start_timestamp": 1668380400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

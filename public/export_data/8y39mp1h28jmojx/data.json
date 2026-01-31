@@ -1,0 +1,472 @@
+{
+  "season_id": "8y39mp1h28jmojx",
+  "brackets": [
+    {
+      "id": "dn1m1ghno50moep",
+      "competition_id": "kn54qllhjzqvy9d",
+      "season_id": "8y39mp1h28jmojx",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1747929600,
+      "end_time": 1748447940,
+      "rounds": [
+        {
+          "id": "dn1m1ghp044moep",
+          "bracket_id": "dn1m1ghno50moep",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1747938600,
+          "end_time": 1748284200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "k82rekh9w231rep",
+              "round_id": "dn1m1ghp044moep",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "n54qllh261zqvy9",
+              "away_team_id": "z8yomo4hop0q0j6",
+              "winner_team_id": "n54qllh261zqvy9",
+              "home_score": 4,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "6ypq3nhv0n8pmd7",
+                "pxwrxlhyg3nwryk"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "z8yomo4hop0q0j6": {
+      "id": "z8yomo4hop0q0j6",
+      "name": "SV Elversberg"
+    },
+    "n54qllh261zqvy9": {
+      "id": "n54qllh261zqvy9",
+      "name": "1. FC Heidenheim 1846"
+    }
+  },
+  "sport_events": {
+    "6ypq3nhv0n8pmd7": {
+      "id": "6ypq3nhv0n8pmd7",
+      "home_team_id": "n54qllh261zqvy9",
+      "away_team_id": "z8yomo4hop0q0j6",
+      "start_timestamp": 1747938600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "pxwrxlhyg3nwryk",
+      "incidents": [
+        {
+          "time": 18,
+          "type": 1,
+          "position": 2,
+          "player_id": "jw2r09hxj223rz8",
+          "assist1_id": "x7lm7phwoolkm2w",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Lukas Petkov",
+          "assist1_name": "Fisnik Asllani"
+        },
+        {
+          "time": 26,
+          "type": 3,
+          "position": 1,
+          "player_id": "k82rekh355nrepz",
+          "player_name": "Adrian Beck",
+          "reason_type": 1
+        },
+        {
+          "time": 42,
+          "type": 1,
+          "position": 2,
+          "player_id": "x7lm7phwoolkm2w",
+          "assist1_id": "dn1m1ghn0ndnmoe",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Fisnik Asllani",
+          "assist1_name": "Tom Zimmerschied"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 28,
+          "add_time": 5,
+          "position": 1,
+          "player_id": "4wyrn4hdlvo9q86",
+          "var_reason": 1,
+          "var_result": 2,
+          "player_name": "Haktab Omar Traore"
+        },
+        {
+          "time": 51,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l5ergph3dnjr8k0",
+          "out_player_id": "y39mp1hjp012moj",
+          "in_player_name": "Budu Zivzivadze",
+          "out_player_name": "Marvin Pieringer"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohgx1j3q1z",
+          "out_player_id": "k82rekh355nrepz",
+          "in_player_name": "Paul Wanner",
+          "out_player_name": "Adrian Beck"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4h48v64q86",
+          "out_player_id": "dj2ryohgx31q1zp",
+          "in_player_name": "Leonardo Weschenfelder Scienza",
+          "out_player_name": "Niklas Dorsch"
+        },
+        {
+          "time": 62,
+          "type": 1,
+          "position": 1,
+          "player_id": "6ypq3nhzwpzlmd7",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Tim Siersleben"
+        },
+        {
+          "time": 64,
+          "type": 1,
+          "position": 1,
+          "player_id": "vjxm8gh8v0zr6od",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Mathias Honsak"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhxnwym7vx",
+          "out_player_id": "vjxm8gh8v0zr6od",
+          "in_player_name": "Sirlord Conteh",
+          "out_player_name": "Mathias Honsak"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "318q66hvj50qo9j",
+          "out_player_id": "dn1m1ghn0ndnmoe",
+          "in_player_name": "Luca Pascal Schnellbacher",
+          "out_player_name": "Tom Zimmerschied"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "23xmvkh4e15qg8n",
+          "out_player_id": "jw2r09h1775rz84",
+          "in_player_name": "Carlo Sickinger",
+          "out_player_name": "Robin Fellhauer"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhx59ezm7v",
+          "out_player_id": "jw2r09hxj223rz8",
+          "in_player_name": "J. Schmahl",
+          "out_player_name": "Lukas Petkov"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "jw2r09hw4jnwrz8",
+          "out_player_id": "x7lm7phwoolkm2w",
+          "in_player_name": "Younes·Ebnoutalib",
+          "out_player_name": "Fisnik Asllani"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 94,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "pxwrxlhyg3nwryk": {
+      "id": "pxwrxlhyg3nwryk",
+      "home_team_id": "z8yomo4hop0q0j6",
+      "away_team_id": "n54qllh261zqvy9",
+      "start_timestamp": 1748284200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "6ypq3nhv0n8pmd7",
+      "incidents": [
+        {
+          "time": 9,
+          "type": 1,
+          "position": 2,
+          "player_id": "vjxm8gh8v0zr6od",
+          "assist1_id": "4wyrn4h48v64q86",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Mathias Honsak",
+          "assist1_name": "Leonardo Weschenfelder Scienza"
+        },
+        {
+          "time": 18,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "23xmvkh4e15qg8n",
+          "out_player_id": "1l4rjnhzlevom7v",
+          "in_player_name": "Carlo Sickinger",
+          "out_player_name": "Semih Sahin"
+        },
+        {
+          "time": 23,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "l5ergph3dnjr8k0",
+          "out_player_id": "y39mp1hjp012moj",
+          "in_player_name": "Budu Zivzivadze",
+          "out_player_name": "Marvin Pieringer"
+        },
+        {
+          "time": 30,
+          "type": 1,
+          "position": 1,
+          "player_id": "jw2r09h1775rz84",
+          "assist1_id": "dn1m1ghn0ndnmoe",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Robin Fellhauer",
+          "assist1_name": "Tom Zimmerschied"
+        },
+        {
+          "time": 43,
+          "type": 3,
+          "position": 2,
+          "player_id": "4wyrn4hdlvo9q86",
+          "player_name": "Haktab Omar Traore",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 8,
+          "position": 0
+        },
+        {
+          "time": 54,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 28,
+          "position": 1,
+          "player_id": "x7lm7phwoolkm2w",
+          "var_reason": 1,
+          "var_result": 2,
+          "player_name": "Fisnik Asllani"
+        },
+        {
+          "time": 55,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdeh06kyxr51",
+          "player_name": "Luca Kerber",
+          "reason_type": 1
+        },
+        {
+          "time": 68,
+          "type": 3,
+          "position": 1,
+          "player_id": "dn1m1ghn0ndnmoe",
+          "player_name": "Tom Zimmerschied",
+          "reason_type": 1
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "dj2ryohgx31q1zp",
+          "out_player_id": "l7oqdeh06kyxr51",
+          "in_player_name": "Niklas Dorsch",
+          "out_player_name": "Luca Kerber"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohgx1j3q1z",
+          "out_player_id": "vjxm8gh8v0zr6od",
+          "in_player_name": "Paul Wanner",
+          "out_player_name": "Mathias Honsak"
+        },
+        {
+          "time": 79,
+          "type": 3,
+          "position": 2,
+          "player_id": "dj2ryohgx1j3q1z",
+          "player_name": "Paul Wanner",
+          "reason_type": 1
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66hvj50qo9j",
+          "out_player_id": "dn1m1ghn0ndnmoe",
+          "in_player_name": "Luca Pascal Schnellbacher",
+          "out_player_name": "Tom Zimmerschied"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 8,
+          "position": 0
+        },
+        {
+          "time": 95,
+          "type": 1,
+          "add_time": 5,
+          "position": 2,
+          "player_id": "4wyrn4h48v64q86",
+          "assist1_id": "dj2ryohgx1j3q1z",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Leonardo Weschenfelder Scienza",
+          "assist1_name": "Paul Wanner"
+        },
+        {
+          "time": 97,
+          "type": 9,
+          "add_time": 7,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66hjo6pqo9j",
+          "out_player_id": "jw2r09hxj223rz8",
+          "in_player_name": "Manuel Feil",
+          "out_player_name": "Lukas Petkov"
+        },
+        {
+          "time": 97,
+          "type": 9,
+          "add_time": 7,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "jw2r09hw4jnwrz8",
+          "out_player_id": "965mkyh3po0jr1g",
+          "in_player_name": "Younes·Ebnoutalib",
+          "out_player_name": "Muhammed Damar"
+        },
+        {
+          "time": 97,
+          "type": 9,
+          "add_time": 7,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "y39mp1hy6lxmojx",
+          "out_player_id": "4wyrn4h48v64q86",
+          "in_player_name": "Benedikt Gimber",
+          "out_player_name": "Leonardo Weschenfelder Scienza"
+        },
+        {
+          "time": 97,
+          "type": 9,
+          "add_time": 7,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "x7lm7ph03vzm2wd",
+          "out_player_id": "l5ergphe803nr8k",
+          "in_player_name": "Jonas Föhrenbach",
+          "out_player_name": "Frans Kratzig"
+        },
+        {
+          "time": 99,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

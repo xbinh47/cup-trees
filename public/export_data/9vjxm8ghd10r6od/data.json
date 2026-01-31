@@ -1,0 +1,117 @@
+{
+  "season_id": "9vjxm8ghd10r6od",
+  "brackets": [
+    {
+      "id": "vjxm8ghgdj7r6od",
+      "competition_id": "vl7oqdeholr510j",
+      "season_id": "9vjxm8ghd10r6od",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1700582400,
+      "end_time": 1700927940,
+      "rounds": [
+        {
+          "id": "l5ergphyez0r8k0",
+          "bracket_id": "vjxm8ghgdj7r6od",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1700668800,
+          "end_time": 1700910000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dn1m1ghe4vzzmoe",
+              "round_id": "l5ergphyez0r8k0",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "318q66hol96qo9j",
+              "away_team_id": "318q66h4g56qo9j",
+              "winner_team_id": "318q66hol96qo9j",
+              "home_score": 8,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "ednm9wh7vdd0ryo",
+                "965mkyhyegg2r1g"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "318q66h4g56qo9j": {
+      "id": "318q66h4g56qo9j",
+      "name": "Skanstes SK"
+    },
+    "318q66hol96qo9j": {
+      "id": "318q66hol96qo9j",
+      "name": "Metta/LU Riga"
+    }
+  },
+  "sport_events": {
+    "965mkyhyegg2r1g": {
+      "id": "965mkyhyegg2r1g",
+      "home_team_id": "318q66h4g56qo9j",
+      "away_team_id": "318q66hol96qo9j",
+      "start_timestamp": 1700910000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "ednm9wh7vdd0ryo": {
+      "id": "ednm9wh7vdd0ryo",
+      "home_team_id": "318q66hol96qo9j",
+      "away_team_id": "318q66h4g56qo9j",
+      "start_timestamp": 1700668800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 6,
+          "overTime_score": 0,
+          "half_time_score": 2
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

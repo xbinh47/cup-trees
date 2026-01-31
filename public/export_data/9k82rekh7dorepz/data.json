@@ -1,0 +1,355 @@
+{
+  "season_id": "9k82rekh7dorepz",
+  "brackets": [
+    {
+      "id": "y39mp1hj3dgmojx",
+      "competition_id": "j1l4rjnhe9m7vx5",
+      "season_id": "9k82rekh7dorepz",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1722614400,
+      "end_time": 1722787140,
+      "rounds": [
+        {
+          "id": "vjxm8ghw9v7r6od",
+          "bracket_id": "y39mp1hj3dgmojx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1722712500,
+          "end_time": 1722712500,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "1l4rjnh1e7k1m7v",
+              "round_id": "vjxm8ghw9v7r6od",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "kn54qllhyydqvy9",
+              "away_team_id": "gpxwrxlhwl4ryk0",
+              "winner_team_id": "gpxwrxlhwl4ryk0",
+              "home_score": 3,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "jw2r09h2k5wkrz8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "kn54qllhyydqvy9": {
+      "id": "kn54qllhyydqvy9",
+      "name": "Sporting CP"
+    },
+    "gpxwrxlhwl4ryk0": {
+      "id": "gpxwrxlhwl4ryk0",
+      "name": "FC Porto"
+    }
+  },
+  "sport_events": {
+    "jw2r09h2k5wkrz8": {
+      "id": "jw2r09h2k5wkrz8",
+      "home_team_id": "kn54qllhyydqvy9",
+      "away_team_id": "gpxwrxlhwl4ryk0",
+      "start_timestamp": 1722712500,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 4,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 3,
+          "half_time_score": 3
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 6,
+          "type": 1,
+          "position": 1,
+          "player_id": "k82rekhygz1wrep",
+          "assist1_id": "x7lm7ph5d7nm2wd",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Gonçalo Inácio",
+          "assist1_name": "Pote"
+        },
+        {
+          "time": 9,
+          "type": 1,
+          "position": 1,
+          "player_id": "x7lm7ph5d7nm2wd",
+          "assist1_id": "4jwq2ghxjoym0ve",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Pote",
+          "assist1_name": "Viktor Gyökeres"
+        },
+        {
+          "time": 24,
+          "type": 1,
+          "position": 1,
+          "player_id": "1l4rjnhxvey0m7v",
+          "assist1_id": "4jwq2ghxjoym0ve",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Geovany Tcherno Quenda",
+          "assist1_name": "Viktor Gyökeres"
+        },
+        {
+          "time": 28,
+          "type": 1,
+          "position": 2,
+          "player_id": "8yomo4h0wwjq0j6",
+          "away_score": 1,
+          "home_score": 3,
+          "player_name": "Wenderson Galeno"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 3,
+          "position": 2,
+          "player_id": "23xmvkhdjwkgqg8",
+          "player_name": "Nico González",
+          "reason_type": 1
+        },
+        {
+          "time": 49,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l5ergph50jvr8k0",
+          "out_player_id": "l5ergphv2w6gr8k",
+          "in_player_name": "Stephen Eustáquio",
+          "out_player_name": "João Mário"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohj512eq1z",
+          "out_player_id": "dn1m1ghnkk4moep",
+          "in_player_name": "Iván Jaime",
+          "out_player_name": "Marko Grujić"
+        },
+        {
+          "time": 64,
+          "type": 1,
+          "position": 2,
+          "player_id": "23xmvkhdjwkgqg8",
+          "assist1_id": "4jwq2ghvpzw8m0v",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "Nico González",
+          "assist1_name": "Gonçalo Borges"
+        },
+        {
+          "time": 66,
+          "type": 1,
+          "position": 2,
+          "player_id": "8yomo4h0wwjq0j6",
+          "assist1_id": "l5ergph50jvr8k0",
+          "away_score": 3,
+          "home_score": 3,
+          "player_name": "Wenderson Galeno",
+          "assist1_name": "Stephen Eustáquio"
+        },
+        {
+          "time": 67,
+          "type": 3,
+          "position": 2,
+          "player_id": "4wyrn4hdg53lq86",
+          "player_name": "Alan Gonzalo Varela",
+          "reason_type": 1
+        },
+        {
+          "time": 72,
+          "type": 3,
+          "position": 1,
+          "player_id": "dn1m1ghnp576moe",
+          "player_name": "Eduardo Quaresma",
+          "reason_type": 19
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohg55x2q1z",
+          "out_player_id": "23xmvkhdjwkgqg8",
+          "in_player_name": "Vasco Jose Cardoso Sousa",
+          "out_player_name": "Nico González"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh47n2lr51",
+          "out_player_id": "4jwq2ghvpzw8m0v",
+          "in_player_name": "Francisco José Navarro Aliaga",
+          "out_player_name": "Gonçalo Borges"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zh8py9ql07",
+          "out_player_id": "8yomo4h03g0q0j6",
+          "in_player_name": "Marcus Edwards",
+          "out_player_name": "Francisco Trincão"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh4dwk2r51",
+          "out_player_id": "3glrw7h0ylyqdyj",
+          "in_player_name": "Daniel Bragança",
+          "out_player_name": "Hidemasa Morita"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh09p9vr51",
+          "out_player_id": "8yomo4hv2d57q0j",
+          "in_player_name": "Ousmane Diomande",
+          "out_player_name": "Zeno Koen Debast"
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "position": 1,
+          "player_id": "n54qllhjdod9qvy",
+          "player_name": "Coach",
+          "reason_type": 19
+        },
+        {
+          "time": 98,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 97,
+          "type": 3,
+          "position": 1,
+          "player_id": "l7oqdeh09p9vr51",
+          "player_name": "Ousmane Diomande",
+          "reason_type": 18
+        },
+        {
+          "time": 97,
+          "type": 3,
+          "position": 2,
+          "player_id": "jw2r09hxo3e9rz8",
+          "player_name": "Otavio Ataide",
+          "reason_type": 18
+        },
+        {
+          "time": 101,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66h4gz39qo9",
+          "out_player_id": "x7lm7ph5d7nm2wd",
+          "in_player_name": "Mateus Fernandes",
+          "out_player_name": "Pote"
+        },
+        {
+          "time": 101,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "x7lm7phwzjvem2w",
+          "out_player_id": "k82rekhygz1wrep",
+          "in_player_name": "Iván Fresneda",
+          "out_player_name": "Gonçalo Inácio"
+        },
+        {
+          "time": 101,
+          "type": 1,
+          "position": 2,
+          "player_id": "dj2ryohj512eq1z",
+          "assist1_id": "dj2ryohg55x2q1z",
+          "away_score": 4,
+          "home_score": 3,
+          "player_name": "Iván Jaime",
+          "assist1_name": "Vasco Jose Cardoso Sousa"
+        },
+        {
+          "time": 103,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l5ergphel0kyr8k",
+          "out_player_id": "ednm9wh9ljdgryo",
+          "in_player_name": "Rodrigo Duarte Ribeiro",
+          "out_player_name": "Morten Hjulmand"
+        },
+        {
+          "time": 105,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 105,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whz6ewxryo",
+          "out_player_id": "jw2r09h16dvrz84",
+          "in_player_name": "David Carmo",
+          "out_player_name": "Daniel Loader"
+        },
+        {
+          "time": 120,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 120,
+          "type": 26,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

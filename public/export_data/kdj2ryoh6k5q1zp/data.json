@@ -1,0 +1,117 @@
+{
+  "season_id": "kdj2ryoh6k5q1zp",
+  "brackets": [
+    {
+      "id": "23xmvkho86dqg8n",
+      "competition_id": "9vjxm8ghx2r6odg",
+      "season_id": "kdj2ryoh6k5q1zp",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1685721600,
+      "end_time": 1686499140,
+      "rounds": [
+        {
+          "id": "n54qllh9egwqvy9",
+          "bracket_id": "23xmvkho86dqg8n",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1685818800,
+          "end_time": 1686510900,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "vjxm8gh4dd05r6o",
+              "round_id": "n54qllh9egwqvy9",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "p4jwq2gh2ovm0ve",
+              "away_team_id": "56ypq3nhy23md7o",
+              "winner_team_id": "p4jwq2gh2ovm0ve",
+              "home_score": 6,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "zp5rzgh6kw9zq82",
+                "y39mp1h0l4npmoj"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "56ypq3nhy23md7o": {
+      "id": "56ypq3nhy23md7o",
+      "name": "Maritimo"
+    },
+    "p4jwq2gh2ovm0ve": {
+      "id": "p4jwq2gh2ovm0ve",
+      "name": "CF Estrela Amadora SAD"
+    }
+  },
+  "sport_events": {
+    "y39mp1h0l4npmoj": {
+      "id": "y39mp1h0l4npmoj",
+      "home_team_id": "56ypq3nhy23md7o",
+      "away_team_id": "p4jwq2gh2ovm0ve",
+      "start_timestamp": 1686510900,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 3,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 2,
+          "regular_score": 2,
+          "overTime_score": 2,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "zp5rzgh6kw9zq82": {
+      "id": "zp5rzgh6kw9zq82",
+      "home_team_id": "p4jwq2gh2ovm0ve",
+      "away_team_id": "56ypq3nhy23md7o",
+      "start_timestamp": 1685818800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "season_id": "p4jwq2ghj5zm0ve",
+  "brackets": [
+    {
+      "id": "y0or5jh4j3pqwzv",
+      "competition_id": "9vjxm8ghllr6odg",
+      "season_id": "p4jwq2ghj5zm0ve",
+      "name": "Knockout stage",
+      "abbr": "A Lyga 2022, ",
+      "start_time": 1669305600,
+      "end_time": 1669737540,
+      "rounds": [
+        {
+          "id": "k82rekh8npgrepz",
+          "bracket_id": "y0or5jh4j3pqwzv",
+          "name": "Qualification round 1",
+          "abbr": "QR1",
+          "start_time": 1669546800,
+          "end_time": 1669546800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "k82rekhve5n9rep",
+              "round_id": "k82rekh8npgrepz",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "dj2ryohgypwq1zp",
+              "away_team_id": "23xmvkh3j33qg8n",
+              "winner_team_id": "23xmvkh3j33qg8n",
+              "home_score": 0,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "4jwq2ghzg0ywm0v"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "23xmvkh3j33qg8n": {
+      "id": "23xmvkh3j33qg8n",
+      "name": "Dziugas Telsiai"
+    },
+    "dj2ryohgypwq1zp": {
+      "id": "dj2ryohgypwq1zp",
+      "name": "FK Neptunas Klaipeda"
+    }
+  },
+  "sport_events": {
+    "4jwq2ghzg0ywm0v": {
+      "id": "4jwq2ghzg0ywm0v",
+      "home_team_id": "dj2ryohgypwq1zp",
+      "away_team_id": "23xmvkh3j33qg8n",
+      "start_timestamp": 1669546800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 12,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "season_id": "gx7lm7phyy2m2wd",
+  "brackets": [
+    {
+      "id": "k82rekh9pg4repz",
+      "competition_id": "jednm9whpkryox8",
+      "season_id": "gx7lm7phyy2m2wd",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1701792000,
+      "end_time": 1702223940,
+      "rounds": [
+        {
+          "id": "n54qllh1d44qvy9",
+          "bracket_id": "k82rekh9pg4repz",
+          "name": "Qualification Round1",
+          "abbr": "QR1",
+          "start_time": 1701853200,
+          "end_time": 1702216800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "4jwq2ghk49knm0v",
+              "round_id": "n54qllh1d44qvy9",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "vjxm8gh4yeer6od",
+              "away_team_id": "2y8m4zhjk7vql07",
+              "winner_team_id": "vjxm8gh4yeer6od",
+              "home_score": 5,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "4wyrn4hx4ygwq86",
+                "l7oqdeho0xy7r51"
+              ]
+            },
+            {
+              "id": "ednm9wh9k095ryo",
+              "round_id": "n54qllh1d44qvy9",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "l5ergphvkl8r8k0",
+              "away_team_id": "jw2r09hxjz4rz84",
+              "winner_team_id": "jw2r09hxjz4rz84",
+              "home_score": 1,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "2y8m4zhjk7vql07": {
+      "id": "2y8m4zhjk7vql07",
+      "name": "Gareji Sagarejo"
+    },
+    "jw2r09hxjz4rz84": {
+      "id": "jw2r09hxjz4rz84",
+      "name": "FC Telavi"
+    },
+    "vjxm8gh4yeer6od": {
+      "id": "vjxm8gh4yeer6od",
+      "name": "Samtredia"
+    },
+    "l5ergphvkl8r8k0": {
+      "id": "l5ergphvkl8r8k0",
+      "name": "Spaeri FC"
+    }
+  },
+  "sport_events": {
+    "4wyrn4hx4ygwq86": {
+      "id": "4wyrn4hx4ygwq86",
+      "home_team_id": "vjxm8gh4yeer6od",
+      "away_team_id": "2y8m4zhjk7vql07",
+      "start_timestamp": 1701853200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 4
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "l7oqdeho0xy7r51": {
+      "id": "l7oqdeho0xy7r51",
+      "home_team_id": "2y8m4zhjk7vql07",
+      "away_team_id": "vjxm8gh4yeer6od",
+      "start_timestamp": 1702198800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 1,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

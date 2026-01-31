@@ -1,0 +1,545 @@
+{
+  "season_id": "9k82rekh79grepz",
+  "cup_trees": [
+    {
+      "bracket_id": "23xmvkhdk8oqg8n",
+      "bracket_name": "Relegation/Promotion Playoffs",
+      "nodes": {
+        "0": {},
+        "1": {
+          "1": {
+            "home_team_id": "p4jwq2ghjk2m0ve",
+            "home_team_name": "Jaro",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "p4jwq2ghjk2m0ve",
+            "position": 1,
+            "round_number": 2,
+            "is_bye": true,
+            "status": {
+              "code": 0,
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
+          },
+          "2": {
+            "home_team_id": "8y39mp1hnkymojx",
+            "home_team_name": "Lahti",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "8y39mp1hnkymojx",
+            "position": 2,
+            "round_number": 2,
+            "is_bye": true,
+            "status": {
+              "code": 0,
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
+          }
+        },
+        "2": {
+          "1": {
+            "id": "jw2r09hn95g6rz8",
+            "home_team_id": "p4jwq2ghjk2m0ve",
+            "away_team_id": "8y39mp1hnkymojx",
+            "home_team_name": "Jaro",
+            "away_team_name": "Lahti",
+            "home_score": 2,
+            "away_score": 1,
+            "winner_team_id": "p4jwq2ghjk2m0ve",
+            "position": 1,
+            "round_id": "l7oqdeh3pl7r510",
+            "round_number": 3,
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1729697400,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 0,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 7,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "p4jwq2ghjk2m0ve",
+              "away_team_id": "8y39mp1hnkymojx",
+              "home_team_name": "Jaro",
+              "away_team_name": "Lahti"
+            },
+            "second_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1730037600,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 9,
+                "yellow_card": 4,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 3,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "8y39mp1hnkymojx",
+              "away_team_id": "p4jwq2ghjk2m0ve",
+              "home_team_name": "Lahti",
+              "away_team_name": "Jaro"
+            },
+            "event_ids": [
+              "6ypq3nh3ole9md7",
+              "3glrw7h75z6xqdy"
+            ],
+            "status": {
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
+            }
+          }
+        }
+      },
+      "rounds": [
+        {
+          "id": "l5ergph81n9r8k0",
+          "description": "Qualification Round1",
+          "number": 1
+        },
+        {
+          "id": "jw2r09h0zwerz84",
+          "description": "Qualification Round2",
+          "number": 2
+        },
+        {
+          "id": "l7oqdeh3pl7r510",
+          "description": "Final",
+          "number": 3
+        }
+      ],
+      "total_rounds": 3
+    },
+    {
+      "bracket_id": "n54qllhx872qvy9",
+      "bracket_name": "Veikkausliiga 2024, Europa Playoff",
+      "nodes": {
+        "0": {
+          "1": {
+            "id": "318q66h02837qo9",
+            "home_team_id": "9k82rekh483repz",
+            "away_team_id": "e4wyrn4hnwnq86p",
+            "home_team_name": "FC Haka",
+            "away_team_name": "Inter Turku",
+            "home_score": 2,
+            "away_score": 1,
+            "winner_team_id": "9k82rekh483repz",
+            "position": 1,
+            "round_id": "318q66hgejpqo9j",
+            "round_number": 1,
+            "first_leg": {
+              "status": {
+                "code": 110,
+                "description": "AET",
+                "type": "finished"
+              },
+              "start_time": 1729695600,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 7,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 2,
+                "penalty_score": 0,
+                "overtime_score_only": 1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 7,
+                "yellow_card": 4,
+                "red_card": 0,
+                "overtime_score": 1,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 1
+              },
+              "home_team_id": "9k82rekh483repz",
+              "away_team_id": "e4wyrn4hnwnq86p",
+              "home_team_name": "FC Haka",
+              "away_team_name": "Inter Turku"
+            },
+            "event_ids": [
+              "8yomo4h3o0xlq0j"
+            ],
+            "status": {
+              "code": 110,
+              "description": "AET",
+              "type": "finished"
+            }
+          },
+          "2": {
+            "id": "dn1m1ghe79gkmoe",
+            "home_team_id": "e4wyrn4hp84q86p",
+            "away_team_id": "3glrw7hwkv9qdyj",
+            "home_team_name": "Vaasa VPS",
+            "away_team_name": "Gnistan Helsinki",
+            "home_score": 0,
+            "away_score": 1,
+            "winner_team_id": "3glrw7hwkv9qdyj",
+            "position": 2,
+            "round_id": "318q66hgejpqo9j",
+            "round_number": 1,
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1729695600,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 1,
+                "yellow_card": 2,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 5,
+                "yellow_card": 4,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "home_team_id": "e4wyrn4hp84q86p",
+              "away_team_id": "3glrw7hwkv9qdyj",
+              "home_team_name": "Vaasa VPS",
+              "away_team_name": "Gnistan Helsinki"
+            },
+            "event_ids": [
+              "2y8m4zh69zx9ql0"
+            ],
+            "status": {
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
+            }
+          }
+        },
+        "1": {
+          "1": {
+            "id": "4wyrn4he2y52q86",
+            "home_team_id": "9k82rekh483repz",
+            "away_team_id": "3glrw7hwkv9qdyj",
+            "home_team_name": "FC Haka",
+            "away_team_name": "Gnistan Helsinki",
+            "home_score": 7,
+            "away_score": 6,
+            "winner_team_id": "9k82rekh483repz",
+            "position": 1,
+            "round_id": "dn1m1gh0j8ymoep",
+            "round_number": 2,
+            "first_leg": {
+              "status": {
+                "code": 120,
+                "description": "AP",
+                "type": "finished"
+              },
+              "start_time": 1729951200,
+              "pen_m5": [
+                4,
+                3
+              ],
+              "pen_array": [
+                [
+                  1,
+                  1,
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  0,
+                  0
+                ]
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 3,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 3,
+                "penalty_score": 4,
+                "overtime_score_only": 1,
+                "ft_score_only": 2
+              },
+              "away_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 0,
+                "period_2": 2,
+                "corner": 5,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 3,
+                "penalty_score": 3,
+                "overtime_score_only": 1,
+                "ft_score_only": 2
+              },
+              "home_team_id": "9k82rekh483repz",
+              "away_team_id": "3glrw7hwkv9qdyj",
+              "home_team_name": "FC Haka",
+              "away_team_name": "Gnistan Helsinki"
+            },
+            "event_ids": [
+              "3glrw7h75oe6qdy"
+            ],
+            "status": {
+              "code": 120,
+              "description": "AP",
+              "type": "finished"
+            },
+            "pen_array": [
+              [
+                1,
+                1,
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                1,
+                1,
+                0,
+                0
+              ]
+            ]
+          },
+          "2": {
+            "home_team_id": "jednm9wh493ryox",
+            "home_team_name": "SJK Seinajoen",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "jednm9wh493ryox",
+            "position": 2,
+            "round_number": 2,
+            "is_bye": true,
+            "status": {
+              "code": 0,
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
+          }
+        },
+        "2": {
+          "1": {
+            "id": "l5ergph3yk78r8k",
+            "home_team_id": "9k82rekh483repz",
+            "away_team_id": "jednm9wh493ryox",
+            "home_team_name": "FC Haka",
+            "away_team_name": "SJK Seinajoen",
+            "home_score": 3,
+            "away_score": 4,
+            "winner_team_id": "jednm9wh493ryox",
+            "position": 1,
+            "round_id": "4wyrn4hl3v3q86p",
+            "round_number": 3,
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1730304000,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 6,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 1,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "9k82rekh483repz",
+              "away_team_id": "jednm9wh493ryox",
+              "home_team_name": "FC Haka",
+              "away_team_name": "SJK Seinajoen"
+            },
+            "second_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1730550600,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 3,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 0,
+                "period_2": 2,
+                "corner": 7,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "jednm9wh493ryox",
+              "away_team_id": "9k82rekh483repz",
+              "home_team_name": "SJK Seinajoen",
+              "away_team_name": "FC Haka"
+            },
+            "event_ids": [
+              "k82rekhw46jxrep",
+              "318q66hwp236qo9"
+            ],
+            "status": {
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
+            }
+          }
+        }
+      },
+      "rounds": [
+        {
+          "id": "318q66hgejpqo9j",
+          "description": "Round1",
+          "number": 1
+        },
+        {
+          "id": "dn1m1gh0j8ymoep",
+          "description": "Round2",
+          "number": 2
+        },
+        {
+          "id": "4wyrn4hl3v3q86p",
+          "description": "Final",
+          "number": 3
+        }
+      ],
+      "total_rounds": 3
+    }
+  ]
+}

@@ -1,0 +1,784 @@
+{
+  "season_id": "p4jwq2ghl2dm0ve",
+  "brackets": [
+    {
+      "id": "1l4rjnhzj53m7vx",
+      "competition_id": "e4wyrn4h4kq86pv",
+      "season_id": "p4jwq2ghl2dm0ve",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 0,
+      "end_time": 0,
+      "rounds": [
+        {
+          "id": "n54qllhpv3oqvy9",
+          "bracket_id": "1l4rjnhzj53m7vx",
+          "name": "Semifinals",
+          "abbr": "SF",
+          "start_time": 1766084400,
+          "end_time": 1766170800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "x7lm7phov1zgm2w",
+              "round_id": "n54qllhpv3oqvy9",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "4zp5rzghvdoq82w",
+              "away_team_id": "yl5ergph63er8k0",
+              "winner_team_id": "4zp5rzghvdoq82w",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "dn1m1ghl7g9lmoe"
+              ]
+            },
+            {
+              "id": "y0or5jh452nlqwz",
+              "round_id": "n54qllhpv3oqvy9",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "v2y8m4zhdw6ql07",
+              "away_team_id": "9dn1m1ghzl2moep",
+              "winner_team_id": "v2y8m4zhdw6ql07",
+              "home_score": 4,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "4wyrn4h625yyq86"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "23xmvkhp72eqg8n",
+          "bracket_id": "1l4rjnhzj53m7vx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1766430000,
+          "end_time": 1766430000,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "n54qllhe3o7eqvy",
+              "round_id": "23xmvkhp72eqg8n",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "4zp5rzghvdoq82w",
+              "away_team_id": "v2y8m4zhdw6ql07",
+              "winner_team_id": "4zp5rzghvdoq82w",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "8yomo4h1gkogq0j"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "yl5ergph63er8k0": {
+      "id": "yl5ergph63er8k0",
+      "name": "AC Milan"
+    },
+    "9dn1m1ghzl2moep": {
+      "id": "9dn1m1ghzl2moep",
+      "name": "Inter Milan"
+    },
+    "v2y8m4zhdw6ql07": {
+      "id": "v2y8m4zhdw6ql07",
+      "name": "Bologna"
+    },
+    "4zp5rzghvdoq82w": {
+      "id": "4zp5rzghvdoq82w",
+      "name": "Napoli"
+    }
+  },
+  "sport_events": {
+    "4wyrn4h625yyq86": {
+      "id": "4wyrn4h625yyq86",
+      "home_team_id": "v2y8m4zhdw6ql07",
+      "away_team_id": "9dn1m1ghzl2moep",
+      "start_timestamp": 1766170800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 2,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 3,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 2,
+          "type": 1,
+          "position": 2,
+          "player_id": "k82rekhon2drepz",
+          "assist1_id": "n54qllhj1zvqvy9",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Marcus Thuram",
+          "assist1_name": "Alessandro Bastoni"
+        },
+        {
+          "time": 33,
+          "type": 28,
+          "position": 1,
+          "player_id": "1l4rjnhz37zom7v",
+          "var_reason": 4,
+          "var_result": 3,
+          "player_name": "Emil Holm"
+        },
+        {
+          "time": 35,
+          "type": 8,
+          "position": 1,
+          "player_id": "l5ergphey62r8k0",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Riccardo Orsolini"
+        },
+        {
+          "time": 40,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "3glrw7hj8e7kqdy",
+          "out_player_id": "6ypq3nhznz7md7o",
+          "in_player_name": "Jonathan Rowe",
+          "out_player_name": "Federico Bernardeschi"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 51,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 58,
+          "type": 28,
+          "position": 2,
+          "player_id": "jw2r09hxe30prz8",
+          "var_reason": 3,
+          "var_result": 4,
+          "player_name": "Ange-Yoan Bonny"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66hvk3dxqo9",
+          "out_player_id": "l5ergphey62r8k0",
+          "in_player_name": "Nicolo Cambiaghi",
+          "out_player_name": "Riccardo Orsolini"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4jwq2gh7w97m0ve",
+          "out_player_id": "vjxm8gh4xoer6od",
+          "in_player_name": "Davide Frattesi",
+          "out_player_name": "Henrikh Mkhitaryan"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "318q66hvygj6qo9",
+          "out_player_id": "2y8m4zhgx4d7ql0",
+          "in_player_name": "Andy Diouf",
+          "out_player_name": "Luis Henrique"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4hv7ydq86p",
+          "out_player_id": "k82rekhon2drepz",
+          "in_player_name": "Lautaro Martínez",
+          "out_player_name": "Marcus Thuram"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnh3okgm7vx",
+          "out_player_id": "3glrw7h0zopqdyj",
+          "in_player_name": "Lewis Ferguson",
+          "out_player_name": "Tommaso Pobega"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zh3wg5ql07",
+          "out_player_id": "vjxm8gh89xgdr6o",
+          "in_player_name": "Ciro Immobile",
+          "out_player_name": "Santiago Thomas Castro"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "23xmvkhdn6kjqg8",
+          "out_player_id": "n54qllhj196qvy9",
+          "in_player_name": "Giovanni Fabbian",
+          "out_player_name": "Jens Odgaard"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "3glrw7hy9vyoqdy",
+          "out_player_id": "l7oqdeh68lyr510",
+          "in_player_name": "Petar Sučić",
+          "out_player_name": "Piotr Zieliński"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 29,
+          "position": 2,
+          "player_id": "4wyrn4hv7ydq86p",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Lautaro Martínez"
+        },
+        {
+          "time": 92,
+          "type": 29,
+          "position": 1,
+          "player_id": "1l4rjnh3okgm7vx",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Lewis Ferguson"
+        },
+        {
+          "time": 92,
+          "type": 30,
+          "position": 2,
+          "player_id": "n54qllhj1zvqvy9",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Alessandro Bastoni"
+        },
+        {
+          "time": 93,
+          "type": 30,
+          "position": 1,
+          "player_id": "2y8m4zhz3owql07",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Nikola Moro"
+        },
+        {
+          "time": 94,
+          "type": 30,
+          "position": 2,
+          "player_id": "dn1m1ghnywymoep",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Nicolò Barella"
+        },
+        {
+          "time": 94,
+          "type": 30,
+          "position": 1,
+          "player_id": "n54qllhd8kdqvy9",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Juan Miranda"
+        },
+        {
+          "time": 95,
+          "type": 30,
+          "position": 2,
+          "player_id": "jw2r09hxe30prz8",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Ange-Yoan Bonny"
+        },
+        {
+          "time": 96,
+          "type": 29,
+          "position": 1,
+          "player_id": "3glrw7hj8e7kqdy",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Jonathan Rowe"
+        },
+        {
+          "time": 97,
+          "type": 29,
+          "position": 2,
+          "player_id": "vjxm8gh4y16r6od",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Stefan de Vrij"
+        },
+        {
+          "time": 98,
+          "type": 29,
+          "position": 1,
+          "player_id": "2y8m4zh3wg5ql07",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "Ciro Immobile"
+        },
+        {
+          "time": 90,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    },
+    "8yomo4h1gkogq0j": {
+      "id": "8yomo4h1gkogq0j",
+      "home_team_id": "4zp5rzghvdoq82w",
+      "away_team_id": "v2y8m4zhdw6ql07",
+      "start_timestamp": 1766430000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 26,
+          "type": 3,
+          "position": 1,
+          "player_id": "l5ergphnkg2pr8k",
+          "player_name": "Antonio Conte Cavaliere",
+          "reason_type": 19
+        },
+        {
+          "time": 39,
+          "type": 1,
+          "position": 1,
+          "player_id": "23xmvkhxd43qg8n",
+          "assist1_id": "2y8m4zhgjpzql07",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "David Neres",
+          "assist1_name": "Matteo Politano"
+        },
+        {
+          "time": 44,
+          "type": 3,
+          "position": 2,
+          "player_id": "pxwrxlh1wk0jryk",
+          "player_name": "Torbjörn Heggem",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 1,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhz3owql07",
+          "out_player_id": "n54qllhj196qvy9",
+          "in_player_name": "Nikola Moro",
+          "out_player_name": "Jens Odgaard"
+        },
+        {
+          "time": 50,
+          "type": 3,
+          "position": 2,
+          "player_id": "318q66hvk3dxqo9",
+          "player_name": "Nicolo Cambiaghi",
+          "reason_type": 1
+        },
+        {
+          "time": 57,
+          "type": 1,
+          "position": 1,
+          "player_id": "23xmvkhxd43qg8n",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "David Neres"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "23xmvkhg19jqg8n",
+          "out_player_id": "3glrw7h14x9qdyj",
+          "in_player_name": "Miguel Gutiérrez",
+          "out_player_name": "Leonardo Spinazzola"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhedo5m7vx",
+          "out_player_id": "jw2r09hwgo1rz84",
+          "in_player_name": "Noa Lang",
+          "out_player_name": "Elif  Elmas"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hj8e7kqdy",
+          "out_player_id": "318q66hvk3dxqo9",
+          "in_player_name": "Jonathan Rowe",
+          "out_player_name": "Nicolo Cambiaghi"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "8yomo4hkjwj9q0j",
+          "out_player_id": "1l4rjnh3okgm7vx",
+          "in_player_name": "Thijs Dallinga",
+          "out_player_name": "Lewis Ferguson"
+        },
+        {
+          "time": 77,
+          "type": 3,
+          "position": 2,
+          "player_id": "1l4rjnhz37zom7v",
+          "player_name": "Emil Holm",
+          "reason_type": 1
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghzljeq82w",
+          "out_player_id": "23xmvkhxd43qg8n",
+          "in_player_name": "Pasquale Mazzocchi",
+          "out_player_name": "David Neres"
+        },
+        {
+          "time": 79,
+          "type": 3,
+          "position": 1,
+          "player_id": "2y8m4zhgjpzql07",
+          "player_name": "Matteo Politano",
+          "reason_type": 1
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zh3wg5ql07",
+          "out_player_id": "vjxm8gh89xgdr6o",
+          "in_player_name": "Ciro Immobile",
+          "out_player_name": "Santiago Thomas Castro"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "k82rekho07dxrep",
+          "out_player_id": "l5ergphey62r8k0",
+          "in_player_name": "Benjamin Dominguez",
+          "out_player_name": "Riccardo Orsolini"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l5ergphp42kr8k0",
+          "out_player_id": "2y8m4zhjgp2ql07",
+          "in_player_name": "Alessandro Buongiorno",
+          "out_player_name": "Juan Jesus"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 95,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "dn1m1ghl7g9lmoe": {
+      "id": "dn1m1ghl7g9lmoe",
+      "home_team_id": "4zp5rzghvdoq82w",
+      "away_team_id": "yl5ergph63er8k0",
+      "start_timestamp": 1766084400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 38,
+          "type": 3,
+          "position": 2,
+          "player_id": "ednm9whzgd9ryox",
+          "player_name": "Adrien Rabiot",
+          "reason_type": 1
+        },
+        {
+          "time": 39,
+          "type": 1,
+          "position": 1,
+          "player_id": "23xmvkhxd43qg8n",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "David Neres"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 2,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 63,
+          "type": 1,
+          "position": 1,
+          "player_id": "318q66hvxe77qo9",
+          "assist1_id": "3glrw7h14x9qdyj",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Rasmus Hojlund",
+          "assist1_name": "Leonardo Spinazzola"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y39mp1hjpw5wmoj",
+          "out_player_id": "3glrw7h1exgoqdy",
+          "in_player_name": "Youssouf Fofana",
+          "out_player_name": "Alexis Saelemaekers"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whvy3wgryo",
+          "out_player_id": "y0or5jhe8lwyqwz",
+          "in_player_name": "Zachary Athekame",
+          "out_player_name": "Koni De Winter"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4zp5rzghnopq82w",
+          "out_player_id": "4jwq2ghvdzy4m0v",
+          "in_player_name": "Luka Modrić",
+          "out_player_name": "Ardon Jashari"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhedo5m7vx",
+          "out_player_id": "jw2r09hwgo1rz84",
+          "in_player_name": "Noa Lang",
+          "out_player_name": "Elif  Elmas"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghzljeq82w",
+          "out_player_id": "2y8m4zhgjpzql07",
+          "in_player_name": "Pasquale Mazzocchi",
+          "out_player_name": "Matteo Politano"
+        },
+        {
+          "time": 81,
+          "type": 3,
+          "position": 1,
+          "player_id": "3glrw7h14x9qdyj",
+          "player_name": "Leonardo Spinazzola",
+          "reason_type": 1
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "23xmvkhg19jqg8n",
+          "out_player_id": "3glrw7h14x9qdyj",
+          "in_player_name": "Miguel Gutiérrez",
+          "out_player_name": "Leonardo Spinazzola"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l5ergphv2y7nr8k",
+          "out_player_id": "318q66hvxe77qo9",
+          "in_player_name": "Lorenzo Lucca",
+          "out_player_name": "Rasmus Hojlund"
+        },
+        {
+          "time": 83,
+          "type": 3,
+          "position": 1,
+          "player_id": "2y8m4zh1ov4ql07",
+          "player_name": "Scott McTominay",
+          "reason_type": 18
+        },
+        {
+          "time": 83,
+          "type": 3,
+          "position": 2,
+          "player_id": "n54qllh8d9wqvy9",
+          "player_name": "Fikayo Tomori",
+          "reason_type": 18
+        },
+        {
+          "time": 85,
+          "type": 3,
+          "position": 2,
+          "player_id": "ednm9whvy3wgryo",
+          "player_name": "Zachary Athekame",
+          "reason_type": 1
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "vjxm8gh8lxndr6o",
+          "out_player_id": "23xmvkhxd43qg8n",
+          "in_player_name": "Antonio Vergara",
+          "out_player_name": "David Neres"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 7,
+          "position": 0
+        },
+        {
+          "time": 98,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

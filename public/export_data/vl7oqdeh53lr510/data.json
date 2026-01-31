@@ -1,0 +1,151 @@
+{
+  "season_id": "vl7oqdeh53lr510",
+  "brackets": [
+    {
+      "id": "l7oqdeh445wr510",
+      "competition_id": "j1l4rjnh7xm7vx5",
+      "season_id": "vl7oqdeh53lr510",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1727452800,
+      "end_time": 1728316740,
+      "rounds": [
+        {
+          "id": "k82rekhxd22repz",
+          "bracket_id": "l7oqdeh445wr510",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1728237600,
+          "end_time": 1728244800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "pxwrxlh1epogryk",
+              "round_id": "k82rekhxd22repz",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 6,
+              "home_team_id": "y0or5jh4elyqwzv",
+              "away_team_id": "3glrw7hz1k8qdyj",
+              "winner_team_id": "",
+              "home_score": 0,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "k82rekhwd094rep"
+              ]
+            },
+            {
+              "id": "3glrw7h16k51qdy",
+              "round_id": "k82rekhxd22repz",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 6,
+              "home_team_id": "n54qllh29yvqvy9",
+              "away_team_id": "4wyrn4h988gq86p",
+              "winner_team_id": "",
+              "home_score": 0,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "y39mp1hz8058moj"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "318q66hgd81qo9j",
+          "bracket_id": "l7oqdeh445wr510",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 2,
+          "match_ups": []
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "4wyrn4h988gq86p": {
+      "id": "4wyrn4h988gq86p",
+      "name": "Unity ON"
+    },
+    "n54qllh29yvqvy9": {
+      "id": "n54qllh29yvqvy9",
+      "name": "Serbian White Eagles"
+    },
+    "y0or5jh4elyqwzv": {
+      "id": "y0or5jh4elyqwzv",
+      "name": "SC Scarborough Ontario"
+    },
+    "3glrw7hz1k8qdyj": {
+      "id": "3glrw7hz1k8qdyj",
+      "name": "Toronto Falcons"
+    }
+  },
+  "sport_events": {
+    "k82rekhwd094rep": {
+      "id": "k82rekhwd094rep",
+      "home_team_id": "y0or5jh4elyqwzv",
+      "away_team_id": "3glrw7hz1k8qdyj",
+      "start_timestamp": 1728244800,
+      "status_id": 9,
+      "sport_event_status": {
+        "status_id": 9,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "y39mp1hz8058moj": {
+      "id": "y39mp1hz8058moj",
+      "home_team_id": "n54qllh29yvqvy9",
+      "away_team_id": "4wyrn4h988gq86p",
+      "start_timestamp": 1728237600,
+      "status_id": 9,
+      "sport_event_status": {
+        "status_id": 9,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

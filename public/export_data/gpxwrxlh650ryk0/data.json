@@ -1,0 +1,128 @@
+{
+  "season_id": "gpxwrxlh650ryk0",
+  "brackets": [
+    {
+      "id": "3glrw7hjpynqdyj",
+      "competition_id": "kdj2ryohkvzq1zp",
+      "season_id": "gpxwrxlh650ryk0",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1757088000,
+      "end_time": 1758383940,
+      "rounds": [
+        {
+          "id": "1l4rjnhj0w5m7vx",
+          "bracket_id": "3glrw7hjpynqdyj",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1758358800,
+          "end_time": 1758358800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "3glrw7h14exzqdy",
+              "round_id": "1l4rjnhj0w5m7vx",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "y39mp1h5jxymojx",
+              "away_team_id": "y39mp1h5jl7mojx",
+              "winner_team_id": "y39mp1h5jxymojx",
+              "home_score": 3,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "pxwrxlhy771jryk"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "y39mp1h5jxymojx": {
+      "id": "y39mp1h5jxymojx",
+      "name": "Cooma Tigers"
+    },
+    "y39mp1h5jl7mojx": {
+      "id": "y39mp1h5jl7mojx",
+      "name": "Monaro Panthers"
+    }
+  },
+  "sport_events": {
+    "pxwrxlhy771jryk": {
+      "id": "pxwrxlhy771jryk",
+      "home_team_id": "y39mp1h5jxymojx",
+      "away_team_id": "y39mp1h5jl7mojx",
+      "start_timestamp": 1758358800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 8,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 2,
+          "type": 1,
+          "position": 1,
+          "player_id": "6ypq3nhw430lmd7",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "William Akio"
+        },
+        {
+          "time": 7,
+          "type": 1,
+          "position": 1,
+          "player_id": "6ypq3nhw430lmd7",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "William Akio"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 81,
+          "type": 1,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 3
+        },
+        {
+          "time": 90,
+          "type": 4,
+          "position": 1
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

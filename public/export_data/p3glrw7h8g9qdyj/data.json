@@ -1,0 +1,86 @@
+{
+  "season_id": "p3glrw7h8g9qdyj",
+  "brackets": [
+    {
+      "id": "k82rekh9el6repz",
+      "competition_id": "p3glrw7hzwvqdyj",
+      "season_id": "p3glrw7h8g9qdyj",
+      "name": "Knockout stage",
+      "abbr": "Campeones Cup",
+      "start_time": 1695744000,
+      "end_time": 1695916740,
+      "rounds": [
+        {
+          "id": "x7lm7phnd52m2wd",
+          "bracket_id": "k82rekh9el6repz",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1695870000,
+          "end_time": 1695870000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "y39mp1h375zomoj",
+              "round_id": "x7lm7phnd52m2wd",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "l5ergphvp5dr8k0",
+              "away_team_id": "ednm9whk9g2ryox",
+              "winner_team_id": "ednm9whk9g2ryox",
+              "home_score": 2,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "y39mp1hz5njpmoj"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "ednm9whk9g2ryox": {
+      "id": "ednm9whk9g2ryox",
+      "name": "Tigres UANL"
+    },
+    "l5ergphvp5dr8k0": {
+      "id": "l5ergphvp5dr8k0",
+      "name": "Los Angeles FC"
+    }
+  },
+  "sport_events": {
+    "y39mp1hz5njpmoj": {
+      "id": "y39mp1hz5njpmoj",
+      "home_team_id": "l5ergphvp5dr8k0",
+      "away_team_id": "ednm9whk9g2ryox",
+      "start_timestamp": 1695870600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 8,
+          "red_card": 1,
+          "yellow_card": 0,
+          "penalty_score": 4,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 2,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "season_id": "z318q66hyevqo9j",
+  "brackets": [
+    {
+      "id": "jw2r09hny28rz84",
+      "competition_id": "l965mkyh04r1ge4",
+      "season_id": "z318q66hyevqo9j",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1701705600,
+      "end_time": 1702223940,
+      "rounds": [
+        {
+          "id": "dj2ryoh42evq1zp",
+          "bracket_id": "jw2r09hny28rz84",
+          "name": "Qualification Round1",
+          "abbr": "QR1",
+          "start_time": 1701784800,
+          "end_time": 1702198800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dn1m1ghe47vlmoe",
+              "round_id": "dj2ryoh42evq1zp",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "kn54qllhlokqvy9",
+              "away_team_id": "23xmvkh3xzzqg8n",
+              "winner_team_id": "kn54qllhlokqvy9",
+              "home_score": 7,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "ednm9wh7v51xryo",
+                "965mkyhye8por1g"
+              ]
+            },
+            {
+              "id": "ednm9wh9kx1xryo",
+              "round_id": "dj2ryoh42evq1zp",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "l5ergpheyx2r8k0",
+              "away_team_id": "pxwrxlh1gndryk0",
+              "winner_team_id": "pxwrxlh1gndryk0",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "y39mp1hzyd70moj",
+                "k82rekhwo2lwrep"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "pxwrxlh1gndryk0": {
+      "id": "pxwrxlh1gndryk0",
+      "name": "Kolkheti 1913 Poti"
+    },
+    "l5ergpheyx2r8k0": {
+      "id": "l5ergpheyx2r8k0",
+      "name": "FC Varketili"
+    },
+    "kn54qllhlokqvy9": {
+      "id": "kn54qllhlokqvy9",
+      "name": "Lokomotiv Tbilisi"
+    },
+    "23xmvkh3xzzqg8n": {
+      "id": "23xmvkh3xzzqg8n",
+      "name": "FC Metalurgi Rustavi"
+    }
+  },
+  "sport_events": {
+    "965mkyhye8por1g": {
+      "id": "965mkyhye8por1g",
+      "home_team_id": "23xmvkh3xzzqg8n",
+      "away_team_id": "kn54qllhlokqvy9",
+      "start_timestamp": 1702112400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "ednm9wh7v51xryo": {
+      "id": "ednm9wh7v51xryo",
+      "home_team_id": "kn54qllhlokqvy9",
+      "away_team_id": "23xmvkh3xzzqg8n",
+      "start_timestamp": 1701784800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "k82rekhwo2lwrep": {
+      "id": "k82rekhwo2lwrep",
+      "home_team_id": "pxwrxlh1gndryk0",
+      "away_team_id": "l5ergpheyx2r8k0",
+      "start_timestamp": 1702200600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "y39mp1hzyd70moj": {
+      "id": "y39mp1hzyd70moj",
+      "home_team_id": "l5ergpheyx2r8k0",
+      "away_team_id": "pxwrxlh1gndryk0",
+      "start_timestamp": 1701853200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

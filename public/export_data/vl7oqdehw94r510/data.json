@@ -1,0 +1,86 @@
+{
+  "season_id": "vl7oqdehw94r510",
+  "brackets": [
+    {
+      "id": "x7lm7pho34wm2wd",
+      "competition_id": "9dn1m1gh24moepl",
+      "season_id": "vl7oqdehw94r510",
+      "name": "Knockout stage",
+      "abbr": "Super Cup 202",
+      "start_time": 1680537600,
+      "end_time": 1680710340,
+      "rounds": [
+        {
+          "id": "y39mp1hpv43mojx",
+          "bracket_id": "x7lm7pho34wm2wd",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1680636600,
+          "end_time": 1680636600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dn1m1gh4y1k3moe",
+              "round_id": "y39mp1hpv43mojx",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "6ypq3nh0w05md7o",
+              "away_team_id": "vjxm8gh4jldr6od",
+              "winner_team_id": "6ypq3nh0w05md7o",
+              "home_score": 3,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "2y8m4zhw747wql0"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "6ypq3nh0w05md7o": {
+      "id": "6ypq3nh0w05md7o",
+      "name": "Breidablik"
+    },
+    "vjxm8gh4jldr6od": {
+      "id": "vjxm8gh4jldr6od",
+      "name": "Vikingur Reykjavik"
+    }
+  },
+  "sport_events": {
+    "2y8m4zhw747wql0": {
+      "id": "2y8m4zhw747wql0",
+      "home_team_id": "6ypq3nh0w05md7o",
+      "away_team_id": "vjxm8gh4jldr6od",
+      "start_timestamp": 1680636600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

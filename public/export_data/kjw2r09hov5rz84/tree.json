@@ -1,0 +1,151 @@
+{
+  "season_id": "kjw2r09hov5rz84",
+  "cup_trees": [
+    {
+      "bracket_id": "4wyrn4hd04kq86p",
+      "bracket_name": "Knockout stage",
+      "nodes": {
+        "0": {
+          "1": {
+            "id": "dn1m1ghe2w9emoe",
+            "home_team_id": "y0or5jhe180qwzv",
+            "away_team_id": "n54qllhx277qvy9",
+            "home_team_name": "KF Vushtrria",
+            "away_team_name": "KF Liria Prizren",
+            "home_score": 3,
+            "away_score": 1,
+            "winner_team_id": "y0or5jhe180qwzv",
+            "position": 1,
+            "round_id": "4jwq2ghzzo4m0ve",
+            "round_number": 1,
+            "status": {
+              "code": 0,
+              "description": "Finished",
+              "type": "finished"
+            }
+          },
+          "2": {
+            "home_team_id": "8yomo4h279eq0j6",
+            "home_team_name": "KF Llapi",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "8yomo4h279eq0j6",
+            "position": 2,
+            "round_number": 1,
+            "is_bye": true,
+            "status": {
+              "code": 0,
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
+          }
+        },
+        "1": {
+          "1": {
+            "id": "k82rekh9w5verep",
+            "home_team_id": "y0or5jhe180qwzv",
+            "away_team_id": "8yomo4h279eq0j6",
+            "home_team_name": "KF Vushtrria",
+            "away_team_name": "KF Llapi",
+            "home_score": 1,
+            "away_score": 4,
+            "winner_team_id": "8yomo4h279eq0j6",
+            "position": 1,
+            "round_id": "ednm9wh2289ryox",
+            "round_number": 2,
+            "first_leg": {
+              "status": {
+                "code": 120,
+                "description": "AP",
+                "type": "finished"
+              },
+              "start_time": 1748700000,
+              "pen_m5": [
+                1,
+                4
+              ],
+              "pen_array": [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ]
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 2,
+                "yellow_card": 1,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 1,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 7,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 4,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "y0or5jhe180qwzv",
+              "away_team_id": "8yomo4h279eq0j6",
+              "home_team_name": "KF Vushtrria",
+              "away_team_name": "KF Llapi"
+            },
+            "event_ids": [
+              "l5ergph4ok98r8k"
+            ],
+            "status": {
+              "code": 120,
+              "description": "AP",
+              "type": "finished"
+            },
+            "pen_array": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                1,
+                1,
+                1
+              ]
+            ]
+          }
+        }
+      },
+      "rounds": [
+        {
+          "id": "4jwq2ghzzo4m0ve",
+          "description": "Semi Finals",
+          "number": 1
+        },
+        {
+          "id": "ednm9wh2289ryox",
+          "description": "Final",
+          "number": 2
+        }
+      ],
+      "total_rounds": 2
+    }
+  ]
+}

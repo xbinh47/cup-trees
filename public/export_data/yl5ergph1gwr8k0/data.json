@@ -1,0 +1,750 @@
+{
+  "season_id": "yl5ergph1gwr8k0",
+  "brackets": [
+    {
+      "id": "y0or5jhe37oqwzv",
+      "competition_id": "9dn1m1gh6gmoepl",
+      "season_id": "yl5ergph1gwr8k0",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 0,
+      "end_time": 0,
+      "rounds": [
+        {
+          "id": "vjxm8ghwn26r6od",
+          "bracket_id": "y0or5jhe37oqwzv",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "4wyrn4hele0dq86",
+              "round_id": "vjxm8ghwn26r6od",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "56ypq3nho18md7o",
+              "away_team_id": "k82rekhv2y4repz",
+              "winner_team_id": "k82rekhv2y4repz",
+              "home_score": 0,
+              "away_score": 3,
+              "parent_ids": [
+                "l5ergph3832er8k"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "x7lm7phzeep9m2w"
+              ]
+            },
+            {
+              "id": "dn1m1ghe0ekemoe",
+              "round_id": "vjxm8ghwn26r6od",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "k82rekh9zj1repz",
+              "away_team_id": "yl5ergph6yyr8k0",
+              "winner_team_id": "yl5ergph6yyr8k0",
+              "home_score": 1,
+              "away_score": 4,
+              "parent_ids": [
+                "l5ergph3832er8k"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "y0or5jhnkk11qwz"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x7lm7ph7l5ym2wd",
+          "bracket_id": "y0or5jhe37oqwzv",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "l5ergph3832er8k",
+              "round_id": "x7lm7ph7l5ym2wd",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "k82rekhv2y4repz",
+              "away_team_id": "yl5ergph6yyr8k0",
+              "winner_team_id": "k82rekhv2y4repz",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "4wyrn4hele0dq86",
+                "dn1m1ghe0ekemoe"
+              ],
+              "event_ids": [
+                "2y8m4zh6y45yql0"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "56ypq3nho18md7o": {
+      "id": "56ypq3nho18md7o",
+      "name": "Montedio Yamagata"
+    },
+    "k82rekhv2y4repz": {
+      "id": "k82rekhv2y4repz",
+      "name": "Fagiano Okayama"
+    },
+    "yl5ergph6yyr8k0": {
+      "id": "yl5ergph6yyr8k0",
+      "name": "Vegalta Sendai"
+    },
+    "k82rekh9zj1repz": {
+      "id": "k82rekh9zj1repz",
+      "name": "V-Varen Nagasaki"
+    }
+  },
+  "sport_events": {
+    "2y8m4zh6y45yql0": {
+      "id": "2y8m4zh6y45yql0",
+      "home_team_id": "k82rekhv2y4repz",
+      "away_team_id": "yl5ergph6yyr8k0",
+      "start_timestamp": 1733544300,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 20,
+          "type": 1,
+          "position": 1,
+          "player_id": "dn1m1ghn788pmoe",
+          "assist1_id": "pxwrxlhjj188ryk",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Rui Sueyoshi",
+          "assist1_name": "Takaya Kimura"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhzx3l4md7",
+          "out_player_id": "x7lm7phwnp5km2w",
+          "in_player_name": "George Onaiwu",
+          "out_player_name": "eron"
+        },
+        {
+          "time": 61,
+          "type": 1,
+          "position": 1,
+          "player_id": "zp5rzghp24yyq82",
+          "assist1_id": "965mkyh33yler1g",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Haruka Motoyama",
+          "assist1_name": "Lucao"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "965mkyh33yler1g",
+          "out_player_id": "4jwq2gh1wk6m0ve",
+          "in_player_name": "Lucao",
+          "out_player_name": "Kazunari Ichimi"
+        },
+        {
+          "time": 65,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "318q66h4xkxgqo9",
+          "out_player_id": "23xmvkhdzvx9qg8",
+          "in_player_name": "Renji Matsui",
+          "out_player_name": "Hiromu Kamada"
+        },
+        {
+          "time": 65,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hyv9n9qdy",
+          "out_player_id": "23xmvkhd8kwlqg8",
+          "in_player_name": "Toya Myogan",
+          "out_player_name": "Ryunosuke Sagara"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "k82rekh3ej2repz",
+          "out_player_id": "y0or5jh38x40qwz",
+          "in_player_name": "Kamiya Yuta",
+          "out_player_name": "Hiroto Iwabuchi"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4jwq2gh4e6em0ve",
+          "out_player_id": "8yomo4hvz397q0j",
+          "in_player_name": "Ryo Takeuchi",
+          "out_player_name": "Ryo Tabei"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hzox39qdy",
+          "out_player_id": "dj2ryoh2py6q1zp",
+          "in_player_name": "Rikuto Ishio",
+          "out_player_name": "Yuta Koide"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhzeoxql07",
+          "out_player_id": "y39mp1hj9537moj",
+          "in_player_name": "Masato Nakayama",
+          "out_player_name": "Aoi·Kudo"
+        },
+        {
+          "time": 81,
+          "type": 3,
+          "position": 1,
+          "player_id": "965mkyh33yler1g",
+          "player_name": "Lucao",
+          "reason_type": 1
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "23xmvkhd45p3qg8",
+          "out_player_id": "x7lm7ph0e83vm2w",
+          "in_player_name": "Yasutaka Yanagi",
+          "out_player_name": "Kaito Abe"
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hznoyqdyj",
+          "out_player_id": "pxwrxlhjj188ryk",
+          "in_player_name": "Takahiro Yanagi",
+          "out_player_name": "Takaya Kimura"
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "x7lm7phzeep9m2w": {
+      "id": "x7lm7phzeep9m2w",
+      "home_team_id": "56ypq3nho18md7o",
+      "away_team_id": "k82rekhv2y4repz",
+      "start_timestamp": 1733029200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 1,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 29,
+          "type": 3,
+          "position": 2,
+          "player_id": "4jwq2gh1wk6m0ve",
+          "player_name": "Kazunari Ichimi",
+          "reason_type": 1
+        },
+        {
+          "time": 31,
+          "type": 1,
+          "position": 2,
+          "player_id": "zp5rzghp24yyq82",
+          "assist1_id": "4jwq2gh1wk6m0ve",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Haruka Motoyama",
+          "assist1_name": "Kazunari Ichimi"
+        },
+        {
+          "time": 34,
+          "type": 1,
+          "position": 2,
+          "player_id": "y0or5jh38x40qwz",
+          "assist1_id": "pxwrxlhjj188ryk",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Hiroto Iwabuchi",
+          "assist1_name": "Takaya Kimura"
+        },
+        {
+          "time": 44,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "2y8m4zhg59zjql0",
+          "out_player_id": "n54qllhxp4d6qvy",
+          "in_player_name": "Junya Takahashi",
+          "out_player_name": "Akira Silvano"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 53,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghxnp16m0v",
+          "out_player_id": "n54qllh2d20qvy9",
+          "in_player_name": "Kazuma Okamoto",
+          "out_player_name": "Takumi Yamada"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlh9n04nryk",
+          "out_player_id": "965mkyh3kzlgr1g",
+          "in_player_name": "Ryoma Kida",
+          "out_player_name": "Issaka Zain"
+        },
+        {
+          "time": 52,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "k82rekh3ej2repz",
+          "out_player_id": "y0or5jh38x40qwz",
+          "in_player_name": "Kamiya Yuta",
+          "out_player_name": "Hiroto Iwabuchi"
+        },
+        {
+          "time": 54,
+          "type": 3,
+          "position": 2,
+          "player_id": "pxwrxlhjj188ryk",
+          "player_name": "Takaya Kimura",
+          "reason_type": 1
+        },
+        {
+          "time": 54,
+          "type": 4,
+          "position": 1,
+          "player_id": "vjxm8ghx0p4r6od",
+          "player_name": "Ayumu Kawai",
+          "reason_type": 9
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "965mkyh33yler1g",
+          "out_player_id": "4jwq2gh1wk6m0ve",
+          "in_player_name": "Lucao",
+          "out_player_name": "Kazunari Ichimi"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "n54qllh81kw9qvy",
+          "out_player_id": "y0or5jh15jjqwzv",
+          "in_player_name": "Koki Sakamoto",
+          "out_player_name": "Shintaro Kokubu"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4jwq2gh4e6em0ve",
+          "out_player_id": "8yomo4hvz397q0j",
+          "in_player_name": "Ryo Takeuchi",
+          "out_player_name": "Ryo Tabei"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y39mp1hyy379moj",
+          "out_player_id": "965mkyh48d7r1ge",
+          "in_player_name": "Chihiro Kato",
+          "out_player_name": "Shoma Doi"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66h0n0oqo9j",
+          "out_player_id": "y39mp1h9o50mojx",
+          "in_player_name": "Shuto Minami",
+          "out_player_name": "Reo Takae"
+        },
+        {
+          "time": 84,
+          "type": 1,
+          "position": 2,
+          "player_id": "pxwrxlhjj188ryk",
+          "assist1_id": "x7lm7ph038om2wd",
+          "away_score": 3,
+          "home_score": 0,
+          "player_name": "Takaya Kimura",
+          "assist1_name": "Ibuki "
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hznoyqdyj",
+          "out_player_id": "4wyrn4h7w6yq86p",
+          "in_player_name": "Takahiro Yanagi",
+          "out_player_name": "Yoshitake Suzuki"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 92,
+          "type": 3,
+          "position": 2,
+          "player_id": "x7lm7ph0e83vm2w",
+          "player_name": "Kaito Abe",
+          "reason_type": 1
+        },
+        {
+          "time": 98,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "y0or5jhnkk11qwz": {
+      "id": "y0or5jhnkk11qwz",
+      "home_team_id": "k82rekh9zj1repz",
+      "away_team_id": "yl5ergph6yyr8k0",
+      "start_timestamp": 1733025900,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 31,
+          "type": 3,
+          "position": 1,
+          "player_id": "jw2r09hp3p6rz84",
+          "player_name": "Valdo",
+          "reason_type": 1
+        },
+        {
+          "time": 31,
+          "type": 8,
+          "position": 2,
+          "player_id": "4jwq2gh1w7nm0ve",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Motohiko Nakajima"
+        },
+        {
+          "time": 36,
+          "type": 3,
+          "position": 2,
+          "player_id": "4jwq2gh1w7nm0ve",
+          "player_name": "Motohiko Nakajima",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whgkov4ryo",
+          "out_player_id": "8yomo4hv1xgkq0j",
+          "in_player_name": "Kaito Matsuzawa",
+          "out_player_name": "Tsubasa Kasayanagi"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nh44zjmd7o",
+          "out_player_id": "zp5rzghpp73lq82",
+          "in_player_name": "Riku Yamada",
+          "out_player_name": "Taisei Abe"
+        },
+        {
+          "time": 53,
+          "type": 1,
+          "position": 2,
+          "player_id": "x7lm7phwnp5km2w",
+          "assist1_id": "pxwrxlh9wy6jryk",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "eron",
+          "assist1_name": "Takumi Mase"
+        },
+        {
+          "time": 56,
+          "type": 3,
+          "position": 2,
+          "player_id": "23xmvkhdzvx9qg8",
+          "player_name": "Hiromu Kamada",
+          "reason_type": 1
+        },
+        {
+          "time": 60,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66h01lgqo9j",
+          "out_player_id": "jw2r09hp3p6rz84",
+          "in_player_name": "Kazuki Kushibiki",
+          "out_player_name": "Valdo"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "318q66h4xkxgqo9",
+          "out_player_id": "23xmvkhdzvx9qg8",
+          "in_player_name": "Renji Matsui",
+          "out_player_name": "Hiromu Kamada"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhzx3l4md7",
+          "out_player_id": "x7lm7phwnp5km2w",
+          "in_player_name": "George Onaiwu",
+          "out_player_name": "eron"
+        },
+        {
+          "time": 68,
+          "type": 1,
+          "position": 2,
+          "player_id": "318q66h0d95jqo9",
+          "away_score": 3,
+          "home_score": 0,
+          "player_name": "Yuta Goke"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlh1og99ryk",
+          "out_player_id": "zp5rzghzl50q82w",
+          "in_player_name": "Keita Nakamura",
+          "out_player_name": "Marcos Guilherme"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "jw2r09hp7ovrz84",
+          "out_player_id": "3glrw7h12y8qdyj",
+          "in_player_name": "Takumi Nagura",
+          "out_player_name": "Edigar Junio"
+        },
+        {
+          "time": 76,
+          "type": 1,
+          "position": 1,
+          "player_id": "y39mp1h1n1emojx",
+          "assist1_id": "6ypq3nh44zjmd7o",
+          "away_score": 3,
+          "home_score": 1,
+          "player_name": "Matheus Jesus",
+          "assist1_name": "Riku Yamada"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hzox39qdy",
+          "out_player_id": "pxwrxlh9wy6jryk",
+          "in_player_name": "Rikuto Ishio",
+          "out_player_name": "Takumi Mase"
+        },
+        {
+          "time": 88,
+          "type": 3,
+          "position": 1,
+          "player_id": "y39mp1h1n1emojx",
+          "player_name": "Matheus Jesus",
+          "reason_type": 1
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 92,
+          "type": 1,
+          "position": 2,
+          "player_id": "4jwq2gh1w7nm0ve",
+          "assist1_id": "3glrw7hzox39qdy",
+          "away_score": 4,
+          "home_score": 1,
+          "player_name": "Motohiko Nakajima",
+          "assist1_name": "Rikuto Ishio"
+        },
+        {
+          "time": 95,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhw2nkmd7o",
+          "out_player_id": "4jwq2gh1w7nm0ve",
+          "in_player_name": "Yoshiki Matsushita",
+          "out_player_name": "Motohiko Nakajima"
+        },
+        {
+          "time": 95,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhzeoxql07",
+          "out_player_id": "23xmvkhd8kwlqg8",
+          "in_player_name": "Masato Nakayama",
+          "out_player_name": "Ryunosuke Sagara"
+        },
+        {
+          "time": 100,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

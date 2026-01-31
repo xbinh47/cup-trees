@@ -1,0 +1,86 @@
+{
+  "season_id": "kdj2ryoh63gq1zp",
+  "brackets": [
+    {
+      "id": "1l4rjnh1jvnm7vx",
+      "competition_id": "kn54qllh62qvy9d",
+      "season_id": "kdj2ryoh63gq1zp",
+      "name": "Supercopa",
+      "abbr": "Supercopa 202",
+      "start_time": 1677600000,
+      "end_time": 1677772740,
+      "rounds": [
+        {
+          "id": "3glrw7h0k74qdyj",
+          "bracket_id": "1l4rjnh1jvnm7vx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1677716100,
+          "end_time": 1677716100,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l5ergphox5o3r8k",
+              "round_id": "3glrw7h0k74qdyj",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "z8yomo4hj31q0j6",
+              "away_team_id": "23xmvkh371eqg8n",
+              "winner_team_id": "z8yomo4hj31q0j6",
+              "home_score": 3,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "4wyrn4ho1v58q86"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "23xmvkh371eqg8n": {
+      "id": "23xmvkh371eqg8n",
+      "name": "Patronato Parana"
+    },
+    "z8yomo4hj31q0j6": {
+      "id": "z8yomo4hj31q0j6",
+      "name": "Boca Juniors"
+    }
+  },
+  "sport_events": {
+    "4wyrn4ho1v58q86": {
+      "id": "4wyrn4ho1v58q86",
+      "home_team_id": "z8yomo4hj31q0j6",
+      "away_team_id": "23xmvkh371eqg8n",
+      "start_timestamp": 1677716100,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

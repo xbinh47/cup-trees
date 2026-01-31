@@ -1,0 +1,354 @@
+{
+  "season_id": "4zp5rzghndpq82w",
+  "brackets": [
+    {
+      "id": "x7lm7ph07l2m2wd",
+      "competition_id": "l965mkyhw4r1ge4",
+      "season_id": "4zp5rzghndpq82w",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1763136000,
+      "end_time": 1763827140,
+      "rounds": [
+        {
+          "id": "y0or5jhz2vkqwzv",
+          "bracket_id": "x7lm7ph07l2m2wd",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1763204400,
+          "end_time": 1763809200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "6ypq3nh5879emd7",
+              "round_id": "y0or5jhz2vkqwzv",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "1l4rjnh6jngm7vx",
+              "away_team_id": "dj2ryohj92pq1zp",
+              "winner_team_id": "dj2ryohj92pq1zp",
+              "home_score": 2,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "y39mp1h64j4pmoj",
+                "dj2ryohlxj19q1z"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "dj2ryohj92pq1zp": {
+      "id": "dj2ryohj92pq1zp",
+      "name": "Tallinna FC Ararat TTU"
+    },
+    "1l4rjnh6jngm7vx": {
+      "id": "1l4rjnh6jngm7vx",
+      "name": "Johvi FC Lokomotiv"
+    }
+  },
+  "sport_events": {
+    "dj2ryohlxj19q1z": {
+      "id": "dj2ryohlxj19q1z",
+      "home_team_id": "dj2ryohj92pq1zp",
+      "away_team_id": "1l4rjnh6jngm7vx",
+      "start_timestamp": 1763809200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "y39mp1h64j4pmoj",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnhzl8wm7vx",
+          "out_player_id": "1l4rjnh6gwgm7vx",
+          "in_player_name": "Eduard Golovljov",
+          "out_player_name": "Viktor Plotnikov"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l7oqdeh0k71r510",
+          "out_player_id": "pxwrxlhz250xryk",
+          "in_player_name": "Stefan Tsendei",
+          "out_player_name": "artjom toropov"
+        },
+        {
+          "time": 63,
+          "type": 3,
+          "position": 1,
+          "player_id": "jw2r09hx2lp0rz8",
+          "player_name": "Leonid Arhipov"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dn1m1ghn9jzmoep",
+          "out_player_id": "dj2ryoh5dvyq1zp",
+          "in_player_name": "Vadim Aksjonov",
+          "out_player_name": "Vladimir Istsenko"
+        },
+        {
+          "time": 78,
+          "type": 3,
+          "position": 1,
+          "player_id": "3glrw7hyxz01qdy",
+          "player_name": "Igor ussatsov"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "1l4rjnhkgoegm7v",
+          "out_player_id": "1l4rjnhx8p9vm7v",
+          "in_player_name": "artjom tikhomirov",
+          "out_player_name": "Andrei vrabie"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "n54qllhd060qvy9",
+          "out_player_id": "y0or5jh3vgjgqwz",
+          "in_player_name": "Nikita Salamatov",
+          "out_player_name": "Mykyta tinyakov"
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "add_time": 4,
+          "position": 2,
+          "player_id": "23xmvkhkez6nqg8",
+          "player_name": "Vladislav friesen"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 92,
+          "type": 3,
+          "position": 2,
+          "player_id": "zp5rzghx1v9gq82",
+          "player_name": "ilja shashkov"
+        },
+        {
+          "time": 108,
+          "type": 1,
+          "position": 1,
+          "player_id": "jw2r09hx2lp0rz8",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Leonid Arhipov"
+        },
+        {
+          "time": 114,
+          "type": 3,
+          "position": 1,
+          "player_id": "k82rekh3868krep",
+          "player_name": "mikhail dzemesjuk"
+        },
+        {
+          "time": 118,
+          "type": 3,
+          "position": 1,
+          "player_id": "dn1m1gh8xw88moe",
+          "player_name": "antoniy vynnychuk"
+        },
+        {
+          "time": 120,
+          "type": 26,
+          "position": 0
+        }
+      ]
+    },
+    "y39mp1h64j4pmoj": {
+      "id": "y39mp1h64j4pmoj",
+      "home_team_id": "1l4rjnh6jngm7vx",
+      "away_team_id": "dj2ryohj92pq1zp",
+      "start_timestamp": 1763204400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "dj2ryohlxj19q1z",
+      "incidents": [
+        {
+          "time": 34,
+          "type": 3,
+          "position": 1,
+          "player_id": "zp5rzghp12x4q82",
+          "player_name": "Maksim Miskov"
+        },
+        {
+          "time": 39,
+          "type": 3,
+          "position": 2,
+          "player_id": "dj2ryoh5dvyq1zp",
+          "player_name": "Vladimir Istsenko"
+        },
+        {
+          "time": 46,
+          "type": 3,
+          "add_time": 1,
+          "position": 1,
+          "player_id": "23xmvkhkez6nqg8",
+          "player_name": "Vladislav friesen"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 17,
+          "position": 1,
+          "player_id": "k82rekh3868krep",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "mikhail dzemesjuk"
+        },
+        {
+          "time": 50,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "3glrw7hyxz01qdy",
+          "out_player_id": "dj2ryoh5dvyq1zp",
+          "in_player_name": "Igor ussatsov",
+          "out_player_name": "Vladimir Istsenko"
+        },
+        {
+          "time": 50,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlhz250xryk",
+          "out_player_id": "l7oqdeh0k71r510",
+          "in_player_name": "artjom toropov",
+          "out_player_name": "Stefan Tsendei"
+        },
+        {
+          "time": 67,
+          "type": 1,
+          "position": 2,
+          "player_id": "pxwrxlhj80eyryk",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "vassili kulik"
+        },
+        {
+          "time": 69,
+          "type": 1,
+          "position": 1,
+          "player_id": "1l4rjnhkg6kxm7v",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "bogdan stoianov"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y39mp1hyvx33moj",
+          "out_player_id": "1l4rjnhkgoegm7v",
+          "in_player_name": "Maksim Jakovlev",
+          "out_player_name": "artjom tikhomirov"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dj2ryohjxd85q1z",
+          "out_player_id": "x7lm7ph9vyp7m2w",
+          "in_player_name": "Artur·Salmus",
+          "out_player_name": "guri tsvibelberg"
+        },
+        {
+          "time": 83,
+          "type": 3,
+          "position": 2,
+          "player_id": "l5ergphokd4r8k0",
+          "player_name": "Artjom Dmitrijev"
+        },
+        {
+          "time": 85,
+          "type": 1,
+          "position": 2,
+          "player_id": "jw2r09hx2lp0rz8",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Leonid Arhipov"
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "add_time": 1,
+          "position": 1,
+          "in_player_id": "23xmvkh4j4x8qg8",
+          "out_player_id": "23xmvkhkez6nqg8",
+          "in_player_name": "aleksandr manuskin",
+          "out_player_name": "Vladislav friesen"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

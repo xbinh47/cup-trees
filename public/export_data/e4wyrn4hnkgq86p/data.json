@@ -1,0 +1,163 @@
+{
+  "season_id": "e4wyrn4hnkgq86p",
+  "brackets": [
+    {
+      "id": "l5ergph3400r8k0",
+      "competition_id": "kn54qllhn0qvy9d",
+      "season_id": "e4wyrn4hnkgq86p",
+      "name": "Europa Playoffs",
+      "abbr": "Parva Liga 22",
+      "start_time": 1686326400,
+      "end_time": 1686412740,
+      "rounds": [
+        {
+          "id": "dj2ryoh5g94q1zp",
+          "bracket_id": "l5ergph3400r8k0",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1686499200,
+          "end_time": 1686499200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "4wyrn4h834geq86",
+              "round_id": "dj2ryoh5g94q1zp",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "d23xmvkhzjgqg8n",
+              "away_team_id": "y39mp1hjw6wmojx",
+              "winner_team_id": "d23xmvkhzjgqg8n",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "l7oqdeh8pjvxr51"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4jwq2ghke25m0ve",
+      "competition_id": "kn54qllhn0qvy9d",
+      "season_id": "e4wyrn4hnkgq86p",
+      "name": "Relegation/Promotion",
+      "abbr": "Parva Liga 22",
+      "start_time": 1686240000,
+      "end_time": 1686326340,
+      "rounds": [
+        {
+          "id": "dj2ryoh5gk0q1zp",
+          "bracket_id": "4jwq2ghke25m0ve",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1686326400,
+          "end_time": 1686326400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "vjxm8gh414zyr6o",
+              "round_id": "dj2ryoh5gk0q1zp",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "p3glrw7h21nqdyj",
+              "away_team_id": "dn1m1gh4yxomoep",
+              "winner_team_id": "p3glrw7h21nqdyj",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "4wyrn4ho3yn7q86"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "p3glrw7h21nqdyj": {
+      "id": "p3glrw7h21nqdyj",
+      "name": "Beroe Stara Zagora"
+    },
+    "d23xmvkhzjgqg8n": {
+      "id": "d23xmvkhzjgqg8n",
+      "name": "Levski Sofia"
+    },
+    "dn1m1gh4yxomoep": {
+      "id": "dn1m1gh4yxomoep",
+      "name": "Sportist Svoge"
+    },
+    "y39mp1hjw6wmojx": {
+      "id": "y39mp1hjw6wmojx",
+      "name": "Arda"
+    }
+  },
+  "sport_events": {
+    "4wyrn4ho3yn7q86": {
+      "id": "4wyrn4ho3yn7q86",
+      "home_team_id": "p3glrw7h21nqdyj",
+      "away_team_id": "dn1m1gh4yxomoep",
+      "start_timestamp": 1686326400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "l7oqdeh8pjvxr51": {
+      "id": "l7oqdeh8pjvxr51",
+      "home_team_id": "d23xmvkhzjgqg8n",
+      "away_team_id": "y39mp1hjw6wmojx",
+      "start_timestamp": 1686499200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 6,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

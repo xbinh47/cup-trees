@@ -1,0 +1,117 @@
+{
+  "season_id": "vl7oqdehwjvr510",
+  "brackets": [
+    {
+      "id": "318q66h0dedqo9j",
+      "competition_id": "l965mkyhg0r1ge4",
+      "season_id": "vl7oqdehwjvr510",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1700755200,
+      "end_time": 1701100740,
+      "rounds": [
+        {
+          "id": "dn1m1gh7v0dmoep",
+          "bracket_id": "318q66h0dedqo9j",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1700848800,
+          "end_time": 1701108000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l5ergph30lw0r8k",
+              "round_id": "dn1m1gh7v0dmoep",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "jw2r09hl7jorz84",
+              "away_team_id": "9k82rekhk98repz",
+              "winner_team_id": "9k82rekhk98repz",
+              "home_score": 0,
+              "away_score": 7,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "3glrw7h7yj2vqdy",
+                "vjxm8ghl8jdnr6o"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "9k82rekhk98repz": {
+      "id": "9k82rekhk98repz",
+      "name": "Brommapojkarna"
+    },
+    "jw2r09hl7jorz84": {
+      "id": "jw2r09hl7jorz84",
+      "name": "Utsiktens BK"
+    }
+  },
+  "sport_events": {
+    "3glrw7h7yj2vqdy": {
+      "id": "3glrw7h7yj2vqdy",
+      "home_team_id": "jw2r09hl7jorz84",
+      "away_team_id": "9k82rekhk98repz",
+      "start_timestamp": 1700848800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 7,
+          "overTime_score": 0,
+          "half_time_score": 4
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "vjxm8ghl8jdnr6o": {
+      "id": "vjxm8ghl8jdnr6o",
+      "home_team_id": "9k82rekhk98repz",
+      "away_team_id": "jw2r09hl7jorz84",
+      "start_timestamp": 1701108000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

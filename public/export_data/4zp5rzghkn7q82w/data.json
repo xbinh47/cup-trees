@@ -1,0 +1,610 @@
+{
+  "season_id": "4zp5rzghkn7q82w",
+  "brackets": [
+    {
+      "id": "jw2r09hxwj0rz84",
+      "competition_id": "8y39mp1hk8mojxg",
+      "season_id": "4zp5rzghkn7q82w",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1732118400,
+      "end_time": 1732463940,
+      "rounds": [
+        {
+          "id": "x7lm7ph74wvm2wd",
+          "bracket_id": "jw2r09hxwj0rz84",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1732210200,
+          "end_time": 1732460400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "n54qllhezdlkqvy",
+              "round_id": "x7lm7ph74wvm2wd",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "kdj2ryohz8zq1zp",
+              "away_team_id": "d23xmvkh1n1qg8n",
+              "winner_team_id": "d23xmvkh1n1qg8n",
+              "home_score": 2,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "n54qllh76o23qvy",
+                "318q66hwp5ngqo9"
+              ]
+            },
+            {
+              "id": "23xmvkho0xewqg8",
+              "round_id": "x7lm7ph74wvm2wd",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "23xmvkhoy00qg8n",
+              "away_team_id": "vl7oqdehzgxr510",
+              "winner_team_id": "vl7oqdehzgxr510",
+              "home_score": 2,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "23xmvkh8jn3lqg8",
+                "dn1m1gh2zwkpmoe"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "23xmvkhoy00qg8n": {
+      "id": "23xmvkhoy00qg8n",
+      "name": "FC Stockholm Internazionale"
+    },
+    "vl7oqdehzgxr510": {
+      "id": "vl7oqdehzgxr510",
+      "name": "GIF Sundsvall"
+    },
+    "d23xmvkh1n1qg8n": {
+      "id": "d23xmvkh1n1qg8n",
+      "name": "Ostersunds FK"
+    },
+    "kdj2ryohz8zq1zp": {
+      "id": "kdj2ryohz8zq1zp",
+      "name": "Lunds BK"
+    }
+  },
+  "sport_events": {
+    "23xmvkh8jn3lqg8": {
+      "id": "23xmvkh8jn3lqg8",
+      "home_team_id": "23xmvkhoy00qg8n",
+      "away_team_id": "vl7oqdehzgxr510",
+      "start_timestamp": 1732212000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "dn1m1gh2zwkpmoe",
+      "incidents": []
+    },
+    "318q66hwp5ngqo9": {
+      "id": "318q66hwp5ngqo9",
+      "home_team_id": "d23xmvkh1n1qg8n",
+      "away_team_id": "kdj2ryohz8zq1zp",
+      "start_timestamp": 1732453200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "n54qllh76o23qvy",
+      "incidents": [
+        {
+          "time": 4,
+          "type": 8,
+          "position": 2,
+          "player_id": "pxwrxlhj2y47ryk",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Viktor Ekblom"
+        },
+        {
+          "time": 4,
+          "type": 3,
+          "position": 2,
+          "player_id": "pxwrxlhj2y47ryk",
+          "player_name": "Viktor Ekblom"
+        },
+        {
+          "time": 16,
+          "type": 1,
+          "position": 1,
+          "player_id": "jw2r09hwpkwrz84",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Simon Marklund"
+        },
+        {
+          "time": 26,
+          "type": 1,
+          "position": 1,
+          "player_id": "pxwrxlh9x1yryk0",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Jamie Hopcutt"
+        },
+        {
+          "time": 31,
+          "type": 3,
+          "position": 2,
+          "player_id": "dj2ryohj7zvwq1z",
+          "player_name": "Jakob Andersson"
+        },
+        {
+          "time": 42,
+          "type": 3,
+          "position": 1,
+          "player_id": "k82rekh3do0repz",
+          "player_name": "Mikola Musolitin"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 55,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dn1m1gh8dy3moep",
+          "out_player_id": "pxwrxlh9x1yryk0",
+          "in_player_name": "Nebiyou Perry",
+          "out_player_name": "Jamie Hopcutt"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4jwq2ghvp61jm0v",
+          "out_player_id": "k82rekh3do0repz",
+          "in_player_name": "Ahmed Bonnah",
+          "out_player_name": "Mikola Musolitin"
+        },
+        {
+          "time": 71,
+          "type": 1,
+          "position": 2,
+          "player_id": "pxwrxlhj2y47ryk",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Viktor Ekblom"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dn1m1ghek3omoep",
+          "out_player_id": "pxwrxlhz7zxvryk",
+          "in_player_name": "Linus Olsson",
+          "out_player_name": "william thellsson"
+        },
+        {
+          "time": 76,
+          "type": 3,
+          "position": 2,
+          "player_id": "dn1m1ghek3omoep",
+          "player_name": "Linus Olsson"
+        },
+        {
+          "time": 80,
+          "type": 3,
+          "position": 1,
+          "player_id": "dn1m1ghn0wk3moe",
+          "player_name": "Albin Sporrong"
+        },
+        {
+          "time": 82,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jhgj534qwz",
+          "player_name": "brendon erick"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "3glrw7h1ggeqdyj",
+          "out_player_id": "2y8m4zh8zdjjql0",
+          "in_player_name": "Simon Kroon",
+          "out_player_name": "Sebastian Karlsson Grach"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7ph93lz9m2w",
+          "out_player_id": "jw2r09hwpkwrz84",
+          "in_player_name": "arquimides ordonez",
+          "out_player_name": "Simon Marklund"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlh966pxryk",
+          "out_player_id": "4jwq2ghx764lm0v",
+          "in_player_name": "gustav saganger",
+          "out_player_name": "bozidar velickovic"
+        },
+        {
+          "time": 90,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7h1ggeqdyj",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "Simon Kroon"
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "23xmvkhky8zeqg8",
+          "out_player_id": "y0or5jhgj534qwz",
+          "in_player_name": "henrik norrby",
+          "out_player_name": "brendon erick"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "dn1m1gh2zwkpmoe": {
+      "id": "dn1m1gh2zwkpmoe",
+      "home_team_id": "vl7oqdehzgxr510",
+      "away_team_id": "23xmvkhoy00qg8n",
+      "start_timestamp": 1732460400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 2,
+          "yellow_card": 7,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 2,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 3,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "23xmvkh8jn3lqg8",
+      "incidents": [
+        {
+          "time": 6,
+          "type": 3,
+          "position": 2,
+          "player_id": "k82rekho5o3yrep",
+          "player_name": "Gideon Granstrom"
+        },
+        {
+          "time": 15,
+          "type": 16,
+          "position": 2,
+          "player_id": "6ypq3nh141vmd7o",
+          "player_name": "David Zlotnik"
+        },
+        {
+          "time": 28,
+          "type": 3,
+          "position": 2,
+          "player_id": "965mkyhny5xr1ge",
+          "player_name": "Jens Stigedahl"
+        },
+        {
+          "time": 31,
+          "type": 8,
+          "position": 2,
+          "player_id": "6ypq3nh141vmd7o",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "David Zlotnik"
+        },
+        {
+          "time": 37,
+          "type": 3,
+          "position": 1,
+          "player_id": "8yomo4h26gz4q0j",
+          "player_name": "Ludvig Svanberg"
+        },
+        {
+          "time": 42,
+          "type": 3,
+          "position": 2,
+          "player_id": "zp5rzghzd541q82",
+          "player_name": "sebastian nyden loyola"
+        },
+        {
+          "time": 47,
+          "type": 15,
+          "position": 2,
+          "player_id": "zp5rzghzd541q82",
+          "player_name": "sebastian nyden loyola"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlhjlyj2ryk",
+          "out_player_id": "pxwrxlhj78eryk0",
+          "in_player_name": "m lundgren",
+          "out_player_name": "Marijan Cosic"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7ph0jlvem2w",
+          "out_player_id": "8yomo4h0z60eq0j",
+          "in_player_name": "Marcelo·Palomino",
+          "out_player_name": "yaqub finey"
+        },
+        {
+          "time": 68,
+          "type": 8,
+          "position": 1,
+          "player_id": "8yomo4h26gz4q0j",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Ludvig Svanberg"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "3glrw7hj84gvqdy",
+          "out_player_id": "vjxm8ghj2321r6o",
+          "in_player_name": "pontus lindgren",
+          "out_player_name": "Monir Jelassi"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y0or5jhe5n43qwz",
+          "out_player_id": "x7lm7ph9npggm2w",
+          "in_player_name": "Cameron Streete",
+          "out_player_name": "anders hellblom"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "4wyrn4hv245wq86",
+          "out_player_id": "k82rekho5o3yrep",
+          "in_player_name": "jakob backstrom",
+          "out_player_name": "Gideon Granstrom"
+        },
+        {
+          "time": 87,
+          "type": 3,
+          "position": 1,
+          "player_id": "k82rekhoyj7repz",
+          "player_name": "Anton Kralj"
+        },
+        {
+          "time": 88,
+          "type": 1,
+          "position": 2,
+          "player_id": "6ypq3nhz8p9kmd7",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Villiam Dahlström"
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 2,
+          "player_id": "965mkyh35x7yr1g",
+          "player_name": "William Jan"
+        },
+        {
+          "time": 91,
+          "type": 3,
+          "position": 2,
+          "player_id": "6ypq3nh141vmd7o",
+          "player_name": "David Zlotnik"
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dj2ryohklv6q1zp",
+          "out_player_id": "k82rekhydj0krep",
+          "in_player_name": "Pontus Engblom",
+          "out_player_name": "Johan Bengtsson"
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "965mkyh3l04kr1g",
+          "out_player_id": "k82rekhoyj7repz",
+          "in_player_name": "Marcus Burman",
+          "out_player_name": "Anton Kralj"
+        },
+        {
+          "time": 93,
+          "type": 3,
+          "position": 2,
+          "player_id": "4wyrn4hv245wq86",
+          "player_name": "jakob backstrom"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 99,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "318q66h4j19nqo9",
+          "out_player_id": "k82rekhyxloorep",
+          "in_player_name": "Gustav Nordh",
+          "out_player_name": "Taiki Kagayama"
+        },
+        {
+          "time": 111,
+          "type": 1,
+          "position": 1,
+          "player_id": "dj2ryohklv6q1zp",
+          "assist1_id": "965mkyh3l04kr1g",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Pontus Engblom",
+          "assist1_name": "Marcus Burman"
+        },
+        {
+          "time": 114,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "ednm9whvjwxkryo",
+          "out_player_id": "zp5rzghjg26q82w",
+          "in_player_name": "Rasmus allback",
+          "out_player_name": "David Fällman"
+        },
+        {
+          "time": 114,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "vjxm8ghp73yr6od",
+          "out_player_id": "965mkyhny5xr1ge",
+          "in_player_name": "Dida Rashidi",
+          "out_player_name": "Jens Stigedahl"
+        },
+        {
+          "time": 120,
+          "type": 4,
+          "position": 2,
+          "player_id": "965mkyh35x7yr1g",
+          "player_name": "William Jan"
+        },
+        {
+          "time": 120,
+          "type": 3,
+          "position": 1,
+          "player_id": "y39mp1hygk04moj",
+          "player_name": "H. Aviander"
+        },
+        {
+          "time": 121,
+          "type": 1,
+          "position": 1,
+          "player_id": "318q66h4j19nqo9",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "Gustav Nordh"
+        },
+        {
+          "time": 120,
+          "type": 26,
+          "position": 0
+        }
+      ]
+    },
+    "n54qllh76o23qvy": {
+      "id": "n54qllh76o23qvy",
+      "home_team_id": "kdj2ryohz8zq1zp",
+      "away_team_id": "d23xmvkh1n1qg8n",
+      "start_timestamp": 1732210200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "318q66hwp5ngqo9",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "season_id": "gpxwrxlh4neryk0",
+  "brackets": [
+    {
+      "id": "1l4rjnh1ggvm7vx",
+      "competition_id": "gy0or5jhlgoqwzv",
+      "season_id": "gpxwrxlh4neryk0",
+      "name": "CAF Super Cup 2023",
+      "abbr": "CAF Super Cup",
+      "start_time": 1694707200,
+      "end_time": 1694879940,
+      "rounds": [
+        {
+          "id": "y0or5jhjwx1qwzv",
+          "bracket_id": "1l4rjnh1ggvm7vx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1694800800,
+          "end_time": 1694800800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "4wyrn4h8jpl9q86",
+              "round_id": "y0or5jhjwx1qwzv",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "ednm9whkkggryox",
+              "away_team_id": "yl5ergph9lvr8k0",
+              "winner_team_id": "yl5ergph9lvr8k0",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "y39mp1hz5k11moj"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "yl5ergph9lvr8k0": {
+      "id": "yl5ergph9lvr8k0",
+      "name": "USM Alger"
+    },
+    "ednm9whkkggryox": {
+      "id": "ednm9whkkggryox",
+      "name": "Al Ahly FC"
+    }
+  },
+  "sport_events": {
+    "y39mp1hz5k11moj": {
+      "id": "y39mp1hz5k11moj",
+      "home_team_id": "ednm9whkkggryox",
+      "away_team_id": "yl5ergph9lvr8k0",
+      "start_timestamp": 1694800800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 11,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

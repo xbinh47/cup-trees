@@ -1,0 +1,86 @@
+{
+  "season_id": "kjw2r09hzz7rz84",
+  "brackets": [
+    {
+      "id": "vjxm8ghgd7lr6od",
+      "competition_id": "vl7oqdeh4ydr510",
+      "season_id": "kjw2r09hzz7rz84",
+      "name": "Knockout stage",
+      "abbr": "Segunda Divis",
+      "start_time": 1682611200,
+      "end_time": 1682783940,
+      "rounds": [
+        {
+          "id": "n54qllh1k2jqvy9",
+          "bracket_id": "vjxm8ghgd7lr6od",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1682784000,
+          "end_time": 1682784000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "23xmvkho38wdqg8",
+              "round_id": "n54qllh1k2jqvy9",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "x7lm7phkpnwm2wd",
+              "away_team_id": "vjxm8ghg6g0r6od",
+              "winner_team_id": "vjxm8ghg6g0r6od",
+              "home_score": 1,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "1l4rjnhjogodm7v"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "vjxm8ghg6g0r6od": {
+      "id": "vjxm8ghg6g0r6od",
+      "name": "Club Atletico Progreso"
+    },
+    "x7lm7phkpnwm2wd": {
+      "id": "x7lm7phkpnwm2wd",
+      "name": "CA Juventud"
+    }
+  },
+  "sport_events": {
+    "1l4rjnhjogodm7v": {
+      "id": "1l4rjnhjogodm7v",
+      "home_team_id": "x7lm7phkpnwm2wd",
+      "away_team_id": "vjxm8ghg6g0r6od",
+      "start_timestamp": 1682784000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 6,
+          "penalty_score": 0,
+          "regular_score": 5,
+          "overTime_score": 0,
+          "half_time_score": 3
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "season_id": "9vjxm8gh65yr6od",
+  "brackets": [
+    {
+      "id": "zp5rzgh70lvq82w",
+      "competition_id": "jednm9whpkryox8",
+      "season_id": "9vjxm8gh65yr6od",
+      "name": "Knockout stage",
+      "abbr": "Erovnuli Liga",
+      "start_time": 1669996800,
+      "end_time": 1672502340,
+      "rounds": [
+        {
+          "id": "4jwq2gh0eovm0ve",
+          "bracket_id": "zp5rzgh70lvq82w",
+          "name": "Qualification round 1",
+          "abbr": "QR1",
+          "start_time": 1670403600,
+          "end_time": 1670835600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "x7lm7phk2y31m2w",
+              "round_id": "4jwq2gh0eovm0ve",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "vjxm8gh4yeer6od",
+              "away_team_id": "8y39mp1h8g6mojx",
+              "winner_team_id": "vjxm8gh4yeer6od",
+              "home_score": 3,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "ednm9wh2525eryo",
+                "965mkyh2828gr1g"
+              ]
+            },
+            {
+              "id": "y0or5jhlwyzvqwz",
+              "round_id": "4jwq2gh0eovm0ve",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "318q66hoxe2qo9j",
+              "away_team_id": "l5ergphvkl8r8k0",
+              "winner_team_id": "318q66hoxe2qo9j",
+              "home_score": 8,
+              "away_score": 7,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "y39mp1h0d0dpmoj",
+                "k82rekh02026rep"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "8y39mp1h8g6mojx": {
+      "id": "8y39mp1h8g6mojx",
+      "name": "FC Sioni Bolnisi"
+    },
+    "vjxm8gh4yeer6od": {
+      "id": "vjxm8gh4yeer6od",
+      "name": "Samtredia"
+    },
+    "l5ergphvkl8r8k0": {
+      "id": "l5ergphvkl8r8k0",
+      "name": "Spaeri FC"
+    },
+    "318q66hoxe2qo9j": {
+      "id": "318q66hoxe2qo9j",
+      "name": "Gagra FC"
+    }
+  },
+  "sport_events": {
+    "965mkyh2828gr1g": {
+      "id": "965mkyh2828gr1g",
+      "home_team_id": "8y39mp1h8g6mojx",
+      "away_team_id": "vjxm8gh4yeer6od",
+      "start_timestamp": 1670749200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 12,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "ednm9wh2525eryo": {
+      "id": "ednm9wh2525eryo",
+      "home_team_id": "vjxm8gh4yeer6od",
+      "away_team_id": "8y39mp1h8g6mojx",
+      "start_timestamp": 1670403600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 1,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "k82rekh02026rep": {
+      "id": "k82rekh02026rep",
+      "home_team_id": "l5ergphvkl8r8k0",
+      "away_team_id": "318q66hoxe2qo9j",
+      "start_timestamp": 1670835600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 5,
+          "regular_score": 0,
+          "overTime_score": 1,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 4,
+          "regular_score": 2,
+          "overTime_score": 3,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "y39mp1h0d0dpmoj": {
+      "id": "y39mp1h0d0dpmoj",
+      "home_team_id": "318q66hoxe2qo9j",
+      "away_team_id": "l5ergphvkl8r8k0",
+      "start_timestamp": 1670490000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

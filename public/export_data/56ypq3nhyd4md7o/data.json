@@ -1,0 +1,117 @@
+{
+  "season_id": "56ypq3nhyd4md7o",
+  "brackets": [
+    {
+      "id": "k82rekh9pxgrepz",
+      "competition_id": "jednm9whokryox8",
+      "season_id": "56ypq3nhyd4md7o",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1701187200,
+      "end_time": 1701619140,
+      "rounds": [
+        {
+          "id": "zp5rzgh41jjq82w",
+          "bracket_id": "k82rekh9pxgrepz",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1701273600,
+          "end_time": 1701619200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dj2ryohykd29q1z",
+              "round_id": "zp5rzgh41jjq82w",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "23xmvkh3py6qg8n",
+              "away_team_id": "pxwrxlhg24wryk0",
+              "winner_team_id": "pxwrxlhg24wryk0",
+              "home_score": 1,
+              "away_score": 6,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "l5ergphwe8eor8k",
+                "965mkyhyeo1lr1g"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "pxwrxlhg24wryk0": {
+      "id": "pxwrxlhg24wryk0",
+      "name": "Tartu JK Maag Tammeka"
+    },
+    "23xmvkh3py6qg8n": {
+      "id": "23xmvkh3py6qg8n",
+      "name": "Viimsi JK"
+    }
+  },
+  "sport_events": {
+    "965mkyhyeo1lr1g": {
+      "id": "965mkyhyeo1lr1g",
+      "home_team_id": "pxwrxlhg24wryk0",
+      "away_team_id": "23xmvkh3py6qg8n",
+      "start_timestamp": 1701619200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "l5ergphwe8eor8k": {
+      "id": "l5ergphwe8eor8k",
+      "home_team_id": "23xmvkh3py6qg8n",
+      "away_team_id": "pxwrxlhg24wryk0",
+      "start_timestamp": 1701273600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 10,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 5,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

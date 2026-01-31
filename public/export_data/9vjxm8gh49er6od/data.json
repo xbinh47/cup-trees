@@ -1,0 +1,117 @@
+{
+  "season_id": "9vjxm8gh49er6od",
+  "brackets": [
+    {
+      "id": "x7lm7phke7nm2wd",
+      "competition_id": "kn54qllhjzqvy9d",
+      "season_id": "9vjxm8gh49er6od",
+      "name": "Knockout stage",
+      "abbr": "2nd Bundeslig",
+      "start_time": 1305820800,
+      "end_time": 1306339140,
+      "rounds": [
+        {
+          "id": "4jwq2gh7ky7m0ve",
+          "bracket_id": "x7lm7phke7nm2wd",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1305916200,
+          "end_time": 1306261800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "23xmvkh3d99gqg8",
+              "round_id": "4jwq2gh7ky7m0ve",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "gpxwrxlho9xryk0",
+              "away_team_id": "v2y8m4zh9w9ql07",
+              "winner_team_id": "v2y8m4zh9w9ql07",
+              "home_score": 2,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "6ypq3nh5ppkvmd7",
+                "pxwrxlh100llryk"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "gpxwrxlho9xryk0": {
+      "id": "gpxwrxlho9xryk0",
+      "name": "VfL Osnabrück"
+    },
+    "v2y8m4zh9w9ql07": {
+      "id": "v2y8m4zh9w9ql07",
+      "name": "Dynamo Dresden"
+    }
+  },
+  "sport_events": {
+    "6ypq3nh5ppkvmd7": {
+      "id": "6ypq3nh5ppkvmd7",
+      "home_team_id": "v2y8m4zh9w9ql07",
+      "away_team_id": "gpxwrxlho9xryk0",
+      "start_timestamp": 1305916200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "pxwrxlh100llryk": {
+      "id": "pxwrxlh100llryk",
+      "home_team_id": "gpxwrxlho9xryk0",
+      "away_team_id": "v2y8m4zh9w9ql07",
+      "start_timestamp": 1306261800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 3,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,833 @@
+{
+  "season_id": "yl5ergphz3gr8k0",
+  "brackets": [
+    {
+      "id": "965mkyh31w4r1ge",
+      "competition_id": "j1l4rjnh12m7vx5",
+      "season_id": "yl5ergphz3gr8k0",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1750694400,
+      "end_time": 1751040000,
+      "rounds": [
+        {
+          "id": "8yomo4hg3ygq0j6",
+          "bracket_id": "965mkyh31w4r1ge",
+          "name": "Semifinals",
+          "abbr": "SF",
+          "start_time": 1750777200,
+          "end_time": 1750788000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "ednm9wh9wgl2ryo",
+              "round_id": "8yomo4hg3ygq0j6",
+              "number": 1,
+              "type_id": 4,
+              "state_id": 7,
+              "home_team_id": "6ypq3nh0o0omd7o",
+              "away_team_id": "l7oqdehnknjr510",
+              "winner_team_id": "6ypq3nh0o0omd7o",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [
+                "y39mp1h56186moj"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "l5ergph43pygr8k"
+              ]
+            },
+            {
+              "id": "965mkyh4kn9yr1g",
+              "round_id": "8yomo4hg3ygq0j6",
+              "number": 2,
+              "type_id": 4,
+              "state_id": 7,
+              "home_team_id": "kn54qllho40qvy9",
+              "away_team_id": "n54qllh26jjqvy9",
+              "winner_team_id": "kn54qllho40qvy9",
+              "home_score": 4,
+              "away_score": 3,
+              "parent_ids": [
+                "y39mp1h56186moj"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "ednm9whw9e0pryo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6ypq3nh73k3md7o",
+          "bracket_id": "965mkyh31w4r1ge",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1751047200,
+          "end_time": 1751047200,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "y39mp1h56186moj",
+              "round_id": "6ypq3nh73k3md7o",
+              "number": 1,
+              "type_id": 4,
+              "state_id": 7,
+              "home_team_id": "6ypq3nh0o0omd7o",
+              "away_team_id": "kn54qllho40qvy9",
+              "winner_team_id": "6ypq3nh0o0omd7o",
+              "home_score": 4,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "ednm9wh9wgl2ryo",
+                "965mkyh4kn9yr1g"
+              ],
+              "event_ids": [
+                "l5ergph438e2r8k"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "6ypq3nh0o0omd7o": {
+      "id": "6ypq3nh0o0omd7o",
+      "name": "Spain (w)  U19"
+    },
+    "n54qllh26jjqvy9": {
+      "id": "n54qllh26jjqvy9",
+      "name": "Portugal U19 Women"
+    },
+    "l7oqdehnknjr510": {
+      "id": "l7oqdehnknjr510",
+      "name": "Italy Women U19"
+    },
+    "kn54qllho40qvy9": {
+      "id": "kn54qllho40qvy9",
+      "name": "France Women U19"
+    }
+  },
+  "sport_events": {
+    "ednm9whw9e0pryo": {
+      "id": "ednm9whw9e0pryo",
+      "home_team_id": "kn54qllho40qvy9",
+      "away_team_id": "n54qllh26jjqvy9",
+      "start_timestamp": 1750788000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 3,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 4,
+          "half_time_score": 2
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 7,
+          "type": 1,
+          "position": 1,
+          "player_id": "n54qllh8ve3pqvy",
+          "assist1_id": "3glrw7hy2v0pqdy",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "ornelia graziani",
+          "assist1_name": "Maeline Mendy"
+        },
+        {
+          "time": 13,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hy2v0pqdy",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Maeline Mendy"
+        },
+        {
+          "time": 18,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dj2ryohg7jjkq1z",
+          "out_player_id": "4wyrn4h4p5vzq86",
+          "in_player_name": "marta gago",
+          "out_player_name": "joana valente"
+        },
+        {
+          "time": 28,
+          "type": 3,
+          "position": 1,
+          "player_id": "965mkyhepepwr1g",
+          "player_name": "landryna bilombi lushimba"
+        },
+        {
+          "time": 30,
+          "type": 8,
+          "position": 2,
+          "player_id": "dj2ryohg7jjkq1z",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "marta gago"
+        },
+        {
+          "time": 46,
+          "type": 3,
+          "add_time": 1,
+          "position": 2,
+          "player_id": "23xmvkhkp6z6qg8",
+          "player_name": "rita ana cunha"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 58,
+          "type": 3,
+          "position": 2,
+          "player_id": "965mkyhe8330r1g",
+          "player_name": "ines meninas"
+        },
+        {
+          "time": 59,
+          "type": 3,
+          "position": 2,
+          "player_id": "dj2ryohg7jjkq1z",
+          "player_name": "marta gago"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l5ergphnee24r8k",
+          "out_player_id": "965mkyhexd9or1g",
+          "in_player_name": "Justine rouquet",
+          "out_player_name": "Chancelle Effa Effa"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y0or5jh3zg6wqwz",
+          "out_player_id": "965mkyhepepwr1g",
+          "in_player_name": "julie swierot",
+          "out_player_name": "landryna bilombi lushimba"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlhjxyw2ryk",
+          "out_player_id": "jw2r09hjygwnrz8",
+          "in_player_name": "mafalda mariano",
+          "out_player_name": "Anna marques"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "965mkyhe2k9xr1g",
+          "out_player_id": "23xmvkhkp6z6qg8",
+          "in_player_name": "lara martins",
+          "out_player_name": "rita ana cunha"
+        },
+        {
+          "time": 64,
+          "type": 3,
+          "position": 1,
+          "player_id": "jw2r09hj8j4grz8",
+          "player_name": "Liana Joseph"
+        },
+        {
+          "time": 74,
+          "type": 1,
+          "position": 2,
+          "player_id": "965mkyhe2k9xr1g",
+          "assist1_id": "x7lm7ph9wvvzm2w",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "lara martins",
+          "assist1_name": "Carolina santiago"
+        },
+        {
+          "time": 76,
+          "type": 3,
+          "position": 2,
+          "player_id": "965mkyhe2k9xr1g",
+          "player_name": "lara martins"
+        },
+        {
+          "time": 82,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7phw398vm2w",
+          "player_name": "Melina Mendy"
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "318q66h4y349qo9",
+          "out_player_id": "zp5rzghxg9jjq82",
+          "in_player_name": "luisa bras",
+          "out_player_name": "carolina tristao"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "3glrw7hzlvwlqdy",
+          "out_player_id": "n54qllh8ve3pqvy",
+          "in_player_name": "celia chabod",
+          "out_player_name": "ornelia graziani"
+        },
+        {
+          "time": 92,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hy2v0pqdy",
+          "assist1_id": "3glrw7hzyyelqdy",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "Maeline Mendy",
+          "assist1_name": "Kenza dufour roche"
+        },
+        {
+          "time": 96,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l7oqdehlenz4r51",
+          "out_player_id": "8yomo4hvg1j0q0j",
+          "in_player_name": "diana costa",
+          "out_player_name": "leonete correia"
+        },
+        {
+          "time": 96,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "23xmvkh4d12nqg8",
+          "out_player_id": "x7lm7ph9wvvzm2w",
+          "in_player_name": "Matilde nave",
+          "out_player_name": "Carolina santiago"
+        },
+        {
+          "time": 107,
+          "type": 1,
+          "add_time": 2,
+          "position": 2,
+          "player_id": "l7oqdehlenz4r51",
+          "assist1_id": "dj2ryohg7jjkq1z",
+          "away_score": 3,
+          "home_score": 3,
+          "player_name": "diana costa",
+          "assist1_name": "marta gago"
+        },
+        {
+          "time": 106,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "zp5rzghpv118q82",
+          "out_player_id": "jw2r09hj8j4grz8",
+          "in_player_name": "naolia traore",
+          "out_player_name": "Liana Joseph"
+        },
+        {
+          "time": 108,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jh3zg6wqwz",
+          "player_name": "julie swierot"
+        },
+        {
+          "time": 113,
+          "type": 8,
+          "position": 1,
+          "player_id": "x7lm7phw398vm2w",
+          "away_score": 3,
+          "home_score": 4,
+          "player_name": "Melina Mendy"
+        },
+        {
+          "time": 124,
+          "type": 3,
+          "add_time": 4,
+          "position": 1,
+          "player_id": "zp5rzghpv118q82",
+          "player_name": "naolia traore"
+        },
+        {
+          "time": 120,
+          "type": 26,
+          "position": 0
+        }
+      ]
+    },
+    "l5ergph438e2r8k": {
+      "id": "l5ergph438e2r8k",
+      "home_team_id": "kn54qllho40qvy9",
+      "away_team_id": "6ypq3nh0o0omd7o",
+      "start_timestamp": 1751047200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 23,
+          "type": 1,
+          "position": 2,
+          "player_id": "y0or5jh3n393qwz",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Cristina Librán"
+        },
+        {
+          "time": 35,
+          "type": 1,
+          "position": 2,
+          "player_id": "x7lm7ph99jyem2w",
+          "assist1_id": "dj2ryohn4dk1q1z",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Daniela agote",
+          "assist1_name": "Clara Serrajordi"
+        },
+        {
+          "time": 41,
+          "type": 3,
+          "position": 1,
+          "player_id": "3glrw7hy2v0pqdy",
+          "player_name": "Maeline Mendy",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 2,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghpv118q82",
+          "out_player_id": "965mkyhexd9or1g",
+          "in_player_name": "naolia traore",
+          "out_player_name": "Chancelle Effa Effa"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "jw2r09hw91x9rz8",
+          "out_player_id": "n54qllh8ve3pqvy",
+          "in_player_name": "J. Rouquet",
+          "out_player_name": "ornelia graziani"
+        },
+        {
+          "time": 59,
+          "type": 3,
+          "position": 1,
+          "player_id": "jw2r09hj8j4grz8",
+          "player_name": "Liana Joseph",
+          "reason_type": 1
+        },
+        {
+          "time": 69,
+          "type": 1,
+          "position": 2,
+          "player_id": "dj2ryohn4dk1q1z",
+          "away_score": 3,
+          "home_score": 0,
+          "player_name": "Clara Serrajordi"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dn1m1gh363vlmoe",
+          "out_player_id": "k82rekholoz0rep",
+          "in_player_name": "Célia Delaby",
+          "out_player_name": "Céleste Delcroix"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "vjxm8gh8154nr6o",
+          "out_player_id": "y39mp1h1y807moj",
+          "in_player_name": "Alba Cerrato Izquierdo",
+          "out_player_name": "Marisa García"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hzlvwlqdy",
+          "out_player_id": "x7lm7phw398vm2w",
+          "in_player_name": "celia chabod",
+          "out_player_name": "Melina Mendy"
+        },
+        {
+          "time": 73,
+          "type": 3,
+          "position": 2,
+          "player_id": "dj2ryohn4dk1q1z",
+          "player_name": "Clara Serrajordi",
+          "reason_type": 1
+        },
+        {
+          "time": 77,
+          "type": 3,
+          "position": 2,
+          "reason_type": 19
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h0x57yq0j",
+          "out_player_id": "zp5rzghp8ppwq82",
+          "in_player_name": "Emma Moreno Torres",
+          "out_player_name": "Paula Comendador Prado"
+        },
+        {
+          "time": 84,
+          "type": 3,
+          "position": 1,
+          "player_id": "jw2r09hw91x9rz8",
+          "player_name": "J. Rouquet",
+          "reason_type": 1
+        },
+        {
+          "time": 87,
+          "type": 1,
+          "position": 2,
+          "player_id": "318q66h4yzx2qo9",
+          "assist1_id": "dj2ryohn4dk1q1z",
+          "away_score": 4,
+          "home_score": 0,
+          "player_name": "Noemi Bejarano Beltrán",
+          "assist1_name": "Clara Serrajordi"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 92,
+          "type": 3,
+          "add_time": 2,
+          "position": 1,
+          "player_id": "318q66h4l4zwqo9",
+          "player_name": "Wassa Sangare",
+          "reason_type": 1
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "add_time": 2,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohg1z8eq1z",
+          "out_player_id": "dj2ryohn4dk1q1z",
+          "in_player_name": "Daniela Arques",
+          "out_player_name": "Clara Serrajordi"
+        },
+        {
+          "time": 93,
+          "type": 9,
+          "add_time": 3,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l5ergphege0dr8k",
+          "out_player_id": "3glrw7hy2v0pqdy",
+          "in_player_name": "Landryna Lushimba Bilombi",
+          "out_player_name": "Maeline Mendy"
+        },
+        {
+          "time": 93,
+          "type": 9,
+          "add_time": 3,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "965mkyhedlkzr1g",
+          "out_player_id": "y0or5jh3n393qwz",
+          "in_player_name": "Emma galvez",
+          "out_player_name": "Cristina Librán"
+        },
+        {
+          "time": 93,
+          "type": 9,
+          "add_time": 3,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "n54qllhjnzdgqvy",
+          "out_player_id": "x7lm7ph99jyem2w",
+          "in_player_name": "Celia Segura",
+          "out_player_name": "Daniela agote"
+        },
+        {
+          "time": 95,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "l5ergph43pygr8k": {
+      "id": "l5ergph43pygr8k",
+      "home_team_id": "6ypq3nh0o0omd7o",
+      "away_team_id": "l7oqdehnknjr510",
+      "start_timestamp": 1750777200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 2,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7ph99jyem2w",
+          "out_player_id": "n54qllhjnzdgqvy",
+          "in_player_name": "Daniela agote",
+          "out_player_name": "Celia Segura"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "23xmvkhk1pz9qg8",
+          "out_player_id": "2y8m4zh8l880ql0",
+          "in_player_name": "cristina libran",
+          "out_player_name": "Ainoa Gómez"
+        },
+        {
+          "time": 57,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "318q66h4922gqo9",
+          "out_player_id": "pxwrxlhzjjnvryk",
+          "in_player_name": "rosanna ventriglia",
+          "out_player_name": "Eleonora ferraresi"
+        },
+        {
+          "time": 57,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dn1m1gh8oz26moe",
+          "out_player_id": "dj2ryohg1z8eq1z",
+          "in_player_name": "Irune Dorado",
+          "out_player_name": "Daniela Arques"
+        },
+        {
+          "time": 61,
+          "type": 3,
+          "position": 1,
+          "player_id": "y39mp1h1y807moj",
+          "player_name": "Marisa"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8gh8154nr6o",
+          "out_player_id": "y39mp1h1y807moj",
+          "in_player_name": "Alba Cerrato Izquierdo",
+          "out_player_name": "Marisa"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "2y8m4zh8y1x5ql0",
+          "out_player_id": "4jwq2ghxj9vkm0v",
+          "in_player_name": "manuela sciabica",
+          "out_player_name": "Marta zamboni"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "318q66h4yzx2qo9",
+          "out_player_id": "8yomo4h0x57yq0j",
+          "in_player_name": "Noemi Bejarano Beltrán",
+          "out_player_name": "Emma Moreno Torres"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y0or5jh3ko42qwz",
+          "out_player_id": "318q66h4pw7yqo9",
+          "in_player_name": "Emma girotto",
+          "out_player_name": "giada cimo pellegrino"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "8yomo4h0y223q0j",
+          "out_player_id": "x7lm7phw3ojom2w",
+          "in_player_name": "manuela perselli",
+          "out_player_name": "Paola fadda"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 3,
+          "position": 2,
+          "player_id": "k82rekh38v2jrep",
+          "player_name": "emma lombardi"
+        },
+        {
+          "time": 92,
+          "type": 1,
+          "position": 1,
+          "player_id": "dn1m1gh8oz26moe",
+          "assist1_id": "dj2ryohn4dk1q1z",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Irune Dorado",
+          "assist1_name": "Clara Serrajordi"
+        },
+        {
+          "time": 106,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y0or5jhg9oveqwz",
+          "out_player_id": "2y8m4zhz887gql0",
+          "in_player_name": "martina tosello",
+          "out_player_name": "Lidia consolini"
+        },
+        {
+          "time": 112,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "4wyrn4h4nx7kq86",
+          "out_player_id": "l7oqdehl00xnr51",
+          "in_player_name": "Carolina tironi",
+          "out_player_name": "Maya cherubini"
+        },
+        {
+          "time": 114,
+          "type": 3,
+          "position": 1,
+          "player_id": "n54qllhjky37qvy",
+          "player_name": "Amaya García"
+        },
+        {
+          "time": 116,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8ghpezv3r6o",
+          "out_player_id": "dj2ryohn4dk1q1z",
+          "in_player_name": "elene gurtubay",
+          "out_player_name": "Clara Serrajordi"
+        },
+        {
+          "time": 119,
+          "type": 1,
+          "position": 1,
+          "player_id": "x7lm7ph99jyem2w",
+          "assist1_id": "zp5rzghp8ppwq82",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Daniela agote",
+          "assist1_name": "Paula Comendador Prado"
+        },
+        {
+          "time": 120,
+          "type": 26,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

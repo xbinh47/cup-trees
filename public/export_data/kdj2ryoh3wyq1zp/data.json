@@ -1,0 +1,117 @@
+{
+  "season_id": "kdj2ryoh3wyq1zp",
+  "brackets": [
+    {
+      "id": "zp5rzgh7508q82w",
+      "competition_id": "j1l4rjnh50m7vx5",
+      "season_id": "kdj2ryoh3wyq1zp",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1650988800,
+      "end_time": 1652630340,
+      "rounds": [
+        {
+          "id": "vjxm8gh9gglr6od",
+          "bracket_id": "zp5rzgh7508q82w",
+          "name": "Qualification Round1",
+          "abbr": "QR1",
+          "start_time": 1652208300,
+          "end_time": 1652533200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "3glrw7hw2422qdy",
+              "round_id": "vjxm8gh9gglr6od",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "x7lm7phk96jm2wd",
+              "away_team_id": "y39mp1h5vkgmojx",
+              "winner_team_id": "y39mp1h5vkgmojx",
+              "home_score": 2,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "23xmvkhpx36oqg8",
+                "6ypq3nh710kymd7"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "y39mp1h5vkgmojx": {
+      "id": "y39mp1h5vkgmojx",
+      "name": "Knockbreda"
+    },
+    "x7lm7phk96jm2wd": {
+      "id": "x7lm7phk96jm2wd",
+      "name": "Bangor FC"
+    }
+  },
+  "sport_events": {
+    "23xmvkhpx36oqg8": {
+      "id": "23xmvkhpx36oqg8",
+      "home_team_id": "x7lm7phk96jm2wd",
+      "away_team_id": "y39mp1h5vkgmojx",
+      "start_timestamp": 1652208300,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "6ypq3nh710kymd7": {
+      "id": "6ypq3nh710kymd7",
+      "home_team_id": "y39mp1h5vkgmojx",
+      "away_team_id": "x7lm7phk96jm2wd",
+      "start_timestamp": 1652533200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

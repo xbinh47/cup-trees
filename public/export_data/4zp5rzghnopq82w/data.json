@@ -1,0 +1,594 @@
+{
+  "season_id": "4zp5rzghnopq82w",
+  "brackets": [
+    {
+      "id": "ednm9whzd9xryox",
+      "competition_id": "8y39mp1h0xmojxg",
+      "season_id": "4zp5rzghnopq82w",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1742486400,
+      "end_time": 1743436740,
+      "rounds": [
+        {
+          "id": "jw2r09h61v0rz84",
+          "bracket_id": "ednm9whzd9xryox",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1742580000,
+          "end_time": 1742839200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "2y8m4zhjw28pql0",
+              "round_id": "jw2r09h61v0rz84",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "n54qllhe229qvy9",
+              "away_team_id": "n54qllh2v9pqvy9",
+              "winner_team_id": "n54qllhe229qvy9",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [
+                "y39mp1h5zv8ymoj"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "pxwrxlh5dyjoryk"
+              ]
+            },
+            {
+              "id": "8yomo4hkgwvgq0j",
+              "round_id": "jw2r09h61v0rz84",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "3glrw7h1yljqdyj",
+              "away_team_id": "dj2ryohkp0wq1zp",
+              "winner_team_id": "3glrw7h1yljqdyj",
+              "home_score": 5,
+              "away_score": 4,
+              "parent_ids": [
+                "y39mp1h5zv8ymoj"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "2y8m4zh6l70dql0"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l7oqdeh81k8r510",
+          "bracket_id": "ednm9whzd9xryox",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1743184800,
+          "end_time": 1743184800,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "y39mp1h5zv8ymoj",
+              "round_id": "l7oqdeh81k8r510",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "n54qllhe229qvy9",
+              "away_team_id": "3glrw7h1yljqdyj",
+              "winner_team_id": "n54qllhe229qvy9",
+              "home_score": 4,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [
+                "2y8m4zhjw28pql0",
+                "8yomo4hkgwvgq0j"
+              ],
+              "event_ids": [
+                "3glrw7h7d2wgqdy"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "n54qllhe229qvy9": {
+      "id": "n54qllhe229qvy9",
+      "name": "Breidablik Women"
+    },
+    "n54qllh2v9pqvy9": {
+      "id": "n54qllh2v9pqvy9",
+      "name": "Valur Women"
+    },
+    "3glrw7h1yljqdyj": {
+      "id": "3glrw7h1yljqdyj",
+      "name": "Thor KA Akureyri (w)"
+    },
+    "dj2ryohkp0wq1zp": {
+      "id": "dj2ryohkp0wq1zp",
+      "name": "Stjarnan Gardabaer Women"
+    }
+  },
+  "sport_events": {
+    "2y8m4zh6l70dql0": {
+      "id": "2y8m4zh6l70dql0",
+      "home_team_id": "3glrw7h1yljqdyj",
+      "away_team_id": "dj2ryohkp0wq1zp",
+      "start_timestamp": 1742839200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 3,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 4,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 25,
+          "type": 1,
+          "position": 1,
+          "player_id": "vjxm8gh8xzk4r6o",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "margret arnadottir"
+        },
+        {
+          "time": 26,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "jw2r09hw37ldrz8",
+          "out_player_id": "dn1m1gh3o64vmoe",
+          "in_player_name": "sandra hauksdottir",
+          "out_player_name": "eyrun hjartardottir"
+        },
+        {
+          "time": 44,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "3glrw7hydjzjqdy",
+          "out_player_id": "y0or5jh37eglqwz",
+          "in_player_name": "Emelia kruger",
+          "out_player_name": "Kolfinna elinardottir"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "zp5rzghpx80yq82",
+          "out_player_id": "2y8m4zh815lkql0",
+          "in_player_name": "andrea palsdottir",
+          "out_player_name": "lucia ingibjorg ragnarsdottir"
+        },
+        {
+          "time": 56,
+          "type": 1,
+          "position": 2,
+          "player_id": "y39mp1hyezd3moj",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Hrefna jonsdottir"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "318q66hjk13oqo9",
+          "out_player_id": "23xmvkhkxyvxqg8",
+          "in_player_name": "fanney johannesdottir",
+          "out_player_name": "gyda gunnarsdottir"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "n54qllh8dn05qvy",
+          "out_player_id": "dj2ryohg2l8oq1z",
+          "in_player_name": "hrund hulda arnarsdottir",
+          "out_player_name": "ulfa ulfarsdottir"
+        },
+        {
+          "time": 67,
+          "type": 3,
+          "position": 1,
+          "player_id": "vjxm8gh8yjp8r6o",
+          "player_name": "Sonja sigurdardottir"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "3glrw7hz96kwqdy",
+          "out_player_id": "pxwrxlhzv0z1ryk",
+          "in_player_name": "emelia asgeirsdottir",
+          "out_player_name": "hildur birgisdottir"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "n54qllh84dl5qvy",
+          "out_player_id": "y0or5jh3xdg2qwz",
+          "in_player_name": "henrietta agustsdottir",
+          "out_player_name": "Jessica Ayers"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    },
+    "3glrw7h7d2wgqdy": {
+      "id": "3glrw7h7d2wgqdy",
+      "home_team_id": "n54qllhe229qvy9",
+      "away_team_id": "3glrw7h1yljqdyj",
+      "start_timestamp": 1743184800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 2
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 3,
+          "type": 1,
+          "position": 1,
+          "player_id": "dj2ryohg6x8wq1z",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Samantha smith"
+        },
+        {
+          "time": 24,
+          "type": 1,
+          "position": 1,
+          "player_id": "y39mp1hy967zmoj",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "birta georgsdottir"
+        },
+        {
+          "time": 36,
+          "type": 3,
+          "position": 2,
+          "player_id": "vjxm8gh8yjp8r6o",
+          "player_name": "Sonja sigurdardottir"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "vjxm8ghpx7gyr6o",
+          "out_player_id": "pxwrxlhzv0z1ryk",
+          "in_player_name": "briet bjarnadottir",
+          "out_player_name": "hildur birgisdottir"
+        },
+        {
+          "time": 56,
+          "type": 1,
+          "position": 2,
+          "player_id": "vjxm8gh8yjp8r6o",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Sonja sigurdardottir"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "k82rekh3o633rep",
+          "out_player_id": "y0or5jhe2epoqwz",
+          "in_player_name": "Edith kristjansdottir",
+          "out_player_name": "Agla albertsdottir"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y0or5jh37eg1qwz",
+          "out_player_id": "y39mp1hy967zmoj",
+          "in_player_name": "andrea bjarnadottir",
+          "out_player_name": "birta georgsdottir"
+        },
+        {
+          "time": 66,
+          "type": 1,
+          "position": 1,
+          "player_id": "k82rekhy7ypprep",
+          "away_score": 1,
+          "home_score": 3,
+          "player_name": "Sol barbara gisladottir"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "318q66h4jd1gqo9",
+          "out_player_id": "k82rekhy7ypprep",
+          "in_player_name": "karitas tomasdottir",
+          "out_player_name": "Sol barbara gisladottir"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "6ypq3nhlw1pdmd7",
+          "out_player_id": "dj2ryohg6x8wq1z",
+          "in_player_name": "Joostdottir lif bemmel van",
+          "out_player_name": "Samantha smith"
+        },
+        {
+          "time": 77,
+          "type": 3,
+          "position": 2,
+          "player_id": "vjxm8gh8xzk4r6o",
+          "player_name": "margret arnadottir"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "jw2r09hw326erz8",
+          "out_player_id": "dj2ryohnjp3q1zp",
+          "in_player_name": "eva asthorsdottir",
+          "out_player_name": "Sandra Jessen"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7phw4099m2w",
+          "out_player_id": "vjxm8gh8yjp8r6o",
+          "in_player_name": "Amalia Arnadottir",
+          "out_player_name": "Sonja sigurdardottir"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "6ypq3nhl84o3md7",
+          "out_player_id": "ednm9whv5d8gryo",
+          "in_player_name": "lilja gudjonsdottir",
+          "out_player_name": "asa hrafnhildur halldorsdottir"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "965mkyhnwg9lr1g",
+          "out_player_id": "1l4rjnhxe9v2m7v",
+          "in_player_name": "gudrun thorarinsdottir",
+          "out_player_name": "kristin arnadottir"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "3glrw7hydjzjqdy",
+          "out_player_id": "l5ergphep4zjr8k",
+          "in_player_name": "Emelia kruger",
+          "out_player_name": "osk hulda jonsdottir"
+        },
+        {
+          "time": 93,
+          "type": 1,
+          "add_time": 3,
+          "position": 1,
+          "player_id": "y0or5jh37eg1qwz",
+          "away_score": 1,
+          "home_score": 4,
+          "player_name": "andrea bjarnadottir"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "pxwrxlh5dyjoryk": {
+      "id": "pxwrxlh5dyjoryk",
+      "home_team_id": "n54qllhe229qvy9",
+      "away_team_id": "n54qllh2v9pqvy9",
+      "start_timestamp": 1742580000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 1,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 12,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnhxe9v2m7v",
+          "player_name": "kristin arnadottir"
+        },
+        {
+          "time": 19,
+          "type": 1,
+          "position": 1,
+          "player_id": "x7lm7ph98pv8m2w",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "berglind thorvaldsdottir"
+        },
+        {
+          "time": 31,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4wyrn4h4kxo1q86",
+          "out_player_id": "4jwq2ghx1nlpm0v",
+          "in_player_name": "helga einarsdottir",
+          "out_player_name": "heidis lillyardottir"
+        },
+        {
+          "time": 44,
+          "type": 3,
+          "position": 2,
+          "player_id": "ednm9whv06vlryo",
+          "player_name": "sara isabella tryggvadottir"
+        },
+        {
+          "time": 47,
+          "type": 15,
+          "add_time": 2,
+          "position": 2,
+          "player_id": "ednm9whv06vlryo",
+          "player_name": "sara isabella tryggvadottir"
+        },
+        {
+          "time": 49,
+          "type": 3,
+          "add_time": 4,
+          "position": 2,
+          "player_id": "l5ergphvd45er8k",
+          "player_name": "Berglind Ros Agustsdottir"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "ednm9whv5d8gryo",
+          "out_player_id": "y39mp1hy967zmoj",
+          "in_player_name": "asa hrafnhildur halldorsdottir",
+          "out_player_name": "birta georgsdottir"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "6ypq3nhlw1pdmd7",
+          "out_player_id": "1l4rjnhxe9v2m7v",
+          "in_player_name": "Joostdottir lif bemmel van",
+          "out_player_name": "kristin arnadottir"
+        },
+        {
+          "time": 63,
+          "type": 1,
+          "position": 2,
+          "player_id": "4wyrn4h4963oq86",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "fanndis fridriksdottir"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "4jwq2ghxlewem0v",
+          "out_player_id": "jw2r09hj1kykrz8",
+          "in_player_name": "Nadia atladottir",
+          "out_player_name": "helena halfdanardottir"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "k82rekh3o633rep",
+          "out_player_id": "dj2ryohg6x8wq1z",
+          "in_player_name": "Edith kristjansdottir",
+          "out_player_name": "Samantha smith"
+        },
+        {
+          "time": 88,
+          "type": 1,
+          "position": 1,
+          "player_id": "y0or5jh37eg1qwz",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "andrea bjarnadottir"
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "965mkyhnwg9lr1g",
+          "out_player_id": "k82rekhy7ypprep",
+          "in_player_name": "gudrun thorarinsdottir",
+          "out_player_name": "Sol barbara gisladottir"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

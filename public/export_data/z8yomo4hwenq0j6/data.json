@@ -1,0 +1,145 @@
+{
+  "season_id": "z8yomo4hwenq0j6",
+  "brackets": [
+    {
+      "id": "k82rekhynj6repz",
+      "competition_id": "p4jwq2gh4xwm0ve",
+      "season_id": "z8yomo4hwenq0j6",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1750953600,
+      "end_time": 1751039940,
+      "rounds": [
+        {
+          "id": "8yomo4hg3p6q0j6",
+          "bracket_id": "k82rekhynj6repz",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1751022000,
+          "end_time": 1751022000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "y0or5jh480o0qwz",
+              "round_id": "8yomo4hg3p6q0j6",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "pxwrxlhg9k9ryk0",
+              "away_team_id": "4wyrn4he7kjq86p",
+              "winner_team_id": "pxwrxlhg9k9ryk0",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "k82rekhg9nkdrep"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "pxwrxlhg9k9ryk0": {
+      "id": "pxwrxlhg9k9ryk0",
+      "name": "SHB Da Nang"
+    },
+    "4wyrn4he7kjq86p": {
+      "id": "4wyrn4he7kjq86p",
+      "name": "Binh Phuoc"
+    }
+  },
+  "sport_events": {
+    "k82rekhg9nkdrep": {
+      "id": "k82rekhg9nkdrep",
+      "home_team_id": "pxwrxlhg9k9ryk0",
+      "away_team_id": "4wyrn4he7kjq86p",
+      "start_timestamp": 1751022000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 18,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y0or5jh4vkgwqwz",
+          "out_player_id": "3glrw7hyxxlqdyj",
+          "in_player_name": "Tuan Tai Ho",
+          "out_player_name": "Tran Phi Son"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jh427l7qwz",
+          "player_name": "Dang Anh Tuan"
+        },
+        {
+          "time": 50,
+          "type": 3,
+          "position": 1,
+          "player_id": "jw2r09hw4685rz8",
+          "player_name": "Le Van Hung"
+        },
+        {
+          "time": 68,
+          "type": 1,
+          "position": 1,
+          "player_id": "vjxm8gh8e17kr6o",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Pham Dinh Duy"
+        },
+        {
+          "time": 81,
+          "type": 1,
+          "position": 1,
+          "player_id": "l5ergph39n13r8k",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Minh Tuan Ha"
+        },
+        {
+          "time": 102,
+          "type": 3,
+          "add_time": 12,
+          "position": 2
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

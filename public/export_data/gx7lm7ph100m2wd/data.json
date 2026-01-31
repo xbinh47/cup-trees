@@ -1,0 +1,407 @@
+{
+  "season_id": "gx7lm7ph100m2wd",
+  "brackets": [
+    {
+      "id": "318q66hvjooqo9j",
+      "competition_id": "l965mkyhw4r1ge4",
+      "season_id": "gx7lm7ph100m2wd",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1731254400,
+      "end_time": 1732463940,
+      "rounds": [
+        {
+          "id": "zp5rzghwngpq82w",
+          "bracket_id": "318q66hvjooqo9j",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1731839400,
+          "end_time": 1732444200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "zp5rzgh7wz6xq82",
+              "round_id": "zp5rzghwngpq82w",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "pxwrxlhgx7kryk0",
+              "away_team_id": "jw2r09hnjy6rz84",
+              "winner_team_id": "jw2r09hnjy6rz84",
+              "home_score": 0,
+              "away_score": 9,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "318q66hwpen4qo9",
+                "pxwrxlh5o42lryk"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "pxwrxlhgx7kryk0": {
+      "id": "pxwrxlhgx7kryk0",
+      "name": "Tallinna JK Legion"
+    },
+    "jw2r09hnjy6rz84": {
+      "id": "jw2r09hnjy6rz84",
+      "name": "Elva"
+    }
+  },
+  "sport_events": {
+    "318q66hwpen4qo9": {
+      "id": "318q66hwpen4qo9",
+      "home_team_id": "jw2r09hnjy6rz84",
+      "away_team_id": "pxwrxlhgx7kryk0",
+      "start_timestamp": 1732444200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 1,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 6,
+          "overTime_score": 0,
+          "half_time_score": 3
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "pxwrxlh5o42lryk",
+      "incidents": [
+        {
+          "time": 13,
+          "type": 1,
+          "position": 1,
+          "player_id": "8yomo4h24374q0j",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Dominic·Laaneots"
+        },
+        {
+          "time": 25,
+          "type": 3,
+          "position": 1,
+          "player_id": "8yomo4h24374q0j",
+          "player_name": "Dominic·Laaneots"
+        },
+        {
+          "time": 28,
+          "type": 3,
+          "position": 1,
+          "player_id": "965mkyhe2ezyr1g",
+          "player_name": "mauris villems"
+        },
+        {
+          "time": 30,
+          "type": 1,
+          "position": 1,
+          "player_id": "zp5rzghzg34zq82",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Kristo·Poldsaar"
+        },
+        {
+          "time": 34,
+          "type": 1,
+          "position": 1,
+          "player_id": "pxwrxlhjd840ryk",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Ruuben jaagant"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnh3dl3m7vx",
+          "out_player_id": "8yomo4h24374q0j",
+          "in_player_name": "Artur Laks",
+          "out_player_name": "Dominic·Laaneots"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "8yomo4h26nzlq0j",
+          "out_player_id": "pxwrxlhvwjxryk0",
+          "in_player_name": "Markus Mikk Janes",
+          "out_player_name": "Karl Kruus"
+        },
+        {
+          "time": 58,
+          "type": 3,
+          "position": 1,
+          "player_id": "vjxm8ghj6ndwr6o",
+          "player_name": "Georg Lani"
+        },
+        {
+          "time": 65,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jhez78kqwz",
+          "player_name": "Anti·Ivaste"
+        },
+        {
+          "time": 65,
+          "type": 4,
+          "position": 2,
+          "player_id": "l5ergphez3k8r8k",
+          "player_name": "Andrei borissov"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y39mp1hjl2o0moj",
+          "out_player_id": "965mkyhe2ezyr1g",
+          "in_player_name": "Karl-Ernst Saal",
+          "out_player_name": "mauris villems"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dj2ryohgwggxq1z",
+          "out_player_id": "n54qllhd060qvy9",
+          "in_player_name": "Vladyslav panov",
+          "out_player_name": "Nikita Salamatov"
+        },
+        {
+          "time": 77,
+          "type": 1,
+          "position": 1,
+          "player_id": "y0or5jhez78kqwz",
+          "away_score": 0,
+          "home_score": 4,
+          "player_name": "Anti·Ivaste"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y0or5jhglnx8qwz",
+          "out_player_id": "y0or5jhez78kqwz",
+          "in_player_name": "Egert Tristan Epro",
+          "out_player_name": "Anti·Ivaste"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "23xmvkhk2koxqg8",
+          "out_player_id": "pxwrxlhjd840ryk",
+          "in_player_name": "Peeter Alev",
+          "out_player_name": "Ruuben jaagant"
+        },
+        {
+          "time": 83,
+          "type": 17,
+          "position": 1,
+          "player_id": "vjxm8ghjozewr6o",
+          "away_score": 0,
+          "home_score": 5,
+          "player_name": "martin eensalu"
+        },
+        {
+          "time": 91,
+          "type": 1,
+          "position": 1,
+          "player_id": "8yomo4hvd0eeq0j",
+          "away_score": 0,
+          "home_score": 6,
+          "player_name": "Joona kuismala"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "pxwrxlh5o42lryk": {
+      "id": "pxwrxlh5o42lryk",
+      "home_team_id": "pxwrxlhgx7kryk0",
+      "away_team_id": "jw2r09hnjy6rz84",
+      "start_timestamp": 1731839400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "318q66hwpen4qo9",
+      "incidents": [
+        {
+          "time": 25,
+          "type": 3,
+          "position": 1,
+          "player_id": "vjxm8ghjozewr6o",
+          "player_name": "martin eensalu"
+        },
+        {
+          "time": 29,
+          "type": 1,
+          "position": 2,
+          "player_id": "pxwrxlhjd840ryk",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Ruuben jaagant"
+        },
+        {
+          "time": 33,
+          "type": 3,
+          "position": 2,
+          "player_id": "dj2ryohnn4wzq1z",
+          "player_name": "Jasper kanter"
+        },
+        {
+          "time": 45,
+          "type": 3,
+          "position": 2,
+          "player_id": "8yomo4h24374q0j",
+          "player_name": "Dominic·Laaneots"
+        },
+        {
+          "time": 46,
+          "type": 3,
+          "position": 1,
+          "player_id": "jw2r09hjen56rz8",
+          "player_name": "Dmytro samborskyi"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "23xmvkhk2koxqg8",
+          "out_player_id": "jw2r09h1gk9rz84",
+          "in_player_name": "Peeter Alev",
+          "out_player_name": "Devid Lehter"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "jw2r09hx2lp0rz8",
+          "out_player_id": "dn1m1gh35e9kmoe",
+          "in_player_name": "Leonid Arhipov",
+          "out_player_name": "Andre balta"
+        },
+        {
+          "time": 63,
+          "type": 4,
+          "position": 1,
+          "player_id": "4wyrn4h4jey2q86",
+          "player_name": "Sergei bolgov"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l7oqdehlje40r51",
+          "out_player_id": "jw2r09hjen56rz8",
+          "in_player_name": "ilja martsukov",
+          "out_player_name": "Dmytro samborskyi"
+        },
+        {
+          "time": 65,
+          "type": 8,
+          "position": 2,
+          "player_id": "zp5rzghzg34zq82",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Kristo·Poldsaar"
+        },
+        {
+          "time": 66,
+          "type": 3,
+          "position": 2,
+          "player_id": "8yomo4hvd0eeq0j",
+          "player_name": "Joona kuismala"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y0or5jhez78kqwz",
+          "out_player_id": "dj2ryohnn4wzq1z",
+          "in_player_name": "Anti·Ivaste",
+          "out_player_name": "Jasper kanter"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dn1m1gh35pelmoe",
+          "out_player_id": "pxwrxlhj8kkzryk",
+          "in_player_name": "Lev visman",
+          "out_player_name": "Vsevolod pochekutov"
+        },
+        {
+          "time": 89,
+          "type": 1,
+          "position": 2,
+          "player_id": "y0or5jhez78kqwz",
+          "away_score": 3,
+          "home_score": 0,
+          "player_name": "Anti·Ivaste"
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y39mp1hjl2o0moj",
+          "out_player_id": "8yomo4h24374q0j",
+          "in_player_name": "Karl-Ernst Saal",
+          "out_player_name": "Dominic·Laaneots"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

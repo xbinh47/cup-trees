@@ -1,0 +1,148 @@
+{
+  "season_id": "yl5ergph65yr8k0",
+  "brackets": [
+    {
+      "id": "l5ergph35p2r8k0",
+      "competition_id": "yl5ergphoper8k0",
+      "season_id": "yl5ergph65yr8k0",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1665158400,
+      "end_time": 1665676740,
+      "rounds": [
+        {
+          "id": "dn1m1gho844moep",
+          "bracket_id": "l5ergph35p2r8k0",
+          "name": "Placement Qualification Match",
+          "abbr": "QPM",
+          "start_time": 1665237600,
+          "end_time": 1665237600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "y0or5jhl54o7qwz",
+              "round_id": "dn1m1gho844moep",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "318q66ho730qo9j",
+              "away_team_id": "3glrw7hwk6kqdyj",
+              "winner_team_id": "318q66ho730qo9j",
+              "home_score": 3,
+              "away_score": 1,
+              "parent_ids": [
+                "n54qllh23jyvqvy"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "1l4rjnhj9kj2m7v"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3glrw7hlz9lqdyj",
+          "bracket_id": "l5ergph35p2r8k0",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1665669600,
+          "end_time": 1665669600,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "n54qllh23jyvqvy",
+              "round_id": "3glrw7hlz9lqdyj",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 1,
+              "home_team_id": "318q66ho730qo9j",
+              "away_team_id": "318q66ho730qo9j",
+              "winner_team_id": "l5ergph3n17r8k0",
+              "home_score": 4,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [
+                "y0or5jhl54o7qwz"
+              ],
+              "event_ids": [
+                "23xmvkhp6k10qg8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "3glrw7hwk6kqdyj": {
+      "id": "3glrw7hwk6kqdyj",
+      "name": "CS.Hammam-Lif"
+    },
+    "318q66ho730qo9j": {
+      "id": "318q66ho730qo9j",
+      "name": "Esperance Sportive Zarzis"
+    }
+  },
+  "sport_events": {
+    "1l4rjnhj9kj2m7v": {
+      "id": "1l4rjnhj9kj2m7v",
+      "home_team_id": "318q66ho730qo9j",
+      "away_team_id": "3glrw7hwk6kqdyj",
+      "start_timestamp": 1665237600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "23xmvkhp6k10qg8": {
+      "id": "23xmvkhp6k10qg8",
+      "home_team_id": "318q66ho730qo9j",
+      "away_team_id": "l5ergph3n17r8k0",
+      "start_timestamp": 1665669600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

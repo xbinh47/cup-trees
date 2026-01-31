@@ -1,0 +1,147 @@
+{
+  "season_id": "v2y8m4zhk22ql07",
+  "brackets": [
+    {
+      "id": "2y8m4zhgnzjql07",
+      "competition_id": "kjw2r09hg9rz84o",
+      "season_id": "v2y8m4zhk22ql07",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1748016000,
+      "end_time": 1748447940,
+      "rounds": [
+        {
+          "id": "1l4rjnhjj6ym7vx",
+          "bracket_id": "2y8m4zhgnzjql07",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1748111400,
+          "end_time": 1748111400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "4jwq2ghke3d4m0v",
+              "round_id": "1l4rjnhjj6ym7vx",
+              "number": 1,
+              "type_id": 7,
+              "state_id": 8,
+              "home_team_id": "l7oqdeh1edjr510",
+              "away_team_id": "ednm9whgddpryox",
+              "winner_team_id": "ednm9whgddpryox",
+              "home_score": 0,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "4jwq2ghn4e4jm0v"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "l7oqdeh1edjr510": {
+      "id": "l7oqdeh1edjr510",
+      "name": "City Escaldes"
+    },
+    "ednm9whgddpryox": {
+      "id": "ednm9whgddpryox",
+      "name": "CF Esperanca dAndorra"
+    }
+  },
+  "sport_events": {
+    "4jwq2ghn4e4jm0v": {
+      "id": "4jwq2ghn4e4jm0v",
+      "home_team_id": "l7oqdeh1edjr510",
+      "away_team_id": "ednm9whgddpryox",
+      "start_timestamp": 1748111400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 6,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 13,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 23,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 29,
+          "type": 1,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 0
+        },
+        {
+          "time": 71,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 78,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 78,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 86,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 87,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 89,
+          "type": 1,
+          "position": 2,
+          "away_score": 2,
+          "home_score": 0
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 1
+        }
+      ]
+    }
+  }
+}

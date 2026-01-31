@@ -1,0 +1,355 @@
+{
+  "season_id": "kjw2r09helyrz84",
+  "brackets": [
+    {
+      "id": "pxwrxlh994pryk0",
+      "competition_id": "p3glrw7hzwvqdyj",
+      "season_id": "kjw2r09helyrz84",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1727193600,
+      "end_time": 1727279940,
+      "rounds": [
+        {
+          "id": "vjxm8ghwopor6od",
+          "bracket_id": "pxwrxlh994pryk0",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1727307000,
+          "end_time": 1727307000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "k82rekh9n51jrep",
+              "round_id": "vjxm8ghwopor6od",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "8y39mp1h86pmojx",
+              "away_team_id": "d23xmvkh189qg8n",
+              "winner_team_id": "d23xmvkh189qg8n",
+              "home_score": 5,
+              "away_score": 6,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "dj2ryoh13k96q1z"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "d23xmvkh189qg8n": {
+      "id": "d23xmvkh189qg8n",
+      "name": "Club America"
+    },
+    "8y39mp1h86pmojx": {
+      "id": "8y39mp1h86pmojx",
+      "name": "Columbus Crew"
+    }
+  },
+  "sport_events": {
+    "dj2ryoh13k96q1z": {
+      "id": "dj2ryoh13k96q1z",
+      "home_team_id": "8y39mp1h86pmojx",
+      "away_team_id": "d23xmvkh189qg8n",
+      "start_timestamp": 1727307600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 5,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 4,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 32,
+          "type": 3,
+          "position": 1,
+          "player_id": "8yomo4hvy118q0j",
+          "player_name": "Sean Zawadzki"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "vjxm8gh8gv9r6od",
+          "out_player_id": "l5ergph3jgv4r8k",
+          "in_player_name": "Victor Dávila",
+          "out_player_name": "Brian Rodríguez"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7ph0xnvm2wd",
+          "out_player_id": "y0or5jhe12v3qwz",
+          "in_player_name": "Diego Valdés",
+          "out_player_name": "Alejandro Zendejas"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l7oqdeh6zy5r510",
+          "out_player_id": "y39mp1hyyy0mojx",
+          "in_player_name": "Rodrigo Aguirre",
+          "out_player_name": "Henry Martin"
+        },
+        {
+          "time": 67,
+          "type": 1,
+          "position": 2,
+          "player_id": "vjxm8gh8gv9r6od",
+          "assist1_id": "pxwrxlhzw16ryk0",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Victor Dávila",
+          "assist1_name": "Álvaro Fidalgo"
+        },
+        {
+          "time": 77,
+          "type": 1,
+          "position": 1,
+          "player_id": "318q66h4yp0qo9j",
+          "assist1_id": "8yomo4hv45vq0j6",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Malte Amundsen",
+          "assist1_name": "Christian Ramirez"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "8yomo4h0dxpq0j6",
+          "out_player_id": "8yomo4hvy118q0j",
+          "in_player_name": "Alexandru Măţan",
+          "out_player_name": "Sean Zawadzki"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4jwq2ghvnvk5m0v",
+          "out_player_id": "8yomo4hv45vq0j6",
+          "in_player_name": "Jacen Russell-Rowe",
+          "out_player_name": "Christian Ramirez"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dj2ryohy38nzq1z",
+          "out_player_id": "jw2r09hl8n5rz84",
+          "in_player_name": "Richard Sánchez",
+          "out_player_name": "Jonathan Dos Santos"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "4wyrn4h45nwq86p",
+          "out_player_id": "dn1m1gh126emoep",
+          "in_player_name": "Javairô Dilrosun",
+          "out_player_name": "Cristian Calderon"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "n54qllh8d8l4qvy",
+          "out_player_id": "2y8m4zhz5nzql07",
+          "in_player_name": "Aziel Jackson",
+          "out_player_name": "Diego Rossi"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "zp5rzghz4wp8q82",
+          "out_player_id": "pxwrxlhjll0dryk",
+          "in_player_name": "DeJuan Jones",
+          "out_player_name": "M. Arfsten"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "pxwrxlh97lj6ryk",
+          "out_player_id": "l7oqdeh4jjnkr51",
+          "in_player_name": "Marcelo Herrera",
+          "out_player_name": "Mohamed Farsi"
+        },
+        {
+          "time": 91,
+          "type": 3,
+          "position": 1,
+          "player_id": "vjxm8gh24l9r6od",
+          "player_name": "Cucho Hernández"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "l7oqdeh63l7r510",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Rudy Camacho"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "x7lm7ph0xnvm2wd",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Diego Valdés"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 1,
+          "player_id": "8yomo4h0dxpq0j6",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Alexandru Măţan"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 2,
+          "player_id": "dj2ryohy38nzq1z",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Richard Sánchez"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "4jwq2ghvnvk5m0v",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Jacen Russell-Rowe"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "l7oqdeh6zy5r510",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Rodrigo Aguirre"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "vjxm8gh24l9r6od",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "Cucho Hernández"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "pxwrxlhzw16ryk0",
+          "away_score": 3,
+          "home_score": 3,
+          "player_name": "Álvaro Fidalgo"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "player_id": "zp5rzghz4wp8q82",
+          "away_score": 3,
+          "home_score": 4,
+          "player_name": "DeJuan Jones"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "vjxm8gh8gv9r6od",
+          "away_score": 4,
+          "home_score": 4,
+          "player_name": "Victor Dávila"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 1,
+          "player_id": "n54qllh8d8l4qvy",
+          "away_score": 4,
+          "home_score": 4,
+          "player_name": "Aziel Jackson"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 2,
+          "player_id": "23xmvkhd8gz2qg8",
+          "away_score": 4,
+          "home_score": 4,
+          "player_name": "Ramón Juárez"
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 1,
+          "player_id": "318q66h4yp0qo9j",
+          "away_score": 4,
+          "home_score": 4,
+          "player_name": "Malte Amundsen"
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "player_id": "dj2ryohy5ydq1zp",
+          "away_score": 5,
+          "home_score": 4,
+          "player_name": "Néstor Araujo"
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "season_id": "965mkyh7l7lr1ge",
+  "brackets": [
+    {
+      "id": "8yomo4h2gxdq0j6",
+      "competition_id": "9vjxm8gh7or6odg",
+      "season_id": "965mkyh7l7lr1ge",
+      "name": "Knockout stage",
+      "abbr": "CONMEBOL Reco",
+      "start_time": 1771430400,
+      "end_time": 1772207940,
+      "rounds": [
+        {
+          "id": "965mkyh2px1r1ge",
+          "bracket_id": "8yomo4h2gxdq0j6",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1771547400,
+          "end_time": 1772152200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "jw2r09hn3oolrz8",
+              "round_id": "965mkyh2px1r1ge",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 1,
+              "home_team_id": "kjw2r09hz42rz84",
+              "away_team_id": "yl5ergphj44r8k0",
+              "winner_team_id": "",
+              "home_score": 0,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "dn1m1ghlpe67moe",
+                "4wyrn4h6oeglq86"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "kjw2r09hz42rz84": {
+      "id": "kjw2r09hz42rz84",
+      "name": "Club Atlético Lanús"
+    },
+    "yl5ergphj44r8k0": {
+      "id": "yl5ergphj44r8k0",
+      "name": "CR Flamengo"
+    }
+  },
+  "sport_events": {
+    "4wyrn4h6oeglq86": {
+      "id": "4wyrn4h6oeglq86",
+      "home_team_id": "yl5ergphj44r8k0",
+      "away_team_id": "kjw2r09hz42rz84",
+      "start_timestamp": 1772152200,
+      "status_id": 1,
+      "sport_event_status": {
+        "status_id": 1,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "dn1m1ghlpe67moe": {
+      "id": "dn1m1ghlpe67moe",
+      "home_team_id": "kjw2r09hz42rz84",
+      "away_team_id": "yl5ergphj44r8k0",
+      "start_timestamp": 1771547400,
+      "status_id": 1,
+      "sport_event_status": {
+        "status_id": 1,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

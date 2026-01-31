@@ -1,0 +1,899 @@
+{
+  "season_id": "jednm9whny8ryox",
+  "brackets": [
+    {
+      "id": "4wyrn4hdlxyq86p",
+      "competition_id": "xkn54qllhjqvy9d",
+      "season_id": "jednm9whny8ryox",
+      "name": "Knockout stage",
+      "abbr": "Play-off",
+      "start_time": 1762963200,
+      "end_time": 1763308800,
+      "rounds": [
+        {
+          "id": "zp5rzgh6k1yq82w",
+          "bracket_id": "4wyrn4hdlxyq86p",
+          "name": "Semifinals",
+          "abbr": "SF",
+          "start_time": 1763049600,
+          "end_time": 1763060400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "n54qllhe3e5vqvy",
+              "round_id": "zp5rzgh6k1yq82w",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "v2y8m4zhlo0ql07",
+              "away_team_id": "kn54qllh68wqvy9",
+              "winner_team_id": "v2y8m4zhlo0ql07",
+              "home_score": 4,
+              "away_score": 1,
+              "parent_ids": [
+                "zp5rzgh7o7jjq82"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "y39mp1h6w00wmoj"
+              ]
+            },
+            {
+              "id": "23xmvkho2o3vqg8",
+              "round_id": "zp5rzgh6k1yq82w",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "kdj2ryohod6q1zp",
+              "away_team_id": "j1l4rjnho2em7vx",
+              "winner_team_id": "j1l4rjnho2em7vx",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [
+                "zp5rzgh7o7jjq82"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "k82rekhg600xrep"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1l4rjnhj7e6m7vx",
+          "bracket_id": "4wyrn4hdlxyq86p",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1763319600,
+          "end_time": 1763319600,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "zp5rzgh7o7jjq82",
+              "round_id": "1l4rjnhj7e6m7vx",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "v2y8m4zhlo0ql07",
+              "away_team_id": "j1l4rjnho2em7vx",
+              "winner_team_id": "j1l4rjnho2em7vx",
+              "home_score": 4,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [
+                "n54qllhe3e5vqvy",
+                "23xmvkho2o3vqg8"
+              ],
+              "event_ids": [
+                "3glrw7hnpjy3qdy"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "v2y8m4zhlo0ql07": {
+      "id": "v2y8m4zhlo0ql07",
+      "name": "Nigeria"
+    },
+    "kn54qllh68wqvy9": {
+      "id": "kn54qllh68wqvy9",
+      "name": "Gabon"
+    },
+    "j1l4rjnho2em7vx": {
+      "id": "j1l4rjnho2em7vx",
+      "name": "Democratic Republic of the Congo"
+    },
+    "kdj2ryohod6q1zp": {
+      "id": "kdj2ryohod6q1zp",
+      "name": "Cameroon"
+    }
+  },
+  "sport_events": {
+    "3glrw7hnpjy3qdy": {
+      "id": "3glrw7hnpjy3qdy",
+      "home_team_id": "v2y8m4zhlo0ql07",
+      "away_team_id": "j1l4rjnho2em7vx",
+      "start_timestamp": 1763319600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 4,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 3,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 3,
+          "type": 1,
+          "position": 1,
+          "player_id": "zp5rzgh2yw2q82w",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Frank Onyeka"
+        },
+        {
+          "time": 32,
+          "type": 1,
+          "position": 2,
+          "player_id": "4jwq2gh0g51m0ve",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Meschack Elia"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whzx5g3ryo",
+          "out_player_id": "3glrw7hzopwqdyj",
+          "in_player_name": "Akor Adams",
+          "out_player_name": "Victor Osimhen"
+        },
+        {
+          "time": 57,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh1k84qwzv",
+          "out_player_id": "x7lm7ph95eym2wd",
+          "in_player_name": "Chidera Ejuke",
+          "out_player_name": "Ademola Lookman"
+        },
+        {
+          "time": 57,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhg52lql07",
+          "out_player_id": "pxwrxlhzv3pryk0",
+          "in_player_name": "Moses Simon",
+          "out_player_name": "Samuel Chukwueze"
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jhe8nveqwz",
+          "out_player_id": "1l4rjnh1kzjm7vx",
+          "in_player_name": "Fiston Mayele",
+          "out_player_name": "Cédric Bakambu"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "k82rekhokz49rep",
+          "out_player_id": "4jwq2gh0g51m0ve",
+          "in_player_name": "Brian cipenga",
+          "out_player_name": "Meschack Elia"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh070zqwzv",
+          "out_player_id": "y0or5jh3pyoyqwz",
+          "in_player_name": "Edo Kayembe",
+          "out_player_name": "Ngal'ayel Mukau"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66hv6x67qo9",
+          "out_player_id": "1l4rjnhzpvkm7vx",
+          "in_player_name": "Tolu Arokodare",
+          "out_player_name": "Alex Iwobi"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 94,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 96,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whvzkn0ryo",
+          "out_player_id": "23xmvkhd84jwqg8",
+          "in_player_name": "Bruno Onyemaechi",
+          "out_player_name": "Zaidu Sanusi"
+        },
+        {
+          "time": 105,
+          "type": 19,
+          "add_time": 1,
+          "position": 0
+        },
+        {
+          "time": 105,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l5ergph2vjnr8k0",
+          "out_player_id": "4jwq2ghv9enem0v",
+          "in_player_name": "Michel Ange Balikwisha",
+          "out_player_name": "Nathanael Mbuku"
+        },
+        {
+          "time": 115,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghxj1om0ve",
+          "out_player_id": "318q66hv6x67qo9",
+          "in_player_name": "Chidozie Awaziem",
+          "out_player_name": "Tolu Arokodare"
+        },
+        {
+          "time": 120,
+          "type": 19,
+          "add_time": 1,
+          "position": 0
+        },
+        {
+          "time": 120,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhgnez4ql0",
+          "out_player_id": "2y8m4zhgy4xpql0",
+          "in_player_name": "Timothy Fayulu",
+          "out_player_name": "Lionel Mpasi-Nzau"
+        },
+        {
+          "time": 120,
+          "type": 26,
+          "position": 0
+        },
+        {
+          "time": 121,
+          "type": 30,
+          "position": 1,
+          "player_id": "y39mp1hj0151moj",
+          "player_name": "Calvin Bassey"
+        },
+        {
+          "time": 122,
+          "type": 30,
+          "position": 2,
+          "player_id": "23xmvkhgzv3qg8n",
+          "player_name": "Samuel Moutoussamy"
+        },
+        {
+          "time": 123,
+          "type": 30,
+          "position": 1,
+          "player_id": "2y8m4zhg52lql07",
+          "player_name": "Moses Simon"
+        },
+        {
+          "time": 124,
+          "type": 29,
+          "position": 2,
+          "player_id": "pxwrxlhjn136ryk",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Noah Sadiki"
+        },
+        {
+          "time": 125,
+          "type": 29,
+          "position": 1,
+          "player_id": "ednm9whzx5g3ryo",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Akor Adams"
+        },
+        {
+          "time": 126,
+          "type": 30,
+          "position": 2,
+          "player_id": "8yomo4h029xq0j6",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Axel Tuanzebe"
+        },
+        {
+          "time": 127,
+          "type": 29,
+          "position": 1,
+          "player_id": "ednm9whvzkn0ryo",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Bruno Onyemaechi"
+        },
+        {
+          "time": 128,
+          "type": 29,
+          "position": 2,
+          "player_id": "y0or5jhe8nveqwz",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Fiston Mayele"
+        },
+        {
+          "time": 129,
+          "type": 29,
+          "position": 1,
+          "player_id": "y0or5jh1k84qwzv",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "Chidera Ejuke"
+        },
+        {
+          "time": 130,
+          "type": 29,
+          "position": 2,
+          "player_id": "l5ergph2vjnr8k0",
+          "away_score": 3,
+          "home_score": 3,
+          "player_name": "Michel Ange Balikwisha"
+        },
+        {
+          "time": 131,
+          "type": 30,
+          "position": 1,
+          "player_id": "jw2r09hx6lprz84",
+          "away_score": 3,
+          "home_score": 3,
+          "player_name": "Semi Ajayi"
+        },
+        {
+          "time": 132,
+          "type": 29,
+          "position": 2,
+          "player_id": "l7oqdeh46jdr510",
+          "away_score": 4,
+          "home_score": 3,
+          "player_name": "Chancel Mbemba"
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    },
+    "k82rekhg600xrep": {
+      "id": "k82rekhg600xrep",
+      "home_team_id": "kdj2ryohod6q1zp",
+      "away_team_id": "j1l4rjnho2em7vx",
+      "start_timestamp": 1763060400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 16,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnhxn927m7v",
+          "player_name": "Carlos Baleba",
+          "reason_type": 1
+        },
+        {
+          "time": 21,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdeh46jdr510",
+          "player_name": "Chancel Mbemba",
+          "reason_type": 1
+        },
+        {
+          "time": 25,
+          "type": 3,
+          "position": 1,
+          "player_id": "k82rekhyk122rep",
+          "player_name": "Frank Magri",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dn1m1ghe8k6moep",
+          "out_player_id": "k82rekhyk122rep",
+          "in_player_name": "Vincent Aboubakar",
+          "out_player_name": "Frank Magri"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4h79k2q86p",
+          "out_player_id": "1l4rjnhxn927m7v",
+          "in_player_name": "Martin Hongla",
+          "out_player_name": "Carlos Baleba"
+        },
+        {
+          "time": 57,
+          "type": 3,
+          "position": 1,
+          "player_id": "dj2ryoh21e9q1zp",
+          "player_name": "Nouhou Tolo",
+          "reason_type": 1
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh070zqwzv",
+          "out_player_id": "x7lm7phwwn5m2wd",
+          "in_player_name": "Edo Kayembe",
+          "out_player_name": "Charles Pickel"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4jwq2gh7vz4m0ve",
+          "out_player_id": "vjxm8ghpjx02r6o",
+          "in_player_name": "Christian Bassogog",
+          "out_player_name": "Mahamadou Nagida"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whzp98ryox",
+          "out_player_id": "zp5rzghpl7klq82",
+          "in_player_name": "Georges-Kévin N'Koudou",
+          "out_player_name": "Arthur Avom"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jhe8nveqwz",
+          "out_player_id": "1l4rjnh1kzjm7vx",
+          "in_player_name": "Fiston Mayele",
+          "out_player_name": "Cédric Bakambu"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "k82rekhokz49rep",
+          "out_player_id": "4jwq2ghv9enem0v",
+          "in_player_name": "Brian cipenga",
+          "out_player_name": "Nathanael Mbuku"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh3pyoyqwz",
+          "out_player_id": "pxwrxlhjn136ryk",
+          "in_player_name": "Ngal'ayel Mukau",
+          "out_player_name": "Noah Sadiki"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 7,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 1,
+          "add_time": 1,
+          "position": 2,
+          "player_id": "l7oqdeh46jdr510",
+          "assist1_id": "k82rekhokz49rep",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Chancel Mbemba",
+          "assist1_name": "Brian cipenga"
+        },
+        {
+          "time": 94,
+          "type": 9,
+          "add_time": 4,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "n54qllhjvkzqvy9",
+          "out_player_id": "l5ergphejx2jr8k",
+          "in_player_name": "Nicolas Moumi Ngamaleu",
+          "out_player_name": "Etta Eyong"
+        },
+        {
+          "time": 98,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "y39mp1h6w00wmoj": {
+      "id": "y39mp1h6w00wmoj",
+      "home_team_id": "v2y8m4zhlo0ql07",
+      "away_team_id": "kn54qllh68wqvy9",
+      "start_timestamp": 1763049600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 4,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 6,
+          "type": 3,
+          "position": 1,
+          "player_id": "n54qllh8depqvy9",
+          "player_name": "Wilfred Ndidi",
+          "reason_type": 1
+        },
+        {
+          "time": 44,
+          "type": 3,
+          "position": 2,
+          "player_id": "k82rekhvg7grepz",
+          "player_name": "Pierre-Emerick Aubameyang",
+          "reason_type": 18
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 2,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 60,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhg52lql07",
+          "out_player_id": "x7lm7ph95eym2wd",
+          "in_player_name": "Moses Simon",
+          "out_player_name": "Ademola Lookman"
+        },
+        {
+          "time": 60,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh1k84qwzv",
+          "out_player_id": "pxwrxlhzv3pryk0",
+          "in_player_name": "Chidera Ejuke",
+          "out_player_name": "Samuel Chukwueze"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dn1m1gh8y8vvmoe",
+          "out_player_id": "8yomo4hvp69eq0j",
+          "in_player_name": "Bryan Meyo Ngoua",
+          "out_player_name": "Royce Drax Openda Owaga"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhx9pwpm7v",
+          "out_player_id": "dn1m1ghejdemoep",
+          "in_player_name": "Noha Lemina",
+          "out_player_name": "André Poko"
+        },
+        {
+          "time": 78,
+          "type": 1,
+          "position": 1,
+          "player_id": "ednm9whzx5g3ryo",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Akor Adams"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzgh2yw2q82w",
+          "out_player_id": "ednm9whzx5g3ryo",
+          "in_player_name": "Frank Onyeka",
+          "out_player_name": "Akor Adams"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zh8l7d9ql0",
+          "out_player_id": "23xmvkhk48nqg8n",
+          "in_player_name": "Samaké Nzé Bagnama",
+          "out_player_name": "Didier N'Dong"
+        },
+        {
+          "time": 89,
+          "type": 1,
+          "position": 2,
+          "player_id": "l7oqdeh48ndr510",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Mario Lemina"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 12,
+          "position": 0
+        },
+        {
+          "time": 103,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 97,
+          "type": 1,
+          "position": 1,
+          "player_id": "y0or5jh1k84qwzv",
+          "assist1_id": "n54qllh8depqvy9",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Chidera Ejuke",
+          "assist1_name": "Wilfred Ndidi"
+        },
+        {
+          "time": 100,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghx6z2lm0v",
+          "out_player_id": "dn1m1gh8y8vvmoe",
+          "in_player_name": "Alex Yowan Kevin Moucketou Moussounda",
+          "out_player_name": "Bryan Meyo Ngoua"
+        },
+        {
+          "time": 100,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhwg208md7",
+          "out_player_id": "1l4rjnhx9pwpm7v",
+          "in_player_name": "Jérémy Oyono Omva Torque",
+          "out_player_name": "Noha Lemina"
+        },
+        {
+          "time": 102,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hzopwqdyj",
+          "assist1_id": "4wyrn4hvvjnjq86",
+          "away_score": 1,
+          "home_score": 3,
+          "player_name": "Victor Osimhen",
+          "assist1_name": "Benjamin Chiemela Fredrick"
+        },
+        {
+          "time": 103,
+          "type": 3,
+          "position": 1,
+          "player_id": "3glrw7hzopwqdyj",
+          "player_name": "Victor Osimhen",
+          "reason_type": 21
+        },
+        {
+          "time": 103,
+          "type": 3,
+          "position": 1,
+          "player_id": "318q66hj057xqo9",
+          "player_name": "Amas Obasogie",
+          "reason_type": 15
+        },
+        {
+          "time": 105,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 109,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "x7lm7ph0v52m2wd",
+          "out_player_id": "vjxm8gh89exr6od",
+          "in_player_name": "William Troost-Ekong",
+          "out_player_name": " Bright Osayi-Samuel"
+        },
+        {
+          "time": 109,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghxj1om0ve",
+          "out_player_id": "1l4rjnhzpvkm7vx",
+          "in_player_name": "Chidozie Awaziem",
+          "out_player_name": "Alex Iwobi"
+        },
+        {
+          "time": 110,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hzopwqdyj",
+          "assist1_id": "4jwq2ghxj1om0ve",
+          "away_score": 1,
+          "home_score": 4,
+          "player_name": "Victor Osimhen",
+          "assist1_name": "Chidozie Awaziem"
+        },
+        {
+          "time": 115,
+          "type": 3,
+          "position": 2,
+          "player_id": "4jwq2ghx6z2lm0v",
+          "player_name": "Alex Yowan Kevin Moucketou Moussounda",
+          "reason_type": 10
+        },
+        {
+          "time": 116,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66hv6x67qo9",
+          "out_player_id": "3glrw7hzopwqdyj",
+          "in_player_name": "Tolu Arokodare",
+          "out_player_name": "Victor Osimhen"
+        },
+        {
+          "time": 120,
+          "type": 19,
+          "add_time": 2,
+          "position": 0
+        },
+        {
+          "time": 120,
+          "type": 3,
+          "position": 1,
+          "player_id": "zp5rzgh2yw2q82w",
+          "player_name": "Frank Onyeka",
+          "reason_type": 27
+        },
+        {
+          "time": 120,
+          "type": 3,
+          "position": 2,
+          "player_id": "2y8m4zh8l7d9ql0",
+          "player_name": "Samaké Nzé Bagnama",
+          "reason_type": 1
+        },
+        {
+          "time": 120,
+          "type": 26,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

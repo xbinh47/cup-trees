@@ -1,0 +1,346 @@
+{
+  "season_id": "4zp5rzghl15q82w",
+  "brackets": [
+    {
+      "id": "4jwq2ghvx7ym0ve",
+      "competition_id": "p4jwq2gh4o9m0ve",
+      "season_id": "4zp5rzghl15q82w",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1730390400,
+      "end_time": 1731340740,
+      "rounds": [
+        {
+          "id": "dj2ryohx6klq1zp",
+          "bracket_id": "4jwq2ghvx7ym0ve",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1730523600,
+          "end_time": 1730523600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "x7lm7pho8np0m2w",
+              "round_id": "dj2ryohx6klq1zp",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "2y8m4zh3d4oql07",
+              "away_team_id": "jw2r09hne4orz84",
+              "winner_team_id": "2y8m4zh3d4oql07",
+              "home_score": 6,
+              "away_score": 5,
+              "parent_ids": [
+                "6ypq3nh5exzpmd7"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "3glrw7h7563eqdy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2y8m4zhpy3vql07",
+          "bracket_id": "4jwq2ghvx7ym0ve",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1730797200,
+          "end_time": 1731128400,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "6ypq3nh5exzpmd7",
+              "round_id": "2y8m4zhpy3vql07",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "2y8m4zh3d4oql07",
+              "away_team_id": "zp5rzgh7jk6q82w",
+              "winner_team_id": "2y8m4zh3d4oql07",
+              "home_score": 3,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [
+                "x7lm7pho8np0m2w"
+              ],
+              "event_ids": [
+                "y39mp1hzndkvmoj",
+                "k82rekhw428vrep"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "2y8m4zh3d4oql07": {
+      "id": "2y8m4zh3d4oql07",
+      "name": "Suwon FC Women"
+    },
+    "zp5rzgh7jk6q82w": {
+      "id": "zp5rzgh7jk6q82w",
+      "name": "Hwacheon KSPO WFC"
+    },
+    "jw2r09hne4orz84": {
+      "id": "jw2r09hne4orz84",
+      "name": "Gyeongju Korea Hydro & Nuclear Power WFC"
+    }
+  },
+  "sport_events": {
+    "3glrw7h7563eqdy": {
+      "id": "3glrw7h7563eqdy",
+      "home_team_id": "2y8m4zh3d4oql07",
+      "away_team_id": "jw2r09hne4orz84",
+      "start_timestamp": 1730523600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 4,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 5,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 35,
+          "type": 1,
+          "position": 2,
+          "player_id": "x7lm7ph03gdvm2w",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Sel-gi Jang"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 60,
+          "type": 1,
+          "position": 1,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 120,
+          "type": 30,
+          "position": 2
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 1
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "away_score": 1,
+          "home_score": 2
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "away_score": 2,
+          "home_score": 2
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "away_score": 2,
+          "home_score": 3
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "away_score": 3,
+          "home_score": 3
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "away_score": 3,
+          "home_score": 4
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "away_score": 4,
+          "home_score": 4
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "away_score": 4,
+          "home_score": 5
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    },
+    "k82rekhw428vrep": {
+      "id": "k82rekhw428vrep",
+      "home_team_id": "zp5rzgh7jk6q82w",
+      "away_team_id": "2y8m4zh3d4oql07",
+      "start_timestamp": 1731128400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "y39mp1hzndkvmoj",
+      "incidents": [
+        {
+          "time": 18,
+          "type": 1,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 1
+        },
+        {
+          "time": 37,
+          "type": 1,
+          "position": 2,
+          "player_id": "dj2ryohjl9ylq1z",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Eun-Ha Jeong"
+        },
+        {
+          "time": 50,
+          "type": 1,
+          "position": 1,
+          "away_score": 1,
+          "home_score": 2
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "y39mp1hzndkvmoj": {
+      "id": "y39mp1hzndkvmoj",
+      "home_team_id": "2y8m4zh3d4oql07",
+      "away_team_id": "zp5rzgh7jk6q82w",
+      "start_timestamp": 1730797200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "k82rekhw428vrep",
+      "incidents": [
+        {
+          "time": 20,
+          "type": 17,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 1
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 59,
+          "type": 1,
+          "position": 1,
+          "player_id": "8yomo4h24wxjq0j",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Kang Chae-rim"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

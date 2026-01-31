@@ -1,0 +1,855 @@
+{
+  "season_id": "z8yomo4hwgyq0j6",
+  "brackets": [
+    {
+      "id": "x7lm7ph0742m2wd",
+      "competition_id": "8y39mp1hk8mojxg",
+      "season_id": "z8yomo4hwgyq0j6",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1763568000,
+      "end_time": 1763999940,
+      "rounds": [
+        {
+          "id": "dn1m1ghp5e0moep",
+          "bracket_id": "x7lm7ph0742m2wd",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1763661600,
+          "end_time": 1763906400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "vjxm8ghg0ll9r6o",
+              "round_id": "dn1m1ghp5e0moep",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "9k82rekhk0drepz",
+              "away_team_id": "jw2r09hl7jorz84",
+              "winner_team_id": "9k82rekhk0drepz",
+              "home_score": 4,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "4jwq2ghn9ve7m0v",
+                "l7oqdehg34oxr51"
+              ]
+            },
+            {
+              "id": "x7lm7phovzz8m2w",
+              "round_id": "dn1m1ghp5e0moep",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "j1l4rjnh8znm7vx",
+              "away_team_id": "d23xmvkhz2oqg8n",
+              "winner_team_id": "d23xmvkhz2oqg8n",
+              "home_score": 5,
+              "away_score": 7,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "1l4rjnh9lz4xm7v",
+                "jw2r09hk0x25rz8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "9k82rekhk0drepz": {
+      "id": "9k82rekhk0drepz",
+      "name": "Norrby IF"
+    },
+    "jw2r09hl7jorz84": {
+      "id": "jw2r09hl7jorz84",
+      "name": "Utsiktens BK"
+    },
+    "d23xmvkhz2oqg8n": {
+      "id": "d23xmvkhz2oqg8n",
+      "name": "Orebro"
+    },
+    "j1l4rjnh8znm7vx": {
+      "id": "j1l4rjnh8znm7vx",
+      "name": "Hammarby TFF"
+    }
+  },
+  "sport_events": {
+    "1l4rjnh9lz4xm7v": {
+      "id": "1l4rjnh9lz4xm7v",
+      "home_team_id": "j1l4rjnh8znm7vx",
+      "away_team_id": "d23xmvkhz2oqg8n",
+      "start_timestamp": 1763661600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "jw2r09hk0x25rz8",
+      "incidents": [
+        {
+          "time": 18,
+          "type": 3,
+          "position": 2,
+          "player_id": "l5ergphv4p7yr8k",
+          "player_name": "Samuel Kroon"
+        },
+        {
+          "time": 29,
+          "type": 1,
+          "position": 1,
+          "player_id": "jw2r09hwg8xjrz8",
+          "assist1_id": "y39mp1hygn87moj",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "samuel odera adindu",
+          "assist1_name": "Oscar Branby Steinke"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "vjxm8ghp29vnr6o",
+          "out_player_id": "965mkyh35zjr1ge",
+          "in_player_name": "asuman blessing dankwah",
+          "out_player_name": "Erik Andersson"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "2y8m4zhgp1g4ql0",
+          "out_player_id": "l5ergphv4p7yr8k",
+          "in_player_name": "Dino Salihovic",
+          "out_player_name": "Samuel Kroon"
+        },
+        {
+          "time": 50,
+          "type": 3,
+          "position": 1,
+          "player_id": "n54qllh8zpd2qvy",
+          "player_name": "William axelsson"
+        },
+        {
+          "time": 61,
+          "type": 3,
+          "position": 1,
+          "player_id": "y39mp1hygn87moj",
+          "player_name": "Oscar Branby Steinke"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlh9y360ryk",
+          "out_player_id": "1l4rjnh1pw8pm7v",
+          "in_player_name": "Melvin Bajrovic",
+          "out_player_name": "Simon Amin"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "n54qllhj8ey8qvy",
+          "out_player_id": "n54qllh8zpd2qvy",
+          "in_player_name": "Nicholas Ablido",
+          "out_player_name": "William axelsson"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "965mkyhn1694r1g",
+          "out_player_id": "l5ergphnkv4zr8k",
+          "in_player_name": "milian oberg",
+          "out_player_name": "Wilson Elliot Lindberg Uhrström"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l7oqdehl1g44r51",
+          "out_player_id": "23xmvkhk944pqg8",
+          "in_player_name": "Ludvig·Richtner",
+          "out_player_name": "Antonio Yakoub"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "4jwq2ghn9ve7m0v": {
+      "id": "4jwq2ghn9ve7m0v",
+      "home_team_id": "9k82rekhk0drepz",
+      "away_team_id": "jw2r09hl7jorz84",
+      "start_timestamp": 1763661600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "l7oqdehg34oxr51",
+      "incidents": [
+        {
+          "time": 9,
+          "type": 3,
+          "position": 1,
+          "player_id": "l7oqdehld19or51",
+          "player_name": "Ture Spendler"
+        },
+        {
+          "time": 29,
+          "type": 1,
+          "position": 1,
+          "player_id": "dj2ryohjznw7q1z",
+          "assist1_id": "318q66hknw1qo9j",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "max andersson",
+          "assist1_name": "Alen Krasnici"
+        },
+        {
+          "time": 36,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7phwdo70m2w",
+          "player_name": "Karl Jamie Bichis"
+        },
+        {
+          "time": 40,
+          "type": 1,
+          "position": 2,
+          "player_id": "l5ergphn2pvxr8k",
+          "assist1_id": "4jwq2ghvkk0m0ve",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "mass sise",
+          "assist1_name": "Malkolm Moenza"
+        },
+        {
+          "time": 41,
+          "type": 3,
+          "position": 1,
+          "player_id": "8yomo4hvdlvdq0j",
+          "player_name": "Teo Helge"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y39mp1h1ywogmoj",
+          "out_player_id": "2y8m4zh35n3ql07",
+          "in_player_name": "Kalipha Jawla",
+          "out_player_name": "Alexander Faltsetas"
+        },
+        {
+          "time": 56,
+          "type": 3,
+          "position": 1,
+          "player_id": "jw2r09hx501rz84",
+          "player_name": "Linus Dahl"
+        },
+        {
+          "time": 58,
+          "type": 1,
+          "position": 2,
+          "player_id": "vjxm8gh268jr6od",
+          "assist1_id": "y39mp1h1ywogmoj",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Adil Titi",
+          "assist1_name": "Kalipha Jawla"
+        },
+        {
+          "time": 65,
+          "type": 1,
+          "position": 1,
+          "player_id": "jw2r09hx501rz84",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Linus Dahl"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnhzlgz5m7v",
+          "out_player_id": "dj2ryohjznw7q1z",
+          "in_player_name": "Chisomnazu Chika·Chidi",
+          "out_player_name": "max andersson"
+        },
+        {
+          "time": 77,
+          "type": 1,
+          "position": 1,
+          "player_id": "1l4rjnhzlgz5m7v",
+          "assist1_id": "318q66hknw1qo9j",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "Chisomnazu Chika·Chidi",
+          "assist1_name": "Alen Krasnici"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "k82rekhyd6d5rep",
+          "out_player_id": "l5ergphn2pvxr8k",
+          "in_player_name": "Daniel Hermansson",
+          "out_player_name": "mass sise"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "318q66hj328lqo9",
+          "out_player_id": "vjxm8gh804ger6o",
+          "in_player_name": "musse engstrom back",
+          "out_player_name": "Azeez Temitope Yusuf"
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "add_time": 4,
+          "position": 2,
+          "player_id": "318q66h4d3y3qo9",
+          "player_name": "Abundance Salaou"
+        },
+        {
+          "time": 95,
+          "type": 9,
+          "add_time": 5,
+          "position": 1,
+          "in_player_id": "23xmvkhk0g3oqg8",
+          "out_player_id": "318q66hknw1qo9j",
+          "in_player_name": "Malte wester",
+          "out_player_name": "Alen Krasnici"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "jw2r09hk0x25rz8": {
+      "id": "jw2r09hk0x25rz8",
+      "home_team_id": "d23xmvkhz2oqg8n",
+      "away_team_id": "j1l4rjnh8znm7vx",
+      "start_timestamp": 1763906400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 8,
+          "red_card": 1,
+          "yellow_card": 4,
+          "penalty_score": 3,
+          "regular_score": 0,
+          "overTime_score": 1,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 7,
+          "penalty_score": 5,
+          "regular_score": 1,
+          "overTime_score": 2,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "1l4rjnh9lz4xm7v",
+      "incidents": [
+        {
+          "time": 4,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnh1pw8pm7v",
+          "player_name": "Simon Amin"
+        },
+        {
+          "time": 23,
+          "type": 3,
+          "position": 2,
+          "player_id": "y39mp1hyx6xnmoj",
+          "player_name": "Jordan simpson"
+        },
+        {
+          "time": 31,
+          "type": 1,
+          "position": 1,
+          "player_id": "6ypq3nh5677md7o",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Karl Holmberg"
+        },
+        {
+          "time": 41,
+          "type": 3,
+          "position": 1,
+          "player_id": "6ypq3nh5677md7o",
+          "player_name": "Karl Holmberg"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 54,
+          "type": 3,
+          "position": 2,
+          "player_id": "jw2r09hje544rz8",
+          "player_name": "Benjamin laturnus"
+        },
+        {
+          "time": 61,
+          "type": 3,
+          "position": 2,
+          "player_id": "l5ergphnkv4zr8k",
+          "player_name": "Wilson Elliot Lindberg Uhrström"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "2y8m4zh8l1ygql0",
+          "out_player_id": "l5ergphnkv4zr8k",
+          "in_player_name": "Keyano marrah",
+          "out_player_name": "Wilson Elliot Lindberg Uhrström"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "965mkyh35zjr1ge",
+          "out_player_id": "1l4rjnh1pw8pm7v",
+          "in_player_name": "Erik Andersson",
+          "out_player_name": "Simon Amin"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l7oqdehl1g44r51",
+          "out_player_id": "23xmvkhk944pqg8",
+          "in_player_name": "Ludvig·Richtner",
+          "out_player_name": "Antonio Yakoub"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "pxwrxlh9y360ryk",
+          "out_player_id": "8yomo4h268opq0j",
+          "in_player_name": "Melvin Bajrovic",
+          "out_player_name": "hampus soderstrom"
+        },
+        {
+          "time": 83,
+          "type": 3,
+          "position": 1,
+          "player_id": "pxwrxlh9y360ryk",
+          "player_name": "Melvin Bajrovic"
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 2,
+          "player_id": "965mkyhn1694r1g",
+          "player_name": "milian oberg"
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 1,
+          "player_id": "2y8m4zhgp1g4ql0",
+          "player_name": "Dino Salihovic"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 1,
+          "position": 2,
+          "player_id": "y39mp1h1z8z5moj",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Adrian Lahdo"
+        },
+        {
+          "time": 99,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l5ergphv4p7yr8k",
+          "out_player_id": "2y8m4zhgp1g4ql0",
+          "in_player_name": "Samuel Kroon",
+          "out_player_name": "Dino Salihovic"
+        },
+        {
+          "time": 100,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlhj3xj4ryk",
+          "out_player_id": "jw2r09hwg8xjrz8",
+          "in_player_name": "Liam Mahachai Källman",
+          "out_player_name": "samuel odera adindu"
+        },
+        {
+          "time": 104,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "965mkyhn1694r1g",
+          "out_player_id": "y39mp1h1z8z5moj",
+          "in_player_name": "milian oberg",
+          "out_player_name": "Adrian Lahdo"
+        },
+        {
+          "time": 106,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7ph95zzwm2w",
+          "out_player_id": "l7oqdeh0530r510",
+          "in_player_name": "noel stenlund",
+          "out_player_name": "Jesper Modig"
+        },
+        {
+          "time": 108,
+          "type": 3,
+          "position": 1,
+          "player_id": "vjxm8ghp29vnr6o",
+          "player_name": "asuman blessing dankwah"
+        },
+        {
+          "time": 110,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnhz4wz9m7v",
+          "player_name": "Jakub·Ojrzynski"
+        },
+        {
+          "time": 110,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7ph0zl0xm2w",
+          "player_name": "Ahmed Yasin"
+        },
+        {
+          "time": 110,
+          "type": 3,
+          "position": 2,
+          "player_id": "jw2r09hj06w5rz8",
+          "player_name": "Essayas bofua"
+        },
+        {
+          "time": 110,
+          "type": 15,
+          "position": 2,
+          "player_id": "l5ergphnkv4zr8k",
+          "player_name": "Wilson Elliot Lindberg Uhrström"
+        },
+        {
+          "time": 115,
+          "type": 1,
+          "position": 1,
+          "player_id": "k82rekhy3nlprep",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "John Stenberg"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "player_id": "6ypq3nh5677md7o",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Karl Holmberg"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "player_id": "2y8m4zh8l1ygql0",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Keyano marrah"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "away_score": 1,
+          "home_score": 2
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "away_score": 2,
+          "home_score": 2
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "away_score": 2,
+          "home_score": 3
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "away_score": 3,
+          "home_score": 3
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "away_score": 3,
+          "home_score": 4
+        },
+        {
+          "time": 120,
+          "type": 30,
+          "position": 2,
+          "away_score": 3,
+          "home_score": 4
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "away_score": 3,
+          "home_score": 5
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    },
+    "l7oqdehg34oxr51": {
+      "id": "l7oqdehg34oxr51",
+      "home_team_id": "jw2r09hl7jorz84",
+      "away_team_id": "9k82rekhk0drepz",
+      "start_timestamp": 1763899200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "4jwq2ghn9ve7m0v",
+      "incidents": [
+        {
+          "time": 8,
+          "type": 3,
+          "position": 2,
+          "player_id": "l5ergphe9edyr8k",
+          "player_name": "vidar swendsen"
+        },
+        {
+          "time": 19,
+          "type": 3,
+          "position": 2,
+          "player_id": "x7lm7phwdo70m2w",
+          "player_name": "Karl Jamie Bichis"
+        },
+        {
+          "time": 34,
+          "type": 3,
+          "position": 1,
+          "player_id": "l5ergphn2pvxr8k",
+          "player_name": "mass sise"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8gh268jr6od",
+          "out_player_id": "vjxm8ghjopp4r6o",
+          "in_player_name": "Adil Titi",
+          "out_player_name": "Liiban Abdirahman Abadid"
+        },
+        {
+          "time": 55,
+          "type": 3,
+          "position": 1,
+          "player_id": "y39mp1h1ywogmoj",
+          "player_name": "Kalipha Jawla"
+        },
+        {
+          "time": 62,
+          "type": 1,
+          "position": 2,
+          "player_id": "318q66hknw1qo9j",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Alen Krasnici"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "1l4rjnhzlgz5m7v",
+          "out_player_id": "dj2ryohjznw7q1z",
+          "in_player_name": "Chisomnazu Chika·Chidi",
+          "out_player_name": "max andersson"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "23xmvkhk0g3oqg8",
+          "out_player_id": "8yomo4hvdlvdq0j",
+          "in_player_name": "Malte wester",
+          "out_player_name": "Teo Helge"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "2y8m4zh35n3ql07",
+          "out_player_id": "y39mp1h1ywogmoj",
+          "in_player_name": "Alexander Faltsetas",
+          "out_player_name": "Kalipha Jawla"
+        },
+        {
+          "time": 83,
+          "type": 3,
+          "position": 1,
+          "player_id": "965mkyh3w0pgr1g",
+          "player_name": "Kevin Rodeblad Lowe"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "318q66hj328lqo9",
+          "out_player_id": "vjxm8gh804ger6o",
+          "in_player_name": "musse engstrom back",
+          "out_player_name": "Azeez Temitope Yusuf"
+        },
+        {
+          "time": 86,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hykjgeqdy",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "N.Johansson"
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 2,
+          "player_id": "l5ergphvk6y7r8k",
+          "player_name": "Tobias Linderoth"
+        },
+        {
+          "time": 97,
+          "type": 3,
+          "add_time": 7,
+          "position": 1,
+          "player_id": "318q66h4d3y3qo9",
+          "player_name": "Abundance Salaou"
+        },
+        {
+          "time": 99,
+          "type": 3,
+          "add_time": 9,
+          "position": 1,
+          "player_id": "3glrw7hykjgeqdy",
+          "player_name": "N.Johansson"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

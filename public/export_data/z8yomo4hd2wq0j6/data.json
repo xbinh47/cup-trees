@@ -1,0 +1,180 @@
+{
+  "season_id": "z8yomo4hd2wq0j6",
+  "brackets": [
+    {
+      "id": "dj2ryohjnpwq1zp",
+      "competition_id": "v2y8m4zh3e9ql07",
+      "season_id": "z8yomo4hd2wq0j6",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1733500800,
+      "end_time": 1734364740,
+      "rounds": [
+        {
+          "id": "vjxm8gh544zr6od",
+          "bracket_id": "dj2ryohjnpwq1zp",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1733601900,
+          "end_time": 1734206700,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "4jwq2ghk9wlkm0v",
+              "round_id": "vjxm8gh544zr6od",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "n54qllhx2llqvy9",
+              "away_team_id": "pxwrxlh1z4dryk0",
+              "winner_team_id": "n54qllhx2llqvy9",
+              "home_score": 4,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "1l4rjnh4oe1nm7v",
+                "y0or5jhny1eoqwz"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "pxwrxlh1z4dryk0": {
+      "id": "pxwrxlh1z4dryk0",
+      "name": "General Lamadrid"
+    },
+    "n54qllhx2llqvy9": {
+      "id": "n54qllhx2llqvy9",
+      "name": "Real Pilar"
+    }
+  },
+  "sport_events": {
+    "1l4rjnh4oe1nm7v": {
+      "id": "1l4rjnh4oe1nm7v",
+      "home_team_id": "n54qllhx2llqvy9",
+      "away_team_id": "pxwrxlh1z4dryk0",
+      "start_timestamp": 1733601900,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "y0or5jhny1eoqwz",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 62,
+          "type": 1,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 1
+        },
+        {
+          "time": 75,
+          "type": 1,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 2
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "y0or5jhny1eoqwz": {
+      "id": "y0or5jhny1eoqwz",
+      "home_team_id": "pxwrxlh1z4dryk0",
+      "away_team_id": "n54qllhx2llqvy9",
+      "start_timestamp": 1734206700,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 2,
+          "yellow_card": 9,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "1l4rjnh4oe1nm7v",
+      "incidents": [
+        {
+          "time": 2,
+          "type": 1,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 0
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 83,
+          "type": 1,
+          "position": 2,
+          "away_score": 2,
+          "home_score": 0
+        },
+        {
+          "time": 85,
+          "type": 4,
+          "position": 1
+        },
+        {
+          "time": 86,
+          "type": 4,
+          "position": 1,
+          "player_id": "pxwrxlhzxjn4ryk",
+          "player_name": "rodrigo monserrat"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

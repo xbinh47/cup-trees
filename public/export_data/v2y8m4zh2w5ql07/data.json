@@ -1,0 +1,531 @@
+{
+  "season_id": "v2y8m4zh2w5ql07",
+  "brackets": [
+    {
+      "id": "318q66hvg8dqo9j",
+      "competition_id": "z8yomo4h92q0j6l",
+      "season_id": "v2y8m4zh2w5ql07",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1761148800,
+      "end_time": 1761494340,
+      "rounds": [
+        {
+          "id": "dn1m1ghpjllmoep",
+          "bracket_id": "318q66hvg8dqo9j",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1761233400,
+          "end_time": 1761480000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "vjxm8ghg0jonr6o",
+              "round_id": "dn1m1ghpjllmoep",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "p3glrw7hv8vqdyj",
+              "away_team_id": "6ypq3nh098jmd7o",
+              "winner_team_id": "p3glrw7hv8vqdyj",
+              "home_score": 6,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "dj2ryohl47z9q1z",
+                "l7oqdehg2j5xr51"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "6ypq3nh098jmd7o": {
+      "id": "6ypq3nh098jmd7o",
+      "name": "KTP Kotka"
+    },
+    "p3glrw7hv8vqdyj": {
+      "id": "p3glrw7hv8vqdyj",
+      "name": "TPS Turku"
+    }
+  },
+  "sport_events": {
+    "dj2ryohl47z9q1z": {
+      "id": "dj2ryohl47z9q1z",
+      "home_team_id": "p3glrw7hv8vqdyj",
+      "away_team_id": "6ypq3nh098jmd7o",
+      "start_timestamp": 1761233400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "l7oqdehg2j5xr51",
+      "incidents": [
+        {
+          "time": 31,
+          "type": 3,
+          "position": 2,
+          "player_id": "4jwq2ghkzkgm0ve",
+          "player_name": "Felipe Aspegren",
+          "reason_type": 1
+        },
+        {
+          "time": 34,
+          "type": 3,
+          "position": 2,
+          "player_id": "y39mp1hj9xgnmoj",
+          "player_name": "Matias Paavola",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 2,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 58,
+          "type": 15,
+          "position": 2,
+          "player_id": "4jwq2ghkzkgm0ve",
+          "player_name": "Felipe Aspegren"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh09ldwr51",
+          "out_player_id": "l5ergphnx74r8k0",
+          "in_player_name": "Luca Weckstrom",
+          "out_player_name": "Lucas Rangel"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhj3823ryk",
+          "out_player_id": "k82rekhv96prepz",
+          "in_player_name": "aaro toivonen",
+          "out_player_name": "Atomu Tanaka"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghp52nr6od",
+          "out_player_id": "23xmvkhkgddnqg8",
+          "in_player_name": "Aly Coulibaly",
+          "out_player_name": "benjamin dahlstrom"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohj2v0oq1z",
+          "out_player_id": "6ypq3nhldl1pmd7",
+          "in_player_name": "Miika Kauppila",
+          "out_player_name": "Elmer Vauhkonen"
+        },
+        {
+          "time": 78,
+          "type": 1,
+          "position": 1,
+          "player_id": "4wyrn4hdo86vq86",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Albijon Muzaci"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dn1m1ghng7g1moe",
+          "out_player_id": "y39mp1hj9xgnmoj",
+          "in_player_name": "juho lehtiranta",
+          "out_player_name": "Matias Paavola"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "n54qllh8v72yqvy",
+          "out_player_id": "k82rekhvwo0repz",
+          "in_player_name": "Mitchell Glasson",
+          "out_player_name": "Petteri Forsell"
+        },
+        {
+          "time": 85,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hzwp0nqdy",
+          "assist1_id": "vjxm8ghp52nr6od",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Onni Helen",
+          "assist1_name": "Aly Coulibaly"
+        },
+        {
+          "time": 87,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hzwp0nqdy",
+          "assist1_id": "dj2ryohj2v0oq1z",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Onni Helen",
+          "assist1_name": "Miika Kauppila"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l965mkyhjx1r1ge",
+          "out_player_id": "pxwrxlhjnll2ryk",
+          "in_player_name": "Riku Riski",
+          "out_player_name": "Marius Konkkola"
+        },
+        {
+          "time": 89,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdeh09ldwr51",
+          "player_name": "Luca Weckstrom",
+          "reason_type": 1
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 6,
+          "position": 0
+        },
+        {
+          "time": 94,
+          "type": 9,
+          "add_time": 4,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "3glrw7hz805nqdy",
+          "out_player_id": "ednm9whgv32pryo",
+          "in_player_name": "Oscar Dahlfors",
+          "out_player_name": "Oscar Häggström"
+        },
+        {
+          "time": 97,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "l7oqdehg2j5xr51": {
+      "id": "l7oqdehg2j5xr51",
+      "home_team_id": "6ypq3nh098jmd7o",
+      "away_team_id": "p3glrw7hv8vqdyj",
+      "start_timestamp": 1761480000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 10,
+          "red_card": 0,
+          "yellow_card": 7,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "dj2ryohl47z9q1z",
+      "incidents": [
+        {
+          "time": 3,
+          "type": 1,
+          "position": 2,
+          "player_id": "3glrw7hzwp0nqdy",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Onni Helen"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "vjxm8gh8zkgvr6o",
+          "out_player_id": "y39mp1hj9xgnmoj",
+          "in_player_name": "Thomas lahdensuo",
+          "out_player_name": "Matias Paavola"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "8yomo4hv9weyq0j",
+          "out_player_id": "pxwrxlhj3823ryk",
+          "in_player_name": "Assan Seck",
+          "out_player_name": "aaro toivonen"
+        },
+        {
+          "time": 49,
+          "type": 1,
+          "position": 1,
+          "player_id": "l5ergphnx74r8k0",
+          "assist1_id": "x7lm7phk0lpm2wd",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Lucas Rangel",
+          "assist1_name": "Joni Kauko"
+        },
+        {
+          "time": 54,
+          "type": 28,
+          "position": 2,
+          "player_id": "8yomo4hvlzd0q0j",
+          "var_reason": 4,
+          "var_result": 3,
+          "player_name": "aapo bostrom"
+        },
+        {
+          "time": 56,
+          "type": 8,
+          "position": 2,
+          "player_id": "4wyrn4hdo86vq86",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Albijon Muzaci"
+        },
+        {
+          "time": 58,
+          "type": 3,
+          "position": 1,
+          "player_id": "8yomo4hv9weyq0j",
+          "player_name": "Assan Seck",
+          "reason_type": 1
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hz805nqdy",
+          "out_player_id": "6ypq3nhldl1pmd7",
+          "in_player_name": "Oscar Dahlfors",
+          "out_player_name": "Elmer Vauhkonen"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohj2v0oq1z",
+          "out_player_id": "pxwrxlhjnll2ryk",
+          "in_player_name": "Miika Kauppila",
+          "out_player_name": "Marius Konkkola"
+        },
+        {
+          "time": 66,
+          "type": 3,
+          "position": 2,
+          "player_id": "8yomo4hvlzd0q0j",
+          "player_name": "aapo bostrom",
+          "reason_type": 8
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "n54qllh8v72yqvy",
+          "out_player_id": "l7oqdehn18pr510",
+          "in_player_name": "Mitchell Glasson",
+          "out_player_name": "Mikko Sumusalo"
+        },
+        {
+          "time": 72,
+          "type": 3,
+          "position": 1,
+          "player_id": "l7oqdehleo9nr51",
+          "player_name": "Nathaniel Tahmbi",
+          "reason_type": 1
+        },
+        {
+          "time": 74,
+          "type": 1,
+          "position": 1,
+          "player_id": "l7oqdehleo9nr51",
+          "assist1_id": "k82rekhvwo0repz",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Nathaniel Tahmbi",
+          "assist1_name": "Petteri Forsell"
+        },
+        {
+          "time": 79,
+          "type": 3,
+          "position": 1,
+          "player_id": "vjxm8gh8zkgvr6o",
+          "player_name": "Thomas lahdensuo",
+          "reason_type": 1
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghjo2n8r6o",
+          "out_player_id": "l7oqdehleo9nr51",
+          "in_player_name": "Joshua Akpudje",
+          "out_player_name": "Nathaniel Tahmbi"
+        },
+        {
+          "time": 83,
+          "type": 3,
+          "position": 1,
+          "player_id": "vjxm8ghjo2n8r6o",
+          "player_name": "Joshua Akpudje",
+          "reason_type": 19
+        },
+        {
+          "time": 84,
+          "type": 3,
+          "position": 1,
+          "player_id": "dn1m1gh3ln8moep",
+          "player_name": "Oscar Linner",
+          "reason_type": 19
+        },
+        {
+          "time": 84,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7phk0lpm2wd",
+          "player_name": "Joni Kauko",
+          "reason_type": 19
+        },
+        {
+          "time": 84,
+          "type": 28,
+          "position": 2,
+          "player_id": "8yomo4hvlzd0q0j",
+          "var_reason": 0,
+          "var_result": 0,
+          "player_name": "aapo bostrom"
+        },
+        {
+          "time": 84,
+          "type": 8,
+          "position": 2,
+          "player_id": "8yomo4hvlzd0q0j",
+          "away_score": 3,
+          "home_score": 2,
+          "player_name": "aapo bostrom"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghp0pxor6o",
+          "out_player_id": "8yomo4hvlzd0q0j",
+          "in_player_name": "Emu Kawakita",
+          "out_player_name": "aapo bostrom"
+        },
+        {
+          "time": 89,
+          "type": 3,
+          "position": 1,
+          "player_id": "dj2ryohd9j7q1zp",
+          "player_name": "Albin Linner",
+          "reason_type": 18
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 6,
+          "position": 0
+        },
+        {
+          "time": 94,
+          "type": 9,
+          "add_time": 4,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l965mkyhjx1r1ge",
+          "out_player_id": "3glrw7hzwp0nqdy",
+          "in_player_name": "Riku Riski",
+          "out_player_name": "Onni Helen"
+        },
+        {
+          "time": 94,
+          "type": 9,
+          "add_time": 4,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "965mkyhgyyvr1ge",
+          "out_player_id": "ednm9whgv32pryo",
+          "in_player_name": "Samba Seynabou Benga",
+          "out_player_name": "Oscar Häggström"
+        },
+        {
+          "time": 97,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

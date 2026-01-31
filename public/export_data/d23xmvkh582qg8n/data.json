@@ -1,0 +1,105 @@
+{
+  "season_id": "d23xmvkh582qg8n",
+  "brackets": [
+    {
+      "id": "4wyrn4hdz3dq86p",
+      "competition_id": "yl5ergphoper8k0",
+      "season_id": "d23xmvkh582qg8n",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1718726400,
+      "end_time": 1718812740,
+      "rounds": [
+        {
+          "id": "zp5rzghwpdnq82w",
+          "bracket_id": "4wyrn4hdz3dq86p",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1718809200,
+          "end_time": 1718809200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "318q66h0kvo9qo9",
+              "round_id": "zp5rzghwpdnq82w",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "23xmvkh3dn9qg8n",
+              "away_team_id": "l7oqdeh6lpkr510",
+              "winner_team_id": "l7oqdeh6lpkr510",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "y0or5jhnz076qwz"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "l7oqdeh6lpkr510": {
+      "id": "l7oqdeh6lpkr510",
+      "name": "AS Slimane"
+    },
+    "23xmvkh3dn9qg8n": {
+      "id": "23xmvkh3dn9qg8n",
+      "name": "AS Marsa"
+    }
+  },
+  "sport_events": {
+    "y0or5jhnz076qwz": {
+      "id": "y0or5jhnz076qwz",
+      "home_team_id": "23xmvkh3dn9qg8n",
+      "away_team_id": "l7oqdeh6lpkr510",
+      "start_timestamp": 1718809200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 36,
+          "type": 8,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 1
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

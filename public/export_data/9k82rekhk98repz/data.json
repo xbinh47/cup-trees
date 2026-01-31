@@ -1,0 +1,252 @@
+{
+  "season_id": "9k82rekhk98repz",
+  "brackets": [
+    {
+      "id": "2y8m4zhjll4ql07",
+      "competition_id": "4zp5rzgh0eq82w1",
+      "season_id": "9k82rekhk98repz",
+      "name": "European Playoffs",
+      "abbr": "Superliga 23/",
+      "start_time": 1717084800,
+      "end_time": 1717171140,
+      "rounds": [
+        {
+          "id": "y0or5jholxoqwzv",
+          "bracket_id": "2y8m4zhjll4ql07",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1717174800,
+          "end_time": 1717174800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l7oqdeh6ldp8r51",
+              "round_id": "y0or5jholxoqwzv",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "yl5ergphjl2r8k0",
+              "away_team_id": "e4wyrn4h1o7q86p",
+              "winner_team_id": "yl5ergphjl2r8k0",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "23xmvkh801wlqg8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "e4wyrn4h1o7q86p": {
+      "id": "e4wyrn4h1o7q86p",
+      "name": "Randers FC"
+    },
+    "yl5ergphjl2r8k0": {
+      "id": "yl5ergphjl2r8k0",
+      "name": "FC Copenhagen"
+    }
+  },
+  "sport_events": {
+    "23xmvkh801wlqg8": {
+      "id": "23xmvkh801wlqg8",
+      "home_team_id": "yl5ergphjl2r8k0",
+      "away_team_id": "e4wyrn4h1o7q86p",
+      "start_timestamp": 1717174800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 5,
+          "type": 1,
+          "position": 2,
+          "player_id": "1l4rjnhzow4m7vx",
+          "assist1_id": "8yomo4hvkk64q0j",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Wessel Dammers",
+          "assist1_name": "Mads Enggard"
+        },
+        {
+          "time": 11,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jh43wwqwzv",
+          "player_name": "Peter Ankersen",
+          "reason_type": 1
+        },
+        {
+          "time": 13,
+          "type": 1,
+          "position": 1,
+          "player_id": "pxwrxlh93kyoryk",
+          "assist1_id": "1l4rjnh1kd1m7vx",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Orri Steinn Óskarsson",
+          "assist1_name": "Mohamed Elyounoussi"
+        },
+        {
+          "time": 44,
+          "type": 3,
+          "position": 2,
+          "player_id": "23xmvkhkgyn5qg8",
+          "player_name": "Lasso Coulibaly",
+          "reason_type": 18
+        },
+        {
+          "time": 44,
+          "type": 3,
+          "position": 1,
+          "player_id": "vjxm8gh843or6od",
+          "player_name": "Kevin Diks",
+          "reason_type": 18
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 56,
+          "type": 1,
+          "position": 1,
+          "player_id": "1l4rjnh1kd1m7vx",
+          "assist1_id": "y0or5jh43wwqwzv",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Mohamed Elyounoussi",
+          "assist1_name": "Peter Ankersen"
+        },
+        {
+          "time": 69,
+          "type": 3,
+          "position": 1,
+          "player_id": "6ypq3nhzn61md7o",
+          "player_name": "Denis Vavro",
+          "reason_type": 1
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "2y8m4zhj7y6ql07",
+          "out_player_id": "x7lm7pho7ddm2wd",
+          "in_player_name": "Lukas Lerager",
+          "out_player_name": "Viktor Claesson"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zh856kql07",
+          "out_player_id": "k82rekhn34nrepz",
+          "in_player_name": "Frederik Lauenborg",
+          "out_player_name": "Simen Bolkan Nordli"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "jw2r09hx2o69rz8",
+          "out_player_id": "y39mp1h3kvymojx",
+          "in_player_name": "Oliver Zandén",
+          "out_player_name": "Bjorn Kopplin"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4h4z35q86p",
+          "out_player_id": "4jwq2ghv6n8km0v",
+          "in_player_name": "Jordan Larsson",
+          "out_player_name": "Elias Achouri"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "3glrw7h1zlyqdyj",
+          "out_player_id": "k82rekhow8z0rep",
+          "in_player_name": "Rasmus Falk Jensen",
+          "out_player_name": "William Clem"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l7oqdehdyjgr510",
+          "out_player_id": "4wyrn4hd05veq86",
+          "in_player_name": "Muamer Brajanac",
+          "out_player_name": "Stephen Odey"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "k82rekh1v1vrepz",
+          "out_player_id": "8yomo4hvkk64q0j",
+          "in_player_name": "Ernest Agyiri",
+          "out_player_name": "Mads Enggard"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "318q66h7x8jqo9j",
+          "out_player_id": "1l4rjnhzow4m7vx",
+          "in_player_name": "Hugo Andersson",
+          "out_player_name": "Wessel Dammers"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 97,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

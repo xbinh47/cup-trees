@@ -1,0 +1,117 @@
+{
+  "season_id": "gpxwrxlh8o7ryk0",
+  "brackets": [
+    {
+      "id": "4wyrn4hepl5q86p",
+      "competition_id": "l965mkyhw4r1ge4",
+      "season_id": "gpxwrxlh8o7ryk0",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1700841600,
+      "end_time": 1701273540,
+      "rounds": [
+        {
+          "id": "318q66h2konqo9j",
+          "bracket_id": "4wyrn4hepl5q86p",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1700933400,
+          "end_time": 1701279000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "3glrw7h1wl6vqdy",
+              "round_id": "318q66h2konqo9j",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "x7lm7phw3w7m2wd",
+              "away_team_id": "jw2r09hnjy6rz84",
+              "winner_team_id": "jw2r09hnjy6rz84",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "8yomo4h3v9gvq0j",
+                "l5ergphwe21yr8k"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "jw2r09hnjy6rz84": {
+      "id": "jw2r09hnjy6rz84",
+      "name": "Elva"
+    },
+    "x7lm7phw3w7m2wd": {
+      "id": "x7lm7phw3w7m2wd",
+      "name": "Tartu Kalev"
+    }
+  },
+  "sport_events": {
+    "8yomo4h3v9gvq0j": {
+      "id": "8yomo4h3v9gvq0j",
+      "home_team_id": "x7lm7phw3w7m2wd",
+      "away_team_id": "jw2r09hnjy6rz84",
+      "start_timestamp": 1700933400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 1,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 10,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "l5ergphwe21yr8k": {
+      "id": "l5ergphwe21yr8k",
+      "home_team_id": "jw2r09hnjy6rz84",
+      "away_team_id": "x7lm7phw3w7m2wd",
+      "start_timestamp": 1701279000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 1,
+          "yellow_card": 6,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 1,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 2,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

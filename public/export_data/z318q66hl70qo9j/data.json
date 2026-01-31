@@ -1,0 +1,401 @@
+{
+  "season_id": "z318q66hl70qo9j",
+  "brackets": [
+    {
+      "id": "23xmvkhd9o8qg8n",
+      "competition_id": "z318q66hwd8qo9j",
+      "season_id": "z318q66hl70qo9j",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1753977600,
+      "end_time": 1754236800,
+      "rounds": [
+        {
+          "id": "dj2ryohe7xeq1zp",
+          "bracket_id": "23xmvkhd9o8qg8n",
+          "name": "Semifinals",
+          "abbr": "SF",
+          "start_time": 1754048100,
+          "end_time": 1754048100,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l7oqdeh6gx2er51",
+              "round_id": "dj2ryohe7xeq1zp",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "n54qllh2y6gqvy9",
+              "away_team_id": "6ypq3nh517vmd7o",
+              "winner_team_id": "n54qllh2y6gqvy9",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [
+                "2y8m4zhj57xxql0"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "n54qllhnjk6nqvy"
+              ]
+            },
+            {
+              "id": "dj2ryohylp45q1z",
+              "round_id": "dj2ryohe7xeq1zp",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "318q66hkgvdqo9j",
+              "away_team_id": "4wyrn4h9ldpq86p",
+              "winner_team_id": "318q66hkgvdqo9j",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [
+                "2y8m4zhj57xxql0"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "23xmvkh64gjyqg8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4wyrn4howedq86p",
+          "bracket_id": "23xmvkhd9o8qg8n",
+          "name": "3rd place",
+          "abbr": "3rd Place",
+          "start_time": 1754208000,
+          "end_time": 1754208000,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "pxwrxlh1y8x5ryk",
+              "round_id": "4wyrn4howedq86p",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "6ypq3nh517vmd7o",
+              "away_team_id": "4wyrn4h9ldpq86p",
+              "winner_team_id": "4wyrn4h9ldpq86p",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "4jwq2ghn70jdm0v"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2y8m4zhwvp6ql07",
+          "bracket_id": "23xmvkhd9o8qg8n",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1754217000,
+          "end_time": 1754217000,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "2y8m4zhj57xxql0",
+              "round_id": "2y8m4zhwvp6ql07",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "n54qllh2y6gqvy9",
+              "away_team_id": "318q66hkgvdqo9j",
+              "winner_team_id": "n54qllh2y6gqvy9",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "l7oqdeh6gx2er51",
+                "dj2ryohylp45q1z"
+              ],
+              "event_ids": [
+                "ednm9whwgd44ryo"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "n54qllh2y6gqvy9": {
+      "id": "n54qllh2y6gqvy9",
+      "name": "Fluminense RJ U16"
+    },
+    "4wyrn4h9ldpq86p": {
+      "id": "4wyrn4h9ldpq86p",
+      "name": "Chelsea U16"
+    },
+    "318q66hkgvdqo9j": {
+      "id": "318q66hkgvdqo9j",
+      "name": "Benfica U16"
+    },
+    "6ypq3nh517vmd7o": {
+      "id": "6ypq3nh517vmd7o",
+      "name": "Manchester City U16"
+    }
+  },
+  "sport_events": {
+    "23xmvkh64gjyqg8": {
+      "id": "23xmvkh64gjyqg8",
+      "home_team_id": "318q66hkgvdqo9j",
+      "away_team_id": "4wyrn4h9ldpq86p",
+      "start_timestamp": 1754048100,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 27,
+          "type": 1,
+          "position": 2,
+          "player_id": "vjxm8ghp6j34r6o",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Hezekiah-Daniel Grimwade"
+        },
+        {
+          "time": 39,
+          "type": 1,
+          "position": 1,
+          "player_id": "pxwrxlhzo9edryk",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Tomas Almeida"
+        },
+        {
+          "time": 40,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 53,
+          "type": 1,
+          "position": 1,
+          "player_id": "ednm9whg4z0xryo",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Andreson Semedo"
+        },
+        {
+          "time": 80,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "4jwq2ghn70jdm0v": {
+      "id": "4jwq2ghn70jdm0v",
+      "home_team_id": "6ypq3nh517vmd7o",
+      "away_team_id": "4wyrn4h9ldpq86p",
+      "start_timestamp": 1754208000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 5,
+          "type": 1,
+          "position": 2,
+          "player_id": "l5ergphn6vy7r8k",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Kwamina Ampah"
+        },
+        {
+          "time": 12,
+          "type": 1,
+          "position": 2,
+          "player_id": "vjxm8ghp6j34r6o",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Hezekiah-Daniel Grimwade"
+        },
+        {
+          "time": 69,
+          "type": 1,
+          "position": 1,
+          "player_id": "n54qllhj6x0gqvy",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Rafael Jose Roca"
+        }
+      ]
+    },
+    "ednm9whwgd44ryo": {
+      "id": "ednm9whwgd44ryo",
+      "home_team_id": "n54qllh2y6gqvy9",
+      "away_team_id": "318q66hkgvdqo9j",
+      "start_timestamp": 1754217000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 26,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hz5jo2qdy",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Gabriel Da Silva Justen"
+        },
+        {
+          "time": 40,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 73,
+          "type": 1,
+          "position": 1,
+          "player_id": "zp5rzghx9z41q82",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Danilo Melo Oliveira Dos Santos"
+        },
+        {
+          "time": 80,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "n54qllhnjk6nqvy": {
+      "id": "n54qllhnjk6nqvy",
+      "home_team_id": "n54qllh2y6gqvy9",
+      "away_team_id": "6ypq3nh517vmd7o",
+      "start_timestamp": 1754048100,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 4,
+          "type": 1,
+          "position": 1,
+          "player_id": "k82rekh34y8wrep",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "João Pedro Gomes Felipe"
+        },
+        {
+          "time": 42,
+          "type": 1,
+          "position": 2,
+          "player_id": "3glrw7hz5j89qdy",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Caelan-Kole Cadamarteri"
+        },
+        {
+          "time": 40,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 81,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hz5j6kqdy",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Matheus Guimaraes Marques"
+        },
+        {
+          "time": 80,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

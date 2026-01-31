@@ -1,0 +1,86 @@
+{
+  "season_id": "vl7oqdehk7er510",
+  "brackets": [
+    {
+      "id": "dj2ryohy10wq1zp",
+      "competition_id": "4zp5rzghp5q82w1",
+      "season_id": "vl7oqdehk7er510",
+      "name": "Relegation decider",
+      "abbr": "Serie A 22/23",
+      "start_time": 1686326400,
+      "end_time": 1686499140,
+      "rounds": [
+        {
+          "id": "3glrw7h0j2nqdyj",
+          "bracket_id": "dj2ryohy10wq1zp",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1686509100,
+          "end_time": 1686509100,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "1l4rjnh67ywvm7v",
+              "round_id": "3glrw7h0j2nqdyj",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "kjw2r09hy8prz84",
+              "away_team_id": "4zp5rzghkgdq82w",
+              "winner_team_id": "4zp5rzghkgdq82w",
+              "home_score": 1,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "l7oqdeh8pg90r51"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "4zp5rzghkgdq82w": {
+      "id": "4zp5rzghkgdq82w",
+      "name": "Hellas Verona"
+    },
+    "kjw2r09hy8prz84": {
+      "id": "kjw2r09hy8prz84",
+      "name": "Spezia"
+    }
+  },
+  "sport_events": {
+    "l7oqdeh8pg90r51": {
+      "id": "l7oqdeh8pg90r51",
+      "home_team_id": "kjw2r09hy8prz84",
+      "away_team_id": "4zp5rzghkgdq82w",
+      "start_timestamp": 1686509100,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 1,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 3
+        },
+        "home_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "season_id": "p3glrw7h2j5qdyj",
+  "brackets": [
+    {
+      "id": "vjxm8ghgev3r6od",
+      "competition_id": "56ypq3nhz53md7o",
+      "season_id": "p3glrw7h2j5qdyj",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1685980800,
+      "end_time": 1686412740,
+      "rounds": [
+        {
+          "id": "dn1m1ghk3d3moep",
+          "bracket_id": "vjxm8ghgev3r6od",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1686051000,
+          "end_time": 1686396600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "4jwq2gh42707m0v",
+              "round_id": "dn1m1ghk3d3moep",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "dn1m1ghe757moep",
+              "away_team_id": "1l4rjnh6699m7vx",
+              "winner_team_id": "dn1m1ghe757moep",
+              "home_score": 7,
+              "away_score": 6,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "1l4rjnhj74njm7v",
+                "6ypq3nh79385md7"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "1l4rjnh6699m7vx": {
+      "id": "1l4rjnh6699m7vx",
+      "name": "Persatuan Sepakbola Makassar"
+    },
+    "dn1m1ghe757moep": {
+      "id": "dn1m1ghe757moep",
+      "name": "Bali United"
+    }
+  },
+  "sport_events": {
+    "1l4rjnhj74njm7v": {
+      "id": "1l4rjnhj74njm7v",
+      "home_team_id": "1l4rjnh6699m7vx",
+      "away_team_id": "dn1m1ghe757moep",
+      "start_timestamp": 1686396600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 1,
+          "yellow_card": 4,
+          "penalty_score": 5,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 4,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "6ypq3nh79385md7": {
+      "id": "6ypq3nh79385md7",
+      "home_team_id": "dn1m1ghe757moep",
+      "away_team_id": "1l4rjnh6699m7vx",
+      "start_timestamp": 1686051000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

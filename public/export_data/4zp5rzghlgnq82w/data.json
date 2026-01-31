@@ -1,0 +1,86 @@
+{
+  "season_id": "4zp5rzghlgnq82w",
+  "brackets": [
+    {
+      "id": "ednm9whzk5lryox",
+      "competition_id": "p3glrw7hooqdyjv",
+      "season_id": "4zp5rzghlgnq82w",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1704211200,
+      "end_time": 1704383940,
+      "rounds": [
+        {
+          "id": "pxwrxlh37plryk0",
+          "bracket_id": "ednm9whzk5lryox",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1704311100,
+          "end_time": 1704311100,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "23xmvkhox54vqg8",
+              "round_id": "pxwrxlh37plryk0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "kjw2r09hv44rz84",
+              "away_team_id": "kdj2ryoh6k5q1zp",
+              "winner_team_id": "kjw2r09hv44rz84",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "y39mp1h0lzp1moj"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "kdj2ryoh6k5q1zp": {
+      "id": "kdj2ryoh6k5q1zp",
+      "name": "Toulouse FC"
+    },
+    "kjw2r09hv44rz84": {
+      "id": "kjw2r09hv44rz84",
+      "name": "Paris Saint Germain"
+    }
+  },
+  "sport_events": {
+    "y39mp1h0lzp1moj": {
+      "id": "y39mp1h0lzp1moj",
+      "home_team_id": "kjw2r09hv44rz84",
+      "away_team_id": "kdj2ryoh6k5q1zp",
+      "start_timestamp": 1704311100,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "season_id": "z8yomo4hlwgq0j6",
+  "brackets": [
+    {
+      "id": "l7oqdeh6975r510",
+      "competition_id": "kdj2ryohzzq1zpg",
+      "season_id": "z8yomo4hlwgq0j6",
+      "name": "Knockout Stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1708704000,
+      "end_time": 1709135940,
+      "rounds": [
+        {
+          "id": "x7lm7phn1yom2wd",
+          "bracket_id": "l7oqdeh6975r510",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1708765200,
+          "end_time": 1709112840,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "x7lm7phogo98m2w",
+              "round_id": "x7lm7phn1yom2wd",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "2y8m4zh3d53ql07",
+              "away_team_id": "x7lm7phkweom2wd",
+              "winner_team_id": "x7lm7phkweom2wd",
+              "home_score": 0,
+              "away_score": 13,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "ednm9wh7d5j8ryo",
+                "2y8m4zh6gowlql0"
+              ]
+            },
+            {
+              "id": "y0or5jh4x4goqwz",
+              "round_id": "x7lm7phn1yom2wd",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "23xmvkh3oxgqg8n",
+              "away_team_id": "965mkyh7e0or1ge",
+              "winner_team_id": "965mkyh7e0or1ge",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "965mkyhyg8j7r1g",
+                "8yomo4h32p3eq0j"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "23xmvkh3oxgqg8n": {
+      "id": "23xmvkh3oxgqg8n",
+      "name": "North Korea (w)"
+    },
+    "965mkyh7e0or1ge": {
+      "id": "965mkyh7e0or1ge",
+      "name": "Japan Women"
+    },
+    "2y8m4zh3d53ql07": {
+      "id": "2y8m4zh3d53ql07",
+      "name": "Uzbekistan Women"
+    },
+    "x7lm7phkweom2wd": {
+      "id": "x7lm7phkweom2wd",
+      "name": "Australia Women"
+    }
+  },
+  "sport_events": {
+    "965mkyhyg8j7r1g": {
+      "id": "965mkyhyg8j7r1g",
+      "home_team_id": "23xmvkh3oxgqg8n",
+      "away_team_id": "965mkyh7e0or1ge",
+      "start_timestamp": 1708779600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh3w71oqwz",
+          "out_player_id": "l7oqdeh4enlkr51",
+          "in_player_name": "Yoshino Nakashima",
+          "out_player_name": "Riko Ueki"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "23xmvkh4d133qg8",
+          "out_player_id": "l5ergphnvx0wr8k",
+          "in_player_name": "KIM Hyeyong",
+          "out_player_name": "HONG Songok"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dn1m1gh8nyv0moe",
+          "out_player_id": "y39mp1h1jgvkmoj",
+          "in_player_name": "RI Hak",
+          "out_player_name": "MYONG Yujong"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "vjxm8gh8d5dpr6o",
+          "out_player_id": "8yomo4hkzkkq0j6",
+          "in_player_name": "Momoko tanikawa",
+          "out_player_name": "Saki Kumagai"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y39mp1hjv9kxmoj",
+          "out_player_id": "ednm9wh93jzvryo",
+          "in_player_name": "Kiko Seike",
+          "out_player_name": "Fuka Nagano"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghxzvj7q82",
+          "out_player_id": "l7oqdehl4wyjr51",
+          "in_player_name": "SUNG Hyangsim",
+          "out_player_name": "KIM Kyongyong"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "x7lm7phwvwp0m2w",
+          "out_player_id": "vjxm8gh2w3yr6od",
+          "in_player_name": "Remina Chiba",
+          "out_player_name": "Mina Tanaka"
+        }
+      ]
+    },
+    "ednm9wh7d5j8ryo": {
+      "id": "ednm9wh7d5j8ryo",
+      "home_team_id": "2y8m4zh3d53ql07",
+      "away_team_id": "x7lm7phkweom2wd",
+      "start_timestamp": 1708765200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 12,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 73,
+          "type": 1,
+          "position": 2,
+          "player_id": "vjxm8ghj4pyr6od",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Michelle Heyman"
+        },
+        {
+          "time": 84,
+          "type": 1,
+          "position": 2,
+          "player_id": "pxwrxlh93weoryk",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Mary Fowler"
+        },
+        {
+          "time": 86,
+          "type": 1,
+          "position": 2,
+          "player_id": "n54qllhew4oqvy9",
+          "away_score": 3,
+          "home_score": 0,
+          "player_name": "Caitlin Foord"
+        }
+      ]
+    }
+  }
+}

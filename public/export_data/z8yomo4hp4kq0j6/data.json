@@ -1,0 +1,127 @@
+{
+  "season_id": "z8yomo4hp4kq0j6",
+  "brackets": [
+    {
+      "id": "4wyrn4hey63q86p",
+      "competition_id": "vl7oqdeh41gr510",
+      "season_id": "z8yomo4hp4kq0j6",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1717171200,
+      "end_time": 1717257540,
+      "rounds": [
+        {
+          "id": "1l4rjnh2jkom7vx",
+          "bracket_id": "4wyrn4hey63q86p",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 1,
+          "match_ups": []
+        },
+        {
+          "id": "k82rekhxz72repz",
+          "bracket_id": "4wyrn4hey63q86p",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1717246800,
+          "end_time": 1717246800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "jw2r09hnw71yrz8",
+              "round_id": "k82rekhxz72repz",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "3glrw7hzg2nqdyj",
+              "away_team_id": "1l4rjnh1wd6m7vx",
+              "winner_team_id": "1l4rjnh1wd6m7vx",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "k82rekhwxkz2rep"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4jwq2gh6z72m0ve",
+          "bracket_id": "4wyrn4hey63q86p",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 2,
+          "match_ups": []
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "3glrw7hzg2nqdyj": {
+      "id": "3glrw7hzg2nqdyj",
+      "name": "KF Prishtina e Re"
+    },
+    "1l4rjnh1wd6m7vx": {
+      "id": "1l4rjnh1wd6m7vx",
+      "name": "FC Feronikeli 74"
+    }
+  },
+  "sport_events": {
+    "k82rekhwxkz2rep": {
+      "id": "k82rekhwxkz2rep",
+      "home_team_id": "3glrw7hzg2nqdyj",
+      "away_team_id": "1l4rjnh1wd6m7vx",
+      "start_timestamp": 1717246800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 97,
+          "type": 1,
+          "position": 2,
+          "player_id": "n54qllhxgy2jqvy",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Alban Shillova"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

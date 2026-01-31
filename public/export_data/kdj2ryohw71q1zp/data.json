@@ -1,0 +1,456 @@
+{
+  "season_id": "kdj2ryohw71q1zp",
+  "brackets": [
+    {
+      "id": "dn1m1ghn09zmoep",
+      "competition_id": "56ypq3nhgwmd7oj",
+      "season_id": "kdj2ryohw71q1zp",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1761148800,
+      "end_time": 1761494340,
+      "rounds": [
+        {
+          "id": "4wyrn4ho36yq86p",
+          "bracket_id": "dn1m1ghn09zmoep",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1761231600,
+          "end_time": 1761487200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "x7lm7phov0d4m2w",
+              "round_id": "4wyrn4ho36yq86p",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "n54qllh2jwzqvy9",
+              "away_team_id": "y0or5jhl936qwzv",
+              "winner_team_id": "y0or5jhl936qwzv",
+              "home_score": 2,
+              "away_score": 7,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "dn1m1ghl793xmoe",
+                "jw2r09hk95jvrz8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "n54qllh2jwzqvy9": {
+      "id": "n54qllh2jwzqvy9",
+      "name": "OLS Oulu"
+    },
+    "y0or5jhl936qwzv": {
+      "id": "y0or5jhl936qwzv",
+      "name": "Käpylän Pallo"
+    }
+  },
+  "sport_events": {
+    "dn1m1ghl793xmoe": {
+      "id": "dn1m1ghl793xmoe",
+      "home_team_id": "n54qllh2jwzqvy9",
+      "away_team_id": "y0or5jhl936qwzv",
+      "start_timestamp": 1761231600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "jw2r09hk95jvrz8",
+      "incidents": [
+        {
+          "time": 15,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7ph98j6lm2w",
+          "player_name": "Eetu Saarela"
+        },
+        {
+          "time": 33,
+          "type": 1,
+          "position": 2,
+          "player_id": "k82rekhojw5wrep",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "elias kallio"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "8yomo4h07866q0j",
+          "out_player_id": "8yomo4hvne16q0j",
+          "in_player_name": "Joel lotvonen",
+          "out_player_name": "eemil merikanto"
+        },
+        {
+          "time": 60,
+          "type": 1,
+          "position": 2,
+          "player_id": "3glrw7hype3yqdy",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "yllson lika"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "n54qllhjgg9wqvy",
+          "out_player_id": "y0or5jh3ewzwqwz",
+          "in_player_name": "Matias Babb",
+          "out_player_name": "santtu seppanen"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l7oqdeh4kl1er51",
+          "out_player_id": "6ypq3nhwy1j1md7",
+          "in_player_name": "onni suutari",
+          "out_player_name": "Julius Körkkö"
+        },
+        {
+          "time": 62,
+          "type": 3,
+          "position": 1,
+          "player_id": "n54qllhjgg9wqvy",
+          "player_name": "Matias Babb"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7phw27xwm2w",
+          "out_player_id": "jw2r09hx6nyvrz8",
+          "in_player_name": "niko nurmi",
+          "out_player_name": "Niklas Leinonen"
+        },
+        {
+          "time": 73,
+          "type": 1,
+          "position": 2,
+          "player_id": "y0or5jh378kkqwz",
+          "away_score": 3,
+          "home_score": 0,
+          "player_name": "Adam jouhi"
+        },
+        {
+          "time": 74,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4wyrn4hv5pl1q86",
+          "out_player_id": "x7lm7ph9yl9lm2w",
+          "in_player_name": "juuso makelainen",
+          "out_player_name": "Kalifa Jatta"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlhz50j9ryk",
+          "out_player_id": "ednm9whzpxpkryo",
+          "in_player_name": "daniel ripatti",
+          "out_player_name": "samuel jr anini"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "8yomo4h24novq0j",
+          "out_player_id": "vjxm8ghpxpwxr6o",
+          "in_player_name": "Vili·Saarikoski",
+          "out_player_name": "Jesse Korhonen"
+        },
+        {
+          "time": 88,
+          "type": 3,
+          "position": 2,
+          "player_id": "pxwrxlhz50j9ryk",
+          "player_name": "daniel ripatti"
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "add_time": 1,
+          "position": 2,
+          "in_player_id": "1l4rjnhxgxj0m7v",
+          "out_player_id": "k82rekhojw5wrep",
+          "in_player_name": "Joel Huovinen",
+          "out_player_name": "elias kallio"
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "add_time": 1,
+          "position": 2,
+          "in_player_id": "l7oqdeh05k5dr51",
+          "out_player_id": "4jwq2ghx6vvnm0v",
+          "in_player_name": "Pontus lindberg",
+          "out_player_name": "Urho Huhtamäki"
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "add_time": 1,
+          "position": 2,
+          "in_player_id": "4wyrn4h4w4g1q86",
+          "out_player_id": "3glrw7hype3yqdy",
+          "in_player_name": "toivo valakari",
+          "out_player_name": "yllson lika"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "jw2r09hk95jvrz8": {
+      "id": "jw2r09hk95jvrz8",
+      "home_team_id": "y0or5jhl936qwzv",
+      "away_team_id": "n54qllh2jwzqvy9",
+      "start_timestamp": 1761487200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "dn1m1ghl793xmoe",
+      "incidents": [
+        {
+          "time": 16,
+          "type": 3,
+          "position": 1,
+          "player_id": "jw2r09hxg04yrz8",
+          "player_name": "denis cukici"
+        },
+        {
+          "time": 18,
+          "type": 1,
+          "position": 1,
+          "player_id": "n54qllhxz94nqvy",
+          "assist1_id": "k82rekhojw5wrep",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Foday Manneh",
+          "assist1_name": "elias kallio"
+        },
+        {
+          "time": 23,
+          "type": 1,
+          "position": 1,
+          "player_id": "ednm9whzpxpkryo",
+          "assist1_id": "jw2r09hx6nyvrz8",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "samuel jr anini",
+          "assist1_name": "Niklas Leinonen"
+        },
+        {
+          "time": 44,
+          "type": 3,
+          "position": 2,
+          "player_id": "x7lm7ph9yl9lm2w",
+          "player_name": "Kalifa Jatta"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 1,
+          "position": 1,
+          "player_id": "ednm9whzpxpkryo",
+          "assist1_id": "k82rekhojw5wrep",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "samuel jr anini",
+          "assist1_name": "elias kallio"
+        },
+        {
+          "time": 57,
+          "type": 1,
+          "position": 2,
+          "player_id": "n54qllhjgg9wqvy",
+          "assist1_id": "6ypq3nhwy1j1md7",
+          "away_score": 1,
+          "home_score": 3,
+          "player_name": "Matias Babb",
+          "assist1_name": "Julius Körkkö"
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "2y8m4zhzyw9xql0",
+          "out_player_id": "6ypq3nhwy1j1md7",
+          "in_player_name": "Arttu Aapajärvi",
+          "out_player_name": "Julius Körkkö"
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "jw2r09hw73jgrz8",
+          "out_player_id": "x7lm7ph98j6lm2w",
+          "in_player_name": "Aleksi Raisanen",
+          "out_player_name": "Eetu Saarela"
+        },
+        {
+          "time": 61,
+          "type": 1,
+          "position": 1,
+          "player_id": "k82rekhojw5wrep",
+          "assist1_id": "jw2r09hx6nyvrz8",
+          "away_score": 1,
+          "home_score": 4,
+          "player_name": "elias kallio",
+          "assist1_name": "Niklas Leinonen"
+        },
+        {
+          "time": 64,
+          "type": 1,
+          "position": 2,
+          "player_id": "l7oqdeh4kl1er51",
+          "away_score": 2,
+          "home_score": 4,
+          "player_name": "onni suutari"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7phw27xwm2w",
+          "out_player_id": "3glrw7hype3yqdy",
+          "in_player_name": "niko nurmi",
+          "out_player_name": "yllson lika"
+        },
+        {
+          "time": 80,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdeh4kl1er51",
+          "player_name": "onni suutari"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "3glrw7hzgej6qdy",
+          "out_player_id": "8yomo4h2gvo0q0j",
+          "in_player_name": "Momodou Fadera",
+          "out_player_name": "Eemeli Raittinen"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y0or5jhg613yqwz",
+          "out_player_id": "x7lm7ph9yl9lm2w",
+          "in_player_name": "lucas piirto",
+          "out_player_name": "Kalifa Jatta"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "pxwrxlhz50j9ryk",
+          "out_player_id": "ednm9whzpxpkryo",
+          "in_player_name": "daniel ripatti",
+          "out_player_name": "samuel jr anini"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4wyrn4h4w4g1q86",
+          "out_player_id": "jw2r09hxg04yrz8",
+          "in_player_name": "toivo valakari",
+          "out_player_name": "denis cukici"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "n54qllh8915pqvy",
+          "out_player_id": "jw2r09hwlovyrz8",
+          "in_player_name": "Alex tolra",
+          "out_player_name": "Pekka Otso Parkilla"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnhxgxj0m7v",
+          "out_player_id": "k82rekhojw5wrep",
+          "in_player_name": "Joel Huovinen",
+          "out_player_name": "elias kallio"
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "add_time": 4,
+          "position": 1,
+          "player_id": "jw2r09hx6nyvrz8",
+          "player_name": "Niklas Leinonen"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

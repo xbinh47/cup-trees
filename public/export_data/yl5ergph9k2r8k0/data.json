@@ -1,0 +1,767 @@
+{
+  "season_id": "yl5ergph9k2r8k0",
+  "brackets": [
+    {
+      "id": "x7lm7ph056lm2wd",
+      "competition_id": "9k82rekhygrepzj",
+      "season_id": "yl5ergph9k2r8k0",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1746806400,
+      "end_time": 1748275140,
+      "rounds": [
+        {
+          "id": "vjxm8gh53d2r6od",
+          "bracket_id": "x7lm7ph056lm2wd",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1746903600,
+          "end_time": 1747481400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l7oqdeh6ogl1r51",
+              "round_id": "vjxm8gh53d2r6od",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "p4jwq2gh3dom0ve",
+              "away_team_id": "9vjxm8gh1e5r6od",
+              "winner_team_id": "9vjxm8gh1e5r6od",
+              "home_score": 0,
+              "away_score": 2,
+              "parent_ids": [
+                "n54qllhe7l5eqvy"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "zp5rzghgj7yvq82",
+                "vjxm8ghe4ggkr6o"
+              ]
+            },
+            {
+              "id": "dj2ryohy1lndq1z",
+              "round_id": "vjxm8gh53d2r6od",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "gx7lm7phdz4m2wd",
+              "away_team_id": "yl5ergph189r8k0",
+              "winner_team_id": "yl5ergph189r8k0",
+              "home_score": 1,
+              "away_score": 4,
+              "parent_ids": [
+                "n54qllhe7l5eqvy"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "x7lm7phjkoovm2w",
+                "y0or5jh8l44wqwz"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x7lm7ph38ynm2wd",
+          "bracket_id": "x7lm7ph056lm2wd",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1748268000,
+          "end_time": 1748268000,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "23xmvkho8n3oqg8",
+              "round_id": "x7lm7ph38ynm2wd",
+              "number": 1,
+              "type_id": 0,
+              "state_id": 1,
+              "home_team_id": "yl5ergph189r8k0",
+              "away_team_id": "9vjxm8gh1e5r6od",
+              "winner_team_id": "",
+              "home_score": 0,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "dj2ryohy1lndq1z",
+                "l7oqdeh6ogl1r51"
+              ],
+              "event_ids": [
+                "23xmvkh630dwqg8"
+              ]
+            },
+            {
+              "id": "n54qllhe7l5eqvy",
+              "round_id": "x7lm7ph38ynm2wd",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "9vjxm8gh1e5r6od",
+              "away_team_id": "yl5ergph189r8k0",
+              "winner_team_id": "9vjxm8gh1e5r6od",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "l7oqdeh6ogl1r51",
+                "dj2ryohy1lndq1z"
+              ],
+              "event_ids": [
+                "23xmvkh630dwqg8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "p4jwq2gh3dom0ve": {
+      "id": "p4jwq2gh3dom0ve",
+      "name": "Notts County"
+    },
+    "9vjxm8gh1e5r6od": {
+      "id": "9vjxm8gh1e5r6od",
+      "name": "AFC Wimbledon"
+    },
+    "gx7lm7phdz4m2wd": {
+      "id": "gx7lm7phdz4m2wd",
+      "name": "Chesterfield"
+    },
+    "yl5ergph189r8k0": {
+      "id": "yl5ergph189r8k0",
+      "name": "Walsall"
+    }
+  },
+  "sport_events": {
+    "23xmvkh630dwqg8": {
+      "id": "23xmvkh630dwqg8",
+      "home_team_id": "yl5ergph189r8k0",
+      "away_team_id": "9vjxm8gh1e5r6od",
+      "start_timestamp": 1748268000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 34,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "zp5rzghpz411q82",
+          "out_player_id": "318q66hv8zo5qo9",
+          "in_player_name": "O. McEntee",
+          "out_player_name": "Harry Williams"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 1,
+          "add_time": 2,
+          "position": 2,
+          "player_id": "23xmvkhkv5xqg8n",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Myles Hippolyte"
+        },
+        {
+          "time": 50,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66hojolqo9j",
+          "out_player_id": "zp5rzghzejy1q82",
+          "in_player_name": "Albert Adomah",
+          "out_player_name": "Jamie Jellis"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "k82rekhy832drep",
+          "out_player_id": "8yomo4hk187q0j6",
+          "in_player_name": "Levi·Amantchi",
+          "out_player_name": "Jamille Matt"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh332kzqwz",
+          "out_player_id": "l7oqdeh0d503r51",
+          "in_player_name": "Isaac Ogundere",
+          "out_player_name": "Riley Harbottle"
+        },
+        {
+          "time": 74,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66hnvp0qo9j",
+          "out_player_id": "vjxm8gh88o7kr6o",
+          "in_player_name": "Charlie Lakin",
+          "out_player_name": "Alfie Chang"
+        },
+        {
+          "time": 74,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhz22jnm7v",
+          "out_player_id": "23xmvkhk6g4eqg8",
+          "in_player_name": "Connor Barrett",
+          "out_player_name": "Nathan Asiimwe"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l5ergphv229yr8k",
+          "out_player_id": "jw2r09hjd97rz84",
+          "in_player_name": "Josh Kelly",
+          "out_player_name": "Mathew Stevens"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 6,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4h4v0v9q86",
+          "out_player_id": "4jwq2gh7n40m0ve",
+          "in_player_name": "Aron Sasu",
+          "out_player_name": "Marcus Browne"
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohn699q1zp",
+          "out_player_id": "23xmvkhkv5xqg8n",
+          "in_player_name": "Callum Maycock",
+          "out_player_name": "Myles Hippolyte"
+        },
+        {
+          "time": 97,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "vjxm8ghe4ggkr6o": {
+      "id": "vjxm8ghe4ggkr6o",
+      "home_team_id": "9vjxm8gh1e5r6od",
+      "away_team_id": "p4jwq2gh3dom0ve",
+      "start_timestamp": 1747481400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "zp5rzghgj7yvq82",
+      "incidents": [
+        {
+          "time": 8,
+          "type": 1,
+          "position": 1,
+          "player_id": "4wyrn4he1k0lq86",
+          "assist1_id": "318q66hvze57qo9",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Josh Neufville",
+          "assist1_name": "Joe Cameron Lewis"
+        },
+        {
+          "time": 25,
+          "type": 3,
+          "position": 2,
+          "player_id": "4wyrn4hd6wv0q86",
+          "player_name": "Lewis Macari",
+          "reason_type": 1
+        },
+        {
+          "time": 32,
+          "type": 3,
+          "position": 1,
+          "player_id": "l7oqdeh0d503r51",
+          "player_name": "Riley Harbottle",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 1,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh332kzqwz",
+          "out_player_id": "l7oqdeh0d503r51",
+          "in_player_name": "Isaac Ogundere",
+          "out_player_name": "Riley Harbottle"
+        },
+        {
+          "time": 54,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhj79kpryk",
+          "out_player_id": "8yomo4h2w64jq0j",
+          "in_player_name": "will jarvis",
+          "out_player_name": "S. Austin"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l5ergphv229yr8k",
+          "out_player_id": "4jwq2gh7n40m0ve",
+          "in_player_name": "Josh Kelly",
+          "out_player_name": "Marcus Browne"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "jw2r09hx6v32rz8",
+          "out_player_id": "dj2ryohj2gg6q1z",
+          "in_player_name": "Scott Robertson",
+          "out_player_name": "Conor·Grant"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l5ergphvpe8r8k0",
+          "out_player_id": "n54qllhxdl10qvy",
+          "in_player_name": "Junior Morias",
+          "out_player_name": "Mai Traore"
+        },
+        {
+          "time": 72,
+          "type": 3,
+          "position": 2,
+          "player_id": "jw2r09hx6v32rz8",
+          "player_name": "Scott Robertson",
+          "reason_type": 1
+        },
+        {
+          "time": 78,
+          "type": 3,
+          "position": 1,
+          "player_id": "23xmvkhd170qg8n",
+          "player_name": "Ryan Johnson",
+          "reason_type": 1
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4h4v0v9q86",
+          "out_player_id": "jw2r09hjd97rz84",
+          "in_player_name": "Aron Sasu",
+          "out_player_name": "Mathew Stevens"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohn699q1zp",
+          "out_player_id": "23xmvkhkv5xqg8n",
+          "in_player_name": "Callum Maycock",
+          "out_player_name": "Myles Hippolyte"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdeh4elz0r51",
+          "player_name": "Matthew·Platt",
+          "reason_type": 1
+        },
+        {
+          "time": 95,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "x7lm7phjkoovm2w": {
+      "id": "x7lm7phjkoovm2w",
+      "home_team_id": "gx7lm7phdz4m2wd",
+      "away_team_id": "yl5ergph189r8k0",
+      "start_timestamp": 1746973800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "y0or5jh8l44wqwz",
+      "incidents": []
+    },
+    "y0or5jh8l44wqwz": {
+      "id": "y0or5jh8l44wqwz",
+      "home_team_id": "yl5ergph189r8k0",
+      "away_team_id": "gx7lm7phdz4m2wd",
+      "start_timestamp": 1747422000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "x7lm7phjkoovm2w",
+      "incidents": [
+        {
+          "time": 36,
+          "type": 3,
+          "position": 1,
+          "player_id": "23xmvkhk6g4eqg8",
+          "player_name": "Nathan Asiimwe",
+          "reason_type": 15
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 51,
+          "type": 3,
+          "position": 2,
+          "player_id": "vjxm8gh8pwzvr6o",
+          "player_name": "Jenson Metcalfe",
+          "reason_type": 1
+        },
+        {
+          "time": 60,
+          "type": 3,
+          "position": 1,
+          "player_id": "k82rekhywz7prep",
+          "player_name": "Taylor Allen",
+          "reason_type": 22
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y39mp1hypoemojx",
+          "out_player_id": "vjxm8gh88o7kr6o",
+          "in_player_name": "Brandon Comley",
+          "out_player_name": "Alfie Chang"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "k82rekhy832drep",
+          "out_player_id": "8yomo4hk187q0j6",
+          "in_player_name": "Levi·Amantchi",
+          "out_player_name": "Jamille Matt"
+        },
+        {
+          "time": 65,
+          "type": 3,
+          "position": 2,
+          "player_id": "l5ergphovxdr8k0",
+          "player_name": "John Fleck",
+          "reason_type": 1
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "n54qllh2peoqvy9",
+          "out_player_id": "vjxm8gh8pwzvr6o",
+          "in_player_name": "Will Grigg",
+          "out_player_name": "Jenson Metcalfe"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4jwq2gh4ownm0ve",
+          "out_player_id": "n54qllhxdx4nqvy",
+          "in_player_name": "Craig Woodman",
+          "out_player_name": "Lewis Gordon"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66hojolqo9j",
+          "out_player_id": "zp5rzghzejy1q82",
+          "in_player_name": "Albert Adomah",
+          "out_player_name": "Jamie Jellis"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66hnvp0qo9j",
+          "out_player_id": "8yomo4hvjg72q0j",
+          "in_player_name": "Charlie Lakin",
+          "out_player_name": "George Cardinal Joseph·Hall"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "n54qllhx0poyqvy",
+          "out_player_id": "965mkyhe5d4r1ge",
+          "in_player_name": "R. Colclough",
+          "out_player_name": "Liam Mandeville"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jhek8v2qwz",
+          "out_player_id": "1l4rjnhz097m7vx",
+          "in_player_name": "Dylan Duffy",
+          "out_player_name": "Ollie Banks"
+        },
+        {
+          "time": 76,
+          "type": 3,
+          "position": 2,
+          "player_id": "2y8m4zhg602gql0",
+          "player_name": "Armando Dobra",
+          "reason_type": 33
+        },
+        {
+          "time": 81,
+          "type": 1,
+          "position": 1,
+          "player_id": "318q66hnvp0qo9j",
+          "assist1_id": "318q66hojolqo9j",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Charlie Lakin",
+          "assist1_name": "Albert Adomah"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "n54qllhx0wjqvy9",
+          "out_player_id": "8yomo4hk1y7q0j6",
+          "in_player_name": "Michael Jacobs",
+          "out_player_name": "Tom Naylor"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 13,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "add_time": 1,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whz08lryox",
+          "out_player_id": "23xmvkhk6g4eqg8",
+          "in_player_name": "Donervorn Daniels",
+          "out_player_name": "Nathan Asiimwe"
+        },
+        {
+          "time": 94,
+          "type": 1,
+          "add_time": 4,
+          "position": 2,
+          "player_id": "2y8m4zhg602gql0",
+          "assist1_id": "n54qllh2peoqvy9",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Armando Dobra",
+          "assist1_name": "Will Grigg"
+        },
+        {
+          "time": 95,
+          "type": 1,
+          "add_time": 5,
+          "position": 1,
+          "player_id": "k82rekhy832drep",
+          "assist1_id": "318q66hojolqo9j",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Levi·Amantchi",
+          "assist1_name": "Albert Adomah"
+        },
+        {
+          "time": 96,
+          "type": 3,
+          "add_time": 6,
+          "position": 1,
+          "player_id": "k82rekhy832drep",
+          "player_name": "Levi·Amantchi",
+          "reason_type": 21
+        },
+        {
+          "time": 104,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "zp5rzghgj7yvq82": {
+      "id": "zp5rzghgj7yvq82",
+      "home_team_id": "p4jwq2gh3dom0ve",
+      "away_team_id": "9vjxm8gh1e5r6od",
+      "start_timestamp": 1746903600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "vjxm8ghe4ggkr6o",
+      "incidents": []
+    }
+  }
+}

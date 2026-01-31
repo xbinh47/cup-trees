@@ -1,0 +1,125 @@
+{
+  "season_id": "d23xmvkhngpqg8n",
+  "brackets": [
+    {
+      "id": "4wyrn4hd4veq86p",
+      "competition_id": "yl5ergphz6r8k0o",
+      "season_id": "d23xmvkhngpqg8n",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1728835200,
+      "end_time": 1728921540,
+      "rounds": [
+        {
+          "id": "dj2ryohx0w5q1zp",
+          "bracket_id": "4wyrn4hd4veq86p",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1728892800,
+          "end_time": 1728892800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l5ergph3y5w9r8k",
+              "round_id": "dj2ryohx0w5q1zp",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "gpxwrxlh8dyryk0",
+              "away_team_id": "vjxm8gh4n7lr6od",
+              "winner_team_id": "gpxwrxlh8dyryk0",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "vjxm8ghlo25nr6o"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "gpxwrxlh8dyryk0": {
+      "id": "gpxwrxlh8dyryk0",
+      "name": "Zhejiang Hangzhou Bank(W)"
+    },
+    "vjxm8gh4n7lr6od": {
+      "id": "vjxm8gh4n7lr6od",
+      "name": "Sichuan Women"
+    }
+  },
+  "sport_events": {
+    "vjxm8ghlo25nr6o": {
+      "id": "vjxm8ghlo25nr6o",
+      "home_team_id": "gpxwrxlh8dyryk0",
+      "away_team_id": "vjxm8gh4n7lr6od",
+      "start_timestamp": 1728892800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 6,
+          "type": 1,
+          "position": 1,
+          "player_id": "23xmvkhd1zegqg8",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Wang Huiming"
+        },
+        {
+          "time": 10,
+          "type": 1,
+          "position": 1,
+          "player_id": "dj2ryohgx812q1z",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Liu Xin"
+        },
+        {
+          "time": 29,
+          "type": 1,
+          "position": 2,
+          "player_id": "8yomo4hv059gq0j",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "He Jia"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

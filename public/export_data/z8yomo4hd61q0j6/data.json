@@ -1,0 +1,570 @@
+{
+  "season_id": "z8yomo4hd61q0j6",
+  "brackets": [
+    {
+      "id": "6ypq3nhz49omd7o",
+      "competition_id": "gpxwrxlhnnryk0j",
+      "season_id": "z8yomo4hd61q0j6",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1746288000,
+      "end_time": 1747324740,
+      "rounds": [
+        {
+          "id": "1l4rjnhj5o9m7vx",
+          "bracket_id": "6ypq3nhz49omd7o",
+          "name": "Placement match for 3rd",
+          "abbr": "3rd",
+          "start_time": 1746815400,
+          "end_time": 1746815400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l5ergph3w4per8k",
+              "round_id": "1l4rjnhj5o9m7vx",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "z318q66h5jyqo9j",
+              "away_team_id": "l7oqdehnd8dr510",
+              "winner_team_id": "l7oqdehnd8dr510",
+              "home_score": 0,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [
+                "y39mp1h5z6y7moj",
+                "k82rekh9wg3zrep"
+              ],
+              "event_ids": [
+                "dn1m1ghl43g1moe"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l7oqdeh82wyr510",
+          "bracket_id": "6ypq3nhz49omd7o",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1746374400,
+          "end_time": 1746465300,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "y39mp1h5z6y7moj",
+              "round_id": "l7oqdeh82wyr510",
+              "number": 1,
+              "type_id": 4,
+              "state_id": 8,
+              "home_team_id": "z318q66h5jyqo9j",
+              "away_team_id": "yl5ergph9ojr8k0",
+              "winner_team_id": "yl5ergph9ojr8k0",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [
+                "4wyrn4hex69dq86",
+                "l5ergph3w4per8k"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "n54qllhn221oqvy"
+              ]
+            },
+            {
+              "id": "k82rekh9wg3zrep",
+              "round_id": "l7oqdeh82wyr510",
+              "number": 2,
+              "type_id": 4,
+              "state_id": 8,
+              "home_team_id": "l7oqdehnd8dr510",
+              "away_team_id": "l7oqdehngl7r510",
+              "winner_team_id": "l7oqdehngl7r510",
+              "home_score": 2,
+              "away_score": 4,
+              "parent_ids": [
+                "4wyrn4hex69dq86",
+                "l5ergph3w4per8k"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "23xmvkh6339eqg8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dj2ryohe46kq1zp",
+          "bracket_id": "6ypq3nhz49omd7o",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1746892800,
+          "end_time": 1746892800,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "4wyrn4hex69dq86",
+              "round_id": "dj2ryohe46kq1zp",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "yl5ergph9ojr8k0",
+              "away_team_id": "l7oqdehngl7r510",
+              "winner_team_id": "l7oqdehngl7r510",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [
+                "y39mp1h5z6y7moj",
+                "k82rekh9wg3zrep"
+              ],
+              "event_ids": [
+                "y0or5jh8lglgqwz"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "l7oqdehngl7r510": {
+      "id": "l7oqdehngl7r510",
+      "name": "Hamrun Spartans"
+    },
+    "z318q66h5jyqo9j": {
+      "id": "z318q66h5jyqo9j",
+      "name": "Sliema Wanderers FC"
+    },
+    "yl5ergph9ojr8k0": {
+      "id": "yl5ergph9ojr8k0",
+      "name": "Birkirkara FC"
+    },
+    "l7oqdehnd8dr510": {
+      "id": "l7oqdehnd8dr510",
+      "name": "Floriana F.C."
+    }
+  },
+  "sport_events": {
+    "23xmvkh6339eqg8": {
+      "id": "23xmvkh6339eqg8",
+      "home_team_id": "l7oqdehnd8dr510",
+      "away_team_id": "l7oqdehngl7r510",
+      "start_timestamp": 1746465300,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 4,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 2,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 15,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jheopg1qwz",
+          "player_name": "Fernandinho"
+        },
+        {
+          "time": 20,
+          "type": 3,
+          "position": 2,
+          "player_id": "23xmvkhk9nj3qg8",
+          "player_name": "Sven Xerri"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 74,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "n54qllhx9227qvy",
+          "out_player_id": "23xmvkhk9nj3qg8",
+          "in_player_name": "Cesar Menacho",
+          "out_player_name": "Sven Xerri"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "8yomo4h024jwq0j",
+          "out_player_id": "l5ergphvk8kwr8k",
+          "in_player_name": "Talison",
+          "out_player_name": "Redon Mihana"
+        },
+        {
+          "time": 94,
+          "type": 9,
+          "add_time": 4,
+          "position": 1,
+          "in_player_id": "3glrw7hjv1gqdyj",
+          "out_player_id": "965mkyh361dxr1g",
+          "in_player_name": "Zachary Scerri",
+          "out_player_name": "Alejandro garzia"
+        },
+        {
+          "time": 95,
+          "type": 9,
+          "add_time": 5,
+          "position": 1,
+          "in_player_id": "3glrw7hj93v8qdy",
+          "out_player_id": "vjxm8ghjnjozr6o",
+          "in_player_name": "Guy Serge Yameogo",
+          "out_player_name": "J. Becerra"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 98,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlh1x04ryk0",
+          "out_player_id": "y0or5jhl6g8qwzv",
+          "in_player_name": "Marcelina Emerson",
+          "out_player_name": "Steve Borg"
+        },
+        {
+          "time": 98,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "2y8m4zhz849kql0",
+          "out_player_id": "k82rekhoje5vrep",
+          "in_player_name": "Daniel Letherby",
+          "out_player_name": "Eder"
+        },
+        {
+          "time": 101,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4jwq2ghvgv5m0ve",
+          "out_player_id": "dn1m1ghnw81moep",
+          "in_player_name": "Sukisa Elvis Mashike",
+          "out_player_name": "Dunstan Vella"
+        },
+        {
+          "time": 112,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7ph52o2m2wd",
+          "out_player_id": "965mkyh4j2d2r1g",
+          "in_player_name": "Mihael Klepač",
+          "out_player_name": "Roko Prsa"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "player_id": "y0or5jheopg1qwz",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Fernandinho"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "player_id": "pxwrxlh1x04ryk0",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Marcelina Emerson"
+        },
+        {
+          "time": 120,
+          "type": 30,
+          "position": 1,
+          "player_id": "4jwq2ghvgv5m0ve",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Sukisa Elvis Mashike"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "player_id": "6ypq3nh1w8nmd7o",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Jovan Čađenović"
+        },
+        {
+          "time": 120,
+          "type": 30,
+          "position": 1,
+          "player_id": "y39mp1hj4128moj",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Gonzalo Gamarra"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "player_id": "jw2r09hx80nrz84",
+          "away_score": 3,
+          "home_score": 1,
+          "player_name": "Joseph Mbong"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "player_id": "jw2r09h14zzrz84",
+          "away_score": 3,
+          "home_score": 2,
+          "player_name": "Jake Grech"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "player_id": "dj2ryohn20gnq1z",
+          "away_score": 4,
+          "home_score": 2,
+          "player_name": "lopes raphael"
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    },
+    "dn1m1ghl43g1moe": {
+      "id": "dn1m1ghl43g1moe",
+      "home_team_id": "z318q66h5jyqo9j",
+      "away_team_id": "l7oqdehnd8dr510",
+      "start_timestamp": 1746815400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "n54qllhn221oqvy": {
+      "id": "n54qllhn221oqvy",
+      "home_team_id": "z318q66h5jyqo9j",
+      "away_team_id": "yl5ergph9ojr8k0",
+      "start_timestamp": 1746374400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 1,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 1,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghpyklr6od",
+          "out_player_id": "4jwq2ghv67d0m0v",
+          "in_player_name": "Geoffrey Acheampong",
+          "out_player_name": "Wescley"
+        },
+        {
+          "time": 66,
+          "type": 3,
+          "position": 2,
+          "player_id": "6ypq3nhzjddjmd7",
+          "player_name": "Neil Micallef",
+          "reason_type": 1
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh0zn50r51",
+          "out_player_id": "zp5rzghz0w3jq82",
+          "in_player_name": "Luis Cordova",
+          "out_player_name": "Tomislav Papazov"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whv6w5ryox",
+          "out_player_id": "pxwrxlhj1k63ryk",
+          "in_player_name": "Maksym Priadun",
+          "out_player_name": "Mohamed Abdulahi Awad"
+        },
+        {
+          "time": 81,
+          "type": 3,
+          "position": 2,
+          "player_id": "ednm9whzey89ryo",
+          "player_name": "Pablo Gaitan",
+          "reason_type": 1
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlh2g80ryk0",
+          "out_player_id": "ednm9whzey89ryo",
+          "in_player_name": "Shaun Dimech",
+          "out_player_name": "Pablo Gaitan"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h036xzq0j",
+          "out_player_id": "4wyrn4h42jn1q86",
+          "in_player_name": "Gnamien Gislain Yikpe",
+          "out_player_name": "Kemar David Reid"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 101,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlh9k34ryk0",
+          "out_player_id": "3glrw7hw6zpqdyj",
+          "in_player_name": "Kyrian Nwoko",
+          "out_player_name": "Vito Plut"
+        },
+        {
+          "time": 122,
+          "type": 1,
+          "position": 2,
+          "player_id": "l7oqdehd0jdr510",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Maxuell Samuray"
+        },
+        {
+          "time": 122,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdehd0jdr510",
+          "player_name": "Maxuell Samuray",
+          "reason_type": 1
+        },
+        {
+          "time": 120,
+          "type": 26,
+          "position": 0
+        }
+      ]
+    },
+    "y0or5jh8lglgqwz": {
+      "id": "y0or5jh8lglgqwz",
+      "home_team_id": "yl5ergph9ojr8k0",
+      "away_team_id": "l7oqdehngl7r510",
+      "start_timestamp": 1746892800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

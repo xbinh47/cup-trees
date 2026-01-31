@@ -1,0 +1,117 @@
+{
+  "season_id": "l965mkyhdvlr1ge",
+  "brackets": [
+    {
+      "id": "y39mp1h5g55mojx",
+      "competition_id": "9vjxm8ghllr6odg",
+      "season_id": "l965mkyhdvlr1ge",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1700150400,
+      "end_time": 1700927940,
+      "rounds": [
+        {
+          "id": "318q66h2413qo9j",
+          "bracket_id": "y39mp1h5g55mojx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1700305200,
+          "end_time": 1700910000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "4jwq2ghkol92m0v",
+              "round_id": "318q66h2413qo9j",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "4wyrn4he4ogq86p",
+              "away_team_id": "23xmvkh3j33qg8n",
+              "winner_team_id": "23xmvkh3j33qg8n",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "23xmvkh8k46kqg8",
+                "zp5rzgh5pxgxq82"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "4wyrn4he4ogq86p": {
+      "id": "4wyrn4he4ogq86p",
+      "name": "NFA Kaunas"
+    },
+    "23xmvkh3j33qg8n": {
+      "id": "23xmvkh3j33qg8n",
+      "name": "Dziugas Telsiai"
+    }
+  },
+  "sport_events": {
+    "23xmvkh8k46kqg8": {
+      "id": "23xmvkh8k46kqg8",
+      "home_team_id": "4wyrn4he4ogq86p",
+      "away_team_id": "23xmvkh3j33qg8n",
+      "start_timestamp": 1700305200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "zp5rzgh5pxgxq82": {
+      "id": "zp5rzgh5pxgxq82",
+      "home_team_id": "23xmvkh3j33qg8n",
+      "away_team_id": "4wyrn4he4ogq86p",
+      "start_timestamp": 1700910000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 2,
+          "yellow_card": 6,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

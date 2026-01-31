@@ -1,0 +1,269 @@
+{
+  "season_id": "kn54qllh088qvy9",
+  "brackets": [
+    {
+      "id": "ednm9wh9wy4ryox",
+      "competition_id": "z318q66hdgqo9jd",
+      "season_id": "kn54qllh088qvy9",
+      "name": "Knockout Stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1689004800,
+      "end_time": 1689609540,
+      "rounds": [
+        {
+          "id": "4wyrn4h00d2q86p",
+          "bracket_id": "ednm9wh9wy4ryox",
+          "name": "Placement match for 3rd",
+          "abbr": "3rd",
+          "start_time": 1689523200,
+          "end_time": 1689523200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "n54qllh20vlxqvy",
+              "round_id": "4wyrn4h00d2q86p",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "23xmvkho1nnqg8n",
+              "away_team_id": "x7lm7pho5nem2wd",
+              "winner_team_id": "x7lm7pho5nem2wd",
+              "home_score": 4,
+              "away_score": 6,
+              "parent_ids": [],
+              "children_ids": [
+                "x7lm7phk64lkm2w",
+                "y0or5jhlp7v4qwz"
+              ],
+              "event_ids": [
+                "965mkyh2pl7nr1g"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "318q66hnnv7qo9j",
+          "bracket_id": "ednm9wh9wy4ryox",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1689273000,
+          "end_time": 1689285600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "y0or5jhlp7v4qwz",
+              "round_id": "318q66hnnv7qo9j",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "23xmvkho1nnqg8n",
+              "away_team_id": "56ypq3nhyzpmd7o",
+              "winner_team_id": "56ypq3nhyzpmd7o",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [
+                "n54qllh20vlxqvy",
+                "2y8m4zh3kj86ql0"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "dj2ryohew6g0q1z"
+              ]
+            },
+            {
+              "id": "x7lm7phk64lkm2w",
+              "round_id": "318q66hnnv7qo9j",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "zp5rzghjd9oq82w",
+              "away_team_id": "x7lm7pho5nem2wd",
+              "winner_team_id": "zp5rzghjd9oq82w",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [
+                "n54qllh20vlxqvy",
+                "2y8m4zh3kj86ql0"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "2y8m4zhw2y8yql0"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dn1m1ghkknkmoep",
+          "bracket_id": "ednm9wh9wy4ryox",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1689535800,
+          "end_time": 1689535800,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "2y8m4zh3kj86ql0",
+              "round_id": "dn1m1ghkknkmoep",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "56ypq3nhyzpmd7o",
+              "away_team_id": "zp5rzghjd9oq82w",
+              "winner_team_id": "56ypq3nhyzpmd7o",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "x7lm7phk64lkm2w",
+                "y0or5jhlp7v4qwz"
+              ],
+              "event_ids": [
+                "jw2r09h684l2rz8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "x7lm7pho5nem2wd": {
+      "id": "x7lm7pho5nem2wd",
+      "name": "Cerro Porteno U20"
+    },
+    "56ypq3nhyzpmd7o": {
+      "id": "56ypq3nhyzpmd7o",
+      "name": "Boca Juniors U20"
+    },
+    "23xmvkho1nnqg8n": {
+      "id": "23xmvkho1nnqg8n",
+      "name": "Sportivo Penarol Youth"
+    },
+    "zp5rzghjd9oq82w": {
+      "id": "zp5rzghjd9oq82w",
+      "name": "Independiente del Valle U20"
+    }
+  },
+  "sport_events": {
+    "2y8m4zhw2y8yql0": {
+      "id": "2y8m4zhw2y8yql0",
+      "home_team_id": "zp5rzghjd9oq82w",
+      "away_team_id": "x7lm7pho5nem2wd",
+      "start_timestamp": 1689285600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 1,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "965mkyh2pl7nr1g": {
+      "id": "965mkyh2pl7nr1g",
+      "home_team_id": "23xmvkho1nnqg8n",
+      "away_team_id": "x7lm7pho5nem2wd",
+      "start_timestamp": 1689523200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 4,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 2,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "dj2ryohew6g0q1z": {
+      "id": "dj2ryohew6g0q1z",
+      "home_team_id": "23xmvkho1nnqg8n",
+      "away_team_id": "56ypq3nhyzpmd7o",
+      "start_timestamp": 1689273000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 1,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "jw2r09h684l2rz8": {
+      "id": "jw2r09h684l2rz8",
+      "home_team_id": "56ypq3nhyzpmd7o",
+      "away_team_id": "zp5rzghjd9oq82w",
+      "start_timestamp": 1689535800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

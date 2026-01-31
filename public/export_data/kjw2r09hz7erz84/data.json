@@ -1,0 +1,86 @@
+{
+  "season_id": "kjw2r09hz7erz84",
+  "brackets": [
+    {
+      "id": "n54qllhe418qvy9",
+      "competition_id": "j1l4rjnhe9m7vx5",
+      "season_id": "kjw2r09hz7erz84",
+      "name": "Supertaca 2023",
+      "abbr": "Supertaca 202",
+      "start_time": 1691424000,
+      "end_time": 1691596740,
+      "rounds": [
+        {
+          "id": "pxwrxlh7333ryk0",
+          "bracket_id": "n54qllhe418qvy9",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1691610300,
+          "end_time": 1691610300,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "965mkyh76201r1g",
+              "round_id": "pxwrxlh7333ryk0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "z8yomo4hjyoq0j6",
+              "away_team_id": "gpxwrxlhwl4ryk0",
+              "winner_team_id": "z8yomo4hjyoq0j6",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "y0or5jhz7yd1qwz"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "z8yomo4hjyoq0j6": {
+      "id": "z8yomo4hjyoq0j6",
+      "name": "Benfica"
+    },
+    "gpxwrxlhwl4ryk0": {
+      "id": "gpxwrxlhwl4ryk0",
+      "name": "FC Porto"
+    }
+  },
+  "sport_events": {
+    "y0or5jhz7yd1qwz": {
+      "id": "y0or5jhz7yd1qwz",
+      "home_team_id": "z8yomo4hjyoq0j6",
+      "away_team_id": "gpxwrxlhwl4ryk0",
+      "start_timestamp": 1691610300,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 1,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 7,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

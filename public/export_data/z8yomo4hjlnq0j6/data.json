@@ -1,0 +1,119 @@
+{
+  "season_id": "z8yomo4hjlnq0j6",
+  "brackets": [
+    {
+      "id": "y0or5jhej36qwzv",
+      "competition_id": "d23xmvkh4pqg8ny",
+      "season_id": "z8yomo4hjlnq0j6",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1652976000,
+      "end_time": 1653407940,
+      "rounds": [
+        {
+          "id": "l5ergphl8zer8k0",
+          "bracket_id": "y0or5jhej36qwzv",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1653071400,
+          "end_time": 1653417000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "965mkyh4y6zyr1g",
+              "round_id": "l5ergphl8zer8k0",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "9k82rekh463repz",
+              "away_team_id": "v2y8m4zh9w9ql07",
+              "winner_team_id": "9k82rekh463repz",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "pxwrxlhxvzgpryk",
+                "dn1m1ghp183xmoe"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "9k82rekh463repz": {
+      "id": "9k82rekh463repz",
+      "name": "1. FC Kaiserslautern"
+    },
+    "v2y8m4zh9w9ql07": {
+      "id": "v2y8m4zh9w9ql07",
+      "name": "Dynamo Dresden"
+    }
+  },
+  "sport_events": {
+    "dn1m1ghp183xmoe": {
+      "id": "dn1m1ghp183xmoe",
+      "home_team_id": "v2y8m4zh9w9ql07",
+      "away_team_id": "9k82rekh463repz",
+      "start_timestamp": 1653417000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 10,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "pxwrxlhxvzgpryk",
+      "incidents": []
+    },
+    "pxwrxlhxvzgpryk": {
+      "id": "pxwrxlhxvzgpryk",
+      "home_team_id": "9k82rekh463repz",
+      "away_team_id": "v2y8m4zh9w9ql07",
+      "start_timestamp": 1653071400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "dn1m1ghp183xmoe",
+      "incidents": []
+    }
+  }
+}

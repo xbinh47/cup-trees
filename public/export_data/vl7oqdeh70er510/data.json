@@ -1,0 +1,280 @@
+{
+  "season_id": "vl7oqdeh70er510",
+  "brackets": [
+    {
+      "id": "2y8m4zhgnk2ql07",
+      "competition_id": "9vjxm8ghwlr6odg",
+      "season_id": "vl7oqdeh70er510",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1752336000,
+      "end_time": 1752422340,
+      "rounds": [
+        {
+          "id": "y0or5jhz8k3qwzv",
+          "bracket_id": "2y8m4zhgnk2ql07",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1752422400,
+          "end_time": 1752422400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dn1m1ghel237moe",
+              "round_id": "y0or5jhz8k3qwzv",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 6,
+              "home_team_id": "p4jwq2ghj25m0ve",
+              "away_team_id": "jednm9whln2ryox",
+              "winner_team_id": "",
+              "home_score": 0,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "jw2r09hkxw32rz8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "p4jwq2ghj25m0ve": {
+      "id": "p4jwq2ghj25m0ve",
+      "name": "Lech Poznan"
+    },
+    "jednm9whln2ryox": {
+      "id": "jednm9whln2ryox",
+      "name": "Legia Warszawa"
+    }
+  },
+  "sport_events": {
+    "jw2r09hkxw32rz8": {
+      "id": "jw2r09hkxw32rz8",
+      "home_team_id": "p4jwq2ghj25m0ve",
+      "away_team_id": "jednm9whln2ryox",
+      "start_timestamp": 1752422400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 22,
+          "type": 3,
+          "position": 2,
+          "player_id": "965mkyh3w114r1g",
+          "player_name": "Ryoya Morishita",
+          "reason_type": 1
+        },
+        {
+          "time": 33,
+          "type": 1,
+          "position": 2,
+          "player_id": "dn1m1ghep04moep",
+          "assist1_id": "pxwrxlh9733ryk0",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Paweł Wszołek",
+          "assist1_name": "Patryk Kun"
+        },
+        {
+          "time": 37,
+          "type": 3,
+          "position": 1,
+          "player_id": "n54qllh82lv9qvy",
+          "player_name": "antoni kozubal",
+          "reason_type": 1
+        },
+        {
+          "time": 44,
+          "type": 1,
+          "position": 2,
+          "player_id": "1l4rjnhzjx2km7v",
+          "assist1_id": "1l4rjnhz34d6m7v",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Ilia Shkurin",
+          "assist1_name": "Juergen Elitim"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "965mkyh325or1ge",
+          "out_player_id": "8yomo4h2dxngq0j",
+          "in_player_name": "Bartosz Kapustka",
+          "out_player_name": "M. Alfarela"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohjxdvdq1z",
+          "out_player_id": "3glrw7hjn7o6qdy",
+          "in_player_name": "Mateusz Skrzypczak",
+          "out_player_name": "Alex·Douglas"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghzge16q82",
+          "out_player_id": "dj2ryohnp2eq1zp",
+          "in_player_name": "Filip Szymczak",
+          "out_player_name": "Robert Gumny"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whe69kryox",
+          "out_player_id": "zp5rzghz6986q82",
+          "in_player_name": "Leo Bengtsson",
+          "out_player_name": "Bryan Fiabema"
+        },
+        {
+          "time": 73,
+          "type": 3,
+          "position": 1,
+          "player_id": "zp5rzghzge16q82",
+          "player_name": "Filip Szymczak",
+          "reason_type": 1
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhzox5ql07",
+          "out_player_id": "ednm9whz2ejgryo",
+          "in_player_name": "Vahan Bicachcjan",
+          "out_player_name": "Kacper Chodyna"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghj438r6od",
+          "out_player_id": "965mkyh3w114r1g",
+          "in_player_name": "Petar Stojanović",
+          "out_player_name": "Ryoya Morishita"
+        },
+        {
+          "time": 77,
+          "type": 3,
+          "position": 1,
+          "player_id": "ednm9whe69kryox",
+          "player_name": "Leo Bengtsson",
+          "reason_type": 1
+        },
+        {
+          "time": 81,
+          "type": 1,
+          "position": 1,
+          "player_id": "zp5rzghzge16q82",
+          "assist1_id": "23xmvkhxk4gqg8n",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Filip Szymczak",
+          "assist1_name": "Afonso Sousa"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whzk1zryox",
+          "out_player_id": "1l4rjnhzjx2km7v",
+          "in_player_name": "Jean-Pierre Nsame",
+          "out_player_name": "Ilia Shkurin"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l5ergphn5440r8k",
+          "out_player_id": "1l4rjnhz34d6m7v",
+          "in_player_name": "W. Urbański",
+          "out_player_name": "Juergen Elitim"
+        },
+        {
+          "time": 86,
+          "type": 3,
+          "position": 2,
+          "player_id": "vjxm8ghj438r6od",
+          "player_name": "Petar Stojanović",
+          "reason_type": 1
+        },
+        {
+          "time": 89,
+          "type": 3,
+          "position": 2,
+          "player_id": "jw2r09hx3wprz84",
+          "player_name": "Rafał Augustyniak",
+          "reason_type": 15
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "add_time": 4,
+          "position": 2,
+          "player_id": "dn1m1ghep04moep",
+          "player_name": "Paweł Wszołek",
+          "reason_type": 15
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

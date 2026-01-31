@@ -1,0 +1,509 @@
+{
+  "season_id": "d23xmvkhn6nqg8n",
+  "brackets": [
+    {
+      "id": "3glrw7hj0yoqdyj",
+      "competition_id": "d23xmvkh4pqg8ny",
+      "season_id": "d23xmvkhn6nqg8n",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1747929600,
+      "end_time": 1748448000,
+      "rounds": [
+        {
+          "id": "318q66h6g9oqo9j",
+          "bracket_id": "3glrw7hj0yoqdyj",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1748025000,
+          "end_time": 1748370600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "vjxm8ghglzxjr6o",
+              "round_id": "318q66h6g9oqo9j",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "8y39mp1h8opmojx",
+              "away_team_id": "z8yomo4hjwvq0j6",
+              "winner_team_id": "z8yomo4hjwvq0j6",
+              "home_score": 2,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "2y8m4zh53pevql0",
+                "n54qllhn2zwlqvy"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "8y39mp1h8opmojx": {
+      "id": "8y39mp1h8opmojx",
+      "name": "1. FC Saarbrücken"
+    },
+    "z8yomo4hjwvq0j6": {
+      "id": "z8yomo4hjwvq0j6",
+      "name": "Eintracht Braunschweig"
+    }
+  },
+  "sport_events": {
+    "2y8m4zh53pevql0": {
+      "id": "2y8m4zh53pevql0",
+      "home_team_id": "8y39mp1h8opmojx",
+      "away_team_id": "z8yomo4hjwvq0j6",
+      "start_timestamp": 1748025000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "n54qllhn2zwlqvy",
+      "incidents": [
+        {
+          "time": 27,
+          "type": 3,
+          "position": 2,
+          "player_id": "318q66hvgj32qo9",
+          "player_name": "Christian Joe Conteh",
+          "reason_type": 19
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 2,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 1,
+          "position": 2,
+          "player_id": "3glrw7hlk4oqdyj",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Lino Tempelmann"
+        },
+        {
+          "time": 61,
+          "type": 1,
+          "position": 2,
+          "player_id": "4jwq2ghvplp3m0v",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Marvin Rittmüller"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "x7lm7phwdk03m2w",
+          "out_player_id": "318q66hvgj32qo9",
+          "in_player_name": "Fabio Di Michele Sanchez",
+          "out_player_name": "Christian Joe Conteh"
+        },
+        {
+          "time": 65,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghv97gxm0v",
+          "out_player_id": "6ypq3nhz4pvmd7o",
+          "in_player_name": "Tim·Civeja",
+          "out_player_name": "Kasim Rabihic"
+        },
+        {
+          "time": 65,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohgzpxq1zp",
+          "out_player_id": "jw2r09hle89rz84",
+          "in_player_name": "Sebastian Vasiliadis",
+          "out_player_name": "Manuel Zeitz"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghgevkr6od",
+          "out_player_id": "4jwq2ghvplp3m0v",
+          "in_player_name": "Fabio Kaufmann",
+          "out_player_name": "Marvin Rittmüller"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "x7lm7phw5y3m2wd",
+          "out_player_id": "3glrw7hw0yyqdyj",
+          "in_player_name": "Levente Szabó",
+          "out_player_name": "Sebastian Polter"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghgln3r6od",
+          "out_player_id": "ednm9whvpe4ryox",
+          "in_player_name": "Patrick Schmidt",
+          "out_player_name": "Kai Brünker"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhj361oryk",
+          "out_player_id": "4wyrn4hd6zn9q86",
+          "in_player_name": "Walid Ould Chikh",
+          "out_player_name": "Johan Arath·Gomez"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhzl5n8m7v",
+          "out_player_id": "pxwrxlh959xjryk",
+          "in_player_name": "Richmond Tachie",
+          "out_player_name": "Rayan Philippe"
+        },
+        {
+          "time": 89,
+          "type": 3,
+          "position": 1,
+          "player_id": "dj2ryohgzpxq1zp",
+          "player_name": "Sebastian Vasiliadis",
+          "reason_type": 1
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "add_time": 4,
+          "position": 1,
+          "player_id": "1l4rjnhz5x3zm7v",
+          "player_name": "Sven Sonnenberg",
+          "reason_type": 18
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "add_time": 4,
+          "position": 2,
+          "player_id": "x7lm7phw5y3m2wd",
+          "player_name": "Levente Szabó",
+          "reason_type": 18
+        },
+        {
+          "time": 95,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "n54qllhn2zwlqvy": {
+      "id": "n54qllhn2zwlqvy",
+      "home_team_id": "z8yomo4hjwvq0j6",
+      "away_team_id": "8y39mp1h8opmojx",
+      "start_timestamp": 1748370600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 1,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 2,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 2,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "2y8m4zh53pevql0",
+      "incidents": [
+        {
+          "time": 38,
+          "type": 3,
+          "position": 2,
+          "player_id": "dj2ryohjjpvyq1z",
+          "player_name": "Dominik Becker",
+          "reason_type": 1
+        },
+        {
+          "time": 43,
+          "type": 3,
+          "position": 2,
+          "player_id": "dj2ryohg5g22q1z",
+          "player_name": "Philip Fahrner",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 2,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "x7lm7phw5y3m2wd",
+          "out_player_id": "3glrw7hw0yyqdyj",
+          "in_player_name": "Levente Szabó",
+          "out_player_name": "Sebastian Polter"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whzwn06ryo",
+          "out_player_id": "dj2ryohg5g22q1z",
+          "in_player_name": "Elijah Akwasi·Krahn",
+          "out_player_name": "Philip Fahrner"
+        },
+        {
+          "time": 60,
+          "type": 3,
+          "position": 2,
+          "player_id": "k82rekh9xw5repz",
+          "player_name": "Calogero Rizzuto",
+          "reason_type": 1
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "x7lm7phwdk03m2w",
+          "out_player_id": "318q66hvgj32qo9",
+          "in_player_name": "Fabio Di Michele Sanchez",
+          "out_player_name": "Christian Joe Conteh"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "vjxm8ghgln3r6od",
+          "out_player_id": "dj2ryohjjpvyq1z",
+          "in_player_name": "Patrick Schmidt",
+          "out_player_name": "Dominik Becker"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghv97gxm0v",
+          "out_player_id": "dj2ryohgzpxq1zp",
+          "in_player_name": "Tim·Civeja",
+          "out_player_name": "Sebastian Vasiliadis"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whvpe4ryox",
+          "out_player_id": "6ypq3nhz4pvmd7o",
+          "in_player_name": "Kai Brünker",
+          "out_player_name": "Kasim Rabihic"
+        },
+        {
+          "time": 65,
+          "type": 28,
+          "position": 2,
+          "player_id": "l7oqdeh4d3lr510",
+          "var_reason": 4,
+          "var_result": 3,
+          "player_name": "Maurice Multhaup"
+        },
+        {
+          "time": 66,
+          "type": 8,
+          "position": 2,
+          "player_id": "3glrw7hj069nqdy",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Florian Krüger"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghgevkr6od",
+          "out_player_id": "4jwq2ghvplp3m0v",
+          "in_player_name": "Fabio Kaufmann",
+          "out_player_name": "Marvin Rittmüller"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhzl5n8m7v",
+          "out_player_id": "4wyrn4hd6zn9q86",
+          "in_player_name": "Richmond Tachie",
+          "out_player_name": "Johan Arath·Gomez"
+        },
+        {
+          "time": 83,
+          "type": 1,
+          "position": 2,
+          "player_id": "ednm9whvpe4ryox",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Kai Brünker"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 11,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "965mkyhe52opr1g",
+          "out_player_id": "4jwq2ghx55vm0ve",
+          "in_player_name": "Sidi Sane",
+          "out_player_name": "Sven Kohler"
+        },
+        {
+          "time": 91,
+          "type": 15,
+          "add_time": 1,
+          "position": 2,
+          "player_id": "k82rekh9xw5repz",
+          "player_name": "Calogero Rizzuto"
+        },
+        {
+          "time": 102,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 98,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l5ergpheydexr8k",
+          "out_player_id": "1l4rjnhz5x3zm7v",
+          "in_player_name": "L. Wilhelm",
+          "out_player_name": "Sven Sonnenberg"
+        },
+        {
+          "time": 105,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 106,
+          "type": 3,
+          "position": 2,
+          "player_id": "ednm9whvpe4ryox",
+          "player_name": "Kai Brünker",
+          "reason_type": 1
+        },
+        {
+          "time": 107,
+          "type": 1,
+          "position": 1,
+          "player_id": "x7lm7phwdk03m2w",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Fabio Di Michele Sanchez"
+        },
+        {
+          "time": 107,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7phw5y3m2wd",
+          "player_name": "Levente Szabó",
+          "reason_type": 15
+        },
+        {
+          "time": 120,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 120,
+          "type": 1,
+          "position": 1,
+          "player_id": "pxwrxlh959xjryk",
+          "assist1_id": "dj2ryoh2o89q1zp",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Rayan Philippe",
+          "assist1_name": "Ron-Thorben Hoffmann"
+        },
+        {
+          "time": 120,
+          "type": 26,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

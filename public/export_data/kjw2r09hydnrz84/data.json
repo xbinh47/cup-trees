@@ -1,0 +1,159 @@
+{
+  "season_id": "kjw2r09hydnrz84",
+  "brackets": [
+    {
+      "id": "4jwq2ghkwl7m0ve",
+      "competition_id": "kdj2ryohkvzq1zp",
+      "season_id": "kjw2r09hydnrz84",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1693670400,
+      "end_time": 1696089540,
+      "rounds": [
+        {
+          "id": "4jwq2gh6d18m0ve",
+          "bracket_id": "4jwq2ghkwl7m0ve",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1694239200,
+          "end_time": 1694250000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "jw2r09hl8nw6rz8",
+              "round_id": "4jwq2gh6d18m0ve",
+              "number": 3,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "ednm9wh992gryox",
+              "away_team_id": "k82rekhve0xrepz",
+              "winner_team_id": "k82rekhve0xrepz",
+              "home_score": 1,
+              "away_score": 3,
+              "parent_ids": [
+                "dj2ryohk8ynlq1z"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "2y8m4zh6j0peql0"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ednm9wh6le1ryox",
+          "bracket_id": "4jwq2ghkwl7m0ve",
+          "name": "Preliminary Final",
+          "abbr": "Preliminary Final",
+          "start_time": 1694854800,
+          "end_time": 1694854800,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "dj2ryohk8ynlq1z",
+              "round_id": "ednm9wh6le1ryox",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "k82rekhve0xrepz",
+              "away_team_id": "n54qllhe90yqvy9",
+              "winner_team_id": "k82rekhve0xrepz",
+              "home_score": 5,
+              "away_score": 2,
+              "parent_ids": [
+                "2y8m4zh3ljzvql0"
+              ],
+              "children_ids": [
+                "jw2r09hl8nw6rz8"
+              ],
+              "event_ids": [
+                "4jwq2ghek6wlm0v"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "965mkyh19glr1ge",
+          "bracket_id": "4jwq2ghkwl7m0ve",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1695459600,
+          "end_time": 1695459600,
+          "number": 3,
+          "match_ups": [
+            {
+              "id": "2y8m4zh3ljzvql0",
+              "round_id": "965mkyh19glr1ge",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "965mkyh3zjnr1ge",
+              "away_team_id": "k82rekhve0xrepz",
+              "winner_team_id": "k82rekhve0xrepz",
+              "home_score": 6,
+              "away_score": 7,
+              "parent_ids": [],
+              "children_ids": [
+                "l7oqdehn76lor51",
+                "dj2ryohk8ynlq1z"
+              ],
+              "event_ids": [
+                "y0or5jhn4889qwz"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "ednm9wh992gryox": {
+      "id": "ednm9wh992gryox",
+      "name": "Canberra Olympic"
+    },
+    "965mkyh3zjnr1ge": {
+      "id": "965mkyh3zjnr1ge",
+      "name": "OConnor Knights"
+    },
+    "k82rekhve0xrepz": {
+      "id": "k82rekhve0xrepz",
+      "name": "Canberra FC"
+    },
+    "n54qllhe90yqvy9": {
+      "id": "n54qllhe90yqvy9",
+      "name": "Gungahlin United"
+    }
+  },
+  "sport_events": {
+    "2y8m4zh6j0peql0": {
+      "id": "2y8m4zh6j0peql0",
+      "home_team_id": "ednm9wh992gryox",
+      "away_team_id": "k82rekhve0xrepz",
+      "start_timestamp": 1694239200,
+      "status_id": 8,
+      "sport_event_status": {},
+      "related_id": "",
+      "incidents": []
+    },
+    "4jwq2ghek6wlm0v": {
+      "id": "4jwq2ghek6wlm0v",
+      "home_team_id": "n54qllhe90yqvy9",
+      "away_team_id": "k82rekhve0xrepz",
+      "start_timestamp": 1694854800,
+      "status_id": 8,
+      "sport_event_status": {},
+      "related_id": "",
+      "incidents": []
+    },
+    "y0or5jhn4889qwz": {
+      "id": "y0or5jhn4889qwz",
+      "home_team_id": "965mkyh3zjnr1ge",
+      "away_team_id": "k82rekhve0xrepz",
+      "start_timestamp": 1695459600,
+      "status_id": 8,
+      "sport_event_status": {},
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

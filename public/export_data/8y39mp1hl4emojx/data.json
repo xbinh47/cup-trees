@@ -1,0 +1,310 @@
+{
+  "season_id": "8y39mp1hl4emojx",
+  "brackets": [
+    {
+      "id": "318q66h09lpqo9j",
+      "competition_id": "kjw2r09hxvrz84o",
+      "season_id": "8y39mp1hl4emojx",
+      "name": "Knockout stage",
+      "abbr": "Promotion Playoffs",
+      "start_time": 1714233600,
+      "end_time": 1715011140,
+      "rounds": [
+        {
+          "id": "vjxm8gh3zver6od",
+          "bracket_id": "318q66h09lpqo9j",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1714502700,
+          "end_time": 1714502700,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "y39mp1h5y0xwmoj",
+              "round_id": "vjxm8gh3zver6od",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "kdj2ryoh051q1zp",
+              "away_team_id": "y39mp1h3zwomojx",
+              "winner_team_id": "kdj2ryoh051q1zp",
+              "home_score": 3,
+              "away_score": 1,
+              "parent_ids": [
+                "dj2ryohygpjeq1z"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "4wyrn4hxlev5q86"
+              ]
+            },
+            {
+              "id": "k82rekh9o05xrep",
+              "round_id": "vjxm8gh3zver6od",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "dj2ryohk6zwq1zp",
+              "away_team_id": "l7oqdeh0lx3r510",
+              "winner_team_id": "dj2ryohk6zwq1zp",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [
+                "dj2ryohygpjeq1z"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "l5ergphw83njr8k"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x7lm7ph81gxm2wd",
+          "bracket_id": "318q66h09lpqo9j",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1715004000,
+          "end_time": 1715004000,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "dj2ryohygpjeq1z",
+              "round_id": "x7lm7ph81gxm2wd",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "kdj2ryoh051q1zp",
+              "away_team_id": "dj2ryohk6zwq1zp",
+              "winner_team_id": "dj2ryohk6zwq1zp",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [
+                "y39mp1h5y0xwmoj",
+                "k82rekh9o05xrep"
+              ],
+              "event_ids": [
+                "pxwrxlh53zojryk"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "kdj2ryoh051q1zp": {
+      "id": "kdj2ryoh051q1zp",
+      "name": "Macclesfield Town"
+    },
+    "dj2ryohk6zwq1zp": {
+      "id": "dj2ryohk6zwq1zp",
+      "name": "Marine"
+    },
+    "y39mp1h3zwomojx": {
+      "id": "y39mp1h3zwomojx",
+      "name": "Worksop Town"
+    },
+    "l7oqdeh0lx3r510": {
+      "id": "l7oqdeh0lx3r510",
+      "name": "Warrington Rylands"
+    }
+  },
+  "sport_events": {
+    "4wyrn4hxlev5q86": {
+      "id": "4wyrn4hxlev5q86",
+      "home_team_id": "kdj2ryoh051q1zp",
+      "away_team_id": "y39mp1h3zwomojx",
+      "start_timestamp": 1714502700,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 10,
+          "type": 1,
+          "position": 1,
+          "player_id": "zp5rzghxj83oq82",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Kane drummond"
+        },
+        {
+          "time": 41,
+          "type": 1,
+          "position": 1,
+          "player_id": "4jwq2ghx5w14m0v",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Alex curran"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 60,
+          "type": 1,
+          "position": 1,
+          "player_id": "pxwrxlh9o8yeryk",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Tunde Owolabi"
+        },
+        {
+          "time": 73,
+          "type": 1,
+          "position": 2,
+          "player_id": "l7oqdeh47pvgr51",
+          "away_score": 1,
+          "home_score": 3,
+          "player_name": "Regan hutchinson"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "l5ergphw83njr8k": {
+      "id": "l5ergphw83njr8k",
+      "home_team_id": "dj2ryohk6zwq1zp",
+      "away_team_id": "l7oqdeh0lx3r510",
+      "start_timestamp": 1714502700,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 1,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 1
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "pxwrxlh53zojryk": {
+      "id": "pxwrxlh53zojryk",
+      "home_team_id": "kdj2ryoh051q1zp",
+      "away_team_id": "dj2ryohk6zwq1zp",
+      "start_timestamp": 1715004000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 25,
+          "type": 8,
+          "position": 2,
+          "player_id": "x7lm7ph06nv2m2w",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Finlay smith sinclair"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 68,
+          "type": 1,
+          "position": 2,
+          "player_id": "jw2r09hjpd91rz8",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Jack bainbridge"
+        },
+        {
+          "time": 78,
+          "type": 1,
+          "position": 1,
+          "player_id": "zp5rzghxj83oq82",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Kane drummond"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

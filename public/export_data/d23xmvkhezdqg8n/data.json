@@ -1,0 +1,372 @@
+{
+  "season_id": "d23xmvkhezdqg8n",
+  "brackets": [
+    {
+      "id": "y0or5jheovnqwzv",
+      "competition_id": "gx7lm7ph001m2wd",
+      "season_id": "d23xmvkhezdqg8n",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1760803200,
+      "end_time": 1761494400,
+      "rounds": [
+        {
+          "id": "8yomo4hgdw3q0j6",
+          "bracket_id": "y0or5jheovnqwzv",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1760817600,
+          "end_time": 1761422400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "vjxm8ghg05dlr6o",
+              "round_id": "8yomo4hgdw3q0j6",
+              "number": 1,
+              "type_id": 6,
+              "state_id": 8,
+              "home_team_id": "p4jwq2ghlpkm0ve",
+              "away_team_id": "kn54qllh667qvy9",
+              "winner_team_id": "kn54qllh667qvy9",
+              "home_score": 0,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "6ypq3nhve3y4md7",
+                "pxwrxlhye587ryk"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "p4jwq2ghlpkm0ve": {
+      "id": "p4jwq2ghlpkm0ve",
+      "name": "Londrina PR"
+    },
+    "kn54qllh667qvy9": {
+      "id": "kn54qllh667qvy9",
+      "name": "Ponte Preta"
+    }
+  },
+  "sport_events": {
+    "6ypq3nhve3y4md7": {
+      "id": "6ypq3nhve3y4md7",
+      "home_team_id": "p4jwq2ghlpkm0ve",
+      "away_team_id": "kn54qllh667qvy9",
+      "start_timestamp": 1760817600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "pxwrxlhye587ryk",
+      "incidents": [
+        {
+          "time": 19,
+          "type": 3,
+          "position": 2,
+          "player_id": "3glrw7hj5l0wqdy",
+          "player_name": "Pacheco"
+        },
+        {
+          "time": 22,
+          "type": 3,
+          "position": 1,
+          "player_id": "vjxm8gh85ldr6od",
+          "player_name": "Lucas Marques"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "zp5rzghxo92gq82",
+          "out_player_id": "x7lm7phw0o34m2w",
+          "in_player_name": "candido lucas",
+          "out_player_name": "Luiz Felipe"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dn1m1ghnke9ymoe",
+          "out_player_id": "8yomo4hkjk0q0j6",
+          "in_player_name": "Serginho",
+          "out_player_name": "Elvis"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "1l4rjnhkg03nm7v",
+          "out_player_id": "x7lm7phw4kozm2w",
+          "in_player_name": "oliveira leo",
+          "out_player_name": "souza rodrigo"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dj2ryoh52n2q1zp",
+          "out_player_id": "2y8m4zhg0j6ql07",
+          "in_player_name": "Robson",
+          "out_player_name": "Cristiano"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8ghjzgwzr6o",
+          "out_player_id": "l5ergphe4ge2r8k",
+          "in_player_name": "Rafael Augusto Damazio de Castro",
+          "out_player_name": "Victor Hugo de Faria Mota"
+        },
+        {
+          "time": 74,
+          "type": 3,
+          "position": 2,
+          "player_id": "n54qllhk8jgqvy9",
+          "player_name": "Saimon"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y39mp1h18z5pmoj",
+          "out_player_id": "vjxm8gh9xg2r6od",
+          "in_player_name": "miguel",
+          "out_player_name": "Jonas Toró"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4wyrn4h418xwq86",
+          "out_player_id": "4wyrn4hdv1ojq86",
+          "in_player_name": "Eliel Chrystian",
+          "out_player_name": "Diego Quirino"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "jw2r09hwdxoyrz8",
+          "out_player_id": "x7lm7ph976nwm2w",
+          "in_player_name": "bezerro vitor joao",
+          "out_player_name": "José Breno Silva Costa"
+        },
+        {
+          "time": 86,
+          "type": 3,
+          "position": 1,
+          "player_id": "l5ergphn6868r8k",
+          "player_name": "teles iago"
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "4jwq2gh7jlg0m0v",
+          "out_player_id": "n54qllhjd7ekqvy",
+          "in_player_name": "lopes gustavo",
+          "out_player_name": "lopes bruno"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "pxwrxlhye587ryk": {
+      "id": "pxwrxlhye587ryk",
+      "home_team_id": "kn54qllh667qvy9",
+      "away_team_id": "p4jwq2ghlpkm0ve",
+      "start_timestamp": 1761422400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "6ypq3nhve3y4md7",
+      "incidents": [
+        {
+          "time": 3,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7phw0o34m2w",
+          "player_name": "Luiz Felipe"
+        },
+        {
+          "time": 12,
+          "type": 3,
+          "position": 2,
+          "player_id": "l5ergphe4ge2r8k",
+          "player_name": "Victor Hugo de Faria Mota"
+        },
+        {
+          "time": 15,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dn1m1ghnke9ymoe",
+          "out_player_id": "n54qllhjd7ekqvy",
+          "in_player_name": "Serginho",
+          "out_player_name": "lopes bruno"
+        },
+        {
+          "time": 26,
+          "type": 3,
+          "position": 1,
+          "player_id": "dn1m1gh3676xmoe",
+          "player_name": "Tavares diego"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dj2ryoh52n2q1zp",
+          "out_player_id": "l5ergphe4ge2r8k",
+          "in_player_name": "Robson",
+          "out_player_name": "Victor Hugo de Faria Mota"
+        },
+        {
+          "time": 49,
+          "type": 1,
+          "position": 1,
+          "player_id": "vjxm8gh9xg2r6od",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Jonas Toró"
+        },
+        {
+          "time": 55,
+          "type": 3,
+          "position": 2,
+          "player_id": "2y8m4zhg0j6ql07",
+          "player_name": "Cristiano"
+        },
+        {
+          "time": 62,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7phw4kozm2w",
+          "player_name": "souza rodrigo"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "zp5rzghxo92gq82",
+          "out_player_id": "x7lm7phw4kozm2w",
+          "in_player_name": "candido lucas",
+          "out_player_name": "souza rodrigo"
+        },
+        {
+          "time": 65,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnhkg03nm7v",
+          "out_player_id": "x7lm7phw0o34m2w",
+          "in_player_name": "oliveira leo",
+          "out_player_name": "Luiz Felipe"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l7oqdehl3vlr510",
+          "out_player_id": "2y8m4zhg0j6ql07",
+          "in_player_name": "Henrique Roberto Rafael",
+          "out_player_name": "Cristiano"
+        },
+        {
+          "time": 74,
+          "type": 8,
+          "position": 1,
+          "player_id": "8yomo4hkjk0q0j6",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Elvis"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y39mp1h18z5pmoj",
+          "out_player_id": "8yomo4hkjk0q0j6",
+          "in_player_name": "miguel",
+          "out_player_name": "Elvis"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "965mkyhnzxevr1g",
+          "out_player_id": "dn1m1gh3676xmoe",
+          "in_player_name": "Jeh",
+          "out_player_name": "Tavares diego"
+        },
+        {
+          "time": 97,
+          "type": 3,
+          "add_time": 7,
+          "position": 1
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

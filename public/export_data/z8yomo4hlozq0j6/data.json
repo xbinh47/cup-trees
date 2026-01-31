@@ -1,0 +1,117 @@
+{
+  "season_id": "z8yomo4hlozq0j6",
+  "brackets": [
+    {
+      "id": "965mkyh4d37r1ge",
+      "competition_id": "gx7lm7phnjm2wdk",
+      "season_id": "z8yomo4hlozq0j6",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1700323200,
+      "end_time": 1701359940,
+      "rounds": [
+        {
+          "id": "jw2r09h9jylrz84",
+          "bracket_id": "965mkyh4d37r1ge",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1700672400,
+          "end_time": 1701000000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l5ergph3o0n0r8k",
+              "round_id": "jw2r09h9jylrz84",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "318q66h09epqo9j",
+              "away_team_id": "ednm9whk16pryox",
+              "winner_team_id": "ednm9whk16pryox",
+              "home_score": 2,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "dj2ryoh1gd8eq1z",
+                "ednm9wh7v6keryo"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "ednm9whk16pryox": {
+      "id": "ednm9whk16pryox",
+      "name": "Avaldsnes Women"
+    },
+    "318q66h09epqo9j": {
+      "id": "318q66h09epqo9j",
+      "name": "Tromso Women"
+    }
+  },
+  "sport_events": {
+    "dj2ryoh1gd8eq1z": {
+      "id": "dj2ryoh1gd8eq1z",
+      "home_team_id": "318q66h09epqo9j",
+      "away_team_id": "ednm9whk16pryox",
+      "start_timestamp": 1700672400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "ednm9wh7v6keryo": {
+      "id": "ednm9wh7v6keryo",
+      "home_team_id": "ednm9whk16pryox",
+      "away_team_id": "318q66h09epqo9j",
+      "start_timestamp": 1701000000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,794 @@
+{
+  "season_id": "e4wyrn4hpgvq86p",
+  "brackets": [
+    {
+      "id": "6ypq3nh5xeomd7o",
+      "competition_id": "z8yomo4hdnq0j6l",
+      "season_id": "e4wyrn4hpgvq86p",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1714492800,
+      "end_time": 1717084800,
+      "rounds": [
+        {
+          "id": "x7lm7ph8le2m2wd",
+          "bracket_id": "6ypq3nh5xeomd7o",
+          "name": "Placement match for 3rd",
+          "abbr": "3rd",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "k82rekh9op7prep",
+              "round_id": "x7lm7ph8le2m2wd",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "23xmvkho372qg8n",
+              "away_team_id": "dn1m1ghe45ymoep",
+              "winner_team_id": "dn1m1ghe45ymoep",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "vjxm8ghlwl6kr6o"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "y0or5jh6vkdqwzv",
+          "bracket_id": "6ypq3nh5xeomd7o",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "318q66h04y5eqo9",
+              "round_id": "y0or5jh6vkdqwzv",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "zp5rzghjvdpq82w",
+              "away_team_id": "23xmvkho372qg8n",
+              "winner_team_id": "zp5rzghjvdpq82w",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [
+                "4wyrn4he4pkjq86"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "pxwrxlh53xv4ryk"
+              ]
+            },
+            {
+              "id": "dn1m1ghe3ywwmoe",
+              "round_id": "y0or5jh6vkdqwzv",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "4jwq2gh4x9vm0ve",
+              "away_team_id": "dn1m1ghe45ymoep",
+              "winner_team_id": "4jwq2gh4x9vm0ve",
+              "home_score": 3,
+              "away_score": 0,
+              "parent_ids": [
+                "4wyrn4he4pkjq86"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "y0or5jhnoz1yqwz"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n54qllh1l66qvy9",
+          "bracket_id": "6ypq3nh5xeomd7o",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1716116400,
+          "end_time": 1716116400,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "4wyrn4he4pkjq86",
+              "round_id": "n54qllh1l66qvy9",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "zp5rzghjvdpq82w",
+              "away_team_id": "4jwq2gh4x9vm0ve",
+              "winner_team_id": "zp5rzghjvdpq82w",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "318q66h04y5eqo9",
+                "dn1m1ghe3ywwmoe"
+              ],
+              "event_ids": [
+                "x7lm7phz7zevm2w"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "dn1m1ghe45ymoep": {
+      "id": "dn1m1ghe45ymoep",
+      "name": "South Korea U17 Women"
+    },
+    "4jwq2gh4x9vm0ve": {
+      "id": "4jwq2gh4x9vm0ve",
+      "name": "Japan U17 Women"
+    },
+    "zp5rzghjvdpq82w": {
+      "id": "zp5rzghjvdpq82w",
+      "name": "North Korea (w) U17"
+    },
+    "23xmvkho372qg8n": {
+      "id": "23xmvkho372qg8n",
+      "name": "China U17 Women"
+    }
+  },
+  "sport_events": {
+    "pxwrxlh53xv4ryk": {
+      "id": "pxwrxlh53xv4ryk",
+      "home_team_id": "zp5rzghjvdpq82w",
+      "away_team_id": "23xmvkho372qg8n",
+      "start_timestamp": 1715857200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 13,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 11,
+          "type": 1,
+          "position": 1,
+          "player_id": "pxwrxlhze1k0ryk",
+          "assist1_id": "vjxm8ghp3gz6r6o",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Choe Yon A",
+          "assist1_name": "Choe Il Son"
+        },
+        {
+          "time": 31,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "4jwq2gh71zk9m0v",
+          "out_player_id": "k82rekh31092rep",
+          "in_player_name": "Song Yu",
+          "out_player_name": "Sun Mengyue"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 52,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohn2eyzq1z",
+          "out_player_id": "318q66hj2o04qo9",
+          "in_player_name": "Wu Zhe",
+          "out_player_name": "Cheng Haitang"
+        },
+        {
+          "time": 58,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h0xkdyq0j",
+          "out_player_id": "vjxm8ghp3gz6r6o",
+          "in_player_name": "Kang Ryu Mi",
+          "out_player_name": "Choe Il Son"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "n54qllhjdpedqvy",
+          "out_player_id": "vjxm8ghpx5gjr6o",
+          "in_player_name": "Zhou Xinyi",
+          "out_player_name": "Liu Zeyu"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghx1670q82",
+          "out_player_id": "pxwrxlhzvxokryk",
+          "in_player_name": "Yang Yifan",
+          "out_player_name": "Lin Yuya"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhz1wj2ql0",
+          "out_player_id": "k82rekh310v6rep",
+          "in_player_name": "Zhang Jie",
+          "out_player_name": "Li Yuhan"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l5ergphny39yr8k",
+          "out_player_id": "y0or5jhg64vlqwz",
+          "in_player_name": "So Ryu Gyong",
+          "out_player_name": "Ro Un Hyang"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 93,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghx47npq82",
+          "out_player_id": "318q66hj205kqo9",
+          "in_player_name": "Son Jo Ye",
+          "out_player_name": "Jon Il Chong"
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "vjxm8ghlwl6kr6o": {
+      "id": "vjxm8ghlwl6kr6o",
+      "home_team_id": "23xmvkho372qg8n",
+      "away_team_id": "dn1m1ghe45ymoep",
+      "start_timestamp": 1716102000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 13,
+          "type": 1,
+          "position": 2,
+          "player_id": "l7oqdeh07z97r51",
+          "assist1_id": "dn1m1gh87npnmoe",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Casey Phair",
+          "assist1_name": "Won Joo-eun"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghpx5gjr6o",
+          "out_player_id": "2y8m4zhz1wj2ql0",
+          "in_player_name": "Liu Zeyu",
+          "out_player_name": "Zhang Jie"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghx1670q82",
+          "out_player_id": "4wyrn4hv9o8xq86",
+          "in_player_name": "Yang Yifan",
+          "out_player_name": "Wang Dantong"
+        },
+        {
+          "time": 56,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhze9x5ryk",
+          "out_player_id": "8yomo4h0x2g4q0j",
+          "in_player_name": "Han Gukhui",
+          "out_player_name": "Baek Jieun"
+        },
+        {
+          "time": 56,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhzxgwxql0",
+          "out_player_id": "4jwq2gh7pv93m0v",
+          "in_player_name": "Ryoo Ji-hae ",
+          "out_player_name": "Shin Da-in"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4hv9oe1q86",
+          "out_player_id": "k82rekh310v6rep",
+          "in_player_name": "Dong Yujie",
+          "out_player_name": "Li Yuhan"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohn2eyzq1z",
+          "out_player_id": "1l4rjnhkej15m7v",
+          "in_player_name": "Wu Zhe",
+          "out_player_name": "Zhong Yuxin"
+        },
+        {
+          "time": 74,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l5ergphnpl36r8k",
+          "out_player_id": "n54qllhjdpedqvy",
+          "in_player_name": "Xiao Jiaqi",
+          "out_player_name": "Zhou Xinyi"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "n54qllhj1xpyqvy",
+          "out_player_id": "4wyrn4hv2do4q86",
+          "in_player_name": "Park Juha",
+          "out_player_name": "Seo Min-jeong"
+        },
+        {
+          "time": 77,
+          "type": 3,
+          "position": 1,
+          "player_id": "dj2ryohn2eyzq1z",
+          "player_name": "Wu Zhe",
+          "reason_type": 1
+        },
+        {
+          "time": 81,
+          "type": 1,
+          "position": 1,
+          "player_id": "4wyrn4hv9oe1q86",
+          "assist1_id": "dj2ryohn2eyzq1z",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Dong Yujie",
+          "assist1_name": "Wu Zhe"
+        },
+        {
+          "time": 84,
+          "type": 1,
+          "position": 2,
+          "player_id": "l7oqdeh07z97r51",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Casey Phair"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 97,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "x7lm7phz7zevm2w": {
+      "id": "x7lm7phz7zevm2w",
+      "home_team_id": "zp5rzghjvdpq82w",
+      "away_team_id": "4jwq2gh4x9vm0ve",
+      "start_timestamp": 1716116400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 43,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h0xkdyq0j",
+          "out_player_id": "l7oqdehl2658r51",
+          "in_player_name": "Kang Ryu Mi",
+          "out_player_name": "Ho Kyong"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "n54qllhj947kqvy",
+          "out_player_id": "zp5rzghx0354q82",
+          "in_player_name": "Kikuchi Hana",
+          "out_player_name": "Hirakawa Hina"
+        },
+        {
+          "time": 46,
+          "type": 1,
+          "position": 1,
+          "player_id": "318q66hj205kqo9",
+          "assist1_id": "vjxm8ghp3gz6r6o",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Jon Il Chong",
+          "assist1_name": "Choe Il Son"
+        },
+        {
+          "time": 58,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whggop6ryo",
+          "out_player_id": "y39mp1h1pdzdmoj",
+          "in_player_name": "Anon Tsuda",
+          "out_player_name": "Sato Momo Saruang Ueki"
+        },
+        {
+          "time": 84,
+          "type": 3,
+          "position": 1,
+          "player_id": "vjxm8ghp3gzyr6o",
+          "player_name": "Ri Kuk Hyang",
+          "reason_type": 19
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whg6577ryo",
+          "out_player_id": "vjxm8ghp9kl8r6o",
+          "in_player_name": "Nezu Ririka",
+          "out_player_name": "Furuta Asako"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhlgk30md7",
+          "out_player_id": "2y8m4zhznvwlql0",
+          "in_player_name": "Aso Tamami",
+          "out_player_name": "Ota Mitsuki"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 1,
+          "player_id": "318q66hj205kqo9",
+          "player_name": "Jon Il Chong",
+          "reason_type": 15
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "zp5rzghx47npq82",
+          "out_player_id": "318q66hj205kqo9",
+          "in_player_name": "Son Jo Ye",
+          "out_player_name": "Jon Il Chong"
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "position": 1,
+          "player_id": "3glrw7hz61veqdy",
+          "player_name": "Pak IL Sim",
+          "reason_type": 15
+        },
+        {
+          "time": 97,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "y0or5jhnoz1yqwz": {
+      "id": "y0or5jhnoz1yqwz",
+      "home_team_id": "4jwq2gh4x9vm0ve",
+      "away_team_id": "dn1m1ghe45ymoep",
+      "start_timestamp": 1715842800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 24,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4hv2do4q86",
+          "out_player_id": "l7oqdehl0xp2r51",
+          "in_player_name": "Seo Min-jeong",
+          "out_player_name": "Kwon Da-Eun"
+        },
+        {
+          "time": 40,
+          "type": 1,
+          "position": 1,
+          "player_id": "ednm9whg6577ryo",
+          "assist1_id": "k82rekh3n2werep",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Nezu Ririka",
+          "assist1_name": "Tsuji Amiru"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whgxz0jryo",
+          "out_player_id": "965mkyhn53opr1g",
+          "in_player_name": "Sin Seong-hee",
+          "out_player_name": "Lee Ha-eun"
+        },
+        {
+          "time": 52,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhzxgwxql0",
+          "out_player_id": "3glrw7hz6j3nqdy",
+          "in_player_name": "Ryoo Ji-hae ",
+          "out_player_name": "Park Ji-yoo"
+        },
+        {
+          "time": 52,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhze9x5ryk",
+          "out_player_id": "8yomo4h0x2g4q0j",
+          "in_player_name": "Han Gukhui",
+          "out_player_name": "Baek Jieun"
+        },
+        {
+          "time": 60,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghx0354q82",
+          "out_player_id": "k82rekh3n2werep",
+          "in_player_name": "Hirakawa Hina",
+          "out_player_name": "Tsuji Amiru"
+        },
+        {
+          "time": 60,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhlgk30md7",
+          "out_player_id": "2y8m4zhznvwlql0",
+          "in_player_name": "Aso Tamami",
+          "out_player_name": "Ota Mitsuki"
+        },
+        {
+          "time": 68,
+          "type": 1,
+          "position": 1,
+          "player_id": "l5ergphexl61r8k",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Miharu Shinjo"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y39mp1h1pdzdmoj",
+          "out_player_id": "vjxm8ghp9kl8r6o",
+          "in_player_name": "Sato Momo Saruang Ueki",
+          "out_player_name": "Furuta Asako"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "n54qllhj947kqvy",
+          "out_player_id": "ednm9whg6577ryo",
+          "in_player_name": "Kikuchi Hana",
+          "out_player_name": "Nezu Ririka"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "x7lm7ph9803vm2w",
+          "out_player_id": "l7oqdeh07z97r51",
+          "in_player_name": "Ji Ae",
+          "out_player_name": "Casey Phair"
+        },
+        {
+          "time": 83,
+          "type": 3,
+          "position": 1,
+          "player_id": "y39mp1h1pdzdmoj",
+          "player_name": "Sato Momo Saruang Ueki",
+          "reason_type": 1
+        },
+        {
+          "time": 88,
+          "type": 1,
+          "position": 1,
+          "player_id": "l5ergphexl61r8k",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Miharu Shinjo"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "jw2r09hw756zrz8",
+          "out_player_id": "l7oqdehldj85r51",
+          "in_player_name": "Nagai Airi",
+          "out_player_name": "Fukuda Mao"
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

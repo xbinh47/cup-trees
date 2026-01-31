@@ -1,0 +1,146 @@
+{
+  "season_id": "z8yomo4hpxkq0j6",
+  "brackets": [
+    {
+      "id": "1l4rjnh1v79m7vx",
+      "competition_id": "kjw2r09hg9rz84o",
+      "season_id": "z8yomo4hpxkq0j6",
+      "name": "Relegation/Promotion Playoff",
+      "abbr": "Primera Divis",
+      "start_time": 1716566400,
+      "end_time": 1717171140,
+      "rounds": [
+        {
+          "id": "3glrw7hpknvqdyj",
+          "bracket_id": "1l4rjnh1v79m7vx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1716661800,
+          "end_time": 1717007400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "ednm9wh9ge0vryo",
+              "round_id": "3glrw7hpknvqdyj",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "4wyrn4hev6vq86p",
+              "away_team_id": "3glrw7h13d1qdyj",
+              "winner_team_id": "4wyrn4hev6vq86p",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "8yomo4h346o0q0j",
+                "6ypq3nh3npo1md7"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "3glrw7h13d1qdyj": {
+      "id": "3glrw7h13d1qdyj",
+      "name": "CE Carroi"
+    },
+    "4wyrn4hev6vq86p": {
+      "id": "4wyrn4hev6vq86p",
+      "name": "Ranger's FC"
+    }
+  },
+  "sport_events": {
+    "6ypq3nh3npo1md7": {
+      "id": "6ypq3nh3npo1md7",
+      "home_team_id": "3glrw7h13d1qdyj",
+      "away_team_id": "4wyrn4hev6vq86p",
+      "start_timestamp": 1717007400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 2,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 17,
+          "type": 1,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 0
+        },
+        {
+          "time": 110,
+          "type": 4,
+          "position": 1
+        },
+        {
+          "time": 114,
+          "type": 1,
+          "position": 2,
+          "away_score": 2,
+          "home_score": 0
+        }
+      ]
+    },
+    "8yomo4h346o0q0j": {
+      "id": "8yomo4h346o0q0j",
+      "home_team_id": "4wyrn4hev6vq86p",
+      "away_team_id": "3glrw7h13d1qdyj",
+      "start_timestamp": 1716661800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 90,
+          "type": 8,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 0
+        }
+      ]
+    }
+  }
+}

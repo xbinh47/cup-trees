@@ -1,0 +1,261 @@
+{
+  "season_id": "9k82rekhk3wrepz",
+  "brackets": [
+    {
+      "id": "l5ergph3k49r8k0",
+      "competition_id": "j1l4rjnh50m7vx5",
+      "season_id": "9k82rekhk3wrepz",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1714406400,
+      "end_time": 1714751940,
+      "rounds": [
+        {
+          "id": "ednm9wh62g3ryox",
+          "bracket_id": "l5ergph3k49r8k0",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1714503600,
+          "end_time": 1714762800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "2y8m4zhj8wk9ql0",
+              "round_id": "ednm9wh62g3ryox",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "dj2ryohkj88q1zp",
+              "away_team_id": "y0or5jhl92gqwzv",
+              "winner_team_id": "dj2ryohkj88q1zp",
+              "home_score": 7,
+              "away_score": 6,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "6ypq3nh3n58emd7",
+                "pxwrxlh531n3ryk"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "y0or5jhl92gqwzv": {
+      "id": "y0or5jhl92gqwzv",
+      "name": "Dergview FC"
+    },
+    "dj2ryohkj88q1zp": {
+      "id": "dj2ryohkj88q1zp",
+      "name": "Armagh City"
+    }
+  },
+  "sport_events": {
+    "6ypq3nh3n58emd7": {
+      "id": "6ypq3nh3n58emd7",
+      "home_team_id": "dj2ryohkj88q1zp",
+      "away_team_id": "y0or5jhl92gqwzv",
+      "start_timestamp": 1714503600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "pxwrxlh531n3ryk": {
+      "id": "pxwrxlh531n3ryk",
+      "home_team_id": "y0or5jhl92gqwzv",
+      "away_team_id": "dj2ryohkj88q1zp",
+      "start_timestamp": 1714762800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 5,
+          "regular_score": 0,
+          "overTime_score": 1,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 6,
+          "penalty_score": 4,
+          "regular_score": 0,
+          "overTime_score": 1,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 107,
+          "type": 1,
+          "position": 2,
+          "player_id": "l7oqdeh0w708r51",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Conor mullen"
+        },
+        {
+          "time": 111,
+          "type": 8,
+          "position": 1,
+          "player_id": "6ypq3nhw9kvxmd7",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Padraig lynch"
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 1
+        },
+        {
+          "time": 120,
+          "type": 30,
+          "position": 2,
+          "away_score": 0,
+          "home_score": 1
+        },
+        {
+          "time": 120,
+          "type": 30,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 1
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 120,
+          "type": 30,
+          "position": 1,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 120,
+          "type": 30,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "away_score": 1,
+          "home_score": 2
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "away_score": 2,
+          "home_score": 2
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "away_score": 2,
+          "home_score": 3
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "away_score": 3,
+          "home_score": 3
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 1,
+          "away_score": 3,
+          "home_score": 4
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "away_score": 4,
+          "home_score": 4
+        },
+        {
+          "time": 120,
+          "type": 30,
+          "position": 1,
+          "away_score": 4,
+          "home_score": 4
+        },
+        {
+          "time": 120,
+          "type": 29,
+          "position": 2,
+          "away_score": 5,
+          "home_score": 4
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

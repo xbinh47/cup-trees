@@ -1,0 +1,87 @@
+{
+  "season_id": "p4jwq2ghlldm0ve",
+  "brackets": [
+    {
+      "id": "y39mp1hj099mojx",
+      "competition_id": "p3glrw7hd1qdyjv",
+      "season_id": "p4jwq2ghlldm0ve",
+      "name": "Knockout stage",
+      "abbr": "Super cup",
+      "start_time": 1772208000,
+      "end_time": 1772290800,
+      "rounds": [
+        {
+          "id": "l5ergphlgv6r8k0",
+          "bracket_id": "y39mp1hj099mojx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1772265600,
+          "end_time": 1772265600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "k82rekh9e4njrep",
+              "round_id": "l5ergphlgv6r8k0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 1,
+              "home_team_id": "8yomo4h7401q0j6",
+              "away_team_id": "jednm9whlxkryox",
+              "winner_team_id": "",
+              "home_score": 0,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "l7oqdehg3zjer51"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "jednm9whlxkryox": {
+      "id": "jednm9whlxkryox",
+      "name": "Beijing Guoan FC"
+    },
+    "8yomo4h7401q0j6": {
+      "id": "8yomo4h7401q0j6",
+      "name": "Shanghai Port FC"
+    }
+  },
+  "sport_events": {
+    "l7oqdehg3zjer51": {
+      "id": "l7oqdehg3zjer51",
+      "home_team_id": "8yomo4h7401q0j6",
+      "away_team_id": "jednm9whlxkryox",
+      "start_timestamp": 1772350200,
+      "status_id": 1,
+      "sport_event_status": {
+        "status_id": 1,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

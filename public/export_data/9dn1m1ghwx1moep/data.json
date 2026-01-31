@@ -1,0 +1,544 @@
+{
+  "season_id": "9dn1m1ghwx1moep",
+  "brackets": [
+    {
+      "id": "dj2ryohjdopq1zp",
+      "competition_id": "jednm9wheoryox8",
+      "season_id": "9dn1m1ghwx1moep",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1746460800,
+      "end_time": 1747583940,
+      "rounds": [
+        {
+          "id": "y39mp1h0wn8mojx",
+          "bracket_id": "dj2ryohjdopq1zp",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1746557100,
+          "end_time": 1746885600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "n54qllhe7n8wqvy",
+              "round_id": "y39mp1h0wn8mojx",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "vl7oqdehkz5r510",
+              "away_team_id": "y0or5jhlx1vqwzv",
+              "winner_team_id": "y0or5jhlx1vqwzv",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [
+                "n54qllhe74dlqvy"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "dn1m1ghl4elzmoe",
+                "k82rekhgv9gjrep"
+              ]
+            },
+            {
+              "id": "y0or5jh4n835qwz",
+              "round_id": "y39mp1h0wn8mojx",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "56ypq3nhjwxmd7o",
+              "away_team_id": "gpxwrxlhkw4ryk0",
+              "winner_team_id": "gpxwrxlhkw4ryk0",
+              "home_score": 2,
+              "away_score": 5,
+              "parent_ids": [
+                "n54qllhe74dlqvy"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "318q66hxo0xdqo9",
+                "y39mp1h6356omoj"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "k82rekh0644repz",
+          "bracket_id": "dj2ryohjdopq1zp",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1747249800,
+          "end_time": 1747499400,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "n54qllhe74dlqvy",
+              "round_id": "k82rekh0644repz",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "y0or5jhlx1vqwzv",
+              "away_team_id": "gpxwrxlhkw4ryk0",
+              "winner_team_id": "gpxwrxlhkw4ryk0",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [
+                "y0or5jh4n835qwz",
+                "n54qllhe7n8wqvy"
+              ],
+              "event_ids": [
+                "k82rekhgv1x1rep",
+                "318q66hxokg7qo9"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "y0or5jhlx1vqwzv": {
+      "id": "y0or5jhlx1vqwzv",
+      "name": "Cove Rangers"
+    },
+    "56ypq3nhjwxmd7o": {
+      "id": "56ypq3nhjwxmd7o",
+      "name": "Stenhousemuir"
+    },
+    "vl7oqdehkz5r510": {
+      "id": "vl7oqdehkz5r510",
+      "name": "Queen of South"
+    },
+    "gpxwrxlhkw4ryk0": {
+      "id": "gpxwrxlhkw4ryk0",
+      "name": "Airdrie United"
+    }
+  },
+  "sport_events": {
+    "318q66hxo0xdqo9": {
+      "id": "318q66hxo0xdqo9",
+      "home_team_id": "56ypq3nhjwxmd7o",
+      "away_team_id": "gpxwrxlhkw4ryk0",
+      "start_timestamp": 1746557100,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "y39mp1h6356omoj",
+      "incidents": []
+    },
+    "318q66hxokg7qo9": {
+      "id": "318q66hxokg7qo9",
+      "home_team_id": "gpxwrxlhkw4ryk0",
+      "away_team_id": "y0or5jhlx1vqwzv",
+      "start_timestamp": 1747499400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "k82rekhgv1x1rep",
+      "incidents": [
+        {
+          "time": 46,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 53,
+          "type": 3,
+          "position": 1,
+          "player_id": "dj2ryohjwwj1q1z",
+          "player_name": "Adam Frizzell",
+          "reason_type": 15
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "965mkyhed6x2r1g",
+          "out_player_id": "k82rekhy4d9zrep",
+          "in_player_name": "liam mcstravick",
+          "out_player_name": "Chris Mochrie"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4h4yp78q86",
+          "out_player_id": "318q66hvnz86qo9",
+          "in_player_name": "Gavin Gallagher",
+          "out_player_name": "Lewis·McGrattan"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "zp5rzgh24kgq82w",
+          "out_player_id": "965mkyhevxx2r1g",
+          "in_player_name": "Mitchell Megginson",
+          "out_player_name": "Findlay Marshall"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "x7lm7phwd2nxm2w",
+          "out_player_id": "ednm9whz6x7jryo",
+          "in_player_name": "Grady McGrath",
+          "out_player_name": "Declan Glass"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhx306dm7v",
+          "out_player_id": "ednm9whvpv84ryo",
+          "in_player_name": "Myles Gaffney",
+          "out_player_name": "W. Gillingham"
+        },
+        {
+          "time": 83,
+          "type": 3,
+          "position": 2,
+          "player_id": "1l4rjnh68l2m7vx",
+          "player_name": "Fraser Fyvie",
+          "reason_type": 1
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whvloleryo",
+          "out_player_id": "8yomo4h2lneeq0j",
+          "in_player_name": "L. Parker",
+          "out_player_name": "ryan harrington"
+        },
+        {
+          "time": 86,
+          "type": 3,
+          "position": 2,
+          "player_id": "y39mp1hpy4lmojx",
+          "player_name": "Blair Yule",
+          "reason_type": 19
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "dn1m1ghl4elzmoe": {
+      "id": "dn1m1ghl4elzmoe",
+      "home_team_id": "vl7oqdehkz5r510",
+      "away_team_id": "y0or5jhlx1vqwzv",
+      "start_timestamp": 1746557100,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "k82rekhgv9gjrep",
+      "incidents": []
+    },
+    "k82rekhgv1x1rep": {
+      "id": "k82rekhgv1x1rep",
+      "home_team_id": "y0or5jhlx1vqwzv",
+      "away_team_id": "gpxwrxlhkw4ryk0",
+      "start_timestamp": 1747249800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "318q66hxokg7qo9",
+      "incidents": [
+        {
+          "time": 16,
+          "type": 1,
+          "position": 2,
+          "player_id": "3glrw7hy736yqdy",
+          "assist1_id": "dj2ryohjwwj1q1z",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "D. McDonald",
+          "assist1_name": "Adam Frizzell"
+        },
+        {
+          "time": 35,
+          "type": 17,
+          "position": 1,
+          "player_id": "318q66hvnz86qo9",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Lewis·McGrattan"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 1,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 3,
+          "position": 1,
+          "player_id": "ednm9whz6x7jryo",
+          "player_name": "Declan Glass",
+          "reason_type": 1
+        },
+        {
+          "time": 47,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 3,
+          "position": 2,
+          "player_id": "318q66hvnz86qo9",
+          "player_name": "Lewis·McGrattan",
+          "reason_type": 3
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4h4yp78q86",
+          "out_player_id": "318q66hvnz86qo9",
+          "in_player_name": "Gavin Gallagher",
+          "out_player_name": "Lewis·McGrattan"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dn1m1gh3dgkemoe",
+          "out_player_id": "965mkyhed6x2r1g",
+          "in_player_name": "R. Armstrong",
+          "out_player_name": "liam mcstravick"
+        },
+        {
+          "time": 63,
+          "type": 1,
+          "position": 2,
+          "player_id": "zp5rzgh1w2oq82w",
+          "assist1_id": "dj2ryohjl2xyq1z",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Lewis Strapp",
+          "assist1_name": "Ben Wilson"
+        },
+        {
+          "time": 74,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdeh65e6r510",
+          "player_name": "Rhys McCabe",
+          "reason_type": 19
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhjol45ql0",
+          "out_player_id": "965mkyhevxx2r1g",
+          "in_player_name": "Connor·Scully",
+          "out_player_name": "Findlay Marshall"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y39mp1hydwyvmoj",
+          "out_player_id": "dj2ryohjl2xyq1z",
+          "in_player_name": "Ricco Diack",
+          "out_player_name": "Ben Wilson"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "n54qllh8k6g4qvy",
+          "out_player_id": "k82rekhy4d9zrep",
+          "in_player_name": "Lewis Mcgregor",
+          "out_player_name": "Chris Mochrie"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhx306dm7v",
+          "out_player_id": "zp5rzgh24kgq82w",
+          "in_player_name": "Myles Gaffney",
+          "out_player_name": "Mitchell Megginson"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 94,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "k82rekhgv9gjrep": {
+      "id": "k82rekhgv9gjrep",
+      "home_team_id": "y0or5jhlx1vqwzv",
+      "away_team_id": "vl7oqdehkz5r510",
+      "start_timestamp": 1746885600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "dn1m1ghl4elzmoe",
+      "incidents": []
+    },
+    "y39mp1h6356omoj": {
+      "id": "y39mp1h6356omoj",
+      "home_team_id": "gpxwrxlhkw4ryk0",
+      "away_team_id": "56ypq3nhjwxmd7o",
+      "start_timestamp": 1746885600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "318q66hxo0xdqo9",
+      "incidents": []
+    }
+  }
+}

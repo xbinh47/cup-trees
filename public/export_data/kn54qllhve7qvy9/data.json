@@ -1,0 +1,245 @@
+{
+  "season_id": "kn54qllhve7qvy9",
+  "brackets": [
+    {
+      "id": "y0or5jhej2gqwzv",
+      "competition_id": "kjw2r09h0jrz84o",
+      "season_id": "kn54qllhve7qvy9",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1752249600,
+      "end_time": 1752335940,
+      "rounds": [
+        {
+          "id": "ednm9wh2wpgryox",
+          "bracket_id": "y0or5jhej2gqwzv",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1752332400,
+          "end_time": 1752332400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "318q66h0x63dqo9",
+              "round_id": "ednm9wh2wpgryox",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "e4wyrn4hn20q86p",
+              "away_team_id": "l965mkyhx21r1ge",
+              "winner_team_id": "l965mkyhx21r1ge",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "jw2r09hkn3vlrz8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "l965mkyhx21r1ge": {
+      "id": "l965mkyhx21r1ge",
+      "name": "CSKA Moscow"
+    },
+    "e4wyrn4hn20q86p": {
+      "id": "e4wyrn4hn20q86p",
+      "name": "FK Krasnodar"
+    }
+  },
+  "sport_events": {
+    "jw2r09hkn3vlrz8": {
+      "id": "jw2r09hkn3vlrz8",
+      "home_team_id": "e4wyrn4hn20q86p",
+      "away_team_id": "l965mkyhx21r1ge",
+      "start_timestamp": 1752332400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 9,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 18,
+          "type": 3,
+          "position": 2,
+          "player_id": "23xmvkhx84nqg8n",
+          "player_name": "Igor Diveev",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 1,
+          "position": 2,
+          "player_id": "23xmvkhx84nqg8n",
+          "assist1_id": "y0or5jhejnyoqwz",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Igor Diveev",
+          "assist1_name": "William Rocha"
+        },
+        {
+          "time": 65,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l7oqdehl1klr510",
+          "out_player_id": "dn1m1gh8809moep",
+          "in_player_name": "Sekou Koita",
+          "out_player_name": "Danil Krugovoy"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhw03lemd7",
+          "out_player_id": "pxwrxlh9eeg3ryk",
+          "in_player_name": "Kevin Pina",
+          "out_player_name": "Aleksandr Chernikov"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh0dd3lr51",
+          "out_player_id": "3glrw7hy5g2gqdy",
+          "in_player_name": "Gustavo Martins Furtado dos Santos",
+          "out_player_name": "João Batxi"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l7oqdehnvdwr510",
+          "out_player_id": "6ypq3nhw548md7o",
+          "in_player_name": "Sergei Petrov",
+          "out_player_name": "Giovanni Gonzalez"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l5ergphe5w90r8k",
+          "out_player_id": "dn1m1gh39ogmoep",
+          "in_player_name": "Moses David Cobnan",
+          "out_player_name": "João Victor"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghxzkyjm0v",
+          "out_player_id": "k82rekhoylz4rep",
+          "in_player_name": "danila kozlov",
+          "out_player_name": "Nikita Krivtsov"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "965mkyhenp1er1g",
+          "out_player_id": "dj2ryohjxoe5q1z",
+          "in_player_name": "Abbosbek Fayzullaev",
+          "out_player_name": "Tamerlan Musaev"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jhjewwqwzv",
+          "out_player_id": "2y8m4zh87369ql0",
+          "in_player_name": "Alerrandro",
+          "out_player_name": "Artem Shumanskiy"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlh93o0zryk",
+          "out_player_id": "pxwrxlhjx18eryk",
+          "in_player_name": "Khellven",
+          "out_player_name": "kirill glebov"
+        },
+        {
+          "time": 89,
+          "type": 28,
+          "position": 1,
+          "player_id": "l5ergphe5w90r8k",
+          "var_reason": 6,
+          "var_result": 7,
+          "player_name": "Moses David Cobnan"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 4,
+          "position": 1,
+          "player_id": "l5ergphe5w90r8k",
+          "player_name": "Moses David Cobnan",
+          "reason_type": 9
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "add_time": 4,
+          "position": 1,
+          "player_id": "k82rekhyw0jwrep",
+          "player_name": "Diego Costa",
+          "reason_type": 19
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

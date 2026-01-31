@@ -1,0 +1,86 @@
+{
+  "season_id": "kdj2ryoh03wq1zp",
+  "brackets": [
+    {
+      "id": "318q66h0wy3qo9j",
+      "competition_id": "4zp5rzgh0eq82w1",
+      "season_id": "kdj2ryoh03wq1zp",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1682870400,
+      "end_time": 1686412740,
+      "rounds": [
+        {
+          "id": "l7oqdehd45or510",
+          "bracket_id": "318q66h0wy3qo9j",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1686330000,
+          "end_time": 1686330000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "23xmvkh35vnnqg8",
+              "round_id": "l7oqdehd45or510",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "9dn1m1ghd21moep",
+              "away_team_id": "gy0or5jhdvoqwzv",
+              "winner_team_id": "gy0or5jhdvoqwzv",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "965mkyh2vk9vr1g"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "9dn1m1ghd21moep": {
+      "id": "9dn1m1ghd21moep",
+      "name": "Viborg"
+    },
+    "gy0or5jhdvoqwzv": {
+      "id": "gy0or5jhdvoqwzv",
+      "name": "Midtjylland"
+    }
+  },
+  "sport_events": {
+    "965mkyh2vk9vr1g": {
+      "id": "965mkyh2vk9vr1g",
+      "home_team_id": "9dn1m1ghd21moep",
+      "away_team_id": "gy0or5jhdvoqwzv",
+      "start_timestamp": 1686330000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

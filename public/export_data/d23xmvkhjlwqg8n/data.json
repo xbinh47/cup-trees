@@ -1,0 +1,86 @@
+{
+  "season_id": "d23xmvkhjlwqg8n",
+  "brackets": [
+    {
+      "id": "x7lm7phonwym2wd",
+      "competition_id": "kdj2ryohkgyq1zp",
+      "season_id": "d23xmvkhjlwqg8n",
+      "name": "Knockout stage",
+      "abbr": "Superliga 202",
+      "start_time": 1669219200,
+      "end_time": 1672156740,
+      "rounds": [
+        {
+          "id": "y39mp1hkpgzmojx",
+          "bracket_id": "x7lm7phonwym2wd",
+          "name": "Qualification round 1",
+          "abbr": "QR1",
+          "start_time": 1669370400,
+          "end_time": 1669370400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "y39mp1h3oxp3moj",
+              "round_id": "y39mp1hkpgzmojx",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "y39mp1hje4zmojx",
+              "away_team_id": "y0or5jhl2k8qwzv",
+              "winner_team_id": "y39mp1hje4zmojx",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "y0or5jhz9g8dqwz"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "y39mp1hje4zmojx": {
+      "id": "y39mp1hje4zmojx",
+      "name": "Turon Nukus"
+    },
+    "y0or5jhl2k8qwzv": {
+      "id": "y0or5jhl2k8qwzv",
+      "name": "Lokomotiv Tashkent"
+    }
+  },
+  "sport_events": {
+    "y0or5jhz9g8dqwz": {
+      "id": "y0or5jhz9g8dqwz",
+      "home_team_id": "y0or5jhl2k8qwzv",
+      "away_team_id": "y39mp1hje4zmojx",
+      "start_timestamp": 1669370400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

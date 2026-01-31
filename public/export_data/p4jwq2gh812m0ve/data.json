@@ -1,0 +1,253 @@
+{
+  "season_id": "p4jwq2gh812m0ve",
+  "brackets": [
+    {
+      "id": "8yomo4h20zyq0j6",
+      "competition_id": "p3glrw7hd1qdyjv",
+      "season_id": "p4jwq2gh812m0ve",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 0,
+      "end_time": 0,
+      "rounds": [
+        {
+          "id": "pxwrxlh3d56ryk0",
+          "bracket_id": "8yomo4h20zyq0j6",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "pxwrxlh137eoryk",
+              "round_id": "pxwrxlh3d56ryk0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "8yomo4h7401q0j6",
+              "away_team_id": "z8yomo4hjjnq0j6",
+              "winner_team_id": "z8yomo4hjjnq0j6",
+              "home_score": 2,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "l5ergphwx07wr8k"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "8yomo4h7401q0j6": {
+      "id": "8yomo4h7401q0j6",
+      "name": "Shanghai Port FC"
+    },
+    "z8yomo4hjjnq0j6": {
+      "id": "z8yomo4hjjnq0j6",
+      "name": "Shanghai Shenhua FC"
+    }
+  },
+  "sport_events": {
+    "l5ergphwx07wr8k": {
+      "id": "l5ergphwx07wr8k",
+      "home_team_id": "8yomo4h7401q0j6",
+      "away_team_id": "z8yomo4hjjnq0j6",
+      "start_timestamp": 1738928100,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 10,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 7,
+          "type": 1,
+          "position": 1,
+          "player_id": "965mkyhgwepr1ge",
+          "assist1_id": "dn1m1ghn64lmoep",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Gabriel Airton de Souza",
+          "assist1_name": "Gustavo"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l7oqdehlkx2r510",
+          "out_player_id": "6ypq3nhlwj0ymd7",
+          "in_player_name": "Gao Tianyi",
+          "out_player_name": "Yang Haoyu"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "l5ergphn675r8k0",
+          "out_player_id": "y0or5jhe6j18qwz",
+          "in_player_name": "Ming Tian",
+          "out_player_name": "Wang Zhen’ao"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y39mp1h54gkmojx",
+          "out_player_id": "965mkyh3oxdr1ge",
+          "in_player_name": "Zhang Linpeng",
+          "out_player_name": "Jiang Guangtai"
+        },
+        {
+          "time": 66,
+          "type": 3,
+          "position": 2,
+          "player_id": "pxwrxlh1gv7ryk0",
+          "player_name": "João Teixeira",
+          "reason_type": 1
+        },
+        {
+          "time": 68,
+          "type": 1,
+          "position": 2,
+          "player_id": "k82rekhy1wjrepz",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Ibrahim Amadou"
+        },
+        {
+          "time": 75,
+          "type": 3,
+          "position": 2,
+          "player_id": "2y8m4zhge1eql07",
+          "player_name": "Wilson Manafá",
+          "reason_type": 1
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dn1m1gho132moep",
+          "out_player_id": "2y8m4zhge1eql07",
+          "in_player_name": "Yang ZeXiang",
+          "out_player_name": "Wilson Manafá"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "x7lm7phwz2om2wd",
+          "out_player_id": "zp5rzgh1d75q82w",
+          "in_player_name": "Feng Jing",
+          "out_player_name": "Liu Ruofan"
+        },
+        {
+          "time": 80,
+          "type": 1,
+          "position": 1,
+          "player_id": "965mkyhgwepr1ge",
+          "assist1_id": "3glrw7hj6dpnqdy",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Gabriel Airton de Souza",
+          "assist1_name": "Leonardo Nascimento Lopes de Souza"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghj3l0q82w",
+          "out_player_id": "zp5rzgh7ne1q82w",
+          "in_player_name": "Yu Hanchao",
+          "out_player_name": "Wu Xi"
+        },
+        {
+          "time": 88,
+          "type": 3,
+          "position": 1,
+          "player_id": "x7lm7phwz2om2wd",
+          "player_name": "Feng Jing",
+          "reason_type": 1
+        },
+        {
+          "time": 89,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdehlkx2r510",
+          "player_name": "Gao Tianyi",
+          "reason_type": 1
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 94,
+          "type": 1,
+          "position": 2,
+          "player_id": "zp5rzghj3l0q82w",
+          "assist1_id": "jw2r09hx972krz8",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Yu Hanchao",
+          "assist1_name": "Jiang Shenglong"
+        },
+        {
+          "time": 97,
+          "type": 1,
+          "position": 2,
+          "player_id": "x7lm7ph5053m2wd",
+          "assist1_id": "l7oqdehlkx2r510",
+          "away_score": 3,
+          "home_score": 2,
+          "player_name": "André Luis",
+          "assist1_name": "Gao Tianyi"
+        },
+        {
+          "time": 99,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

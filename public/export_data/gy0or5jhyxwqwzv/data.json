@@ -1,0 +1,206 @@
+{
+  "season_id": "gy0or5jhyxwqwzv",
+  "brackets": [
+    {
+      "id": "4wyrn4heoj1q86p",
+      "competition_id": "gpxwrxlh5nryk0j",
+      "season_id": "gy0or5jhyxwqwzv",
+      "name": "Knockout stage",
+      "abbr": "Cymru Premier",
+      "start_time": 1682179200,
+      "end_time": 1685548740,
+      "rounds": [
+        {
+          "id": "l5ergph202or8k0",
+          "bracket_id": "4wyrn4heoj1q86p",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1683312300,
+          "end_time": 1683389700,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "2y8m4zh3yzdyql0",
+              "round_id": "l5ergph202or8k0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "4zp5rzghl15q82w",
+              "away_team_id": "gy0or5jhkgpqwzv",
+              "winner_team_id": "gy0or5jhkgpqwzv",
+              "home_score": 2,
+              "away_score": 4,
+              "parent_ids": [
+                "vjxm8gh4d94or6o"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "dn1m1ghpyzg2moe"
+              ]
+            },
+            {
+              "id": "dj2ryohk6n30q1z",
+              "round_id": "l5ergph202or8k0",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "56ypq3nhxd5md7o",
+              "away_team_id": "kn54qllh6joqvy9",
+              "winner_team_id": "kn54qllh6joqvy9",
+              "home_score": 3,
+              "away_score": 4,
+              "parent_ids": [
+                "vjxm8gh4d94or6o"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "dn1m1ghpyzlomoe"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jw2r09h747nrz84",
+          "bracket_id": "4wyrn4heoj1q86p",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1683994500,
+          "end_time": 1683994500,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "vjxm8gh4d94or6o",
+              "round_id": "jw2r09h747nrz84",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "gy0or5jhkgpqwzv",
+              "away_team_id": "kn54qllh6joqvy9",
+              "winner_team_id": "kn54qllh6joqvy9",
+              "home_score": 4,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [
+                "dj2ryohk6n30q1z",
+                "2y8m4zh3yzdyql0"
+              ],
+              "event_ids": [
+                "dj2ryoheov54q1z"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "gy0or5jhkgpqwzv": {
+      "id": "gy0or5jhkgpqwzv",
+      "name": "Newtown AFC"
+    },
+    "kn54qllh6joqvy9": {
+      "id": "kn54qllh6joqvy9",
+      "name": "Haverfordwest County"
+    },
+    "4zp5rzghl15q82w": {
+      "id": "4zp5rzghl15q82w",
+      "name": "Bala Town F.C."
+    },
+    "56ypq3nhxd5md7o": {
+      "id": "56ypq3nhxd5md7o",
+      "name": "UWIC Inter Cardiff"
+    }
+  },
+  "sport_events": {
+    "dj2ryoheov54q1z": {
+      "id": "dj2ryoheov54q1z",
+      "home_team_id": "gy0or5jhkgpqwzv",
+      "away_team_id": "kn54qllh6joqvy9",
+      "start_timestamp": 1683994500,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 4,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 3,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "dn1m1ghpyzg2moe": {
+      "id": "dn1m1ghpyzg2moe",
+      "home_team_id": "4zp5rzghl15q82w",
+      "away_team_id": "gy0or5jhkgpqwzv",
+      "start_timestamp": 1683312300,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "dn1m1ghpyzlomoe": {
+      "id": "dn1m1ghpyzlomoe",
+      "home_team_id": "56ypq3nhxd5md7o",
+      "away_team_id": "kn54qllh6joqvy9",
+      "start_timestamp": 1683389700,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 4,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 3,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

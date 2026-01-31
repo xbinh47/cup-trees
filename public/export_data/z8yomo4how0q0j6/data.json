@@ -1,0 +1,117 @@
+{
+  "season_id": "z8yomo4how0q0j6",
+  "brackets": [
+    {
+      "id": "k82rekh9w2xrepz",
+      "competition_id": "kn54qllhjzqvy9d",
+      "season_id": "z8yomo4how0q0j6",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1685635200,
+      "end_time": 1686067140,
+      "rounds": [
+        {
+          "id": "3glrw7h0jkeqdyj",
+          "bracket_id": "k82rekh9w2xrepz",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1685645100,
+          "end_time": 1685990700,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "pxwrxlhg84lnryk",
+              "round_id": "3glrw7h0jkeqdyj",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "gx7lm7phd7em2wd",
+              "away_team_id": "gy0or5jhdoyqwzv",
+              "winner_team_id": "gx7lm7phd7em2wd",
+              "home_score": 6,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "vjxm8gh51355r6o",
+                "dj2ryoheo47xq1z"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "gx7lm7phd7em2wd": {
+      "id": "gx7lm7phd7em2wd",
+      "name": "VfB Stuttgart"
+    },
+    "gy0or5jhdoyqwzv": {
+      "id": "gy0or5jhdoyqwzv",
+      "name": "Hamburger SV"
+    }
+  },
+  "sport_events": {
+    "dj2ryoheo47xq1z": {
+      "id": "dj2ryoheo47xq1z",
+      "home_team_id": "gy0or5jhdoyqwzv",
+      "away_team_id": "gx7lm7phd7em2wd",
+      "start_timestamp": 1685990700,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 6,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "vjxm8gh51355r6o": {
+      "id": "vjxm8gh51355r6o",
+      "home_team_id": "gx7lm7phd7em2wd",
+      "away_team_id": "gy0or5jhdoyqwzv",
+      "start_timestamp": 1685645100,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

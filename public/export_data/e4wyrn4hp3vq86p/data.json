@@ -1,0 +1,86 @@
+{
+  "season_id": "e4wyrn4hp3vq86p",
+  "brackets": [
+    {
+      "id": "zp5rzgh7vo5q82w",
+      "competition_id": "yl5ergphz6r8k0o",
+      "season_id": "e4wyrn4hp3vq86p",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1701532800,
+      "end_time": 1702655940,
+      "rounds": [
+        {
+          "id": "965mkyh5z6zr1ge",
+          "bracket_id": "zp5rzgh7vo5q82w",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1702105200,
+          "end_time": 1702105200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "6ypq3nh507gkmd7",
+              "round_id": "965mkyh5z6zr1ge",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "l7oqdehlyk4r510",
+              "away_team_id": "k82rekhve2xrepz",
+              "winner_team_id": "l7oqdehlyk4r510",
+              "home_score": 3,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "zp5rzgh5pd0nq82"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "k82rekhve2xrepz": {
+      "id": "k82rekhve2xrepz",
+      "name": "Hebei Snow Ruyi  Women"
+    },
+    "l7oqdehlyk4r510": {
+      "id": "l7oqdehlyk4r510",
+      "name": "Shaanxi Women"
+    }
+  },
+  "sport_events": {
+    "zp5rzgh5pd0nq82": {
+      "id": "zp5rzgh5pd0nq82",
+      "home_team_id": "l7oqdehlyk4r510",
+      "away_team_id": "k82rekhve2xrepz",
+      "start_timestamp": 1702105200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

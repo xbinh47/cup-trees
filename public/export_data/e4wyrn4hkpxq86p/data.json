@@ -1,0 +1,330 @@
+{
+  "season_id": "e4wyrn4hkpxq86p",
+  "brackets": [
+    {
+      "id": "1l4rjnhz3p8m7vx",
+      "competition_id": "kjw2r09hxvrz84o",
+      "season_id": "e4wyrn4hkpxq86p",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1745856000,
+      "end_time": 1748707140,
+      "rounds": [
+        {
+          "id": "n54qllhp115qvy9",
+          "bracket_id": "1l4rjnhz3p8m7vx",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1745952300,
+          "end_time": 1745952300,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "jw2r09hn20vprz8",
+              "round_id": "n54qllhp115qvy9",
+              "number": 1,
+              "type_id": 7,
+              "state_id": 7,
+              "home_team_id": "y39mp1h3zwomojx",
+              "away_team_id": "965mkyh7de9r1ge",
+              "winner_team_id": "y39mp1h3zwomojx",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [
+                "y39mp1h5z479moj"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "l5ergph409lxr8k"
+              ]
+            },
+            {
+              "id": "l5ergph3w86pr8k",
+              "round_id": "n54qllhp115qvy9",
+              "number": 2,
+              "type_id": 7,
+              "state_id": 8,
+              "home_team_id": "1l4rjnhzkkym7vx",
+              "away_team_id": "2y8m4zh367zql07",
+              "winner_team_id": "2y8m4zh367zql07",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [
+                "y39mp1h5z479moj"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "4wyrn4h6zkonq86"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "23xmvkhp993qg8n",
+          "bracket_id": "1l4rjnhz3p8m7vx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1746453600,
+          "end_time": 1746453600,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "y39mp1h5z479moj",
+              "round_id": "23xmvkhp993qg8n",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "y39mp1h3zwomojx",
+              "away_team_id": "2y8m4zh367zql07",
+              "winner_team_id": "y39mp1h3zwomojx",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [
+                "l5ergph3w86pr8k",
+                "jw2r09hn20vprz8"
+              ],
+              "event_ids": [
+                "4wyrn4h68e6pq86"
+              ]
+            },
+            {
+              "id": "zp5rzgh75w8jq82",
+              "round_id": "23xmvkhp993qg8n",
+              "number": 2,
+              "type_id": 0,
+              "state_id": 1,
+              "home_team_id": "1l4rjnhzkkym7vx",
+              "away_team_id": "y39mp1h3zwomojx",
+              "winner_team_id": "",
+              "home_score": 0,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "l5ergph3w86pr8k",
+                "jw2r09hn20vprz8"
+              ],
+              "event_ids": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "965mkyh7de9r1ge": {
+      "id": "965mkyh7de9r1ge",
+      "name": "Ashton United"
+    },
+    "2y8m4zh367zql07": {
+      "id": "2y8m4zh367zql07",
+      "name": "Guiseley"
+    },
+    "y39mp1h3zwomojx": {
+      "id": "y39mp1h3zwomojx",
+      "name": "Worksop Town"
+    },
+    "1l4rjnhzkkym7vx": {
+      "id": "1l4rjnhzkkym7vx",
+      "name": "Stockton Town"
+    }
+  },
+  "sport_events": {
+    "4wyrn4h68e6pq86": {
+      "id": "4wyrn4h68e6pq86",
+      "home_team_id": "y39mp1h3zwomojx",
+      "away_team_id": "2y8m4zh367zql07",
+      "start_timestamp": 1746453600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 48,
+          "type": 1,
+          "add_time": 3,
+          "position": 1,
+          "player_id": "23xmvkhoj9vqg8n",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Jordan Burrow"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 54,
+          "type": 1,
+          "position": 1,
+          "player_id": "23xmvkhoj9vqg8n",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Jordan Burrow"
+        },
+        {
+          "time": 73,
+          "type": 1,
+          "position": 2,
+          "player_id": "318q66hv1p87qo9",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Will Longbottom"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "4wyrn4h6zkonq86": {
+      "id": "4wyrn4h6zkonq86",
+      "home_team_id": "1l4rjnhzkkym7vx",
+      "away_team_id": "2y8m4zh367zql07",
+      "start_timestamp": 1745952300,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 66,
+          "type": 1,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 1
+        },
+        {
+          "time": 96,
+          "type": 4,
+          "add_time": 6,
+          "position": 2,
+          "player_id": "4jwq2ghxkygkm0v",
+          "player_name": "John Lufudu"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "l5ergph409lxr8k": {
+      "id": "l5ergph409lxr8k",
+      "home_team_id": "y39mp1h3zwomojx",
+      "away_team_id": "965mkyh7de9r1ge",
+      "start_timestamp": 1745952300,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 29,
+          "type": 1,
+          "position": 1,
+          "player_id": "dn1m1ghe2ewmoep",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Liam Hughes"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 59,
+          "type": 1,
+          "position": 2,
+          "player_id": "y39mp1h5n3jlmoj",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Jason Gilchrist"
+        },
+        {
+          "time": 76,
+          "type": 1,
+          "position": 1,
+          "player_id": "23xmvkhoj9vqg8n",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Jordan Burrow"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

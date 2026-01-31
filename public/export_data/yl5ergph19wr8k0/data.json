@@ -1,0 +1,943 @@
+{
+  "season_id": "yl5ergph19wr8k0",
+  "brackets": [
+    {
+      "id": "n54qllhxx35qvy9",
+      "competition_id": "d23xmvkhplqg8ny",
+      "season_id": "yl5ergph19wr8k0",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1726588800,
+      "end_time": 1727539140,
+      "rounds": [
+        {
+          "id": "3glrw7hpg09qdyj",
+          "bracket_id": "n54qllhxx35qvy9",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1726677900,
+          "end_time": 1727106300,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "23xmvkhowzvdqg8",
+              "round_id": "3glrw7hpg09qdyj",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "dj2ryohk9k5q1zp",
+              "away_team_id": "gpxwrxlh8p5ryk0",
+              "winner_team_id": "gpxwrxlh8p5ryk0",
+              "home_score": 4,
+              "away_score": 6,
+              "parent_ids": [
+                "jw2r09hn7e1orz8"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "k82rekhwj5elrep",
+                "1l4rjnh4d8d0m7v"
+              ]
+            },
+            {
+              "id": "zp5rzgh70eypq82",
+              "round_id": "3glrw7hpg09qdyj",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "2y8m4zh3j7nql07",
+              "away_team_id": "1l4rjnh618km7vx",
+              "winner_team_id": "2y8m4zh3j7nql07",
+              "home_score": 3,
+              "away_score": 1,
+              "parent_ids": [
+                "jw2r09hn7e1orz8"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "dn1m1gh2g5g4moe",
+                "ednm9wh7pjpnryo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vjxm8ghw797r6od",
+          "bracket_id": "n54qllhxx35qvy9",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1727532000,
+          "end_time": 1727532000,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "jw2r09hn7e1orz8",
+              "round_id": "vjxm8ghw797r6od",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "gpxwrxlh8p5ryk0",
+              "away_team_id": "2y8m4zh3j7nql07",
+              "winner_team_id": "2y8m4zh3j7nql07",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [
+                "23xmvkhowzvdqg8",
+                "zp5rzgh70eypq82"
+              ],
+              "event_ids": [
+                "ednm9wh7lgpvryo"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "1l4rjnh618km7vx": {
+      "id": "1l4rjnh618km7vx",
+      "name": "Fjolnir"
+    },
+    "gpxwrxlh8p5ryk0": {
+      "id": "gpxwrxlh8p5ryk0",
+      "name": "Keflavik"
+    },
+    "2y8m4zh3j7nql07": {
+      "id": "2y8m4zh3j7nql07",
+      "name": "Afturelding"
+    },
+    "dj2ryohk9k5q1zp": {
+      "id": "dj2ryohk9k5q1zp",
+      "name": "IR Reykjavik"
+    }
+  },
+  "sport_events": {
+    "1l4rjnh4d8d0m7v": {
+      "id": "1l4rjnh4d8d0m7v",
+      "home_team_id": "gpxwrxlh8p5ryk0",
+      "away_team_id": "dj2ryohk9k5q1zp",
+      "start_timestamp": 1727013600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 3
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "k82rekhwj5elrep",
+      "incidents": [
+        {
+          "time": 2,
+          "type": 3,
+          "position": 1,
+          "player_id": "dn1m1ghoxw6moep",
+          "player_name": "Mihael Mladen"
+        },
+        {
+          "time": 13,
+          "type": 1,
+          "position": 2,
+          "player_id": "y39mp1hyplezmoj",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "gudjon magnusson"
+        },
+        {
+          "time": 16,
+          "type": 1,
+          "position": 2,
+          "player_id": "y39mp1hyplezmoj",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "gudjon magnusson"
+        },
+        {
+          "time": 35,
+          "type": 1,
+          "position": 2,
+          "player_id": "8yomo4hv4776q0j",
+          "away_score": 3,
+          "home_score": 0,
+          "player_name": "karl bragi bjarkason"
+        },
+        {
+          "time": 38,
+          "type": 3,
+          "position": 1,
+          "player_id": "318q66h4l1jeqo9",
+          "player_name": "Ásgeir Helgi Orrason"
+        },
+        {
+          "time": 46,
+          "type": 1,
+          "position": 1,
+          "player_id": "4wyrn4hdkky4q86",
+          "away_score": 3,
+          "home_score": 1,
+          "player_name": "Kari sigfusson"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "3glrw7hy02vkqdy",
+          "out_player_id": "y39mp1hyplezmoj",
+          "in_player_name": "bergvin helgason",
+          "out_player_name": "gudjon magnusson"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8ghjoy3lr6o",
+          "out_player_id": "jw2r09hj25pwrz8",
+          "in_player_name": "sami kamel",
+          "out_player_name": "Eysteinsson ingi runar"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "ednm9whv70vryox",
+          "out_player_id": "l5ergphv77x9r8k",
+          "in_player_name": "Sindri Snær Magnússon",
+          "out_player_name": "Ari Gudmundsson"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "23xmvkhk8l55qg8",
+          "out_player_id": "l7oqdehl39x8r51",
+          "in_player_name": "kristinsson unnar august",
+          "out_player_name": "gils gislason"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "jw2r09hxendprz8",
+          "out_player_id": "965mkyhe1d6wr1g",
+          "in_player_name": "renato punyed",
+          "out_player_name": "dagur hakon matthiasson"
+        },
+        {
+          "time": 67,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jh4g10qwzv",
+          "player_name": "Frans Elvarsson"
+        },
+        {
+          "time": 69,
+          "type": 1,
+          "position": 1,
+          "player_id": "vjxm8ghjoy3lr6o",
+          "away_score": 3,
+          "home_score": 2,
+          "player_name": "sami kamel"
+        },
+        {
+          "time": 74,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "3glrw7hje7dyqdy",
+          "out_player_id": "3glrw7hj7v7gqdy",
+          "in_player_name": "stefan palsson",
+          "out_player_name": "Marteinn Theodórsson"
+        },
+        {
+          "time": 78,
+          "type": 3,
+          "position": 2,
+          "player_id": "8yomo4hv8643q0j",
+          "player_name": "marc mcausland"
+        },
+        {
+          "time": 79,
+          "type": 3,
+          "position": 1,
+          "player_id": "4jwq2gh12yom0ve",
+          "player_name": "Gunnlaugur Fannar Guðmundsson"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l7oqdeh0dwpkr51",
+          "out_player_id": "l7oqdeh6v697r51",
+          "in_player_name": "alexander aleksandar kostic",
+          "out_player_name": "Kristjan Atli Marteinsson"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "ednm9whvlv8dryo",
+          "out_player_id": "dn1m1ghoxw6moep",
+          "in_player_name": "valur hakonarson",
+          "out_player_name": "Mihael Mladen"
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 1,
+          "player_id": "ednm9whvlv8dryo",
+          "player_name": "valur hakonarson"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "dn1m1gh2g5g4moe": {
+      "id": "dn1m1gh2g5g4moe",
+      "home_team_id": "2y8m4zh3j7nql07",
+      "away_team_id": "1l4rjnh618km7vx",
+      "start_timestamp": 1726773300,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 1,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "ednm9wh7pjpnryo",
+      "incidents": [
+        {
+          "time": 2,
+          "type": 1,
+          "position": 1,
+          "player_id": "1l4rjnh1oje1m7v",
+          "assist1_id": "dn1m1gh3w36dmoe",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Aron Johannsson",
+          "assist1_name": "hrannar magnusson"
+        },
+        {
+          "time": 33,
+          "type": 3,
+          "position": 1,
+          "player_id": "23xmvkhd1w2xqg8",
+          "player_name": "elmar cogic"
+        },
+        {
+          "time": 46,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnhxp4zm7vx",
+          "player_name": "Arnór Gauti Ragnarsson"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 64,
+          "type": 1,
+          "position": 2,
+          "player_id": "4jwq2ghxeg72m0v",
+          "assist1_id": "vjxm8gh8lkper6o",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Ingvarsson Ingvar Daniel",
+          "assist1_name": "Juliusson Mar Julius"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l5ergphvozkor8k",
+          "out_player_id": "4jwq2ghxeg72m0v",
+          "in_player_name": "Axel Freyr Hardarson",
+          "out_player_name": "Ingvarsson Ingvar Daniel"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y39mp1hj4p31moj",
+          "out_player_id": "4wyrn4h7z7oq86p",
+          "in_player_name": "Bjarni Thor Hafstein",
+          "out_player_name": "Máni Hilmarsson"
+        },
+        {
+          "time": 68,
+          "type": 1,
+          "position": 1,
+          "player_id": "23xmvkhd1w2xqg8",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "elmar cogic"
+        },
+        {
+          "time": 72,
+          "type": 3,
+          "position": 2,
+          "player_id": "vjxm8gh89dz4r6o",
+          "player_name": "reynir haraldsson"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dn1m1ghng94pmoe",
+          "out_player_id": "6ypq3nhze2pnmd7",
+          "in_player_name": "vilhjalmur hjalmarsson",
+          "out_player_name": "Dagur Austmann Hilmarsson"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4wyrn4h467l6q86",
+          "out_player_id": "dn1m1ghn3zyvmoe",
+          "in_player_name": "saevar hugason",
+          "out_player_name": "Bjartur Bjarmi Barkarson"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dj2ryohjo739q1z",
+          "out_player_id": "1l4rjnhxp4zm7vx",
+          "in_player_name": "orri gudjonsson",
+          "out_player_name": "Arnór Gauti Ragnarsson"
+        },
+        {
+          "time": 81,
+          "type": 3,
+          "position": 1,
+          "player_id": "4wyrn4h467l6q86",
+          "player_name": "saevar hugason"
+        },
+        {
+          "time": 86,
+          "type": 3,
+          "position": 2,
+          "player_id": "y39mp1hj4p31moj",
+          "player_name": "Bjarni Thor Hafstein"
+        },
+        {
+          "time": 90,
+          "type": 1,
+          "position": 1,
+          "player_id": "ednm9wh9j9l5ryo",
+          "away_score": 1,
+          "home_score": 3,
+          "player_name": "Sigurpall Melberg Palsson"
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "jw2r09hw0gnyrz8",
+          "out_player_id": "y39mp1hj4p31moj",
+          "in_player_name": "rafael thrastarson",
+          "out_player_name": "Bjarni Thor Hafstein"
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "position": 2,
+          "player_id": "vjxm8gh8lkper6o",
+          "player_name": "Juliusson Mar Julius"
+        },
+        {
+          "time": 95,
+          "type": 15,
+          "position": 1,
+          "player_id": "23xmvkhd1w2xqg8",
+          "player_name": "elmar cogic"
+        },
+        {
+          "time": 95,
+          "type": 3,
+          "position": 2,
+          "player_id": "4jwq2ghxeg72m0v",
+          "player_name": "Ingvarsson Ingvar Daniel"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "ednm9wh7lgpvryo": {
+      "id": "ednm9wh7lgpvryo",
+      "home_team_id": "gpxwrxlh8p5ryk0",
+      "away_team_id": "2y8m4zh3j7nql07",
+      "start_timestamp": 1727532000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 38,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l5ergphv77x9r8k",
+          "out_player_id": "vjxm8ghjoy3lr6o",
+          "in_player_name": "Ari Gudmundsson",
+          "out_player_name": "sami kamel"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 52,
+          "type": 3,
+          "position": 1,
+          "player_id": "dn1m1ghoxw6moep",
+          "player_name": "Mihael Mladen"
+        },
+        {
+          "time": 55,
+          "type": 3,
+          "position": 2,
+          "player_id": "pxwrxlhj2y76ryk",
+          "player_name": "bjerrum oliver jensen"
+        },
+        {
+          "time": 65,
+          "type": 3,
+          "position": 1,
+          "player_id": "pxwrxlh9g6l7ryk",
+          "player_name": "Asgeir Pall Magnusson"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "1l4rjnhxp4zm7vx",
+          "out_player_id": "4wyrn4h467l6q86",
+          "in_player_name": "Arnór Gauti Ragnarsson",
+          "out_player_name": "saevar hugason"
+        },
+        {
+          "time": 78,
+          "type": 1,
+          "position": 2,
+          "player_id": "ednm9wh9j9l5ryo",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Sigurpall Melberg Palsson"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4wyrn4hdjjynq86",
+          "out_player_id": "4wyrn4hdkky4q86",
+          "in_player_name": "Mamadou Diaw",
+          "out_player_name": "Kari sigfusson"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "ednm9whvlv8dryo",
+          "out_player_id": "y0or5jh4g10qwzv",
+          "in_player_name": "valur hakonarson",
+          "out_player_name": "Frans Elvarsson"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "8yomo4hz76pq0j6",
+          "out_player_id": "23xmvkhd1w2xqg8",
+          "in_player_name": "Bjarni Páll Linnet Runólfsson",
+          "out_player_name": "elmar cogic"
+        },
+        {
+          "time": 88,
+          "type": 3,
+          "position": 2,
+          "player_id": "dn1m1ghn3zyvmoe",
+          "player_name": "Bjartur Bjarmi Barkarson"
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 1,
+          "player_id": "y0or5jh3eo0qwzv",
+          "player_name": "Oleksii Kovtun"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "ednm9wh7pjpnryo": {
+      "id": "ednm9wh7pjpnryo",
+      "home_team_id": "1l4rjnh618km7vx",
+      "away_team_id": "2y8m4zh3j7nql07",
+      "start_timestamp": 1727106300,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "dn1m1gh2g5g4moe",
+      "incidents": [
+        {
+          "time": 39,
+          "type": 3,
+          "position": 1,
+          "player_id": "4jwq2ghxeg72m0v",
+          "player_name": "Ingvarsson Ingvar Daniel"
+        },
+        {
+          "time": 43,
+          "type": 3,
+          "position": 1,
+          "player_id": "965mkyh4j3k0r1g",
+          "player_name": "Sigurvin Reynisson"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y39mp1hj4p31moj",
+          "out_player_id": "pxwrxlh90l1gryk",
+          "in_player_name": "Bjarni Thor Hafstein",
+          "out_player_name": "ingi dagur axelsson"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "jw2r09hw0gnyrz8",
+          "out_player_id": "965mkyh4j3k0r1g",
+          "in_player_name": "rafael thrastarson",
+          "out_player_name": "Sigurvin Reynisson"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l5ergphvozkor8k",
+          "out_player_id": "1l4rjnhkx2d5m7v",
+          "in_player_name": "Axel Freyr Hardarson",
+          "out_player_name": "Arnarsson gudni jonatan"
+        },
+        {
+          "time": 76,
+          "type": 3,
+          "position": 2,
+          "player_id": "dn1m1gh3w36dmoe",
+          "player_name": "hrannar magnusson"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8ghj573jr6o",
+          "out_player_id": "4jwq2ghxeg72m0v",
+          "in_player_name": "Oliver Dagur Thorlacius",
+          "out_player_name": "Ingvarsson Ingvar Daniel"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "8yomo4hz76pq0j6",
+          "out_player_id": "1l4rjnhxp4zm7vx",
+          "in_player_name": "Bjarni Páll Linnet Runólfsson",
+          "out_player_name": "Arnór Gauti Ragnarsson"
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dj2ryohjo739q1z",
+          "out_player_id": "4wyrn4h467l6q86",
+          "in_player_name": "orri gudjonsson",
+          "out_player_name": "saevar hugason"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "k82rekhwj5elrep": {
+      "id": "k82rekhwj5elrep",
+      "home_team_id": "dj2ryohk9k5q1zp",
+      "away_team_id": "gpxwrxlh8p5ryk0",
+      "start_timestamp": 1726677900,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 1,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 3
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "1l4rjnh4d8d0m7v",
+      "incidents": [
+        {
+          "time": 11,
+          "type": 1,
+          "position": 2,
+          "player_id": "4wyrn4hdkky4q86",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Kari sigfusson"
+        },
+        {
+          "time": 24,
+          "type": 1,
+          "position": 2,
+          "player_id": "318q66h4l1jeqo9",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Ásgeir Helgi Orrason"
+        },
+        {
+          "time": 27,
+          "type": 1,
+          "position": 2,
+          "player_id": "dn1m1ghoxw6moep",
+          "away_score": 3,
+          "home_score": 0,
+          "player_name": "Mihael Mladen"
+        },
+        {
+          "time": 41,
+          "type": 3,
+          "position": 2,
+          "player_id": "ednm9whv70vryox",
+          "player_name": "Sindri Snær Magnússon"
+        },
+        {
+          "time": 44,
+          "type": 1,
+          "position": 1,
+          "player_id": "965mkyhe1d6wr1g",
+          "away_score": 3,
+          "home_score": 1,
+          "player_name": "dagur hakon matthiasson"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l7oqdehl39x8r51",
+          "out_player_id": "l7oqdeh6v697r51",
+          "in_player_name": "gils gislason",
+          "out_player_name": "Kristjan Atli Marteinsson"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "3glrw7hj7v7gqdy",
+          "out_player_id": "jw2r09hxendprz8",
+          "in_player_name": "Marteinn Theodórsson",
+          "out_player_name": "renato punyed"
+        },
+        {
+          "time": 74,
+          "type": 1,
+          "position": 2,
+          "player_id": "4wyrn4hdkky4q86",
+          "away_score": 4,
+          "home_score": 1,
+          "player_name": "Kari sigfusson"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "vjxm8ghjoy3lr6o",
+          "out_player_id": "l5ergphv77x9r8k",
+          "in_player_name": "sami kamel",
+          "out_player_name": "Ari Gudmundsson"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "4wyrn4hdjjynq86",
+          "out_player_id": "pxwrxlh9g6l7ryk",
+          "in_player_name": "Mamadou Diaw",
+          "out_player_name": "Asgeir Pall Magnusson"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y0or5jh3jy2eqwz",
+          "out_player_id": "8yomo4hv4776q0j",
+          "in_player_name": "Jordian farahani",
+          "out_player_name": "karl bragi bjarkason"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l7oqdeh0dwpkr51",
+          "out_player_id": "4jwq2ghxe52lm0v",
+          "in_player_name": "alexander aleksandar kostic",
+          "out_player_name": "elis oliver hlynsson"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y0or5jh32xvzqwz",
+          "out_player_id": "318q66h4xkgjqo9",
+          "in_player_name": "Emil sigurhjartarson",
+          "out_player_name": "Gauti arnor ulfarsson"
+        },
+        {
+          "time": 82,
+          "type": 4,
+          "position": 2,
+          "player_id": "y0or5jh30oeeqwz",
+          "player_name": "Axel Ingi Jóhannesson"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "318q66h4kepdqo9",
+          "out_player_id": "4wyrn4hdkky4q86",
+          "in_player_name": "jon stefan fridrikson",
+          "out_player_name": "Kari sigfusson"
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dj2ryohjxz36q1z",
+          "out_player_id": "dn1m1ghoxw6moep",
+          "in_player_name": "Edon Osmani",
+          "out_player_name": "Mihael Mladen"
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "position": 1,
+          "player_id": "8yomo4hv8643q0j",
+          "player_name": "marc mcausland"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

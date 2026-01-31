@@ -1,0 +1,152 @@
+{
+  "season_id": "jednm9whyezryox",
+  "brackets": [
+    {
+      "id": "pxwrxlh1530ryk0",
+      "competition_id": "vl7oqdeh41gr510",
+      "season_id": "jednm9whyezryox",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1684512000,
+      "end_time": 1685980740,
+      "rounds": [
+        {
+          "id": "vjxm8gh9g9nr6od",
+          "bracket_id": "pxwrxlh1530ryk0",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1685192400,
+          "end_time": 1685192400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "pxwrxlhg8w9xryk",
+              "round_id": "vjxm8gh9g9nr6od",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "n54qllhx277qvy9",
+              "away_team_id": "pxwrxlh94d3ryk0",
+              "winner_team_id": "n54qllhx277qvy9",
+              "home_score": 3,
+              "away_score": 1,
+              "parent_ids": [
+                "ednm9whkn8x0ryo"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "2y8m4zhwonopql0"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x7lm7phnon4m2wd",
+          "bracket_id": "pxwrxlh1530ryk0",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1685883600,
+          "end_time": 1685883600,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "ednm9whkn8x0ryo",
+              "round_id": "x7lm7phnon4m2wd",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "965mkyhnxlor1ge",
+              "away_team_id": "n54qllhx277qvy9",
+              "winner_team_id": "n54qllhx277qvy9",
+              "home_score": 0,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [
+                "pxwrxlhg8w9xryk"
+              ],
+              "event_ids": [
+                "6ypq3nh79721md7"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "965mkyhnxlor1ge": {
+      "id": "965mkyhnxlor1ge",
+      "name": "KF Dinamo Ferizaj"
+    },
+    "n54qllhx277qvy9": {
+      "id": "n54qllhx277qvy9",
+      "name": "KF Liria Prizren"
+    },
+    "pxwrxlh94d3ryk0": {
+      "id": "pxwrxlh94d3ryk0",
+      "name": "KF Ulpiana"
+    }
+  },
+  "sport_events": {
+    "2y8m4zhwonopql0": {
+      "id": "2y8m4zhwonopql0",
+      "home_team_id": "n54qllhx277qvy9",
+      "away_team_id": "pxwrxlh94d3ryk0",
+      "start_timestamp": 1685192400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "6ypq3nh79721md7": {
+      "id": "6ypq3nh79721md7",
+      "home_team_id": "n54qllhx277qvy9",
+      "away_team_id": "pxwrxlh1k32ryk0",
+      "start_timestamp": 1685883600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

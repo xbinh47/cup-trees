@@ -1,0 +1,764 @@
+{
+  "season_id": "kdj2ryohod6q1zp",
+  "brackets": [
+    {
+      "id": "x7lm7phol45m2wd",
+      "competition_id": "v2y8m4zh1jql074",
+      "season_id": "kdj2ryohod6q1zp",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1715356800,
+      "end_time": 1715961540,
+      "rounds": [
+        {
+          "id": "2y8m4zhxolnql07",
+          "bracket_id": "x7lm7phol45m2wd",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1715454000,
+          "end_time": 1715526000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "x7lm7phowyl8m2w",
+              "round_id": "2y8m4zhxolnql07",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "3glrw7hw87dqdyj",
+              "away_team_id": "vjxm8ghg10er6od",
+              "winner_team_id": "3glrw7hw87dqdyj",
+              "home_score": 6,
+              "away_score": 0,
+              "parent_ids": [
+                "x7lm7phow19km2w"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "x7lm7phz7832m2w"
+              ]
+            },
+            {
+              "id": "jw2r09hnj6v0rz8",
+              "round_id": "2y8m4zhxolnql07",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "n54qllh2p37qvy9",
+              "away_team_id": "8yomo4h27n8q0j6",
+              "winner_team_id": "n54qllh2p37qvy9",
+              "home_score": 7,
+              "away_score": 6,
+              "parent_ids": [
+                "x7lm7phow19km2w"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "dj2ryoh1x4e4q1z"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8yomo4hxpnxq0j6",
+          "bracket_id": "x7lm7phol45m2wd",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1715972400,
+          "end_time": 1715972400,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "x7lm7phow19km2w",
+              "round_id": "8yomo4hxpnxq0j6",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "3glrw7hw87dqdyj",
+              "away_team_id": "n54qllh2p37qvy9",
+              "winner_team_id": "3glrw7hw87dqdyj",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [
+                "jw2r09hnj6v0rz8",
+                "x7lm7phowyl8m2w"
+              ],
+              "event_ids": [
+                "dn1m1gh202eomoe"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "vjxm8ghg10er6od": {
+      "id": "vjxm8ghg10er6od",
+      "name": "Reims Women"
+    },
+    "8yomo4h27n8q0j6": {
+      "id": "8yomo4h27n8q0j6",
+      "name": "Paris FC Women"
+    },
+    "n54qllh2p37qvy9": {
+      "id": "n54qllh2p37qvy9",
+      "name": "Paris Saint Germain (w)"
+    },
+    "3glrw7hw87dqdyj": {
+      "id": "3glrw7hw87dqdyj",
+      "name": "OL Lyonnes Women"
+    }
+  },
+  "sport_events": {
+    "dj2ryoh1x4e4q1z": {
+      "id": "dj2ryoh1x4e4q1z",
+      "home_team_id": "n54qllh2p37qvy9",
+      "away_team_id": "8yomo4h27n8q0j6",
+      "start_timestamp": 1715454000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 4,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 5,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 36,
+          "type": 1,
+          "position": 2,
+          "player_id": "jw2r09hno507rz8",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Clara Mateo"
+        },
+        {
+          "time": 46,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4jwq2gh4l31m0ve",
+          "out_player_id": "dj2ryohgxn3vq1z",
+          "in_player_name": "Lieke Martens",
+          "out_player_name": "Thiniba Samoura"
+        },
+        {
+          "time": 49,
+          "type": 28,
+          "position": 1,
+          "player_id": "x7lm7php82vm2wd",
+          "var_reason": 1,
+          "var_result": 2,
+          "player_name": "Grace Geyoro"
+        },
+        {
+          "time": 52,
+          "type": 8,
+          "position": 1,
+          "player_id": "x7lm7php82vm2wd",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Grace Geyoro"
+        },
+        {
+          "time": 54,
+          "type": 3,
+          "position": 2,
+          "player_id": "l5ergphengx1r8k",
+          "player_name": "Louna Ribadeira",
+          "reason_type": 1
+        },
+        {
+          "time": 56,
+          "type": 1,
+          "position": 2,
+          "player_id": "2y8m4zhgwp3pql0",
+          "assist1_id": "8yomo4h2w760q0j",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Daphne Corboz",
+          "assist1_name": "Julie Dufour"
+        },
+        {
+          "time": 65,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "318q66h4873jqo9",
+          "out_player_id": "ednm9whzw3zvryo",
+          "in_player_name": "Tara Elimbi Gilbert",
+          "out_player_name": "Jade Le Guilly"
+        },
+        {
+          "time": 72,
+          "type": 1,
+          "position": 1,
+          "player_id": "y0or5jheze7oqwz",
+          "assist1_id": "k82rekhy0834rep",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Marie-Antoinette Katoto",
+          "assist1_name": "Sandy Baltimore"
+        },
+        {
+          "time": 74,
+          "type": 3,
+          "position": 1,
+          "player_id": "6ypq3nhl8ylmd7o",
+          "player_name": "Jackie Groenen",
+          "reason_type": 1
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whzny6pryo",
+          "out_player_id": "jw2r09hno507rz8",
+          "in_player_name": "Kessya Bussy",
+          "out_player_name": "Clara Mateo"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "vjxm8gh83548r6o",
+          "out_player_id": "dj2ryohjo7o9q1z",
+          "in_player_name": "Teninsoun Sissoko",
+          "out_player_name": "Céline Ould Hocine"
+        },
+        {
+          "time": 75,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh4pok4r51",
+          "out_player_id": "2y8m4zhgwp3pql0",
+          "in_player_name": "Margaux Le Mouël",
+          "out_player_name": "Daphne Corboz"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhz77zomd7",
+          "out_player_id": "8yomo4h2w760q0j",
+          "in_player_name": "Louise Fleury",
+          "out_player_name": "Julie Dufour"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l5ergphvllnjr8k",
+          "out_player_id": "l5ergphengx1r8k",
+          "in_player_name": "Mathilde Bourdieu",
+          "out_player_name": "Louna Ribadeira"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhj02e2ryk",
+          "out_player_id": "6ypq3nhl8ylmd7o",
+          "in_player_name": "Korbin Rose Albert",
+          "out_player_name": "Jackie Groenen"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 99,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 29,
+          "position": 2,
+          "player_id": "x7lm7ph03390m2w",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Théa Greboval"
+        },
+        {
+          "time": 91,
+          "type": 29,
+          "position": 1,
+          "player_id": "n54qllhjy2lqvy9",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Sakina Karchaoui"
+        },
+        {
+          "time": 92,
+          "type": 30,
+          "position": 2,
+          "player_id": "l5ergphvllnjr8k",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Mathilde Bourdieu"
+        },
+        {
+          "time": 92,
+          "type": 29,
+          "position": 1,
+          "player_id": "y0or5jheze7oqwz",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Marie-Antoinette Katoto"
+        },
+        {
+          "time": 93,
+          "type": 29,
+          "position": 2,
+          "player_id": "n54qllh2l9jqvy9",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Gaëtane Thiney"
+        },
+        {
+          "time": 93,
+          "type": 29,
+          "position": 1,
+          "player_id": "k82rekhy0834rep",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "Sandy Baltimore"
+        },
+        {
+          "time": 94,
+          "type": 29,
+          "position": 2,
+          "player_id": "l7oqdeh4pok4r51",
+          "away_score": 3,
+          "home_score": 3,
+          "player_name": "Margaux Le Mouël"
+        },
+        {
+          "time": 95,
+          "type": 29,
+          "position": 1,
+          "player_id": "4jwq2gh4l31m0ve",
+          "away_score": 3,
+          "home_score": 4,
+          "player_name": "Lieke Martens"
+        },
+        {
+          "time": 95,
+          "type": 29,
+          "position": 2,
+          "player_id": "vjxm8gh83548r6o",
+          "away_score": 4,
+          "home_score": 4,
+          "player_name": "Teninsoun Sissoko"
+        },
+        {
+          "time": 96,
+          "type": 29,
+          "position": 1,
+          "player_id": "x7lm7php82vm2wd",
+          "away_score": 4,
+          "home_score": 5,
+          "player_name": "Grace Geyoro"
+        },
+        {
+          "time": 90,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    },
+    "dn1m1gh202eomoe": {
+      "id": "dn1m1gh202eomoe",
+      "home_team_id": "3glrw7hw87dqdyj",
+      "away_team_id": "n54qllh2p37qvy9",
+      "start_timestamp": 1715972400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 18,
+          "type": 1,
+          "position": 1,
+          "player_id": "k82rekhyxkj1rep",
+          "assist1_id": "8yomo4hkdzeq0j6",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Delphine Cascarino",
+          "assist1_name": "Danielle van de Donk"
+        },
+        {
+          "time": 22,
+          "type": 1,
+          "position": 1,
+          "player_id": "8yomo4hk483q0j6",
+          "assist1_id": "ednm9whvokx9ryo",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Kadidiatou Diani",
+          "assist1_name": "Melchie Dumornay"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhj7jeql07",
+          "out_player_id": "318q66hvog3pqo9",
+          "in_player_name": "Amel Majri",
+          "out_player_name": "Damaris Egurrola"
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohjew67q1z",
+          "out_player_id": "k82rekhyxkj1rep",
+          "in_player_name": "Vicki Becho",
+          "out_player_name": "Delphine Cascarino"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4jwq2gh4l31m0ve",
+          "out_player_id": "pxwrxlhj02e2ryk",
+          "in_player_name": "Lieke Martens",
+          "out_player_name": "Korbin Rose Albert"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohgxn3vq1z",
+          "out_player_id": "ednm9whzw3zvryo",
+          "in_player_name": "Thiniba Samoura",
+          "out_player_name": "Jade Le Guilly"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "ednm9whkyk2ryox",
+          "out_player_id": "8yomo4hk483q0j6",
+          "in_player_name": "Dzsenifer Marozsán",
+          "out_player_name": "Kadidiatou Diani"
+        },
+        {
+          "time": 73,
+          "type": 1,
+          "position": 2,
+          "player_id": "l7oqdeh4now8r51",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Tabitha Chawinga"
+        },
+        {
+          "time": 86,
+          "type": 3,
+          "position": 1,
+          "player_id": "8yomo4hkdzeq0j6",
+          "player_name": "Danielle van de Donk",
+          "reason_type": 1
+        },
+        {
+          "time": 89,
+          "type": 3,
+          "position": 2,
+          "player_id": "ednm9whgde91ryo",
+          "player_name": "Eva Gaetino",
+          "reason_type": 19
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 95,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "x7lm7phz7832m2w": {
+      "id": "x7lm7phz7832m2w",
+      "home_team_id": "3glrw7hw87dqdyj",
+      "away_team_id": "vjxm8ghg10er6od",
+      "start_timestamp": 1715526000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 13,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 6,
+          "overTime_score": 0,
+          "half_time_score": 3
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 12,
+          "type": 1,
+          "position": 1,
+          "player_id": "zp5rzghjvj0q82w",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Wendie Renard"
+        },
+        {
+          "time": 36,
+          "type": 1,
+          "position": 1,
+          "player_id": "8yomo4hkdzeq0j6",
+          "assist1_id": "8yomo4h23vwq0j6",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Danielle van de Donk",
+          "assist1_name": "Lindsey Horan"
+        },
+        {
+          "time": 43,
+          "type": 1,
+          "position": 1,
+          "player_id": "2y8m4zhj7jeql07",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Amel Majri"
+        },
+        {
+          "time": 46,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whvp6g4ryo",
+          "out_player_id": "zp5rzghzkv0gq82",
+          "in_player_name": "Monique Ngock",
+          "out_player_name": "Lou-Ann Joly"
+        },
+        {
+          "time": 57,
+          "type": 1,
+          "position": 1,
+          "player_id": "8yomo4hk483q0j6",
+          "assist1_id": "318q66hvog3pqo9",
+          "away_score": 0,
+          "home_score": 4,
+          "player_name": "Kadidiatou Diani",
+          "assist1_name": "Damaris Egurrola"
+        },
+        {
+          "time": 58,
+          "type": 1,
+          "position": 1,
+          "player_id": "ednm9whvokx9ryo",
+          "assist1_id": "8yomo4h23vwq0j6",
+          "away_score": 0,
+          "home_score": 5,
+          "player_name": "Melchie Dumornay",
+          "assist1_name": "Lindsey Horan"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzgh25gdq82w",
+          "out_player_id": "6ypq3nhz59nzmd7",
+          "in_player_name": "Perle Morroni",
+          "out_player_name": "Selma Bacha"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohjew67q1z",
+          "out_player_id": "ednm9whvokx9ryo",
+          "in_player_name": "Vicki Becho",
+          "out_player_name": "Melchie Dumornay"
+        },
+        {
+          "time": 66,
+          "type": 1,
+          "position": 1,
+          "player_id": "8yomo4hk483q0j6",
+          "away_score": 0,
+          "home_score": 6,
+          "player_name": "Kadidiatou Diani"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whv52woryo",
+          "out_player_id": "6ypq3nhl18onmd7",
+          "in_player_name": "S. Chossenotte",
+          "out_player_name": "Mia Irene Gyau"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l7oqdehl0402r51",
+          "out_player_id": "pxwrxlh9y74jryk",
+          "in_player_name": "Noémie Mouchon",
+          "out_player_name": "Mélissa Ferreira Gomes"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dn1m1gh3ddv5moe",
+          "out_player_id": "2y8m4zh8pzd3ql0",
+          "in_player_name": "Rofiat Adenike Imuran",
+          "out_player_name": "Jade Nassi"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whkyk2ryox",
+          "out_player_id": "8yomo4h23vwq0j6",
+          "in_player_name": "Dzsenifer Marozsán",
+          "out_player_name": "Lindsey Horan"
+        },
+        {
+          "time": 70,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "k82rekhyxkj1rep",
+          "out_player_id": "2y8m4zhj7jeql07",
+          "in_player_name": "Delphine Cascarino",
+          "out_player_name": "Amel Majri"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "k82rekh9o71repz",
+          "out_player_id": "8yomo4hkdzeq0j6",
+          "in_player_name": "Ada Hegerberg",
+          "out_player_name": "Danielle van de Donk"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "x7lm7phwjg82m2w",
+          "out_player_id": "2y8m4zhgoyngql0",
+          "in_player_name": "Anaële Le Moguédec",
+          "out_player_name": "Rachel Corboz"
+        },
+        {
+          "time": 88,
+          "type": 3,
+          "position": 1,
+          "player_id": "zp5rzgh25gdq82w",
+          "player_name": "Perle Morroni",
+          "reason_type": 1
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 92,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

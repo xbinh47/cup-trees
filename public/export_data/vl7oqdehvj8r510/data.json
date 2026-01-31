@@ -1,0 +1,318 @@
+{
+  "season_id": "vl7oqdehvj8r510",
+  "brackets": [
+    {
+      "id": "x7lm7ph03g2m2wd",
+      "competition_id": "yl5ergph5zr8k0o",
+      "season_id": "vl7oqdehvj8r510",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1763568000,
+      "end_time": 1763913540,
+      "rounds": [
+        {
+          "id": "4wyrn4hojv5q86p",
+          "bracket_id": "x7lm7ph03g2m2wd",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1763661600,
+          "end_time": 1763902800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dn1m1ghexlodmoe",
+              "round_id": "4wyrn4hojv5q86p",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "1l4rjnh63vem7vx",
+              "away_team_id": "9dn1m1ghynkmoep",
+              "winner_team_id": "9dn1m1ghynkmoep",
+              "home_score": 0,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "6ypq3nhvn1ngmd7",
+                "pxwrxlhy3v3eryk"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "9dn1m1ghynkmoep": {
+      "id": "9dn1m1ghynkmoep",
+      "name": "Brommapojkarna Women"
+    },
+    "1l4rjnh63vem7vx": {
+      "id": "1l4rjnh63vem7vx",
+      "name": "Orebro Women"
+    }
+  },
+  "sport_events": {
+    "6ypq3nhvn1ngmd7": {
+      "id": "6ypq3nhvn1ngmd7",
+      "home_team_id": "1l4rjnh63vem7vx",
+      "away_team_id": "9dn1m1ghynkmoep",
+      "start_timestamp": 1763661600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "pxwrxlhy3v3eryk",
+      "incidents": [
+        {
+          "time": 38,
+          "type": 1,
+          "position": 2,
+          "player_id": "1l4rjnhxv513m7v",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Augusta Priks"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "4wyrn4h450nwq86",
+          "out_player_id": "1l4rjnhxv513m7v",
+          "in_player_name": "Vera Blom",
+          "out_player_name": "Augusta Priks"
+        },
+        {
+          "time": 46,
+          "type": 1,
+          "position": 2,
+          "player_id": "jw2r09hxg68nrz8",
+          "assist1_id": "4wyrn4h450nwq86",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Louise Lillback",
+          "assist1_name": "Vera Blom"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7ph95el1m2w",
+          "out_player_id": "6ypq3nhwe4o5md7",
+          "in_player_name": "stina dahlman",
+          "out_player_name": "vera andersson"
+        },
+        {
+          "time": 74,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "vjxm8ghjo637r6o",
+          "out_player_id": "jw2r09hxg68nrz8",
+          "in_player_name": "Emma Engström",
+          "out_player_name": "Louise Lillback"
+        },
+        {
+          "time": 74,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l5ergphvj8ewr8k",
+          "out_player_id": "6ypq3nh56e1md7o",
+          "in_player_name": "Isabelle Navren",
+          "out_player_name": "Adelina Engman"
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "add_time": 1,
+          "position": 2,
+          "in_player_id": "zp5rzghpvp71q82",
+          "out_player_id": "n54qllhxy69gqvy",
+          "in_player_name": "Sara frigren",
+          "out_player_name": "Ellen Toivio"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "pxwrxlhy3v3eryk": {
+      "id": "pxwrxlhy3v3eryk",
+      "home_team_id": "9dn1m1ghynkmoep",
+      "away_team_id": "1l4rjnh63vem7vx",
+      "start_timestamp": 1763902800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "6ypq3nhvn1ngmd7",
+      "incidents": [
+        {
+          "time": 13,
+          "type": 3,
+          "position": 2,
+          "player_id": "3glrw7hz92y0qdy",
+          "player_name": "emilia widstrand"
+        },
+        {
+          "time": 25,
+          "type": 3,
+          "position": 1,
+          "player_id": "4wyrn4h450nwq86",
+          "player_name": "Vera Blom"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 55,
+          "type": 1,
+          "position": 1,
+          "player_id": "x7lm7ph02v1pm2w",
+          "assist1_id": "6ypq3nh56e1md7o",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Frida Thornqvist",
+          "assist1_name": "Adelina Engman"
+        },
+        {
+          "time": 57,
+          "type": 3,
+          "position": 2,
+          "player_id": "6ypq3nhwe4o5md7",
+          "player_name": "vera andersson"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l5ergphvj8ewr8k",
+          "out_player_id": "k82rekhyvzgerep",
+          "in_player_name": "Isabelle Navren",
+          "out_player_name": "Wilma Warulf"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "zp5rzghpvp71q82",
+          "out_player_id": "4wyrn4h450nwq86",
+          "in_player_name": "Sara frigren",
+          "out_player_name": "Vera Blom"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8ghjo637r6o",
+          "out_player_id": "jw2r09hxg68nrz8",
+          "in_player_name": "Emma Engström",
+          "out_player_name": "Louise Lillback"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "k82rekh34w5lrep",
+          "out_player_id": "pxwrxlhzn8j2ryk",
+          "in_player_name": "lilly andersson",
+          "out_player_name": "bella sember"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "vjxm8ghpe8wdr6o",
+          "out_player_id": "6ypq3nhwe4o5md7",
+          "in_player_name": "stella lambertsson",
+          "out_player_name": "vera andersson"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7ph95el1m2w",
+          "out_player_id": "dn1m1ghn804nmoe",
+          "in_player_name": "stina dahlman",
+          "out_player_name": "Julia Walentowicz"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "y0or5jhek68wqwz",
+          "out_player_id": "n54qllhxy69gqvy",
+          "in_player_name": "Joanna Baekkelund",
+          "out_player_name": "Ellen Toivio"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "1l4rjnhxv513m7v",
+          "out_player_id": "x7lm7ph02v1pm2w",
+          "in_player_name": "Augusta Priks",
+          "out_player_name": "Frida Thornqvist"
+        },
+        {
+          "time": 91,
+          "type": 1,
+          "add_time": 1,
+          "position": 1,
+          "player_id": "vjxm8ghjo637r6o",
+          "assist1_id": "zp5rzghpvp71q82",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Emma Engström",
+          "assist1_name": "Sara frigren"
+        }
+      ]
+    }
+  }
+}

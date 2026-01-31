@@ -1,0 +1,265 @@
+{
+  "season_id": "9vjxm8ghdepr6od",
+  "brackets": [
+    {
+      "id": "l5ergph3l16r8k0",
+      "competition_id": "p3glrw7hww1qdyj",
+      "season_id": "9vjxm8ghdepr6od",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1681056000,
+      "end_time": 1682870340,
+      "rounds": [
+        {
+          "id": "8yomo4h5nnpq0j6",
+          "bracket_id": "l5ergph3l16r8k0",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1681534800,
+          "end_time": 1681631100,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "3glrw7hw2yj1qdy",
+              "round_id": "8yomo4h5nnpq0j6",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "965mkyh47l8r1ge",
+              "away_team_id": "jw2r09hlvp8rz84",
+              "winner_team_id": "jw2r09hlvp8rz84",
+              "home_score": 4,
+              "away_score": 7,
+              "parent_ids": [
+                "x7lm7phkyw0wm2w"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "y39mp1h0n2ynmoj"
+              ]
+            },
+            {
+              "id": "vjxm8gh4d8jjr6o",
+              "round_id": "8yomo4h5nnpq0j6",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "4wyrn4h8278q86p",
+              "away_team_id": "l5ergphnppjr8k0",
+              "winner_team_id": "l5ergphnppjr8k0",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "k82rekh047oprep"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6ypq3nh4xxjmd7o",
+          "bracket_id": "l5ergph3l16r8k0",
+          "name": "Preliminary Final",
+          "abbr": "Preliminary Final",
+          "start_time": 1682139600,
+          "end_time": 1682139600,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "x7lm7phkyw0wm2w",
+              "round_id": "6ypq3nh4xxjmd7o",
+              "number": 1,
+              "type_id": 7,
+              "state_id": 7,
+              "home_team_id": "4wyrn4h8278q86p",
+              "away_team_id": "jw2r09hlvp8rz84",
+              "winner_team_id": "4wyrn4h8278q86p",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [
+                "y0or5jhly3egqwz"
+              ],
+              "children_ids": [
+                "3glrw7hw2yj1qdy"
+              ],
+              "event_ids": [
+                "8yomo4hglkg4q0j"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pxwrxlh2dd6ryk0",
+          "bracket_id": "l5ergph3l16r8k0",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1682834400,
+          "end_time": 1682834400,
+          "number": 3,
+          "match_ups": [
+            {
+              "id": "y0or5jhly3egqwz",
+              "round_id": "pxwrxlh2dd6ryk0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "l5ergphnppjr8k0",
+              "away_team_id": "4wyrn4h8278q86p",
+              "winner_team_id": "4wyrn4h8278q86p",
+              "home_score": 0,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [
+                "x7lm7phkyw0wm2w"
+              ],
+              "event_ids": [
+                "1l4rjnhjodj4m7v"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "jw2r09hlvp8rz84": {
+      "id": "jw2r09hlvp8rz84",
+      "name": "Melbourne Victory Women"
+    },
+    "l5ergphnppjr8k0": {
+      "id": "l5ergphnppjr8k0",
+      "name": "Western United FC Women"
+    },
+    "965mkyh47l8r1ge": {
+      "id": "965mkyh47l8r1ge",
+      "name": "Melbourne City Women"
+    },
+    "4wyrn4h8278q86p": {
+      "id": "4wyrn4h8278q86p",
+      "name": "Sydney FC Women"
+    }
+  },
+  "sport_events": {
+    "1l4rjnhjodj4m7v": {
+      "id": "1l4rjnhjodj4m7v",
+      "home_team_id": "l5ergphnppjr8k0",
+      "away_team_id": "4wyrn4h8278q86p",
+      "start_timestamp": 1682834400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "8yomo4hglkg4q0j": {
+      "id": "8yomo4hglkg4q0j",
+      "home_team_id": "4wyrn4h8278q86p",
+      "away_team_id": "jw2r09hlvp8rz84",
+      "start_timestamp": 1682139600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "k82rekh047oprep": {
+      "id": "k82rekh047oprep",
+      "home_team_id": "4wyrn4h8278q86p",
+      "away_team_id": "l5ergphnppjr8k0",
+      "start_timestamp": 1681631100,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "y39mp1h0n2ynmoj": {
+      "id": "y39mp1h0n2ynmoj",
+      "home_team_id": "965mkyh47l8r1ge",
+      "away_team_id": "jw2r09hlvp8rz84",
+      "start_timestamp": 1681534800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 4,
+          "regular_score": 3,
+          "overTime_score": 3,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 1,
+          "regular_score": 3,
+          "overTime_score": 3,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

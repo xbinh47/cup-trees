@@ -1,0 +1,899 @@
+{
+  "season_id": "8y39mp1h24xmojx",
+  "brackets": [
+    {
+      "id": "1l4rjnhzy1vm7vx",
+      "competition_id": "8y39mp1h5zmojxg",
+      "season_id": "8y39mp1h24xmojx",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1717776000,
+      "end_time": 1718121540,
+      "rounds": [
+        {
+          "id": "23xmvkh032wqg8n",
+          "bracket_id": "1l4rjnhzy1vm7vx",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1717851600,
+          "end_time": 1717862400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "6ypq3nh5l79wmd7",
+              "round_id": "23xmvkh032wqg8n",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "gy0or5jh2vgqwzv",
+              "away_team_id": "4zp5rzghv1yq82w",
+              "winner_team_id": "4zp5rzghv1yq82w",
+              "home_score": 0,
+              "away_score": 2,
+              "parent_ids": [
+                "y0or5jh4gw7oqwz"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "l5ergphw8z3pr8k"
+              ]
+            },
+            {
+              "id": "8yomo4hk0gp2q0j",
+              "round_id": "23xmvkh032wqg8n",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "l965mkyhj23r1ge",
+              "away_team_id": "gy0or5jhd2oqwzv",
+              "winner_team_id": "l965mkyhj23r1ge",
+              "home_score": 4,
+              "away_score": 1,
+              "parent_ids": [
+                "y0or5jh4gw7oqwz"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "l7oqdeho3v6dr51"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1l4rjnhl6glm7vx",
+          "bracket_id": "1l4rjnhzy1vm7vx",
+          "name": "Placement match for 3rd",
+          "abbr": "3rd",
+          "start_time": 1718121600,
+          "end_time": 1718121600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "pxwrxlh1zx4zryk",
+              "round_id": "1l4rjnhl6glm7vx",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "gy0or5jh2vgqwzv",
+              "away_team_id": "gy0or5jhd2oqwzv",
+              "winner_team_id": "gy0or5jh2vgqwzv",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "8yomo4hk0gp2q0j",
+                "6ypq3nh5l79wmd7"
+              ],
+              "event_ids": [
+                "965mkyhy246vr1g"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zp5rzghwjo4q82w",
+          "bracket_id": "1l4rjnhzy1vm7vx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1718121600,
+          "end_time": 1718121600,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "y0or5jh4gw7oqwz",
+              "round_id": "zp5rzghwjo4q82w",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "4zp5rzghv1yq82w",
+              "away_team_id": "l965mkyhj23r1ge",
+              "winner_team_id": "l965mkyhj23r1ge",
+              "home_score": 4,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [
+                "8yomo4hk0gp2q0j",
+                "6ypq3nh5l79wmd7"
+              ],
+              "event_ids": [
+                "dn1m1gh2pezymoe"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "gy0or5jhd2oqwzv": {
+      "id": "gy0or5jhd2oqwzv",
+      "name": "Faroe Islands"
+    },
+    "l965mkyhj23r1ge": {
+      "id": "l965mkyhj23r1ge",
+      "name": "Estonia"
+    },
+    "gy0or5jh2vgqwzv": {
+      "id": "gy0or5jh2vgqwzv",
+      "name": "Latvia"
+    },
+    "4zp5rzghv1yq82w": {
+      "id": "4zp5rzghv1yq82w",
+      "name": "Lithuania"
+    }
+  },
+  "sport_events": {
+    "965mkyhy246vr1g": {
+      "id": "965mkyhy246vr1g",
+      "home_team_id": "gy0or5jh2vgqwzv",
+      "away_team_id": "gy0or5jhd2oqwzv",
+      "start_timestamp": 1718121600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 29,
+          "type": 3,
+          "position": 2,
+          "player_id": "vjxm8ghg44pr6od",
+          "player_name": "Rene Joensen",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "4jwq2ghvpvwm0ve",
+          "out_player_id": "4jwq2ghv5g1wm0v",
+          "in_player_name": "Andrejs Cigaņiks",
+          "out_player_name": "lukass vapne"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "vjxm8ghjw2l8r6o",
+          "out_player_id": "n54qllhej89qvy9",
+          "in_player_name": "Marko Regža",
+          "out_player_name": "Dāvis Ikaunieks"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "23xmvkhdl6znqg8",
+          "out_player_id": "318q66hve2x4qo9",
+          "in_player_name": "martins kigurs",
+          "out_player_name": "Eduards Daskevics"
+        },
+        {
+          "time": 46,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "x7lm7ph02j44m2w",
+          "out_player_id": "dn1m1gh4d50moep",
+          "in_player_name": "alvis jaunzems",
+          "out_player_name": "Roberts Savalnieks"
+        },
+        {
+          "time": 50,
+          "type": 1,
+          "position": 1,
+          "player_id": "4jwq2ghvpvwm0ve",
+          "assist1_id": "y0or5jhedx8nqwz",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Andrejs Cigaņiks",
+          "assist1_name": "renars varslavans"
+        },
+        {
+          "time": 57,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "n54qllhj08wqvy9",
+          "out_player_id": "zp5rzghpgplq82w",
+          "in_player_name": "Petur Knudsen",
+          "out_player_name": "Adrian Justinussen"
+        },
+        {
+          "time": 57,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "vjxm8gh46x2r6od",
+          "out_player_id": "8yomo4h76v8q0j6",
+          "in_player_name": "Jóan Edmundsson",
+          "out_player_name": "Klaemint Olsen"
+        },
+        {
+          "time": 57,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "l5ergph3z8pr8k0",
+          "out_player_id": "y0or5jh384kqwzv",
+          "in_player_name": "Meinhard Olsen",
+          "out_player_name": "Paetur Joensson Petersen"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "2y8m4zhg4o98ql0",
+          "out_player_id": "318q66hkedjqo9j",
+          "in_player_name": "Noah Mneney",
+          "out_player_name": "Stefan Radosavljevic"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dj2ryoh29zzq1zp",
+          "out_player_id": "y39mp1hjlp34moj",
+          "in_player_name": "Daniel Johansen",
+          "out_player_name": "hanus sorensen"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "l7oqdeh49g9lr51",
+          "out_player_id": "y0or5jhedx8nqwz",
+          "in_player_name": "Maksims tonisevs",
+          "out_player_name": "renars varslavans"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "dn1m1gh8vd6moep",
+          "out_player_id": "dn1m1ghnv5eymoe",
+          "in_player_name": "Patrik Johannesen",
+          "out_player_name": "Arnbjorn Svensson"
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "23xmvkh32weqg8n",
+          "out_player_id": "n54qllhxdwpvqvy",
+          "in_player_name": "Kaspars Dubra",
+          "out_player_name": "Dmitrijs Zelenkovs"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "dn1m1gh2pezymoe": {
+      "id": "dn1m1gh2pezymoe",
+      "home_team_id": "4zp5rzghv1yq82w",
+      "away_team_id": "l965mkyhj23r1ge",
+      "start_timestamp": 1718121600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 4,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 3,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "8yomo4hke2eq0j6",
+          "out_player_id": "6ypq3nhz7668md7",
+          "in_player_name": "Fedor Černych",
+          "out_player_name": "Matas Vareika"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "318q66hv8edqo9j",
+          "out_player_id": "4jwq2ghvz3y3m0v",
+          "in_player_name": "Edgar Tur",
+          "out_player_name": "Robi Saarma"
+        },
+        {
+          "time": 50,
+          "type": 3,
+          "position": 2,
+          "player_id": "6ypq3nhz48jnmd7",
+          "player_name": "Maksim·Paskotsi",
+          "reason_type": 1
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whz29w8ryo",
+          "out_player_id": "3glrw7h0yv2qdyj",
+          "in_player_name": "Martin Vetkal",
+          "out_player_name": "Alex Matthias Tamm"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "8yomo4hz602q0j6",
+          "out_player_id": "ednm9whkw2yryox",
+          "in_player_name": "Mark Anders Lepik",
+          "out_player_name": "Henri Anier"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhgw005ql0",
+          "out_player_id": "y0or5jh3zwx3qwz",
+          "in_player_name": "Gytis Paulauskas",
+          "out_player_name": "A. Kučys"
+        },
+        {
+          "time": 71,
+          "type": 3,
+          "position": 2,
+          "player_id": "x7lm7ph0vv8om2w",
+          "player_name": "Michael Schjønning-Larsen",
+          "reason_type": 1
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "x7lm7phkx3em2wd",
+          "out_player_id": "pxwrxlhjen9kryk",
+          "in_player_name": "Arvydas Novikovas",
+          "out_player_name": "A. Dolžnikov"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "k82rekhyw2lrepz",
+          "out_player_id": "dn1m1ghedw29moe",
+          "in_player_name": "Giedrius Matulevicius",
+          "out_player_name": "Paulius Golubickas"
+        },
+        {
+          "time": 82,
+          "type": 1,
+          "position": 2,
+          "player_id": "8yomo4hz602q0j6",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Mark Anders Lepik"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlh1g97ryk0",
+          "out_player_id": "pxwrxlh92nkxryk",
+          "in_player_name": "Artur Pikk",
+          "out_player_name": "Danil·Kuraksin"
+        },
+        {
+          "time": 84,
+          "type": 1,
+          "position": 1,
+          "player_id": "k82rekhyw2lrepz",
+          "assist1_id": "zp5rzghp0ddq82w",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Giedrius Matulevicius",
+          "assist1_name": "Justas Lasickas"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "k82rekhvezprepz",
+          "out_player_id": "l7oqdeh4oz3r510",
+          "in_player_name": "Linas Klimavičius",
+          "out_player_name": "Modestas Vorobjovas"
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4hvy78q86p",
+          "out_player_id": "x7lm7ph0vv8om2w",
+          "in_player_name": "Erik Sorga",
+          "out_player_name": "Michael Schjønning-Larsen"
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "x7lm7phw7zxm2wd",
+          "out_player_id": "2y8m4zhgjydzql0",
+          "in_player_name": "Domantas Antanavičius",
+          "out_player_name": "Kipras·Kazukolovas"
+        },
+        {
+          "time": 92,
+          "type": 3,
+          "position": 2,
+          "player_id": "ednm9whz29w8ryo",
+          "player_name": "Martin Vetkal",
+          "reason_type": 1
+        },
+        {
+          "time": 97,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 30,
+          "position": 1,
+          "player_id": "zp5rzghp0ddq82w",
+          "player_name": "Justas Lasickas"
+        },
+        {
+          "time": 92,
+          "type": 29,
+          "position": 2,
+          "player_id": "965mkyh7w6xr1ge",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Karol Mets"
+        },
+        {
+          "time": 93,
+          "type": 30,
+          "position": 1,
+          "player_id": "8yomo4hke2eq0j6",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Fedor Černych"
+        },
+        {
+          "time": 94,
+          "type": 29,
+          "position": 2,
+          "player_id": "8yomo4hz602q0j6",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Mark Anders Lepik"
+        },
+        {
+          "time": 95,
+          "type": 29,
+          "position": 1,
+          "player_id": "zp5rzghp4ye7q82",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Artemijus Tutyskinas"
+        },
+        {
+          "time": 96,
+          "type": 29,
+          "position": 2,
+          "player_id": "dj2ryohjppd6q1z",
+          "away_score": 3,
+          "home_score": 1,
+          "player_name": "Kevor Palumets"
+        },
+        {
+          "time": 97,
+          "type": 29,
+          "position": 1,
+          "player_id": "x7lm7phkx3em2wd",
+          "away_score": 3,
+          "home_score": 2,
+          "player_name": "Arvydas Novikovas"
+        },
+        {
+          "time": 98,
+          "type": 30,
+          "position": 2,
+          "player_id": "4wyrn4hvy78q86p",
+          "away_score": 3,
+          "home_score": 2,
+          "player_name": "Erik Sorga"
+        },
+        {
+          "time": 99,
+          "type": 29,
+          "position": 1,
+          "player_id": "k82rekhvezprepz",
+          "away_score": 3,
+          "home_score": 3,
+          "player_name": "Linas Klimavičius"
+        },
+        {
+          "time": 100,
+          "type": 29,
+          "position": 2,
+          "player_id": "ednm9whz29w8ryo",
+          "away_score": 4,
+          "home_score": 3,
+          "player_name": "Martin Vetkal"
+        },
+        {
+          "time": 90,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    },
+    "l5ergphw8z3pr8k": {
+      "id": "l5ergphw8z3pr8k",
+      "home_team_id": "gy0or5jh2vgqwzv",
+      "away_team_id": "4zp5rzghv1yq82w",
+      "start_timestamp": 1717851600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 49,
+          "type": 1,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 0
+        },
+        {
+          "time": 71,
+          "type": 1,
+          "position": 2,
+          "away_score": 2,
+          "home_score": 0
+        },
+        {
+          "time": 80,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 1
+        }
+      ]
+    },
+    "l7oqdeho3v6dr51": {
+      "id": "l7oqdeho3v6dr51",
+      "home_team_id": "l965mkyhj23r1ge",
+      "away_team_id": "gy0or5jhd2oqwzv",
+      "start_timestamp": 1717862400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 4,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 24,
+          "type": 1,
+          "position": 2,
+          "player_id": "n54qllhj08wqvy9",
+          "assist1_id": "vjxm8ghjlz5or6o",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Petur Knudsen",
+          "assist1_name": "Hanus Sørensen"
+        },
+        {
+          "time": 43,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7h0yv2qdyj",
+          "assist1_id": "4jwq2ghvz3y3m0v",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Alex Matthias Tamm",
+          "assist1_name": "Robi Saarma"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y39mp1h587p6moj",
+          "out_player_id": "vjxm8gh46x2r6od",
+          "in_player_name": "Klaemint Olsen",
+          "out_player_name": "Jóan Edmundsson"
+        },
+        {
+          "time": 50,
+          "type": 1,
+          "position": 1,
+          "player_id": "ednm9whkw2yryox",
+          "assist1_id": "3glrw7h0yv2qdyj",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Henri Anier",
+          "assist1_name": "Alex Matthias Tamm"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghpgplq82w",
+          "out_player_id": "l5ergph3z8pr8k0",
+          "in_player_name": "Adrian Justinussen",
+          "out_player_name": "Meinhard Olsen"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh384kqwzv",
+          "out_player_id": "n54qllhj08wqvy9",
+          "in_player_name": "Paetur Joensson Petersen",
+          "out_player_name": "Petur Knudsen"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "8yomo4hz602q0j6",
+          "out_player_id": "ednm9whkw2yryox",
+          "in_player_name": "Mark Anders Lepik",
+          "out_player_name": "Henri Anier"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66hv8edqo9j",
+          "out_player_id": "4jwq2ghvz3y3m0v",
+          "in_player_name": "Edgar Tur",
+          "out_player_name": "Robi Saarma"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4hvy78q86p",
+          "out_player_id": "3glrw7h0yv2qdyj",
+          "in_player_name": "Erik Sorga",
+          "out_player_name": "Alex Matthias Tamm"
+        },
+        {
+          "time": 76,
+          "type": 3,
+          "position": 1,
+          "player_id": "23xmvkhd87zyqg8",
+          "player_name": "Karl Hein",
+          "reason_type": 1
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlh1g97ryk0",
+          "out_player_id": "x7lm7ph0vv8om2w",
+          "in_player_name": "Artur Pikk",
+          "out_player_name": "Michael Schjønning-Larsen"
+        },
+        {
+          "time": 81,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dn1m1gh8vd6moep",
+          "out_player_id": "318q66hkedjqo9j",
+          "in_player_name": "Patrik Johannesen",
+          "out_player_name": "Stefan Radosavljevic"
+        },
+        {
+          "time": 83,
+          "type": 1,
+          "position": 1,
+          "player_id": "318q66hv8edqo9j",
+          "away_score": 1,
+          "home_score": 3,
+          "player_name": "Edgar Tur"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66hj8klqo9j",
+          "out_player_id": "3glrw7hjl9v7qdy",
+          "in_player_name": "Markus Poom",
+          "out_player_name": "Rocco Robert·Shein"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlh92nkxryk",
+          "out_player_id": "318q66hvxxoqo9j",
+          "in_player_name": "Danil·Kuraksin",
+          "out_player_name": "Martin Miller"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "x7lm7ph01vyem2w",
+          "out_player_id": "vjxm8ghjlz5or6o",
+          "in_player_name": "Aron Jarnskor Ellingsgaard",
+          "out_player_name": "Hanus Sørensen"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "23xmvkhd604oqg8",
+          "out_player_id": "vjxm8ghg44pr6od",
+          "in_player_name": "Noah Mneney",
+          "out_player_name": "Rene Joensen"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 1,
+          "position": 1,
+          "player_id": "pxwrxlh92nkxryk",
+          "away_score": 1,
+          "home_score": 4,
+          "player_name": "Danil·Kuraksin"
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

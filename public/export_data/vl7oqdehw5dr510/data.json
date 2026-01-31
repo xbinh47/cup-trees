@@ -1,0 +1,86 @@
+{
+  "season_id": "vl7oqdehw5dr510",
+  "brackets": [
+    {
+      "id": "1l4rjnh14ynm7vx",
+      "competition_id": "p3glrw7hd1qdyjv",
+      "season_id": "vl7oqdehw5dr510",
+      "name": "Knockout stage",
+      "abbr": "FA Super Cup ",
+      "start_time": 1680883200,
+      "end_time": 1681055940,
+      "rounds": [
+        {
+          "id": "6ypq3nhg68dmd7o",
+          "bracket_id": "1l4rjnh14ynm7vx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1680953700,
+          "end_time": 1680953700,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "pxwrxlhg8278ryk",
+              "round_id": "6ypq3nhg68dmd7o",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "jw2r09hx3derz84",
+              "away_team_id": "z318q66hd8gqo9j",
+              "winner_team_id": "jw2r09hx3derz84",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "x7lm7ph3de4nm2w"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "z318q66hd8gqo9j": {
+      "id": "z318q66hd8gqo9j",
+      "name": "Shandong Taishan FC"
+    },
+    "jw2r09hx3derz84": {
+      "id": "jw2r09hx3derz84",
+      "name": "Wuhan Three Towns FC"
+    }
+  },
+  "sport_events": {
+    "x7lm7ph3de4nm2w": {
+      "id": "x7lm7ph3de4nm2w",
+      "home_team_id": "jw2r09hx3derz84",
+      "away_team_id": "z318q66hd8gqo9j",
+      "start_timestamp": 1680953700,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 1,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

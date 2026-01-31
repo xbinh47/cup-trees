@@ -1,0 +1,117 @@
+{
+  "season_id": "vl7oqdehkx5r510",
+  "brackets": [
+    {
+      "id": "l7oqdeh6d61r510",
+      "competition_id": "jednm9whokryox8",
+      "season_id": "vl7oqdehkx5r510",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1668268800,
+      "end_time": 1672502340,
+      "rounds": [
+        {
+          "id": "4jwq2gh06plm0ve",
+          "bracket_id": "l7oqdeh6d61r510",
+          "name": "Qualification Round1",
+          "abbr": "QR1",
+          "start_time": 1669222800,
+          "end_time": 1669546800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "x7lm7phkv6nwm2w",
+              "round_id": "4jwq2gh06plm0ve",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "jw2r09hnjy6rz84",
+              "away_team_id": "pxwrxlhgx7kryk0",
+              "winner_team_id": "pxwrxlhgx7kryk0",
+              "home_score": 1,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "x7lm7ph3xwxvm2w",
+                "4wyrn4hoyv4pq86"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "pxwrxlhgx7kryk0": {
+      "id": "pxwrxlhgx7kryk0",
+      "name": "Tallinna JK Legion"
+    },
+    "jw2r09hnjy6rz84": {
+      "id": "jw2r09hnjy6rz84",
+      "name": "Elva"
+    }
+  },
+  "sport_events": {
+    "4wyrn4hoyv4pq86": {
+      "id": "4wyrn4hoyv4pq86",
+      "home_team_id": "pxwrxlhgx7kryk0",
+      "away_team_id": "jw2r09hnjy6rz84",
+      "start_timestamp": 1669546800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "x7lm7ph3xwxvm2w": {
+      "id": "x7lm7ph3xwxvm2w",
+      "home_team_id": "jw2r09hnjy6rz84",
+      "away_team_id": "pxwrxlhgx7kryk0",
+      "start_timestamp": 1669222800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 3
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

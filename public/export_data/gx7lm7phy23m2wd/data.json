@@ -1,0 +1,117 @@
+{
+  "season_id": "gx7lm7phy23m2wd",
+  "brackets": [
+    {
+      "id": "3glrw7h19lwqdyj",
+      "competition_id": "z318q66hoz1qo9j",
+      "season_id": "gx7lm7phy23m2wd",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1693497600,
+      "end_time": 1698767940,
+      "rounds": [
+        {
+          "id": "3glrw7h040wqdyj",
+          "bracket_id": "3glrw7h19lwqdyj",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1693717200,
+          "end_time": 1694233800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "vjxm8gh4nwg0r6o",
+              "round_id": "3glrw7h040wqdyj",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "3glrw7h1y1xqdyj",
+              "away_team_id": "y0or5jhlex1qwzv",
+              "winner_team_id": "3glrw7h1y1xqdyj",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "y39mp1hz3ggemoj",
+                "dj2ryoh1yv7oq1z"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "3glrw7h1y1xqdyj": {
+      "id": "3glrw7h1y1xqdyj",
+      "name": "St George Saints"
+    },
+    "y0or5jhlex1qwzv": {
+      "id": "y0or5jhlex1qwzv",
+      "name": "Mt Druitt Town Rangers FC"
+    }
+  },
+  "sport_events": {
+    "dj2ryoh1yv7oq1z": {
+      "id": "dj2ryoh1yv7oq1z",
+      "home_team_id": "y0or5jhlex1qwzv",
+      "away_team_id": "3glrw7h1y1xqdyj",
+      "start_timestamp": 1694233800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 1,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "y39mp1hz3ggemoj": {
+      "id": "y39mp1hz3ggemoj",
+      "home_team_id": "3glrw7h1y1xqdyj",
+      "away_team_id": "y0or5jhlex1qwzv",
+      "start_timestamp": 1693717200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

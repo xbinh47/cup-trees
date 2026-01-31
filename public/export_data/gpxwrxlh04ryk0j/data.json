@@ -1,0 +1,109 @@
+{
+  "season_id": "gpxwrxlh04ryk0j",
+  "brackets": [
+    {
+      "id": "y39mp1h5y21mojx",
+      "competition_id": "8y39mp1hjzmojxg",
+      "season_id": "gpxwrxlh04ryk0j",
+      "name": "Knockout stage",
+      "abbr": "League One 07",
+      "start_time": 1210262400,
+      "end_time": 1213631940,
+      "rounds": [
+        {
+          "id": "vjxm8ghxd67r6od",
+          "bracket_id": "y39mp1h5y21mojx",
+          "name": "Semifinals",
+          "abbr": "SF",
+          "start_time": 1210358700,
+          "end_time": 1210963500,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "vjxm8gh4evx2r6o",
+              "round_id": "vjxm8ghxd67r6od",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "kn54qllh6doqvy9",
+              "away_team_id": "e4wyrn4h3zlq86p",
+              "winner_team_id": "kn54qllh6doqvy9",
+              "home_score": 5,
+              "away_score": 1,
+              "parent_ids": [
+                "y0or5jhl8x16qwz"
+              ],
+              "children_ids": [],
+              "event_ids": []
+            },
+            {
+              "id": "x7lm7phkjgpnm2w",
+              "round_id": "vjxm8ghxd67r6od",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "kdj2ryoho7nq1zp",
+              "away_team_id": "gx7lm7phdv4m2wd",
+              "winner_team_id": "gx7lm7phdv4m2wd",
+              "home_score": 2,
+              "away_score": 3,
+              "parent_ids": [
+                "y0or5jhl8x16qwz"
+              ],
+              "children_ids": [],
+              "event_ids": []
+            }
+          ]
+        },
+        {
+          "id": "x7lm7phpyedm2wd",
+          "bracket_id": "y39mp1h5y21mojx",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1211724000,
+          "end_time": 1211724000,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "y0or5jhl8x16qwz",
+              "round_id": "x7lm7phpyedm2wd",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "kn54qllh6doqvy9",
+              "away_team_id": "gx7lm7phdv4m2wd",
+              "winner_team_id": "kn54qllh6doqvy9",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "vjxm8gh4evx2r6o",
+                "x7lm7phkjgpnm2w"
+              ],
+              "event_ids": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "gx7lm7phdv4m2wd": {
+      "id": "gx7lm7phdv4m2wd",
+      "name": "Leeds United"
+    },
+    "e4wyrn4h3zlq86p": {
+      "id": "e4wyrn4h3zlq86p",
+      "name": "Southend United"
+    },
+    "kn54qllh6doqvy9": {
+      "id": "kn54qllh6doqvy9",
+      "name": "Doncaster Rovers"
+    },
+    "kdj2ryoho7nq1zp": {
+      "id": "kdj2ryoho7nq1zp",
+      "name": "Carlisle United"
+    }
+  },
+  "sport_events": {}
+}

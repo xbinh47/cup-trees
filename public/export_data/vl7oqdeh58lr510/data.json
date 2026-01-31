@@ -1,0 +1,417 @@
+{
+  "season_id": "vl7oqdeh58lr510",
+  "brackets": [
+    {
+      "id": "3glrw7hjklvqdyj",
+      "competition_id": "z318q66hjyqo9jd",
+      "season_id": "vl7oqdeh58lr510",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1723824000,
+      "end_time": 1723910340,
+      "rounds": [
+        {
+          "id": "318q66hg06wqo9j",
+          "bracket_id": "3glrw7hjklvqdyj",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1723919400,
+          "end_time": 1723919400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "2y8m4zhjze0jql0",
+              "round_id": "318q66hg06wqo9j",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "4zp5rzghewnq82w",
+              "away_team_id": "gx7lm7phd7em2wd",
+              "winner_team_id": "4zp5rzghewnq82w",
+              "home_score": 6,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "x7lm7phz74jjm2w"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "gx7lm7phd7em2wd": {
+      "id": "gx7lm7phd7em2wd",
+      "name": "VfB Stuttgart"
+    },
+    "4zp5rzghewnq82w": {
+      "id": "4zp5rzghewnq82w",
+      "name": "Bayer 04 Leverkusen"
+    }
+  },
+  "sport_events": {
+    "x7lm7phz74jjm2w": {
+      "id": "x7lm7phz74jjm2w",
+      "home_team_id": "4zp5rzghewnq82w",
+      "away_team_id": "gx7lm7phd7em2wd",
+      "start_timestamp": 1723919400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 3,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 10,
+          "red_card": 1,
+          "yellow_card": 4,
+          "penalty_score": 4,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 11,
+          "type": 1,
+          "position": 1,
+          "player_id": "zp5rzghz669nq82",
+          "assist1_id": "23xmvkhx7vyqg8n",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Victor Okoh Boniface",
+          "assist1_name": "Edmond Tapsoba"
+        },
+        {
+          "time": 15,
+          "type": 1,
+          "position": 2,
+          "player_id": "4jwq2ghvp7ewm0v",
+          "assist1_id": "zp5rzghp13pq82w",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Enzo Millot",
+          "assist1_name": "Maximilian Mittelstädt"
+        },
+        {
+          "time": 37,
+          "type": 4,
+          "position": 1,
+          "player_id": "pxwrxlhzdl3ryk0",
+          "player_name": "Martin Terrier",
+          "reason_type": 12
+        },
+        {
+          "time": 41,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghzj63q82w",
+          "out_player_id": "zp5rzghz669nq82",
+          "in_player_name": "Jonathan Tah",
+          "out_player_name": "Victor Okoh Boniface"
+        },
+        {
+          "time": 44,
+          "type": 3,
+          "position": 2,
+          "player_id": "x7lm7ph0n52nm2w",
+          "player_name": "Angelo Stiller",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 60,
+          "type": 3,
+          "position": 1,
+          "player_id": "zp5rzgh7x6kq82w",
+          "player_name": "Granit Xhaka",
+          "reason_type": 15
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l5ergphe8e6r8k0",
+          "out_player_id": "x7lm7ph0n52nm2w",
+          "in_player_name": "Deniz Undav",
+          "out_player_name": "Angelo Stiller"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l5ergphe803nr8k",
+          "out_player_id": "zp5rzghp13pq82w",
+          "in_player_name": "frans kratzig",
+          "out_player_name": "Maximilian Mittelstädt"
+        },
+        {
+          "time": 63,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dn1m1ghnkovvmoe",
+          "out_player_id": "23xmvkhdp7x2qg8",
+          "in_player_name": "Silas Wamangituka",
+          "out_player_name": "Jamie Leweling"
+        },
+        {
+          "time": 63,
+          "type": 1,
+          "position": 2,
+          "player_id": "l5ergphe8e6r8k0",
+          "assist1_id": "l5ergphe803nr8k",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Deniz Undav",
+          "assist1_name": "frans kratzig"
+        },
+        {
+          "time": 71,
+          "type": 3,
+          "position": 2,
+          "player_id": "y0or5jh1yw8qwzv",
+          "player_name": "Ermedin Demirović",
+          "reason_type": 18
+        },
+        {
+          "time": 71,
+          "type": 3,
+          "position": 1,
+          "player_id": "23xmvkhx7vyqg8n",
+          "player_name": "Edmond Tapsoba",
+          "reason_type": 18
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhzgol1m7v",
+          "out_player_id": "318q66hvwd2gqo9",
+          "in_player_name": "Florian Wirtz",
+          "out_player_name": "Amine Adli"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y0or5jhej16qwzv",
+          "out_player_id": "l5ergph3x8jr8k0",
+          "in_player_name": "Patrik Schick",
+          "out_player_name": "Robert Andrich"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l5ergphvlyenr8k",
+          "out_player_id": "dj2ryoh5y2eq1zp",
+          "in_player_name": "Jeremie Frimpong",
+          "out_player_name": "Nathan Tella"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhz2n8jmd7",
+          "out_player_id": "3glrw7hlg89qdyj",
+          "in_player_name": "Justin Diehl",
+          "out_player_name": "Chris Führich"
+        },
+        {
+          "time": 78,
+          "type": 3,
+          "position": 2,
+          "player_id": "4jwq2ghvp7ewm0v",
+          "player_name": "Enzo Millot",
+          "reason_type": 22
+        },
+        {
+          "time": 82,
+          "type": 3,
+          "position": 2,
+          "player_id": "y39mp1hj82ymojx",
+          "player_name": "Pascal Stenzel",
+          "reason_type": 6
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnheol4m7vx",
+          "out_player_id": "y39mp1hj82ymojx",
+          "in_player_name": "Yannik Keitel",
+          "out_player_name": "Pascal Stenzel"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhjodnql07",
+          "out_player_id": "n54qllh87ydjqvy",
+          "in_player_name": "Alejandro Grimaldo",
+          "out_player_name": "Jeanuël Belocian"
+        },
+        {
+          "time": 85,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnhzgol1m7v",
+          "player_name": "Florian Wirtz",
+          "reason_type": 19
+        },
+        {
+          "time": 86,
+          "type": 3,
+          "position": 2,
+          "player_id": "23xmvkhdezwoqg8",
+          "player_name": "Julian Chabot",
+          "reason_type": 18
+        },
+        {
+          "time": 86,
+          "type": 3,
+          "position": 1,
+          "player_id": "l5ergphvlyenr8k",
+          "player_name": "Jeremie Frimpong",
+          "reason_type": 18
+        },
+        {
+          "time": 88,
+          "type": 1,
+          "position": 1,
+          "player_id": "y0or5jhej16qwzv",
+          "assist1_id": "2y8m4zhjodnql07",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Patrik Schick",
+          "assist1_name": "Alejandro Grimaldo"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 95,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 29,
+          "position": 2,
+          "player_id": "4jwq2ghvp7ewm0v",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Enzo Millot"
+        },
+        {
+          "time": 92,
+          "type": 29,
+          "position": 1,
+          "player_id": "y0or5jhej16qwzv",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Patrik Schick"
+        },
+        {
+          "time": 92,
+          "type": 29,
+          "position": 2,
+          "player_id": "y0or5jh1yw8qwzv",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Ermedin Demirović"
+        },
+        {
+          "time": 93,
+          "type": 29,
+          "position": 1,
+          "player_id": "2y8m4zhjodnql07",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Alejandro Grimaldo"
+        },
+        {
+          "time": 94,
+          "type": 30,
+          "position": 2,
+          "player_id": "l5ergphe803nr8k",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "frans kratzig"
+        },
+        {
+          "time": 94,
+          "type": 29,
+          "position": 1,
+          "player_id": "pxwrxlhjxxwryk0",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "Aleix García"
+        },
+        {
+          "time": 95,
+          "type": 29,
+          "position": 2,
+          "player_id": "l5ergphe8e6r8k0",
+          "away_score": 3,
+          "home_score": 3,
+          "player_name": "Deniz Undav"
+        },
+        {
+          "time": 96,
+          "type": 29,
+          "position": 1,
+          "player_id": "23xmvkhx7vyqg8n",
+          "away_score": 3,
+          "home_score": 4,
+          "player_name": "Edmond Tapsoba"
+        },
+        {
+          "time": 96,
+          "type": 30,
+          "position": 2,
+          "player_id": "dn1m1ghnkovvmoe",
+          "away_score": 3,
+          "home_score": 4,
+          "player_name": "Silas Wamangituka"
+        },
+        {
+          "time": 90,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "season_id": "e4wyrn4h8z1q86p",
+  "brackets": [
+    {
+      "id": "n54qllhej2xqvy9",
+      "competition_id": "j1l4rjnhx9m7vx5",
+      "season_id": "e4wyrn4h8z1q86p",
+      "name": "Knockout stage",
+      "abbr": "Serie B Playo",
+      "start_time": 1148767200,
+      "end_time": 1150063140,
+      "rounds": [
+        {
+          "id": "y0or5jh1pg3qwzv",
+          "bracket_id": "n54qllhej2xqvy9",
+          "name": "Semifinals",
+          "abbr": "SF",
+          "start_time": 1149181200,
+          "end_time": 1149447600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "6ypq3nh0v5w7md7",
+              "round_id": "y0or5jh1pg3qwzv",
+              "number": 1,
+              "type_id": 6,
+              "state_id": 8,
+              "home_team_id": "kdj2ryoh6nlq1zp",
+              "away_team_id": "z8yomo4hw6lq0j6",
+              "winner_team_id": "z8yomo4hw6lq0j6",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [
+                "3glrw7hwn1ynqdy"
+              ],
+              "children_ids": [],
+              "event_ids": []
+            },
+            {
+              "id": "pxwrxlhgy1j5ryk",
+              "round_id": "y0or5jh1pg3qwzv",
+              "number": 2,
+              "type_id": 6,
+              "state_id": 8,
+              "home_team_id": "jednm9wh4p7ryox",
+              "away_team_id": "gy0or5jh74zqwzv",
+              "winner_team_id": "gy0or5jh74zqwzv",
+              "home_score": 1,
+              "away_score": 1,
+              "parent_ids": [
+                "3glrw7hwn1ynqdy"
+              ],
+              "children_ids": [],
+              "event_ids": []
+            }
+          ]
+        },
+        {
+          "id": "n54qllhd0jjqvy9",
+          "bracket_id": "n54qllhej2xqvy9",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1149792300,
+          "end_time": 1150051500,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "3glrw7hwn1ynqdy",
+              "round_id": "n54qllhd0jjqvy9",
+              "number": 1,
+              "type_id": 6,
+              "state_id": 7,
+              "home_team_id": "z8yomo4hw6lq0j6",
+              "away_team_id": "gy0or5jh74zqwzv",
+              "winner_team_id": "z8yomo4hw6lq0j6",
+              "home_score": 5,
+              "away_score": 5,
+              "parent_ids": [],
+              "children_ids": [
+                "6ypq3nh0v5w7md7",
+                "pxwrxlhgy1j5ryk"
+              ],
+              "event_ids": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "jednm9wh4p7ryox": {
+      "id": "jednm9wh4p7ryox",
+      "name": "Modena"
+    },
+    "kdj2ryoh6nlq1zp": {
+      "id": "kdj2ryoh6nlq1zp",
+      "name": "Cesena"
+    },
+    "z8yomo4hw6lq0j6": {
+      "id": "z8yomo4hw6lq0j6",
+      "name": "Torino"
+    },
+    "gy0or5jh74zqwzv": {
+      "id": "gy0or5jh74zqwzv",
+      "name": "Mantova"
+    }
+  },
+  "sport_events": {}
+}

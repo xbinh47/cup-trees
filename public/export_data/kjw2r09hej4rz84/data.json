@@ -1,0 +1,128 @@
+{
+  "season_id": "kjw2r09hej4rz84",
+  "brackets": [
+    {
+      "id": "l7oqdeh4ddlr510",
+      "competition_id": "kjw2r09hl1wrz84",
+      "season_id": "kjw2r09hej4rz84",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1748966400,
+      "end_time": 1749052740,
+      "rounds": [
+        {
+          "id": "n54qllhpp77qvy9",
+          "bracket_id": "l7oqdeh4ddlr510",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1749049200,
+          "end_time": 1749049200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "pxwrxlh15dderyk",
+              "round_id": "n54qllhpp77qvy9",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 6,
+              "home_team_id": "4wyrn4h87y4q86p",
+              "away_team_id": "23xmvkh3dn9qg8n",
+              "winner_team_id": "",
+              "home_score": 0,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "318q66hxodeeqo9"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "4wyrn4h87y4q86p": {
+      "id": "4wyrn4h87y4q86p",
+      "name": "J.S. Kairouanaise"
+    },
+    "23xmvkh3dn9qg8n": {
+      "id": "23xmvkh3dn9qg8n",
+      "name": "AS Marsa"
+    }
+  },
+  "sport_events": {
+    "318q66hxodeeqo9": {
+      "id": "318q66hxodeeqo9",
+      "home_team_id": "23xmvkh3dn9qg8n",
+      "away_team_id": "4wyrn4h87y4q86p",
+      "start_timestamp": 1749049200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 15,
+          "type": 1,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 1
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 69,
+          "type": 1,
+          "position": 1,
+          "player_id": "l7oqdehl3120r51",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "amanallah hamida ben"
+        },
+        {
+          "time": 78,
+          "type": 1,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 3
+        },
+        {
+          "time": 82,
+          "type": 8,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 3
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

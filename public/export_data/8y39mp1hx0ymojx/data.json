@@ -1,0 +1,479 @@
+{
+  "season_id": "8y39mp1hx0ymojx",
+  "brackets": [
+    {
+      "id": "318q66hv64nqo9j",
+      "competition_id": "gy0or5jhlxgqwzv",
+      "season_id": "8y39mp1hx0ymojx",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1764172800,
+      "end_time": 1765209540,
+      "rounds": [
+        {
+          "id": "jw2r09h6ey9rz84",
+          "bracket_id": "318q66hv64nqo9j",
+          "name": "Qualification Round1",
+          "abbr": "QR1",
+          "start_time": 1764237600,
+          "end_time": 1764237600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l5ergph3d7y4r8k",
+              "round_id": "jw2r09h6ey9rz84",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "zp5rzgh700pq82w",
+              "away_team_id": "9vjxm8ghoknr6od",
+              "winner_team_id": "9vjxm8ghoknr6od",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [
+                "vjxm8ghg07wnr6o"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "4jwq2ghn99kvm0v"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l7oqdeh8vw3r510",
+          "bracket_id": "318q66hv64nqo9j",
+          "name": "Qualification Round2",
+          "abbr": "QR2",
+          "start_time": 1764478800,
+          "end_time": 1764478800,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "vjxm8ghg07wnr6o",
+              "round_id": "l7oqdeh8vw3r510",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 6,
+              "home_team_id": "318q66hogyeqo9j",
+              "away_team_id": "9vjxm8ghoknr6od",
+              "winner_team_id": "",
+              "home_score": 0,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "l5ergph3d7y4r8k"
+              ],
+              "event_ids": [
+                "zp5rzghgw6lzq82"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "zp5rzgh700pq82w": {
+      "id": "zp5rzgh700pq82w",
+      "name": "Seoul E-Land FC"
+    },
+    "9vjxm8ghoknr6od": {
+      "id": "9vjxm8ghoknr6od",
+      "name": "Seongnam FC"
+    },
+    "318q66hogyeqo9j": {
+      "id": "318q66hogyeqo9j",
+      "name": "Bucheon FC 1995"
+    }
+  },
+  "sport_events": {
+    "4jwq2ghn99kvm0v": {
+      "id": "4jwq2ghn99kvm0v",
+      "home_team_id": "zp5rzgh700pq82w",
+      "away_team_id": "9vjxm8ghoknr6od",
+      "start_timestamp": 1764237600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 18,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whz1yvryox",
+          "out_player_id": "23xmvkh42lz2qg8",
+          "in_player_name": "Leandro Ribeiro",
+          "out_player_name": "Byeong-gyu Park"
+        },
+        {
+          "time": 33,
+          "type": 3,
+          "position": 2,
+          "player_id": "8yomo4h011gq0j6",
+          "player_name": "Jeong-Hwan Kim",
+          "reason_type": 1
+        },
+        {
+          "time": 42,
+          "type": 3,
+          "position": 2,
+          "player_id": "n54qllh8xynqvy9",
+          "player_name": "Leonardo Ruiz",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghx9gplm0v",
+          "out_player_id": "1l4rjnhkpw3ym7v",
+          "in_player_name": "Gyung-Jun Byeon",
+          "out_player_name": "Joo-Hyuk Lee"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h0xo0wq0j",
+          "out_player_id": "pxwrxlhjlen6ryk",
+          "in_player_name": "Baek Ji-Ung",
+          "out_player_name": "Seo Jae-min"
+        },
+        {
+          "time": 57,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh33641qwz",
+          "out_player_id": "y39mp1hjkglnmoj",
+          "in_player_name": "Gabriel dos Santos Francisco",
+          "out_player_name": "John·Iredale"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hln3gqdyj",
+          "out_player_id": "8yomo4h011gq0j6",
+          "in_player_name": "Ju-An You",
+          "out_player_name": "Jeong-Hwan Kim"
+        },
+        {
+          "time": 71,
+          "type": 3,
+          "position": 1,
+          "player_id": "4jwq2ghx9gplm0v",
+          "player_name": "Gyung-Jun Byeon",
+          "reason_type": 1
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "965mkyhng3vgr1g",
+          "out_player_id": "4jwq2ghvg8em0ve",
+          "in_player_name": "Jae-min·Jung",
+          "out_player_name": "Euller"
+        },
+        {
+          "time": 84,
+          "type": 1,
+          "position": 2,
+          "player_id": "n54qllh8xynqvy9",
+          "assist1_id": "6ypq3nhz8do9md7",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Leonardo Ruiz",
+          "assist1_name": "Jae-won Shin"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "k82rekhye4zerep",
+          "out_player_id": "ednm9whzwdjwryo",
+          "in_player_name": "Chae Gwang-hoon",
+          "out_player_name": "Ju-hwan Kim"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dn1m1gh8o3jdmoe",
+          "out_player_id": "vjxm8ghj0ok6r6o",
+          "in_player_name": "Ryu Jun-Sun",
+          "out_player_name": "Jeong-Bin Lee"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4hv9xkq86p",
+          "out_player_id": "vjxm8ghj0oeer6o",
+          "in_player_name": "Sang-Hyeok Park",
+          "out_player_name": "Sang-Min Lee"
+        },
+        {
+          "time": 88,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h28j3xq0j",
+          "out_player_id": "6ypq3nhz8do9md7",
+          "in_player_name": "Joo-won Kim",
+          "out_player_name": "Jae-won Shin"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 10,
+          "position": 0
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "add_time": 4,
+          "position": 2,
+          "player_id": "1l4rjnh10xwm7vx",
+          "player_name": "Han Been Yang",
+          "reason_type": 1
+        },
+        {
+          "time": 95,
+          "type": 3,
+          "add_time": 5,
+          "position": 1,
+          "player_id": "pxwrxlhj62eyryk",
+          "player_name": "Ha-Jun Kim",
+          "reason_type": 1
+        },
+        {
+          "time": 96,
+          "type": 3,
+          "add_time": 6,
+          "position": 2,
+          "player_id": "4wyrn4hv9xkq86p",
+          "player_name": "Sang-Hyeok Park",
+          "reason_type": 1
+        },
+        {
+          "time": 101,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "zp5rzghgw6lzq82": {
+      "id": "zp5rzghgw6lzq82",
+      "home_team_id": "318q66hogyeqo9j",
+      "away_team_id": "9vjxm8ghoknr6od",
+      "start_timestamp": 1764478800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 12,
+          "type": 3,
+          "position": 1,
+          "player_id": "l7oqdeh4g4gzr51",
+          "player_name": "Sung-Wook Hong",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghj0ok6r6o",
+          "out_player_id": "dn1m1gh8o3jdmoe",
+          "in_player_name": "Jeong-Bin Lee",
+          "out_player_name": "Ryu Jun-Sun"
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dn1m1gh35vv8moe",
+          "out_player_id": "8yomo4h011gq0j6",
+          "in_player_name": "Beom-Su Kim",
+          "out_player_name": "Jeong-Hwan Kim"
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4hv9xkq86p",
+          "out_player_id": "l5ergphvxknyr8k",
+          "in_player_name": "Sang-Hyeok Park",
+          "out_player_name": "Samuel Naum Andrade Leão"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whz3ee5ryo",
+          "out_player_id": "1l4rjnhx9v60m7v",
+          "in_player_name": "Thiago Nascimento dos Santos",
+          "out_player_name": "Kim Kyu-Min"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhzyk48md7",
+          "out_player_id": "4jwq2ghvpvvdm0v",
+          "in_player_name": "Jefferson Fernando Isidio",
+          "out_player_name": "Chang-Jun Park"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhjz2zyryk",
+          "out_player_id": "n54qllhx09yvqvy",
+          "in_player_name": "Eui-Hyeong Lee",
+          "out_player_name": "John Franky Montaño"
+        },
+        {
+          "time": 69,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "8yomo4hv1v57q0j",
+          "out_player_id": "3glrw7hzo7oqdyj",
+          "in_player_name": "Park Hyun-bin",
+          "out_player_name": "Jae Young Choi"
+        },
+        {
+          "time": 70,
+          "type": 3,
+          "position": 2,
+          "player_id": "3glrw7hjdeopqdy",
+          "player_name": "Elionay Freitas da Silva",
+          "reason_type": 1
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jhg0epxqwz",
+          "out_player_id": "ednm9whz1yvryox",
+          "in_player_name": "Ha Jeong-woo",
+          "out_player_name": "Leandro Ribeiro"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y39mp1hy22dwmoj",
+          "out_player_id": "3glrw7hln3gqdyj",
+          "in_player_name": "Jae-wook Lee",
+          "out_player_name": "Ju-An You"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "add_time": 2,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "965mkyhe6681r1g",
+          "out_player_id": "1l4rjnhz405lm7v",
+          "in_player_name": "Sang-hyeok Lee",
+          "out_player_name": "Rodrigo Bassani"
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

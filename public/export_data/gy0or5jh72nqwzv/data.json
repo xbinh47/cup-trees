@@ -1,0 +1,519 @@
+{
+  "season_id": "gy0or5jh72nqwzv",
+  "brackets": [
+    {
+      "id": "dj2ryohjed6q1zp",
+      "competition_id": "kdj2ryoho9q1zpg",
+      "season_id": "gy0or5jh72nqwzv",
+      "name": "Knockout stage",
+      "abbr": "U22 SEA Games",
+      "start_time": 1765728000,
+      "end_time": 1766159940,
+      "rounds": [
+        {
+          "id": "y0or5jhz765qwzv",
+          "bracket_id": "dj2ryohjed6q1zp",
+          "name": "Placement match for 3rd",
+          "abbr": "3rd",
+          "start_time": 1766046600,
+          "end_time": 1766046600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "k82rekh9ep5grep",
+              "round_id": "y0or5jhz765qwzv",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "9k82rekh7ygrepz",
+              "away_team_id": "1l4rjnh61pym7vx",
+              "winner_team_id": "1l4rjnh61pym7vx",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [
+                "y39mp1h5ogxzmoj",
+                "4wyrn4hewpg5q86"
+              ],
+              "event_ids": [
+                "n54qllhnp5x3qvy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vjxm8gh5y3er6od",
+          "bracket_id": "dj2ryohjed6q1zp",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 1765787400,
+          "end_time": 1765803600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "4wyrn4hewpg5q86",
+              "round_id": "vjxm8gh5y3er6od",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "pxwrxlh17d5ryk0",
+              "away_team_id": "1l4rjnh61pym7vx",
+              "winner_team_id": "pxwrxlh17d5ryk0",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [
+                "k82rekh9ep5grep",
+                "x7lm7phov6x4m2w"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "y39mp1h6473emoj"
+              ]
+            },
+            {
+              "id": "y39mp1h5ogxzmoj",
+              "round_id": "vjxm8gh5y3er6od",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "4zp5rzghn83q82w",
+              "away_team_id": "9k82rekh7ygrepz",
+              "winner_team_id": "4zp5rzghn83q82w",
+              "home_score": 2,
+              "away_score": 0,
+              "parent_ids": [
+                "k82rekh9ep5grep",
+                "x7lm7phov6x4m2w"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "965mkyhkop7wr1g"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x7lm7ph348xm2wd",
+          "bracket_id": "dj2ryohjed6q1zp",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1766061000,
+          "end_time": 1766061000,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "x7lm7phov6x4m2w",
+              "round_id": "x7lm7ph348xm2wd",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "pxwrxlh17d5ryk0",
+              "away_team_id": "4zp5rzghn83q82w",
+              "winner_team_id": "4zp5rzghn83q82w",
+              "home_score": 2,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [
+                "y39mp1h5ogxzmoj",
+                "4wyrn4hewpg5q86"
+              ],
+              "event_ids": [
+                "23xmvkh6pvdlqg8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "1l4rjnh61pym7vx": {
+      "id": "1l4rjnh61pym7vx",
+      "name": "Malaysia U22"
+    },
+    "pxwrxlh17d5ryk0": {
+      "id": "pxwrxlh17d5ryk0",
+      "name": "Thailand U22"
+    },
+    "4zp5rzghn83q82w": {
+      "id": "4zp5rzghn83q82w",
+      "name": "Vietnam U22"
+    },
+    "9k82rekh7ygrepz": {
+      "id": "9k82rekh7ygrepz",
+      "name": "Philippines U22"
+    }
+  },
+  "sport_events": {
+    "23xmvkh6pvdlqg8": {
+      "id": "23xmvkh6pvdlqg8",
+      "home_team_id": "pxwrxlh17d5ryk0",
+      "away_team_id": "4zp5rzghn83q82w",
+      "start_timestamp": 1766061000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 10,
+          "red_card": 0,
+          "yellow_card": 6,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 3,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 2,
+          "half_time_score": 2
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 20,
+          "type": 1,
+          "position": 1,
+          "player_id": "x7lm7ph9oypym2w",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Yotsakon Burapha"
+        },
+        {
+          "time": 31,
+          "type": 1,
+          "position": 1,
+          "player_id": "6ypq3nhwvn4wmd7",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Seksan Ratree"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 1,
+          "position": 2,
+          "player_id": "8yomo4hvwe32q0j",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Nguyen Dinh Bac"
+        },
+        {
+          "time": 60,
+          "type": 1,
+          "position": 2,
+          "player_id": "l7oqdehlyyxer51",
+          "away_score": 2,
+          "home_score": 2,
+          "player_name": "Pham Ly Duc"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 95,
+          "type": 1,
+          "position": 2,
+          "player_id": "x7lm7phwxgyvm2w",
+          "away_score": 3,
+          "home_score": 2,
+          "player_name": "Nguyen Thanh Nhan"
+        },
+        {
+          "time": 120,
+          "type": 26,
+          "position": 0
+        }
+      ]
+    },
+    "965mkyhkop7wr1g": {
+      "id": "965mkyhkop7wr1g",
+      "home_team_id": "4zp5rzghn83q82w",
+      "away_team_id": "9k82rekh7ygrepz",
+      "start_timestamp": 1765787400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 7,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 23,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 62,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 85,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 86,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 89,
+          "type": 1,
+          "position": 1,
+          "player_id": "ednm9whg2416ryo",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Le Van Thuan"
+        },
+        {
+          "time": 90,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 91,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 92,
+          "type": 1,
+          "add_time": 2,
+          "position": 1,
+          "player_id": "x7lm7phwxgyvm2w",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Nguyen Thanh Nhan"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "n54qllhnp5x3qvy": {
+      "id": "n54qllhnp5x3qvy",
+      "home_team_id": "9k82rekh7ygrepz",
+      "away_team_id": "1l4rjnh61pym7vx",
+      "start_timestamp": 1766046600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 5,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 28,
+          "type": 1,
+          "position": 2,
+          "player_id": "x7lm7ph9xjd9m2w",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "danish hakimi"
+        },
+        {
+          "time": 36,
+          "type": 17,
+          "position": 1,
+          "player_id": "965mkyhe0zp1r1g",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Muhammad Haqimi Azim bin Rosli"
+        },
+        {
+          "time": 43,
+          "type": 1,
+          "position": 2,
+          "player_id": "965mkyhe0zp1r1g",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Muhammad Haqimi Azim bin Rosli"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 55,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 78,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 81,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "y39mp1h6473emoj": {
+      "id": "y39mp1h6473emoj",
+      "home_team_id": "pxwrxlh17d5ryk0",
+      "away_team_id": "1l4rjnh61pym7vx",
+      "start_timestamp": 1765803600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 1,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 11,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 6,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 8,
+          "type": 1,
+          "position": 1,
+          "player_id": "x7lm7ph9oypym2w",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Yotsakon Burapha"
+        },
+        {
+          "time": 16,
+          "type": 4,
+          "position": 2
+        },
+        {
+          "time": 16,
+          "type": 4,
+          "position": 2,
+          "player_id": "jw2r09hj8216rz8",
+          "player_name": "Aiman Yusuf"
+        },
+        {
+          "time": 36,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 41,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 79,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "season_id": "9k82rekhp11repz",
+  "brackets": [
+    {
+      "id": "2y8m4zhj6v9ql07",
+      "competition_id": "8y39mp1hy8mojxg",
+      "season_id": "9k82rekhp11repz",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1685721600,
+      "end_time": 1686326340,
+      "rounds": [
+        {
+          "id": "6ypq3nhgz08md7o",
+          "bracket_id": "2y8m4zhj6v9ql07",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1685802600,
+          "end_time": 1686234600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "8yomo4h7lp61q0j",
+              "round_id": "6ypq3nhgz08md7o",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "4zp5rzghn9pq82w",
+              "away_team_id": "zp5rzghpx25q82w",
+              "winner_team_id": "zp5rzghpx25q82w",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "zp5rzgh6k619q82",
+                "x7lm7ph3635ym2w"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "zp5rzghpx25q82w": {
+      "id": "zp5rzghpx25q82w",
+      "name": "Pomigliano Women"
+    },
+    "4zp5rzghn9pq82w": {
+      "id": "4zp5rzghn9pq82w",
+      "name": "Lazio Women"
+    }
+  },
+  "sport_events": {
+    "x7lm7ph3635ym2w": {
+      "id": "x7lm7ph3635ym2w",
+      "home_team_id": "zp5rzghpx25q82w",
+      "away_team_id": "4zp5rzghn9pq82w",
+      "start_timestamp": 1686234600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "zp5rzgh6k619q82": {
+      "id": "zp5rzgh6k619q82",
+      "home_team_id": "4zp5rzghn9pq82w",
+      "away_team_id": "zp5rzghpx25q82w",
+      "start_timestamp": 1685802600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

@@ -1,0 +1,779 @@
+{
+  "season_id": "z8yomo4hlpgq0j6",
+  "brackets": [
+    {
+      "id": "6ypq3nh5jopmd7o",
+      "competition_id": "gy0or5jh1l1qwzv",
+      "season_id": "z8yomo4hlpgq0j6",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1710259200,
+      "end_time": 1710604800,
+      "rounds": [
+        {
+          "id": "4wyrn4h2wjeq86p",
+          "bracket_id": "6ypq3nh5jopmd7o",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l5ergph3vy72r8k",
+              "round_id": "4wyrn4h2wjeq86p",
+              "number": 1,
+              "type_id": 4,
+              "state_id": 8,
+              "home_team_id": "4jwq2gh4nyxm0ve",
+              "away_team_id": "p4jwq2ghy43m0ve",
+              "winner_team_id": "p4jwq2ghy43m0ve",
+              "home_score": 1,
+              "away_score": 5,
+              "parent_ids": [
+                "l7oqdeh64293r51"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "2y8m4zh6nw17ql0"
+              ]
+            },
+            {
+              "id": "jw2r09hnx9g9rz8",
+              "round_id": "4wyrn4h2wjeq86p",
+              "number": 2,
+              "type_id": 4,
+              "state_id": 7,
+              "home_team_id": "ednm9whkd0lryox",
+              "away_team_id": "2y8m4zh35kkql07",
+              "winner_team_id": "ednm9whkd0lryox",
+              "home_score": 3,
+              "away_score": 0,
+              "parent_ids": [
+                "l7oqdeh64293r51"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "dj2ryoh15e27q1z"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jw2r09h93ejrz84",
+          "bracket_id": "6ypq3nh5jopmd7o",
+          "name": "Third place",
+          "abbr": "Third place",
+          "start_time": 1710259200,
+          "end_time": 1710604800,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dj2ryohyj49eq1z",
+              "round_id": "jw2r09h93ejrz84",
+              "number": 1,
+              "type_id": 4,
+              "state_id": 7,
+              "home_team_id": "4jwq2gh4nyxm0ve",
+              "away_team_id": "2y8m4zh35kkql07",
+              "winner_team_id": "4jwq2gh4nyxm0ve",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "3glrw7h704zjqdy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l5ergphydzvr8k0",
+          "bracket_id": "6ypq3nh5jopmd7o",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "l7oqdeh64293r51",
+              "round_id": "l5ergphydzvr8k0",
+              "number": 1,
+              "type_id": 4,
+              "state_id": 8,
+              "home_team_id": "p4jwq2ghy43m0ve",
+              "away_team_id": "ednm9whkd0lryox",
+              "winner_team_id": "ednm9whkd0lryox",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [
+                "l5ergph3vy72r8k",
+                "jw2r09hnx9g9rz8"
+              ],
+              "event_ids": [
+                "23xmvkh8wy46qg8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "4jwq2gh4nyxm0ve": {
+      "id": "4jwq2gh4nyxm0ve",
+      "name": "Australia Women U20"
+    },
+    "p4jwq2ghy43m0ve": {
+      "id": "p4jwq2ghy43m0ve",
+      "name": "Japan Women U20"
+    },
+    "2y8m4zh35kkql07": {
+      "id": "2y8m4zh35kkql07",
+      "name": "South Korea Women U20"
+    },
+    "ednm9whkd0lryox": {
+      "id": "ednm9whkd0lryox",
+      "name": "North Korea Women U20"
+    }
+  },
+  "sport_events": {
+    "23xmvkh8wy46qg8": {
+      "id": "23xmvkh8wy46qg8",
+      "home_team_id": "p4jwq2ghy43m0ve",
+      "away_team_id": "ednm9whkd0lryox",
+      "start_timestamp": 1710594000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 20,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hy232yqdy",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Ai tsujisawa"
+        },
+        {
+          "time": 44,
+          "type": 1,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        }
+      ]
+    },
+    "2y8m4zh6nw17ql0": {
+      "id": "2y8m4zh6nw17ql0",
+      "home_team_id": "4jwq2gh4nyxm0ve",
+      "away_team_id": "p4jwq2ghy43m0ve",
+      "start_timestamp": 1710327600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 14,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 5,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 3,
+          "type": 1,
+          "position": 2,
+          "player_id": "dj2ryohnn5zpq1z",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Hiromi Yoneda"
+        },
+        {
+          "time": 13,
+          "type": 1,
+          "position": 1,
+          "player_id": "23xmvkhkeoy7qg8",
+          "assist1_id": "y39mp1h11pgkmoj",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Peta Trimis",
+          "assist1_name": "Milly boughton"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "jw2r09hj2dxkrz8",
+          "out_player_id": "y39mp1h11pgkmoj",
+          "in_player_name": "Lara Gooch",
+          "out_player_name": "Milly boughton"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "jw2r09hjdd4lrz8",
+          "out_player_id": "3glrw7hyeek0qdy",
+          "in_player_name": "Aemu Oyama",
+          "out_player_name": "Manaka Hayashi"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "318q66h49g97qo9",
+          "out_player_id": "2y8m4zh8ywy0ql0",
+          "in_player_name": "Miyu Matsunaga",
+          "out_player_name": "Mao kubota"
+        },
+        {
+          "time": 63,
+          "type": 1,
+          "position": 2,
+          "player_id": "ednm9whgg94jryo",
+          "assist1_id": "l5ergphejj00r8k",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Uno Shiragaki",
+          "assist1_name": "Suzu Amano"
+        },
+        {
+          "time": 64,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhjo5o4ryk",
+          "out_player_id": "pxwrxlhzz0g7ryk",
+          "in_player_name": "Claudia Cicco",
+          "out_player_name": "Maddie Caspers"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "318q66h45z2kqo9",
+          "out_player_id": "l5ergphejj00r8k",
+          "in_player_name": "Chinari Sasai",
+          "out_player_name": "Suzu Amano"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whv7zovryo",
+          "out_player_id": "23xmvkhkeoy7qg8",
+          "in_player_name": "Alana Murphy",
+          "out_player_name": "Peta Trimis"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghxev8nm0v",
+          "out_player_id": "965mkyhej4yer1g",
+          "in_player_name": "Kahli Mary Johnson",
+          "out_player_name": "Indiana Dos Santos"
+        },
+        {
+          "time": 83,
+          "type": 1,
+          "position": 2,
+          "player_id": "pxwrxlhjwwp2ryk",
+          "away_score": 3,
+          "home_score": 1,
+          "player_name": "Maya Hijikata"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hy72vyqdy",
+          "out_player_id": "6ypq3nhw9keomd7",
+          "in_player_name": "Shay Taylah Hollman",
+          "out_player_name": "Zara Kruger"
+        },
+        {
+          "time": 88,
+          "type": 1,
+          "position": 2,
+          "player_id": "318q66h45z2kqo9",
+          "away_score": 4,
+          "home_score": 1,
+          "player_name": "Chinari Sasai"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4jwq2gh77kj3m0v",
+          "out_player_id": "3glrw7hy232yqdy",
+          "in_player_name": "Rina Nakatani",
+          "out_player_name": "Ai tsujisawa"
+        },
+        {
+          "time": 89,
+          "type": 17,
+          "position": 2,
+          "player_id": "y0or5jh3eo7xqwz",
+          "away_score": 5,
+          "home_score": 1,
+          "player_name": "Naomi Kai Thomas-Chinnama"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghxyzyem0v",
+          "out_player_id": "pxwrxlhjwwp2ryk",
+          "in_player_name": "Moka Hiwatari",
+          "out_player_name": "Maya Hijikata"
+        },
+        {
+          "time": 95,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "3glrw7h704zjqdy": {
+      "id": "3glrw7h704zjqdy",
+      "home_team_id": "4jwq2gh4nyxm0ve",
+      "away_team_id": "2y8m4zh35kkql07",
+      "start_timestamp": 1710576000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 21,
+          "type": 3,
+          "position": 2,
+          "player_id": "pxwrxlhzv2x0ryk",
+          "player_name": "KIM Shinji",
+          "reason_type": 1
+        },
+        {
+          "time": 46,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh0zz0er51",
+          "out_player_id": "y39mp1h19k0ymoj",
+          "in_player_name": "Bae Ye-Bin",
+          "out_player_name": "KANG Eunyoung"
+        },
+        {
+          "time": 58,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "318q66h4dd40qo9",
+          "out_player_id": "dj2ryohn2d11q1z",
+          "in_player_name": "Jeon Yugyeong",
+          "out_player_name": "PARK Soojeong "
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "965mkyhej4yer1g",
+          "out_player_id": "l5ergphej649r8k",
+          "in_player_name": "Indiana Dos Santos",
+          "out_player_name": "Daniela Galic"
+        },
+        {
+          "time": 63,
+          "type": 3,
+          "position": 1,
+          "player_id": "4jwq2ghxev8nm0v",
+          "player_name": "Kahli Mary Johnson",
+          "reason_type": 1
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y39mp1h11pgkmoj",
+          "out_player_id": "4jwq2ghxev8nm0v",
+          "in_player_name": "Milly boughton",
+          "out_player_name": "Kahli Mary Johnson"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "jw2r09hj2dxkrz8",
+          "out_player_id": "3glrw7hy72vyqdy",
+          "in_player_name": "Lara Gooch",
+          "out_player_name": "Shay Taylah Hollman"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "y0or5jhg10opqwz",
+          "out_player_id": "4wyrn4hv97x0q86",
+          "in_player_name": "YANG Eunseo",
+          "out_player_name": "JO Hyeyoung"
+        },
+        {
+          "time": 79,
+          "type": 1,
+          "position": 1,
+          "player_id": "jw2r09hj2dxkrz8",
+          "assist1_id": "y39mp1h11pgkmoj",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Lara Gooch",
+          "assist1_name": "Milly boughton"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jhg0498qwz",
+          "out_player_id": "n54qllhjdkpoqvy",
+          "in_player_name": "Hwang Dayeong",
+          "out_player_name": "HONG Chaebin"
+        },
+        {
+          "time": 86,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghpeezvq82",
+          "out_player_id": "2y8m4zhz1465ql0",
+          "in_player_name": "Won Chae-Eun",
+          "out_player_name": "KIM Jihyeon"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "23xmvkh4kw4nqg8",
+          "out_player_id": "23xmvkhkeoy7qg8",
+          "in_player_name": "Georgia Cassidy",
+          "out_player_name": "Peta Trimis"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 95,
+          "type": 3,
+          "position": 1,
+          "player_id": "y39mp1h11pgkmoj",
+          "player_name": "Milly boughton",
+          "reason_type": 22
+        },
+        {
+          "time": 97,
+          "type": 3,
+          "position": 2,
+          "player_id": "n54qllhjdkzoqvy",
+          "player_name": "JUNG Yujin",
+          "reason_type": 1
+        },
+        {
+          "time": 98,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "dj2ryoh15e27q1z": {
+      "id": "dj2ryoh15e27q1z",
+      "home_team_id": "ednm9whkd0lryox",
+      "away_team_id": "2y8m4zh35kkql07",
+      "start_timestamp": 1710316800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 28,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "23xmvkh4xgpeqg8",
+          "out_player_id": "y39mp1h19k0ymoj",
+          "in_player_name": "KIM Sua",
+          "out_player_name": "KANG Eunyoung"
+        },
+        {
+          "time": 38,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghx20wgq82",
+          "out_player_id": "ednm9whgd60pryo",
+          "in_player_name": "Jong Kum",
+          "out_player_name": "Pak Mi-ryong"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 1,
+          "position": 1,
+          "player_id": "x7lm7ph95n38m2w",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Choe Il-son"
+        },
+        {
+          "time": 46,
+          "type": 3,
+          "position": 2,
+          "player_id": "n54qllhjdkzoqvy",
+          "player_name": "JUNG Yujin",
+          "reason_type": 18
+        },
+        {
+          "time": 47,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y39mp1h19kzymoj",
+          "out_player_id": "n54qllhjdkzoqvy",
+          "in_player_name": "EOM Minkyoung",
+          "out_player_name": "JUNG Yujin"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh0zz0er51",
+          "out_player_id": "dj2ryohn2d11q1z",
+          "in_player_name": "Bae Ye-Bin",
+          "out_player_name": "PARK Soojeong "
+        },
+        {
+          "time": 51,
+          "type": 1,
+          "position": 1,
+          "player_id": "zp5rzghx20wgq82",
+          "assist1_id": "x7lm7ph95n38m2w",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Jong Kum",
+          "assist1_name": "Choe Il-son"
+        },
+        {
+          "time": 58,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "k82rekh318w3rep",
+          "out_player_id": "1l4rjnhxppz7m7v",
+          "in_player_name": "PARK Hyunjin",
+          "out_player_name": "Woo Seobin"
+        },
+        {
+          "time": 70,
+          "type": 3,
+          "position": 1,
+          "player_id": "zp5rzghx20wgq82",
+          "player_name": "Jong Kum",
+          "reason_type": 1
+        },
+        {
+          "time": 78,
+          "type": 1,
+          "position": 1,
+          "player_id": "vjxm8ghp2959r6o",
+          "assist1_id": "k82rekh38nxprep",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Hwang Yu-yong",
+          "assist1_name": "Jon Ryong-jong"
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "n54qllhjdkpoqvy",
+          "out_player_id": "zp5rzghpeezvq82",
+          "in_player_name": "HONG Chaebin",
+          "out_player_name": "Won Chae-Eun"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "965mkyhng1o9r1g",
+          "out_player_id": "dn1m1gh8ok2emoe",
+          "in_player_name": "Ham Ju-hyang",
+          "out_player_name": "Chae Un-yong"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhz27xxryk",
+          "out_player_id": "zp5rzghx20wgq82",
+          "in_player_name": "Jang Kyong-hui",
+          "out_player_name": "Jong Kum"
+        },
+        {
+          "time": 85,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y39mp1h1kp4nmoj",
+          "out_player_id": "4jwq2gh7069wm0v",
+          "in_player_name": "Choe Kang-ryon",
+          "out_player_name": "Kim Song-gyong"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

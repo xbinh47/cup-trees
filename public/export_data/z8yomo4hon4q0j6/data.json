@@ -1,0 +1,203 @@
+{
+  "season_id": "z8yomo4hon4q0j6",
+  "brackets": [
+    {
+      "id": "4jwq2ghkeyzm0ve",
+      "competition_id": "8y39mp1hwxmojxg",
+      "season_id": "z8yomo4hon4q0j6",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1685980800,
+      "end_time": 1686412740,
+      "rounds": [
+        {
+          "id": "zp5rzgh0zlyq82w",
+          "bracket_id": "4jwq2ghkeyzm0ve",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1686139200,
+          "end_time": 1686407400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "n54qllh205g0qvy",
+              "round_id": "zp5rzgh0zlyq82w",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "pxwrxlhg81gryk0",
+              "away_team_id": "9k82rekhk4yrepz",
+              "winner_team_id": "9k82rekhk4yrepz",
+              "home_score": 0,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "4jwq2ghz2ndjm0v",
+                "1l4rjnhj79ppm7v"
+              ]
+            },
+            {
+              "id": "23xmvkh35v1nqg8",
+              "round_id": "zp5rzgh0zlyq82w",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "4jwq2ghvj5km0ve",
+              "away_team_id": "k82rekh9nkvrepz",
+              "winner_team_id": "k82rekh9nkvrepz",
+              "home_score": 2,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "ednm9wh2nwlyryo",
+                "zp5rzgh6kgedq82"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "9k82rekhk4yrepz": {
+      "id": "9k82rekhk4yrepz",
+      "name": "Fakel Voronezh"
+    },
+    "pxwrxlhg81gryk0": {
+      "id": "pxwrxlhg81gryk0",
+      "name": "Yenisey Krasnoyarsk"
+    },
+    "4jwq2ghvj5km0ve": {
+      "id": "4jwq2ghvj5km0ve",
+      "name": "Rodina Moscow"
+    },
+    "k82rekh9nkvrepz": {
+      "id": "k82rekh9nkvrepz",
+      "name": "FC Pari Nizhniy Novgorod"
+    }
+  },
+  "sport_events": {
+    "1l4rjnhj79ppm7v": {
+      "id": "1l4rjnhj79ppm7v",
+      "home_team_id": "9k82rekhk4yrepz",
+      "away_team_id": "pxwrxlhg81gryk0",
+      "start_timestamp": 1686407400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "4jwq2ghz2ndjm0v": {
+      "id": "4jwq2ghz2ndjm0v",
+      "home_team_id": "pxwrxlhg81gryk0",
+      "away_team_id": "9k82rekhk4yrepz",
+      "start_timestamp": 1686139200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 1,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "ednm9wh2nwlyryo": {
+      "id": "ednm9wh2nwlyryo",
+      "home_team_id": "k82rekh9nkvrepz",
+      "away_team_id": "4jwq2ghvj5km0ve",
+      "start_timestamp": 1686396600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "zp5rzgh6kgedq82": {
+      "id": "zp5rzgh6kgedq82",
+      "home_team_id": "4jwq2ghvj5km0ve",
+      "away_team_id": "k82rekh9nkvrepz",
+      "start_timestamp": 1686150000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

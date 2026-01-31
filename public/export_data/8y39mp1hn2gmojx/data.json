@@ -1,0 +1,203 @@
+{
+  "season_id": "8y39mp1hn2gmojx",
+  "brackets": [
+    {
+      "id": "3glrw7h175jqdyj",
+      "competition_id": "yl5ergphk2r8k0o",
+      "season_id": "8y39mp1hn2gmojx",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1685462400,
+      "end_time": 1685894340,
+      "rounds": [
+        {
+          "id": "8yomo4h9260q0j6",
+          "bracket_id": "3glrw7h175jqdyj",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1685541300,
+          "end_time": 1685896200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "x7lm7phky4d5m2w",
+              "round_id": "8yomo4h9260q0j6",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "1l4rjnh6n75m7vx",
+              "away_team_id": "d23xmvkh5k4qg8n",
+              "winner_team_id": "d23xmvkh5k4qg8n",
+              "home_score": 3,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "8yomo4hgp4dnq0j",
+                "dj2ryoheo1l8q1z"
+              ]
+            },
+            {
+              "id": "y0or5jhly7djqwz",
+              "round_id": "8yomo4h9260q0j6",
+              "number": 2,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "2y8m4zhg3nlql07",
+              "away_team_id": "y39mp1h3ek1mojx",
+              "winner_team_id": "y39mp1h3ek1mojx",
+              "home_score": 1,
+              "away_score": 3,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "6ypq3nh79n26md7",
+                "k82rekh0kwgjrep"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "1l4rjnh6n75m7vx": {
+      "id": "1l4rjnh6n75m7vx",
+      "name": "Indjija"
+    },
+    "d23xmvkh5k4qg8n": {
+      "id": "d23xmvkh5k4qg8n",
+      "name": "Radnicki Nis"
+    },
+    "2y8m4zhg3nlql07": {
+      "id": "2y8m4zhg3nlql07",
+      "name": "FK Graficar Beograd"
+    },
+    "y39mp1h3ek1mojx": {
+      "id": "y39mp1h3ek1mojx",
+      "name": "Radnik Surdulica"
+    }
+  },
+  "sport_events": {
+    "6ypq3nh79n26md7": {
+      "id": "6ypq3nh79n26md7",
+      "home_team_id": "2y8m4zhg3nlql07",
+      "away_team_id": "y39mp1h3ek1mojx",
+      "start_timestamp": 1685548800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 15,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "8yomo4hgp4dnq0j": {
+      "id": "8yomo4hgp4dnq0j",
+      "home_team_id": "1l4rjnh6n75m7vx",
+      "away_team_id": "d23xmvkh5k4qg8n",
+      "start_timestamp": 1685541300,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "dj2ryoheo1l8q1z": {
+      "id": "dj2ryoheo1l8q1z",
+      "home_team_id": "d23xmvkh5k4qg8n",
+      "away_team_id": "1l4rjnh6n75m7vx",
+      "start_timestamp": 1685896200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 1,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 1,
+          "yellow_card": 6,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "k82rekh0kwgjrep": {
+      "id": "k82rekh0kwgjrep",
+      "home_team_id": "y39mp1h3ek1mojx",
+      "away_team_id": "2y8m4zhg3nlql07",
+      "start_timestamp": 1685887200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 1,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

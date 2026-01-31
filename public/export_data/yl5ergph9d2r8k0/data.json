@@ -1,0 +1,212 @@
+{
+  "season_id": "yl5ergph9d2r8k0",
+  "brackets": [
+    {
+      "id": "n54qllhxkl5qvy9",
+      "competition_id": "8y39mp1h98mojxg",
+      "season_id": "yl5ergph9d2r8k0",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1746806400,
+      "end_time": 1747497540,
+      "rounds": [
+        {
+          "id": "1l4rjnhj5v0m7vx",
+          "bracket_id": "n54qllhxkl5qvy9",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1746885600,
+          "end_time": 1747490400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "k82rekh9w2zvrep",
+              "round_id": "1l4rjnhj5v0m7vx",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "jw2r09hn9jgrz84",
+              "away_team_id": "y0or5jhljndqwzv",
+              "winner_team_id": "jw2r09hn9jgrz84",
+              "home_score": 3,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "l5ergph4o341r8k",
+                "y39mp1h6319nmoj"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "y0or5jhljndqwzv": {
+      "id": "y0or5jhljndqwzv",
+      "name": "Bonnyrigg Rose"
+    },
+    "jw2r09hn9jgrz84": {
+      "id": "jw2r09hn9jgrz84",
+      "name": "East Kilbride"
+    }
+  },
+  "sport_events": {
+    "l5ergph4o341r8k": {
+      "id": "l5ergph4o341r8k",
+      "home_team_id": "jw2r09hn9jgrz84",
+      "away_team_id": "y0or5jhljndqwzv",
+      "start_timestamp": 1746885600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "y39mp1h6319nmoj",
+      "incidents": []
+    },
+    "y39mp1h6319nmoj": {
+      "id": "y39mp1h6319nmoj",
+      "home_team_id": "y0or5jhljndqwzv",
+      "away_team_id": "jw2r09hn9jgrz84",
+      "start_timestamp": 1747490400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "l5ergph4o341r8k",
+      "incidents": [
+        {
+          "time": 16,
+          "type": 3,
+          "position": 1,
+          "player_id": "dj2ryohgy0eyq1z",
+          "player_name": "K. Young",
+          "reason_type": 1
+        },
+        {
+          "time": 21,
+          "type": 3,
+          "position": 2,
+          "player_id": "x7lm7ph0xk9m2wd",
+          "player_name": "Lewis Spence",
+          "reason_type": 1
+        },
+        {
+          "time": 40,
+          "type": 3,
+          "position": 1,
+          "player_id": "l7oqdeh0843wr51",
+          "player_name": "Kieran Somerville",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 1,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 57,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhwy6jwmd7",
+          "out_player_id": "x7lm7ph0lo0km2w",
+          "in_player_name": "Gallagher Lennon",
+          "out_player_name": "A. Mailer"
+        },
+        {
+          "time": 65,
+          "type": 3,
+          "position": 2,
+          "player_id": "pxwrxlhjjd8ryk0",
+          "player_name": "Nathan Flanagan",
+          "reason_type": 15
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4h43xjyq86",
+          "out_player_id": "jw2r09hjnv94rz8",
+          "in_player_name": "Ryan Scott Porteous",
+          "out_player_name": "S. Murphy"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "vjxm8gh8o973r6o",
+          "out_player_id": "l7oqdeh0843wr51",
+          "in_player_name": "M. Ferrie",
+          "out_player_name": "Kieran Somerville"
+        },
+        {
+          "time": 82,
+          "type": 3,
+          "position": 1,
+          "player_id": "l7oqdeh47djkr51",
+          "player_name": "Aaron Arnot ",
+          "reason_type": 19
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 3,
+          "position": 0
+        },
+        {
+          "time": 94,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

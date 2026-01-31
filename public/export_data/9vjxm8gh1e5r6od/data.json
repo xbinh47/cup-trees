@@ -1,0 +1,260 @@
+{
+  "season_id": "9vjxm8gh1e5r6od",
+  "brackets": [
+    {
+      "id": "2y8m4zhjl9jql07",
+      "competition_id": "8y39mp1hy8mojxg",
+      "season_id": "9vjxm8gh1e5r6od",
+      "name": "Relegation/Promotion Playoffs",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1716307200,
+      "end_time": 1716739140,
+      "rounds": [
+        {
+          "id": "l5ergph80vzr8k0",
+          "bracket_id": "2y8m4zhjl9jql07",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1716386400,
+          "end_time": 1716732000,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dj2ryohyng4dq1z",
+              "round_id": "l5ergph80vzr8k0",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "4wyrn4hvvk8q86p",
+              "away_team_id": "318q66h00olqo9j",
+              "winner_team_id": "318q66h00olqo9j",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "dj2ryoh1xp79q1z",
+                "vjxm8ghlw00nr6o"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "318q66h00olqo9j": {
+      "id": "318q66h00olqo9j",
+      "name": "Napoli Women"
+    },
+    "4wyrn4hvvk8q86p": {
+      "id": "4wyrn4hvvk8q86p",
+      "name": "Ternana W"
+    }
+  },
+  "sport_events": {
+    "dj2ryoh1xp79q1z": {
+      "id": "dj2ryoh1xp79q1z",
+      "home_team_id": "4wyrn4hvvk8q86p",
+      "away_team_id": "318q66h00olqo9j",
+      "start_timestamp": 1716386400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 1,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 46,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "vjxm8ghlw00nr6o": {
+      "id": "vjxm8ghlw00nr6o",
+      "home_team_id": "318q66h00olqo9j",
+      "away_team_id": "4wyrn4hvvk8q86p",
+      "start_timestamp": 1716732000,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 13,
+          "type": 3,
+          "position": 1,
+          "player_id": "6ypq3nhz9yelmd7",
+          "player_name": "Marija Maredinho Banušić",
+          "reason_type": 1
+        },
+        {
+          "time": 43,
+          "type": 3,
+          "position": 2,
+          "player_id": "1l4rjnhzw78ym7v",
+          "player_name": "Sara González Rodríguez",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 53,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 51,
+          "type": 3,
+          "position": 2,
+          "player_id": "2y8m4zhzx5joql0",
+          "player_name": "G. Fusar Poli",
+          "reason_type": 1
+        },
+        {
+          "time": 53,
+          "type": 3,
+          "position": 2,
+          "player_id": "l5ergphvknvor8k",
+          "player_name": "Valeria Pirone",
+          "reason_type": 1
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "23xmvkhk36dzqg8",
+          "out_player_id": "6ypq3nhz9yelmd7",
+          "in_player_name": "Giulia Giacobbo",
+          "out_player_name": "Marija Maredinho Banušić"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hy11nnqdy",
+          "out_player_id": "l5ergpheod73r8k",
+          "in_player_name": "A. Giai",
+          "out_player_name": "Valentina Gallazzi"
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohn4ly6q1z",
+          "out_player_id": "2y8m4zh86eowql0",
+          "in_player_name": "F. Lombardo",
+          "out_player_name": "G. Tarantino"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "965mkyh3d9xgr1g",
+          "out_player_id": "k82rekhy2yxprep",
+          "in_player_name": "Ilaria Alice Berti",
+          "out_player_name": "Florin Wagner"
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh3zlezqwz",
+          "out_player_id": "2y8m4zhzx5joql0",
+          "in_player_name": "Anastasia ferrara",
+          "out_player_name": "G. Fusar Poli"
+        },
+        {
+          "time": 93,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "zp5rzghz36d0q82",
+          "out_player_id": "dj2ryohj6678q1z",
+          "in_player_name": "Martina Di Bari",
+          "out_player_name": "Alice Pellinghelli"
+        },
+        {
+          "time": 94,
+          "type": 3,
+          "position": 1,
+          "player_id": "3glrw7hy11nnqdy",
+          "player_name": "A. Giai",
+          "reason_type": 1
+        },
+        {
+          "time": 97,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

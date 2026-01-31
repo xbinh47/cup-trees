@@ -1,0 +1,117 @@
+{
+  "season_id": "v2y8m4zhy3xql07",
+  "brackets": [
+    {
+      "id": "l7oqdeh6oj9r510",
+      "competition_id": "gx7lm7phpnm2wdk",
+      "season_id": "v2y8m4zhy3xql07",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1685203200,
+      "end_time": 1688140740,
+      "rounds": [
+        {
+          "id": "2y8m4zhng35ql07",
+          "bracket_id": "l7oqdeh6oj9r510",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1685811600,
+          "end_time": 1686499200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dj2ryohk6o9eq1z",
+              "round_id": "2y8m4zhng35ql07",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 7,
+              "home_team_id": "pxwrxlhg539ryk0",
+              "away_team_id": "4zp5rzgh96pq82w",
+              "winner_team_id": "pxwrxlhg539ryk0",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "1l4rjnhj7lgxm7v",
+                "965mkyh2voxgr1g"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "4zp5rzgh96pq82w": {
+      "id": "4zp5rzgh96pq82w",
+      "name": "Belenenses SAD"
+    },
+    "pxwrxlhg539ryk0": {
+      "id": "pxwrxlhg539ryk0",
+      "name": "Vilaverdense"
+    }
+  },
+  "sport_events": {
+    "1l4rjnhj7lgxm7v": {
+      "id": "1l4rjnhj7lgxm7v",
+      "home_team_id": "pxwrxlhg539ryk0",
+      "away_team_id": "4zp5rzgh96pq82w",
+      "start_timestamp": 1685811600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 7,
+          "red_card": 1,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "965mkyh2voxgr1g": {
+      "id": "965mkyh2voxgr1g",
+      "home_team_id": "4zp5rzgh96pq82w",
+      "away_team_id": "pxwrxlhg539ryk0",
+      "start_timestamp": 1686499200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 1,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

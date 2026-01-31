@@ -1,0 +1,86 @@
+{
+  "season_id": "l965mkyhv5wr1ge",
+  "brackets": [
+    {
+      "id": "k82rekh92xdrepz",
+      "competition_id": "j1l4rjnhz94m7vx",
+      "season_id": "l965mkyhv5wr1ge",
+      "name": "Super Cup 2023",
+      "abbr": "Super Cup 202",
+      "start_time": 1690646400,
+      "end_time": 1690819140,
+      "rounds": [
+        {
+          "id": "k82rekhnxjorepz",
+          "bracket_id": "k82rekh92xdrepz",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1690725600,
+          "end_time": 1690725600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "318q66ho5w1dqo9",
+              "round_id": "k82rekhnxjorepz",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "pxwrxlhgz9lryk0",
+              "away_team_id": "6ypq3nh0lzvmd7o",
+              "winner_team_id": "6ypq3nh0lzvmd7o",
+              "home_score": 1,
+              "away_score": 4,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "l5ergphlgeplr8k"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "pxwrxlhgz9lryk0": {
+      "id": "pxwrxlhgz9lryk0",
+      "name": "Al Ahed SC"
+    },
+    "6ypq3nh0lzvmd7o": {
+      "id": "6ypq3nh0lzvmd7o",
+      "name": "Al Nejmeh SC"
+    }
+  },
+  "sport_events": {
+    "l5ergphlgeplr8k": {
+      "id": "l5ergphlgeplr8k",
+      "home_team_id": "6ypq3nh0lzvmd7o",
+      "away_team_id": "pxwrxlhgz9lryk0",
+      "start_timestamp": 1690725600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 1,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 5,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 4,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

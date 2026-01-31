@@ -1,0 +1,117 @@
+{
+  "season_id": "gx7lm7phy62m2wd",
+  "brackets": [
+    {
+      "id": "318q66h0yg8qo9j",
+      "competition_id": "z8yomo4h39q0j6l",
+      "season_id": "gx7lm7phy62m2wd",
+      "name": "Knockout stage",
+      "abbr": "Relegation/Promotion Playoffs",
+      "start_time": 1701792000,
+      "end_time": 1702137540,
+      "rounds": [
+        {
+          "id": "1l4rjnh5e61m7vx",
+          "bracket_id": "318q66h0yg8qo9j",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1701860400,
+          "end_time": 1702123200,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "pxwrxlh1g2e4ryk",
+              "round_id": "1l4rjnh5e61m7vx",
+              "number": 1,
+              "type_id": 5,
+              "state_id": 8,
+              "home_team_id": "4wyrn4h8n3xq86p",
+              "away_team_id": "4jwq2gh44wym0ve",
+              "winner_team_id": "4jwq2gh44wym0ve",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "vjxm8ghl80vxr6o",
+                "y39mp1hzyovemoj"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "4wyrn4h8n3xq86p": {
+      "id": "4wyrn4h8n3xq86p",
+      "name": "Energetik-BGU Minsk"
+    },
+    "4jwq2gh44wym0ve": {
+      "id": "4jwq2gh44wym0ve",
+      "name": "FK Vitebsk"
+    }
+  },
+  "sport_events": {
+    "vjxm8ghl80vxr6o": {
+      "id": "vjxm8ghl80vxr6o",
+      "home_team_id": "4wyrn4h8n3xq86p",
+      "away_team_id": "4jwq2gh44wym0ve",
+      "start_timestamp": 1701860400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 6,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 1,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    },
+    "y39mp1hzyovemoj": {
+      "id": "y39mp1hzyovemoj",
+      "home_team_id": "4jwq2gh44wym0ve",
+      "away_team_id": "4wyrn4h8n3xq86p",
+      "start_timestamp": 1702123200,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

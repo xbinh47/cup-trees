@@ -1,0 +1,86 @@
+{
+  "season_id": "l965mkyhvnor1ge",
+  "brackets": [
+    {
+      "id": "pxwrxlh1yl9ryk0",
+      "competition_id": "56ypq3nh7emd7oj",
+      "season_id": "l965mkyhvnor1ge",
+      "name": "Super Cupa Romaniei 2023",
+      "abbr": "Super Cupa Ro",
+      "start_time": 1688745600,
+      "end_time": 1688918340,
+      "rounds": [
+        {
+          "id": "l7oqdehde41r510",
+          "bracket_id": "pxwrxlh1yl9ryk0",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1688835600,
+          "end_time": 1688835600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "dj2ryohko0p1q1z",
+              "round_id": "l7oqdehde41r510",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "56ypq3nhog8md7o",
+              "away_team_id": "4jwq2gh4yj1m0ve",
+              "winner_team_id": "4jwq2gh4yj1m0ve",
+              "home_score": 0,
+              "away_score": 1,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "jw2r09h6en0orz8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "4jwq2gh4yj1m0ve": {
+      "id": "4jwq2gh4yj1m0ve",
+      "name": "Sepsi OSK Sfantul Gheorghe"
+    },
+    "56ypq3nhog8md7o": {
+      "id": "56ypq3nhog8md7o",
+      "name": "Farul Constanta"
+    }
+  },
+  "sport_events": {
+    "jw2r09h6en0orz8": {
+      "id": "jw2r09h6en0orz8",
+      "home_team_id": "56ypq3nhog8md7o",
+      "away_team_id": "4jwq2gh4yj1m0ve",
+      "start_timestamp": 1688835600,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 7,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

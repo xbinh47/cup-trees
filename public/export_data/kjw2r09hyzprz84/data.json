@@ -1,0 +1,106 @@
+{
+  "season_id": "kjw2r09hyzprz84",
+  "brackets": [
+    {
+      "id": "dn1m1gheyo0moep",
+      "competition_id": "kdj2ryohkgyq1zp",
+      "season_id": "kjw2r09hyzprz84",
+      "name": "Promotion Playoffs",
+      "abbr": "Promotion Playoffs",
+      "start_time": 1698854400,
+      "end_time": 1704038340,
+      "rounds": [
+        {
+          "id": "l5ergphynw1r8k0",
+          "bracket_id": "dn1m1gheyo0moep",
+          "name": "Qualification Round1",
+          "abbr": "QR1",
+          "start_time": 1700042400,
+          "end_time": 1700042400,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "jw2r09hnljnzrz8",
+              "round_id": "l5ergphynw1r8k0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "y0or5jhle24qwzv",
+              "away_team_id": "3glrw7hwey2qdyj",
+              "winner_team_id": "y0or5jhle24qwzv",
+              "home_score": 1,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "8yomo4h3vvxxq0j"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jw2r09h9w2orz84",
+          "bracket_id": "dn1m1gheyo0moep",
+          "name": "Qualification Round2",
+          "abbr": "QR2",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 2,
+          "match_ups": []
+        },
+        {
+          "id": "l7oqdeh2lovr510",
+          "bracket_id": "dn1m1gheyo0moep",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 3,
+          "match_ups": []
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "y0or5jhle24qwzv": {
+      "id": "y0or5jhle24qwzv",
+      "name": "Mashal Muborak"
+    },
+    "3glrw7hwey2qdyj": {
+      "id": "3glrw7hwey2qdyj",
+      "name": "Shurtan Guzor"
+    }
+  },
+  "sport_events": {
+    "8yomo4h3vvxxq0j": {
+      "id": "8yomo4h3vvxxq0j",
+      "home_team_id": "y0or5jhle24qwzv",
+      "away_team_id": "3glrw7hwey2qdyj",
+      "start_timestamp": 1700042400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 1,
+          "red_card": 1,
+          "yellow_card": 1,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 0
+        }
+      },
+      "related_id": "",
+      "incidents": []
+    }
+  }
+}

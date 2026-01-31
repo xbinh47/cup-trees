@@ -1,0 +1,1678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bracket Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #1a1a2e;
+            min-height: 100vh;
+            padding: 15px;
+            color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 1.4rem;
+            color: #e94560;
+        }
+
+        .input-section {
+            max-width: 800px;
+            margin: 0 auto 10px;
+        }
+
+        .filter-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 8px;
+            background: rgba(255, 255, 255, 0.03);
+            padding: 8px;
+            border-radius: 5px;
+            align-items: center;
+        }
+
+        select,
+        input[list] {
+            background: #252a41;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 5px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            max-width: 200px;
+        }
+
+        .divider-text {
+            color: #666;
+            font-size: 0.7rem;
+            text-align: center;
+            margin: 5px 0;
+            font-style: italic;
+        }
+
+        textarea {
+            width: 100%;
+            height: 80px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            padding: 6px;
+            color: #fff;
+            font-family: monospace;
+            font-size: 9px;
+        }
+
+        .btn-row {
+            display: flex;
+            gap: 5px;
+            margin-top: 6px;
+        }
+
+        button {
+            padding: 6px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.75rem;
+        }
+
+        .btn-primary {
+            background: #e94560;
+            color: #fff;
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+
+        .error {
+            background: rgba(255, 0, 0, 0.2);
+            padding: 5px;
+            border-radius: 4px;
+            margin-top: 5px;
+            display: none;
+            font-size: 0.75rem;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 3px;
+            margin-bottom: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .tab {
+            padding: 6px 12px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.8rem;
+        }
+
+        .tab.active {
+            background: rgba(233, 69, 96, 0.3);
+            color: #e94560;
+        }
+
+        .bracket-panel {
+            display: none;
+        }
+
+        .bracket-panel.active {
+            display: block;
+        }
+
+        /* Bracket tree layout */
+        .bracket-wrapper {
+            overflow-x: auto;
+            padding: 20px 10px;
+        }
+
+        /* Formula-based Layout Styles */
+        .bracket-container {
+            position: relative;
+            overflow: auto;
+            padding: 40px;
+            /* Center the specific bracket area if needed, or just let it scroll */
+        }
+
+        .match-absolute {
+            position: absolute;
+            width: 200px;
+            /* Slightly wider */
+            height: 70px;
+            /* Taller for better spacing */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transition: transform 0.2s ease;
+        }
+
+        .match-absolute:hover {
+            transform: scale(1.02);
+            z-index: 10;
+        }
+
+        .match {
+            background: #252a41;
+            /* Dark sleek background */
+            border-radius: 6px;
+            padding: 8px 10px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+
+        .match:hover {
+            border-color: #e94560;
+            box-shadow: 0 0 10px rgba(233, 69, 96, 0.2);
+        }
+
+        /* New Virtual Node Style */
+        .match.virtual {
+            border: 1px dashed rgba(255, 255, 255, 0.15);
+            background: transparent;
+            opacity: 0.6;
+            cursor: default;
+            box-shadow: none;
+        }
+
+        .match.virtual:hover {
+            transform: none;
+            border-color: rgba(255, 255, 255, 0.15);
+            box-shadow: none;
+        }
+
+        .match.virtual .team-name {
+            color: #666;
+            font-style: italic;
+            font-size: 0.75rem;
+        }
+
+        .team {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2px 0;
+        }
+
+        .team-info {
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            flex: 1;
+        }
+
+        .team-logo {
+            width: 18px;
+            height: 18px;
+            object-fit: contain;
+            margin-right: 6px;
+            flex-shrink: 0;
+        }
+
+        .team-name {
+            font-size: 0.85rem;
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #ddd;
+            max-width: 140px;
+        }
+
+        .team-score {
+            font-weight: 700;
+            font-size: 0.85rem;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 2px 8px;
+            border-radius: 4px;
+            min-width: 24px;
+            text-align: center;
+            color: #aaa;
+        }
+
+        .winner .team-name {
+            color: #fff;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .winner .team-score {
+            background: #e94560;
+            color: #fff;
+        }
+
+        .match-status {
+            text-align: right;
+            font-size: 0.6rem;
+            color: #888;
+            margin-top: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .connector-path {
+            fill: none;
+            stroke: #4e5d78;
+            stroke-width: 2px;
+            opacity: 0.6;
+        }
+
+        /* MODAL STYLES */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(5px);
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: #1e2538;
+            border: 1px solid #333;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 500px;
+            padding: 24px;
+            position: relative;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            animation: modalFadeIn 0.3s ease;
+        }
+
+        @keyframes modalFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 1.5rem;
+            color: #888;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .modal-close:hover {
+            color: #fff;
+        }
+
+        .modal-header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 15px;
+        }
+
+        .modal-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #e94560;
+            margin-bottom: 5px;
+        }
+
+        .modal-subtitle {
+            font-size: 0.8rem;
+            color: #aaa;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            gap: 10px;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+
+        .stat-label {
+            text-align: center;
+            font-size: 0.75rem;
+            color: #666;
+            text-transform: uppercase;
+        }
+
+        .stat-val {
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+
+        .team-col-header {
+            font-weight: 700;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        .team-left {
+            text-align: right;
+            color: #add8e6;
+        }
+
+        .team-right {
+            text-align: left;
+            color: #ffb6c1;
+        }
+
+        .big-score {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #fff;
+            text-align: center;
+            margin: 10px 0;
+            letter-spacing: 5px;
+        }
+
+        .debug-info {
+            position: absolute;
+            top: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.6rem;
+            background: #fff;
+            color: #000;
+            padding: 1px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-weight: bold;
+            pointer-events: none;
+            z-index: 20;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        /* HIGHLIGHTING STYLES */
+        /* HIGHLIGHTING STYLES */
+        /* Connector Styles */
+        .connector-path.highlight-home {
+            stroke: #ffd700;
+            /* Gold */
+            stroke-width: 4px;
+            opacity: 1;
+            filter: drop-shadow(0 0 3px rgba(255, 215, 0, 0.5));
+            z-index: 50;
+        }
+
+        .connector-path.highlight-away {
+            stroke: #00ffff;
+            /* Cyan */
+            stroke-width: 4px;
+            opacity: 1;
+            filter: drop-shadow(0 0 3px rgba(0, 255, 255, 0.5));
+            z-index: 50;
+        }
+
+        /* TEAM FOCUS STYLES */
+        .team.highlight-home {
+            background: linear-gradient(90deg, rgba(255, 215, 0, 0.2), rgba(255, 215, 0, 0.05));
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.1);
+            transition: background 0.2s;
+            color: #fff;
+            /* Ensure text remains readable */
+        }
+
+        .team.highlight-away {
+            background: linear-gradient(90deg, rgba(0, 255, 255, 0.2), rgba(0, 255, 255, 0.05));
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+            transition: background 0.2s;
+            color: #fff;
+        }
+
+        /* TEAM FOCUS STYLES */
+        /* When a team is highlighted, its background glows */
+        .team.highlight {
+            background: linear-gradient(90deg, rgba(255, 215, 0, 0.2), rgba(255, 215, 0, 0.05));
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.1);
+            transition: background 0.2s;
+        }
+
+        /* The SIBLING team (not highlighted) in an active match gets dimmed */
+        .team.dimmed {
+            opacity: 0.3;
+            filter: grayscale(0.8);
+            transition: opacity 0.2s;
+        }
+
+        .team {
+            cursor: pointer;
+            /* Clickable look */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🏆 Bracket Viewer</h1>
+    <div class="input-section">
+        <!-- New Filter Section -->
+        <div class="filter-row">
+            <input type="text" id="compInput" list="compList" placeholder="Search Competition..."
+                onchange="onCompetitionChange()">
+            <datalist id="compList"></datalist>
+
+            <select id="seasonSelect">
+                <option value="">-- Select Season --</option>
+            </select>
+            <button class="btn-primary" onclick="loadSelectedSeason()">Load Season</button>
+        </div>
+
+        <div class="divider-text">- OR PASTE JSON -</div>
+
+        <textarea id="jsonInput" placeholder='Paste bracket_output.json...'></textarea>
+        <div class="btn-row">
+            <button class="btn-primary" onclick="render()">Render</button>
+            <button class="btn-primary" onclick="verify()">Verify</button>
+            <button class="btn-secondary" onclick="loadSample()">Sample</button>
+            <button class="btn-secondary" onclick="clearAll()">Clear</button>
+        </div>
+        <div class="error" id="error"></div>
+    </div>
+    <div class="tabs" id="tabs"></div>
+
+    <!-- Verification Results Container -->
+    <div id="verification-results"
+        style="max-width: 800px; margin: 0 auto 10px; display: none; background: rgba(0,0,0,0.3); padding: 10px; border-radius: 5px; border: 1px solid #444;">
+    </div>
+
+    <div id="panels"></div>
+    <div class="stats" id="stats"></div>
+
+    <!-- Details Modal -->
+    <div class="modal-overlay" id="detailsModal" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span class="modal-close" onclick="closeModalDirect()">&times;</span>
+            <div class="modal-header">
+                <div class="modal-title">Match Details</div>
+                <div class="modal-subtitle" id="modalRound">Round Info</div>
+            </div>
+            <div id="modalBody">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Constants for Layout Formula
+        const CONFIG = {
+            MATCH_WIDTH: 200, // Updated width
+            MATCH_HEIGHT: 70, // Updated height
+            MATCH_MARGIN_Y: 25, // Increased vertical gap
+            ROUND_MARGIN_X: 70, // Increased horizontal gap
+            START_X: 40,
+            START_Y: 40
+        };
+
+        const ROUND_NAMES = { 1: "R16", 2: "QUARTER", 3: "SEMI", 4: "FINAL", 5: "R32", 6: "R64" };
+
+        function isWinner(m, isHome) {
+            if (!m.status || (m.status.type !== 'finished' && m.status.type !== 'FT' && m.status.type !== 'PEN' && m.status.type !== 'AET')) return false;
+            // Strict ID check first
+            if (m.winner_team_id) return m.winner_team_id === (isHome ? m.home_team_id : m.away_team_id);
+            // Fallback to score
+            return isHome ? m.home_score > m.away_score : m.away_score > m.home_score;
+        }
+
+        function matchHtml(node) {
+            const m = node.data;
+            const debugId = node.id ? node.id.replace('L', 'R') : '';
+
+            // Helper to get logo IMG
+            const getLogo = (id) => id ? `<img src="https://img.uniscore.cc/football/team/${id}/image/small/dark" class="team-logo" onerror="this.style.display='none'">` : '';
+
+            // Check IsTBD (either from JSON or JS virtual)
+            if (m.is_tbd || m.is_virtual) {
+                return `<div class="match virtual">
+                    <div class="debug-info">${debugId}</div>
+                    <div class="team"><span class="team-name">TBD</span></div>
+                    <div class="team"><span class="team-name">TBD</span></div>
+                </div>`;
+            }
+
+            const bye = m.is_bye || (m.status && m.status.type === 'BYE_ADVANCED');
+            if (bye) return `<div class="match bye">
+                <div class="debug-info">${debugId}</div>
+                <div class="team">
+                    <div class="team-info">
+                         ${getLogo(m.home_team_id)}
+                         <span class="team-name">${m.home_team_name || 'TBD'}</span>
+                    </div>
+                </div>
+                <div class="match-status">BYE</div>
+            </div>`;
+
+            const hw = isWinner(m, true);
+            const aw = isWinner(m, false);
+            const statusStr = m.status ? (m.status.type || m.status.description) : '';
+
+            // Check for penalty
+            const hasPen = (m.home_score !== undefined && m.away_score !== undefined && m.status && (m.status.code === 120 || m.status.type === 'PEN'));
+            const penBadge = hasPen ? '<span style="background:#e94560; color:#fff; font-size:0.6rem; padding:1px 3px; border-radius:3px; margin-left:4px;">P</span>' : '';
+
+            return `<div class="match" onclick='openMatchDetails(${JSON.stringify(m).replace(/'/g, "&#39;")})'>
+                <div class="debug-info">${debugId}</div>
+                <div class="team ${hw ? 'winner' : ''}">
+                    <div class="team-info">
+                         ${getLogo(m.home_team_id)}
+                         <span class="team-name">${m.home_team_name || 'TBD'}</span>
+                    </div>
+                    <span class="team-score">${m.home_score ?? '-'}</span>
+                </div>
+                <div class="team ${aw ? 'winner' : ''}">
+                     <div class="team-info">
+                         ${getLogo(m.away_team_id)}
+                         <span class="team-name">${m.away_team_name || 'TBD'}</span>
+                    </div>
+                    <span class="team-score">${m.away_score ?? '-'}</span>
+                </div>
+                <div class="match-status" style="display:flex; justify-content:flex-end; align-items:center;">
+                    ${statusStr} ${penBadge}
+                </div>
+            </div>`;
+        }
+
+        // Modal Logic
+        function openMatchDetails(m) {
+            const modal = document.getElementById('detailsModal');
+            document.getElementById('modalRound').innerText = m.round_name_ui || (m.round_number ? ('Round ' + m.round_number) : '');
+
+            // Helper for safely getting values
+            const getVal = (obj, key) => (obj && obj[key] !== undefined) ? obj[key] : '-';
+
+            const statsConfig = [
+                { label: "Quarter 1 / Period 1", k: "period_1" },
+                { label: "Quarter 2 / Period 2", k: "period_2" },
+                { label: "Corners", k: "corner" },
+                { label: "Yellow Cards", k: "yellow_card" },
+                { label: "Red Cards", k: "red_card" },
+                { label: "Penalties", k: "penalty_score" }
+            ];
+
+            // Generator for a Stat Table Block
+            const generateStatBlock = (contextName, homeTeam, awayTeam, hScoreObj, aScoreObj, homeScoreDisplay, awayScoreDisplay, penArray) => {
+                let html = `
+                    <div style="margin-top: 20px; background: rgba(0,0,0,0.2); border-radius: 8px; padding: 15px;">
+                        <div style="text-align:center; color:#e94560; font-size:0.8rem; font-weight:700; margin-bottom:10px; text-transform:uppercase;">${contextName}</div>
+                        <div class="stat-grid" style="margin-bottom: 15px;">
+                            <div class="team-col-header team-left" style="font-size:0.9rem;">${homeTeam}</div>
+                            <div class="big-score" style="font-size:1.4rem;">${homeScoreDisplay} - ${awayScoreDisplay}</div>
+                            <div class="team-col-header team-right" style="font-size:0.9rem;">${awayTeam}</div>
+                        </div>
+                `;
+
+                statsConfig.forEach(s => {
+                    const hVal = getVal(hScoreObj, s.k);
+                    const aVal = getVal(aScoreObj, s.k);
+                    html += `
+                        <div class="stat-grid" style="padding: 2px 0;">
+                            <div class="stat-val team-left" style="font-size:0.8rem;">${hVal}</div>
+                            <div class="stat-label" style="font-size:0.7rem;">${s.label}</div>
+                            <div class="stat-val team-right" style="font-size:0.8rem;">${aVal}</div>
+                        </div>
+                        <div style="height:1px; background:rgba(255,255,255,0.05); margin: 2px 0;"></div>
+                    `;
+                });
+
+                // Add Pen Array if available
+                if (penArray && Array.isArray(penArray) && penArray.length === 2) {
+                    const homePens = penArray[0] || [];
+                    const awayPens = penArray[1] || [];
+                    const formatPens = (arr) => arr.map(p => p === 1 ? '✅' : '❌').join(' ');
+
+                    html += `
+                        <div class="stat-grid" style="padding: 10px 0; margin-top: 5px;">
+                            <div class="stat-val team-left" style="font-size:0.8rem;">${formatPens(homePens)}</div>
+                            <div class="stat-label" style="font-size:0.7rem;">Shootout</div>
+                            <div class="stat-val team-right" style="font-size:0.8rem;">${formatPens(awayPens)}</div>
+                        </div>
+                    `;
+                }
+
+                html += `</div>`;
+                return html;
+            };
+
+            // Helper to extract display score from complex object
+            const extractScore = (sObj, flatScore) => {
+                if (sObj && (sObj.display !== undefined || sObj.current !== undefined)) return sObj.display ?? sObj.current;
+                return flatScore ?? 0;
+            };
+
+            let bodyHtml = '';
+
+            // Aggregate Header (Always show result)
+            bodyHtml += `
+                 <div style="text-align:center; margin-bottom:10px;">
+                    <div style="font-size:0.8rem; color:#888;">AGGREGATE</div>
+                    <div class="big-score">${m.home_score ?? 0} - ${m.away_score ?? 0}</div>
+                 </div>
+            `;
+
+            if (m.first_leg) {
+                // Two Legs Mode
+                // Leg 1
+                bodyHtml += generateStatBlock(
+                    "First Leg",
+                    m.first_leg.home_team_name || m.home_team_name, // Fallback if leg name missing
+                    m.first_leg.away_team_name || m.away_team_name,
+                    m.first_leg.home_score || {},
+                    m.first_leg.away_score || {},
+                    extractScore(m.first_leg.home_score, m.first_leg.home_score),
+                    extractScore(m.first_leg.away_score, m.first_leg.away_score),
+                    m.first_leg.pen_array
+                );
+
+                // Leg 2
+                if (m.second_leg) {
+                    bodyHtml += generateStatBlock(
+                        "Second Leg",
+                        m.second_leg.home_team_name || m.away_team_name, // Swap logic? usually 2nd leg is swapped home/away. 
+                        // Wait, JSON usually says who is Home in that specific match leg.
+                        // Let's trust the leg data.
+                        m.second_leg.away_team_name || m.home_team_name,
+                        m.second_leg.home_score || {},
+                        m.second_leg.away_score || {},
+                        extractScore(m.second_leg.home_score, m.second_leg.home_score),
+                        extractScore(m.second_leg.away_score, m.second_leg.away_score),
+                        m.second_leg.pen_array
+                    );
+                }
+            } else {
+                // Single Match Mode (Finals etc)
+                // Use root object stats
+                bodyHtml += generateStatBlock(
+                    "Match Stats",
+                    m.home_team_name,
+                    m.away_team_name,
+                    m.home_score || {},
+                    m.away_score || {},
+                    m.home_score ?? 0,
+                    m.away_score ?? 0,
+                    m.pen_array
+                );
+            }
+
+            // Raw JSON Data
+            bodyHtml += `
+                <div style="margin-top: 20px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.1);">
+                    <div style="color: #666; font-size: 0.75rem; margin-bottom: 5px; font-weight: bold;">RAW DATA</div>
+                    <textarea readonly style="width: 100%; height: 100px; background: #0f131e; border: 1px solid #333; color: #7f8c8d; font-family: monospace; font-size: 0.7rem; padding: 8px; border-radius: 4px; resize: vertical;">${JSON.stringify(m, null, 2)}</textarea>
+                </div>
+            `;
+
+            document.getElementById('modalBody').innerHTML = bodyHtml;
+            modal.classList.add('active');
+        }
+
+        function closeModal(e) {
+            if (e.target.id === 'detailsModal') {
+                closeModalDirect();
+            }
+        }
+
+        function closeModalDirect() {
+            document.getElementById('detailsModal').classList.remove('active');
+        }
+
+        /**
+         * Core Formula Logic:
+         * 1. Parse nodes into a unified map.
+         * 2. Build Tree/Forest structure based on position arithmetic (Child Pos -> Parent Pos = ceil(Child/2)).
+         * 3. Calculate "Virtual Height" (Leaf counting) for Y-coordinates.
+         * 4. Render absolutely positioned elements.
+         */
+        function renderBracket(data, cid) {
+            const container = document.getElementById(cid);
+            container.innerHTML = '';
+
+            const nodes = data.nodes || {};
+            const rounds = Object.keys(nodes).map(Number).sort((a, b) => a - b);
+
+            if (rounds.length === 0) {
+                container.innerHTML = '<p>No data</p>';
+                return;
+            }
+
+            // --- 1. PREPARE ROUND NAMES ---
+            const roundNameMap = {};
+            if (data.rounds && Array.isArray(data.rounds)) {
+                data.rounds.forEach(r => {
+                    roundNameMap[r.number] = r.description || r.name || ("Round " + r.number);
+                });
+            } else {
+                // Fallback to static if no rounds data in JSON
+                Object.assign(roundNameMap, ROUND_NAMES);
+            }
+
+            // --- 2. Data Parsing ---
+            const allMatches = [];
+            // Track min round to normalize X position (Round 0 vs Round 1 etc)
+            const minRound = rounds[0];
+            const maxRound = rounds[rounds.length - 1];
+
+            rounds.forEach(rNum => {
+                Object.entries(nodes[rNum]).forEach(([posKey, m]) => {
+                    const pos = parseInt(posKey);
+                    // Standardize Round Index: 0, 1, 2... based on minRound
+                    // Use round_number from data if available and consistent, otherwise use map index
+                    // Given the sample, round_number 1 (R16) is key "0".
+                    // Let's rely on the keys "0", "1" being the "Layer Index".
+                    const layerIdx = rNum; // Assuming the keys "0", "1"... ARE the layer indices.
+
+                    // UNIQUE ID: Prefix with cid to avoid collisions across brackets in globalMatchMap
+                    const uniqueId = `${cid}-L${layerIdx}-P${pos}`;
+
+                    // Attach UI-ready round name for Modal
+                    // Note: m.round_number seems to be 1-based (1=R16, 2=Q, 3=S, 4=F)
+                    // But keys are 0,1,2,3.
+                    // If m.round_number exists, use it to lookup name.
+                    // Otherwise try to map layerIdx to a name? layerIdx is relative to array index.
+                    let rNameUI = '';
+                    if (m.round_number) {
+                        rNameUI = roundNameMap[m.round_number] || ('Round ' + m.round_number);
+                    } else {
+                        // fallback
+                        rNameUI = 'Round ' + (layerIdx + 1);
+                    }
+                    m.round_name_ui = rNameUI;
+
+                    allMatches.push({
+                        data: m,
+                        layerIdx: layerIdx,
+                        pos: pos,
+                        id: uniqueId,
+                        children: [],
+                        parent: null,
+                        x: 0,
+                        y: 0,
+                        height: 0, // The geometric height of this node's subtree
+                        el: null, // DOM Element reference
+                        childrenPaths: [] // Array of {childId, pathEl}
+                    });
+                });
+            });
+
+            // Index for quick lookup
+            const matchMap = {};
+            allMatches.forEach(n => matchMap[n.id] = n);
+
+            // --- 2. Tree/Forest Linking ---
+            // Formula: Parent is at Layer L+1, Position ceil(P/2).
+            allMatches.forEach(node => {
+                const nextLayer = node.layerIdx + 1;
+                const parentPos = Math.ceil(node.pos / 2);
+                const parentId = `${cid}-L${nextLayer}-P${parentPos}`;
+
+                if (matchMap[parentId]) {
+                    node.parent = matchMap[parentId];
+                    matchMap[parentId].children.push(node);
+                }
+            });
+
+            // --- 2.5 Fill Missing Children (Virtual TBD Nodes) ---
+            // Iterative Downward Pass: Max Layer -> Min Layer + 1
+            // This ensures we fill deep gaps (e.g. L3 -> L2 -> L1 -> L0)
+
+            for (let l = maxRound; l > minRound; l--) {
+                // Find all nodes in this layer (Real or Virtual)
+                // We must search 'allMatches' because it grows dynamically as we add virtuals
+                const nodesInLayer = allMatches.filter(n => n.layerIdx === l);
+
+                nodesInLayer.forEach(node => {
+                    const childLayer = l - 1;
+                    const expectedChild1Pos = (node.pos * 2) - 1;
+                    const expectedChild2Pos = (node.pos * 2);
+
+                    const ensureChild = (cPos) => {
+                        const cId = `${cid}-L${childLayer}-P${cPos}`;
+                        if (!matchMap[cId]) {
+                            // Create Virtual Node
+                            const vNode = {
+                                data: {
+                                    home_team_name: "TBD",
+                                    away_team_name: "TBD",
+                                    status: { // New Status Object
+                                        code: -2,
+                                        type: "TBD",
+                                        description: "To Be Determined"
+                                    },
+                                    is_tbd: true, // New Field
+                                    is_virtual: true
+                                },
+                                layerIdx: childLayer,
+                                pos: cPos,
+                                id: cId,
+                                children: [],
+                                parent: node,
+                                x: 0,
+                                y: 0,
+                                height: 0,
+                                el: null,
+                                childrenPaths: []
+                            };
+                            matchMap[cId] = vNode;
+                            allMatches.push(vNode);
+                            node.children.push(vNode);
+                        } else {
+                            // Child exists, ensure link
+                            const existingChild = matchMap[cId];
+                            if (!existingChild.parent) {
+                                existingChild.parent = node;
+                                node.children.push(existingChild);
+                            }
+                        }
+                    };
+
+                    ensureChild(expectedChild1Pos);
+                    ensureChild(expectedChild2Pos);
+                });
+            }
+
+            // Re-sort children now that we may have added virtual ones and order matters
+            allMatches.forEach(node => {
+                if (node.children.length > 0) {
+                    node.children.sort((a, b) => a.pos - b.pos);
+                }
+            });
+
+            // Detect Roots (Matches with no existing parent in the data set)
+            // This handles "Multiple distinct branches" automatically (Forest).
+            const roots = allMatches.filter(n => !n.parent);
+            // Sort roots by position to ensure forest is ordered correctly top-to-bottom
+            roots.sort((a, b) => a.pos - b.pos);
+
+
+            // --- 3. Coordinate Calculation (The Formula) ---
+
+            // X Coordinate: Simple linear based on Layer Index
+            allMatches.forEach(node => {
+                node.x = CONFIG.START_X + (node.layerIdx * (CONFIG.MATCH_WIDTH + CONFIG.ROUND_MARGIN_X));
+            });
+
+            // Y Coordinate: Recursive "Midpoint" Logic
+            let globalYCursor = CONFIG.START_Y;
+
+            // Helper to calculate Y for a subtree
+            // "y" here refers to the CENTER Y of the match card
+
+            const calculateY = (node) => {
+                if (node.children.length === 0) {
+                    // LEAF NODE (Base Case)
+                    // If it's a leaf, it takes up one "slot" in the vertical stack.
+                    // However, we might have leaves at different Layers (Bye scenarios).
+                    // For a strict tournament tree, leaves *usually* start at Layer 0.
+                    // If a node is a leaf at Layer 1, it should still position itself relative to the global flow.
+
+                    // Simple "Stack" approach:
+                    // Every time we hit a leaf in the DFS traversal, we assign it the next slot.
+
+                    const myHeight = CONFIG.MATCH_HEIGHT;
+                    node.y = globalYCursor + (myHeight / 2);
+                    globalYCursor += myHeight + CONFIG.MATCH_MARGIN_Y;
+
+                    return node.y;
+                } else {
+                    // INTERNAL NODE
+                    // Y is the average of children's Y
+                    let sumY = 0;
+                    node.children.forEach(c => {
+                        sumY += calculateY(c);
+                    });
+                    node.y = sumY / node.children.length;
+                    return node.y;
+                }
+            };
+
+            // Calculate for all roots (Forest support)
+            roots.forEach(root => {
+                calculateY(root);
+                // Add extra spacing between separate trees in the forest
+                globalYCursor += CONFIG.MATCH_MARGIN_Y * 2;
+            });
+
+
+            // --- 4. Rendering ---
+
+            // Calc container size
+            const maxX = Math.max(...allMatches.map(n => n.x)) + CONFIG.MATCH_WIDTH + CONFIG.START_X;
+            const maxY = globalYCursor; // Since cursor moves down
+
+            const wrapper = document.createElement('div');
+            wrapper.className = 'bracket-container';
+            wrapper.style.width = maxX + 'px';
+            wrapper.style.height = maxY + 'px';
+
+            // SVG Layer for connectors
+            const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            svg.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;';
+            wrapper.appendChild(svg);
+
+            // Render Matches
+            allMatches.forEach(node => {
+                const el = document.createElement('div');
+                el.className = 'match-absolute';
+                // X, Y are Centers. CSS top/left are top-left corners.
+                el.style.left = (node.x) + 'px';
+                el.style.top = (node.y - (CONFIG.MATCH_HEIGHT / 2)) + 'px';
+                el.style.height = CONFIG.MATCH_HEIGHT + 'px';
+
+                el.innerHTML = matchHtml(node);
+
+                // Store Reference
+                node.el = el;
+                // Add Hover Listeners
+                el.onmouseenter = () => highlightMatch(node.id);
+                el.onmouseleave = () => clearHighlights();
+
+                wrapper.appendChild(el);
+
+                // Draw connector to children
+                if (node.children.length > 0) {
+                    const pX = node.x; // Left edge of Parent? No, standard is Right edge connects to Left edge
+                    // Let's adjust coordinate system:
+                    // node.x is the LEFT edge of the card.
+                    const pRight = node.x + CONFIG.MATCH_WIDTH;
+                    const pY = node.y;
+
+                    node.children.forEach(child => {
+                        const cLeft = child.x;
+                        const cY = child.y;
+
+                        // Draw Path: ChildRight -> Mid -> ParentLeft
+                        // Wait, Standard: Child Right -> Parent Left.
+                        const childRight = cLeft + CONFIG.MATCH_WIDTH;
+                        // Actually, if we draw lines between layers:
+                        // From Child Right Edge to Parent Left Edge.
+
+                        // Let's use standard Bezier or Orthogonal
+                        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+
+                        // Start: Child Right
+                        const startX = childRight;
+                        const startY = cY;
+
+                        // End: Parent Left
+                        const endX = node.x;
+                        const endY = pY;
+
+                        const midX = (startX + endX) / 2;
+
+                        const d = `M ${startX} ${startY} L ${midX} ${startY} L ${midX} ${endY} L ${endX} ${endY}`;
+
+                        path.setAttribute('d', d);
+                        path.setAttribute('class', 'connector-path');
+                        path.setAttribute('d', d);
+                        path.setAttribute('class', 'connector-path');
+                        path.setAttribute('id', `conn-${child.id}-${node.id}`); // ID for debugging
+                        svg.appendChild(path);
+
+                        // Store path reference in the PARENT node (mapping child -> path)
+                        // Or better, store in CHILD node since it has only 1 parent? 
+                        // Actually, 'node' here is PARENT. 'child' is CHILD.
+                        // A child only has one parent. So we can store 'upwardPath' in child.
+                        child.upwardPath = path;
+
+                        // Also keep track in parent if needed (optional)
+                        node.childrenPaths.push({ childId: child.id, pathEl: path });
+
+                        svg.appendChild(path);
+                    });
+                }
+            });
+
+            // Draw Round Headers (Optional, based on max Y 0)
+            rounds.forEach(rNum => {
+                // Find X for this layer
+                const layerX = CONFIG.START_X + (rNum * (CONFIG.MATCH_WIDTH + CONFIG.ROUND_MARGIN_X));
+                const header = document.createElement('div');
+                header.className = 'round-title';
+                header.style.position = 'absolute';
+                header.style.left = layerX + 'px';
+                header.style.top = '0px'; // Sticky top?
+                header.style.width = CONFIG.MATCH_WIDTH + 'px';
+
+                // Find mapping for name
+                // Do NOT use roundNameMap[rNum] directly because rNum is the Layer Index (0, 1, 2),
+                // while roundNameMap uses Round Numbers (1, 2, 3...) which may overlap but mean different things.
+                // Best way is to ask a match in this layer what its round_number is.
+
+                const sampleMatch = allMatches.find(m => m.layerIdx === rNum);
+                let rName = '';
+
+                if (sampleMatch && sampleMatch.data.round_name_ui) {
+                    rName = sampleMatch.data.round_name_ui;
+                } else {
+                    // Fallback
+                    rName = 'Round ' + (rNum + 1);
+                }
+
+                header.innerText = rName;
+                wrapper.appendChild(header);
+            });
+
+            // 5. Render Standalone Third Place Match
+            if (data.third_place_match) {
+                const tpm = data.third_place_match;
+
+                // Find reference node (Final Match)
+                const finalMatch = allMatches.find(n => n.layerIdx === maxRound);
+
+                let tX, tYLabel, tYCard;
+
+                if (finalMatch) {
+                    // Position: Right of Final Match
+                    tX = finalMatch.x + CONFIG.MATCH_WIDTH + CONFIG.ROUND_MARGIN_X;
+
+                    // Align Card Center with Final Match Center
+                    // finalMatch.y is the Center Y of the match card
+                    const finalTop = finalMatch.y - (CONFIG.MATCH_HEIGHT / 2);
+                    tYCard = finalTop;
+                    tYLabel = finalTop - 25; // Label above card
+                } else {
+                    // Fallback: Below
+                    tX = CONFIG.START_X + (maxRound * (CONFIG.MATCH_WIDTH + CONFIG.ROUND_MARGIN_X));
+                    tYLabel = globalYCursor - 30;
+                    tYCard = tYLabel + 25;
+                }
+
+                // Label
+                const label = document.createElement('div');
+                label.innerText = "Third Place Match";
+                label.style.position = 'absolute';
+                label.style.left = tX + 'px';
+                label.style.top = tYLabel + 'px';
+                label.style.width = CONFIG.MATCH_WIDTH + 'px';
+                label.style.textAlign = 'center';
+                label.style.fontSize = '0.85rem';
+                label.style.color = '#e94560';
+                label.style.fontWeight = 'bold';
+                label.style.textTransform = 'uppercase';
+                wrapper.appendChild(label);
+
+                // Match Card
+                const el = document.createElement('div');
+                el.className = 'match-absolute';
+                el.style.left = tX + 'px';
+                el.style.top = tYCard + 'px';
+                el.style.height = CONFIG.MATCH_HEIGHT + 'px';
+
+                // Wrap tpm in a node structure for matchHtml
+                const tpmNode = { data: tpm, id: 'TPM' };
+                el.innerHTML = matchHtml(tpmNode);
+
+                wrapper.appendChild(el);
+
+                // Update Wrapper Size
+                // Check Width
+                const requiredW = tX + CONFIG.MATCH_WIDTH + CONFIG.START_X;
+                // Parse existing width (remove 'px')
+                const currentW = parseFloat(wrapper.style.width);
+                if (requiredW > currentW) {
+                    wrapper.style.width = requiredW + 'px';
+                }
+
+                // Check Height
+                const requiredH = tYCard + CONFIG.MATCH_HEIGHT + 20;
+                const currentH = parseFloat(wrapper.style.height);
+                if (requiredH > currentH) {
+                    wrapper.style.height = requiredH + 'px';
+                }
+            }
+
+
+            container.appendChild(wrapper);
+
+            // Export map for highlighting
+            updateGlobalMap(matchMap);
+        }
+
+        // Old functions removed or kept as stubs if referenced elsewhere
+        function getCenterY(el, cr) { return 0; }
+        function adjustLayout(c, r) { }
+        function drawConnectorsGeometric(c, m) { }
+        function drawConnectorsWithData(c, n, r) { }
+
+        function renderAll(data) {
+            const tabs = document.getElementById('tabs');
+            const panels = document.getElementById('panels');
+            let brackets = data.cup_trees || data.brackets || (data.nodes ? [data] : []);
+            if (!brackets.length) { tabs.innerHTML = 'No brackets'; return; }
+
+            tabs.innerHTML = brackets.map((b, i) => `<div class="tab ${i === 0 ? 'active' : ''}" onclick="switchTab(${i})">${b.bracket_name || 'Bracket ' + (i + 1)}</div>`).join('');
+            panels.innerHTML = brackets.map((b, i) => `<div id="p${i}" class="bracket-panel ${i === 0 ? 'active' : ''}"></div>`).join('');
+            brackets.forEach((b, i) => renderBracket(b, `p${i}`));
+            document.getElementById('stats').textContent = brackets.length + ' brackets';
+        }
+
+        function switchTab(i) {
+            document.querySelectorAll('.tab').forEach((t, j) => t.classList.toggle('active', i === j));
+            document.querySelectorAll('.bracket-panel').forEach((p, j) => p.classList.toggle('active', i === j));
+        }
+
+        function render() {
+            const resContainer = document.getElementById('verification-results');
+            resContainer.style.display = 'none';
+            resContainer.innerHTML = '';
+
+            const v = document.getElementById('jsonInput').value.trim();
+            const e = document.getElementById('error');
+            if (!v) { e.textContent = 'Enter JSON'; e.style.display = 'block'; return; }
+            try { e.style.display = 'none'; renderAll(JSON.parse(v)); } catch (x) { e.textContent = 'Error: ' + x.message; e.style.display = 'block'; }
+        }
+
+        function loadSample() {
+            // New order: index 0 = R16 (first round), index 3 = Final
+            const s = {
+                "brackets": [{
+                    "bracket_name": "Knockout Stage", "nodes": {
+                        // Round 0 = R16 (8 matches, round_number: 1)
+                        "0": {
+                            "1": { "home_team_name": "Inter Milan", "away_team_name": "Atletico Madrid", "home_score": 4, "away_score": 5, "status": "finished", "round_number": 1, "home_team_id": "inter", "away_team_id": "atm", "winner_team_id": "atm" },
+                            "2": { "home_team_name": "PSV", "away_team_name": "Dortmund", "home_score": 1, "away_score": 3, "status": "finished", "round_number": 1, "home_team_id": "psv", "away_team_id": "dor", "winner_team_id": "dor" },
+                            "3": { "home_team_name": "PSG", "away_team_name": "Real Sociedad", "home_score": 4, "away_score": 1, "status": "finished", "round_number": 1, "home_team_id": "psg", "away_team_id": "rso", "winner_team_id": "psg" },
+                            "4": { "home_team_name": "Napoli", "away_team_name": "Barcelona", "home_score": 2, "away_score": 4, "status": "finished", "round_number": 1, "home_team_id": "nap", "away_team_id": "bar", "winner_team_id": "bar" },
+                            "5": { "home_team_name": "Porto", "away_team_name": "Arsenal", "home_score": 3, "away_score": 5, "status": "finished", "round_number": 1, "home_team_id": "por", "away_team_id": "ars", "winner_team_id": "ars" },
+                            "6": { "home_team_name": "Lazio", "away_team_name": "Bayern", "home_score": 1, "away_score": 3, "status": "finished", "round_number": 1, "home_team_id": "laz", "away_team_id": "bay", "winner_team_id": "bay" },
+                            "7": { "home_team_name": "Leipzig", "away_team_name": "Real Madrid", "home_score": 1, "away_score": 2, "status": "finished", "round_number": 1, "home_team_id": "rbl", "away_team_id": "rma", "winner_team_id": "rma" },
+                            "8": { "home_team_name": "Copenhagen", "away_team_name": "Man City", "home_score": 2, "away_score": 6, "status": "finished", "round_number": 1, "home_team_id": "cop", "away_team_id": "mci", "winner_team_id": "mci" }
+                        },
+                        // Round 1 = Quarter (4 matches, round_number: 2)
+                        "1": {
+                            "1": { "home_team_name": "Atletico Madrid", "away_team_name": "Dortmund", "home_score": 4, "away_score": 5, "status": "finished", "round_number": 2, "home_team_id": "atm", "away_team_id": "dor", "winner_team_id": "dor" },
+                            "2": { "home_team_name": "PSG", "away_team_name": "Barcelona", "home_score": 6, "away_score": 4, "status": "finished", "round_number": 2, "home_team_id": "psg", "away_team_id": "bar", "winner_team_id": "psg" },
+                            "3": { "home_team_name": "Arsenal", "away_team_name": "Bayern", "home_score": 2, "away_score": 3, "status": "finished", "round_number": 2, "home_team_id": "ars", "away_team_id": "bay", "winner_team_id": "bay" },
+                            "4": { "home_team_name": "Real Madrid", "away_team_name": "Man City", "home_score": 8, "away_score": 7, "status": "finished", "round_number": 2, "home_team_id": "rma", "away_team_id": "mci", "winner_team_id": "rma" }
+                        },
+                        // Round 2 = Semi (2 matches, round_number: 3)
+                        "2": {
+                            "1": { "home_team_name": "Dortmund", "away_team_name": "PSG", "home_score": 2, "away_score": 0, "status": "finished", "round_number": 3, "home_team_id": "dor", "away_team_id": "psg", "winner_team_id": "dor" },
+                            "2": { "home_team_name": "Bayern", "away_team_name": "Real Madrid", "home_score": 3, "away_score": 4, "status": "finished", "round_number": 3, "home_team_id": "bay", "away_team_id": "rma", "winner_team_id": "rma" }
+                        },
+                        // Round 3 = Final (1 match, round_number: 4)
+                        "3": {
+                            "1": { "home_team_name": "Dortmund", "away_team_name": "Real Madrid", "home_score": 0, "away_score": 2, "status": "finished", "round_number": 4, "home_team_id": "dor", "away_team_id": "rma", "winner_team_id": "rma" }
+                        }
+                    }
+                }]
+            };
+            document.getElementById('jsonInput').value = JSON.stringify(s, null, 2);
+            renderAll(s);
+        }
+
+        function verify() {
+            const v = document.getElementById('jsonInput').value.trim();
+            const resContainer = document.getElementById('verification-results');
+            if (!v) {
+                resContainer.style.display = 'block';
+                resContainer.innerHTML = '<span style="color:#ff6b6b">No JSON data found to verify.</span>';
+                return;
+            }
+
+            try {
+                const data = JSON.parse(v);
+                const brackets = data.cup_trees || data.brackets || (data.nodes ? [data] : []);
+                let allLogs = [];
+
+                brackets.forEach((b, idx) => {
+                    const bName = b.bracket_name || `Bracket ${idx + 1}`;
+                    const logs = verifyBracketIntegrity(b, bName);
+                    allLogs = allLogs.concat(logs);
+                });
+
+                // Sort Logs: Errors First
+                allLogs.sort((a, b) => {
+                    if (a.type === b.type) return 0;
+                    return a.type === 'error' ? -1 : 1;
+                });
+
+                const hasErrors = allLogs.some(l => l.type === 'error');
+
+                // Render Logs
+                resContainer.style.display = 'block';
+                if (allLogs.length === 0) {
+                    resContainer.innerHTML = '<div style="color:#51cf66; font-weight:bold;">✅ Verification Passed! All nodes look correct.</div>';
+                } else {
+                    let html = `<div style="margin-bottom:5px; font-weight:bold; color:${hasErrors ? '#ff6b6b' : '#fcc419'}">${hasErrors ? '❌ Integrity Issues Found (Errors Listed First):' : '⚠️ Warnings:'}</div>`;
+                    html += '<ul style="list-style:none; padding-left:10px; max-height:200px; overflow-y:auto;">';
+                    allLogs.forEach(l => {
+                        const icon = l.type === 'error' ? '🔴' : '⚠️';
+                        const color = l.type === 'error' ? '#ff6b6b' : '#fcc419';
+                        html += `<li style="color:${color}; margin-bottom:4px; font-size:0.85rem;">${icon} <b>[${l.bracket}]</b> ${l.msg}</li>`;
+                    });
+                    html += '</ul>';
+                    resContainer.innerHTML = html;
+                }
+
+            } catch (x) {
+                resContainer.style.display = 'block';
+                resContainer.innerHTML = `<span style="color:#ff6b6b">JSON Parse Error: ${x.message}</span>`;
+            }
+        }
+
+        function verifyBracketIntegrity(bracketData, bracketName) {
+            const logs = [];
+            const nodes = bracketData.nodes || {};
+            const rounds = Object.keys(nodes).map(Number).sort((a, b) => a - b);
+
+            if (rounds.length === 0) return logs;
+
+            // Flatten similar to render() but keep simple map
+            const matchMap = {};
+            const flatMatches = [];
+
+            // 1. Build Map & Check Duplicates per Layer
+            rounds.forEach(rNum => {
+                const teamsInRound = new Set();
+
+                Object.entries(nodes[rNum]).forEach(([posKey, m]) => {
+                    const pos = parseInt(posKey);
+                    const id = `R${rNum}-P${pos}`;
+                    const matchNode = {
+                        data: m,
+                        layer: rNum,
+                        pos: pos,
+                        id: id
+                    };
+                    matchMap[id] = matchNode;
+                    flatMatches.push(matchNode);
+
+                    // --- New Check: Duplicate Teams ---
+                    // Ignore TBD and placeholders
+                    const cleanId = (tid) => (tid && tid !== 'TBD' && !tid.includes('virtual')) ? tid : null;
+
+                    if (cleanId(m.home_team_id)) {
+                        if (teamsInRound.has(m.home_team_id)) {
+                            logs.push({ type: 'error', bracket: bracketName, msg: `Duplicate Team in Round ${rNum}: Team ${m.home_team_id} appears multiple times.` });
+                        }
+                        teamsInRound.add(m.home_team_id);
+                    }
+                    if (cleanId(m.away_team_id)) {
+                        if (teamsInRound.has(m.away_team_id)) {
+                            logs.push({ type: 'error', bracket: bracketName, msg: `Duplicate Team in Round ${rNum}: Team ${m.away_team_id} appears multiple times.` });
+                        }
+                        teamsInRound.add(m.away_team_id);
+                    }
+                });
+            });
+
+            const maxRound = rounds[rounds.length - 1];
+
+            // 2. Validate Nodes
+            flatMatches.forEach(node => {
+                const m = node.data;
+                const matchId = m.id || 'N/A';
+                const logPrefix = `[${node.id} / ${matchId}]`;
+
+                // Status Helper
+                const statusStr = (m.status && typeof m.status === 'object') ? m.status.type : (m.status || '');
+                const statusLower = statusStr.toLowerCase();
+                const FINISHED_STATUSES = ['finished', 'ft', 'aet', 'pen'];
+
+                const isBye = m.is_bye || statusStr === 'BYE' || statusStr === 'BYE_ADVANCED';
+                const isFinished = FINISHED_STATUSES.includes(statusLower);
+
+                // 2.0 Internal Consistency (Enhanced)
+                if (isFinished) {
+                    // Check Missing Data
+                    if (!m.home_team_id || !m.away_team_id) {
+                        if (!isBye) logs.push({ type: 'error', bracket: bracketName, msg: `${logPrefix} Missing Team ID: Finished match must have both team IDs.` });
+                    }
+                    if (m.home_score === undefined || m.away_score === undefined) {
+                        if (!isBye) logs.push({ type: 'error', bracket: bracketName, msg: `${logPrefix} Missing Score: Finished match must have scores.` });
+                    }
+
+                    // Check Winner Consistency
+                    if (m.winner_team_id) {
+                        if (m.winner_team_id !== m.home_team_id && m.winner_team_id !== m.away_team_id) {
+                            logs.push({ type: 'error', bracket: bracketName, msg: `${logPrefix} Invalid Data: winner_team_id (${m.winner_team_id}) matches neither Home nor Away team.` });
+                        }
+
+                        // Score Logic Check
+                        if (m.home_score !== undefined && m.away_score !== undefined) {
+                            if (m.home_score > m.away_score && m.winner_team_id !== m.home_team_id) {
+                                logs.push({ type: 'error', bracket: bracketName, msg: `${logPrefix} Score/Winner Mismatch: Home won (${m.home_score}-${m.away_score}) but winner_team_id is Away.` });
+                            }
+                            if (m.away_score > m.home_score && m.winner_team_id !== m.away_team_id) {
+                                logs.push({ type: 'error', bracket: bracketName, msg: `${logPrefix} Score/Winner Mismatch: Away won (${m.home_score}-${m.away_score}) but winner_team_id is Home.` });
+                            }
+                        }
+                    } else {
+                        // Winner missing in finished match
+                        if (!isBye) {
+                            if (m.home_score !== m.away_score) {
+                                logs.push({ type: 'warn', bracket: bracketName, msg: `${logPrefix} Missing winner_team_id: Match finished with decisive score but no explicit winner ID.` });
+                            } else {
+                                // Draw
+                                logs.push({ type: 'error', bracket: bracketName, msg: `${logPrefix} Ambiguous Result: Match finished as Draw (${m.home_score}-${m.away_score}) with no winner_team_id.` });
+                            }
+                        }
+                    }
+                }
+
+                // If Root, skip parent check
+                if (node.layer === maxRound) return;
+
+                const parentLayer = node.layer + 1;
+                const parentPos = Math.ceil(node.pos / 2);
+                const parentId = `R${parentLayer}-P${parentPos}`;
+                const parent = matchMap[parentId];
+
+                // 2.1 Structural Check (Orphan)
+                if (!parent) {
+                    logs.push({ type: 'error', bracket: bracketName, msg: `${logPrefix} Orphan Node: Expects parent at ${parentId}, but it is missing.` });
+                    return;
+                }
+
+                // 2.2 Progression Check
+                const pData = parent.data;
+                const pMatchId = pData.id || 'N/A';
+
+                // If this is the left (odd) child, it feeds Parent's Home.
+                // If this is the right (even) child, it feeds Parent's Away.
+                const isHomeFeeder = (node.pos % 2 !== 0);
+                const targetTeamRole = isHomeFeeder ? 'Home' : 'Away';
+
+                // Helper to normalize strings for comparison
+                const teamName = (name) => (name || '').trim();
+                const isTBD = (name) => !name || name.toUpperCase() === 'TBD' || name.includes('Winner of') || name.includes('Winner Match');
+
+                // Determine who *should* have advanced
+                if (isFinished || isBye) {
+                    let winnerName = null;
+                    if (isBye) {
+                        winnerName = m.home_team_name;
+                    } else if (m.winner_team_id) {
+                        if (m.winner_team_id === m.home_team_id) winnerName = m.home_team_name;
+                        else if (m.winner_team_id === m.away_team_id) winnerName = m.away_team_name;
+                    } else {
+                        // Fallback
+                        const hs = m.home_score || 0;
+                        const as = m.away_score || 0;
+                        if (hs > as) winnerName = m.home_team_name;
+                        else if (as > hs) winnerName = m.away_team_name;
+                        else winnerName = "DRAW_OR_PENALTIES";
+                    }
+
+                    if (winnerName && winnerName !== "DRAW_OR_PENALTIES") {
+                        // Check if Parent has this winner in correct slot
+                        const parentTeamName = isHomeFeeder ? pData.home_team_name : pData.away_team_name;
+
+                        if (teamName(parentTeamName) !== teamName(winnerName)) {
+                            // If parent is TBD, it's a "Missing Advance" error (or delayed update)
+                            // If parent is WRONG team, it's a "Mismatch" error.
+                            if (isTBD(parentTeamName)) {
+                                logs.push({
+                                    type: 'warn',
+                                    bracket: bracketName,
+                                    msg: `${logPrefix} Missing Advance: Match finished with "${winnerName}", but parent [${parent.id}/${pMatchId}] ${targetTeamRole} slot is still "${parentTeamName}".`
+                                });
+                            } else {
+                                logs.push({
+                                    type: 'error',
+                                    bracket: bracketName,
+                                    msg: `${logPrefix} Progression Mismatch: Expected ${targetTeamRole} Team in parent [${parent.id}/${pMatchId}] to be "${winnerName}", but found "${parentTeamName}".`
+                                });
+                            }
+                        }
+                    }
+                } else {
+                    // Match NOT finished (TBD or Future)
+                    // Ensure parent slot is NOT populated with a specific team yet
+
+                    const parentTeamName = isHomeFeeder ? pData.home_team_name : pData.away_team_name;
+
+                    if (!isTBD(parentTeamName) && !pData.is_tbd) {
+                        // Ensure it's not a placeholder
+                        if (!parentTeamName.toLowerCase().includes("winner")) {
+                            logs.push({ type: 'warn', bracket: bracketName, msg: `${logPrefix} Potential Premature Advance: Source match is not finished, but parent [${parent.id}/${pMatchId}] ${targetTeamRole} slot has "${parentTeamName}".` });
+                        }
+                    }
+                }
+            });
+
+            return logs;
+        }
+
+        // --- HIGHLIGHTING LOGIC ---
+
+        // Global store for parsed matches to allow looking up by ID
+        let globalMatchMap = {};
+
+        // We need to expose the matchMap from renderBracket or store it globally.
+        // Current renderBracket creates a local matchMap. 
+        // Let's modify renderBracket to update a global map or pass it around.
+        // Easiest is to make globalMatchMap accessible. 
+        // NOTE: multple brackets (tabs) exist. We should probably clear globalMatchMap or key it by bracket ID.
+        // Simpler: Just before renderBracket finishes, merge its map into a global one.
+
+        function updateGlobalMap(map) {
+            // Merge
+            globalMatchMap = { ...globalMatchMap, ...map };
+        }
+
+        function highlightMatch(nodeId) {
+            const node = globalMatchMap[nodeId];
+            if (!node) return;
+            const m = node.data;
+
+            const targetHomeId = m.home_team_id;
+            const targetAwayId = m.away_team_id;
+
+            if (!targetHomeId && !targetAwayId) return;
+
+            // Enable Dimming
+            document.querySelectorAll('.bracket-container').forEach(c => c.classList.add('dimmed-mode'));
+
+            // Scan All Matches
+            Object.values(globalMatchMap).forEach(n => {
+                const el = n.el;
+                if (!el) return;
+
+                const nData = n.data;
+                const hId = nData.home_team_id;
+                const aId = nData.away_team_id;
+
+                // Check if this match contains target teams
+                const homeIsTargetH = targetHomeId && hId === targetHomeId;
+                const homeIsTargetA = targetAwayId && hId === targetAwayId;
+
+                const awayIsTargetH = targetHomeId && aId === targetHomeId;
+                const awayIsTargetA = targetAwayId && aId === targetAwayId;
+
+                // Determine if this match is involved at all
+                if (homeIsTargetH || homeIsTargetA || awayIsTargetH || awayIsTargetA) {
+                    const teams = el.querySelectorAll('.team');
+                    const homeDiv = teams[0];
+                    const awayDiv = teams[1];
+
+                    // Handle Home Slot Highlight
+                    if (homeDiv) {
+                        if (homeIsTargetH) homeDiv.classList.add('highlight-home');
+                        else if (homeIsTargetA) homeDiv.classList.add('highlight-away');
+                        else homeDiv.classList.add('dimmed');
+                    }
+
+                    // Handle Away Slot Highlight
+                    if (awayDiv) {
+                        if (awayIsTargetH) awayDiv.classList.add('highlight-home');
+                        else if (awayIsTargetA) awayDiv.classList.add('highlight-away');
+                        else awayDiv.classList.add('dimmed');
+                    }
+
+                    el.classList.add('active-path');
+
+                    // Connectors
+                    n.children.forEach(child => {
+                        const cData = child.data;
+                        // Determine if child feeds Home or Away target
+                        let connectorClass = null;
+
+                        // Does this child feed the Home Target?
+                        if ([targetHomeId].includes(cData.home_team_id) ||
+                            [targetHomeId].includes(cData.away_team_id) ||
+                            [targetHomeId].includes(cData.winner_team_id)) {
+                            connectorClass = 'highlight-home';
+                        }
+
+                        // Does this child feed the Away Target?
+                        // Note: A child *could* hypothetically feed both if we trace weirdly, 
+                        // but usually paths diverge.
+                        if ([targetAwayId].includes(cData.home_team_id) ||
+                            [targetAwayId].includes(cData.away_team_id) ||
+                            [targetAwayId].includes(cData.winner_team_id)) {
+                            connectorClass = 'highlight-away';
+                        }
+
+                        if (connectorClass && child.upwardPath) {
+                            child.upwardPath.classList.add(connectorClass);
+                        }
+                    });
+                }
+            });
+        }
+
+        function clearHighlights() {
+            document.querySelectorAll('.highlight-home').forEach(el => el.classList.remove('highlight-home'));
+            document.querySelectorAll('.highlight-away').forEach(el => el.classList.remove('highlight-away'));
+            document.querySelectorAll('.dimmed').forEach(el => el.classList.remove('dimmed'));
+            document.querySelectorAll('.active-path').forEach(el => el.classList.remove('active-path'));
+            document.querySelectorAll('.bracket-container').forEach(c => c.classList.remove('dimmed-mode'));
+        }
+
+        function clearAll() { document.getElementById('jsonInput').value = ''; document.getElementById('tabs').innerHTML = ''; document.getElementById('panels').innerHTML = ''; globalMatchMap = {}; }
+
+        // --- FILTER & LOADING LOGIC ---
+        let allCompetitions = [];
+
+        async function loadCompetitions() {
+            try {
+                const res = await fetch('all_competitions.json');
+                if (!res.ok) throw new Error("Failed to load all_competitions.json");
+                allCompetitions = await res.json();
+
+                const compList = document.getElementById('compList');
+                allCompetitions.forEach(c => {
+                    const opt = document.createElement('option');
+                    // Use name + ID to ensure uniqueness and searchability
+                    const name = c.competition_name || "Unknown";
+                    // opt.value = name; 
+                    // To handle duplicates, we might want unique values, but for UX 'value' shows in input.
+                    // Let's use "Name (CountryID)" if available to disambiguate
+                    const country = c.country_id ? ` [${c.country_id}]` : "";
+                    opt.value = `${name}${country}`;
+                    // Store real ID in a way we can lookup? We can just lookup by the full string since we construct it unique.
+                    // Or keep it simple.
+                    compList.appendChild(opt);
+                });
+            } catch (e) {
+                console.error("Error loading competitions:", e);
+                // Fail silently or show small error in log
+            }
+        }
+
+        function onCompetitionChange() {
+            const val = document.getElementById('compInput').value;
+            const seasonSelect = document.getElementById('seasonSelect');
+            seasonSelect.innerHTML = '<option value="">-- Select Season --</option>';
+
+            if (!val) return;
+
+            // Find by matching constructed value
+            const comp = allCompetitions.find(c => {
+                const name = c.competition_name || "Unknown";
+                const country = c.country_id ? ` [${c.country_id}]` : "";
+                return `${name}${country}` === val;
+            });
+
+            if (comp && comp.seasons) {
+                comp.seasons.forEach(s => {
+                    const opt = document.createElement('option');
+                    opt.value = s.id;
+                    const name = s.name || s.year;
+                    const currentStr = s.is_current ? " (Current)" : "";
+                    opt.textContent = `${name}${currentStr}`;
+                    seasonSelect.appendChild(opt);
+                });
+            }
+        }
+
+        async function loadSelectedSeason() {
+            const sid = document.getElementById('seasonSelect').value;
+            const errEl = document.getElementById('error');
+            if (!sid) {
+                errEl.textContent = "Please select a season first.";
+                errEl.style.display = 'block';
+                return;
+            }
+
+            try {
+                errEl.style.display = 'none';
+                errEl.innerHTML = 'Loading...';
+
+                // Fetch tree.json directly from export_data
+                // Path: ./export_data/{sid}/tree.json
+                const path = `export_data/${sid}/tree.json`;
+                const res = await fetch(path);
+
+                if (!res.ok) {
+                    throw new Error(`File not found: ${path} (Status: ${res.status})`);
+                }
+
+                const data = await res.json();
+
+                // Populate textarea for visibility/debugging
+                document.getElementById('jsonInput').value = JSON.stringify(data, null, 2);
+
+                // Render
+                renderAll(data);
+
+            } catch (e) {
+                errEl.textContent = `Error loading season: ${e.message}`;
+                errEl.style.display = 'block';
+            }
+        }
+
+        // Initialize
+        loadCompetitions();
+        // loadSample(); // Optional: keep or remove sample loading on startup
+    </script>
+</body>
+
+</html>
