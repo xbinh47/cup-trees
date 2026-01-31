@@ -492,6 +492,11 @@
                 <option value="">-- Select Season --</option>
             </select>
             <button class="btn-primary" onclick="loadSelectedSeason()">Load Season</button>
+
+            <div style="width: 1px; height: 20px; background: rgba(255,255,255,0.2); margin: 0 10px;"></div>
+
+            <input type="text" id="seasonIdInput" placeholder="Season ID" style="width: 100px;">
+            <button class="btn-primary" onclick="loadDirectSeason()">ByID</button>
         </div>
 
         <div class="divider-text">- OR PASTE JSON -</div>
@@ -1633,15 +1638,8 @@
             }
         }
 
-        async function loadSelectedSeason() {
-            const sid = document.getElementById('seasonSelect').value;
+        async function fetchAndRenderSeason(sid) {
             const errEl = document.getElementById('error');
-            if (!sid) {
-                errEl.textContent = "Please select a season first.";
-                errEl.style.display = 'block';
-                return;
-            }
-
             try {
                 errEl.style.display = 'none';
                 errEl.innerHTML = 'Loading...';
@@ -1667,6 +1665,28 @@
                 errEl.textContent = `Error loading season: ${e.message}`;
                 errEl.style.display = 'block';
             }
+        }
+
+        function loadSelectedSeason() {
+            const sid = document.getElementById('seasonSelect').value;
+            if (!sid) {
+                const errEl = document.getElementById('error');
+                errEl.textContent = "Please select a season first.";
+                errEl.style.display = 'block';
+                return;
+            }
+            fetchAndRenderSeason(sid);
+        }
+
+        function loadDirectSeason() {
+            const sid = document.getElementById('seasonIdInput').value.trim();
+            if (!sid) {
+                const errEl = document.getElementById('error');
+                errEl.textContent = "Please enter a Season ID.";
+                errEl.style.display = 'block';
+                return;
+            }
+            fetchAndRenderSeason(sid);
         }
 
         // Initialize
