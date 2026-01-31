@@ -41,20 +41,19 @@
             }
           },
           "11": {
-            "id": "virtual-r0-p11",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
+            "id": "965mkyh48l0lr1g",
+            "home_team_name": "",
+            "home_score": 3,
+            "away_score": 2,
             "position": 11,
             "round_id": "y39mp1h0o2vmojx",
             "round_number": 1,
-            "is_tbd": true,
             "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
+              "code": 0,
+              "description": "Pending",
+              "type": "pending"
+            },
+            "note": "Direct qualified for the Playoff Round"
           },
           "12": {
             "home_team_id": "vjxm8gh8pdnr6od",
@@ -170,19 +169,20 @@
             "note": "Direct qualified for the Playoff Round"
           },
           "16": {
-            "id": "dn1m1ghe9vg3moe",
-            "home_team_name": "",
+            "home_team_id": "6ypq3nh09kjmd7o",
+            "home_team_name": "Koln Women",
+            "away_team_name": "BYE",
             "home_score": 0,
-            "away_score": 6,
+            "away_score": 0,
+            "winner_team_id": "6ypq3nh09kjmd7o",
             "position": 16,
-            "round_id": "y39mp1h0o2vmojx",
             "round_number": 1,
+            "is_bye": true,
             "status": {
               "code": 0,
-              "description": "Pending",
-              "type": "pending"
-            },
-            "note": "Direct qualified for the Playoff Round"
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
           },
           "17": {
             "id": "l5ergph3k07pr8k",
@@ -327,19 +327,20 @@
             }
           },
           "2": {
-            "id": "l7oqdeh6jy9dr51",
-            "home_team_name": "",
+            "home_team_id": "4wyrn4h8v49q86p",
+            "home_team_name": "VfL Wolfsburg Women",
+            "away_team_name": "BYE",
             "home_score": 0,
-            "away_score": 6,
+            "away_score": 0,
+            "winner_team_id": "4wyrn4h8v49q86p",
             "position": 2,
-            "round_id": "y39mp1h0o2vmojx",
             "round_number": 1,
+            "is_bye": true,
             "status": {
               "code": 0,
-              "description": "Pending",
-              "type": "pending"
-            },
-            "note": "Direct qualified for the Playoff Round"
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
           },
           "20": {
             "home_team_id": "pxwrxlhgovzryk0",
@@ -647,11 +648,10 @@
             }
           },
           "3": {
-            "id": "2y8m4zhjv0epql0",
-            "home_team_id": "6ypq3nh02jkmd7o",
-            "home_team_name": "SV Weinberg Women",
-            "home_score": 2,
-            "away_score": 3,
+            "id": "l7oqdeh6jy9dr51",
+            "home_team_name": "",
+            "home_score": 0,
+            "away_score": 6,
             "position": 3,
             "round_id": "y39mp1h0o2vmojx",
             "round_number": 1,
@@ -679,20 +679,19 @@
             }
           },
           "31": {
-            "id": "virtual-r0-p31",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
+            "id": "dn1m1ghe9vg3moe",
+            "home_team_name": "",
             "home_score": 0,
-            "away_score": 0,
+            "away_score": 6,
             "position": 31,
             "round_id": "y39mp1h0o2vmojx",
             "round_number": 1,
-            "is_tbd": true,
             "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
+              "code": 0,
+              "description": "Pending",
+              "type": "pending"
+            },
+            "note": "Direct qualified for the Playoff Round"
           },
           "32": {
             "home_team_id": "3glrw7hw5ooqdyj",
@@ -727,27 +726,12 @@
             }
           },
           "5": {
-            "id": "virtual-r0-p5",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
+            "id": "2y8m4zhjv0epql0",
+            "home_team_id": "6ypq3nh02jkmd7o",
+            "home_team_name": "SV Weinberg Women",
+            "home_score": 2,
+            "away_score": 3,
             "position": 5,
-            "round_id": "y39mp1h0o2vmojx",
-            "round_number": 1,
-            "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
-          },
-          "6": {
-            "id": "965mkyh48l0lr1g",
-            "home_team_name": "",
-            "home_score": 3,
-            "away_score": 2,
-            "position": 6,
             "round_id": "y39mp1h0o2vmojx",
             "round_number": 1,
             "status": {
@@ -756,6 +740,22 @@
               "type": "pending"
             },
             "note": "Direct qualified for the Playoff Round"
+          },
+          "6": {
+            "home_team_id": "23xmvkh3536qg8n",
+            "home_team_name": "Hoffenheim Women",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "23xmvkh3536qg8n",
+            "position": 6,
+            "round_number": 1,
+            "is_bye": true,
+            "status": {
+              "code": 0,
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
           },
           "7": {
             "id": "jw2r09hn54gprz8",

@@ -337,23 +337,6 @@
               "type": "finished"
             }
           },
-          "14": {
-            "id": "pxwrxlh1y4odryk",
-            "home_team_id": "1l4rjnhke99m7vx",
-            "away_team_id": "1l4rjnh6k3zm7vx",
-            "home_team_name": "CS Gloria 2018 Bistrita Nasaud",
-            "away_team_name": "Unirea Dej",
-            "home_score": 4,
-            "away_score": 1,
-            "position": 14,
-            "round_id": "318q66h61jkqo9j",
-            "round_number": 1,
-            "status": {
-              "code": 0,
-              "description": "Scheduled",
-              "type": "scheduled"
-            }
-          },
           "17": {
             "id": "dn1m1gheljz9moe",
             "home_team_id": "y0or5jh38l8qwzv",
@@ -418,20 +401,21 @@
             }
           },
           "18": {
-            "id": "2y8m4zhj5o9oql0",
-            "home_team_id": "4jwq2gh1986m0ve",
-            "away_team_id": "l5ergphvw8zr8k0",
-            "home_team_name": "CS Sanandrei Timis",
-            "away_team_name": "Ghiroda SI Giarmata VII",
-            "home_score": 3,
-            "away_score": 1,
+            "id": "8yomo4hk1podq0j",
+            "home_team_id": "23xmvkholnwqg8n",
+            "away_team_id": "965mkyh4e6er1ge",
+            "home_team_name": "Inainte Modelu",
+            "away_team_name": "Dunarea Calarasi",
+            "home_score": 0,
+            "away_score": 2,
+            "winner_team_id": "965mkyh4e6er1ge",
             "position": 18,
             "round_id": "318q66h61jkqo9j",
             "round_number": 1,
             "first_leg": {
               "status": {
-                "code": 110,
-                "description": "AET",
+                "code": 100,
+                "description": "ended",
                 "type": "finished"
               },
               "start_time": 1753885800,
@@ -440,42 +424,42 @@
                 0
               ],
               "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 1,
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
                 "period_2": 0,
                 "corner": 0,
                 "yellow_card": 0,
                 "red_card": 0,
-                "overtime_score": 3,
+                "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 2,
-                "ft_score_only": 1
+                "overtime_score_only": 0,
+                "ft_score_only": 0
               },
               "away_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 0,
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
                 "period_2": 1,
                 "corner": 0,
                 "yellow_card": 0,
                 "red_card": 0,
-                "overtime_score": 1,
+                "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 1
+                "overtime_score_only": -2,
+                "ft_score_only": 2
               },
-              "home_team_id": "4jwq2gh1986m0ve",
-              "away_team_id": "l5ergphvw8zr8k0",
-              "home_team_name": "CS Sanandrei Timis",
-              "away_team_name": "Ghiroda SI Giarmata VII"
+              "home_team_id": "23xmvkholnwqg8n",
+              "away_team_id": "965mkyh4e6er1ge",
+              "home_team_name": "Inainte Modelu",
+              "away_team_name": "Dunarea Calarasi"
             },
             "event_ids": [
-              "318q66hxjn1lqo9"
+              "x7lm7phj9nvzm2w"
             ],
             "status": {
-              "code": 110,
-              "description": "AET",
+              "code": 100,
+              "description": "ended",
               "type": "finished"
             }
           },
@@ -875,19 +859,20 @@
             }
           },
           "31": {
-            "home_team_id": "dj2ryohkx19q1zp",
-            "home_team_name": "Vointa Livezile",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "dj2ryohkx19q1zp",
+            "id": "pxwrxlh1y4odryk",
+            "home_team_id": "1l4rjnhke99m7vx",
+            "away_team_id": "1l4rjnh6k3zm7vx",
+            "home_team_name": "CS Gloria 2018 Bistrita Nasaud",
+            "away_team_name": "Unirea Dej",
+            "home_score": 4,
+            "away_score": 1,
             "position": 31,
+            "round_id": "318q66h61jkqo9j",
             "round_number": 1,
-            "is_bye": true,
             "status": {
               "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
+              "description": "Scheduled",
+              "type": "scheduled"
             }
           },
           "32": {
@@ -1160,19 +1145,65 @@
             }
           },
           "41": {
+            "id": "2y8m4zhj5o9oql0",
             "home_team_id": "4jwq2gh1986m0ve",
+            "away_team_id": "l5ergphvw8zr8k0",
             "home_team_name": "CS Sanandrei Timis",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "4jwq2gh1986m0ve",
+            "away_team_name": "Ghiroda SI Giarmata VII",
+            "home_score": 3,
+            "away_score": 1,
             "position": 41,
+            "round_id": "318q66h61jkqo9j",
             "round_number": 1,
-            "is_bye": true,
+            "first_leg": {
+              "status": {
+                "code": 110,
+                "description": "AET",
+                "type": "finished"
+              },
+              "start_time": 1753885800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 3,
+                "penalty_score": 0,
+                "overtime_score_only": 2,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 1,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 1
+              },
+              "home_team_id": "4jwq2gh1986m0ve",
+              "away_team_id": "l5ergphvw8zr8k0",
+              "home_team_name": "CS Sanandrei Timis",
+              "away_team_name": "Ghiroda SI Giarmata VII"
+            },
+            "event_ids": [
+              "318q66hxjn1lqo9"
+            ],
             "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
+              "code": 110,
+              "description": "AET",
+              "type": "finished"
             }
           },
           "42": {

@@ -43,21 +43,19 @@
             "note": "Direct qualified for the Round1"
           },
           "100": {
-            "id": "3glrw7h1l784qdy",
-            "home_team_id": "vjxm8gh8ljwr6od",
-            "away_team_id": "jw2r09hw1l7rz84",
-            "home_team_name": "Slovenska Lupca",
-            "away_team_name": "RSC Hamsik Academy U19",
+            "home_team_id": "965mkyh794nr1ge",
+            "home_team_name": "STK Samorin",
+            "away_team_name": "BYE",
             "home_score": 0,
-            "away_score": 5,
-            "winner_team_id": "jw2r09hw1l7rz84",
+            "away_score": 0,
+            "winner_team_id": "965mkyh794nr1ge",
             "position": 100,
-            "round_id": "l7oqdeh383dr510",
             "round_number": 1,
+            "is_bye": true,
             "status": {
               "code": 0,
-              "description": "Finished",
-              "type": "finished"
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
             }
           },
           "101": {
@@ -904,20 +902,19 @@
             }
           },
           "117": {
-            "id": "l5ergph35ggyr8k",
-            "away_team_id": "y0or5jhgg1vqwzv",
+            "id": "23xmvkhog77eqg8",
+            "away_team_id": "zp5rzghzyw0q82w",
             "home_team_name": "",
-            "away_team_name": "Nacina Ves",
-            "home_score": 0,
-            "away_score": 2,
-            "winner_team_id": "y0or5jhgg1vqwzv",
+            "away_team_name": "Slovan Hlohovec",
+            "home_score": 9,
+            "away_score": 8,
             "position": 117,
             "round_id": "dn1m1gh0l1pmoep",
             "round_number": 1,
             "status": {
               "code": 0,
-              "description": "Finished",
-              "type": "finished"
+              "description": "Pending",
+              "type": "pending"
             },
             "note": "Direct qualified for the Round1"
           },
@@ -5533,21 +5530,67 @@
             }
           },
           "93": {
-            "id": "23xmvkhog77eqg8",
-            "away_team_id": "zp5rzghzyw0q82w",
-            "home_team_name": "",
-            "away_team_name": "Slovan Hlohovec",
-            "home_score": 9,
-            "away_score": 8,
+            "id": "dn1m1gheo66omoe",
+            "home_team_id": "zp5rzghppz1q82w",
+            "away_team_id": "y0or5jhldevqwzv",
+            "home_team_name": "FK Melcice-Lieskove",
+            "away_team_name": "Trencianske Stankovce",
+            "home_score": 0,
+            "away_score": 7,
+            "winner_team_id": "y0or5jhldevqwzv",
             "position": 93,
             "round_id": "dn1m1gh0l1pmoep",
             "round_number": 1,
-            "status": {
-              "code": 0,
-              "description": "Pending",
-              "type": "pending"
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1722178800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 7,
+                "display": 7,
+                "period_1": 4,
+                "period_2": 3,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -7,
+                "ft_score_only": 7
+              },
+              "home_team_id": "zp5rzghppz1q82w",
+              "away_team_id": "y0or5jhldevqwzv",
+              "home_team_name": "FK Melcice-Lieskove",
+              "away_team_name": "Trencianske Stankovce"
             },
-            "note": "Direct qualified for the Round1"
+            "event_ids": [
+              "l7oqdehoj6ygr51"
+            ],
+            "status": {
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
+            }
           },
           "94": {
             "id": "4wyrn4he7gg0q86",

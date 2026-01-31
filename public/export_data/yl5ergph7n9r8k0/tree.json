@@ -582,13 +582,45 @@
               "type": "BYE_ADVANCED"
             }
           },
-          "19": {
+          "17": {
             "home_team_id": "gy0or5jhdygqwzv",
             "home_team_name": "Pontevedra",
             "away_team_name": "BYE",
             "home_score": 0,
             "away_score": 0,
             "winner_team_id": "gy0or5jhdygqwzv",
+            "position": 17,
+            "round_number": 1,
+            "is_bye": true,
+            "status": {
+              "code": 0,
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
+          },
+          "18": {
+            "home_team_id": "y0or5jhlo5gqwzv",
+            "home_team_name": "UD Ibiza",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "y0or5jhlo5gqwzv",
+            "position": 18,
+            "round_number": 1,
+            "is_bye": true,
+            "status": {
+              "code": 0,
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
+          },
+          "19": {
+            "home_team_id": "ednm9wh9vvdryox",
+            "home_team_name": "CD Tudelano",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "ednm9wh9vvdryox",
             "position": 19,
             "round_number": 1,
             "is_bye": true,
@@ -615,12 +647,12 @@
             }
           },
           "20": {
-            "home_team_id": "y0or5jhlo5gqwzv",
-            "home_team_name": "UD Ibiza",
+            "home_team_id": "j1l4rjnhp5vm7vx",
+            "home_team_name": "Albacete Balompié SAD",
             "away_team_name": "BYE",
             "home_score": 0,
             "away_score": 0,
-            "winner_team_id": "y0or5jhlo5gqwzv",
+            "winner_team_id": "j1l4rjnhp5vm7vx",
             "position": 20,
             "round_number": 1,
             "is_bye": true,
@@ -1800,14 +1832,14 @@
             }
           },
           "10": {
-            "id": "l7oqdehnlnxgr51",
-            "home_team_id": "gy0or5jhdygqwzv",
-            "away_team_id": "y0or5jhlo5gqwzv",
-            "home_team_name": "Pontevedra",
-            "away_team_name": "UD Ibiza",
+            "id": "2y8m4zh3z377ql0",
+            "home_team_id": "ednm9wh9vvdryox",
+            "away_team_id": "j1l4rjnhp5vm7vx",
+            "home_team_name": "CD Tudelano",
+            "away_team_name": "Albacete Balompié SAD",
             "home_score": 0,
-            "away_score": 2,
-            "winner_team_id": "y0or5jhlo5gqwzv",
+            "away_score": 1,
+            "winner_team_id": "j1l4rjnhp5vm7vx",
             "position": 10,
             "round_id": "zp5rzghx496q82w",
             "round_number": 2,
@@ -1817,7 +1849,7 @@
                 "description": "ended",
                 "type": "finished"
               },
-              "start_time": 1578511800,
+              "start_time": 1576688400,
               "pen_m5": [
                 0,
                 0
@@ -1827,8 +1859,8 @@
                 "display": 0,
                 "period_1": 0,
                 "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "corner": 5,
+                "yellow_card": 3,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
@@ -1836,25 +1868,25 @@
                 "ft_score_only": 0
               },
               "away_score": {
-                "current": 2,
-                "display": 2,
+                "current": 1,
+                "display": 1,
                 "period_1": 1,
-                "period_2": 1,
-                "corner": 1,
-                "yellow_card": 0,
+                "period_2": 0,
+                "corner": 2,
+                "yellow_card": 2,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
+                "overtime_score_only": -1,
+                "ft_score_only": 1
               },
-              "home_team_id": "gy0or5jhdygqwzv",
-              "away_team_id": "1l4rjnhzk87m7vx",
-              "home_team_name": "Pontevedra",
-              "away_team_name": "UD Ibiza"
+              "home_team_id": "ednm9wh9vvdryox",
+              "away_team_id": "j1l4rjnhp5vm7vx",
+              "home_team_name": "CD Tudelano",
+              "away_team_name": "Albacete Balompié SAD"
             },
             "event_ids": [
-              "vjxm8gh95385r6o"
+              "k82rekhn61d5rep"
             ],
             "status": {
               "code": 100,
@@ -5020,19 +5052,66 @@
             }
           },
           "9": {
-            "home_team_id": "1l4rjnhzk87m7vx",
-            "home_team_name": "UD Ibiza",
-            "away_team_name": "BYE",
+            "id": "l7oqdehnlnxgr51",
+            "home_team_id": "gy0or5jhdygqwzv",
+            "away_team_id": "y0or5jhlo5gqwzv",
+            "home_team_name": "Pontevedra",
+            "away_team_name": "UD Ibiza",
             "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "1l4rjnhzk87m7vx",
+            "away_score": 2,
+            "winner_team_id": "y0or5jhlo5gqwzv",
             "position": 9,
+            "round_id": "zp5rzghx496q82w",
             "round_number": 2,
-            "is_bye": true,
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1578511800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 1,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "gy0or5jhdygqwzv",
+              "away_team_id": "1l4rjnhzk87m7vx",
+              "home_team_name": "Pontevedra",
+              "away_team_name": "UD Ibiza"
+            },
+            "event_ids": [
+              "vjxm8gh95385r6o"
+            ],
             "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
             }
           }
         },

@@ -70,35 +70,80 @@
             }
           },
           "17": {
-            "id": "virtual-r0-p17",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
+            "id": "1l4rjnh139z1m7v",
+            "home_team_id": "dn1m1ghnolvmoep",
+            "home_team_name": "Dinaz Vyshgorod",
+            "home_score": 1,
+            "away_score": 2,
             "position": 17,
             "round_id": "pxwrxlh3x3oryk0",
             "round_number": 1,
-            "is_tbd": true,
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1722679200,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 5,
+                "yellow_card": 2,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 6,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "dn1m1ghnolvmoep",
+              "away_team_id": "1l4rjnhk4g7m7vx",
+              "home_team_name": "Dinaz Vyshgorod",
+              "away_team_name": ""
+            },
+            "event_ids": [
+              "4wyrn4hxyve4q86"
+            ],
             "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
+            },
+            "note": "Direct qualified for the Round1"
           },
           "18": {
-            "id": "virtual-r0-p18",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
+            "home_team_id": "dn1m1gh3p0nmoep",
+            "home_team_name": "FC Livyi Bereh",
+            "away_team_name": "BYE",
             "home_score": 0,
             "away_score": 0,
+            "winner_team_id": "dn1m1gh3p0nmoep",
             "position": 18,
-            "round_id": "pxwrxlh3x3oryk0",
             "round_number": 1,
-            "is_tbd": true,
+            "is_bye": true,
             "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
+              "code": 0,
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
             }
           },
           "19": {
@@ -305,67 +350,6 @@
               "description": "ended",
               "type": "finished"
             }
-          },
-          "3": {
-            "id": "1l4rjnh139z1m7v",
-            "home_team_id": "dn1m1ghnolvmoep",
-            "home_team_name": "Dinaz Vyshgorod",
-            "home_score": 1,
-            "away_score": 2,
-            "position": 3,
-            "round_id": "pxwrxlh3x3oryk0",
-            "round_number": 1,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1722679200,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 1,
-                "period_2": 0,
-                "corner": 5,
-                "yellow_card": 2,
-                "red_card": 1,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -1,
-                "ft_score_only": 1
-              },
-              "away_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 1,
-                "period_2": 1,
-                "corner": 6,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "home_team_id": "dn1m1ghnolvmoep",
-              "away_team_id": "1l4rjnhk4g7m7vx",
-              "home_team_name": "Dinaz Vyshgorod",
-              "away_team_name": ""
-            },
-            "event_ids": [
-              "4wyrn4hxyve4q86"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            },
-            "note": "Direct qualified for the Round1"
           },
           "30": {
             "id": "23xmvkhog6dvqg8",
@@ -698,22 +682,6 @@
               "code": 100,
               "description": "ended",
               "type": "finished"
-            }
-          },
-          "4": {
-            "home_team_id": "dn1m1gh3p0nmoep",
-            "home_team_name": "FC Livyi Bereh",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "dn1m1gh3p0nmoep",
-            "position": 4,
-            "round_number": 1,
-            "is_bye": true,
-            "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
             }
           },
           "40": {
@@ -1334,66 +1302,20 @@
             }
           },
           "2": {
-            "id": "l5ergph354vlr8k",
-            "away_team_id": "dn1m1gh3p0nmoep",
-            "home_team_name": "",
-            "away_team_name": "FC Livyi Bereh",
-            "home_score": 3,
-            "away_score": 2,
+            "home_team_id": "8yomo4h780xq0j6",
+            "home_team_name": "Veres",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "8yomo4h780xq0j6",
             "position": 2,
-            "round_id": "3glrw7hp3p2qdyj",
             "round_number": 2,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1723539600,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 1,
-                "period_2": 2,
-                "corner": 5,
-                "yellow_card": 3,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "away_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 0,
-                "period_2": 2,
-                "corner": 8,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "home_team_id": "1l4rjnhk4g7m7vx",
-              "away_team_id": "dn1m1gh3p0nmoep",
-              "home_team_name": "",
-              "away_team_name": "FC Livyi Bereh"
-            },
-            "event_ids": [
-              "n54qllh747wwqvy"
-            ],
+            "is_bye": true,
             "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            },
-            "note": "Direct qualified for the Round2"
+              "code": 0,
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
           },
           "20": {
             "id": "k82rekh98gy8rep",
@@ -1649,20 +1571,66 @@
             }
           },
           "9": {
-            "id": "virtual-r1-p9",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
+            "id": "l5ergph354vlr8k",
+            "away_team_id": "dn1m1gh3p0nmoep",
+            "home_team_name": "",
+            "away_team_name": "FC Livyi Bereh",
+            "home_score": 3,
+            "away_score": 2,
             "position": 9,
             "round_id": "3glrw7hp3p2qdyj",
             "round_number": 2,
-            "is_tbd": true,
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1723539600,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 2,
+                "corner": 5,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 0,
+                "period_2": 2,
+                "corner": 8,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "1l4rjnhk4g7m7vx",
+              "away_team_id": "dn1m1gh3p0nmoep",
+              "home_team_name": "",
+              "away_team_name": "FC Livyi Bereh"
+            },
+            "event_ids": [
+              "n54qllh747wwqvy"
+            ],
             "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
+            },
+            "note": "Direct qualified for the Round2"
           }
         },
         "2": {

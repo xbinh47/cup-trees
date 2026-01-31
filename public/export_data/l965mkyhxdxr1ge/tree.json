@@ -102,19 +102,20 @@
             }
           },
           "12": {
-            "id": "8yomo4hk8px1q0j",
-            "home_team_name": "",
-            "home_score": 1,
-            "away_score": 2,
+            "home_team_id": "8yomo4h7jy5q0j6",
+            "home_team_name": "Roasso Kumamoto",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "8yomo4h7jy5q0j6",
             "position": 12,
-            "round_id": "dn1m1ghp6pemoep",
             "round_number": 1,
+            "is_bye": true,
             "status": {
               "code": 0,
-              "description": "Pending",
-              "type": "pending"
-            },
-            "note": "Direct qualified for the Round1"
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
           },
           "13": {
             "home_team_id": "dn1m1gh4n6zmoep",
@@ -133,17 +134,19 @@
             }
           },
           "14": {
-            "id": "965mkyh4wvo4r1g",
-            "home_team_name": "",
-            "home_score": 0,
-            "away_score": 3,
+            "id": "vjxm8ghg013or6o",
+            "home_team_id": "l7oqdehnjwpr510",
+            "home_team_name": "Toin University Of Yokohama",
+            "home_score": 1,
+            "away_score": 0,
+            "winner_team_id": "l7oqdehnjwpr510",
             "position": 14,
             "round_id": "dn1m1ghp6pemoep",
             "round_number": 1,
             "status": {
               "code": 0,
-              "description": "Pending",
-              "type": "pending"
+              "description": "Finished",
+              "type": "finished"
             },
             "note": "Direct qualified for the Round1"
           },
@@ -164,36 +167,81 @@
             }
           },
           "16": {
-            "id": "dj2ryohypo4eq1z",
-            "away_team_id": "6ypq3nh0kpymd7o",
-            "home_team_name": "",
-            "away_team_name": "Yamanashi Gakuin University Pegasus",
+            "id": "n54qllhe3010qvy",
+            "home_team_id": "l7oqdeh66xwr510",
+            "home_team_name": "Reilac Shiga FC",
             "home_score": 1,
-            "away_score": 0,
+            "away_score": 2,
             "position": 16,
             "round_id": "dn1m1ghp6pemoep",
             "round_number": 1,
+            "first_leg": {
+              "status": {
+                "code": 110,
+                "description": "AET",
+                "type": "finished"
+              },
+              "start_time": 1653192000,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 8,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 1,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 1,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 2,
+                "penalty_score": 0,
+                "overtime_score_only": 1,
+                "ft_score_only": 1
+              },
+              "home_team_id": "l7oqdeh66xwr510",
+              "away_team_id": "dn1m1gh49k4moep",
+              "home_team_name": "Reilac Shiga FC",
+              "away_team_name": ""
+            },
+            "event_ids": [
+              "k82rekh013n4rep"
+            ],
             "status": {
-              "code": 0,
-              "description": "Pending",
-              "type": "pending"
+              "code": 110,
+              "description": "AET",
+              "type": "finished"
             },
             "note": "Direct qualified for the Round1"
           },
           "17": {
-            "id": "3glrw7h1986gqdy",
-            "home_team_name": "",
-            "home_score": 7,
+            "home_team_id": "56ypq3nhd7kmd7o",
+            "home_team_name": "Vissel Kobe",
+            "away_team_name": "BYE",
+            "home_score": 0,
             "away_score": 0,
+            "winner_team_id": "56ypq3nhd7kmd7o",
             "position": 17,
-            "round_id": "dn1m1ghp6pemoep",
             "round_number": 1,
+            "is_bye": true,
             "status": {
               "code": 0,
-              "description": "Pending",
-              "type": "pending"
-            },
-            "note": "Direct qualified for the Round1"
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
           },
           "18": {
             "id": "1l4rjnh1g75vm7v",
@@ -718,20 +766,19 @@
             }
           },
           "31": {
-            "home_team_id": "9k82rekhpx0repz",
-            "home_team_name": "Oita Trinita",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "9k82rekhpx0repz",
+            "id": "8yomo4hk8px1q0j",
+            "home_team_name": "",
+            "home_score": 1,
+            "away_score": 2,
             "position": 31,
+            "round_id": "dn1m1ghp6pemoep",
             "round_number": 1,
-            "is_bye": true,
             "status": {
               "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
+              "description": "Pending",
+              "type": "pending"
+            },
+            "note": "Direct qualified for the Round1"
           },
           "32": {
             "home_team_id": "dj2ryohk76zq1zp",
@@ -816,20 +863,19 @@
             }
           },
           "37": {
-            "home_team_id": "l965mkyh9j9r1ge",
-            "home_team_name": "Shimizu S-Pulse",
-            "away_team_name": "BYE",
+            "id": "965mkyh4wvo4r1g",
+            "home_team_name": "",
             "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "l965mkyh9j9r1ge",
+            "away_score": 3,
             "position": 37,
+            "round_id": "dn1m1ghp6pemoep",
             "round_number": 1,
-            "is_bye": true,
             "status": {
               "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
+              "description": "Pending",
+              "type": "pending"
+            },
+            "note": "Direct qualified for the Round1"
           },
           "38": {
             "home_team_id": "2y8m4zh3vedql07",
@@ -943,20 +989,21 @@
             }
           },
           "41": {
-            "home_team_id": "gpxwrxlho65ryk0",
-            "home_team_name": "Kawasaki Frontale",
-            "away_team_name": "BYE",
-            "home_score": 0,
+            "id": "dj2ryohypo4eq1z",
+            "away_team_id": "6ypq3nh0kpymd7o",
+            "home_team_name": "",
+            "away_team_name": "Yamanashi Gakuin University Pegasus",
+            "home_score": 1,
             "away_score": 0,
-            "winner_team_id": "gpxwrxlho65ryk0",
             "position": 41,
+            "round_id": "dn1m1ghp6pemoep",
             "round_number": 1,
-            "is_bye": true,
             "status": {
               "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
+              "description": "Pending",
+              "type": "pending"
+            },
+            "note": "Direct qualified for the Round1"
           },
           "42": {
             "home_team_id": "965mkyh78g6r1ge",
@@ -1007,20 +1054,19 @@
             }
           },
           "45": {
-            "home_team_id": "kjw2r09hz1drz84",
-            "home_team_name": "Shonan Bellmare",
-            "away_team_name": "BYE",
-            "home_score": 0,
+            "id": "3glrw7h1986gqdy",
+            "home_team_name": "",
+            "home_score": 7,
             "away_score": 0,
-            "winner_team_id": "kjw2r09hz1drz84",
             "position": 45,
+            "round_id": "dn1m1ghp6pemoep",
             "round_number": 1,
-            "is_bye": true,
             "status": {
               "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
+              "description": "Pending",
+              "type": "pending"
+            },
+            "note": "Direct qualified for the Round1"
           },
           "46": {
             "home_team_id": "6ypq3nh0yd9md7o",
@@ -1498,18 +1544,21 @@
             }
           },
           "6": {
-            "id": "n54qllhe3010qvy",
-            "home_team_id": "l7oqdeh66xwr510",
-            "home_team_name": "Reilac Shiga FC",
-            "home_score": 1,
-            "away_score": 2,
+            "id": "y39mp1h5ol4jmoj",
+            "home_team_id": "1l4rjnhk6o8m7vx",
+            "away_team_id": "y39mp1hy1k8mojx",
+            "home_team_name": "Jobu University",
+            "away_team_name": "Fuji University",
+            "home_score": 0,
+            "away_score": 1,
+            "winner_team_id": "y39mp1hy1k8mojx",
             "position": 6,
             "round_id": "dn1m1ghp6pemoep",
             "round_number": 1,
             "first_leg": {
               "status": {
-                "code": 110,
-                "description": "AET",
+                "code": 100,
+                "description": "ended",
                 "type": "finished"
               },
               "start_time": 1653192000,
@@ -1518,45 +1567,44 @@
                 0
               ],
               "home_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 1,
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
                 "period_2": 0,
-                "corner": 8,
-                "yellow_card": 3,
+                "corner": 0,
+                "yellow_card": 0,
                 "red_card": 0,
-                "overtime_score": 1,
+                "overtime_score": 0,
                 "penalty_score": 0,
                 "overtime_score_only": 0,
-                "ft_score_only": 1
+                "ft_score_only": 0
               },
               "away_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 1,
-                "period_2": 0,
-                "corner": 1,
-                "yellow_card": 1,
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 0,
+                "yellow_card": 0,
                 "red_card": 0,
-                "overtime_score": 2,
+                "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 1,
+                "overtime_score_only": -1,
                 "ft_score_only": 1
               },
-              "home_team_id": "l7oqdeh66xwr510",
-              "away_team_id": "dn1m1gh49k4moep",
-              "home_team_name": "Reilac Shiga FC",
-              "away_team_name": ""
+              "home_team_id": "1l4rjnhk6o8m7vx",
+              "away_team_id": "y39mp1hy1k8mojx",
+              "home_team_name": "Jobu University",
+              "away_team_name": "Fuji University"
             },
             "event_ids": [
-              "k82rekh013n4rep"
+              "4wyrn4ho9vleq86"
             ],
             "status": {
-              "code": 110,
-              "description": "AET",
+              "code": 100,
+              "description": "ended",
               "type": "finished"
-            },
-            "note": "Direct qualified for the Round1"
+            }
           },
           "60": {
             "home_team_id": "kn54qllho62qvy9",

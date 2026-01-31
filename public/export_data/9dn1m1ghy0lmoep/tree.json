@@ -257,22 +257,6 @@
             }
           },
           "3": {
-            "home_team_id": "ednm9wh9kj5ryox",
-            "home_team_name": "IAPE (Youth)",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "ednm9wh9kj5ryox",
-            "position": 3,
-            "round_number": 1,
-            "is_bye": true,
-            "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
-          },
-          "4": {
             "id": "3glrw7hwgj98qdy",
             "home_team_id": "23xmvkhoxg2qg8n",
             "away_team_id": "ednm9wh9kj5ryox",
@@ -281,7 +265,7 @@
             "home_score": 1,
             "away_score": 2,
             "winner_team_id": "23xmvkhoxg2qg8n",
-            "position": 4,
+            "position": 3,
             "round_id": "1l4rjnh35g5m7vx",
             "round_number": 1,
             "first_leg": {
@@ -328,6 +312,69 @@
             },
             "event_ids": [
               "l7oqdeh8ozjxr51"
+            ],
+            "status": {
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
+            }
+          },
+          "4": {
+            "id": "pxwrxlhg09n8ryk",
+            "home_team_id": "x7lm7phoo8lm2wd",
+            "away_team_id": "y0or5jhgx42qwzv",
+            "home_team_name": "Sao Raimundo-RR Youth",
+            "away_team_name": "Andira AC Youth",
+            "home_score": 3,
+            "away_score": 1,
+            "winner_team_id": "x7lm7phoo8lm2wd",
+            "position": 4,
+            "round_id": "1l4rjnh35g5m7vx",
+            "round_number": 1,
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1664395200,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 0,
+                "period_2": 3,
+                "corner": 10,
+                "yellow_card": 4,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 4,
+                "yellow_card": 0,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "home_team_id": "x7lm7phoo8lm2wd",
+              "away_team_id": "y0or5jhgx42qwzv",
+              "home_team_name": "Sao Raimundo-RR Youth",
+              "away_team_name": "Andira AC Youth"
+            },
+            "event_ids": [
+              "4wyrn4hox1yxq86"
             ],
             "status": {
               "code": 100,

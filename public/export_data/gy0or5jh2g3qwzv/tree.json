@@ -149,66 +149,20 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "4wyrn4he9079q86",
-            "home_team_id": "4jwq2ghkxykm0ve",
-            "away_team_id": "8yomo4hk7nkq0j6",
-            "home_team_name": "Moreton City Excelsior FC",
-            "away_team_name": "Campbelltown City SC",
-            "home_score": 5,
-            "away_score": 1,
-            "winner_team_id": "4jwq2ghkxykm0ve",
+            "id": "dn1m1gheonjkmoe",
+            "home_team_id": "8yomo4h7l4xq0j6",
+            "away_team_id": "3glrw7hw29eqdyj",
+            "home_team_name": "Perth Glory (Youth)",
+            "away_team_name": "Melbourne City",
+            "home_score": 0,
+            "away_score": 0,
             "position": 1,
             "round_id": "y39mp1h41dymojx",
             "round_number": 1,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1722330000,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 5,
-                "display": 5,
-                "period_1": 2,
-                "period_2": 3,
-                "corner": 3,
-                "yellow_card": 5,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -5,
-                "ft_score_only": 5
-              },
-              "away_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 1,
-                "period_2": 0,
-                "corner": 3,
-                "yellow_card": 3,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -1,
-                "ft_score_only": 1
-              },
-              "home_team_id": "4jwq2ghkxykm0ve",
-              "away_team_id": "8yomo4hk7nkq0j6",
-              "home_team_name": "Moreton City Excelsior FC",
-              "away_team_name": "Campbelltown City SC"
-            },
-            "event_ids": [
-              "8yomo4h33vyjq0j"
-            ],
             "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
+              "code": 0,
+              "description": "Scheduled",
+              "type": "scheduled"
             }
           },
           "10": {
@@ -679,20 +633,19 @@
             }
           },
           "2": {
-            "id": "dn1m1gheonjkmoe",
             "home_team_id": "8yomo4h7l4xq0j6",
-            "away_team_id": "3glrw7hw29eqdyj",
             "home_team_name": "Perth Glory (Youth)",
-            "away_team_name": "Melbourne City",
+            "away_team_name": "BYE",
             "home_score": 0,
             "away_score": 0,
+            "winner_team_id": "8yomo4h7l4xq0j6",
             "position": 2,
-            "round_id": "y39mp1h41dymojx",
             "round_number": 1,
+            "is_bye": true,
             "status": {
               "code": 0,
-              "description": "Scheduled",
-              "type": "scheduled"
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
             }
           },
           "3": {

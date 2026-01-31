@@ -133,20 +133,20 @@
             }
           },
           "11": {
-            "id": "virtual-r0-p11",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
+            "id": "ednm9wh9wd54ryo",
+            "home_team_id": "4jwq2ghx6jjm0ve",
+            "home_team_name": "Samtskhe Akhaltsikhe",
             "home_score": 0,
-            "away_score": 0,
+            "away_score": 1,
             "position": 11,
             "round_id": "1l4rjnhj4w3m7vx",
             "round_number": 1,
-            "is_tbd": true,
             "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
+              "code": 0,
+              "description": "Pending",
+              "type": "pending"
+            },
+            "note": "Direct qualified for the 1/16 Finals"
           },
           "12": {
             "id": "1l4rjnh193ndm7v",
@@ -702,20 +702,67 @@
             }
           },
           "9": {
-            "id": "ednm9wh9wd54ryo",
-            "home_team_id": "4jwq2ghx6jjm0ve",
-            "home_team_name": "Samtskhe Akhaltsikhe",
-            "home_score": 0,
-            "away_score": 1,
+            "id": "965mkyh4kg8dr1g",
+            "home_team_id": "gx7lm7phlzym2wd",
+            "away_team_id": "zp5rzghpp11q82w",
+            "home_team_name": "WIT Georgia Tbilisi",
+            "away_team_name": "Sabutaroti billisse B",
+            "home_score": 1,
+            "away_score": 2,
+            "winner_team_id": "zp5rzghpp11q82w",
             "position": 9,
             "round_id": "1l4rjnhj4w3m7vx",
             "round_number": 1,
-            "status": {
-              "code": 0,
-              "description": "Pending",
-              "type": "pending"
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1753113600,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 5,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 5,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "gx7lm7phlzym2wd",
+              "away_team_id": "zp5rzghpp11q82w",
+              "home_team_name": "WIT Georgia Tbilisi",
+              "away_team_name": "Sabutaroti billisse B"
             },
-            "note": "Direct qualified for the 1/16 Finals"
+            "event_ids": [
+              "2y8m4zh58d3dql0"
+            ],
+            "status": {
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
+            }
           }
         },
         "1": {
