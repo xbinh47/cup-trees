@@ -2503,12 +2503,12 @@
               "round_id": "zp5rzgh6vygq82w",
               "number": 1,
               "type_id": 1,
-              "state_id": 1,
+              "state_id": 8,
               "home_team_id": "j1l4rjnhp5vm7vx",
               "away_team_id": "e4wyrn4h127q86p",
-              "winner_team_id": "",
-              "home_score": 0,
-              "away_score": 0,
+              "winner_team_id": "e4wyrn4h127q86p",
+              "home_score": 1,
+              "away_score": 2,
               "parent_ids": [],
               "children_ids": [
                 "vjxm8ghg781or6o",
@@ -2651,10 +2651,6 @@
     }
   ],
   "competitors": {
-    "gy0or5jhd6yqwzv": {
-      "id": "gy0or5jhd6yqwzv",
-      "name": "Athletic Club"
-    },
     "yl5ergph60gr8k0": {
       "id": "yl5ergph60gr8k0",
       "name": "Lorca Deportiva FC"
@@ -2686,10 +2682,6 @@
     "e4wyrn4hp0yq86p": {
       "id": "e4wyrn4hp0yq86p",
       "name": "RSD Alcala Henares"
-    },
-    "d23xmvkhz9nqg8n": {
-      "id": "d23xmvkhz9nqg8n",
-      "name": "Real Betis"
     },
     "318q66h0k0pqo9j": {
       "id": "318q66h0k0pqo9j",
@@ -2967,6 +2959,10 @@
       "id": "kdj2ryoh33zq1zp",
       "name": "Racing Santander"
     },
+    "y0or5jhlo5gqwzv": {
+      "id": "y0or5jhlo5gqwzv",
+      "name": "UD Ibiza"
+    },
     "p3glrw7h550qdyj": {
       "id": "p3glrw7h550qdyj",
       "name": "Girona FC"
@@ -2998,10 +2994,6 @@
     "gx7lm7phepym2wd": {
       "id": "gx7lm7phepym2wd",
       "name": "Real Zaragoza"
-    },
-    "4wyrn4h4d7yq86p": {
-      "id": "4wyrn4h4d7yq86p",
-      "name": "Torrent C.F"
     },
     "vl7oqdehz33r510": {
       "id": "vl7oqdehz33r510",
@@ -3058,10 +3050,6 @@
     "9k82rekh4gxrepz": {
       "id": "9k82rekh4gxrepz",
       "name": "Almeria"
-    },
-    "v2y8m4zhdd2ql07": {
-      "id": "v2y8m4zhdd2ql07",
-      "name": "Real Sociedad"
     },
     "e4wyrn4h127q86p": {
       "id": "e4wyrn4h127q86p",
@@ -3147,17 +3135,29 @@
       "id": "1l4rjnh6z3gm7vx",
       "name": "SD Huesca"
     },
-    "y0or5jhlo5gqwzv": {
-      "id": "y0or5jhlo5gqwzv",
-      "name": "UD Ibiza"
+    "e4wyrn4hnzjq86p": {
+      "id": "e4wyrn4hnzjq86p",
+      "name": "Burgos CF"
+    },
+    "v2y8m4zhdd2ql07": {
+      "id": "v2y8m4zhdd2ql07",
+      "name": "Real Sociedad"
+    },
+    "gy0or5jhd6yqwzv": {
+      "id": "gy0or5jhd6yqwzv",
+      "name": "Athletic Club"
+    },
+    "d23xmvkhz9nqg8n": {
+      "id": "d23xmvkhz9nqg8n",
+      "name": "Real Betis"
+    },
+    "4wyrn4h4d7yq86p": {
+      "id": "4wyrn4h4d7yq86p",
+      "name": "Torrent C.F"
     },
     "yl5ergph6lkr8k0": {
       "id": "yl5ergph6lkr8k0",
       "name": "Deportivo Alavés"
-    },
-    "e4wyrn4hnzjq86p": {
-      "id": "e4wyrn4hnzjq86p",
-      "name": "Burgos CF"
     }
   },
   "sport_events": {
@@ -12055,7 +12055,7 @@
       "id": "8yomo4h13kjlq0j",
       "home_team_id": "56ypq3nhd2lmd7o",
       "away_team_id": "gy0or5jhd6yqwzv",
-      "start_timestamp": 1770231600,
+      "start_timestamp": 1770235200,
       "status_id": 1,
       "sport_event_status": {
         "status_id": 1,
@@ -18103,31 +18103,212 @@
       "home_team_id": "j1l4rjnhp5vm7vx",
       "away_team_id": "e4wyrn4h127q86p",
       "start_timestamp": 1770148800,
-      "status_id": 1,
+      "status_id": 8,
       "sport_event_status": {
-        "status_id": 1,
+        "status_id": 8,
         "away_score": {
-          "corners": 0,
+          "corners": 6,
           "red_card": 0,
-          "yellow_card": 0,
+          "yellow_card": 1,
           "penalty_score": 0,
-          "regular_score": 0,
+          "regular_score": 2,
           "overTime_score": 0,
-          "half_time_score": 0
+          "half_time_score": 1
         },
         "home_score": {
-          "corners": 0,
+          "corners": 3,
           "red_card": 0,
-          "yellow_card": 0,
+          "yellow_card": 1,
           "penalty_score": 0,
-          "regular_score": 0,
+          "regular_score": 1,
           "overTime_score": 0,
           "half_time_score": 0
         },
         "kick_of_timestamp": 0
       },
       "related_id": "",
-      "incidents": []
+      "incidents": [
+        {
+          "time": 15,
+          "type": 3,
+          "position": 2,
+          "player_id": "vjxm8ghg52lr6od",
+          "player_name": "João Cancelo",
+          "reason_type": 1
+        },
+        {
+          "time": 25,
+          "type": 3,
+          "position": 1,
+          "player_id": "4jwq2gh76zg8m0v",
+          "player_name": "Dani Bernabéu",
+          "reason_type": 1
+        },
+        {
+          "time": 32,
+          "type": 9,
+          "position": 1,
+          "reason_type": 3,
+          "in_player_id": "965mkyh3x1xr1ge",
+          "out_player_id": "n54qllhk0zvqvy9",
+          "in_player_name": "Jesús Vallejo",
+          "out_player_name": "Carlos Neva"
+        },
+        {
+          "time": 39,
+          "type": 1,
+          "position": 2,
+          "player_id": "4jwq2ghxjzkvm0v",
+          "assist1_id": "3glrw7hypxxqdyj",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Lamine Yamal",
+          "assist1_name": "Frenkie de Jong"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "23xmvkhk1e18qg8",
+          "out_player_id": "vjxm8ghg52lr6od",
+          "in_player_name": "Pau Cubarsí",
+          "out_player_name": "João Cancelo"
+        },
+        {
+          "time": 56,
+          "type": 1,
+          "position": 2,
+          "player_id": "x7lm7ph0n59dm2w",
+          "assist1_id": "jw2r09hwlgxrz84",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "Ronald Araujo",
+          "assist1_name": "Marcus Rashford"
+        },
+        {
+          "time": 60,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h2oezxq0j",
+          "out_player_id": "4jwq2gh76zg8m0v",
+          "in_player_name": "Jonathan Gómez",
+          "out_player_name": "Dani Bernabéu"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "965mkyh4vegr1ge",
+          "out_player_id": "4jwq2ghvndxnm0v",
+          "in_player_name": "Jefte Betancor Sanchez",
+          "out_player_name": "Alejandro Meléndez"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l5ergphe8wokr8k",
+          "out_player_id": "jw2r09hwlgxrz84",
+          "in_player_name": "Fermín López",
+          "out_player_name": "Marcus Rashford"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y0or5jh3j1o0qwz",
+          "out_player_id": "965mkyhn46pzr1g",
+          "in_player_name": "Marc Casadó",
+          "out_player_name": "Marc bernal"
+        },
+        {
+          "time": 66,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4jwq2gh1x09m0ve",
+          "out_player_id": "2y8m4zh3x11ql07",
+          "in_player_name": "Ferrán Torres",
+          "out_player_name": "Robert Lewandowski"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y39mp1hyj8lmojx",
+          "out_player_id": "965mkyhn74z5r1g",
+          "in_player_name": "José Carlos Lazo",
+          "out_player_name": "Hugo Martinez Gonzalez"
+        },
+        {
+          "time": 73,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whdnoxryox",
+          "out_player_id": "8yomo4hvxoxoq0j",
+          "in_player_name": "Fran Gámez",
+          "out_player_name": "Lorenzo Aguado Herrera"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "zp5rzgh278wq82w",
+          "out_player_id": "x7lm7ph0n59dm2w",
+          "in_player_name": "Jules Koundé",
+          "out_player_name": "Ronald Araujo"
+        },
+        {
+          "time": 87,
+          "type": 1,
+          "position": 1,
+          "player_id": "8yomo4hv3858q0j",
+          "assist1_id": "y39mp1hyj8lmojx",
+          "away_score": 2,
+          "home_score": 1,
+          "player_name": "Javi Moreno",
+          "assist1_name": "José Carlos Lazo"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 28,
+          "position": 2,
+          "player_id": "4jwq2gh1x09m0ve",
+          "var_reason": 1,
+          "var_result": 2,
+          "player_name": "Ferrán Torres"
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
     },
     "jw2r09hk75nwrz8": {
       "id": "jw2r09hk75nwrz8",
@@ -22325,7 +22506,7 @@
       "id": "l7oqdehgo6z9r51",
       "home_team_id": "yl5ergph6lkr8k0",
       "away_team_id": "v2y8m4zhdd2ql07",
-      "start_timestamp": 1770231600,
+      "start_timestamp": 1770235200,
       "status_id": 1,
       "sport_event_status": {
         "status_id": 1,

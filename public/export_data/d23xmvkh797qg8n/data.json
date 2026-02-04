@@ -617,7 +617,7 @@
           "name": "Semi Finals",
           "abbr": "SF",
           "start_time": 1769629500,
-          "end_time": 1769629500,
+          "end_time": 1770147900,
           "number": 4,
           "match_ups": [
             {
@@ -625,31 +625,37 @@
               "round_id": "4wyrn4ho1x8q86p",
               "number": 1,
               "type_id": 1,
-              "state_id": 1,
+              "state_id": 7,
               "home_team_id": "vl7oqdehw6er510",
               "away_team_id": "965mkyh7l9vr1ge",
-              "winner_team_id": "",
-              "home_score": 0,
-              "away_score": 0,
-              "parent_ids": [],
+              "winner_team_id": "vl7oqdehw6er510",
+              "home_score": 2,
+              "away_score": 1,
+              "parent_ids": [
+                "l5ergph3jdjxr8k"
+              ],
               "children_ids": [
                 "ednm9wh9o2z8ryo",
                 "k82rekh9e0yyrep"
               ],
-              "event_ids": []
+              "event_ids": [
+                "318q66hxw7dwqo9"
+              ]
             },
             {
               "id": "l7oqdeh6xw47r51",
               "round_id": "4wyrn4ho1x8q86p",
               "number": 2,
               "type_id": 1,
-              "state_id": 1,
+              "state_id": 7,
               "home_team_id": "9vjxm8ghdvkr6od",
               "away_team_id": "gx7lm7phejgm2wd",
-              "winner_team_id": "",
-              "home_score": 0,
+              "winner_team_id": "9vjxm8ghdvkr6od",
+              "home_score": 1,
               "away_score": 0,
-              "parent_ids": [],
+              "parent_ids": [
+                "l5ergph3jdjxr8k"
+              ],
               "children_ids": [
                 "965mkyh4w237r1g",
                 "y39mp1h5o0j5moj"
@@ -668,7 +674,26 @@
           "start_time": 0,
           "end_time": 0,
           "number": 5,
-          "match_ups": []
+          "match_ups": [
+            {
+              "id": "l5ergph3jdjxr8k",
+              "round_id": "l5ergphljw3r8k0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 1,
+              "home_team_id": "vl7oqdehw6er510",
+              "away_team_id": "9vjxm8ghdvkr6od",
+              "winner_team_id": "",
+              "home_score": 0,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "jw2r09hn3yxerz8",
+                "l7oqdeh6xw47r51"
+              ],
+              "event_ids": []
+            }
+          ]
         }
       ]
     }
@@ -1013,6 +1038,209 @@
         {
           "time": 90,
           "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "318q66hxw7dwqo9": {
+      "id": "318q66hxw7dwqo9",
+      "home_team_id": "vl7oqdehw6er510",
+      "away_team_id": "965mkyh7l9vr1ge",
+      "start_timestamp": 1770147900,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 1,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 1,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 2,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 42,
+          "type": 3,
+          "position": 1,
+          "player_id": "dn1m1ghnnzp4moe",
+          "player_name": "Daniel Larmour"
+        },
+        {
+          "time": 46,
+          "type": 1,
+          "add_time": 1,
+          "position": 1,
+          "player_id": "2y8m4zhjgonql07",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Patrick Hoban"
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 3,
+          "position": 2,
+          "player_id": "dj2ryohjg3n5q1z",
+          "player_name": "Rowan Mcdonald"
+        },
+        {
+          "time": 53,
+          "type": 1,
+          "position": 2,
+          "player_id": "8yomo4h069lq0j6",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Joel Cooper"
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "zp5rzgh7en8nq82",
+          "out_player_id": "1l4rjnhxlvlm7vx",
+          "in_player_name": "Aaron McEneff",
+          "out_player_name": "Liam Burt"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "23xmvkh4gxxvqg8",
+          "out_player_id": "3glrw7hyjnyqdyj",
+          "in_player_name": "Zane Okoro",
+          "out_player_name": "James Akintunde"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "x7lm7phol2zem2w",
+          "out_player_id": "dj2ryohjg3n5q1z",
+          "in_player_name": "Lyndon Kane",
+          "out_player_name": "Rowan Mcdonald"
+        },
+        {
+          "time": 65,
+          "type": 3,
+          "position": 2,
+          "player_id": "dn1m1ghn84xnmoe",
+          "player_name": "Ben Wylie"
+        },
+        {
+          "time": 67,
+          "type": 3,
+          "position": 2,
+          "player_id": "8yomo4h2n96kq0j",
+          "player_name": "D. Boyle"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "vjxm8ghgyx38r6o",
+          "out_player_id": "dn1m1ghn84xnmoe",
+          "in_player_name": "Jamie McGonigle",
+          "out_player_name": "Ben Wylie"
+        },
+        {
+          "time": 77,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "y0or5jh4engqwzv",
+          "out_player_id": "8yomo4h2n96kq0j",
+          "in_player_name": "Mark Connolly",
+          "out_player_name": "D. Boyle"
+        },
+        {
+          "time": 82,
+          "type": 9,
+          "position": 2,
+          "in_player_id": "pxwrxlhzz8nwryk",
+          "out_player_id": "3glrw7hye69qdyj",
+          "in_player_name": "Dean jarvis",
+          "out_player_name": "Levi Ives"
+        },
+        {
+          "time": 89,
+          "type": 3,
+          "position": 1,
+          "player_id": "2y8m4zhjgonql07",
+          "player_name": "Patrick Hoban"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "n54qllhxwxyvqvy",
+          "out_player_id": "1l4rjnhz006m7vx",
+          "in_player_name": "danny amos",
+          "out_player_name": "Jordan Stewart"
+        },
+        {
+          "time": 94,
+          "type": 1,
+          "position": 1,
+          "player_id": "3glrw7hj14weqdy",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Jordan Jenkins"
+        },
+        {
+          "time": 102,
+          "type": 3,
+          "position": 2,
+          "player_id": "dn1m1ghnve1moep",
+          "player_name": "Charles Dunne"
+        },
+        {
+          "time": 104,
+          "type": 3,
+          "position": 2,
+          "player_id": "k82rekhy61xkrep",
+          "player_name": "Mark Coyle"
+        },
+        {
+          "time": 108,
+          "type": 9,
+          "position": 1,
+          "in_player_id": "dj2ryohj46wq1zp",
+          "out_player_id": "3glrw7hj14weqdy",
+          "in_player_name": "Dylan Connolly",
+          "out_player_name": "Jordan Jenkins"
+        },
+        {
+          "time": 119,
+          "type": 3,
+          "position": 1,
+          "player_id": "1l4rjnh1pwkwm7v",
+          "player_name": "Ryan Cooney"
+        },
+        {
+          "time": 120,
+          "type": 26,
           "position": 0
         }
       ]

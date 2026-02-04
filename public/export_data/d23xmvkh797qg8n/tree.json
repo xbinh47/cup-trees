@@ -1846,15 +1846,61 @@
             "away_team_id": "965mkyh7l9vr1ge",
             "home_team_name": "Glentoran FC",
             "away_team_name": "Coleraine",
-            "home_score": 0,
-            "away_score": 0,
+            "home_score": 2,
+            "away_score": 1,
+            "winner_team_id": "vl7oqdehw6er510",
             "position": 1,
             "round_id": "4wyrn4ho1x8q86p",
             "round_number": 4,
+            "first_leg": {
+              "status": {
+                "code": 110,
+                "description": "AET",
+                "type": "finished"
+              },
+              "start_time": 1770147900,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 2,
+                "penalty_score": 0,
+                "overtime_score_only": 1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 1,
+                "yellow_card": 5,
+                "red_card": 0,
+                "overtime_score": 1,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 1
+              },
+              "home_team_id": "vl7oqdehw6er510",
+              "away_team_id": "965mkyh7l9vr1ge",
+              "home_team_name": "Glentoran FC",
+              "away_team_name": "Coleraine"
+            },
+            "event_ids": [
+              "318q66hxw7dwqo9"
+            ],
             "status": {
-              "code": 0,
-              "description": "Scheduled",
-              "type": "scheduled"
+              "code": 110,
+              "description": "AET",
+              "type": "finished"
             }
           },
           "2": {
@@ -1863,8 +1909,9 @@
             "away_team_id": "gx7lm7phejgm2wd",
             "home_team_name": "Linfield FC",
             "away_team_name": "Ballymena United FC",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0,
+            "winner_team_id": "9vjxm8ghdvkr6od",
             "position": 2,
             "round_id": "4wyrn4ho1x8q86p",
             "round_number": 4,
@@ -1922,19 +1969,20 @@
         },
         "4": {
           "1": {
-            "id": "virtual-r4-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
+            "id": "l5ergph3jdjxr8k",
+            "home_team_id": "vl7oqdehw6er510",
+            "away_team_id": "9vjxm8ghdvkr6od",
+            "home_team_name": "Glentoran FC",
+            "away_team_name": "Linfield FC",
             "home_score": 0,
             "away_score": 0,
             "position": 1,
             "round_id": "l5ergphljw3r8k0",
             "round_number": 5,
-            "is_tbd": true,
             "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
+              "code": 0,
+              "description": "Scheduled",
+              "type": "scheduled"
             }
           }
         }

@@ -7,12 +7,12 @@
       "nodes": {
         "0": {
           "1": {
-            "home_team_id": "kdj2ryoholnq1zp",
-            "home_team_name": "Costa Rica",
+            "home_team_id": "kn54qllhv3xqvy9",
+            "home_team_name": "USA",
             "away_team_name": "BYE",
             "home_score": 0,
             "away_score": 0,
-            "winner_team_id": "kdj2ryoholnq1zp",
+            "winner_team_id": "kn54qllhv3xqvy9",
             "position": 1,
             "round_number": 1,
             "is_bye": true,
@@ -23,13 +23,45 @@
             }
           },
           "2": {
+            "home_team_id": "kn54qllh6peqvy9",
+            "home_team_name": "Trinidad   Tobago",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "kn54qllh6peqvy9",
+            "position": 2,
+            "round_number": 1,
+            "is_bye": true,
+            "status": {
+              "code": 0,
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
+          },
+          "3": {
+            "home_team_id": "kdj2ryoholnq1zp",
+            "home_team_name": "Costa Rica",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "kdj2ryoholnq1zp",
+            "position": 3,
+            "round_number": 1,
+            "is_bye": true,
+            "status": {
+              "code": 0,
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
+            }
+          },
+          "4": {
             "home_team_id": "v2y8m4zho2eql07",
             "home_team_name": "Panama",
             "away_team_name": "BYE",
             "home_score": 0,
             "away_score": 0,
             "winner_team_id": "v2y8m4zho2eql07",
-            "position": 2,
+            "position": 4,
             "round_number": 1,
             "is_bye": true,
             "status": {
@@ -105,6 +137,112 @@
         },
         "1": {
           "1": {
+            "id": "3glrw7h1jgwyqdy",
+            "home_team_id": "kn54qllhv3xqvy9",
+            "away_team_id": "kn54qllh6peqvy9",
+            "home_team_name": "USA",
+            "away_team_name": "Trinidad   Tobago",
+            "home_score": 4,
+            "away_score": 2,
+            "winner_team_id": "kn54qllhv3xqvy9",
+            "position": 1,
+            "round_id": "2y8m4zhxd39ql07",
+            "round_number": 2,
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1700186400,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 0,
+                "period_2": 3,
+                "corner": 10,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 3,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "kn54qllhv3xqvy9",
+              "away_team_id": "kn54qllh6peqvy9",
+              "home_team_name": "USA",
+              "away_team_name": "Trinidad   Tobago"
+            },
+            "second_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1700524800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 2,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "away_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 6,
+                "yellow_card": 4,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "home_team_id": "kn54qllh6peqvy9",
+              "away_team_id": "kn54qllhv3xqvy9",
+              "home_team_name": "Trinidad   Tobago",
+              "away_team_name": "USA"
+            },
+            "event_ids": [
+              "dn1m1gh2348kmoe",
+              "pxwrxlh5jgzwryk"
+            ],
+            "status": {
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
+            }
+          },
+          "2": {
             "id": "x7lm7pho02kpm2w",
             "home_team_id": "kdj2ryoholnq1zp",
             "away_team_id": "v2y8m4zho2eql07",
@@ -113,7 +251,7 @@
             "home_score": 1,
             "away_score": 6,
             "winner_team_id": "v2y8m4zho2eql07",
-            "position": 1,
+            "position": 2,
             "round_id": "2y8m4zhxd39ql07",
             "round_number": 2,
             "first_leg": {
@@ -208,22 +346,6 @@
               "code": 100,
               "description": "ended",
               "type": "finished"
-            }
-          },
-          "2": {
-            "home_team_id": "v2y8m4zho4oql07",
-            "home_team_name": "Jamaica",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "v2y8m4zho4oql07",
-            "position": 2,
-            "round_number": 2,
-            "is_bye": true,
-            "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
             }
           },
           "3": {

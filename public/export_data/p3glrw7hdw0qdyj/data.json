@@ -1213,11 +1213,11 @@
               "round_id": "2y8m4zhw7o8ql07",
               "number": 2,
               "type_id": 1,
-              "state_id": 1,
+              "state_id": 7,
               "home_team_id": "4zp5rzghewnq82w",
               "away_team_id": "gy0or5jhkvwqwzv",
-              "winner_team_id": "",
-              "home_score": 0,
+              "winner_team_id": "4zp5rzghewnq82w",
+              "home_score": 3,
               "away_score": 0,
               "parent_ids": [],
               "children_ids": [
@@ -1345,10 +1345,6 @@
       "id": "n54qllh2y71qvy9",
       "name": "Berliner FC Dynamo"
     },
-    "56ypq3nhdnkmd7o": {
-      "id": "56ypq3nhdnkmd7o",
-      "name": "VfL Wolfsburg"
-    },
     "l5ergph324xr8k0": {
       "id": "l5ergph324xr8k0",
       "name": "FC Viktoria Köln"
@@ -1360,10 +1356,6 @@
     "gpxwrxlho42ryk0": {
       "id": "gpxwrxlho42ryk0",
       "name": "SV Wehen Wiesbaden"
-    },
-    "9dn1m1ghyg6moep": {
-      "id": "9dn1m1ghyg6moep",
-      "name": "SV Sandhausen"
     },
     "ednm9whkpp4ryox": {
       "id": "ednm9whkpp4ryox",
@@ -1533,10 +1525,6 @@
       "id": "z318q66hdleqo9j",
       "name": "RB Leipzig"
     },
-    "p3glrw7henvqdyj": {
-      "id": "p3glrw7henvqdyj",
-      "name": "Eintracht Frankfurt"
-    },
     "4zp5rzghe4nq82w": {
       "id": "4zp5rzghe4nq82w",
       "name": "Borussia Dortmund"
@@ -1596,6 +1584,18 @@
     "z318q66hp2kqo9j": {
       "id": "z318q66hp2kqo9j",
       "name": "Karlsruher SC"
+    },
+    "p3glrw7henvqdyj": {
+      "id": "p3glrw7henvqdyj",
+      "name": "Eintracht Frankfurt"
+    },
+    "9dn1m1ghyg6moep": {
+      "id": "9dn1m1ghyg6moep",
+      "name": "SV Sandhausen"
+    },
+    "56ypq3nhdnkmd7o": {
+      "id": "56ypq3nhdnkmd7o",
+      "name": "VfL Wolfsburg"
     }
   },
   "sport_events": {
@@ -9957,31 +9957,210 @@
       "home_team_id": "4zp5rzghewnq82w",
       "away_team_id": "gy0or5jhkvwqwzv",
       "start_timestamp": 1770147900,
-      "status_id": 1,
+      "status_id": 8,
       "sport_event_status": {
-        "status_id": 1,
+        "status_id": 8,
         "away_score": {
-          "corners": 0,
+          "corners": 5,
           "red_card": 0,
-          "yellow_card": 0,
+          "yellow_card": 2,
           "penalty_score": 0,
           "regular_score": 0,
           "overTime_score": 0,
           "half_time_score": 0
         },
         "home_score": {
-          "corners": 0,
+          "corners": 4,
           "red_card": 0,
-          "yellow_card": 0,
+          "yellow_card": 1,
           "penalty_score": 0,
-          "regular_score": 0,
+          "regular_score": 3,
           "overTime_score": 0,
-          "half_time_score": 0
+          "half_time_score": 1
         },
         "kick_of_timestamp": 0
       },
       "related_id": "",
-      "incidents": []
+      "incidents": [
+        {
+          "time": 19,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdeh4g4xzr51",
+          "player_name": "Joel Chima Fujita",
+          "reason_type": 1
+        },
+        {
+          "time": 31,
+          "type": 1,
+          "position": 1,
+          "player_id": "pxwrxlhzdl3ryk0",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Martin Terrier"
+        },
+        {
+          "time": 44,
+          "type": 3,
+          "position": 1,
+          "player_id": "pxwrxlhjxxwryk0",
+          "player_name": "Aleix García",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 2,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4hd0vkq86p",
+          "out_player_id": "x7lm7phw85p6m2w",
+          "in_player_name": "Manolis Saliakas",
+          "out_player_name": "Louis Oppie"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h23494q0j",
+          "out_player_id": "3glrw7hznkdqdyj",
+          "in_player_name": "Ricky-Jade Jones",
+          "out_player_name": "Mathias Pereira Lage"
+        },
+        {
+          "time": 50,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdeh00zj6r51",
+          "player_name": "Tomoya Ando",
+          "reason_type": 1
+        },
+        {
+          "time": 58,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohjljwgq1z",
+          "out_player_id": "y0or5jhg199qwzv",
+          "in_player_name": "Ignacio Ezequiel Agustín Fernández Carballo",
+          "out_player_name": "Exequiel Palacios"
+        },
+        {
+          "time": 58,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dn1m1gh391pymoe",
+          "out_player_id": "y0or5jhe132qwzv",
+          "in_player_name": "Arthur Augusto De Matos Soares",
+          "out_player_name": "Lucas Vázquez"
+        },
+        {
+          "time": 63,
+          "type": 1,
+          "position": 1,
+          "player_id": "y0or5jhej16qwzv",
+          "assist1_id": "pxwrxlhjxxwryk0",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Patrik Schick",
+          "assist1_name": "Aleix García"
+        },
+        {
+          "time": 65,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dn1m1ghel4nmoep",
+          "out_player_id": "pxwrxlhzdl3ryk0",
+          "in_player_name": "Jonas Hofmann",
+          "out_player_name": "Martin Terrier"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "vjxm8ghgzx8r6od",
+          "out_player_id": "l7oqdeh4g4xzr51",
+          "in_player_name": "Jackson Irvine",
+          "out_player_name": "Joel Chima Fujita"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "23xmvkhgwnxqg8n",
+          "out_player_id": "8yomo4h23494q0j",
+          "in_player_name": "Taichi Hara",
+          "out_player_name": "Ricky-Jade Jones"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h0432vq0j",
+          "out_player_id": "k82rekh32k4repz",
+          "in_player_name": "Abdoulie Ceesay",
+          "out_player_name": "Mathias Rasmussen"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y0or5jhe855zqwz",
+          "out_player_id": "pxwrxlhjxxwryk0",
+          "in_player_name": "Loic Bade",
+          "out_player_name": "Aleix García"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4jwq2gh7gy96m0v",
+          "out_player_id": "y0or5jhej16qwzv",
+          "in_player_name": "Christian Kofane",
+          "out_player_name": "Patrik Schick"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 92,
+          "type": 1,
+          "add_time": 2,
+          "position": 1,
+          "player_id": "dn1m1ghel4nmoep",
+          "assist1_id": "2y8m4zhjodnql07",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Jonas Hofmann",
+          "assist1_name": "Alejandro Grimaldo"
+        },
+        {
+          "time": 95,
+          "type": 12,
+          "position": 0
+        }
+      ]
     },
     "jw2r09hkn7ddrz8": {
       "id": "jw2r09hkn7ddrz8",

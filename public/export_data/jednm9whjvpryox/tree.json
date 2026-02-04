@@ -891,10 +891,10 @@
             "note": "Direct qualified for the Round7"
           },
           "17": {
-            "id": "pxwrxlh139dyryk",
+            "id": "8yomo4hk47joq0j",
             "home_team_name": "",
-            "home_score": 1,
-            "away_score": 3,
+            "home_score": 0,
+            "away_score": 1,
             "position": 17,
             "round_id": "vjxm8ghwnper6od",
             "round_number": 1,
@@ -906,20 +906,19 @@
             "note": "Direct qualified for the Round7"
           },
           "18": {
-            "home_team_id": "vjxm8gh4xe9r6od",
-            "home_team_name": "Hauts Lyonnais",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "vjxm8gh4xe9r6od",
+            "id": "pxwrxlh139dyryk",
+            "home_team_name": "",
+            "home_score": 1,
+            "away_score": 3,
             "position": 18,
+            "round_id": "vjxm8ghwnper6od",
             "round_number": 1,
-            "is_bye": true,
             "status": {
               "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
+              "description": "Pending",
+              "type": "pending"
+            },
+            "note": "Direct qualified for the Round7"
           },
           "2": {
             "id": "3glrw7h1pjd4qdy",
@@ -2242,19 +2241,67 @@
             "note": "Direct qualified for the Round7"
           },
           "49": {
-            "id": "8yomo4hk47ooq0j",
-            "home_team_name": "",
-            "home_score": 1,
-            "away_score": 0,
+            "id": "dn1m1ghe04zpmoe",
+            "home_team_id": "l5ergphppypr8k0",
+            "away_team_id": "kjw2r09hex4rz84",
+            "home_team_name": "ASJR Football",
+            "away_team_name": "Bourgoin Jallieu",
+            "home_score": 0,
+            "away_score": 4,
+            "winner_team_id": "kjw2r09hex4rz84",
             "position": 49,
             "round_id": "vjxm8ghwnper6od",
             "round_number": 1,
-            "status": {
-              "code": 0,
-              "description": "Pending",
-              "type": "pending"
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1731776400,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 3,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 4,
+                "display": 4,
+                "period_1": 1,
+                "period_2": 3,
+                "corner": 6,
+                "yellow_card": 2,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -4,
+                "ft_score_only": 4
+              },
+              "home_team_id": "l5ergphppypr8k0",
+              "away_team_id": "kjw2r09hex4rz84",
+              "home_team_name": "ASJR Football",
+              "away_team_name": "Bourgoin Jallieu"
             },
-            "note": "Direct qualified for the Round7"
+            "event_ids": [
+              "pxwrxlh5ooe2ryk"
+            ],
+            "status": {
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
+            }
           },
           "5": {
             "id": "3glrw7h1pw2vqdy",
@@ -2275,20 +2322,19 @@
             "note": "Direct qualified for the Round7"
           },
           "50": {
-            "home_team_id": "vl7oqdehpekr510",
-            "home_team_name": "Valence",
-            "away_team_name": "BYE",
-            "home_score": 0,
+            "id": "8yomo4hk47ooq0j",
+            "home_team_name": "",
+            "home_score": 1,
             "away_score": 0,
-            "winner_team_id": "vl7oqdehpekr510",
             "position": 50,
+            "round_id": "vjxm8ghwnper6od",
             "round_number": 1,
-            "is_bye": true,
             "status": {
               "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
+              "description": "Pending",
+              "type": "pending"
+            },
+            "note": "Direct qualified for the Round7"
           },
           "51": {
             "id": "4wyrn4hel8nxq86",

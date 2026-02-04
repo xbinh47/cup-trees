@@ -9924,16 +9924,17 @@
             "away_team_id": "e4wyrn4h127q86p",
             "home_team_name": "Albacete Balompié SAD",
             "away_team_name": "FC Barcelona",
-            "home_score": 0,
-            "away_score": 0,
+            "home_score": 1,
+            "away_score": 2,
+            "winner_team_id": "e4wyrn4h127q86p",
             "position": 1,
             "round_id": "zp5rzgh6vygq82w",
             "round_number": 6,
             "first_leg": {
               "status": {
-                "code": 0,
-                "description": "not_started",
-                "type": "not_started"
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
               },
               "start_time": 1770148800,
               "pen_m5": [
@@ -9941,30 +9942,30 @@
                 0
               ],
               "home_score": {
-                "current": 0,
-                "display": 0,
+                "current": 1,
+                "display": 1,
                 "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "period_2": 1,
+                "corner": 3,
+                "yellow_card": 1,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "overtime_score_only": -1,
+                "ft_score_only": 1
               },
               "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 6,
+                "yellow_card": 1,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "overtime_score_only": -2,
+                "ft_score_only": 2
               },
               "home_team_id": "j1l4rjnhp5vm7vx",
               "away_team_id": "e4wyrn4h127q86p",
@@ -9975,9 +9976,9 @@
               "jw2r09hk2xx1rz8"
             ],
             "status": {
-              "code": 0,
-              "description": "not_started",
-              "type": "not_started"
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
             }
           },
           "2": {
@@ -9997,7 +9998,7 @@
                 "description": "not_started",
                 "type": "not_started"
               },
-              "start_time": 1770231600,
+              "start_time": 1770235200,
               "pen_m5": [
                 0,
                 0
@@ -10059,7 +10060,7 @@
                 "description": "not_started",
                 "type": "not_started"
               },
-              "start_time": 1770231600,
+              "start_time": 1770235200,
               "pen_m5": [
                 0,
                 0

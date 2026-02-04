@@ -8775,9 +8775,9 @@
             "round_number": 5,
             "first_leg": {
               "status": {
-                "code": 0,
-                "description": "not_started",
-                "type": "not_started"
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
               },
               "start_time": 1769871600,
               "pen_m5": [
@@ -8789,8 +8789,8 @@
                 "display": 0,
                 "period_1": 0,
                 "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "corner": 10,
+                "yellow_card": 2,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
@@ -8798,17 +8798,17 @@
                 "ft_score_only": 0
               },
               "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 2,
+                "corner": 8,
+                "yellow_card": 4,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "overtime_score_only": -3,
+                "ft_score_only": 3
               },
               "home_team_id": "gy0or5jhk51qwzv",
               "away_team_id": "x7lm7phkn1om2wd",
@@ -8819,9 +8819,9 @@
               "vjxm8ghelj3dr6o"
             ],
             "status": {
-              "code": 0,
-              "description": "not_started",
-              "type": "not_started"
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
             }
           },
           "2": {
@@ -8837,9 +8837,9 @@
             "round_number": 5,
             "first_leg": {
               "status": {
-                "code": 0,
-                "description": "not_started",
-                "type": "not_started"
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
               },
               "start_time": 1769871600,
               "pen_m5": [
@@ -8851,8 +8851,8 @@
                 "display": 0,
                 "period_1": 0,
                 "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "corner": 5,
+                "yellow_card": 4,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
@@ -8860,17 +8860,17 @@
                 "ft_score_only": 0
               },
               "away_score": {
-                "current": 0,
-                "display": 0,
+                "current": 1,
+                "display": 1,
                 "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "period_2": 1,
+                "corner": 5,
+                "yellow_card": 2,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "overtime_score_only": -1,
+                "ft_score_only": 1
               },
               "home_team_id": "965mkyh7nk2r1ge",
               "away_team_id": "e4wyrn4h3zlq86p",
@@ -8881,9 +8881,9 @@
               "x7lm7phjz086m2w"
             ],
             "status": {
-              "code": 0,
-              "description": "not_started",
-              "type": "not_started"
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
             }
           },
           "3": {
@@ -8899,9 +8899,9 @@
             "round_number": 5,
             "first_leg": {
               "status": {
-                "code": 0,
-                "description": "not_started",
-                "type": "not_started"
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
               },
               "start_time": 1769871600,
               "pen_m5": [
@@ -8909,30 +8909,30 @@
                 0
               ],
               "home_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
                 "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "corner": 7,
+                "yellow_card": 3,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "overtime_score_only": -1,
+                "ft_score_only": 1
               },
               "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
+                "current": 2,
+                "display": 2,
+                "period_1": 2,
                 "period_2": 0,
-                "corner": 0,
+                "corner": 4,
                 "yellow_card": 0,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "overtime_score_only": -2,
+                "ft_score_only": 2
               },
               "home_team_id": "yl5ergphxgpr8k0",
               "away_team_id": "y0or5jhl1jgqwzv",
@@ -8943,9 +8943,9 @@
               "y0or5jh8ne62qwz"
             ],
             "status": {
-              "code": 0,
-              "description": "not_started",
-              "type": "not_started"
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
             }
           },
           "4": {
@@ -8961,40 +8961,56 @@
             "round_number": 5,
             "first_leg": {
               "status": {
-                "code": 0,
-                "description": "not_started",
-                "type": "not_started"
+                "code": 120,
+                "description": "AP",
+                "type": "finished"
               },
               "start_time": 1769871600,
               "pen_m5": [
-                0,
-                0
+                3,
+                4
+              ],
+              "pen_array": [
+                [
+                  1,
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ]
               ],
               "home_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
                 "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "corner": 4,
+                "yellow_card": 2,
                 "red_card": 0,
                 "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "penalty_score": 3,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
               },
               "away_score": {
-                "current": 0,
-                "display": 0,
+                "current": 1,
+                "display": 1,
                 "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "period_2": 1,
+                "corner": 8,
+                "yellow_card": 2,
                 "red_card": 0,
                 "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "penalty_score": 4,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
               },
               "home_team_id": "gx7lm7phev9m2wd",
               "away_team_id": "8y39mp1hlv9mojx",
@@ -9005,10 +9021,26 @@
               "n54qllhn7x1lqvy"
             ],
             "status": {
-              "code": 0,
-              "description": "not_started",
-              "type": "not_started"
-            }
+              "code": 120,
+              "description": "AP",
+              "type": "finished"
+            },
+            "pen_array": [
+              [
+                1,
+                0,
+                0,
+                1,
+                1
+              ],
+              [
+                0,
+                1,
+                1,
+                1,
+                1
+              ]
+            ]
           },
           "5": {
             "id": "y39mp1h5enodmoj",
@@ -9023,9 +9055,9 @@
             "round_number": 5,
             "first_leg": {
               "status": {
-                "code": 0,
-                "description": "not_started",
-                "type": "not_started"
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
               },
               "start_time": 1769871600,
               "pen_m5": [
@@ -9033,30 +9065,30 @@
                 0
               ],
               "home_score": {
-                "current": 0,
-                "display": 0,
+                "current": 1,
+                "display": 1,
                 "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 0,
+                "period_2": 1,
+                "corner": 3,
+                "yellow_card": 2,
+                "red_card": 1,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "overtime_score_only": -1,
+                "ft_score_only": 1
               },
               "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
+                "current": 2,
+                "display": 2,
+                "period_1": 2,
                 "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "corner": 4,
+                "yellow_card": 4,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "overtime_score_only": -2,
+                "ft_score_only": 2
               },
               "home_team_id": "jednm9whjy7ryox",
               "away_team_id": "l7oqdehn057r510",
@@ -9067,9 +9099,9 @@
               "23xmvkh68d97qg8"
             ],
             "status": {
-              "code": 0,
-              "description": "not_started",
-              "type": "not_started"
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
             }
           },
           "6": {
@@ -9085,9 +9117,9 @@
             "round_number": 5,
             "first_leg": {
               "status": {
-                "code": 0,
-                "description": "not_started",
-                "type": "not_started"
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
               },
               "start_time": 1769871600,
               "pen_m5": [
@@ -9099,8 +9131,8 @@
                 "display": 0,
                 "period_1": 0,
                 "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "corner": 10,
+                "yellow_card": 2,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
@@ -9108,17 +9140,17 @@
                 "ft_score_only": 0
               },
               "away_score": {
-                "current": 0,
-                "display": 0,
+                "current": 1,
+                "display": 1,
                 "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "period_2": 1,
+                "corner": 5,
+                "yellow_card": 4,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "overtime_score_only": -1,
+                "ft_score_only": 1
               },
               "home_team_id": "x7lm7phkyxym2wd",
               "away_team_id": "kjw2r09hvdzrz84",
@@ -9129,9 +9161,9 @@
               "zp5rzghg5zwyq82"
             ],
             "status": {
-              "code": 0,
-              "description": "not_started",
-              "type": "not_started"
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
             }
           },
           "7": {
@@ -9147,9 +9179,9 @@
             "round_number": 5,
             "first_leg": {
               "status": {
-                "code": 0,
-                "description": "not_started",
-                "type": "not_started"
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
               },
               "start_time": 1769871600,
               "pen_m5": [
@@ -9161,8 +9193,8 @@
                 "display": 0,
                 "period_1": 0,
                 "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "corner": 7,
+                "yellow_card": 2,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
@@ -9170,17 +9202,17 @@
                 "ft_score_only": 0
               },
               "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 3,
+                "yellow_card": 3,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "overtime_score_only": -2,
+                "ft_score_only": 2
               },
               "home_team_id": "y0or5jhl1p5qwzv",
               "away_team_id": "gpxwrxlh4yeryk0",
@@ -9191,9 +9223,9 @@
               "1l4rjnh94zl6m7v"
             ],
             "status": {
-              "code": 0,
-              "description": "not_started",
-              "type": "not_started"
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
             }
           },
           "8": {
@@ -9209,25 +9241,38 @@
             "round_number": 5,
             "first_leg": {
               "status": {
-                "code": 0,
-                "description": "not_started",
-                "type": "not_started"
+                "code": 120,
+                "description": "AP",
+                "type": "finished"
               },
               "start_time": 1769871600,
               "pen_m5": [
-                0,
-                0
+                1,
+                4
+              ],
+              "pen_array": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ]
               ],
               "home_score": {
                 "current": 0,
                 "display": 0,
                 "period_1": 0,
                 "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "corner": 11,
+                "yellow_card": 1,
                 "red_card": 0,
                 "overtime_score": 0,
-                "penalty_score": 0,
+                "penalty_score": 1,
                 "overtime_score_only": 0,
                 "ft_score_only": 0
               },
@@ -9236,11 +9281,11 @@
                 "display": 0,
                 "period_1": 0,
                 "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "corner": 1,
+                "yellow_card": 3,
                 "red_card": 0,
                 "overtime_score": 0,
-                "penalty_score": 0,
+                "penalty_score": 4,
                 "overtime_score_only": 0,
                 "ft_score_only": 0
               },
@@ -9253,10 +9298,23 @@
               "4jwq2ghnev9km0v"
             ],
             "status": {
-              "code": 0,
-              "description": "not_started",
-              "type": "not_started"
-            }
+              "code": 120,
+              "description": "AP",
+              "type": "finished"
+            },
+            "pen_array": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1,
+                1
+              ]
+            ]
           }
         },
         "5": {

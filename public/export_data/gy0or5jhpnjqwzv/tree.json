@@ -7,14 +7,14 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "4wyrn4h8kjw5q86",
-            "home_team_id": "1l4rjnh64w1m7vx",
-            "away_team_id": "4jwq2gh7ovkm0ve",
-            "home_team_name": "Fluminense RJ (Youth)",
-            "away_team_name": "Aster Brasil Youth",
-            "home_score": 3,
-            "away_score": 1,
-            "winner_team_id": "1l4rjnh64w1m7vx",
+            "id": "jw2r09hloe3vrz8",
+            "home_team_id": "pxwrxlh17vkryk0",
+            "away_team_id": "vjxm8gh4zvwr6od",
+            "home_team_name": "Vasco da Gama (Youth)",
+            "away_team_name": "Vila Nova (Youth)",
+            "home_score": 2,
+            "away_score": 0,
+            "winner_team_id": "pxwrxlh17vkryk0",
             "position": 1,
             "round_id": "l7oqdehdo2or510",
             "round_number": 1,
@@ -30,38 +30,38 @@
                 0
               ],
               "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 2,
-                "period_2": 1,
-                "corner": 0,
-                "yellow_card": 0,
+                "current": 2,
+                "display": 2,
+                "period_1": 0,
+                "period_2": 2,
+                "corner": 11,
+                "yellow_card": 1,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
+                "overtime_score_only": -2,
+                "ft_score_only": 2
               },
               "away_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 1,
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
                 "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 0,
+                "corner": 4,
+                "yellow_card": 3,
+                "red_card": 1,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": -1,
-                "ft_score_only": 1
+                "overtime_score_only": 0,
+                "ft_score_only": 0
               },
-              "home_team_id": "1l4rjnh64w1m7vx",
-              "away_team_id": "4jwq2gh7ovkm0ve",
-              "home_team_name": "Fluminense RJ (Youth)",
-              "away_team_name": "Aster Brasil Youth"
+              "home_team_id": "pxwrxlh17vkryk0",
+              "away_team_id": "vjxm8gh4zvwr6od",
+              "home_team_name": "Vasco da Gama (Youth)",
+              "away_team_name": "Vila Nova (Youth)"
             },
             "event_ids": [
-              "pxwrxlh5gg32ryk"
+              "x7lm7phzkk77m2w"
             ],
             "status": {
               "code": 100,
@@ -511,19 +511,66 @@
             }
           },
           "2": {
-            "home_team_id": "jw2r09hn1dvrz84",
-            "home_team_name": "Fluminense U20",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "jw2r09hn1dvrz84",
+            "id": "4wyrn4h8kjw5q86",
+            "home_team_id": "1l4rjnh64w1m7vx",
+            "away_team_id": "4jwq2gh7ovkm0ve",
+            "home_team_name": "Fluminense RJ (Youth)",
+            "away_team_name": "Aster Brasil Youth",
+            "home_score": 3,
+            "away_score": 1,
+            "winner_team_id": "1l4rjnh64w1m7vx",
             "position": 2,
+            "round_id": "l7oqdehdo2or510",
             "round_number": 1,
-            "is_bye": true,
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1692208800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 2,
+                "period_2": 1,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "home_team_id": "1l4rjnh64w1m7vx",
+              "away_team_id": "4jwq2gh7ovkm0ve",
+              "home_team_name": "Fluminense RJ (Youth)",
+              "away_team_name": "Aster Brasil Youth"
+            },
+            "event_ids": [
+              "pxwrxlh5gg32ryk"
+            ],
             "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
             }
           },
           "3": {

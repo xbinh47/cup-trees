@@ -597,14 +597,12 @@
             }
           },
           "45": {
-            "id": "1l4rjnh1e7ywm7v",
-            "home_team_id": "l5ergphov20r8k0",
-            "away_team_id": "4jwq2ghv2onm0ve",
-            "home_team_name": "Jednota Malinec",
-            "away_team_name": "Podkonice",
-            "home_score": 6,
-            "away_score": 4,
-            "winner_team_id": "l5ergphov20r8k0",
+            "id": "y39mp1h59l33moj",
+            "home_team_id": "vjxm8gh8ljwr6od",
+            "home_team_name": "Slovenska Lupca",
+            "home_score": 5,
+            "away_score": 0,
+            "winner_team_id": "vjxm8gh8ljwr6od",
             "position": 45,
             "round_id": "4wyrn4hl0z9q86p",
             "round_number": 1,
@@ -612,7 +610,8 @@
               "code": 0,
               "description": "Finished",
               "type": "finished"
-            }
+            },
+            "note": "Direct qualified for the Round1"
           },
           "46": {
             "id": "y39mp1h59lv3moj",
@@ -675,6 +674,40 @@
               "code": 120,
               "description": "AP",
               "type": "finished"
+            }
+          },
+          "47": {
+            "id": "1l4rjnh1e7ywm7v",
+            "home_team_id": "l5ergphov20r8k0",
+            "away_team_id": "4jwq2ghv2onm0ve",
+            "home_team_name": "Jednota Malinec",
+            "away_team_name": "Podkonice",
+            "home_score": 6,
+            "away_score": 4,
+            "winner_team_id": "l5ergphov20r8k0",
+            "position": 47,
+            "round_id": "4wyrn4hl0z9q86p",
+            "round_number": 1,
+            "status": {
+              "code": 0,
+              "description": "Finished",
+              "type": "finished"
+            }
+          },
+          "48": {
+            "home_team_id": "56ypq3nhyy4md7o",
+            "home_team_name": "Slovan Bratislava",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "56ypq3nhyy4md7o",
+            "position": 48,
+            "round_number": 1,
+            "is_bye": true,
+            "status": {
+              "code": 0,
+              "description": "Bye",
+              "type": "BYE_ADVANCED"
             }
           },
           "5": {
@@ -1630,6 +1663,38 @@
               "type": "BYE_ADVANCED"
             }
           },
+          "93": {
+            "id": "virtual-r0-p93",
+            "home_team_name": "TBD",
+            "away_team_name": "TBD",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 93,
+            "round_id": "4wyrn4hl0z9q86p",
+            "round_number": 1,
+            "is_tbd": true,
+            "status": {
+              "code": -2,
+              "description": "To Be Determined",
+              "type": "TBD"
+            }
+          },
+          "94": {
+            "id": "virtual-r0-p94",
+            "home_team_name": "TBD",
+            "away_team_name": "TBD",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 94,
+            "round_id": "4wyrn4hl0z9q86p",
+            "round_number": 1,
+            "is_tbd": true,
+            "status": {
+              "code": -2,
+              "description": "To Be Determined",
+              "type": "TBD"
+            }
+          },
           "95": {
             "id": "3glrw7h1o2d4qdy",
             "home_team_id": "y0or5jh33eeqwzv",
@@ -1989,6 +2054,69 @@
             }
           },
           "23": {
+            "id": "x7lm7phop6k2m2w",
+            "home_team_id": "vjxm8gh8ljwr6od",
+            "away_team_id": "dj2ryohj4owq1zp",
+            "home_team_name": "Slovenska Lupca",
+            "away_team_name": "SK Pramen Kovacova",
+            "home_score": 0,
+            "away_score": 2,
+            "winner_team_id": "dj2ryohj4owq1zp",
+            "position": 23,
+            "round_id": "l5ergph8205r8k0",
+            "round_number": 2,
+            "first_leg": {
+              "status": {
+                "code": 100,
+                "description": "ended",
+                "type": "finished"
+              },
+              "start_time": 1629903600,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 6,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 2,
+                "period_2": 0,
+                "corner": 8,
+                "yellow_card": 4,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "vjxm8gh8ljwr6od",
+              "away_team_id": "dj2ryohj4owq1zp",
+              "home_team_name": "Slovenska Lupca",
+              "away_team_name": "SK Pramen Kovacova"
+            },
+            "event_ids": [
+              "8yomo4h4d31eq0j"
+            ],
+            "status": {
+              "code": 100,
+              "description": "ended",
+              "type": "finished"
+            }
+          },
+          "24": {
             "id": "4wyrn4he93evq86",
             "home_team_id": "l5ergphov20r8k0",
             "away_team_id": "56ypq3nhyy4md7o",
@@ -1996,29 +2124,13 @@
             "away_team_name": "Slovan Bratislava",
             "home_score": 0,
             "away_score": 0,
-            "position": 23,
+            "position": 24,
             "round_id": "l5ergph8205r8k0",
             "round_number": 2,
             "status": {
               "code": 0,
               "description": "Scheduled",
               "type": "scheduled"
-            }
-          },
-          "24": {
-            "home_team_id": "56ypq3nhyy4md7o",
-            "home_team_name": "Slovan Bratislava",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "56ypq3nhyy4md7o",
-            "position": 24,
-            "round_number": 2,
-            "is_bye": true,
-            "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
             }
           },
           "27": {
@@ -2801,6 +2913,22 @@
               "code": 100,
               "description": "ended",
               "type": "finished"
+            }
+          },
+          "47": {
+            "id": "virtual-r1-p47",
+            "home_team_name": "TBD",
+            "away_team_name": "TBD",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 47,
+            "round_id": "l5ergph8205r8k0",
+            "round_number": 2,
+            "is_tbd": true,
+            "status": {
+              "code": -2,
+              "description": "To Be Determined",
+              "type": "TBD"
             }
           },
           "48": {
