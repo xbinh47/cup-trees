@@ -507,6 +507,7 @@
             <button class="btn-primary" onclick="verify()">Verify</button>
             <button class="btn-secondary" onclick="loadSample()">Sample</button>
             <button class="btn-secondary" onclick="clearAll()">Clear</button>
+            <button class="btn-secondary" onclick="encodeIds()" style="background: #4a9eff;">Encode IDs</button>
         </div>
         <div class="error" id="error"></div>
     </div>
@@ -546,6 +547,111 @@
         };
 
         const ROUND_NAMES = { 1: "R16", 2: "QUARTER", 3: "SEMI", 4: "FINAL", 5: "R32", 6: "R64" };
+
+        // ==================== ENCODE FUNCTIONS ====================
+        const OFFSET_CHAR = [3, 1, 5, 9, 6, 2, 4, 7, 8, 0];
+        const NUMERIC = { min: 48, max: 57 };  // '0' to '9'
+        const ALPHABET = { min: 97, max: 122 }; // 'a' to 'z'
+
+        function isNumberChar(char) {
+            const code = char.charCodeAt(0);
+            return code >= 48 && code <= 57;
+        }
+
+        function encodeChar(char, offset) {
+            const CHARTYPE = isNumberChar(char) ? NUMERIC : ALPHABET;
+            const code = char.charCodeAt(0) + offset;
+
+            if (code <= CHARTYPE.max)
+                return String.fromCharCode(code);
+
+            const dis = Math.abs(CHARTYPE.max - code);
+            return String.fromCharCode(CHARTYPE.min + dis - 1);
+        }
+
+        function encodeId(id) {
+            if (id === undefined || id === '' || id === null)
+                return '';
+
+            const idStr = String(id);
+            const newId = [];
+
+            for (let i = 0; i < idStr.length; i++) {
+                newId.push(encodeChar(idStr.charAt(i), OFFSET_CHAR[i % OFFSET_CHAR.length]));
+            }
+
+            return newId.join('');
+        }
+
+        // ID fields to encode
+        const ID_FIELDS = [
+            'id', 'home_team_id', 'away_team_id', 'winner_team_id',
+            'competition_id', 'season_id', 'bracket_id', 'match_id'
+        ];
+
+        function encodeObjectIds(obj) {
+            if (obj === null || obj === undefined) return obj;
+            if (typeof obj !== 'object') return obj;
+
+            if (Array.isArray(obj)) {
+                return obj.map(item => encodeObjectIds(item));
+            }
+
+            const newObj = {};
+            for (const key in obj) {
+                if (obj.hasOwnProperty(key)) {
+                    const value = obj[key];
+
+                    if (ID_FIELDS.includes(key) && (typeof value === 'string' || typeof value === 'number')) {
+                        // Encode this ID field
+                        newObj[key] = encodeId(value);
+                    } else if (typeof value === 'object') {
+                        // Recursively process nested objects
+                        newObj[key] = encodeObjectIds(value);
+                    } else {
+                        newObj[key] = value;
+                    }
+                }
+            }
+            return newObj;
+        }
+
+        function encodeIds() {
+            const jsonInput = document.getElementById('jsonInput');
+            const errEl = document.getElementById('error');
+            const v = jsonInput.value.trim();
+
+            if (!v) {
+                errEl.textContent = 'No JSON data to encode';
+                errEl.style.display = 'block';
+                return;
+            }
+
+            try {
+                const data = JSON.parse(v);
+                const encodedData = encodeObjectIds(data);
+
+                // Update textarea with encoded data
+                jsonInput.value = JSON.stringify(encodedData, null, 2);
+                errEl.style.display = 'none';
+
+                // Show success message
+                errEl.textContent = '✅ IDs encoded successfully!';
+                errEl.style.display = 'block';
+                errEl.style.background = 'rgba(0, 255, 0, 0.2)';
+
+                // Reset error style after 2 seconds
+                setTimeout(() => {
+                    errEl.style.display = 'none';
+                    errEl.style.background = 'rgba(255, 0, 0, 0.2)';
+                }, 2000);
+
+            } catch (x) {
+                errEl.textContent = 'JSON Parse Error: ' + x.message;
+                errEl.style.display = 'block';
+            }
+        }
+        // ==================== END ENCODE FUNCTIONS ====================
 
         function isWinner(m, isHome) {
             if (!m.status || (m.status.type !== 'finished' && m.status.type !== 'FT' && m.status.type !== 'PEN' && m.status.type !== 'AET')) return false;
