@@ -7,6 +7,20 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "virtual-r0-p1",
+            "home_team_name": "TBD",
+            "away_team_name": "TBD",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 1,
+            "round_id": "23xmvkh9ndeqg8n",
+            "round_number": 2,
+            "is_tbd": true,
+            "state_id": -3
+          }
+        },
+        "1": {
+          "1": {
             "id": "2y8m4zhj867vql0",
             "home_team_id": "3glrw7hwjyjqdyj",
             "away_team_id": "8y39mp1hgelmojx",
@@ -19,11 +33,7 @@
             "round_id": "n54qllh1oxoqvy9",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1714914000,
               "pen_m5": [
                 0,
@@ -61,11 +71,7 @@
               "away_team_name": "Sigma Olomouc"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1715518800,
               "pen_m5": [
                 0,
@@ -106,11 +112,7 @@
               "l7oqdeho365xr51",
               "2y8m4zh6pzvoql0"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           },
           "2": {
             "id": "8yomo4hkv388q0j",
@@ -125,11 +127,7 @@
             "round_id": "n54qllh1oxoqvy9",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1714914000,
               "pen_m5": [
                 0,
@@ -167,11 +165,7 @@
               "away_team_name": "Slovan Liberec"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1715518800,
               "pen_m5": [
                 0,
@@ -212,42 +206,20 @@
               "jw2r09h20no5rz8",
               "dj2ryoh1xn76q1z"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "virtual-r1-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "23xmvkh9ndeqg8n",
-            "round_number": 2,
-            "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
+            "state_id": 7
           }
         }
       },
       "rounds": [
         {
-          "id": "n54qllh1oxoqvy9",
-          "description": "Placement Qualification Match",
-          "number": 1
-        },
-        {
           "id": "23xmvkh9ndeqg8n",
           "description": "7th place final",
           "number": 2
+        },
+        {
+          "id": "n54qllh1oxoqvy9",
+          "description": "Placement Qualification Match",
+          "number": 1
         }
       ],
       "total_rounds": 2
@@ -270,11 +242,7 @@
             "round_id": "jw2r09h04zyrz84",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1717084800,
               "pen_m5": [
                 0,
@@ -312,11 +280,7 @@
               "away_team_name": "MFK Karvina"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1717342200,
               "pen_m5": [
                 0,
@@ -357,11 +321,7 @@
               "pxwrxlh53833ryk",
               "x7lm7phz7y7jm2w"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "2": {
             "id": "8yomo4hk09voq0j",
@@ -376,11 +336,7 @@
             "round_id": "jw2r09h04zyrz84",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1717342200,
               "pen_m5": [
                 0,
@@ -418,11 +374,7 @@
               "away_team_name": "Dynamo Ceske Budejovice"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1717084800,
               "pen_m5": [
                 0,
@@ -463,11 +415,7 @@
               "y0or5jhnoyo9qwz",
               "6ypq3nh3nynemd7"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           }
         }
       },

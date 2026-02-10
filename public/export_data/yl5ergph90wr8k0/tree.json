@@ -7,6 +7,20 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "virtual-r0-p1",
+            "home_team_name": "TBD",
+            "away_team_name": "TBD",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 1,
+            "round_id": "8yomo4hx8d9q0j6",
+            "round_number": 2,
+            "is_tbd": true,
+            "state_id": -3
+          }
+        },
+        "1": {
+          "1": {
             "id": "dn1m1ghen7p4moe",
             "home_team_id": "gx7lm7ph1o0m2wd",
             "away_team_id": "23xmvkhdy87qg8n",
@@ -19,11 +33,7 @@
             "round_id": "2y8m4zhx7k4ql07",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1711063800,
               "pen_m5": [
                 0,
@@ -61,11 +71,7 @@
               "away_team_name": "Capital CF"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1711305000,
               "pen_m5": [
                 0,
@@ -106,11 +112,7 @@
               "n54qllh79677qvy",
               "vjxm8ghl9lxzr6o"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "2": {
             "id": "4wyrn4hed2oeq86",
@@ -125,11 +127,7 @@
             "round_id": "2y8m4zhx7k4ql07",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1710628200,
               "pen_m5": [
                 0,
@@ -167,11 +165,7 @@
               "away_team_name": "Ceilandia DF"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1711218600,
               "pen_m5": [
                 0,
@@ -212,42 +206,20 @@
               "y0or5jhnjn17qwz",
               "x7lm7phznzplm2w"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "virtual-r1-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "8yomo4hx8d9q0j6",
-            "round_number": 2,
-            "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
+            "state_id": 8
           }
         }
       },
       "rounds": [
         {
-          "id": "2y8m4zhx7k4ql07",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "8yomo4hx8d9q0j6",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "2y8m4zhx7k4ql07",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2

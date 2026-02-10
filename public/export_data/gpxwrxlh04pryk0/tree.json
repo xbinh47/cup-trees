@@ -7,6 +7,63 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "dj2ryohk2kwlq1z",
+            "home_team_id": "kjw2r09hdk5rz84",
+            "away_team_id": "gx7lm7ph6jzm2wd",
+            "home_team_name": "Brentford",
+            "away_team_name": "Swansea City",
+            "home_score": 2,
+            "away_score": 0,
+            "winner_team_id": "kjw2r09hdk5rz84",
+            "position": 1,
+            "round_id": "y0or5jhg90kqwzv",
+            "round_number": 2,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1622296800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 2,
+                "period_2": 0,
+                "corner": 4,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 3,
+                "yellow_card": 1,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "kjw2r09hdk5rz84",
+              "away_team_id": "gx7lm7ph6jzm2wd",
+              "home_team_name": "Brentford",
+              "away_team_name": "Swansea City"
+            },
+            "event_ids": [
+              "k82rekhxj78grep"
+            ],
+            "state_id": 7
+          }
+        },
+        "1": {
+          "1": {
             "id": "l7oqdehn1nvor51",
             "home_team_id": "9dn1m1ghdlpmoep",
             "away_team_id": "kjw2r09hdk5rz84",
@@ -19,11 +76,7 @@
             "round_id": "x7lm7ph9x5dm2wd",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1621270800,
               "pen_m5": [
                 0,
@@ -61,11 +114,7 @@
               "away_team_name": "Brentford"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1621683000,
               "pen_m5": [
                 0,
@@ -106,11 +155,7 @@
               "8yomo4h463pwq0j",
               "4wyrn4hl56p1q86"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "2": {
             "id": "jw2r09hl1le6rz8",
@@ -125,11 +170,7 @@
             "round_id": "x7lm7ph9x5dm2wd",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1621278900,
               "pen_m5": [
                 0,
@@ -167,11 +208,7 @@
               "away_team_name": "Swansea City"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1621704600,
               "pen_m5": [
                 0,
@@ -212,89 +249,20 @@
               "6ypq3nhnp39xmd7",
               "l5ergph874x6r8k"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "dj2ryohk2kwlq1z",
-            "home_team_id": "kjw2r09hdk5rz84",
-            "away_team_id": "gx7lm7ph6jzm2wd",
-            "home_team_name": "Brentford",
-            "away_team_name": "Swansea City",
-            "home_score": 2,
-            "away_score": 0,
-            "winner_team_id": "kjw2r09hdk5rz84",
-            "position": 1,
-            "round_id": "y0or5jhg90kqwzv",
-            "round_number": 2,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1622296800,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 2,
-                "period_2": 0,
-                "corner": 4,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 3,
-                "yellow_card": 1,
-                "red_card": 1,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "kjw2r09hdk5rz84",
-              "away_team_id": "gx7lm7ph6jzm2wd",
-              "home_team_name": "Brentford",
-              "away_team_name": "Swansea City"
-            },
-            "event_ids": [
-              "k82rekhxj78grep"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           }
         }
       },
       "rounds": [
         {
-          "id": "x7lm7ph9x5dm2wd",
-          "description": "Semifinals",
-          "number": 1
-        },
-        {
           "id": "y0or5jhg90kqwzv",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "x7lm7ph9x5dm2wd",
+          "description": "Semifinals",
+          "number": 1
         }
       ],
       "total_rounds": 2

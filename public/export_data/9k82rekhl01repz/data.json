@@ -197,7 +197,7 @@
           "bracket_id": "n54qllhxp18qvy9",
           "name": "Semifinals",
           "abbr": "SF",
-          "start_time": 1770220800,
+          "start_time": 1770217200,
           "end_time": 1770834600,
           "number": 3,
           "match_ups": [
@@ -210,7 +210,7 @@
               "home_team_id": "v2y8m4zhy8vql07",
               "away_team_id": "vl7oqdehkw6r510",
               "winner_team_id": "",
-              "home_score": 0,
+              "home_score": 1,
               "away_score": 0,
               "parent_ids": [
                 "zp5rzgh7olx8q82"
@@ -233,8 +233,8 @@
               "home_team_id": "gpxwrxlh8jwryk0",
               "away_team_id": "p3glrw7hegvqdyj",
               "winner_team_id": "",
-              "home_score": 0,
-              "away_score": 0,
+              "home_score": 1,
+              "away_score": 1,
               "parent_ids": [
                 "zp5rzgh7olx8q82"
               ],
@@ -495,10 +495,6 @@
       "id": "x7lm7ph9vz4m2wd",
       "name": "Ellas Syrou"
     },
-    "v2y8m4zhy8vql07": {
-      "id": "v2y8m4zhy8vql07",
-      "name": "PAOK Saloniki"
-    },
     "pxwrxlhg95wryk0": {
       "id": "pxwrxlhg95wryk0",
       "name": "Niki Volou"
@@ -587,10 +583,6 @@
       "id": "gpxwrxlh8jwryk0",
       "name": "Levadiakos"
     },
-    "vl7oqdehkw6r510": {
-      "id": "vl7oqdehkw6r510",
-      "name": "Panathinaikos"
-    },
     "gx7lm7phy23m2wd": {
       "id": "gx7lm7phy23m2wd",
       "name": "Atromitos Athens"
@@ -610,6 +602,14 @@
     "k82rekhvg05repz": {
       "id": "k82rekhvg05repz",
       "name": "AEL Larisa"
+    },
+    "vl7oqdehkw6r510": {
+      "id": "vl7oqdehkw6r510",
+      "name": "Panathinaikos"
+    },
+    "v2y8m4zhy8vql07": {
+      "id": "v2y8m4zhy8vql07",
+      "name": "PAOK Saloniki"
     }
   },
   "sport_events": {
@@ -1212,31 +1212,262 @@
       "home_team_id": "p3glrw7hegvqdyj",
       "away_team_id": "gpxwrxlh8jwryk0",
       "start_timestamp": 1770217200,
-      "status_id": 1,
+      "status_id": 8,
       "sport_event_status": {
-        "status_id": 1,
+        "status_id": 8,
         "away_score": {
           "corners": 0,
-          "red_card": 0,
-          "yellow_card": 0,
+          "red_card": 1,
+          "yellow_card": 5,
           "penalty_score": 0,
-          "regular_score": 0,
+          "regular_score": 1,
           "overTime_score": 0,
-          "half_time_score": 0
+          "half_time_score": 1
         },
         "home_score": {
-          "corners": 0,
-          "red_card": 0,
-          "yellow_card": 0,
+          "corners": 9,
+          "red_card": 1,
+          "yellow_card": 4,
           "penalty_score": 0,
-          "regular_score": 0,
+          "regular_score": 1,
           "overTime_score": 0,
-          "half_time_score": 0
+          "half_time_score": 1
         },
         "kick_of_timestamp": 0
       },
       "related_id": "l7oqdehg8vl8r51",
-      "incidents": []
+      "incidents": [
+        {
+          "time": 5,
+          "type": 1,
+          "position": 1,
+          "player_id": "x7lm7ph982om2wd",
+          "assist1_id": "l7oqdeh6knzkr51",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Borja González",
+          "assist1_name": "Ilija Vukotić"
+        },
+        {
+          "time": 15,
+          "type": 3,
+          "position": 1,
+          "player_id": "n54qllh2j54qvy9",
+          "player_name": "Vasilis Lampropoulos",
+          "reason_type": 1
+        },
+        {
+          "time": 18,
+          "type": 1,
+          "position": 2,
+          "player_id": "2y8m4zh812jwql0",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Guillermo Balzi"
+        },
+        {
+          "time": 31,
+          "type": 3,
+          "position": 2,
+          "player_id": "6ypq3nhz7x62md7",
+          "player_name": "Enis Cokaj",
+          "reason_type": 1
+        },
+        {
+          "time": 40,
+          "type": 3,
+          "position": 1,
+          "player_id": "4wyrn4hvkeozq86",
+          "player_name": "C. Kontis",
+          "reason_type": 19
+        },
+        {
+          "time": 43,
+          "type": 3,
+          "position": 1,
+          "player_id": "965mkyhze4gr1ge",
+          "player_name": "Ilias Chatzitheodoridis",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 2,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 3,
+          "add_time": 2,
+          "position": 2,
+          "player_id": "1l4rjnhzwvgzm7v",
+          "player_name": "Ioannis Costi",
+          "reason_type": 1
+        },
+        {
+          "time": 48,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 58,
+          "type": 3,
+          "position": 2,
+          "player_id": "y0or5jhlvxkqwzv",
+          "player_name": "Yury Lodygin",
+          "reason_type": 15
+        },
+        {
+          "time": 62,
+          "type": 3,
+          "position": 1,
+          "player_id": "l7oqdeh6knzkr51",
+          "player_name": "Ilija Vukotić",
+          "reason_type": 1
+        },
+        {
+          "time": 62,
+          "type": 3,
+          "position": 1,
+          "player_id": "3glrw7hjnxxvqdy",
+          "player_name": "Thiago Nuss",
+          "reason_type": 1
+        },
+        {
+          "time": 63,
+          "type": 3,
+          "position": 2,
+          "player_id": "2y8m4zh812jwql0",
+          "player_name": "Guillermo Balzi",
+          "reason_type": 1
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "x7lm7ph9yy47m2w",
+          "out_player_id": "965mkyhze4gr1ge",
+          "in_player_name": "Pavlos Kainourgiakis",
+          "out_player_name": "Ilias Chatzitheodoridis"
+        },
+        {
+          "time": 67,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y39mp1hj1e1kmoj",
+          "out_player_id": "l7oqdeh6knzkr51",
+          "in_player_name": "Georgios Kanellopoulos",
+          "out_player_name": "Ilija Vukotić"
+        },
+        {
+          "time": 68,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whd43dryox",
+          "out_player_id": "2y8m4zh812jwql0",
+          "in_player_name": "Giorgos Nikas",
+          "out_player_name": "Guillermo Balzi"
+        },
+        {
+          "time": 74,
+          "type": 15,
+          "position": 2,
+          "player_id": "y0or5jhlvxkqwzv",
+          "player_name": "Yury Lodygin"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y39mp1h5o7pmojx",
+          "out_player_id": "6ypq3nhzg1wmd7o",
+          "in_player_name": "Ognjen Ožegović",
+          "out_player_name": "Alen Ožbolt"
+        },
+        {
+          "time": 78,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "y39mp1hjy6y1moj",
+          "out_player_id": "1l4rjnhzwvgzm7v",
+          "in_player_name": "Lucas Nunes Anacker",
+          "out_player_name": "Ioannis Costi"
+        },
+        {
+          "time": 87,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66h77g9qo9j",
+          "out_player_id": "2y8m4zhjlxeql07",
+          "in_player_name": "Eddie Salcedo",
+          "out_player_name": "Taxiarchis Fountas"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "ednm9whgjzvryox",
+          "out_player_id": "ednm9whz2pyryox",
+          "in_player_name": "Fabricio Pedrozo",
+          "out_player_name": "Sebastián Palacios"
+        },
+        {
+          "time": 89,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "vjxm8ghpgpoor6o",
+          "out_player_id": "6ypq3nhz7x62md7",
+          "in_player_name": "Lamarana Jallow",
+          "out_player_name": "Enis Cokaj"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 9,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 3,
+          "add_time": 1,
+          "position": 2,
+          "player_id": "vjxm8ghx3w3r6od",
+          "player_name": "Georgios Kornezos",
+          "reason_type": 1
+        },
+        {
+          "time": 92,
+          "type": 9,
+          "add_time": 2,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "x7lm7ph0y1om2wd",
+          "out_player_id": "n54qllh2j54qvy9",
+          "in_player_name": "Levan Shengelia",
+          "out_player_name": "Vasilis Lampropoulos"
+        },
+        {
+          "time": 100,
+          "type": 15,
+          "add_time": 10,
+          "position": 1,
+          "player_id": "3glrw7hjnxxvqdy",
+          "player_name": "Thiago Nuss"
+        },
+        {
+          "time": 100,
+          "type": 12,
+          "position": 0
+        }
+      ]
     },
     "8yomo4h1g8pdq0j": {
       "id": "8yomo4h1g8pdq0j",
@@ -1976,22 +2207,22 @@
       "home_team_id": "vl7oqdehkw6r510",
       "away_team_id": "v2y8m4zhy8vql07",
       "start_timestamp": 1770229800,
-      "status_id": 1,
+      "status_id": 8,
       "sport_event_status": {
-        "status_id": 1,
+        "status_id": 8,
         "away_score": {
-          "corners": 0,
+          "corners": 4,
           "red_card": 0,
-          "yellow_card": 0,
+          "yellow_card": 2,
           "penalty_score": 0,
-          "regular_score": 0,
+          "regular_score": 1,
           "overTime_score": 0,
           "half_time_score": 0
         },
         "home_score": {
-          "corners": 0,
+          "corners": 5,
           "red_card": 0,
-          "yellow_card": 0,
+          "yellow_card": 2,
           "penalty_score": 0,
           "regular_score": 0,
           "overTime_score": 0,
@@ -2000,7 +2231,142 @@
         "kick_of_timestamp": 0
       },
       "related_id": "jw2r09hk6ew0rz8",
-      "incidents": []
+      "incidents": [
+        {
+          "time": 28,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdeh4w8dr510",
+          "player_name": "Jonjoe Kenny",
+          "reason_type": 1
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 1,
+          "position": 0
+        },
+        {
+          "time": 47,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "l7oqdeh0yzjr510",
+          "out_player_id": "k82rekh3kjerepz",
+          "in_player_name": "Karol Świderski",
+          "out_player_name": "Adam Gnezda Čerin"
+        },
+        {
+          "time": 61,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "l5ergphn3gyer8k",
+          "out_player_id": "jw2r09hwj5znrz8",
+          "in_player_name": "Dimitrios Chatsidis",
+          "out_player_name": "Anestis Mythou"
+        },
+        {
+          "time": 62,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h25nwq0j6",
+          "out_player_id": "23xmvkhop8nqg8n",
+          "in_player_name": "Giorgos Giakoumakis",
+          "out_player_name": "Dimitrios Pelkas"
+        },
+        {
+          "time": 65,
+          "type": 3,
+          "position": 1,
+          "player_id": "318q66h0j9xqo9j",
+          "player_name": "Sverrir Ingi Ingason",
+          "reason_type": 19
+        },
+        {
+          "time": 66,
+          "type": 8,
+          "position": 2,
+          "player_id": "8yomo4h25nwq0j6",
+          "away_score": 1,
+          "home_score": 0,
+          "player_name": "Giorgos Giakoumakis"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhj848oryk",
+          "out_player_id": "ednm9whgee5kryo",
+          "in_player_name": "Georgios Marios Katris",
+          "out_player_name": "S. Kontouris"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4hve4dvq86",
+          "out_player_id": "l5ergphp6d1r8k0",
+          "in_player_name": "Pavlos Pantelidis",
+          "out_player_name": "Anass Zaroury"
+        },
+        {
+          "time": 72,
+          "type": 3,
+          "position": 2,
+          "player_id": "l5ergphn3gyer8k",
+          "player_name": "Dimitrios Chatsidis",
+          "reason_type": 1
+        },
+        {
+          "time": 79,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhvx4pryk0",
+          "out_player_id": "965mkyh7148r1ge",
+          "in_player_name": "Mady Camara",
+          "out_player_name": "Taison Barcellos Freda"
+        },
+        {
+          "time": 84,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "y39mp1hyp36gmoj",
+          "out_player_id": "zp5rzghx5dvjq82",
+          "in_player_name": "Vicente Taborda",
+          "out_player_name": "Santino Andino"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 5,
+          "position": 0
+        },
+        {
+          "time": 95,
+          "type": 3,
+          "add_time": 5,
+          "position": 1,
+          "player_id": "l7oqdeh0yzjr510",
+          "player_name": "Karol Świderski",
+          "reason_type": 1
+        },
+        {
+          "time": 96,
+          "type": 12,
+          "position": 0
+        }
+      ]
     },
     "l5ergph4pvkkr8k": {
       "id": "l5ergph4pvkkr8k",

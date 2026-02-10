@@ -7,6 +7,140 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "8yomo4hk26kzq0j",
+            "home_team_id": "z318q66hl3dqo9j",
+            "away_team_id": "gy0or5jhkw1qwzv",
+            "home_team_name": "Brusque FC",
+            "away_team_name": "Criciuma",
+            "home_score": 2,
+            "away_score": 3,
+            "winner_team_id": "gy0or5jhkw1qwzv",
+            "position": 1,
+            "round_id": "y0or5jh69pjqwzv",
+            "round_number": 3,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1711827000,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 4,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 3,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "z318q66hl3dqo9j",
+              "away_team_id": "gy0or5jhkw1qwzv",
+              "home_team_name": "Brusque FC",
+              "away_team_name": "Criciuma"
+            },
+            "second_leg": {
+              "state_id": 8,
+              "start_time": 1712431800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 4,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 6,
+                "yellow_card": 3,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "home_team_id": "gy0or5jhkw1qwzv",
+              "away_team_id": "z318q66hl3dqo9j",
+              "home_team_name": "Criciuma",
+              "away_team_name": "Brusque FC"
+            },
+            "event_ids": [
+              "y0or5jhn6xeeqwz",
+              "n54qllh715x8qvy"
+            ],
+            "state_id": 8
+          }
+        },
+        "1": {
+          "1": {
+            "id": "k82rekh9y020rep",
+            "home_team_id": "z318q66hl3dqo9j",
+            "away_team_id": "gy0or5jhy80qwzv",
+            "home_team_name": "Brusque FC",
+            "away_team_name": "Avaí FC",
+            "home_score": 4,
+            "away_score": 2,
+            "winner_team_id": "z318q66hl3dqo9j",
+            "position": 1,
+            "round_id": "x7lm7ph8x65m2wd",
+            "round_number": 2,
+            "event_ids": [
+              "pxwrxlh57wkxryk",
+              "3glrw7h70ev7qdy"
+            ],
+            "state_id": 7
+          },
+          "2": {
+            "id": "318q66h0v68wqo9",
+            "home_team_id": "4wyrn4heyelq86p",
+            "away_team_id": "gy0or5jhkw1qwzv",
+            "home_team_name": "Barra FC",
+            "away_team_name": "Criciuma",
+            "home_score": 6,
+            "away_score": 7,
+            "winner_team_id": "gy0or5jhkw1qwzv",
+            "position": 2,
+            "round_id": "x7lm7ph8x65m2wd",
+            "round_number": 2,
+            "event_ids": [
+              "vjxm8ghl9ozer6o",
+              "x7lm7phznd1xm2w"
+            ],
+            "state_id": 8
+          }
+        },
+        "2": {
+          "1": {
             "id": "pxwrxlh19j3eryk",
             "home_team_id": "z318q66hl3dqo9j",
             "away_team_id": "8yomo4hkz95q0j6",
@@ -19,11 +153,7 @@
             "round_id": "vjxm8gh3k1xr6od",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1709938800,
               "pen_m5": [
                 0,
@@ -61,11 +191,7 @@
               "away_team_name": "Marcilio Dias SC"
             },
             "second_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1710709200,
               "pen_m5": [
                 3,
@@ -121,11 +247,7 @@
               "zp5rzgh50pozq82",
               "x7lm7phznwx4m2w"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            },
+            "state_id": 7,
             "pen_array": [
               [
                 1,
@@ -155,11 +277,7 @@
             "round_id": "vjxm8gh3k1xr6od",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1710012600,
               "pen_m5": [
                 0,
@@ -197,11 +315,7 @@
               "away_team_name": "Avaí FC"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1710617400,
               "pen_m5": [
                 0,
@@ -242,11 +356,7 @@
               "3glrw7h70y4vqdy",
               "n54qllh79832qvy"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "3": {
             "id": "vjxm8ghgj8w5r6o",
@@ -261,11 +371,7 @@
             "round_id": "vjxm8gh3k1xr6od",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1710100800,
               "pen_m5": [
                 0,
@@ -303,11 +409,7 @@
               "away_team_name": "Figueirense"
             },
             "second_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1710543600,
               "pen_m5": [
                 4,
@@ -364,11 +466,7 @@
               "1l4rjnh42xgxm7v",
               "vjxm8ghl98knr6o"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            },
+            "state_id": 7,
             "pen_array": [
               [
                 1,
@@ -399,11 +497,7 @@
             "round_id": "vjxm8gh3k1xr6od",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1710018000,
               "pen_m5": [
                 0,
@@ -441,11 +535,7 @@
               "away_team_name": "Criciuma"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1710714600,
               "pen_m5": [
                 0,
@@ -486,173 +576,15 @@
               "23xmvkh8wk2oqg8",
               "y0or5jhnj35xqwz"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "k82rekh9y020rep",
-            "home_team_id": "z318q66hl3dqo9j",
-            "away_team_id": "gy0or5jhy80qwzv",
-            "home_team_name": "Brusque FC",
-            "away_team_name": "Avaí FC",
-            "home_score": 4,
-            "away_score": 2,
-            "winner_team_id": "z318q66hl3dqo9j",
-            "position": 1,
-            "round_id": "x7lm7ph8x65m2wd",
-            "round_number": 2,
-            "event_ids": [
-              "pxwrxlh57wkxryk",
-              "3glrw7h70ev7qdy"
-            ],
-            "status": {
-              "code": 0,
-              "description": "Finished",
-              "type": "finished"
-            }
-          },
-          "2": {
-            "id": "318q66h0v68wqo9",
-            "home_team_id": "4wyrn4heyelq86p",
-            "away_team_id": "gy0or5jhkw1qwzv",
-            "home_team_name": "Barra FC",
-            "away_team_name": "Criciuma",
-            "home_score": 6,
-            "away_score": 7,
-            "winner_team_id": "gy0or5jhkw1qwzv",
-            "position": 2,
-            "round_id": "x7lm7ph8x65m2wd",
-            "round_number": 2,
-            "event_ids": [
-              "vjxm8ghl9ozer6o",
-              "x7lm7phznd1xm2w"
-            ],
-            "status": {
-              "code": 0,
-              "description": "Finished",
-              "type": "finished"
-            }
-          }
-        },
-        "2": {
-          "1": {
-            "id": "8yomo4hk26kzq0j",
-            "home_team_id": "z318q66hl3dqo9j",
-            "away_team_id": "gy0or5jhkw1qwzv",
-            "home_team_name": "Brusque FC",
-            "away_team_name": "Criciuma",
-            "home_score": 2,
-            "away_score": 3,
-            "winner_team_id": "gy0or5jhkw1qwzv",
-            "position": 1,
-            "round_id": "y0or5jh69pjqwzv",
-            "round_number": 3,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1711827000,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 0,
-                "period_2": 1,
-                "corner": 4,
-                "yellow_card": 3,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -1,
-                "ft_score_only": 1
-              },
-              "away_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 1,
-                "period_2": 1,
-                "corner": 3,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "home_team_id": "z318q66hl3dqo9j",
-              "away_team_id": "gy0or5jhkw1qwzv",
-              "home_team_name": "Brusque FC",
-              "away_team_name": "Criciuma"
-            },
-            "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1712431800,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 1,
-                "period_2": 0,
-                "corner": 4,
-                "yellow_card": 3,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -1,
-                "ft_score_only": 1
-              },
-              "away_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 0,
-                "period_2": 1,
-                "corner": 6,
-                "yellow_card": 3,
-                "red_card": 1,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -1,
-                "ft_score_only": 1
-              },
-              "home_team_id": "gy0or5jhkw1qwzv",
-              "away_team_id": "z318q66hl3dqo9j",
-              "home_team_name": "Criciuma",
-              "away_team_name": "Brusque FC"
-            },
-            "event_ids": [
-              "y0or5jhn6xeeqwz",
-              "n54qllh715x8qvy"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           }
         }
       },
       "rounds": [
         {
-          "id": "vjxm8gh3k1xr6od",
-          "description": "Quarterfinals",
-          "number": 1
+          "id": "y0or5jh69pjqwzv",
+          "description": "Final",
+          "number": 3
         },
         {
           "id": "x7lm7ph8x65m2wd",
@@ -660,9 +592,9 @@
           "number": 2
         },
         {
-          "id": "y0or5jh69pjqwzv",
-          "description": "Final",
-          "number": 3
+          "id": "vjxm8gh3k1xr6od",
+          "description": "Quarterfinals",
+          "number": 1
         }
       ],
       "total_rounds": 3

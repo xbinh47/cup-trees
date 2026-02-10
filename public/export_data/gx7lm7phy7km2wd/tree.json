@@ -7,68 +7,59 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "y0or5jhldd79qwz",
             "home_team_id": "z318q66he8lqo9j",
+            "away_team_id": "dn1m1gh484vmoep",
             "home_team_name": "Al Qadisiya SC",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
+            "away_team_name": "Al-Salmiya",
+            "home_score": 6,
+            "away_score": 5,
             "winner_team_id": "z318q66he8lqo9j",
             "position": 1,
-            "round_number": 1,
-            "is_bye": true,
-            "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
-          },
-          "2": {
-            "home_team_id": "318q66hojzlqo9j",
-            "home_team_name": "Al-Sahel",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "318q66hojzlqo9j",
-            "position": 2,
-            "round_number": 1,
-            "is_bye": true,
-            "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
-          },
-          "3": {
-            "home_team_id": "pxwrxlhg1n0ryk0",
-            "home_team_name": "Al-Arabi Club (KUW)",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "pxwrxlhg1n0ryk0",
-            "position": 3,
-            "round_number": 1,
-            "is_bye": true,
-            "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
-          },
-          "4": {
-            "home_team_id": "dn1m1gh484vmoep",
-            "home_team_name": "Al-Salmiya",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "dn1m1gh484vmoep",
-            "position": 4,
-            "round_number": 1,
-            "is_bye": true,
-            "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
+            "round_id": "l5ergph5dxor8k0",
+            "round_number": 3,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1679941800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 3,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 4,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 0,
+                "period_2": 2,
+                "corner": 8,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 3,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "z318q66he8lqo9j",
+              "away_team_id": "dn1m1gh484vmoep",
+              "home_team_name": "Al Qadisiya SC",
+              "away_team_name": "Al-Salmiya"
+            },
+            "event_ids": [
+              "3glrw7h35lwpqdy"
+            ],
+            "state_id": 7
           }
         },
         "1": {
@@ -85,11 +76,7 @@
             "round_id": "4wyrn4h7wpzq86p",
             "round_number": 2,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1679596200,
               "pen_m5": [
                 0,
@@ -129,11 +116,7 @@
             "event_ids": [
               "dn1m1ghpz42lmoe"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           },
           "2": {
             "id": "x7lm7phkdd4jm2w",
@@ -148,11 +131,7 @@
             "round_id": "4wyrn4h7wpzq86p",
             "round_number": 2,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1679596200,
               "pen_m5": [
                 0,
@@ -192,92 +171,23 @@
             "event_ids": [
               "4wyrn4hon8xyq86"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "2": {
-          "1": {
-            "id": "y0or5jhldd79qwz",
-            "home_team_id": "z318q66he8lqo9j",
-            "away_team_id": "dn1m1gh484vmoep",
-            "home_team_name": "Al Qadisiya SC",
-            "away_team_name": "Al-Salmiya",
-            "home_score": 6,
-            "away_score": 5,
-            "winner_team_id": "z318q66he8lqo9j",
-            "position": 1,
-            "round_id": "l5ergph5dxor8k0",
-            "round_number": 3,
-            "first_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
-              "start_time": 1679941800,
-              "pen_m5": [
-                4,
-                3
-              ],
-              "home_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 1,
-                "period_2": 1,
-                "corner": 3,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 4,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "away_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 0,
-                "period_2": 2,
-                "corner": 8,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 3,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "home_team_id": "z318q66he8lqo9j",
-              "away_team_id": "dn1m1gh484vmoep",
-              "home_team_name": "Al Qadisiya SC",
-              "away_team_name": "Al-Salmiya"
-            },
-            "event_ids": [
-              "3glrw7h35lwpqdy"
-            ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            }
+            "state_id": 8
           }
         }
       },
       "rounds": [
         {
-          "id": "4wyrn4h7wpzq86p",
-          "description": "Semi Finals",
-          "number": 2
-        },
-        {
           "id": "l5ergph5dxor8k0",
           "description": "Final",
           "number": 3
+        },
+        {
+          "id": "4wyrn4h7wpzq86p",
+          "description": "Semi Finals",
+          "number": 2
         }
       ],
-      "total_rounds": 3
+      "total_rounds": 2
     }
   ]
 }

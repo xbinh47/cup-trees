@@ -7,134 +7,6 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "jw2r09hnlk82rz8",
-            "home_team_id": "4zp5rzghvdoq82w",
-            "away_team_id": "8y39mp1h80jmojx",
-            "home_team_name": "Napoli",
-            "away_team_name": "Fiorentina",
-            "home_score": 3,
-            "away_score": 0,
-            "winner_team_id": "4zp5rzghvdoq82w",
-            "position": 1,
-            "round_id": "l7oqdeh2e2yr510",
-            "round_number": 1,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1705604400,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 1,
-                "period_2": 2,
-                "corner": 4,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 6,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "4zp5rzghvdoq82w",
-              "away_team_id": "8y39mp1h80jmojx",
-              "home_team_name": "Napoli",
-              "away_team_name": "Fiorentina"
-            },
-            "event_ids": [
-              "965mkyhyn30wr1g"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          },
-          "2": {
-            "id": "l5ergph3o4glr8k",
-            "home_team_id": "9dn1m1ghzl2moep",
-            "away_team_id": "8y39mp1hg44mojx",
-            "home_team_name": "Inter Milan",
-            "away_team_name": "Lazio",
-            "home_score": 3,
-            "away_score": 0,
-            "winner_team_id": "9dn1m1ghzl2moep",
-            "position": 2,
-            "round_id": "l7oqdeh2e2yr510",
-            "round_number": 1,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1705690800,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 1,
-                "period_2": 2,
-                "corner": 7,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "9dn1m1ghzl2moep",
-              "away_team_id": "8y39mp1hg44mojx",
-              "home_team_name": "Inter Milan",
-              "away_team_name": "Lazio"
-            },
-            "event_ids": [
-              "y39mp1hz1jeemoj"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
             "id": "2y8m4zhjjjzzql0",
             "home_team_id": "4zp5rzghvdoq82w",
             "away_team_id": "9dn1m1ghzl2moep",
@@ -147,11 +19,7 @@
             "round_id": "dj2ryoh4d4kq1zp",
             "round_number": 2,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1705950000,
               "pen_m5": [
                 0,
@@ -191,24 +59,132 @@
             "event_ids": [
               "n54qllh7d295qvy"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
+          }
+        },
+        "1": {
+          "1": {
+            "id": "jw2r09hnlk82rz8",
+            "home_team_id": "4zp5rzghvdoq82w",
+            "away_team_id": "8y39mp1h80jmojx",
+            "home_team_name": "Napoli",
+            "away_team_name": "Fiorentina",
+            "home_score": 3,
+            "away_score": 0,
+            "winner_team_id": "4zp5rzghvdoq82w",
+            "position": 1,
+            "round_id": "l7oqdeh2e2yr510",
+            "round_number": 1,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1705604400,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 2,
+                "corner": 4,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 6,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "4zp5rzghvdoq82w",
+              "away_team_id": "8y39mp1h80jmojx",
+              "home_team_name": "Napoli",
+              "away_team_name": "Fiorentina"
+            },
+            "event_ids": [
+              "965mkyhyn30wr1g"
+            ],
+            "state_id": 7
+          },
+          "2": {
+            "id": "l5ergph3o4glr8k",
+            "home_team_id": "9dn1m1ghzl2moep",
+            "away_team_id": "8y39mp1hg44mojx",
+            "home_team_name": "Inter Milan",
+            "away_team_name": "Lazio",
+            "home_score": 3,
+            "away_score": 0,
+            "winner_team_id": "9dn1m1ghzl2moep",
+            "position": 2,
+            "round_id": "l7oqdeh2e2yr510",
+            "round_number": 1,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1705690800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 2,
+                "corner": 7,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "9dn1m1ghzl2moep",
+              "away_team_id": "8y39mp1hg44mojx",
+              "home_team_name": "Inter Milan",
+              "away_team_name": "Lazio"
+            },
+            "event_ids": [
+              "y39mp1hz1jeemoj"
+            ],
+            "state_id": 7
           }
         }
       },
       "rounds": [
         {
-          "id": "l7oqdeh2e2yr510",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "dj2ryoh4d4kq1zp",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "l7oqdeh2e2yr510",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2

@@ -7,87 +7,6 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "4wyrn4h8ww8oq86",
-            "home_team_id": "jw2r09hne4orz84",
-            "away_team_id": "2y8m4zh3d4oql07",
-            "home_team_name": "Gyeongju Korea Hydro \u0026 Nuclear Power WFC",
-            "away_team_name": "Suwon FC Women",
-            "home_score": 4,
-            "away_score": 3,
-            "winner_team_id": "jw2r09hne4orz84",
-            "position": 1,
-            "round_id": "1l4rjnh3ev6m7vx",
-            "round_number": 1,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1667552400,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 4,
-                "display": 4,
-                "period_1": 3,
-                "period_2": 1,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -4,
-                "ft_score_only": 4
-              },
-              "away_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 2,
-                "period_2": 1,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "home_team_id": "jw2r09hne4orz84",
-              "away_team_id": "2y8m4zh3d4oql07",
-              "home_team_name": "Gyeongju Korea Hydro \u0026 Nuclear Power WFC",
-              "away_team_name": "Suwon FC Women"
-            },
-            "event_ids": [
-              "8yomo4hg1jnjq0j"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          },
-          "2": {
-            "home_team_id": "2y8m4zh3lwgql07",
-            "home_team_name": "Incheon Hyundai Steel Red Angels (w)",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "2y8m4zh3lwgql07",
-            "position": 2,
-            "round_number": 1,
-            "is_bye": true,
-            "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
-          }
-        },
-        "1": {
-          "1": {
             "id": "6ypq3nh0880omd7",
             "home_team_id": "jw2r09hne4orz84",
             "away_team_id": "2y8m4zh3lwgql07",
@@ -100,11 +19,7 @@
             "round_id": "4jwq2gh01lkm0ve",
             "round_number": 2,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1668834000,
               "pen_m5": [
                 0,
@@ -142,11 +57,7 @@
               "away_team_name": "Incheon Hyundai Steel Red Angels (w)"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1669438800,
               "pen_m5": [
                 0,
@@ -187,24 +98,89 @@
               "4jwq2ghzgvewm0v",
               "l5ergphlkeknr8k"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
+          }
+        },
+        "1": {
+          "1": {
+            "id": "4wyrn4h8ww8oq86",
+            "home_team_id": "jw2r09hne4orz84",
+            "away_team_id": "2y8m4zh3d4oql07",
+            "home_team_name": "Gyeongju Korea Hydro \u0026 Nuclear Power WFC",
+            "away_team_name": "Suwon FC Women",
+            "home_score": 4,
+            "away_score": 3,
+            "winner_team_id": "jw2r09hne4orz84",
+            "position": 1,
+            "round_id": "1l4rjnh3ev6m7vx",
+            "round_number": 1,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1667552400,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 4,
+                "display": 4,
+                "period_1": 3,
+                "period_2": 1,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -4,
+                "ft_score_only": 4
+              },
+              "away_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 2,
+                "period_2": 1,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "home_team_id": "jw2r09hne4orz84",
+              "away_team_id": "2y8m4zh3d4oql07",
+              "home_team_name": "Gyeongju Korea Hydro \u0026 Nuclear Power WFC",
+              "away_team_name": "Suwon FC Women"
+            },
+            "event_ids": [
+              "8yomo4hg1jnjq0j"
+            ],
+            "state_id": 7
+          },
+          "2": {
+            "home_team_id": "2y8m4zh3lwgql07",
+            "home_team_name": "Incheon Hyundai Steel Red Angels (w)",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "2y8m4zh3lwgql07",
+            "position": 2,
+            "round_number": 1,
+            "is_bye": true,
+            "state_id": -2
           }
         }
       },
       "rounds": [
         {
-          "id": "1l4rjnh3ev6m7vx",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "4jwq2gh01lkm0ve",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "1l4rjnh3ev6m7vx",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2

@@ -7,134 +7,6 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "x7lm7phky33lm2w",
-            "home_team_id": "k82rekh9691repz",
-            "away_team_id": "4zp5rzghn83q82w",
-            "home_team_name": "Indonesia U22",
-            "away_team_name": "Vietnam U22",
-            "home_score": 3,
-            "away_score": 2,
-            "winner_team_id": "k82rekh9691repz",
-            "position": 1,
-            "round_id": "pxwrxlh7ge8ryk0",
-            "round_number": 1,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1683968400,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 1,
-                "period_2": 2,
-                "corner": 2,
-                "yellow_card": 2,
-                "red_card": 1,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "away_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 1,
-                "period_2": 1,
-                "corner": 5,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "home_team_id": "k82rekh9691repz",
-              "away_team_id": "4zp5rzghn83q82w",
-              "home_team_name": "Indonesia U22",
-              "away_team_name": "Vietnam U22"
-            },
-            "event_ids": [
-              "pxwrxlhx8d46ryk"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          },
-          "2": {
-            "id": "y0or5jhlyzz7qwz",
-            "home_team_id": "pxwrxlh17d5ryk0",
-            "away_team_id": "4jwq2gh4kd4m0ve",
-            "home_team_name": "Thailand U22",
-            "away_team_name": "Myanmar U22",
-            "home_score": 3,
-            "away_score": 0,
-            "winner_team_id": "pxwrxlh17d5ryk0",
-            "position": 2,
-            "round_id": "pxwrxlh7ge8ryk0",
-            "round_number": 1,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1683982800,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 1,
-                "period_2": 2,
-                "corner": 3,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 4,
-                "yellow_card": 4,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "pxwrxlh17d5ryk0",
-              "away_team_id": "4jwq2gh4kd4m0ve",
-              "home_team_name": "Thailand U22",
-              "away_team_name": "Myanmar U22"
-            },
-            "event_ids": [
-              "3glrw7h32d8dqdy"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
             "id": "4wyrn4h8pop5q86",
             "home_team_id": "k82rekh9691repz",
             "away_team_id": "pxwrxlh17d5ryk0",
@@ -147,11 +19,7 @@
             "round_id": "3glrw7h0w68qdyj",
             "round_number": 2,
             "first_leg": {
-              "status": {
-                "code": 110,
-                "description": "AET",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1684240200,
               "pen_m5": [
                 0,
@@ -191,24 +59,132 @@
             "event_ids": [
               "6ypq3nh795gymd7"
             ],
-            "status": {
-              "code": 110,
-              "description": "AET",
-              "type": "finished"
-            }
+            "state_id": 7
+          }
+        },
+        "1": {
+          "1": {
+            "id": "x7lm7phky33lm2w",
+            "home_team_id": "k82rekh9691repz",
+            "away_team_id": "4zp5rzghn83q82w",
+            "home_team_name": "Indonesia U22",
+            "away_team_name": "Vietnam U22",
+            "home_score": 3,
+            "away_score": 2,
+            "winner_team_id": "k82rekh9691repz",
+            "position": 1,
+            "round_id": "pxwrxlh7ge8ryk0",
+            "round_number": 1,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1683968400,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 2,
+                "corner": 2,
+                "yellow_card": 2,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 5,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "k82rekh9691repz",
+              "away_team_id": "4zp5rzghn83q82w",
+              "home_team_name": "Indonesia U22",
+              "away_team_name": "Vietnam U22"
+            },
+            "event_ids": [
+              "pxwrxlhx8d46ryk"
+            ],
+            "state_id": 7
+          },
+          "2": {
+            "id": "y0or5jhlyzz7qwz",
+            "home_team_id": "pxwrxlh17d5ryk0",
+            "away_team_id": "4jwq2gh4kd4m0ve",
+            "home_team_name": "Thailand U22",
+            "away_team_name": "Myanmar U22",
+            "home_score": 3,
+            "away_score": 0,
+            "winner_team_id": "pxwrxlh17d5ryk0",
+            "position": 2,
+            "round_id": "pxwrxlh7ge8ryk0",
+            "round_number": 1,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1683982800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 2,
+                "corner": 3,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 4,
+                "yellow_card": 4,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "pxwrxlh17d5ryk0",
+              "away_team_id": "4jwq2gh4kd4m0ve",
+              "home_team_name": "Thailand U22",
+              "away_team_name": "Myanmar U22"
+            },
+            "event_ids": [
+              "3glrw7h32d8dqdy"
+            ],
+            "state_id": 7
           }
         }
       },
       "rounds": [
         {
-          "id": "pxwrxlh7ge8ryk0",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "3glrw7h0w68qdyj",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "pxwrxlh7ge8ryk0",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2,
@@ -226,11 +202,7 @@
         "round_number": 1,
         "is_third_place": true,
         "first_leg": {
-          "status": {
-            "code": 100,
-            "description": "ended",
-            "type": "finished"
-          },
+          "state_id": 8,
           "start_time": 1684227600,
           "pen_m5": [
             0,
@@ -270,11 +242,7 @@
         "event_ids": [
           "8yomo4hgpk9oq0j"
         ],
-        "status": {
-          "code": 100,
-          "description": "ended",
-          "type": "finished"
-        }
+        "state_id": 7
       }
     }
   ]

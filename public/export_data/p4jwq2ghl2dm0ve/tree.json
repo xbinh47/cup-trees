@@ -7,6 +7,63 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "n54qllhe3o7eqvy",
+            "home_team_id": "4zp5rzghvdoq82w",
+            "away_team_id": "v2y8m4zhdw6ql07",
+            "home_team_name": "Napoli",
+            "away_team_name": "Bologna",
+            "home_score": 2,
+            "away_score": 0,
+            "winner_team_id": "4zp5rzghvdoq82w",
+            "position": 1,
+            "round_id": "23xmvkhp72eqg8n",
+            "round_number": 2,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1766430000,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 7,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 5,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "4zp5rzghvdoq82w",
+              "away_team_id": "v2y8m4zhdw6ql07",
+              "home_team_name": "Napoli",
+              "away_team_name": "Bologna"
+            },
+            "event_ids": [
+              "8yomo4h1gkogq0j"
+            ],
+            "state_id": 7
+          }
+        },
+        "1": {
+          "1": {
             "id": "x7lm7phov1zgm2w",
             "home_team_id": "4zp5rzghvdoq82w",
             "away_team_id": "yl5ergph63er8k0",
@@ -19,11 +76,7 @@
             "round_id": "n54qllhpv3oqvy9",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1766084400,
               "pen_m5": [
                 0,
@@ -63,11 +116,7 @@
             "event_ids": [
               "dn1m1ghl7g9lmoe"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           },
           "2": {
             "id": "y0or5jh452nlqwz",
@@ -82,11 +131,7 @@
             "round_id": "n54qllhpv3oqvy9",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1766170800,
               "pen_m5": [
                 3,
@@ -142,11 +187,7 @@
             "event_ids": [
               "4wyrn4h625yyq86"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            },
+            "state_id": 7,
             "pen_array": [
               [
                 1,
@@ -164,83 +205,18 @@
               ]
             ]
           }
-        },
-        "1": {
-          "1": {
-            "id": "n54qllhe3o7eqvy",
-            "home_team_id": "4zp5rzghvdoq82w",
-            "away_team_id": "v2y8m4zhdw6ql07",
-            "home_team_name": "Napoli",
-            "away_team_name": "Bologna",
-            "home_score": 2,
-            "away_score": 0,
-            "winner_team_id": "4zp5rzghvdoq82w",
-            "position": 1,
-            "round_id": "23xmvkhp72eqg8n",
-            "round_number": 2,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1766430000,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 1,
-                "period_2": 1,
-                "corner": 7,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 5,
-                "yellow_card": 3,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "4zp5rzghvdoq82w",
-              "away_team_id": "v2y8m4zhdw6ql07",
-              "home_team_name": "Napoli",
-              "away_team_name": "Bologna"
-            },
-            "event_ids": [
-              "8yomo4h1gkogq0j"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
         }
       },
       "rounds": [
         {
-          "id": "n54qllhpv3oqvy9",
-          "description": "Semifinals",
-          "number": 1
-        },
-        {
           "id": "23xmvkhp72eqg8n",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "n54qllhpv3oqvy9",
+          "description": "Semifinals",
+          "number": 1
         }
       ],
       "total_rounds": 2

@@ -7,87 +7,6 @@
       "nodes": {
         "0": {
           "1": {
-            "home_team_id": "zp5rzghjeodq82w",
-            "home_team_name": "CS Universitatea Craiova",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "zp5rzghjeodq82w",
-            "position": 1,
-            "round_number": 1,
-            "is_bye": true,
-            "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
-          },
-          "2": {
-            "id": "ednm9wh9g869ryo",
-            "home_team_id": "vl7oqdehko9r510",
-            "away_team_id": "vjxm8gh4573r6od",
-            "home_team_name": "FC Otelul Galati",
-            "away_team_name": "FC Universitatea Cluj",
-            "home_score": 0,
-            "away_score": 2,
-            "winner_team_id": "vjxm8gh4573r6od",
-            "position": 2,
-            "round_id": "965mkyh5pw7r1ge",
-            "round_number": 1,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1716118200,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 3,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "away_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 0,
-                "period_2": 2,
-                "corner": 2,
-                "yellow_card": 3,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "home_team_id": "vl7oqdehko9r510",
-              "away_team_id": "vjxm8gh4573r6od",
-              "home_team_name": "FC Otelul Galati",
-              "away_team_name": "FC Universitatea Cluj"
-            },
-            "event_ids": [
-              "l7oqdeho3j30r51"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
             "id": "2y8m4zhjzjkwql0",
             "home_team_id": "zp5rzghjeodq82w",
             "away_team_id": "vjxm8gh4573r6od",
@@ -100,11 +19,7 @@
             "round_id": "y39mp1hw7o5mojx",
             "round_number": 2,
             "first_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1716742800,
               "pen_m5": [
                 5,
@@ -162,11 +77,7 @@
             "event_ids": [
               "3glrw7h7p981qdy"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            },
+            "state_id": 7,
             "pen_array": [
               [
                 1,
@@ -186,18 +97,87 @@
               ]
             ]
           }
+        },
+        "1": {
+          "1": {
+            "home_team_id": "zp5rzghjeodq82w",
+            "home_team_name": "CS Universitatea Craiova",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "zp5rzghjeodq82w",
+            "position": 1,
+            "round_number": 1,
+            "is_bye": true,
+            "state_id": -2
+          },
+          "2": {
+            "id": "ednm9wh9g869ryo",
+            "home_team_id": "vl7oqdehko9r510",
+            "away_team_id": "vjxm8gh4573r6od",
+            "home_team_name": "FC Otelul Galati",
+            "away_team_name": "FC Universitatea Cluj",
+            "home_score": 0,
+            "away_score": 2,
+            "winner_team_id": "vjxm8gh4573r6od",
+            "position": 2,
+            "round_id": "965mkyh5pw7r1ge",
+            "round_number": 1,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1716118200,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 3,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 0,
+                "period_2": 2,
+                "corner": 2,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "vl7oqdehko9r510",
+              "away_team_id": "vjxm8gh4573r6od",
+              "home_team_name": "FC Otelul Galati",
+              "away_team_name": "FC Universitatea Cluj"
+            },
+            "event_ids": [
+              "l7oqdeho3j30r51"
+            ],
+            "state_id": 8
+          }
         }
       },
       "rounds": [
         {
-          "id": "965mkyh5pw7r1ge",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "y39mp1hw7o5mojx",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "965mkyh5pw7r1ge",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2
@@ -220,11 +200,7 @@
             "round_id": "n54qllh1v81qvy9",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1715965200,
               "pen_m5": [
                 0,
@@ -262,11 +238,7 @@
               "away_team_name": "CS Mioveni"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1716570000,
               "pen_m5": [
                 0,
@@ -307,11 +279,7 @@
               "318q66hwgw0kqo9",
               "4jwq2ghe9ex1m0v"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           },
           "2": {
             "id": "dj2ryohygw2vq1z",
@@ -326,11 +294,7 @@
             "round_id": "n54qllh1v81qvy9",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1716224400,
               "pen_m5": [
                 0,
@@ -368,11 +332,7 @@
               "away_team_name": "FK Csikszereda Miercurea Ciuc"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1716829200,
               "pen_m5": [
                 0,
@@ -413,11 +373,7 @@
               "6ypq3nh3n3z8md7",
               "ednm9wh707vdryo"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           }
         }
       },

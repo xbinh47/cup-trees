@@ -19,11 +19,7 @@
             "round_id": "965mkyh274zr1ge",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1734015600,
               "pen_m5": [
                 0,
@@ -61,11 +57,7 @@
               "away_team_name": "Merani Martvili"
             },
             "second_leg": {
-              "status": {
-                "code": 110,
-                "description": "AET",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1734339600,
               "pen_m5": [
                 0,
@@ -106,11 +98,7 @@
               "1l4rjnh4oj1lm7v",
               "vjxm8ghld5g8r6o"
             ],
-            "status": {
-              "code": 110,
-              "description": "AET",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "2": {
             "id": "2y8m4zhjp7lvql0",
@@ -123,11 +111,7 @@
             "position": 2,
             "round_id": "965mkyh274zr1ge",
             "round_number": 1,
-            "status": {
-              "code": 0,
-              "description": "Scheduled",
-              "type": "scheduled"
-            }
+            "state_id": 7
           }
         }
       },

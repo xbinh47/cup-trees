@@ -7,6 +7,63 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "23xmvkho36evqg8",
+            "home_team_id": "yl5ergphgy8r8k0",
+            "away_team_id": "4wyrn4h8889q86p",
+            "home_team_name": "Al-Ahli SFC",
+            "away_team_name": "Zamalek SC",
+            "home_score": 0,
+            "away_score": 3,
+            "winner_team_id": "4wyrn4h8889q86p",
+            "position": 1,
+            "round_id": "ednm9whxd6oryox",
+            "round_number": 2,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1706457600,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 7,
+                "yellow_card": 0,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 2,
+                "corner": 2,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "home_team_id": "yl5ergphgy8r8k0",
+              "away_team_id": "4wyrn4h8889q86p",
+              "home_team_name": "Al-Ahli SFC",
+              "away_team_name": "Zamalek SC"
+            },
+            "event_ids": [
+              "3glrw7h7o5e3qdy"
+            ],
+            "state_id": 8
+          }
+        },
+        "1": {
+          "1": {
             "id": "y0or5jh4l82vqwz",
             "home_team_id": "yl5ergphgy8r8k0",
             "away_team_id": "jw2r09hx3derz84",
@@ -19,11 +76,7 @@
             "round_id": "4jwq2ghp06gm0ve",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1706364000,
               "pen_m5": [
                 0,
@@ -63,11 +116,7 @@
             "event_ids": [
               "pxwrxlh5zgk1ryk"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           },
           "2": {
             "id": "n54qllhe2novqvy",
@@ -82,11 +131,7 @@
             "round_id": "4jwq2ghp06gm0ve",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1706277600,
               "pen_m5": [
                 4,
@@ -140,11 +185,7 @@
             "event_ids": [
               "3glrw7h7zwvjqdy"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            },
+            "state_id": 7,
             "pen_array": [
               [
                 1,
@@ -160,83 +201,18 @@
               ]
             ]
           }
-        },
-        "1": {
-          "1": {
-            "id": "23xmvkho36evqg8",
-            "home_team_id": "yl5ergphgy8r8k0",
-            "away_team_id": "4wyrn4h8889q86p",
-            "home_team_name": "Al-Ahli SFC",
-            "away_team_name": "Zamalek SC",
-            "home_score": 0,
-            "away_score": 3,
-            "winner_team_id": "4wyrn4h8889q86p",
-            "position": 1,
-            "round_id": "ednm9whxd6oryox",
-            "round_number": 2,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1706457600,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 7,
-                "yellow_card": 0,
-                "red_card": 1,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "away_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 1,
-                "period_2": 2,
-                "corner": 2,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "home_team_id": "yl5ergphgy8r8k0",
-              "away_team_id": "4wyrn4h8889q86p",
-              "home_team_name": "Al-Ahli SFC",
-              "away_team_name": "Zamalek SC"
-            },
-            "event_ids": [
-              "3glrw7h7o5e3qdy"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
         }
       },
       "rounds": [
         {
-          "id": "4jwq2ghp06gm0ve",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "ednm9whxd6oryox",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "4jwq2ghp06gm0ve",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2,
@@ -254,11 +230,7 @@
         "round_number": 1,
         "is_third_place": true,
         "first_leg": {
-          "status": {
-            "code": 100,
-            "description": "ended",
-            "type": "finished"
-          },
+          "state_id": 8,
           "start_time": 1706443200,
           "pen_m5": [
             0,
@@ -298,11 +270,7 @@
         "event_ids": [
           "6ypq3nh31odemd7"
         ],
-        "status": {
-          "code": 100,
-          "description": "ended",
-          "type": "finished"
-        }
+        "state_id": 7
       }
     }
   ]

@@ -7,6 +7,63 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "y39mp1h5e25zmoj",
+            "home_team_id": "4zp5rzgh84yq82w",
+            "away_team_id": "kdj2ryohoj7q1zp",
+            "home_team_name": "Egypt",
+            "away_team_name": "Croatia",
+            "home_score": 2,
+            "away_score": 4,
+            "winner_team_id": "kdj2ryohoj7q1zp",
+            "position": 1,
+            "round_id": "8yomo4h3kd9q0j6",
+            "round_number": 2,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1711483200,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 3,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "away_score": {
+                "current": 4,
+                "display": 4,
+                "period_1": 1,
+                "period_2": 3,
+                "corner": 5,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -4,
+                "ft_score_only": 4
+              },
+              "home_team_id": "4zp5rzgh84yq82w",
+              "away_team_id": "kdj2ryohoj7q1zp",
+              "home_team_name": "Egypt",
+              "away_team_name": "Croatia"
+            },
+            "event_ids": [
+              "4wyrn4hx0gwzq86"
+            ],
+            "state_id": 8
+          }
+        },
+        "1": {
+          "1": {
             "id": "ednm9wh9p390ryo",
             "home_team_id": "4zp5rzgh84yq82w",
             "away_team_id": "ednm9whkk88ryox",
@@ -19,11 +76,7 @@
             "round_id": "2y8m4zh6jk4ql07",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1711137600,
               "pen_m5": [
                 0,
@@ -63,11 +116,7 @@
             "event_ids": [
               "23xmvkh8wl1pqg8"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           },
           "2": {
             "id": "965mkyh40642r1g",
@@ -82,11 +131,7 @@
             "round_id": "2y8m4zh6jk4ql07",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1711224000,
               "pen_m5": [
                 4,
@@ -146,11 +191,7 @@
             "event_ids": [
               "n54qllh79wgzqvy"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            },
+            "state_id": 8,
             "pen_array": [
               [
                 1,
@@ -172,83 +213,18 @@
               ]
             ]
           }
-        },
-        "1": {
-          "1": {
-            "id": "y39mp1h5e25zmoj",
-            "home_team_id": "4zp5rzgh84yq82w",
-            "away_team_id": "kdj2ryohoj7q1zp",
-            "home_team_name": "Egypt",
-            "away_team_name": "Croatia",
-            "home_score": 2,
-            "away_score": 4,
-            "winner_team_id": "kdj2ryohoj7q1zp",
-            "position": 1,
-            "round_id": "8yomo4h3kd9q0j6",
-            "round_number": 2,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1711483200,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 1,
-                "period_2": 1,
-                "corner": 3,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "away_score": {
-                "current": 4,
-                "display": 4,
-                "period_1": 1,
-                "period_2": 3,
-                "corner": 5,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -4,
-                "ft_score_only": 4
-              },
-              "home_team_id": "4zp5rzgh84yq82w",
-              "away_team_id": "kdj2ryohoj7q1zp",
-              "home_team_name": "Egypt",
-              "away_team_name": "Croatia"
-            },
-            "event_ids": [
-              "4wyrn4hx0gwzq86"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
         }
       },
       "rounds": [
         {
-          "id": "2y8m4zh6jk4ql07",
-          "description": "Semifinals",
-          "number": 1
-        },
-        {
           "id": "8yomo4h3kd9q0j6",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "2y8m4zh6jk4ql07",
+          "description": "Semifinals",
+          "number": 1
         }
       ],
       "total_rounds": 2,
@@ -266,11 +242,7 @@
         "round_number": 1,
         "is_third_place": true,
         "first_leg": {
-          "status": {
-            "code": 120,
-            "description": "AP",
-            "type": "finished"
-          },
+          "state_id": 8,
           "start_time": 1711483200,
           "pen_m5": [
             2,
@@ -324,11 +296,7 @@
         "event_ids": [
           "y39mp1hzp7olmoj"
         ],
-        "status": {
-          "code": 120,
-          "description": "AP",
-          "type": "finished"
-        },
+        "state_id": 8,
         "pen_array": [
           [
             0,

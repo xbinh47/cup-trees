@@ -7,6 +7,21 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "965mkyh4yj7kr1g",
+            "home_team_id": "y39mp1h36p2mojx",
+            "away_team_id": "n54qllh25n1qvy9",
+            "home_team_name": "Dukla Prague",
+            "away_team_name": "Pardubice",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 1,
+            "round_id": "3glrw7h331eqdyj",
+            "round_number": 2,
+            "state_id": 1
+          }
+        },
+        "1": {
+          "1": {
             "id": "4jwq2ghke84zm0v",
             "home_team_id": "pxwrxlhg4l6ryk0",
             "away_team_id": "y39mp1h36p2mojx",
@@ -19,11 +34,7 @@
             "round_id": "pxwrxlhxx10ryk0",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1748448000,
               "pen_m5": [
                 0,
@@ -61,11 +72,7 @@
               "away_team_name": "Dukla Prague"
             },
             "second_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1748782800,
               "pen_m5": [
                 4,
@@ -121,11 +128,7 @@
               "6ypq3nhv0k9pmd7",
               "3glrw7hnw485qdy"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            },
+            "state_id": 8,
             "pen_array": [
               [
                 1,
@@ -155,11 +158,7 @@
             "round_id": "pxwrxlhxx10ryk0",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1748448000,
               "pen_m5": [
                 0,
@@ -197,11 +196,7 @@
               "away_team_name": "Chrudim"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1748782800,
               "pen_m5": [
                 0,
@@ -242,43 +237,20 @@
               "318q66hxog43qo9",
               "dn1m1ghl403dmoe"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "965mkyh4yj7kr1g",
-            "home_team_id": "y39mp1h36p2mojx",
-            "away_team_id": "n54qllh25n1qvy9",
-            "home_team_name": "Dukla Prague",
-            "away_team_name": "Pardubice",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "3glrw7h331eqdyj",
-            "round_number": 2,
-            "status": {
-              "code": 0,
-              "description": "Scheduled",
-              "type": "scheduled"
-            }
+            "state_id": 7
           }
         }
       },
       "rounds": [
         {
-          "id": "pxwrxlhxx10ryk0",
-          "description": "Semifinals",
-          "number": 1
-        },
-        {
           "id": "3glrw7h331eqdyj",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "pxwrxlhxx10ryk0",
+          "description": "Semifinals",
+          "number": 1
         }
       ],
       "total_rounds": 2

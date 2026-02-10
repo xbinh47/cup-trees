@@ -7,6 +7,63 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "n54qllh2x87zqvy",
+            "home_team_id": "z318q66hdxgqo9j",
+            "away_team_id": "z8yomo4hjx1q0j6",
+            "home_team_name": "Huddersfield Town",
+            "away_team_name": "Sheffield United",
+            "home_score": 8,
+            "away_score": 7,
+            "winner_team_id": "z318q66hdxgqo9j",
+            "position": 1,
+            "round_id": "3glrw7hz11wqdyj",
+            "round_number": 2,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1338040800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 8,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 7,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "z318q66hdxgqo9j",
+              "away_team_id": "z8yomo4hjx1q0j6",
+              "home_team_name": "Huddersfield Town",
+              "away_team_name": "Sheffield United"
+            },
+            "event_ids": [
+              "2y8m4zh4yl0ql07"
+            ],
+            "state_id": 7
+          }
+        },
+        "1": {
+          "1": {
             "id": "x7lm7phk0wznm2w",
             "home_team_id": "z318q66hdxgqo9j",
             "away_team_id": "kdj2ryoh0ndq1zp",
@@ -19,11 +76,7 @@
             "round_id": "pxwrxlhz11pryk0",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1336822200,
               "pen_m5": [
                 0,
@@ -61,11 +114,7 @@
               "away_team_name": "Huddersfield Town"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1337107500,
               "pen_m5": [
                 0,
@@ -106,11 +155,7 @@
               "vjxm8ghg7lz2r6o",
               "x7lm7pho2z1nm2w"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           },
           "2": {
             "id": "y0or5jhle3n6qwz",
@@ -125,11 +170,7 @@
             "round_id": "pxwrxlhz11pryk0",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1336761900,
               "pen_m5": [
                 0,
@@ -167,11 +208,7 @@
               "away_team_name": "Sheffield United"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1337021100,
               "pen_m5": [
                 0,
@@ -212,89 +249,20 @@
               "pxwrxlh105kzryk",
               "3glrw7h1g7voqdy"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "n54qllh2x87zqvy",
-            "home_team_id": "z318q66hdxgqo9j",
-            "away_team_id": "z8yomo4hjx1q0j6",
-            "home_team_name": "Huddersfield Town",
-            "away_team_name": "Sheffield United",
-            "home_score": 8,
-            "away_score": 7,
-            "winner_team_id": "z318q66hdxgqo9j",
-            "position": 1,
-            "round_id": "3glrw7hz11wqdyj",
-            "round_number": 2,
-            "first_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
-              "start_time": 1338040800,
-              "pen_m5": [
-                8,
-                7
-              ],
-              "home_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 8,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 7,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "z318q66hdxgqo9j",
-              "away_team_id": "z8yomo4hjx1q0j6",
-              "home_team_name": "Huddersfield Town",
-              "away_team_name": "Sheffield United"
-            },
-            "event_ids": [
-              "2y8m4zh4yl0ql07"
-            ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            }
+            "state_id": 7
           }
         }
       },
       "rounds": [
         {
-          "id": "pxwrxlhz11pryk0",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "3glrw7hz11wqdyj",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "pxwrxlhz11pryk0",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2

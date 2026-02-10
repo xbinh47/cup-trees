@@ -166,6 +166,16 @@
           ]
         },
         {
+          "id": "l5ergphwn7lr8k0",
+          "bracket_id": "k82rekhy180repz",
+          "name": "1/4",
+          "abbr": "1/4",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 1,
+          "match_ups": []
+        },
+        {
           "id": "pxwrxlhx9w6ryk0",
           "bracket_id": "k82rekhy180repz",
           "name": "1/8 Finals",
@@ -337,6 +347,54 @@
           ]
         },
         {
+          "id": "dn1m1gh28g7moep",
+          "bracket_id": "k82rekhy180repz",
+          "name": "Semifinals",
+          "abbr": "SF",
+          "start_time": 1745953200,
+          "end_time": 1746644400,
+          "number": 2,
+          "match_ups": [
+            {
+              "id": "y39mp1h58e91moj",
+              "round_id": "dn1m1gh28g7moep",
+              "number": 1,
+              "type_id": 6,
+              "state_id": 1,
+              "home_team_id": "kjw2r09hv44rz84",
+              "away_team_id": "z318q66hdd1qo9j",
+              "winner_team_id": "",
+              "home_score": 3,
+              "away_score": 1,
+              "parent_ids": [
+                "318q66h0d3k7qo9"
+              ],
+              "children_ids": [],
+              "event_ids": [
+                "1l4rjnh9ynn3m7v",
+                "zp5rzghgy331q82"
+              ]
+            },
+            {
+              "id": "k82rekh9dj11rep",
+              "round_id": "dn1m1gh28g7moep",
+              "number": 2,
+              "type_id": 6,
+              "state_id": 1,
+              "home_team_id": "9dn1m1ghzl2moep",
+              "away_team_id": "e4wyrn4h127q86p",
+              "winner_team_id": "",
+              "home_score": 0,
+              "away_score": 0,
+              "parent_ids": [
+                "318q66h0d3k7qo9"
+              ],
+              "children_ids": [],
+              "event_ids": []
+            }
+          ]
+        },
+        {
           "id": "3glrw7h3jedqdyj",
           "bracket_id": "k82rekhy180repz",
           "name": "Quarterfinals",
@@ -435,6 +493,37 @@
               "event_ids": [
                 "jw2r09h28pjwrz8",
                 "l5ergphwg5eer8k"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4wyrn4hxv5lq86p",
+          "bracket_id": "k82rekhy180repz",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 1748718000,
+          "end_time": 1748718000,
+          "number": 3,
+          "match_ups": [
+            {
+              "id": "318q66h0d3k7qo9",
+              "round_id": "4wyrn4hxv5lq86p",
+              "number": 1,
+              "type_id": 6,
+              "state_id": 1,
+              "home_team_id": "kjw2r09hv44rz84",
+              "away_team_id": "9dn1m1ghzl2moep",
+              "winner_team_id": "",
+              "home_score": 5,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [
+                "y39mp1h58e91moj",
+                "k82rekh9dj11rep"
+              ],
+              "event_ids": [
+                "vjxm8ghe4jwxr6o"
               ]
             }
           ]
@@ -1523,10 +1612,6 @@
       "id": "4jwq2gh4gnom0ve",
       "name": "Decic Tuzi"
     },
-    "v2y8m4zhy8vql07": {
-      "id": "v2y8m4zhy8vql07",
-      "name": "PAOK Saloniki"
-    },
     "l7oqdehngl7r510": {
       "id": "l7oqdehngl7r510",
       "name": "Hamrun Spartans"
@@ -1646,10 +1731,6 @@
     "e4wyrn4h34wq86p": {
       "id": "e4wyrn4h34wq86p",
       "name": "The New Saints"
-    },
-    "v2y8m4zhylpql07": {
-      "id": "v2y8m4zhylpql07",
-      "name": "APOEL Nicosia"
     },
     "y39mp1h5kzpmojx": {
       "id": "y39mp1h5kzpmojx",
@@ -1779,10 +1860,6 @@
       "id": "n54qllhe5xkqvy9",
       "name": "Rigas Futbola Skola"
     },
-    "vjxm8gh4jldr6od": {
-      "id": "vjxm8gh4jldr6od",
-      "name": "Vikingur Reykjavik"
-    },
     "p3glrw7h5klqdyj": {
       "id": "p3glrw7h5klqdyj",
       "name": "PSV Eindhoven"
@@ -1810,6 +1887,18 @@
     "vl7oqdehzwpr510": {
       "id": "vl7oqdehzwpr510",
       "name": "Ferencvarosi TC"
+    },
+    "v2y8m4zhy8vql07": {
+      "id": "v2y8m4zhy8vql07",
+      "name": "PAOK Saloniki"
+    },
+    "v2y8m4zhylpql07": {
+      "id": "v2y8m4zhylpql07",
+      "name": "APOEL Nicosia"
+    },
+    "vjxm8gh4jldr6od": {
+      "id": "vjxm8gh4jldr6od",
+      "name": "Vikingur Reykjavik"
     }
   },
   "sport_events": {

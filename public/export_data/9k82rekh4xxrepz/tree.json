@@ -19,11 +19,7 @@
             "round_id": "y39mp1hkkplmojx",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1667757600,
               "pen_m5": [
                 0,
@@ -61,11 +57,7 @@
               "away_team_name": "Ayacucho Futbol Club"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1668373200,
               "pen_m5": [
                 0,
@@ -106,11 +98,7 @@
               "vjxm8gh5ez21r6o",
               "3glrw7h3nvl2qdy"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           }
         }
       },
@@ -129,130 +117,6 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "k82rekhveevnrep",
-            "home_team_id": "gpxwrxlhk1pryk0",
-            "away_team_id": "3glrw7hww2gqdyj",
-            "home_team_name": "FBC Melgar",
-            "away_team_name": "Sporting Cristal",
-            "home_score": 4,
-            "away_score": 0,
-            "winner_team_id": "gpxwrxlhk1pryk0",
-            "position": 1,
-            "round_id": "8yomo4h5zn8q0j6",
-            "round_number": 1,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1667419200,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 0,
-                "period_2": 2,
-                "corner": 11,
-                "yellow_card": 3,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 5,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "gpxwrxlhk1pryk0",
-              "away_team_id": "3glrw7hww2gqdyj",
-              "home_team_name": "FBC Melgar",
-              "away_team_name": "Sporting Cristal"
-            },
-            "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1667764800,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 8,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "away_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 0,
-                "period_2": 2,
-                "corner": 0,
-                "yellow_card": 3,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "home_team_id": "3glrw7hww2gqdyj",
-              "away_team_id": "gpxwrxlhk1pryk0",
-              "home_team_name": "Sporting Cristal",
-              "away_team_name": "FBC Melgar"
-            },
-            "event_ids": [
-              "vjxm8gh5e6eor6o",
-              "x7lm7ph3jejem2w"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          },
-          "2": {
-            "home_team_id": "3glrw7hwwowqdyj",
-            "home_team_name": "Alianza Lima",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "3glrw7hwwowqdyj",
-            "position": 2,
-            "round_number": 1,
-            "is_bye": true,
-            "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
-          }
-        },
-        "1": {
-          "1": {
             "id": "n54qllh233dzqvy",
             "home_team_id": "gpxwrxlhk1pryk0",
             "away_team_id": "3glrw7hwwowqdyj",
@@ -265,11 +129,7 @@
             "round_id": "6ypq3nh41xpmd7o",
             "round_number": 2,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1668024000,
               "pen_m5": [
                 0,
@@ -307,11 +167,7 @@
               "away_team_name": "Alianza Lima"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1668301200,
               "pen_m5": [
                 0,
@@ -352,24 +208,128 @@
               "965mkyh2kpg9r1g",
               "y39mp1h067knmoj"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
+          }
+        },
+        "1": {
+          "1": {
+            "id": "k82rekhveevnrep",
+            "home_team_id": "gpxwrxlhk1pryk0",
+            "away_team_id": "3glrw7hww2gqdyj",
+            "home_team_name": "FBC Melgar",
+            "away_team_name": "Sporting Cristal",
+            "home_score": 4,
+            "away_score": 0,
+            "winner_team_id": "gpxwrxlhk1pryk0",
+            "position": 1,
+            "round_id": "8yomo4h5zn8q0j6",
+            "round_number": 1,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1667419200,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 0,
+                "period_2": 2,
+                "corner": 11,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 5,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "gpxwrxlhk1pryk0",
+              "away_team_id": "3glrw7hww2gqdyj",
+              "home_team_name": "FBC Melgar",
+              "away_team_name": "Sporting Cristal"
+            },
+            "second_leg": {
+              "state_id": 8,
+              "start_time": 1667764800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 8,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 0,
+                "period_2": 2,
+                "corner": 0,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "3glrw7hww2gqdyj",
+              "away_team_id": "gpxwrxlhk1pryk0",
+              "home_team_name": "Sporting Cristal",
+              "away_team_name": "FBC Melgar"
+            },
+            "event_ids": [
+              "vjxm8gh5e6eor6o",
+              "x7lm7ph3jejem2w"
+            ],
+            "state_id": 7
+          },
+          "2": {
+            "home_team_id": "3glrw7hwwowqdyj",
+            "home_team_name": "Alianza Lima",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "3glrw7hwwowqdyj",
+            "position": 2,
+            "round_number": 1,
+            "is_bye": true,
+            "state_id": -2
           }
         }
       },
       "rounds": [
         {
-          "id": "8yomo4h5zn8q0j6",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "6ypq3nh41xpmd7o",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "8yomo4h5zn8q0j6",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2

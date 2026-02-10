@@ -7,6 +7,63 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "x7lm7phk0xwym2w",
+            "home_team_id": "gy0or5jhd9xqwzv",
+            "away_team_id": "gpxwrxlhwenryk0",
+            "home_team_name": "Blackpool",
+            "away_team_name": "Cardiff City",
+            "home_score": 3,
+            "away_score": 2,
+            "winner_team_id": "gy0or5jhd9xqwzv",
+            "position": 1,
+            "round_id": "23xmvkh4d8eqg8n",
+            "round_number": 2,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1274536800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 3,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 2,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "gy0or5jhd9xqwzv",
+              "away_team_id": "gpxwrxlhwenryk0",
+              "home_team_name": "Blackpool",
+              "away_team_name": "Cardiff City"
+            },
+            "event_ids": [
+              "y0or5jh0935qwzv"
+            ],
+            "state_id": 7
+          }
+        },
+        "1": {
+          "1": {
             "id": "3glrw7hwj4yeqdy",
             "home_team_id": "v2y8m4zhdx6ql07",
             "away_team_id": "gy0or5jhd9xqwzv",
@@ -19,11 +76,7 @@
             "round_id": "n54qllhjx7oqvy9",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1273319100,
               "pen_m5": [
                 0,
@@ -61,11 +114,7 @@
               "away_team_name": "Nottingham Forest"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1273603500,
               "pen_m5": [
                 0,
@@ -106,11 +155,7 @@
               "3glrw7h1g78wqdy",
               "vjxm8ghg7l1gr6o"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "2": {
             "id": "vjxm8gh4jk86r6o",
@@ -125,11 +170,7 @@
             "round_id": "n54qllhjx7oqvy9",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1273407300,
               "pen_m5": [
                 0,
@@ -167,15 +208,11 @@
               "away_team_name": "Cardiff City"
             },
             "second_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1273689900,
               "pen_m5": [
-                4,
-                3
+                0,
+                0
               ],
               "home_score": {
                 "current": 2,
@@ -212,89 +249,20 @@
               "x7lm7pho2z60m2w",
               "y0or5jh4wnp3qwz"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "x7lm7phk0xwym2w",
-            "home_team_id": "gy0or5jhd9xqwzv",
-            "away_team_id": "gpxwrxlhwenryk0",
-            "home_team_name": "Blackpool",
-            "away_team_name": "Cardiff City",
-            "home_score": 3,
-            "away_score": 2,
-            "winner_team_id": "gy0or5jhd9xqwzv",
-            "position": 1,
-            "round_id": "23xmvkh4d8eqg8n",
-            "round_number": 2,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1274536800,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 3,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "away_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 2,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "home_team_id": "gy0or5jhd9xqwzv",
-              "away_team_id": "gpxwrxlhwenryk0",
-              "home_team_name": "Blackpool",
-              "away_team_name": "Cardiff City"
-            },
-            "event_ids": [
-              "y0or5jh0935qwzv"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           }
         }
       },
       "rounds": [
         {
-          "id": "n54qllhjx7oqvy9",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "23xmvkh4d8eqg8n",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "n54qllhjx7oqvy9",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2

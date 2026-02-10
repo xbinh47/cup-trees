@@ -7,6 +7,63 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "4wyrn4he8eg7q86",
+            "home_team_id": "kdj2ryohoj7q1zp",
+            "away_team_id": "dn1m1gh4vgymoep",
+            "home_team_name": "Croatia",
+            "away_team_name": "Spain",
+            "home_score": 4,
+            "away_score": 5,
+            "winner_team_id": "dn1m1gh4vgymoep",
+            "position": 1,
+            "round_id": "1l4rjnh34y1m7vx",
+            "round_number": 2,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1687113900,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 2,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 4,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 3,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 5,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "kdj2ryohoj7q1zp",
+              "away_team_id": "dn1m1gh4vgymoep",
+              "home_team_name": "Croatia",
+              "away_team_name": "Spain"
+            },
+            "event_ids": [
+              "1l4rjnhj7052m7v"
+            ],
+            "state_id": 8
+          }
+        },
+        "1": {
+          "1": {
             "id": "y0or5jhlwyzdqwz",
             "home_team_id": "9dn1m1ghzj5moep",
             "away_team_id": "kdj2ryohoj7q1zp",
@@ -19,11 +76,7 @@
             "round_id": "zp5rzgh25yjq82w",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 110,
-                "description": "AET",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1686768300,
               "pen_m5": [
                 0,
@@ -63,11 +116,7 @@
             "event_ids": [
               "y0or5jhzw4n1qwz"
             ],
-            "status": {
-              "code": 110,
-              "description": "AET",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "2": {
             "id": "pxwrxlhg08xoryk",
@@ -82,11 +131,7 @@
             "round_id": "zp5rzgh25yjq82w",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1686854700,
               "pen_m5": [
                 0,
@@ -126,89 +171,20 @@
             "event_ids": [
               "n54qllhpwe7kqvy"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "4wyrn4he8eg7q86",
-            "home_team_id": "kdj2ryohoj7q1zp",
-            "away_team_id": "dn1m1gh4vgymoep",
-            "home_team_name": "Croatia",
-            "away_team_name": "Spain",
-            "home_score": 4,
-            "away_score": 5,
-            "winner_team_id": "dn1m1gh4vgymoep",
-            "position": 1,
-            "round_id": "1l4rjnh34y1m7vx",
-            "round_number": 2,
-            "first_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
-              "start_time": 1687113900,
-              "pen_m5": [
-                4,
-                5
-              ],
-              "home_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 2,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 4,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 3,
-                "yellow_card": 3,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 5,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "kdj2ryohoj7q1zp",
-              "away_team_id": "dn1m1gh4vgymoep",
-              "home_team_name": "Croatia",
-              "away_team_name": "Spain"
-            },
-            "event_ids": [
-              "1l4rjnhj7052m7v"
-            ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            }
+            "state_id": 7
           }
         }
       },
       "rounds": [
         {
-          "id": "zp5rzgh25yjq82w",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "1l4rjnh34y1m7vx",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "zp5rzgh25yjq82w",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2,
@@ -226,11 +202,7 @@
         "round_number": 1,
         "is_third_place": true,
         "first_leg": {
-          "status": {
-            "code": 100,
-            "description": "ended",
-            "type": "finished"
-          },
+          "state_id": 8,
           "start_time": 1687093200,
           "pen_m5": [
             0,
@@ -270,11 +242,7 @@
         "event_ids": [
           "zp5rzgh6k942q82"
         ],
-        "status": {
-          "code": 100,
-          "description": "ended",
-          "type": "finished"
-        }
+        "state_id": 8
       }
     }
   ]

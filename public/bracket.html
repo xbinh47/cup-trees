@@ -863,11 +863,13 @@
         }
 
         /**
-         * Core Formula Logic:
+         * Core Formula Logic (REVERSED DATA + REVERSED UI):
+         * Data: Round 0 = Final (left), Round 3 = R16 (right)
+         * UI: Final on LEFT, R16 on RIGHT
          * 1. Parse nodes into a unified map.
-         * 2. Build Tree/Forest structure based on position arithmetic (Child Pos -> Parent Pos = ceil(Child/2)).
-         * 3. Calculate "Virtual Height" (Leaf counting) for Y-coordinates.
-         * 4. Render absolutely positioned elements.
+         * 2. Build Tree: Parent at L-1, Children at L+1
+         * 3. Calculate Y-coordinates via recursive midpoint.
+         * 4. Render with X = layerIdx (0=left, 3=right).
          */
         function renderBracket(data, cid) {
             const container = document.getElementById(cid);
@@ -944,12 +946,14 @@
             const matchMap = {};
             allMatches.forEach(n => matchMap[n.id] = n);
 
-            // --- 2. Tree/Forest Linking ---
-            // Formula: Parent is at Layer L+1, Position ceil(P/2).
+            // --- 2. Tree/Forest Linking (REVERSED) ---
+            // REVERSED: Parent is at Layer L-1 (smaller number), Position ceil(P/2)
+            // In reversed data: Round 0 = Final, Round 3 = R16
+            // So R16 matches (layer 3) feed into Quarter (layer 2), etc.
             allMatches.forEach(node => {
-                const nextLayer = node.layerIdx + 1;
+                const parentLayer = node.layerIdx - 1;
                 const parentPos = Math.ceil(node.pos / 2);
-                const parentId = `${cid}-L${nextLayer}-P${parentPos}`;
+                const parentId = `${cid}-L${parentLayer}-P${parentPos}`;
 
                 if (matchMap[parentId]) {
                     node.parent = matchMap[parentId];
@@ -957,17 +961,13 @@
                 }
             });
 
-            // --- 2.5 Fill Missing Children (Virtual TBD Nodes) ---
-            // Iterative Downward Pass: Max Layer -> Min Layer + 1
-            // This ensures we fill deep gaps (e.g. L3 -> L2 -> L1 -> L0)
-
-            for (let l = maxRound; l > minRound; l--) {
-                // Find all nodes in this layer (Real or Virtual)
-                // We must search 'allMatches' because it grows dynamically as we add virtuals
+            // --- 2.5 Fill Missing Children (Virtual TBD Nodes) (REVERSED) ---
+            // REVERSED: Iterate from Min Layer (Final=0) -> Max Layer (R16=3)
+            for (let l = minRound; l < maxRound; l++) {
                 const nodesInLayer = allMatches.filter(n => n.layerIdx === l);
 
                 nodesInLayer.forEach(node => {
-                    const childLayer = l - 1;
+                    const childLayer = l + 1;
                     const expectedChild1Pos = (node.pos * 2) - 1;
                     const expectedChild2Pos = (node.pos * 2);
 
@@ -979,12 +979,12 @@
                                 data: {
                                     home_team_name: "TBD",
                                     away_team_name: "TBD",
-                                    status: { // New Status Object
+                                    status: {
                                         code: -2,
                                         type: "TBD",
                                         description: "To Be Determined"
                                     },
-                                    is_tbd: true, // New Field
+                                    is_tbd: true,
                                     is_virtual: true
                                 },
                                 layerIdx: childLayer,
@@ -1002,7 +1002,6 @@
                             allMatches.push(vNode);
                             node.children.push(vNode);
                         } else {
-                            // Child exists, ensure link
                             const existingChild = matchMap[cId];
                             if (!existingChild.parent) {
                                 existingChild.parent = node;
@@ -1023,16 +1022,14 @@
                 }
             });
 
-            // Detect Roots (Matches with no existing parent in the data set)
-            // This handles "Multiple distinct branches" automatically (Forest).
+            // Detect Roots (REVERSED: roots are at MAX layer - R16/R32)
             const roots = allMatches.filter(n => !n.parent);
-            // Sort roots by position to ensure forest is ordered correctly top-to-bottom
             roots.sort((a, b) => a.pos - b.pos);
 
 
-            // --- 3. Coordinate Calculation (The Formula) ---
+            // --- 3. Coordinate Calculation ---
 
-            // X Coordinate: Simple linear based on Layer Index
+            // X Coordinate: Layer 0 (Final) on LEFT, higher layers (R16) on RIGHT
             allMatches.forEach(node => {
                 node.x = CONFIG.START_X + (node.layerIdx * (CONFIG.MATCH_WIDTH + CONFIG.ROUND_MARGIN_X));
             });
@@ -1443,6 +1440,7 @@
                 });
             });
 
+            const minRound = rounds[0];
             const maxRound = rounds[rounds.length - 1];
 
             // 2. Validate Nodes
@@ -1497,10 +1495,11 @@
                     }
                 }
 
-                // If Root, skip parent check
-                if (node.layer === maxRound) return;
+                // REVERSED DATA: Root is at MIN layer (layer 0 = Final), skip parent check
+                if (node.layer === minRound) return;
 
-                const parentLayer = node.layer + 1;
+                // REVERSED DATA: Parent is at layer-1 (smaller number)
+                const parentLayer = node.layer - 1;
                 const parentPos = Math.ceil(node.pos / 2);
                 const parentId = `R${parentLayer}-P${parentPos}`;
                 const parent = matchMap[parentId];
@@ -1565,14 +1564,23 @@
                     }
                 } else {
                     // Match NOT finished (TBD or Future)
-                    // Ensure parent slot is NOT populated with a specific team yet
-
+                    // REVERSED DATA: Check if parent (earlier round) already has team from this unfinished child
                     const parentTeamName = isHomeFeeder ? pData.home_team_name : pData.away_team_name;
 
                     if (!isTBD(parentTeamName) && !pData.is_tbd) {
                         // Ensure it's not a placeholder
                         if (!parentTeamName.toLowerCase().includes("winner")) {
-                            logs.push({ type: 'warn', bracket: bracketName, msg: `${logPrefix} Potential Premature Advance: Source match is not finished, but parent [${parent.id}/${pMatchId}] ${targetTeamRole} slot has "${parentTeamName}".` });
+                            // This is actually OK for qualification rounds with BYEs or pre-seeded teams
+                            // Only warn if the parent team matches one of the child teams (impossible scenario)
+                            const childHasThisTeam = (m.home_team_name === parentTeamName || m.away_team_name === parentTeamName);
+                            if (childHasThisTeam) {
+                                logs.push({ 
+                                    type: 'warn', 
+                                    bracket: bracketName, 
+                                    msg: `${logPrefix} Potential Issue: Child match not finished, but parent [${parent.id}/${pMatchId}] ${targetTeamRole} slot already has "${parentTeamName}" (which is in this child match).` 
+                                });
+                            }
+                            // Otherwise it's likely a BYE or pre-seeded team, which is normal
                         }
                     }
                 }

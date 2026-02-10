@@ -1920,12 +1920,12 @@
               "round_id": "zp5rzgh6oo4q82w",
               "number": 2,
               "type_id": 11,
-              "state_id": 6,
+              "state_id": 7,
               "home_team_id": "p4jwq2ghd57m0ve",
               "away_team_id": "8y39mp1h8dpmojx",
-              "winner_team_id": "",
-              "home_score": 2,
-              "away_score": 0,
+              "winner_team_id": "p4jwq2ghd57m0ve",
+              "home_score": 5,
+              "away_score": 1,
               "parent_ids": [
                 "vjxm8ghg02klr6o"
               ],
@@ -1945,8 +1945,8 @@
           "bracket_id": "dj2ryohj539q1zp",
           "name": "Final",
           "abbr": "F",
-          "start_time": 0,
-          "end_time": 0,
+          "start_time": 1774191600,
+          "end_time": 1774191600,
           "number": 8,
           "match_ups": [
             {
@@ -1954,9 +1954,9 @@
               "round_id": "1l4rjnhjgglm7vx",
               "number": 1,
               "type_id": 1,
-              "state_id": 2,
+              "state_id": 1,
               "home_team_id": "z318q66hdd1qo9j",
-              "away_team_id": "",
+              "away_team_id": "p4jwq2ghd57m0ve",
               "winner_team_id": "",
               "home_score": 0,
               "away_score": 0,
@@ -1965,7 +1965,9 @@
                 "pxwrxlh1n2l3ryk",
                 "3glrw7h19l43qdy"
               ],
-              "event_ids": []
+              "event_ids": [
+                "pxwrxlhy5684ryk"
+              ]
             }
           ]
         }
@@ -11246,31 +11248,217 @@
       "home_team_id": "p4jwq2ghd57m0ve",
       "away_team_id": "8y39mp1h8dpmojx",
       "start_timestamp": 1770235200,
-      "status_id": 1,
+      "status_id": 8,
       "sport_event_status": {
-        "status_id": 1,
+        "status_id": 8,
         "away_score": {
-          "corners": 0,
+          "corners": 4,
           "red_card": 0,
           "yellow_card": 0,
           "penalty_score": 0,
-          "regular_score": 0,
+          "regular_score": 1,
           "overTime_score": 0,
           "half_time_score": 0
         },
         "home_score": {
-          "corners": 0,
+          "corners": 5,
           "red_card": 0,
-          "yellow_card": 0,
+          "yellow_card": 3,
           "penalty_score": 0,
-          "regular_score": 0,
+          "regular_score": 3,
           "overTime_score": 0,
-          "half_time_score": 0
+          "half_time_score": 3
         },
         "kick_of_timestamp": 0
       },
       "related_id": "l7oqdehg8y33r51",
-      "incidents": []
+      "incidents": [
+        {
+          "time": 7,
+          "type": 1,
+          "position": 1,
+          "player_id": "vjxm8ghx0l5r6od",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Omar Marmoush"
+        },
+        {
+          "time": 27,
+          "type": 3,
+          "position": 1,
+          "player_id": "dj2ryohjddz3q1z",
+          "player_name": "Matheus Nunes",
+          "reason_type": 1
+        },
+        {
+          "time": 29,
+          "type": 1,
+          "position": 1,
+          "player_id": "vjxm8ghx0l5r6od",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Omar Marmoush"
+        },
+        {
+          "time": 32,
+          "type": 1,
+          "position": 1,
+          "player_id": "965mkyhggodr1ge",
+          "away_score": 0,
+          "home_score": 3,
+          "player_name": "Tijjani Reijnders"
+        },
+        {
+          "time": 44,
+          "type": 9,
+          "position": 2,
+          "reason_type": 3,
+          "in_player_id": "l5ergphpee6r8k0",
+          "out_player_id": "l7oqdehepw7r510",
+          "in_player_name": "Harvey Barnes",
+          "out_player_name": "Anthony Gordon"
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 4,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhj524oryk",
+          "out_player_id": "dj2ryohypgoq1zp",
+          "in_player_name": "Max Alleyne",
+          "out_player_name": "Nathan Aké"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "vjxm8gh86ljr6od",
+          "out_player_id": "23xmvkhd064vqg8",
+          "in_player_name": "Yoane Wissa",
+          "out_player_name": "Nick Woltemade"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghx7gzzm0v",
+          "out_player_id": "318q66h7vodqo9j",
+          "in_player_name": "Anthony Elanga",
+          "out_player_name": "Joe Willock"
+        },
+        {
+          "time": 45,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "8yomo4h2p6wq0j6",
+          "out_player_id": "4jwq2ghxp14wm0v",
+          "in_player_name": "Jacob Murphy",
+          "out_player_name": "Lewis Hall"
+        },
+        {
+          "time": 62,
+          "type": 1,
+          "position": 2,
+          "player_id": "4jwq2ghx7gzzm0v",
+          "assist1_id": "jw2r09hxke39rz8",
+          "away_score": 1,
+          "home_score": 3,
+          "player_name": "Anthony Elanga",
+          "assist1_name": "Malick Thiaw"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "4wyrn4hvlloq86p",
+          "out_player_id": "y39mp1hywejomoj",
+          "in_player_name": "Rodrigo Hernandez Cascante",
+          "out_player_name": "Nico O'Reilly"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "2y8m4zhzd27ql07",
+          "out_player_id": "4jwq2gh6pdlm0ve",
+          "in_player_name": "Erling Haaland",
+          "out_player_name": "Antoine Semenyo"
+        },
+        {
+          "time": 72,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "6ypq3nhze775md7",
+          "out_player_id": "ednm9whedo0ryox",
+          "in_player_name": "Rayan Cherki",
+          "out_player_name": "Phil Foden"
+        },
+        {
+          "time": 76,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "1l4rjnhxk5dom7v",
+          "out_player_id": "dn1m1gh4ykemoep",
+          "in_player_name": "William Osula",
+          "out_player_name": "Kieran Trippier"
+        },
+        {
+          "time": 78,
+          "type": 3,
+          "position": 1,
+          "player_id": "23xmvkhdjwkgqg8",
+          "player_name": "Nico González",
+          "reason_type": 1
+        },
+        {
+          "time": 83,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whvxekpryo",
+          "out_player_id": "23xmvkhdjwkgqg8",
+          "in_player_name": "Rico Lewis",
+          "out_player_name": "Nico González"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 2,
+          "position": 0
+        },
+        {
+          "time": 91,
+          "type": 3,
+          "add_time": 1,
+          "position": 1,
+          "player_id": "4wyrn4hvlloq86p",
+          "player_name": "Rodrigo Hernandez Cascante",
+          "reason_type": 1
+        },
+        {
+          "time": 93,
+          "type": 12,
+          "position": 0
+        }
+      ]
     },
     "dj2ryohlyedwq1z": {
       "id": "dj2ryohlyedwq1z",
@@ -18212,6 +18400,37 @@
           "position": 0
         }
       ]
+    },
+    "pxwrxlhy5684ryk": {
+      "id": "pxwrxlhy5684ryk",
+      "home_team_id": "z318q66hdd1qo9j",
+      "away_team_id": "p4jwq2ghd57m0ve",
+      "start_timestamp": 1774191600,
+      "status_id": 1,
+      "sport_event_status": {
+        "status_id": 1,
+        "away_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 0,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": []
     },
     "pxwrxlhyeo8nryk": {
       "id": "pxwrxlhyeo8nryk",

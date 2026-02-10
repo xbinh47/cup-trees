@@ -7,6 +7,100 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "virtual-r0-p1",
+            "home_team_name": "TBD",
+            "away_team_name": "TBD",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 1,
+            "round_id": "1l4rjnh46xwm7vx",
+            "round_number": 4,
+            "is_tbd": true,
+            "state_id": -3
+          }
+        },
+        "1": {
+          "1": {
+            "id": "virtual-r1-p1",
+            "home_team_name": "TBD",
+            "away_team_name": "TBD",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 1,
+            "round_id": "zp5rzgh5jpkq82w",
+            "round_number": 3,
+            "is_tbd": true,
+            "state_id": -3
+          },
+          "2": {
+            "id": "virtual-r1-p2",
+            "home_team_name": "TBD",
+            "away_team_name": "TBD",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 2,
+            "round_id": "zp5rzgh5jpkq82w",
+            "round_number": 3,
+            "is_tbd": true,
+            "state_id": -3
+          }
+        },
+        "2": {
+          "1": {
+            "id": "ednm9wh9p0g7ryo",
+            "home_team_id": "4wyrn4hev6vq86p",
+            "away_team_id": "n54qllh2dywqvy9",
+            "home_team_name": "Ranger's FC",
+            "away_team_name": "FC Santa Coloma",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 1,
+            "round_id": "23xmvkh83k1qg8n",
+            "round_number": 2,
+            "state_id": 1
+          },
+          "2": {
+            "id": "k82rekh9jx3erep",
+            "away_team_id": "vjxm8gh4y4nr6od",
+            "home_team_name": "",
+            "away_team_name": "Inter Club Escaldes",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 2,
+            "round_id": "23xmvkh83k1qg8n",
+            "round_number": 2,
+            "state_id": 1,
+            "note": "Direct qualified for the Quarterfinals"
+          },
+          "3": {
+            "id": "965mkyh40onkr1g",
+            "home_team_id": "y0or5jh4x82qwzv",
+            "away_team_id": "3glrw7h1z44qdyj",
+            "home_team_name": "UE Santa Coloma",
+            "away_team_name": "FC Ordino",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 3,
+            "round_id": "23xmvkh83k1qg8n",
+            "round_number": 2,
+            "state_id": 1
+          },
+          "4": {
+            "id": "y39mp1h5e41dmoj",
+            "home_team_id": "dn1m1gheo9gmoep",
+            "away_team_id": "ednm9whgddpryox",
+            "home_team_name": "Atletic Club D Escaldes",
+            "away_team_name": "CF Esperanca dAndorra",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 4,
+            "round_id": "23xmvkh83k1qg8n",
+            "round_number": 2,
+            "state_id": 1
+          }
+        },
+        "3": {
+          "1": {
             "id": "965mkyh40g8or1g",
             "home_team_id": "dj2ryohyj7yq1zp",
             "away_team_id": "4wyrn4hev6vq86p",
@@ -19,11 +113,7 @@
             "round_id": "n54qllh7286qvy9",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1768125600,
               "pen_m5": [
                 0,
@@ -63,11 +153,7 @@
             "event_ids": [
               "dj2ryohle9gnq1z"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "2": {
             "id": "4jwq2ghk50g6m0v",
@@ -79,11 +165,7 @@
             "position": 2,
             "round_id": "n54qllh7286qvy9",
             "round_number": 1,
-            "status": {
-              "code": 0,
-              "description": "Finished",
-              "type": "finished"
-            },
+            "state_id": 7,
             "note": "Direct qualified for the 1/8 Finals"
           },
           "3": {
@@ -95,11 +177,7 @@
             "position": 3,
             "round_id": "n54qllh7286qvy9",
             "round_number": 1,
-            "status": {
-              "code": 0,
-              "description": "Pending",
-              "type": "pending"
-            },
+            "state_id": 8,
             "note": "Direct qualified for the 1/8 Finals"
           },
           "4": {
@@ -115,11 +193,7 @@
             "round_id": "n54qllh7286qvy9",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1768150800,
               "pen_m5": [
                 0,
@@ -159,11 +233,7 @@
             "event_ids": [
               "y0or5jh8zw38qwz"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "5": {
             "id": "k82rekh9j82wrep",
@@ -175,11 +245,7 @@
             "position": 5,
             "round_id": "n54qllh7286qvy9",
             "round_number": 1,
-            "status": {
-              "code": 0,
-              "description": "Finished",
-              "type": "finished"
-            },
+            "state_id": 7,
             "note": "Direct qualified for the 1/8 Finals"
           },
           "6": {
@@ -195,11 +261,7 @@
             "round_id": "n54qllh7286qvy9",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1768125600,
               "pen_m5": [
                 0,
@@ -239,11 +301,7 @@
             "event_ids": [
               "l7oqdehg8900r51"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "7": {
             "home_team_id": "dn1m1gheo9gmoep",
@@ -255,11 +313,7 @@
             "position": 7,
             "round_number": 1,
             "is_bye": true,
-            "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
+            "state_id": -2
           },
           "8": {
             "home_team_id": "ednm9whgddpryox",
@@ -271,146 +325,15 @@
             "position": 8,
             "round_number": 1,
             "is_bye": true,
-            "status": {
-              "code": 0,
-              "description": "Bye",
-              "type": "BYE_ADVANCED"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "ednm9wh9p0g7ryo",
-            "home_team_id": "4wyrn4hev6vq86p",
-            "away_team_id": "n54qllh2dywqvy9",
-            "home_team_name": "Ranger's FC",
-            "away_team_name": "FC Santa Coloma",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "23xmvkh83k1qg8n",
-            "round_number": 2,
-            "status": {
-              "code": 0,
-              "description": "Scheduled",
-              "type": "scheduled"
-            }
-          },
-          "2": {
-            "id": "k82rekh9jx3erep",
-            "away_team_id": "vjxm8gh4y4nr6od",
-            "home_team_name": "",
-            "away_team_name": "Inter Club Escaldes",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 2,
-            "round_id": "23xmvkh83k1qg8n",
-            "round_number": 2,
-            "status": {
-              "code": 0,
-              "description": "Pending",
-              "type": "pending"
-            },
-            "note": "Direct qualified for the Quarterfinals"
-          },
-          "3": {
-            "id": "965mkyh40onkr1g",
-            "home_team_id": "y0or5jh4x82qwzv",
-            "away_team_id": "3glrw7h1z44qdyj",
-            "home_team_name": "UE Santa Coloma",
-            "away_team_name": "FC Ordino",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 3,
-            "round_id": "23xmvkh83k1qg8n",
-            "round_number": 2,
-            "status": {
-              "code": 0,
-              "description": "Scheduled",
-              "type": "scheduled"
-            }
-          },
-          "4": {
-            "id": "y39mp1h5e41dmoj",
-            "home_team_id": "dn1m1gheo9gmoep",
-            "away_team_id": "ednm9whgddpryox",
-            "home_team_name": "Atletic Club D Escaldes",
-            "away_team_name": "CF Esperanca dAndorra",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 4,
-            "round_id": "23xmvkh83k1qg8n",
-            "round_number": 2,
-            "status": {
-              "code": 0,
-              "description": "Scheduled",
-              "type": "scheduled"
-            }
-          }
-        },
-        "2": {
-          "1": {
-            "id": "virtual-r2-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "zp5rzgh5jpkq82w",
-            "round_number": 3,
-            "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
-          },
-          "2": {
-            "id": "virtual-r2-p2",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 2,
-            "round_id": "zp5rzgh5jpkq82w",
-            "round_number": 3,
-            "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
-          }
-        },
-        "3": {
-          "1": {
-            "id": "virtual-r3-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "1l4rjnh46xwm7vx",
-            "round_number": 4,
-            "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
+            "state_id": -2
           }
         }
       },
       "rounds": [
         {
-          "id": "n54qllh7286qvy9",
-          "description": "1/8 Finals",
-          "number": 1
-        },
-        {
-          "id": "23xmvkh83k1qg8n",
-          "description": "Quarterfinals",
-          "number": 2
+          "id": "1l4rjnh46xwm7vx",
+          "description": "Final",
+          "number": 4
         },
         {
           "id": "zp5rzgh5jpkq82w",
@@ -418,9 +341,14 @@
           "number": 3
         },
         {
-          "id": "1l4rjnh46xwm7vx",
-          "description": "Final",
-          "number": 4
+          "id": "23xmvkh83k1qg8n",
+          "description": "Quarterfinals",
+          "number": 2
+        },
+        {
+          "id": "n54qllh7286qvy9",
+          "description": "1/8 Finals",
+          "number": 1
         }
       ],
       "total_rounds": 4

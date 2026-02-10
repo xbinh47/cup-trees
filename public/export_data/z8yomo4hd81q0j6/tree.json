@@ -19,11 +19,7 @@
             "round_id": "y0or5jhz6d3qwzv",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1745952300,
               "pen_m5": [
                 0,
@@ -61,11 +57,7 @@
               "away_team_name": "Carrick Rangers FC"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1746211500,
               "pen_m5": [
                 0,
@@ -106,11 +98,7 @@
               "l7oqdehgy5o5r51",
               "dj2ryohlvz1wq1z"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           }
         }
       },
@@ -129,6 +117,20 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "virtual-r0-p1",
+            "home_team_name": "TBD",
+            "away_team_name": "TBD",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 1,
+            "round_id": "3glrw7h36eoqdyj",
+            "round_number": 2,
+            "is_tbd": true,
+            "state_id": -3
+          }
+        },
+        "1": {
+          "1": {
             "id": "k82rekh9wwd6rep",
             "home_team_id": "965mkyh7l9vr1ge",
             "away_team_id": "kn54qllhldwqvy9",
@@ -140,11 +142,7 @@
             "round_id": "pxwrxlhxewzryk0",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1746643500,
               "pen_m5": [
                 0,
@@ -184,11 +182,7 @@
             "event_ids": [
               "y0or5jh8l4e2qwz"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 1
           },
           "2": {
             "id": "318q66h0wwdgqo9",
@@ -202,11 +196,7 @@
             "round_id": "pxwrxlhxewzryk0",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1746643500,
               "pen_m5": [
                 0,
@@ -246,42 +236,20 @@
             "event_ids": [
               "n54qllhn2exlqvy"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "virtual-r1-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "3glrw7h36eoqdyj",
-            "round_number": 2,
-            "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
+            "state_id": 1
           }
         }
       },
       "rounds": [
         {
-          "id": "pxwrxlhxewzryk0",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "3glrw7h36eoqdyj",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "pxwrxlhxewzryk0",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2

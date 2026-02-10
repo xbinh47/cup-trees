@@ -7,134 +7,6 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "23xmvkh31lwlqg8",
-            "home_team_id": "d23xmvkhe6eqg8n",
-            "away_team_id": "1l4rjnh6pgpm7vx",
-            "home_team_name": "FCU 1948 Craiova",
-            "away_team_name": "FC Voluntari",
-            "home_score": 8,
-            "away_score": 7,
-            "winner_team_id": "d23xmvkhe6eqg8n",
-            "position": 1,
-            "round_id": "4jwq2gh6k07m0ve",
-            "round_number": 1,
-            "first_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
-              "start_time": 1685120400,
-              "pen_m5": [
-                5,
-                4
-              ],
-              "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 1,
-                "period_2": 2,
-                "corner": 5,
-                "yellow_card": 4,
-                "red_card": 0,
-                "overtime_score": 3,
-                "penalty_score": 5,
-                "overtime_score_only": 0,
-                "ft_score_only": 3
-              },
-              "away_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 0,
-                "period_2": 3,
-                "corner": 6,
-                "yellow_card": 6,
-                "red_card": 1,
-                "overtime_score": 3,
-                "penalty_score": 4,
-                "overtime_score_only": 0,
-                "ft_score_only": 3
-              },
-              "home_team_id": "d23xmvkhe6eqg8n",
-              "away_team_id": "1l4rjnh6pgpm7vx",
-              "home_team_name": "FCU 1948 Craiova",
-              "away_team_name": "FC Voluntari"
-            },
-            "event_ids": [
-              "4jwq2ghz210om0v"
-            ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            }
-          },
-          "2": {
-            "id": "4jwq2gh4y2nym0v",
-            "home_team_id": "d23xmvkhe6eqg8n",
-            "away_team_id": "1l4rjnh6pgpm7vx",
-            "home_team_name": "FCU 1948 Craiova",
-            "away_team_name": "FC Voluntari",
-            "home_score": 8,
-            "away_score": 7,
-            "winner_team_id": "d23xmvkhe6eqg8n",
-            "position": 2,
-            "round_id": "dn1m1ghknvomoep",
-            "round_number": 1,
-            "first_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
-              "start_time": 1685120400,
-              "pen_m5": [
-                5,
-                4
-              ],
-              "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 1,
-                "period_2": 2,
-                "corner": 5,
-                "yellow_card": 4,
-                "red_card": 0,
-                "overtime_score": 3,
-                "penalty_score": 5,
-                "overtime_score_only": 0,
-                "ft_score_only": 3
-              },
-              "away_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 0,
-                "period_2": 3,
-                "corner": 6,
-                "yellow_card": 6,
-                "red_card": 1,
-                "overtime_score": 3,
-                "penalty_score": 4,
-                "overtime_score_only": 0,
-                "ft_score_only": 3
-              },
-              "home_team_id": "d23xmvkhe6eqg8n",
-              "away_team_id": "1l4rjnh6pgpm7vx",
-              "home_team_name": "FCU 1948 Craiova",
-              "away_team_name": "FC Voluntari"
-            },
-            "event_ids": [
-              "4jwq2ghz210om0v"
-            ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
             "id": "ednm9whkynwnryo",
             "home_team_id": "kjw2r09hv23rz84",
             "away_team_id": "d23xmvkhe6eqg8n",
@@ -147,11 +19,7 @@
             "round_id": "4wyrn4h0dz0q86p",
             "round_number": 2,
             "first_leg": {
-              "status": {
-                "code": 110,
-                "description": "AET",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1685640600,
               "pen_m5": [
                 0,
@@ -191,24 +59,132 @@
             "event_ids": [
               "k82rekh0kx1lrep"
             ],
-            "status": {
-              "code": 110,
-              "description": "AET",
-              "type": "finished"
-            }
+            "state_id": 7
+          }
+        },
+        "1": {
+          "1": {
+            "id": "23xmvkh31lwlqg8",
+            "home_team_id": "d23xmvkhe6eqg8n",
+            "away_team_id": "1l4rjnh6pgpm7vx",
+            "home_team_name": "FCU 1948 Craiova",
+            "away_team_name": "FC Voluntari",
+            "home_score": 8,
+            "away_score": 7,
+            "winner_team_id": "d23xmvkhe6eqg8n",
+            "position": 1,
+            "round_id": "4jwq2gh6k07m0ve",
+            "round_number": 1,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1685120400,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 2,
+                "corner": 5,
+                "yellow_card": 4,
+                "red_card": 0,
+                "overtime_score": 3,
+                "penalty_score": 5,
+                "overtime_score_only": 0,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 0,
+                "period_2": 3,
+                "corner": 6,
+                "yellow_card": 6,
+                "red_card": 1,
+                "overtime_score": 3,
+                "penalty_score": 4,
+                "overtime_score_only": 0,
+                "ft_score_only": 3
+              },
+              "home_team_id": "d23xmvkhe6eqg8n",
+              "away_team_id": "1l4rjnh6pgpm7vx",
+              "home_team_name": "FCU 1948 Craiova",
+              "away_team_name": "FC Voluntari"
+            },
+            "event_ids": [
+              "4jwq2ghz210om0v"
+            ],
+            "state_id": 7
+          },
+          "2": {
+            "id": "4jwq2gh4y2nym0v",
+            "home_team_id": "d23xmvkhe6eqg8n",
+            "away_team_id": "1l4rjnh6pgpm7vx",
+            "home_team_name": "FCU 1948 Craiova",
+            "away_team_name": "FC Voluntari",
+            "home_score": 8,
+            "away_score": 7,
+            "winner_team_id": "d23xmvkhe6eqg8n",
+            "position": 2,
+            "round_id": "dn1m1ghknvomoep",
+            "round_number": 1,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1685120400,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 2,
+                "corner": 5,
+                "yellow_card": 4,
+                "red_card": 0,
+                "overtime_score": 3,
+                "penalty_score": 5,
+                "overtime_score_only": 0,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 0,
+                "period_2": 3,
+                "corner": 6,
+                "yellow_card": 6,
+                "red_card": 1,
+                "overtime_score": 3,
+                "penalty_score": 4,
+                "overtime_score_only": 0,
+                "ft_score_only": 3
+              },
+              "home_team_id": "d23xmvkhe6eqg8n",
+              "away_team_id": "1l4rjnh6pgpm7vx",
+              "home_team_name": "FCU 1948 Craiova",
+              "away_team_name": "FC Voluntari"
+            },
+            "event_ids": [
+              "4jwq2ghz210om0v"
+            ],
+            "state_id": 7
           }
         }
       },
       "rounds": [
         {
-          "id": "dn1m1ghknvomoep",
-          "description": "Qualification Round1",
-          "number": 1
-        },
-        {
           "id": "n54qllh9ek2qvy9",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "dn1m1ghknvomoep",
+          "description": "Qualification Round1",
+          "number": 1
         }
       ],
       "total_rounds": 2
@@ -231,11 +207,7 @@
             "round_id": "dn1m1ghkeopmoep",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1685271600,
               "pen_m5": [
                 0,
@@ -273,11 +245,7 @@
               "away_team_name": "UTA Arad"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1685901600,
               "pen_m5": [
                 0,
@@ -318,11 +286,7 @@
               "4wyrn4ho39pjq86",
               "1l4rjnhj732km7v"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "2": {
             "id": "4jwq2gh4y5j9m0v",
@@ -337,11 +301,7 @@
             "round_id": "dn1m1ghkeopmoep",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1685379600,
               "pen_m5": [
                 0,
@@ -379,11 +339,7 @@
               "away_team_name": "Arges"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1685815200,
               "pen_m5": [
                 0,
@@ -424,11 +380,7 @@
               "jw2r09h6z1z4rz8",
               "6ypq3nh79418md7"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           }
         }
       },

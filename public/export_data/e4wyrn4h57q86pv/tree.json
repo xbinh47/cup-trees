@@ -7,6 +7,63 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "x7lm7phkjkg8m2w",
+            "home_team_id": "8y39mp1h8wjmojx",
+            "away_team_id": "d23xmvkhzwnqg8n",
+            "home_team_name": "Derby County",
+            "away_team_name": "West Bromwich Albion",
+            "home_score": 1,
+            "away_score": 0,
+            "winner_team_id": "8y39mp1h8wjmojx",
+            "position": 1,
+            "round_id": "k82rekh1plnrepz",
+            "round_number": 2,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1180360800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "8y39mp1h8wjmojx",
+              "away_team_id": "d23xmvkhzwnqg8n",
+              "home_team_name": "Derby County",
+              "away_team_name": "West Bromwich Albion"
+            },
+            "event_ids": [
+              "3glrw7h07onqdyj"
+            ],
+            "state_id": 7
+          }
+        },
+        "1": {
+          "1": {
             "id": "3glrw7hwnwklqdy",
             "home_team_id": "8y39mp1h8wjmojx",
             "away_team_id": "jednm9whlperyox",
@@ -19,11 +76,7 @@
             "round_id": "y39mp1h9g7kmojx",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1178967600,
               "pen_m5": [
                 0,
@@ -61,15 +114,11 @@
               "away_team_name": "Derby County"
             },
             "second_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1179254700,
               "pen_m5": [
-                4,
-                3
+                0,
+                0
               ],
               "home_score": {
                 "current": 2,
@@ -106,11 +155,7 @@
               "2y8m4zhje69kql0",
               "8yomo4hk63owq0j"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            }
+            "state_id": 7
           },
           "2": {
             "id": "vjxm8gh4e4v9r6o",
@@ -125,11 +170,7 @@
             "round_id": "y39mp1h9g7kmojx",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1179054000,
               "pen_m5": [
                 0,
@@ -167,11 +208,7 @@
               "away_team_name": "West Bromwich Albion"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1179341100,
               "pen_m5": [
                 0,
@@ -212,89 +249,20 @@
               "6ypq3nh5p3oxmd7",
               "pxwrxlh1058pryk"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "x7lm7phkjkg8m2w",
-            "home_team_id": "8y39mp1h8wjmojx",
-            "away_team_id": "d23xmvkhzwnqg8n",
-            "home_team_name": "Derby County",
-            "away_team_name": "West Bromwich Albion",
-            "home_score": 1,
-            "away_score": 0,
-            "winner_team_id": "8y39mp1h8wjmojx",
-            "position": 1,
-            "round_id": "k82rekh1plnrepz",
-            "round_number": 2,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1180360800,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 0,
-                "period_2": 1,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -1,
-                "ft_score_only": 1
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "8y39mp1h8wjmojx",
-              "away_team_id": "d23xmvkhzwnqg8n",
-              "home_team_name": "Derby County",
-              "away_team_name": "West Bromwich Albion"
-            },
-            "event_ids": [
-              "3glrw7h07onqdyj"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           }
         }
       },
       "rounds": [
         {
-          "id": "y39mp1h9g7kmojx",
-          "description": "Semifinals",
-          "number": 1
-        },
-        {
           "id": "k82rekh1plnrepz",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "y39mp1h9g7kmojx",
+          "description": "Semifinals",
+          "number": 1
         }
       ],
       "total_rounds": 2

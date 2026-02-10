@@ -7,6 +7,22 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "3glrw7hwn1ynqdy",
+            "home_team_id": "z8yomo4hw6lq0j6",
+            "away_team_id": "gy0or5jh74zqwzv",
+            "home_team_name": "Torino",
+            "away_team_name": "Mantova",
+            "home_score": 5,
+            "away_score": 5,
+            "winner_team_id": "z8yomo4hw6lq0j6",
+            "position": 1,
+            "round_id": "n54qllhd0jjqvy9",
+            "round_number": 2,
+            "state_id": 7
+          }
+        },
+        "1": {
+          "1": {
             "id": "6ypq3nh0v5w7md7",
             "home_team_id": "kdj2ryoh6nlq1zp",
             "away_team_id": "z8yomo4hw6lq0j6",
@@ -18,11 +34,7 @@
             "position": 1,
             "round_id": "y0or5jh1pg3qwzv",
             "round_number": 1,
-            "status": {
-              "code": 0,
-              "description": "Finished",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "2": {
             "id": "pxwrxlhgy1j5ryk",
@@ -36,44 +48,20 @@
             "position": 2,
             "round_id": "y0or5jh1pg3qwzv",
             "round_number": 1,
-            "status": {
-              "code": 0,
-              "description": "Finished",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "3glrw7hwn1ynqdy",
-            "home_team_id": "z8yomo4hw6lq0j6",
-            "away_team_id": "gy0or5jh74zqwzv",
-            "home_team_name": "Torino",
-            "away_team_name": "Mantova",
-            "home_score": 5,
-            "away_score": 5,
-            "winner_team_id": "z8yomo4hw6lq0j6",
-            "position": 1,
-            "round_id": "n54qllhd0jjqvy9",
-            "round_number": 2,
-            "status": {
-              "code": 0,
-              "description": "Finished",
-              "type": "finished"
-            }
+            "state_id": 8
           }
         }
       },
       "rounds": [
         {
-          "id": "y0or5jh1pg3qwzv",
-          "description": "Semifinals",
-          "number": 1
-        },
-        {
           "id": "n54qllhd0jjqvy9",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "y0or5jh1pg3qwzv",
+          "description": "Semifinals",
+          "number": 1
         }
       ],
       "total_rounds": 2

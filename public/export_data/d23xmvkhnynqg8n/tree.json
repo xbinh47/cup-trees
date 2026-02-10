@@ -7,6 +7,63 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "1l4rjnh13x1jm7v",
+            "home_team_id": "dn1m1gh3p0nmoep",
+            "away_team_id": "ednm9whzxy7ryox",
+            "home_team_name": "FC Livyi Bereh",
+            "away_team_name": "FC Mynai",
+            "home_score": 3,
+            "away_score": 0,
+            "winner_team_id": "dn1m1gh3p0nmoep",
+            "position": 1,
+            "round_id": "8yomo4h4xoyq0j6",
+            "round_number": 2,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1722351600,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 2,
+                "period_2": 1,
+                "corner": 6,
+                "yellow_card": 3,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 2,
+                "yellow_card": 4,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "dn1m1gh3p0nmoep",
+              "away_team_id": "ednm9whzxy7ryox",
+              "home_team_name": "FC Livyi Bereh",
+              "away_team_name": "FC Mynai"
+            },
+            "event_ids": [
+              "vjxm8ghlk4ewr6o"
+            ],
+            "state_id": 7
+          }
+        },
+        "1": {
+          "1": {
             "id": "vjxm8ghg2jnvr6o",
             "home_team_id": "dn1m1gh3p0nmoep",
             "away_team_id": "3glrw7h1dd3qdyj",
@@ -19,11 +76,7 @@
             "round_id": "2y8m4zhpx95ql07",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1721997000,
               "pen_m5": [
                 5,
@@ -79,11 +132,7 @@
             "event_ids": [
               "y0or5jhn82nnqwz"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            },
+            "state_id": 7,
             "pen_array": [
               [
                 1,
@@ -114,11 +163,7 @@
             "round_id": "2y8m4zhpx95ql07",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1722006000,
               "pen_m5": [
                 3,
@@ -173,11 +218,7 @@
             "event_ids": [
               "pxwrxlh5yk5yryk"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            },
+            "state_id": 8,
             "pen_array": [
               [
                 1,
@@ -194,83 +235,18 @@
               ]
             ]
           }
-        },
-        "1": {
-          "1": {
-            "id": "1l4rjnh13x1jm7v",
-            "home_team_id": "dn1m1gh3p0nmoep",
-            "away_team_id": "ednm9whzxy7ryox",
-            "home_team_name": "FC Livyi Bereh",
-            "away_team_name": "FC Mynai",
-            "home_score": 3,
-            "away_score": 0,
-            "winner_team_id": "dn1m1gh3p0nmoep",
-            "position": 1,
-            "round_id": "8yomo4h4xoyq0j6",
-            "round_number": 2,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1722351600,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 2,
-                "period_2": 1,
-                "corner": 6,
-                "yellow_card": 3,
-                "red_card": 1,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 2,
-                "yellow_card": 4,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "dn1m1gh3p0nmoep",
-              "away_team_id": "ednm9whzxy7ryox",
-              "home_team_name": "FC Livyi Bereh",
-              "away_team_name": "FC Mynai"
-            },
-            "event_ids": [
-              "vjxm8ghlk4ewr6o"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
         }
       },
       "rounds": [
         {
-          "id": "2y8m4zhpx95ql07",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "8yomo4h4xoyq0j6",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "2y8m4zhpx95ql07",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2
@@ -291,11 +267,7 @@
             "round_id": "3glrw7h33keqdyj",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1748521800,
               "pen_m5": [
                 0,
@@ -333,11 +305,7 @@
               "away_team_name": "FC Vorskla Poltava"
             },
             "second_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1748772000,
               "pen_m5": [
                 3,
@@ -396,11 +364,7 @@
               "4jwq2ghn4g1zm0v",
               "pxwrxlhygl21ryk"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            },
+            "state_id": 7,
             "pen_array": [
               [
                 1,
@@ -434,11 +398,7 @@
             "round_id": "3glrw7h33keqdyj",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1748530800,
               "pen_m5": [
                 0,
@@ -476,11 +436,7 @@
               "away_team_name": "Metalist 1925 Kharkiv"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1748781600,
               "pen_m5": [
                 0,
@@ -521,11 +477,7 @@
               "ednm9whwk5e7ryo",
               "3glrw7hnw4ljqdy"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           }
         }
       },

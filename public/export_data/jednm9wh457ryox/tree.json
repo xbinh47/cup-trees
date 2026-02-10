@@ -7,6 +7,63 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "jw2r09hlgy0prz8",
+            "home_team_id": "3glrw7hy1yeqdyj",
+            "away_team_id": "2y8m4zhgdjdql07",
+            "home_team_name": "Atletico Ottawa",
+            "away_team_name": "Forge FC",
+            "home_score": 0,
+            "away_score": 2,
+            "winner_team_id": "2y8m4zhgdjdql07",
+            "position": 1,
+            "round_id": "4jwq2gh075wm0ve",
+            "round_number": 2,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1667167200,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 3,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 8,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "3glrw7hy1yeqdyj",
+              "away_team_id": "2y8m4zhgdjdql07",
+              "home_team_name": "Atletico Ottawa",
+              "away_team_name": "Forge FC"
+            },
+            "event_ids": [
+              "k82rekh0gjl8rep"
+            ],
+            "state_id": 8
+          }
+        },
+        "1": {
+          "1": {
             "id": "dn1m1gh4x1eymoe",
             "home_team_id": "dj2ryohj33dq1zp",
             "away_team_id": "3glrw7hy1yeqdyj",
@@ -19,11 +76,7 @@
             "round_id": "1l4rjnh3kdnm7vx",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1665874800,
               "pen_m5": [
                 0,
@@ -61,11 +114,7 @@
               "away_team_name": "Atletico Ottawa"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1666548000,
               "pen_m5": [
                 0,
@@ -106,11 +155,7 @@
               "l7oqdeh8glowr51",
               "ednm9wh2wxo0ryo"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "2": {
             "id": "4wyrn4h8w9e3q86",
@@ -125,11 +170,7 @@
             "round_id": "1l4rjnh3kdnm7vx",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1665864000,
               "pen_m5": [
                 0,
@@ -167,11 +208,7 @@
               "away_team_name": "Forge FC"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1666558800,
               "pen_m5": [
                 0,
@@ -212,89 +249,20 @@
               "jw2r09h6kw2vrz8",
               "1l4rjnhj946em7v"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "jw2r09hlgy0prz8",
-            "home_team_id": "3glrw7hy1yeqdyj",
-            "away_team_id": "2y8m4zhgdjdql07",
-            "home_team_name": "Atletico Ottawa",
-            "away_team_name": "Forge FC",
-            "home_score": 0,
-            "away_score": 2,
-            "winner_team_id": "2y8m4zhgdjdql07",
-            "position": 1,
-            "round_id": "4jwq2gh075wm0ve",
-            "round_number": 2,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1667167200,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 3,
-                "yellow_card": 3,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "away_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 1,
-                "period_2": 1,
-                "corner": 8,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "home_team_id": "3glrw7hy1yeqdyj",
-              "away_team_id": "2y8m4zhgdjdql07",
-              "home_team_name": "Atletico Ottawa",
-              "away_team_name": "Forge FC"
-            },
-            "event_ids": [
-              "k82rekh0gjl8rep"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           }
         }
       },
       "rounds": [
         {
-          "id": "1l4rjnh3kdnm7vx",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "4jwq2gh075wm0ve",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "1l4rjnh3kdnm7vx",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2

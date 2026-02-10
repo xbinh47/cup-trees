@@ -7,6 +7,63 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "jw2r09hlgj5yrz8",
+            "home_team_id": "l7oqdehnnewr510",
+            "away_team_id": "vl7oqdeh51yr510",
+            "home_team_name": "Hougang United FC",
+            "away_team_name": "Tampines Rovers FC",
+            "home_score": 3,
+            "away_score": 2,
+            "winner_team_id": "l7oqdehnnewr510",
+            "position": 1,
+            "round_id": "x7lm7ph58y8m2wd",
+            "round_number": 2,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1668850200,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 4,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "away_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 2,
+                "corner": 4,
+                "yellow_card": 5,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "home_team_id": "vl7oqdeh51yr510",
+              "away_team_id": "l7oqdehnnewr510",
+              "home_team_name": "Tampines Rovers FC",
+              "away_team_name": "Hougang United FC"
+            },
+            "event_ids": [
+              "1l4rjnhjnz6vm7v"
+            ],
+            "state_id": 7
+          }
+        },
+        "1": {
+          "1": {
             "id": "l5ergpho7ek6r8k",
             "home_team_id": "gpxwrxlh8n9ryk0",
             "away_team_id": "l7oqdehnnewr510",
@@ -19,11 +76,7 @@
             "round_id": "vjxm8gh23d9r6od",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1668167100,
               "pen_m5": [
                 0,
@@ -61,11 +114,7 @@
               "away_team_name": "Hougang United FC"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1668512700,
               "pen_m5": [
                 0,
@@ -106,11 +155,7 @@
               "6ypq3nh7vxknmd7",
               "k82rekh02v68rep"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "2": {
             "id": "4wyrn4h854y1q86",
@@ -125,11 +170,7 @@
             "round_id": "vjxm8gh23d9r6od",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1668167100,
               "pen_m5": [
                 0,
@@ -167,11 +208,7 @@
               "away_team_name": "Balestier Khalsa FC"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1668512700,
               "pen_m5": [
                 0,
@@ -212,89 +249,20 @@
               "8yomo4hg1n1xq0j",
               "2y8m4zhwv3npql0"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "jw2r09hlgj5yrz8",
-            "home_team_id": "l7oqdehnnewr510",
-            "away_team_id": "vl7oqdeh51yr510",
-            "home_team_name": "Hougang United FC",
-            "away_team_name": "Tampines Rovers FC",
-            "home_score": 3,
-            "away_score": 2,
-            "winner_team_id": "l7oqdehnnewr510",
-            "position": 1,
-            "round_id": "x7lm7ph58y8m2wd",
-            "round_number": 2,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1668850200,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 1,
-                "period_2": 1,
-                "corner": 4,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "away_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 1,
-                "period_2": 2,
-                "corner": 4,
-                "yellow_card": 5,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "home_team_id": "vl7oqdeh51yr510",
-              "away_team_id": "l7oqdehnnewr510",
-              "home_team_name": "Tampines Rovers FC",
-              "away_team_name": "Hougang United FC"
-            },
-            "event_ids": [
-              "1l4rjnhjnz6vm7v"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           }
         }
       },
       "rounds": [
         {
-          "id": "vjxm8gh23d9r6od",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "x7lm7ph58y8m2wd",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "vjxm8gh23d9r6od",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2,
@@ -312,11 +280,7 @@
         "round_number": 1,
         "is_third_place": true,
         "first_leg": {
-          "status": {
-            "code": 100,
-            "description": "ended",
-            "type": "finished"
-          },
+          "state_id": 8,
           "start_time": 1668771900,
           "pen_m5": [
             0,
@@ -356,11 +320,7 @@
         "event_ids": [
           "vjxm8gh5kjjnr6o"
         ],
-        "status": {
-          "code": 100,
-          "description": "ended",
-          "type": "finished"
-        }
+        "state_id": 7
       }
     }
   ]

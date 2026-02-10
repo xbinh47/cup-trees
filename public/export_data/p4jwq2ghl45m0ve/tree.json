@@ -7,6 +7,63 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "x7lm7phoj5v3m2w",
+            "home_team_id": "kn54qllhgynqvy9",
+            "away_team_id": "l5ergphvkl8r8k0",
+            "home_team_name": "Dila Gori",
+            "away_team_name": "Spaeri FC",
+            "home_score": 2,
+            "away_score": 0,
+            "winner_team_id": "kn54qllhgynqvy9",
+            "position": 1,
+            "round_id": "pxwrxlhx50oryk0",
+            "round_number": 2,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1751472000,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 0,
+                "period_2": 2,
+                "corner": 4,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 1,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "kn54qllhgynqvy9",
+              "away_team_id": "l5ergphvkl8r8k0",
+              "home_team_name": "Dila Gori",
+              "away_team_name": "Spaeri FC"
+            },
+            "event_ids": [
+              "pxwrxlhy15ooryk"
+            ],
+            "state_id": 7
+          }
+        },
+        "1": {
+          "1": {
             "id": "ednm9wh9wgj3ryo",
             "home_team_id": "4wyrn4he915q86p",
             "away_team_id": "kn54qllhgynqvy9",
@@ -19,11 +76,7 @@
             "round_id": "y0or5jhznwdqwzv",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1750953600,
               "pen_m5": [
                 0,
@@ -63,11 +116,7 @@
             "event_ids": [
               "6ypq3nhv5e0gmd7"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           },
           "2": {
             "id": "4jwq2ghkn782m0v",
@@ -82,11 +131,7 @@
             "round_id": "y0or5jhznwdqwzv",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1751040000,
               "pen_m5": [
                 4,
@@ -142,11 +187,7 @@
             "event_ids": [
               "vjxm8gheg3g5r6o"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            },
+            "state_id": 7,
             "pen_array": [
               [
                 1,
@@ -164,83 +205,18 @@
               ]
             ]
           }
-        },
-        "1": {
-          "1": {
-            "id": "x7lm7phoj5v3m2w",
-            "home_team_id": "kn54qllhgynqvy9",
-            "away_team_id": "l5ergphvkl8r8k0",
-            "home_team_name": "Dila Gori",
-            "away_team_name": "Spaeri FC",
-            "home_score": 2,
-            "away_score": 0,
-            "winner_team_id": "kn54qllhgynqvy9",
-            "position": 1,
-            "round_id": "pxwrxlhx50oryk0",
-            "round_number": 2,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1751472000,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 0,
-                "period_2": 2,
-                "corner": 4,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 1,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "kn54qllhgynqvy9",
-              "away_team_id": "l5ergphvkl8r8k0",
-              "home_team_name": "Dila Gori",
-              "away_team_name": "Spaeri FC"
-            },
-            "event_ids": [
-              "pxwrxlhy15ooryk"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
         }
       },
       "rounds": [
         {
-          "id": "y0or5jhznwdqwzv",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "pxwrxlhx50oryk0",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "y0or5jhznwdqwzv",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2,
@@ -258,11 +234,7 @@
         "round_number": 1,
         "is_third_place": true,
         "first_leg": {
-          "status": {
-            "code": 120,
-            "description": "AP",
-            "type": "finished"
-          },
+          "state_id": 8,
           "start_time": 1751385600,
           "pen_m5": [
             2,
@@ -318,11 +290,7 @@
         "event_ids": [
           "6ypq3nhv53odmd7"
         ],
-        "status": {
-          "code": 120,
-          "description": "AP",
-          "type": "finished"
-        },
+        "state_id": 8,
         "pen_array": [
           [
             0,

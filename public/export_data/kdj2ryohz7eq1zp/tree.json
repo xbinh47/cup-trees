@@ -7,6 +7,63 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "dn1m1ghe2gg1moe",
+            "home_team_id": "j1l4rjnhwdvm7vx",
+            "away_team_id": "4zp5rzghedzq82w",
+            "home_team_name": "Leyton Orient",
+            "away_team_name": "Charlton Athletic",
+            "home_score": 0,
+            "away_score": 1,
+            "winner_team_id": "4zp5rzghedzq82w",
+            "position": 1,
+            "round_id": "3glrw7h362oqdyj",
+            "round_number": 2,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1748174400,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 6,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 2,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "home_team_id": "j1l4rjnhwdvm7vx",
+              "away_team_id": "4zp5rzghedzq82w",
+              "home_team_name": "Leyton Orient",
+              "away_team_name": "Charlton Athletic"
+            },
+            "event_ids": [
+              "4wyrn4h680j7q86"
+            ],
+            "state_id": 8
+          }
+        },
+        "1": {
+          "1": {
             "id": "l5ergph3w4ner8k",
             "home_team_id": "j1l4rjnhwdvm7vx",
             "away_team_id": "jednm9wh44lryox",
@@ -19,11 +76,7 @@
             "round_id": "pxwrxlhxe8zryk0",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1746876600,
               "pen_m5": [
                 0,
@@ -61,11 +114,7 @@
               "away_team_name": "Stockport County"
             },
             "second_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1747249200,
               "pen_m5": [
                 1,
@@ -119,11 +168,7 @@
               "y0or5jh8l4xwqwz",
               "n54qllhn2eeyqvy"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            },
+            "state_id": 7,
             "pen_array": [
               [
                 1,
@@ -151,11 +196,7 @@
             "round_id": "pxwrxlhxe8zryk0",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1746984600,
               "pen_m5": [
                 0,
@@ -193,11 +234,7 @@
               "away_team_name": "Charlton Athletic"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1747335600,
               "pen_m5": [
                 0,
@@ -238,89 +275,20 @@
               "23xmvkh63oojqg8",
               "zp5rzghgj77vq82"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "dn1m1ghe2gg1moe",
-            "home_team_id": "j1l4rjnhwdvm7vx",
-            "away_team_id": "4zp5rzghedzq82w",
-            "home_team_name": "Leyton Orient",
-            "away_team_name": "Charlton Athletic",
-            "home_score": 0,
-            "away_score": 1,
-            "winner_team_id": "4zp5rzghedzq82w",
-            "position": 1,
-            "round_id": "3glrw7h362oqdyj",
-            "round_number": 2,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1748174400,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 6,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "away_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 1,
-                "period_2": 0,
-                "corner": 2,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -1,
-                "ft_score_only": 1
-              },
-              "home_team_id": "j1l4rjnhwdvm7vx",
-              "away_team_id": "4zp5rzghedzq82w",
-              "home_team_name": "Leyton Orient",
-              "away_team_name": "Charlton Athletic"
-            },
-            "event_ids": [
-              "4wyrn4h680j7q86"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 8
           }
         }
       },
       "rounds": [
         {
-          "id": "pxwrxlhxe8zryk0",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "3glrw7h362oqdyj",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "pxwrxlhxe8zryk0",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2

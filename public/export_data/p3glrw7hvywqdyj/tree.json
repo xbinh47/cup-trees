@@ -7,134 +7,6 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "3glrw7h1j49eqdy",
-            "home_team_id": "n54qllh2v9pqvy9",
-            "away_team_id": "dj2ryohkp0wq1zp",
-            "home_team_name": "Valur Women",
-            "away_team_name": "Stjarnan Gardabaer Women",
-            "home_score": 4,
-            "away_score": 0,
-            "winner_team_id": "n54qllh2v9pqvy9",
-            "position": 1,
-            "round_id": "8yomo4hx6lxq0j6",
-            "round_number": 1,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1711389600,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 4,
-                "display": 4,
-                "period_1": 2,
-                "period_2": 2,
-                "corner": 9,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -4,
-                "ft_score_only": 4
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 1,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "n54qllh2v9pqvy9",
-              "away_team_id": "dj2ryohkp0wq1zp",
-              "home_team_name": "Valur Women",
-              "away_team_name": "Stjarnan Gardabaer Women"
-            },
-            "event_ids": [
-              "jw2r09h27ykprz8"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          },
-          "2": {
-            "id": "pxwrxlh19ln0ryk",
-            "home_team_id": "3glrw7h1yljqdyj",
-            "away_team_id": "n54qllhe229qvy9",
-            "home_team_name": "Thor KA Akureyri (w)",
-            "away_team_name": "Breidablik Women",
-            "home_score": 3,
-            "away_score": 6,
-            "winner_team_id": "n54qllhe229qvy9",
-            "position": 2,
-            "round_id": "8yomo4hx6lxq0j6",
-            "round_number": 1,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1711204200,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 0,
-                "period_2": 3,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "away_score": {
-                "current": 6,
-                "display": 6,
-                "period_1": 0,
-                "period_2": 6,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -6,
-                "ft_score_only": 6
-              },
-              "home_team_id": "3glrw7h1yljqdyj",
-              "away_team_id": "n54qllhe229qvy9",
-              "home_team_name": "Thor KA Akureyri (w)",
-              "away_team_name": "Breidablik Women"
-            },
-            "event_ids": [
-              "318q66hwnyxvqo9"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
             "id": "318q66h0vp5kqo9",
             "home_team_id": "n54qllh2v9pqvy9",
             "away_team_id": "n54qllhe229qvy9",
@@ -147,11 +19,7 @@
             "round_id": "6ypq3nhepynmd7o",
             "round_number": 2,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1711717200,
               "pen_m5": [
                 0,
@@ -191,24 +59,132 @@
             "event_ids": [
               "y0or5jhn64w1qwz"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
+          }
+        },
+        "1": {
+          "1": {
+            "id": "3glrw7h1j49eqdy",
+            "home_team_id": "n54qllh2v9pqvy9",
+            "away_team_id": "dj2ryohkp0wq1zp",
+            "home_team_name": "Valur Women",
+            "away_team_name": "Stjarnan Gardabaer Women",
+            "home_score": 4,
+            "away_score": 0,
+            "winner_team_id": "n54qllh2v9pqvy9",
+            "position": 1,
+            "round_id": "8yomo4hx6lxq0j6",
+            "round_number": 1,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1711389600,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 4,
+                "display": 4,
+                "period_1": 2,
+                "period_2": 2,
+                "corner": 9,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -4,
+                "ft_score_only": 4
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 1,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "n54qllh2v9pqvy9",
+              "away_team_id": "dj2ryohkp0wq1zp",
+              "home_team_name": "Valur Women",
+              "away_team_name": "Stjarnan Gardabaer Women"
+            },
+            "event_ids": [
+              "jw2r09h27ykprz8"
+            ],
+            "state_id": 7
+          },
+          "2": {
+            "id": "pxwrxlh19ln0ryk",
+            "home_team_id": "3glrw7h1yljqdyj",
+            "away_team_id": "n54qllhe229qvy9",
+            "home_team_name": "Thor KA Akureyri (w)",
+            "away_team_name": "Breidablik Women",
+            "home_score": 3,
+            "away_score": 6,
+            "winner_team_id": "n54qllhe229qvy9",
+            "position": 2,
+            "round_id": "8yomo4hx6lxq0j6",
+            "round_number": 1,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1711204200,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 0,
+                "period_2": 3,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 6,
+                "display": 6,
+                "period_1": 0,
+                "period_2": 6,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -6,
+                "ft_score_only": 6
+              },
+              "home_team_id": "3glrw7h1yljqdyj",
+              "away_team_id": "n54qllhe229qvy9",
+              "home_team_name": "Thor KA Akureyri (w)",
+              "away_team_name": "Breidablik Women"
+            },
+            "event_ids": [
+              "318q66hwnyxvqo9"
+            ],
+            "state_id": 8
           }
         }
       },
       "rounds": [
         {
-          "id": "8yomo4hx6lxq0j6",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "6ypq3nhepynmd7o",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "8yomo4hx6lxq0j6",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2

@@ -7,6 +7,46 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "virtual-r0-p1",
+            "home_team_name": "TBD",
+            "away_team_name": "TBD",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 1,
+            "round_id": "l7oqdeh2lovr510",
+            "round_number": 3,
+            "is_tbd": true,
+            "state_id": -3
+          }
+        },
+        "1": {
+          "1": {
+            "id": "virtual-r1-p1",
+            "home_team_name": "TBD",
+            "away_team_name": "TBD",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 1,
+            "round_id": "jw2r09h9w2orz84",
+            "round_number": 2,
+            "is_tbd": true,
+            "state_id": -3
+          },
+          "2": {
+            "id": "virtual-r1-p2",
+            "home_team_name": "TBD",
+            "away_team_name": "TBD",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 2,
+            "round_id": "jw2r09h9w2orz84",
+            "round_number": 2,
+            "is_tbd": true,
+            "state_id": -3
+          }
+        },
+        "2": {
+          "1": {
             "id": "jw2r09hnljnzrz8",
             "home_team_id": "y0or5jhle24qwzv",
             "away_team_id": "3glrw7hwey2qdyj",
@@ -19,11 +59,7 @@
             "round_id": "l5ergphynw1r8k0",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1700042400,
               "pen_m5": [
                 0,
@@ -63,14 +99,10 @@
             "event_ids": [
               "8yomo4h3vvxxq0j"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           },
           "2": {
-            "id": "virtual-r0-p2",
+            "id": "virtual-r2-p2",
             "home_team_name": "TBD",
             "away_team_name": "TBD",
             "home_score": 0,
@@ -79,14 +111,10 @@
             "round_id": "l5ergphynw1r8k0",
             "round_number": 1,
             "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
+            "state_id": -3
           },
           "3": {
-            "id": "virtual-r0-p3",
+            "id": "virtual-r2-p3",
             "home_team_name": "TBD",
             "away_team_name": "TBD",
             "home_score": 0,
@@ -95,14 +123,10 @@
             "round_id": "l5ergphynw1r8k0",
             "round_number": 1,
             "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
+            "state_id": -3
           },
           "4": {
-            "id": "virtual-r0-p4",
+            "id": "virtual-r2-p4",
             "home_team_name": "TBD",
             "away_team_name": "TBD",
             "home_score": 0,
@@ -111,71 +135,15 @@
             "round_id": "l5ergphynw1r8k0",
             "round_number": 1,
             "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "virtual-r1-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "jw2r09h9w2orz84",
-            "round_number": 2,
-            "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
-          },
-          "2": {
-            "id": "virtual-r1-p2",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 2,
-            "round_id": "jw2r09h9w2orz84",
-            "round_number": 2,
-            "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
-          }
-        },
-        "2": {
-          "1": {
-            "id": "virtual-r2-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "l7oqdeh2lovr510",
-            "round_number": 3,
-            "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
+            "state_id": -3
           }
         }
       },
       "rounds": [
         {
-          "id": "l5ergphynw1r8k0",
-          "description": "Qualification Round1",
-          "number": 1
+          "id": "l7oqdeh2lovr510",
+          "description": "Final",
+          "number": 3
         },
         {
           "id": "jw2r09h9w2orz84",
@@ -183,9 +151,9 @@
           "number": 2
         },
         {
-          "id": "l7oqdeh2lovr510",
-          "description": "Final",
-          "number": 3
+          "id": "l5ergphynw1r8k0",
+          "description": "Qualification Round1",
+          "number": 1
         }
       ],
       "total_rounds": 3

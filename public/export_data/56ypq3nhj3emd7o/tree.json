@@ -7,6 +7,47 @@
       "nodes": {
         "0": {
           "1": {
+            "id": "virtual-r0-p1",
+            "home_team_name": "TBD",
+            "away_team_name": "TBD",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 1,
+            "round_id": "x7lm7ph37kem2wd",
+            "round_number": 3,
+            "is_tbd": true,
+            "state_id": -3
+          }
+        },
+        "1": {
+          "1": {
+            "id": "dn1m1ghe2gwpmoe",
+            "home_team_id": "gpxwrxlho1xryk0",
+            "home_team_name": "Dordrecht",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 1,
+            "round_id": "vjxm8gh5w4or6od",
+            "round_number": 2,
+            "state_id": 1,
+            "note": "Direct qualified for the Semi Finals"
+          },
+          "2": {
+            "id": "318q66h0w35gqo9",
+            "home_team_id": "gy0or5jhke5qwzv",
+            "away_team_id": "kdj2ryoh31eq1zp",
+            "home_team_name": "SC Telstar",
+            "away_team_name": "Den Bosch",
+            "home_score": 0,
+            "away_score": 0,
+            "position": 2,
+            "round_id": "vjxm8gh5w4or6od",
+            "round_number": 2,
+            "state_id": 1
+          }
+        },
+        "2": {
+          "1": {
             "id": "2y8m4zhj6v1vql0",
             "home_team_id": "gpxwrxlho1xryk0",
             "away_team_id": "d23xmvkhzpnqg8n",
@@ -19,11 +60,7 @@
             "round_id": "3glrw7h3pwgqdyj",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1747162800,
               "pen_m5": [
                 0,
@@ -61,11 +98,7 @@
               "away_team_name": "Dordrecht"
             },
             "second_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1747504800,
               "pen_m5": [
                 0,
@@ -106,14 +139,10 @@
               "318q66hxoj2oqo9",
               "vjxm8ghe4p3er6o"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           },
           "2": {
-            "id": "virtual-r0-p2",
+            "id": "virtual-r2-p2",
             "home_team_name": "TBD",
             "away_team_name": "TBD",
             "home_score": 0,
@@ -122,11 +151,7 @@
             "round_id": "3glrw7h3pwgqdyj",
             "round_number": 1,
             "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
+            "state_id": -3
           },
           "3": {
             "id": "8yomo4hk3yz8q0j",
@@ -141,11 +166,7 @@
             "round_id": "3glrw7h3pwgqdyj",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1747154700,
               "pen_m5": [
                 0,
@@ -185,11 +206,7 @@
             "event_ids": [
               "k82rekhgv36zrep"
             ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
+            "state_id": 7
           },
           "4": {
             "id": "dj2ryohy172lq1z",
@@ -204,11 +221,7 @@
             "round_id": "3glrw7h3pwgqdyj",
             "round_number": 1,
             "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1747072800,
               "pen_m5": [
                 0,
@@ -246,11 +259,7 @@
               "away_team_name": "SC Cambuur Leeuwarden"
             },
             "second_leg": {
-              "status": {
-                "code": 110,
-                "description": "AET",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1747418400,
               "pen_m5": [
                 0,
@@ -291,72 +300,15 @@
               "y39mp1h631p7moj",
               "dn1m1ghl487emoe"
             ],
-            "status": {
-              "code": 110,
-              "description": "AET",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
-            "id": "dn1m1ghe2gwpmoe",
-            "home_team_id": "gpxwrxlho1xryk0",
-            "home_team_name": "Dordrecht",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "vjxm8gh5w4or6od",
-            "round_number": 2,
-            "status": {
-              "code": 0,
-              "description": "Pending",
-              "type": "pending"
-            },
-            "note": "Direct qualified for the Semi Finals"
-          },
-          "2": {
-            "id": "318q66h0w35gqo9",
-            "home_team_id": "gy0or5jhke5qwzv",
-            "away_team_id": "kdj2ryoh31eq1zp",
-            "home_team_name": "SC Telstar",
-            "away_team_name": "Den Bosch",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 2,
-            "round_id": "vjxm8gh5w4or6od",
-            "round_number": 2,
-            "status": {
-              "code": 0,
-              "description": "Scheduled",
-              "type": "scheduled"
-            }
-          }
-        },
-        "2": {
-          "1": {
-            "id": "virtual-r2-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "x7lm7ph37kem2wd",
-            "round_number": 3,
-            "is_tbd": true,
-            "status": {
-              "code": -2,
-              "description": "To Be Determined",
-              "type": "TBD"
-            }
+            "state_id": 7
           }
         }
       },
       "rounds": [
         {
-          "id": "3glrw7h3pwgqdyj",
-          "description": "Quarterfinals",
-          "number": 1
+          "id": "x7lm7ph37kem2wd",
+          "description": "Final",
+          "number": 3
         },
         {
           "id": "vjxm8gh5w4or6od",
@@ -364,9 +316,9 @@
           "number": 2
         },
         {
-          "id": "x7lm7ph37kem2wd",
-          "description": "Final",
-          "number": 3
+          "id": "3glrw7h3pwgqdyj",
+          "description": "Quarterfinals",
+          "number": 1
         }
       ],
       "total_rounds": 3

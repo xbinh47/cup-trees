@@ -7,89 +7,6 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "vjxm8ghg70gdr6o",
-            "home_team_id": "kn54qllhgp9qvy9",
-            "away_team_id": "l965mkyh694r1ge",
-            "home_team_name": "Huachipato",
-            "away_team_name": "Univ Catolica",
-            "home_score": 2,
-            "away_score": 4,
-            "winner_team_id": "l965mkyh694r1ge",
-            "position": 1,
-            "round_id": "965mkyhy7jvr1ge",
-            "round_number": 1,
-            "status": {
-              "code": 0,
-              "description": "Finished",
-              "type": "finished"
-            }
-          },
-          "2": {
-            "id": "x7lm7pho2vo6m2w",
-            "home_team_id": "p3glrw7h5x0qdyj",
-            "away_team_id": "4jwq2ghkn7km0ve",
-            "home_team_name": "Coquimbo Unido",
-            "away_team_name": "Deportes Limache",
-            "home_score": 3,
-            "away_score": 2,
-            "winner_team_id": "p3glrw7h5x0qdyj",
-            "position": 2,
-            "round_id": "965mkyhy7jvr1ge",
-            "round_number": 1,
-            "first_leg": {
-              "status": {
-                "code": 100,
-                "description": "ended",
-                "type": "finished"
-              },
-              "start_time": 1769032800,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 1,
-                "period_2": 2,
-                "corner": 4,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "away_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 1,
-                "period_2": 1,
-                "corner": 4,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "home_team_id": "p3glrw7h5x0qdyj",
-              "away_team_id": "4jwq2ghkn7km0ve",
-              "home_team_name": "Coquimbo Unido",
-              "away_team_name": "Deportes Limache"
-            },
-            "event_ids": [
-              "4wyrn4h6oxvoq86"
-            ],
-            "status": {
-              "code": 100,
-              "description": "ended",
-              "type": "finished"
-            }
-          }
-        },
-        "1": {
-          "1": {
             "id": "6ypq3nh5py23md7",
             "home_team_id": "l965mkyh694r1ge",
             "away_team_id": "p3glrw7h5x0qdyj",
@@ -102,11 +19,7 @@
             "round_id": "y39mp1hz3x2mojx",
             "round_number": 2,
             "first_leg": {
-              "status": {
-                "code": 120,
-                "description": "AP",
-                "type": "finished"
-              },
+              "state_id": 8,
               "start_time": 1769378400,
               "pen_m5": [
                 8,
@@ -172,11 +85,7 @@
             "event_ids": [
               "965mkyhkyg5pr1g"
             ],
-            "status": {
-              "code": 120,
-              "description": "AP",
-              "type": "finished"
-            },
+            "state_id": 8,
             "pen_array": [
               [
                 1,
@@ -204,18 +113,89 @@
               ]
             ]
           }
+        },
+        "1": {
+          "1": {
+            "id": "vjxm8ghg70gdr6o",
+            "home_team_id": "kn54qllhgp9qvy9",
+            "away_team_id": "l965mkyh694r1ge",
+            "home_team_name": "Huachipato",
+            "away_team_name": "Univ Catolica",
+            "home_score": 2,
+            "away_score": 4,
+            "winner_team_id": "l965mkyh694r1ge",
+            "position": 1,
+            "round_id": "965mkyhy7jvr1ge",
+            "round_number": 1,
+            "state_id": 8
+          },
+          "2": {
+            "id": "x7lm7pho2vo6m2w",
+            "home_team_id": "p3glrw7h5x0qdyj",
+            "away_team_id": "4jwq2ghkn7km0ve",
+            "home_team_name": "Coquimbo Unido",
+            "away_team_name": "Deportes Limache",
+            "home_score": 3,
+            "away_score": 2,
+            "winner_team_id": "p3glrw7h5x0qdyj",
+            "position": 2,
+            "round_id": "965mkyhy7jvr1ge",
+            "round_number": 1,
+            "first_leg": {
+              "state_id": 8,
+              "start_time": 1769032800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 2,
+                "corner": 4,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 4,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "p3glrw7h5x0qdyj",
+              "away_team_id": "4jwq2ghkn7km0ve",
+              "home_team_name": "Coquimbo Unido",
+              "away_team_name": "Deportes Limache"
+            },
+            "event_ids": [
+              "4wyrn4h6oxvoq86"
+            ],
+            "state_id": 7
+          }
         }
       },
       "rounds": [
         {
-          "id": "965mkyhy7jvr1ge",
-          "description": "Semi Finals",
-          "number": 1
-        },
-        {
           "id": "y39mp1hz3x2mojx",
           "description": "Final",
           "number": 2
+        },
+        {
+          "id": "965mkyhy7jvr1ge",
+          "description": "Semi Finals",
+          "number": 1
         }
       ],
       "total_rounds": 2,
@@ -228,11 +208,7 @@
         "round_id": "k82rekhwv55repz",
         "round_number": 1,
         "is_third_place": true,
-        "status": {
-          "code": 0,
-          "description": "Pending",
-          "type": "pending"
-        },
+        "state_id": 2,
         "note": "Direct qualified for the Placement match for 3rd"
       }
     }
