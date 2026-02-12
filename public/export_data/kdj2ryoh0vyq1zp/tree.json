@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "vjxm8ghxn0vr6od",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1653589800,
               "pen_m5": [
                 0,
@@ -57,7 +60,7 @@
               "away_team_name": "Pisa"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1653849000,
               "pen_m5": [
                 0,
@@ -98,7 +101,8 @@
               "x7lm7ph3pnyzm2w",
               "dn1m1ghp1780moe"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "1": {
@@ -114,8 +118,11 @@
             "position": 1,
             "round_id": "3glrw7hox4dqdyj",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1652896800,
               "pen_m5": [
                 0,
@@ -153,7 +160,7 @@
               "away_team_name": "Monza"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1653246000,
               "pen_m5": [
                 0,
@@ -194,7 +201,8 @@
               "ednm9wh2eg8gryo",
               "dj2ryohe2g8pq1z"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "2": {
             "id": "ednm9whkww6eryo",
@@ -208,8 +216,11 @@
             "position": 2,
             "round_id": "3glrw7hox4dqdyj",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1652812200,
               "pen_m5": [
                 0,
@@ -247,7 +258,7 @@
               "away_team_name": "Pisa"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1653148800,
               "pen_m5": [
                 0,
@@ -288,7 +299,8 @@
               "4jwq2ghz1xlxm0v",
               "pxwrxlhxvjd8ryk"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         },
         "2": {
@@ -304,8 +316,11 @@
             "position": 1,
             "round_id": "pxwrxlhv6l6ryk0",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1652544000,
               "pen_m5": [
                 0,
@@ -345,9 +360,11 @@
             "event_ids": [
               "dn1m1ghp14k4moe"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
+            "id": "bye-zp5rzgh7xejq82w-1-2",
             "home_team_id": "l7oqdehn42er510",
             "home_team_name": "Monza",
             "away_team_name": "BYE",
@@ -355,8 +372,11 @@
             "away_score": 0,
             "winner_team_id": "l7oqdehn42er510",
             "position": 2,
+            "round_id": "3glrw7hox4dqdyj",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "3": {
@@ -371,8 +391,11 @@
             "position": 3,
             "round_id": "pxwrxlhv6l6ryk0",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1652466600,
               "pen_m5": [
                 0,
@@ -412,9 +435,11 @@
             "event_ids": [
               "k82rekh01v8lrep"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "4": {
+            "id": "bye-zp5rzgh7xejq82w-1-4",
             "home_team_id": "1l4rjnh6kx8m7vx",
             "home_team_name": "Pisa",
             "away_team_name": "BYE",
@@ -422,8 +447,11 @@
             "away_score": 0,
             "winner_team_id": "1l4rjnh6kx8m7vx",
             "position": 4,
+            "round_id": "3glrw7hox4dqdyj",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         }

@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "3glrw7hlz9lqdyj",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1665669600,
               "pen_m5": [
                 0,
@@ -59,7 +62,8 @@
             "event_ids": [
               "23xmvkhp6k10qg8"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         },
         "1": {
@@ -75,8 +79,11 @@
             "position": 1,
             "round_id": "dn1m1gho844moep",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1665237600,
               "pen_m5": [
                 0,
@@ -116,9 +123,11 @@
             "event_ids": [
               "1l4rjnhj9kj2m7v"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
+            "id": "bye-l5ergph35p2r8k0-1-2",
             "home_team_id": "l5ergph3n17r8k0",
             "home_team_name": "Etoile Metlaoui",
             "away_team_name": "BYE",
@@ -126,8 +135,11 @@
             "away_score": 0,
             "winner_team_id": "l5ergph3n17r8k0",
             "position": 2,
+            "round_id": "3glrw7hlz9lqdyj",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         }

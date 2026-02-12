@@ -2,6 +2,81 @@
   "season_id": "j1l4rjnh7z1m7vx",
   "cup_trees": [
     {
+      "bracket_id": "n54qllhevl3qvy9",
+      "bracket_name": "Europa Playoffs",
+      "nodes": {
+        "0": {
+          "1": {
+            "id": "l7oqdeh6ld1pr51",
+            "home_team_id": "9dn1m1ghdzgmoep",
+            "away_team_id": "l965mkyh99yr1ge",
+            "home_team_name": "Racing Genk",
+            "away_team_name": "KAA Gent",
+            "home_score": 0,
+            "away_score": 1,
+            "winner_team_id": "l965mkyh99yr1ge",
+            "position": 1,
+            "round_id": "318q66hgz51qo9j",
+            "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "first_leg": {
+              "status_id": 8,
+              "start_time": 1717327800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 4,
+                "yellow_card": 5,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 2,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "home_team_id": "9dn1m1ghdzgmoep",
+              "away_team_id": "l965mkyh99yr1ge",
+              "home_team_name": "Racing Genk",
+              "away_team_name": "KAA Gent"
+            },
+            "event_ids": [
+              "ednm9wh70n79ryo"
+            ],
+            "state_id": 8,
+            "status_id": 8
+          }
+        }
+      },
+      "rounds": [
+        {
+          "id": "318q66hgz51qo9j",
+          "description": "Final",
+          "number": 1
+        }
+      ],
+      "total_rounds": 1
+    },
+    {
       "bracket_id": "y0or5jh4vpeqwzv",
       "bracket_name": "Relegation/Promotion Playoffs",
       "nodes": {
@@ -18,8 +93,11 @@
             "position": 1,
             "round_id": "l7oqdeh27ykr510",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 1,
+              "status_id": 1,
               "start_time": 1716138900,
               "pen_m5": [
                 0,
@@ -57,7 +135,7 @@
               "away_team_name": "KV Kortrijk"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1716723000,
               "pen_m5": [
                 0,
@@ -98,7 +176,8 @@
               "3glrw7h7pnkdqdy",
               "k82rekhwx2gyrep"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         },
         "1": {
@@ -114,8 +193,11 @@
             "position": 1,
             "round_id": "jw2r09h984drz84",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1714917600,
               "pen_m5": [
                 0,
@@ -153,7 +235,7 @@
               "away_team_name": "KMSK Deinze"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1715522400,
               "pen_m5": [
                 0,
@@ -194,9 +276,11 @@
               "8yomo4h3400gq0j",
               "6ypq3nh3nll3md7"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
+            "id": "bye-y0or5jh4vpeqwzv-2-2",
             "home_team_id": "e4wyrn4h1jjq86p",
             "home_team_name": "KV Kortrijk",
             "away_team_name": "BYE",
@@ -204,8 +288,11 @@
             "away_score": 0,
             "winner_team_id": "e4wyrn4h1jjq86p",
             "position": 2,
+            "round_id": "l7oqdeh27ykr510",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         },
@@ -222,8 +309,11 @@
             "position": 1,
             "round_id": "l5ergphyg07r8k0",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1714240800,
               "pen_m5": [
                 0,
@@ -261,7 +351,7 @@
               "away_team_name": "KVSK Lommel"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1714586400,
               "pen_m5": [
                 0,
@@ -302,7 +392,8 @@
               "ednm9wh7xj7kryo",
               "k82rekhw65worep"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "2": {
             "id": "vjxm8ghg8zjdr6o",
@@ -316,8 +407,11 @@
             "position": 2,
             "round_id": "l5ergphyg07r8k0",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1714226400,
               "pen_m5": [
                 0,
@@ -355,7 +449,7 @@
               "away_team_name": "KMSK Deinze"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1714572000,
               "pen_m5": [
                 0,
@@ -396,7 +490,8 @@
               "4jwq2ghep8eom0v",
               "y39mp1hzwxzjmoj"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         }
       },
@@ -418,77 +513,6 @@
         }
       ],
       "total_rounds": 3
-    },
-    {
-      "bracket_id": "n54qllhevl3qvy9",
-      "bracket_name": "Europa Playoffs",
-      "nodes": {
-        "0": {
-          "1": {
-            "id": "l7oqdeh6ld1pr51",
-            "home_team_id": "9dn1m1ghdzgmoep",
-            "away_team_id": "l965mkyh99yr1ge",
-            "home_team_name": "Racing Genk",
-            "away_team_name": "KAA Gent",
-            "home_score": 0,
-            "away_score": 1,
-            "winner_team_id": "l965mkyh99yr1ge",
-            "position": 1,
-            "round_id": "318q66hgz51qo9j",
-            "round_number": 1,
-            "first_leg": {
-              "state_id": 8,
-              "start_time": 1717327800,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 4,
-                "yellow_card": 5,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "away_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 0,
-                "period_2": 1,
-                "corner": 2,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -1,
-                "ft_score_only": 1
-              },
-              "home_team_id": "9dn1m1ghdzgmoep",
-              "away_team_id": "l965mkyh99yr1ge",
-              "home_team_name": "Racing Genk",
-              "away_team_name": "KAA Gent"
-            },
-            "event_ids": [
-              "ednm9wh70n79ryo"
-            ],
-            "state_id": 8
-          }
-        }
-      },
-      "rounds": [
-        {
-          "id": "318q66hgz51qo9j",
-          "description": "Final",
-          "number": 1
-        }
-      ],
-      "total_rounds": 1
     }
   ]
 }

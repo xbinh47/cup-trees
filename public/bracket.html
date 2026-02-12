@@ -301,10 +301,21 @@
             border-radius: 12px;
             width: 90%;
             max-width: 500px;
+            max-height: 85vh;
+            /* Added max-height */
+            overflow-y: auto;
+            /* Added scroll */
             padding: 24px;
             position: relative;
             box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
             animation: modalFadeIn 0.3s ease;
+            transition: max-width 0.3s ease;
+            /* Smooth transition for width change */
+        }
+
+        /* Layout utility for 2-leg view */
+        .modal-content.wide {
+            max-width: 900px;
         }
 
         @keyframes modalFadeIn {
@@ -653,8 +664,34 @@
         }
         // ==================== END ENCODE FUNCTIONS ====================
 
+        function isLegFinished(leg) {
+            if (!leg || !leg.status) return false;
+            // 100: Ended, 110: AET, 120: AP (Penalties)
+            return [100, 110, 120].includes(leg.status.code);
+        }
+
+        function isMatchFinished(m) {
+            // Check legs first as per new logic
+            if (m.first_leg) {
+                const l1 = isLegFinished(m.first_leg);
+                if (m.second_leg) {
+                    return l1 && isLegFinished(m.second_leg);
+                }
+                return l1;
+            }
+            // Fallback for legacy data or simple structure
+            if (m.status) {
+                // Check code first
+                if (m.status.code) return [100, 110, 120].includes(m.status.code);
+                // Check type string
+                const t = (m.status.type || '').toLowerCase();
+                return ['finished', 'ft', 'aet', 'pen'].includes(t);
+            }
+            return false;
+        }
+
         function isWinner(m, isHome) {
-            if (!m.status || (m.status.type !== 'finished' && m.status.type !== 'FT' && m.status.type !== 'PEN' && m.status.type !== 'AET')) return false;
+            if (!isMatchFinished(m)) return false;
             // Strict ID check first
             if (m.winner_team_id) return m.winner_team_id === (isHome ? m.home_team_id : m.away_team_id);
             // Fallback to score
@@ -691,10 +728,19 @@
 
             const hw = isWinner(m, true);
             const aw = isWinner(m, false);
-            const statusStr = m.status ? (m.status.type || m.status.description) : '';
+
+            // Status Text: Prefer Leg Status if node status is missing/deprecated
+            let statusStr = '';
+            if (m.status && m.status.description) {
+                statusStr = m.status.description;
+            } else if (m.first_leg && m.first_leg.status) {
+                statusStr = m.first_leg.status.description;
+            }
 
             // Check for penalty
-            const hasPen = (m.home_score !== undefined && m.away_score !== undefined && m.status && (m.status.code === 120 || m.status.type === 'PEN'));
+            const hasPen = (m.home_score !== undefined && m.away_score !== undefined && m.status && (m.status.code === 120 || m.status.type === 'PEN' || m.status.code === 13));
+            // Also check leg for penalty indication if main status is missing?
+            // For now, adhere to existing logic plus code 13 support
             const penBadge = hasPen ? '<span style="background:#e94560; color:#fff; font-size:0.6rem; padding:1px 3px; border-radius:3px; margin-left:4px;">P</span>' : '';
 
             return `<div class="match" onclick='openMatchDetails(${JSON.stringify(m).replace(/'/g, "&#39;")})'>
@@ -722,6 +768,7 @@
         // Modal Logic
         function openMatchDetails(m) {
             const modal = document.getElementById('detailsModal');
+            const content = modal.querySelector('.modal-content');
             document.getElementById('modalRound').innerText = m.round_name_ui || (m.round_number ? ('Round ' + m.round_number) : '');
 
             // Helper for safely getting values
@@ -737,10 +784,16 @@
             ];
 
             // Generator for a Stat Table Block
-            const generateStatBlock = (contextName, homeTeam, awayTeam, hScoreObj, aScoreObj, homeScoreDisplay, awayScoreDisplay, penArray) => {
+            const generateStatBlock = (contextName, homeTeam, awayTeam, hScoreObj, aScoreObj, homeScoreDisplay, awayScoreDisplay, penArray, status) => {
+                let statusHtml = '';
+                if (status) {
+                    statusHtml = `<div style="text-align:center; color:#4a9eff; font-size:0.75rem; margin-bottom:5px;">Status: ${status}</div>`;
+                }
+
                 let html = `
-                    <div style="margin-top: 20px; background: rgba(0,0,0,0.2); border-radius: 8px; padding: 15px;">
-                        <div style="text-align:center; color:#e94560; font-size:0.8rem; font-weight:700; margin-bottom:10px; text-transform:uppercase;">${contextName}</div>
+                    <div style="flex: 1; margin-top: 10px; background: rgba(0,0,0,0.2); border-radius: 8px; padding: 15px;">
+                        <div style="text-align:center; color:#e94560; font-size:0.8rem; font-weight:700; margin-bottom:5px; text-transform:uppercase;">${contextName}</div>
+                        ${statusHtml}
                         <div class="stat-grid" style="margin-bottom: 15px;">
                             <div class="team-col-header team-left" style="font-size:0.9rem;">${homeTeam}</div>
                             <div class="big-score" style="font-size:1.4rem;">${homeScoreDisplay} - ${awayScoreDisplay}</div>
@@ -786,6 +839,14 @@
                 return flatScore ?? 0;
             };
 
+            // Helper to get status description
+            const getStatusDesc = (obj) => {
+                if (obj && obj.status && obj.status.description) return obj.status.description;
+                if (obj && obj.status && obj.status.type) return obj.status.type;
+                if (obj && obj.status_id) return 'ID: ' + obj.status_id;
+                return '';
+            }
+
             let bodyHtml = '';
 
             // Aggregate Header (Always show result)
@@ -796,38 +857,57 @@
                  </div>
             `;
 
-            if (m.first_leg) {
-                // Two Legs Mode
+            if (m.first_leg && m.second_leg) {
+                // Two Legs Mode - Side by Side
+                content.classList.add('wide');
+
+                bodyHtml += `<div style="display:flex; gap:15px; flex-wrap:wrap;">`;
+
                 // Leg 1
                 bodyHtml += generateStatBlock(
                     "First Leg",
-                    m.first_leg.home_team_name || m.home_team_name, // Fallback if leg name missing
+                    m.first_leg.home_team_name || m.home_team_name,
                     m.first_leg.away_team_name || m.away_team_name,
                     m.first_leg.home_score || {},
                     m.first_leg.away_score || {},
                     extractScore(m.first_leg.home_score, m.first_leg.home_score),
                     extractScore(m.first_leg.away_score, m.first_leg.away_score),
-                    m.first_leg.pen_array
+                    m.first_leg.pen_array,
+                    getStatusDesc(m.first_leg)
                 );
 
                 // Leg 2
-                if (m.second_leg) {
-                    bodyHtml += generateStatBlock(
-                        "Second Leg",
-                        m.second_leg.home_team_name || m.away_team_name, // Swap logic? usually 2nd leg is swapped home/away. 
-                        // Wait, JSON usually says who is Home in that specific match leg.
-                        // Let's trust the leg data.
-                        m.second_leg.away_team_name || m.home_team_name,
-                        m.second_leg.home_score || {},
-                        m.second_leg.away_score || {},
-                        extractScore(m.second_leg.home_score, m.second_leg.home_score),
-                        extractScore(m.second_leg.away_score, m.second_leg.away_score),
-                        m.second_leg.pen_array
-                    );
-                }
+                bodyHtml += generateStatBlock(
+                    "Second Leg",
+                    m.second_leg.home_team_name || m.away_team_name,
+                    m.second_leg.away_team_name || m.home_team_name,
+                    m.second_leg.home_score || {},
+                    m.second_leg.away_score || {},
+                    extractScore(m.second_leg.home_score, m.second_leg.home_score),
+                    extractScore(m.second_leg.away_score, m.second_leg.away_score),
+                    m.second_leg.pen_array,
+                    getStatusDesc(m.second_leg)
+                );
+
+                bodyHtml += `</div>`;
+
+            } else if (m.first_leg) {
+                // Single Leg Mode (but maybe inside first_leg object)
+                content.classList.remove('wide');
+                bodyHtml += generateStatBlock(
+                    "Match Stats",
+                    m.first_leg.home_team_name || m.home_team_name,
+                    m.first_leg.away_team_name || m.away_team_name,
+                    m.first_leg.home_score || {},
+                    m.first_leg.away_score || {},
+                    extractScore(m.first_leg.home_score, m.first_leg.home_score),
+                    extractScore(m.first_leg.away_score, m.first_leg.away_score),
+                    m.first_leg.pen_array,
+                    getStatusDesc(m.first_leg)
+                );
             } else {
-                // Single Match Mode (Finals etc)
-                // Use root object stats
+                // Single Match Mode (Finals etc - root object)
+                content.classList.remove('wide');
                 bodyHtml += generateStatBlock(
                     "Match Stats",
                     m.home_team_name,
@@ -836,7 +916,8 @@
                     m.away_score || {},
                     m.home_score ?? 0,
                     m.away_score ?? 0,
-                    m.pen_array
+                    m.pen_array,
+                    getStatusDesc(m)
                 );
             }
 
@@ -1222,7 +1303,15 @@
 
                 // Label
                 const label = document.createElement('div');
-                label.innerText = "Third Place Match";
+                let labelText = "Third Place Match";
+                // Use third_place_round info if available (as requested: "lấy cái đó hiện vô round")
+                if (data.third_place_round && data.third_place_round.description) {
+                    labelText = data.third_place_round.description;
+                } else if (data.third_place_match.bracket_name == "Third Place") {
+                    labelText = data.third_place_match.bracket_name;
+                }
+
+                label.innerText = labelText;
                 label.style.position = 'absolute';
                 label.style.left = tX + 'px';
                 label.style.top = tYLabel + 'px';
@@ -1574,10 +1663,10 @@
                             // Only warn if the parent team matches one of the child teams (impossible scenario)
                             const childHasThisTeam = (m.home_team_name === parentTeamName || m.away_team_name === parentTeamName);
                             if (childHasThisTeam) {
-                                logs.push({ 
-                                    type: 'warn', 
-                                    bracket: bracketName, 
-                                    msg: `${logPrefix} Potential Issue: Child match not finished, but parent [${parent.id}/${pMatchId}] ${targetTeamRole} slot already has "${parentTeamName}" (which is in this child match).` 
+                                logs.push({
+                                    type: 'warn',
+                                    bracket: bracketName,
+                                    msg: `${logPrefix} Potential Issue: Child match not finished, but parent [${parent.id}/${pMatchId}] ${targetTeamRole} slot already has "${parentTeamName}" (which is in this child match).`
                                 });
                             }
                             // Otherwise it's likely a BYE or pre-seeded team, which is normal

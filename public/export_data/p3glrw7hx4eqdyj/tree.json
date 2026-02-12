@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "zp5rzgh6nenq82w",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1765414800,
               "pen_m5": [
                 0,
@@ -57,7 +60,7 @@
               "away_team_name": "Cusco FC"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1765753200,
               "pen_m5": [
                 0,
@@ -98,7 +101,8 @@
               "318q66hxgyolqo9",
               "dn1m1ghl0yevmoe"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         },
         "1": {
@@ -114,8 +118,11 @@
             "position": 1,
             "round_id": "23xmvkhpeznqg8n",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764723600,
               "pen_m5": [
                 0,
@@ -153,7 +160,7 @@
               "away_team_name": "Alianza Lima"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1765069200,
               "pen_m5": [
                 4,
@@ -211,6 +218,7 @@
               "x7lm7phj7dp9m2w"
             ],
             "state_id": 7,
+            "status_id": 8,
             "pen_array": [
               [
                 0,
@@ -229,6 +237,7 @@
             ]
           },
           "2": {
+            "id": "bye-n54qllhxpxvqvy9-1-2",
             "home_team_id": "318q66h0z87qo9j",
             "home_team_name": "Cusco FC",
             "away_team_name": "BYE",
@@ -236,8 +245,11 @@
             "away_score": 0,
             "winner_team_id": "318q66h0z87qo9j",
             "position": 2,
+            "round_id": "zp5rzgh6nenq82w",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         }

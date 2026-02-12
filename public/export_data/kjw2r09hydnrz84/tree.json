@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "965mkyh19glr1ge",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1695459600,
               "pen_m5": [
                 0,
@@ -59,11 +62,13 @@
             "event_ids": [
               "y0or5jhn4889qwz"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         },
         "1": {
           "1": {
+            "id": "bye-4jwq2ghkwl7m0ve-2-1",
             "home_team_id": "965mkyh3zjnr1ge",
             "home_team_name": "OConnor Knights",
             "away_team_name": "BYE",
@@ -71,8 +76,11 @@
             "away_score": 0,
             "winner_team_id": "965mkyh3zjnr1ge",
             "position": 1,
+            "round_id": "965mkyh19glr1ge",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "2": {
@@ -87,8 +95,11 @@
             "position": 2,
             "round_id": "ednm9wh6le1ryox",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1694854800,
               "pen_m5": [
                 0,
@@ -128,7 +139,8 @@
             "event_ids": [
               "4jwq2ghek6wlm0v"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "2": {
@@ -144,8 +156,11 @@
             "position": 3,
             "round_id": "4jwq2gh6d18m0ve",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1694239200,
               "pen_m5": [
                 0,
@@ -185,9 +200,11 @@
             "event_ids": [
               "2y8m4zh6j0peql0"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "4": {
+            "id": "bye-4jwq2ghkwl7m0ve-1-4",
             "home_team_id": "n54qllhe90yqvy9",
             "home_team_name": "Gungahlin United",
             "away_team_name": "BYE",
@@ -195,8 +212,11 @@
             "away_score": 0,
             "winner_team_id": "n54qllhe90yqvy9",
             "position": 4,
+            "round_id": "ednm9wh6le1ryox",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         }

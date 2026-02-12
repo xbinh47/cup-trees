@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "jw2r09h7nw9rz84",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1683986400,
               "pen_m5": [
                 0,
@@ -57,7 +60,7 @@
               "away_team_name": "Albion Rovers"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1684591200,
               "pen_m5": [
                 0,
@@ -98,7 +101,8 @@
               "2y8m4zhwyl48ql0",
               "y0or5jhzy7zwqwz"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "1": {
@@ -114,8 +118,11 @@
             "position": 1,
             "round_id": "l5ergph23n2r8k0",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1682776800,
               "pen_m5": [
                 0,
@@ -153,7 +160,7 @@
               "away_team_name": "Brechin City"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1683381600,
               "pen_m5": [
                 0,
@@ -194,9 +201,11 @@
               "8yomo4hgl6njq0j",
               "jw2r09h6yz0drz8"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
+            "id": "bye-pxwrxlh15gvryk0-1-2",
             "home_team_id": "j1l4rjnh711m7vx",
             "home_team_name": "Albion Rovers",
             "away_team_name": "BYE",
@@ -204,8 +213,11 @@
             "away_score": 0,
             "winner_team_id": "j1l4rjnh711m7vx",
             "position": 2,
+            "round_id": "jw2r09h7nw9rz84",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         }

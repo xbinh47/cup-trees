@@ -1,0 +1,184 @@
+{
+  "season_id": "9dn1m1gh656moep",
+  "brackets": [
+    {
+      "id": "y0or5jhendyqwzv",
+      "competition_id": "jednm9whzvvryox",
+      "season_id": "9dn1m1gh656moep",
+      "name": "Knockout stage",
+      "abbr": "Knockout Stage",
+      "start_time": 1770739200,
+      "end_time": 1774799940,
+      "rounds": [
+        {
+          "id": "pxwrxlh5vzeryk0",
+          "bracket_id": "y0or5jhendyqwzv",
+          "name": "Quarterfinals",
+          "abbr": "QF",
+          "start_time": 1770850800,
+          "end_time": 1770933600,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "y0or5jh4dyz5qwz",
+              "round_id": "pxwrxlh5vzeryk0",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 7,
+              "home_team_id": "dj2ryohjn3jq1zp",
+              "away_team_id": "6ypq3nhz96zmd7o",
+              "winner_team_id": "dj2ryohjn3jq1zp",
+              "home_score": 3,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "8yomo4h11zgwq0j"
+              ]
+            },
+            {
+              "id": "n54qllheygpwqvy",
+              "round_id": "pxwrxlh5vzeryk0",
+              "number": 2,
+              "type_id": 1,
+              "state_id": 1,
+              "home_team_id": "pxwrxlhjxp1ryk0",
+              "away_team_id": "p4jwq2gh3kpm0ve",
+              "winner_team_id": "",
+              "home_score": 0,
+              "away_score": 0,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": []
+            }
+          ]
+        },
+        {
+          "id": "3glrw7h7ozpqdyj",
+          "bracket_id": "y0or5jhendyqwzv",
+          "name": "Semi Finals",
+          "abbr": "SF",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 2,
+          "match_ups": []
+        },
+        {
+          "id": "vjxm8ghlxp5r6od",
+          "bracket_id": "y0or5jhendyqwzv",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 3,
+          "match_ups": []
+        }
+      ]
+    }
+  ],
+  "competitors": {
+    "pxwrxlhjxp1ryk0": {
+      "id": "pxwrxlhjxp1ryk0",
+      "name": "Sport Sinop"
+    },
+    "dj2ryohjn3jq1zp": {
+      "id": "dj2ryohjn3jq1zp",
+      "name": "OperArio MT"
+    },
+    "6ypq3nhz96zmd7o": {
+      "id": "6ypq3nhz96zmd7o",
+      "name": "Nova Mutum EC"
+    },
+    "p4jwq2gh3kpm0ve": {
+      "id": "p4jwq2gh3kpm0ve",
+      "name": "Cuiaba"
+    }
+  },
+  "sport_events": {
+    "8yomo4h11zgwq0j": {
+      "id": "8yomo4h11zgwq0j",
+      "home_team_id": "dj2ryohjn3jq1zp",
+      "away_team_id": "6ypq3nhz96zmd7o",
+      "start_timestamp": 1770850800,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 0,
+          "red_card": 0,
+          "yellow_card": 3,
+          "penalty_score": 0,
+          "regular_score": 3,
+          "overTime_score": 0,
+          "half_time_score": 2
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 4,
+          "type": 1,
+          "position": 1,
+          "player_id": "l7oqdehlj5yxr51",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "macedo denis"
+        },
+        {
+          "time": 8,
+          "type": 1,
+          "position": 1,
+          "player_id": "6ypq3nhz8wk6md7",
+          "away_score": 0,
+          "home_score": 2,
+          "player_name": "Dioneide Landres da Penha Santos"
+        },
+        {
+          "time": 43,
+          "type": 17,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 2
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 49,
+          "type": 1,
+          "position": 1,
+          "player_id": "6ypq3nhz8wk6md7",
+          "away_score": 1,
+          "home_score": 3,
+          "player_name": "Dioneide Landres da Penha Santos"
+        },
+        {
+          "time": 56,
+          "type": 1,
+          "position": 2,
+          "player_id": "2y8m4zhz18v0ql0",
+          "away_score": 2,
+          "home_score": 3,
+          "player_name": "Chan jackie"
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    }
+  }
+}

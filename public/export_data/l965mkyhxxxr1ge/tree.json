@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "23xmvkhgzeoqg8n",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1650351600,
               "pen_m5": [
                 0,
@@ -59,7 +62,8 @@
             "event_ids": [
               "x7lm7ph39nd4m2w"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
             "id": "6ypq3nh0olxvmd7",
@@ -73,8 +77,11 @@
             "position": 2,
             "round_id": "23xmvkhgzeoqg8n",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1650375000,
               "pen_m5": [
                 0,
@@ -114,7 +121,8 @@
             "event_ids": [
               "2y8m4zhwzne6ql0"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "1": {
@@ -129,9 +137,13 @@
             "position": 1,
             "round_id": "n54qllhkyl2qvy9",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "state_id": 6
           },
           "2": {
+            "id": "bye-4wyrn4hel93q86p-2-2",
             "home_team_id": "1l4rjnhz1o1m7vx",
             "home_team_name": "Athletic 220 FC",
             "away_team_name": "BYE",
@@ -139,11 +151,15 @@
             "away_score": 0,
             "winner_team_id": "1l4rjnhz1o1m7vx",
             "position": 2,
+            "round_id": "23xmvkhgzeoqg8n",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "3": {
+            "id": "bye-4wyrn4hel93q86p-2-3",
             "home_team_id": "2y8m4zh34zlql07",
             "home_team_name": "Mohun Bagan Super Giant",
             "away_team_name": "BYE",
@@ -151,11 +167,15 @@
             "away_score": 0,
             "winner_team_id": "2y8m4zh34zlql07",
             "position": 3,
+            "round_id": "23xmvkhgzeoqg8n",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "4": {
+            "id": "bye-4wyrn4hel93q86p-2-4",
             "home_team_id": "4wyrn4heweoq86p",
             "home_team_name": "Abahani Limited Dhaka",
             "away_team_name": "BYE",
@@ -163,13 +183,17 @@
             "away_score": 0,
             "winner_team_id": "4wyrn4heweoq86p",
             "position": 4,
+            "round_id": "23xmvkhgzeoqg8n",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         },
         "2": {
           "1": {
+            "id": "bye-4wyrn4hel93q86p-1-1",
             "home_team_id": "4wyrn4heweoq86p",
             "home_team_name": "Abahani Limited Dhaka",
             "away_team_name": "BYE",
@@ -177,8 +201,11 @@
             "away_score": 0,
             "winner_team_id": "4wyrn4heweoq86p",
             "position": 1,
+            "round_id": "n54qllhkyl2qvy9",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "2": {
@@ -193,6 +220,9 @@
             "position": 2,
             "round_id": "y0or5jh0dvxqwzv",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "state_id": 7
           }
         }

@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "2y8m4zhwx5kql07",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1747940400,
               "pen_m5": [
                 0,
@@ -57,7 +60,7 @@
               "away_team_name": "Ross County"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1748286000,
               "pen_m5": [
                 0,
@@ -98,7 +101,8 @@
               "8yomo4h17468q0j",
               "23xmvkh630l7qg8"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "1": {
@@ -114,8 +118,11 @@
             "position": 1,
             "round_id": "dj2ryohe4loq1zp",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1747161900,
               "pen_m5": [
                 0,
@@ -153,7 +160,7 @@
               "away_team_name": "Livingston"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1747421100,
               "pen_m5": [
                 0,
@@ -194,9 +201,11 @@
               "4jwq2ghn419km0v",
               "6ypq3nhv017pmd7"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "2": {
+            "id": "bye-zp5rzghz2v7q82w-2-2",
             "home_team_id": "p3glrw7hv0oqdyj",
             "home_team_name": "Ross County",
             "away_team_name": "BYE",
@@ -204,8 +213,11 @@
             "away_score": 0,
             "winner_team_id": "p3glrw7hv0oqdyj",
             "position": 2,
+            "round_id": "2y8m4zhwx5kql07",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         },
@@ -222,8 +234,11 @@
             "position": 1,
             "round_id": "l7oqdeh82gwr510",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1746557100,
               "pen_m5": [
                 0,
@@ -261,7 +276,7 @@
               "away_team_name": "Ayr United"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1746816300,
               "pen_m5": [
                 0,
@@ -302,9 +317,11 @@
               "x7lm7phjkkd9m2w",
               "k82rekhgv92jrep"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
+            "id": "bye-zp5rzghz2v7q82w-1-2",
             "home_team_id": "kdj2ryoh085q1zp",
             "home_team_name": "Livingston",
             "away_team_name": "BYE",
@@ -312,8 +329,11 @@
             "away_score": 0,
             "winner_team_id": "kdj2ryoh085q1zp",
             "position": 2,
+            "round_id": "dj2ryohe4loq1zp",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         }

@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "x7lm7phnon4m2wd",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1685883600,
               "pen_m5": [
                 0,
@@ -59,11 +62,13 @@
             "event_ids": [
               "6ypq3nh79721md7"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         },
         "1": {
           "1": {
+            "id": "bye-pxwrxlh1530ryk0-1-1",
             "home_team_id": "965mkyhnxlor1ge",
             "home_team_name": "KF Dinamo Ferizaj",
             "away_team_name": "BYE",
@@ -71,8 +76,11 @@
             "away_score": 0,
             "winner_team_id": "965mkyhnxlor1ge",
             "position": 1,
+            "round_id": "x7lm7phnon4m2wd",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "2": {
@@ -87,8 +95,11 @@
             "position": 2,
             "round_id": "vjxm8gh9g9nr6od",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1685192400,
               "pen_m5": [
                 0,
@@ -128,7 +139,8 @@
             "event_ids": [
               "2y8m4zhwonopql0"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         }
       },

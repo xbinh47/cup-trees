@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "vjxm8gh3e88r6od",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1711827600,
               "pen_m5": [
                 0,
@@ -57,7 +60,7 @@
               "away_team_name": "Fortaleza"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1712432400,
               "pen_m5": [
                 3,
@@ -115,6 +118,7 @@
               "dj2ryoh14do8q1z"
             ],
             "state_id": 8,
+            "status_id": 8,
             "pen_array": [
               [
                 0,
@@ -146,8 +150,11 @@
             "position": 1,
             "round_id": "3glrw7h6nyjqdyj",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1710100800,
               "pen_m5": [
                 0,
@@ -185,7 +192,7 @@
               "away_team_name": "Fortaleza"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1710705600,
               "pen_m5": [
                 0,
@@ -226,7 +233,8 @@
               "1l4rjnh42jxwm7v",
               "ednm9wh76lgeryo"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "2": {
             "id": "4wyrn4hed8kdq86",
@@ -240,8 +248,11 @@
             "position": 2,
             "round_id": "3glrw7h6nyjqdyj",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1710013200,
               "pen_m5": [
                 0,
@@ -279,7 +290,7 @@
               "away_team_name": "Ceara"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1710618000,
               "pen_m5": [
                 0,
@@ -320,7 +331,8 @@
               "dn1m1gh2k0llmoe",
               "y0or5jhnjwp6qwz"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         },
         "2": {
@@ -336,8 +348,11 @@
             "position": 1,
             "round_id": "pxwrxlheyj1ryk0",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1708891200,
               "pen_m5": [
                 0,
@@ -377,9 +392,11 @@
             "event_ids": [
               "jw2r09h2pyojrz8"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "2": {
+            "id": "bye-k82rekh979erepz-1-2",
             "home_team_id": "v2y8m4zhy70ql07",
             "home_team_name": "Fortaleza",
             "away_team_name": "BYE",
@@ -387,8 +404,11 @@
             "away_score": 0,
             "winner_team_id": "v2y8m4zhy70ql07",
             "position": 2,
+            "round_id": "3glrw7h6nyjqdyj",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "3": {
@@ -403,8 +423,11 @@
             "position": 3,
             "round_id": "pxwrxlheyj1ryk0",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1709408400,
               "pen_m5": [
                 0,
@@ -444,9 +467,11 @@
             "event_ids": [
               "1l4rjnh42z82m7v"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "4": {
+            "id": "bye-k82rekh979erepz-1-4",
             "home_team_id": "2y8m4zh3jpgql07",
             "home_team_name": "Ceara",
             "away_team_name": "BYE",
@@ -454,8 +479,11 @@
             "away_score": 0,
             "winner_team_id": "2y8m4zh3jpgql07",
             "position": 4,
+            "round_id": "3glrw7h6nyjqdyj",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         }

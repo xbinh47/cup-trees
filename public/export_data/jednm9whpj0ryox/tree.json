@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "ednm9whdx3pryox",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1621797300,
               "pen_m5": [
                 0,
@@ -57,7 +60,7 @@
               "away_team_name": "Venezia"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1622142900,
               "pen_m5": [
                 0,
@@ -98,7 +101,8 @@
               "965mkyho0vllr1g",
               "4jwq2gh95387m0v"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         },
         "1": {
@@ -114,8 +118,11 @@
             "position": 1,
             "round_id": "4jwq2gh0p3wm0ve",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1621269000,
               "pen_m5": [
                 0,
@@ -153,7 +160,7 @@
               "away_team_name": "Monza"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1621536300,
               "pen_m5": [
                 0,
@@ -194,7 +201,8 @@
               "4jwq2gh955kvm0v",
               "3glrw7hpgev1qdy"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
             "id": "jw2r09hlgwx0rz8",
@@ -208,8 +216,11 @@
             "position": 2,
             "round_id": "4jwq2gh0p3wm0ve",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1621277100,
               "pen_m5": [
                 0,
@@ -247,7 +258,7 @@
               "away_team_name": "Lecce"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1621528200,
               "pen_m5": [
                 0,
@@ -288,7 +299,8 @@
               "ednm9wh0pp9vryo",
               "vjxm8ghw7ozjr6o"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "2": {
@@ -304,8 +316,11 @@
             "position": 1,
             "round_id": "1l4rjnh35wnm7vx",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1620923400,
               "pen_m5": [
                 0,
@@ -345,9 +360,11 @@
             "event_ids": [
               "l7oqdeh39j01r51"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
+            "id": "bye-4jwq2ghk691m0ve-1-2",
             "home_team_id": "l7oqdehn42er510",
             "home_team_name": "Monza",
             "away_team_name": "BYE",
@@ -355,8 +372,11 @@
             "away_score": 0,
             "winner_team_id": "l7oqdehn42er510",
             "position": 2,
+            "round_id": "4jwq2gh0p3wm0ve",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "3": {
@@ -371,8 +391,11 @@
             "position": 3,
             "round_id": "1l4rjnh35wnm7vx",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1620932400,
               "pen_m5": [
                 0,
@@ -412,9 +435,11 @@
             "event_ids": [
               "pxwrxlh30lz0ryk"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "4": {
+            "id": "bye-4jwq2ghk691m0ve-1-4",
             "home_team_id": "kjw2r09hvnwrz84",
             "home_team_name": "Lecce",
             "away_team_name": "BYE",
@@ -422,8 +447,11 @@
             "away_score": 0,
             "winner_team_id": "kjw2r09hvnwrz84",
             "position": 4,
+            "round_id": "4jwq2gh0p3wm0ve",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         }

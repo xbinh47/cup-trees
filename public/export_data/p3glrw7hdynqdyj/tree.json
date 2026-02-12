@@ -14,34 +14,43 @@
             "position": 1,
             "round_id": "y0or5jhz9dgqwzv",
             "round_number": 7,
-            "note": "Direct qualified for the Final"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false
           }
         },
         "1": {
           "1": {
             "id": "965mkyh4w9z1r1g",
+            "home_team_id": "8y39mp1hg44mojx",
             "away_team_id": "gx7lm7phyw6m2wd",
-            "home_team_name": "",
+            "home_team_name": "Lazio",
             "away_team_name": "Atalanta",
             "home_score": 0,
             "away_score": 0,
             "position": 1,
             "round_id": "x7lm7ph3xdwm2wd",
             "round_number": 6,
-            "state_id": 2,
-            "note": "Direct qualified for the Semi Finals"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 1
           },
           "2": {
             "id": "y39mp1h5o89wmoj",
             "home_team_id": "9dn1m1ghzl2moep",
+            "away_team_id": "z8yomo4hnz4q0j6",
             "home_team_name": "Inter Milan",
+            "away_team_name": "Como",
             "home_score": 0,
             "away_score": 0,
             "position": 2,
             "round_id": "x7lm7ph3xdwm2wd",
             "round_number": 6,
-            "state_id": 2,
-            "note": "Direct qualified for the Semi Finals"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 1
           }
         },
         "2": {
@@ -51,43 +60,60 @@
             "away_team_id": "8y39mp1hg44mojx",
             "home_team_name": "Bologna",
             "away_team_name": "Lazio",
-            "home_score": 0,
-            "away_score": 0,
+            "home_score": 2,
+            "away_score": 5,
+            "winner_team_id": "8y39mp1hg44mojx",
             "position": 1,
             "round_id": "vjxm8gh5kojr6od",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 1,
+              "status_id": 8,
               "start_time": 1770840000,
               "pen_m5": [
-                0,
-                0
+                1,
+                4
+              ],
+              "pen_array": [
+                [
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ]
               ],
               "home_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
                 "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "corner": 5,
+                "yellow_card": 3,
                 "red_card": 0,
                 "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "penalty_score": 1,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
               },
               "away_score": {
-                "current": 0,
-                "display": 0,
+                "current": 1,
+                "display": 1,
                 "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "period_2": 1,
+                "corner": 2,
+                "yellow_card": 2,
                 "red_card": 0,
                 "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "penalty_score": 4,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
               },
               "home_team_id": "v2y8m4zhdw6ql07",
               "away_team_id": "8y39mp1hg44mojx",
@@ -97,7 +123,21 @@
             "event_ids": [
               "vjxm8ghelwder6o"
             ],
-            "state_id": 1
+            "state_id": 8,
+            "status_id": 8,
+            "pen_array": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                1,
+                1
+              ]
+            ]
           },
           "2": {
             "id": "23xmvkho2j8yqg8",
@@ -111,8 +151,11 @@
             "position": 2,
             "round_id": "vjxm8gh5kojr6od",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1770321600,
               "pen_m5": [
                 0,
@@ -152,7 +195,8 @@
             "event_ids": [
               "pxwrxlhy538xryk"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "3": {
             "id": "23xmvkholpzvqg8",
@@ -166,8 +210,11 @@
             "position": 3,
             "round_id": "vjxm8gh5kojr6od",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1770235200,
               "pen_m5": [
                 0,
@@ -207,51 +254,78 @@
             "event_ids": [
               "6ypq3nhv3nynmd7"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "4": {
             "id": "1l4rjnh1gpekm7v",
-            "home_team_id": "z8yomo4hnz4q0j6",
-            "away_team_id": "4zp5rzghvdoq82w",
-            "home_team_name": "Como",
-            "away_team_name": "Napoli",
-            "home_score": 0,
-            "away_score": 0,
+            "home_team_id": "4zp5rzghvdoq82w",
+            "away_team_id": "z8yomo4hnz4q0j6",
+            "home_team_name": "Napoli",
+            "away_team_name": "Como",
+            "home_score": 7,
+            "away_score": 8,
+            "winner_team_id": "z8yomo4hnz4q0j6",
             "position": 4,
             "round_id": "vjxm8gh5kojr6od",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 1,
+              "status_id": 8,
               "start_time": 1770753600,
               "pen_m5": [
-                0,
-                0
+                6,
+                7
+              ],
+              "pen_array": [
+                [
+                  1,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ]
               ],
               "home_score": {
-                "current": 0,
-                "display": 0,
+                "current": 1,
+                "display": 1,
                 "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "period_2": 1,
+                "corner": 6,
+                "yellow_card": 1,
                 "red_card": 0,
                 "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "penalty_score": 6,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
               },
               "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
                 "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "corner": 4,
+                "yellow_card": 2,
                 "red_card": 0,
                 "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "penalty_score": 7,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
               },
               "home_team_id": "4zp5rzghvdoq82w",
               "away_team_id": "z8yomo4hnz4q0j6",
@@ -261,7 +335,30 @@
             "event_ids": [
               "y39mp1h6zz03moj"
             ],
-            "state_id": 1
+            "state_id": 8,
+            "status_id": 8,
+            "pen_array": [
+              [
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1
+              ]
+            ]
           }
         },
         "3": {
@@ -277,8 +374,11 @@
             "position": 1,
             "round_id": "3glrw7h34e1qdyj",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764867600,
               "pen_m5": [
                 0,
@@ -318,7 +418,8 @@
             "event_ids": [
               "ednm9whw6j1dryo"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
             "id": "1l4rjnh1no3xm7v",
@@ -332,8 +433,11 @@
             "position": 2,
             "round_id": "3glrw7h34e1qdyj",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764878400,
               "pen_m5": [
                 0,
@@ -373,7 +477,8 @@
             "event_ids": [
               "4jwq2ghn68l1m0v"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "3": {
             "id": "ednm9wh95yderyo",
@@ -387,8 +492,11 @@
             "position": 3,
             "round_id": "3glrw7h34e1qdyj",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764770400,
               "pen_m5": [
                 0,
@@ -428,7 +536,8 @@
             "event_ids": [
               "k82rekhgn5lxrep"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "4": {
             "id": "y0or5jh49y0xqwz",
@@ -442,8 +551,11 @@
             "position": 4,
             "round_id": "3glrw7h34e1qdyj",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764705600,
               "pen_m5": [
                 0,
@@ -483,7 +595,8 @@
             "event_ids": [
               "1l4rjnh928vkm7v"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "5": {
             "id": "n54qllhe4gk2qvy",
@@ -497,8 +610,11 @@
             "position": 5,
             "round_id": "3glrw7h34e1qdyj",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764792000,
               "pen_m5": [
                 0,
@@ -538,7 +654,8 @@
             "event_ids": [
               "965mkyhk1jp1r1g"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "6": {
             "id": "23xmvkhoy1goqg8",
@@ -552,8 +669,11 @@
             "position": 6,
             "round_id": "3glrw7h34e1qdyj",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1768334400,
               "pen_m5": [
                 0,
@@ -593,64 +713,10 @@
             "event_ids": [
               "318q66hxn9l6qo9"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "7": {
-            "id": "zp5rzgh73v2zq82",
-            "home_team_id": "8y39mp1h80jmojx",
-            "away_team_id": "z8yomo4hnz4q0j6",
-            "home_team_name": "Fiorentina",
-            "away_team_name": "Como",
-            "home_score": 1,
-            "away_score": 3,
-            "winner_team_id": "z8yomo4hnz4q0j6",
-            "position": 7,
-            "round_id": "3glrw7h34e1qdyj",
-            "round_number": 4,
-            "first_leg": {
-              "state_id": 8,
-              "start_time": 1769544000,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 1,
-                "period_2": 0,
-                "corner": 1,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -1,
-                "ft_score_only": 1
-              },
-              "away_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 1,
-                "period_2": 2,
-                "corner": 6,
-                "yellow_card": 5,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "home_team_id": "8y39mp1h80jmojx",
-              "away_team_id": "z8yomo4hnz4q0j6",
-              "home_team_name": "Fiorentina",
-              "away_team_name": "Como"
-            },
-            "event_ids": [
-              "y39mp1h6px7wmoj"
-            ],
-            "state_id": 8
-          },
-          "8": {
             "id": "4jwq2ghkgy07m0v",
             "home_team_id": "4zp5rzghvdoq82w",
             "away_team_id": "kn54qllh6xwqvy9",
@@ -659,11 +725,14 @@
             "home_score": 10,
             "away_score": 9,
             "winner_team_id": "4zp5rzghvdoq82w",
-            "position": 8,
+            "position": 7,
             "round_id": "3glrw7h34e1qdyj",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764781200,
               "pen_m5": [
                 9,
@@ -730,6 +799,7 @@
               "zp5rzghg0n8pq82"
             ],
             "state_id": 7,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -756,10 +826,70 @@
                 0
               ]
             ]
+          },
+          "8": {
+            "id": "zp5rzgh73v2zq82",
+            "home_team_id": "8y39mp1h80jmojx",
+            "away_team_id": "z8yomo4hnz4q0j6",
+            "home_team_name": "Fiorentina",
+            "away_team_name": "Como",
+            "home_score": 1,
+            "away_score": 3,
+            "winner_team_id": "z8yomo4hnz4q0j6",
+            "position": 8,
+            "round_id": "3glrw7h34e1qdyj",
+            "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "first_leg": {
+              "status_id": 8,
+              "start_time": 1769544000,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 1,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 2,
+                "corner": 6,
+                "yellow_card": 5,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "home_team_id": "8y39mp1h80jmojx",
+              "away_team_id": "z8yomo4hnz4q0j6",
+              "home_team_name": "Fiorentina",
+              "away_team_name": "Como"
+            },
+            "event_ids": [
+              "y39mp1h6px7wmoj"
+            ],
+            "state_id": 8,
+            "status_id": 8
           }
         },
         "4": {
           "1": {
+            "id": "bye-4wyrn4hd2djq86p-3-1",
             "home_team_id": "v2y8m4zhdw6ql07",
             "home_team_name": "Bologna",
             "away_team_name": "BYE",
@@ -767,8 +897,11 @@
             "away_score": 0,
             "winner_team_id": "v2y8m4zhdw6ql07",
             "position": 1,
+            "round_id": "3glrw7h34e1qdyj",
             "round_number": 3,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "10": {
@@ -783,8 +916,11 @@
             "position": 10,
             "round_id": "pxwrxlhxlwgryk0",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758731400,
               "pen_m5": [
                 4,
@@ -841,6 +977,7 @@
               "3glrw7hno2g1qdy"
             ],
             "state_id": 8,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -859,6 +996,7 @@
             ]
           },
           "11": {
+            "id": "bye-4wyrn4hd2djq86p-3-11",
             "home_team_id": "gx7lm7phel7m2wd",
             "home_team_name": "AS Roma",
             "away_team_name": "BYE",
@@ -866,8 +1004,11 @@
             "away_score": 0,
             "winner_team_id": "gx7lm7phel7m2wd",
             "position": 11,
+            "round_id": "3glrw7h34e1qdyj",
             "round_number": 3,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "12": {
@@ -882,8 +1023,11 @@
             "position": 12,
             "round_id": "pxwrxlhxlwgryk0",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758826800,
               "pen_m5": [
                 0,
@@ -923,88 +1067,26 @@
             "event_ids": [
               "y0or5jh81ywgqwz"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "13": {
-            "home_team_id": "8y39mp1h80jmojx",
-            "home_team_name": "Fiorentina",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "8y39mp1h80jmojx",
-            "position": 13,
-            "round_number": 3,
-            "is_bye": true,
-            "state_id": -2
-          },
-          "14": {
-            "id": "2y8m4zhjvg15ql0",
-            "home_team_id": "z8yomo4hnz4q0j6",
-            "away_team_id": "vjxm8gh49xpr6od",
-            "home_team_name": "Como",
-            "away_team_name": "Sassuolo",
-            "home_score": 3,
-            "away_score": 0,
-            "winner_team_id": "z8yomo4hnz4q0j6",
-            "position": 14,
-            "round_id": "pxwrxlhxlwgryk0",
-            "round_number": 3,
-            "first_leg": {
-              "state_id": 8,
-              "start_time": 1758740400,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 3,
-                "period_2": 0,
-                "corner": 6,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 5,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "z8yomo4hnz4q0j6",
-              "away_team_id": "vjxm8gh49xpr6od",
-              "home_team_name": "Como",
-              "away_team_name": "Sassuolo"
-            },
-            "event_ids": [
-              "8yomo4h1zl8nq0j"
-            ],
-            "state_id": 7
-          },
-          "15": {
+            "id": "bye-4wyrn4hd2djq86p-3-13",
             "home_team_id": "4zp5rzghvdoq82w",
             "home_team_name": "Napoli",
             "away_team_name": "BYE",
             "home_score": 0,
             "away_score": 0,
             "winner_team_id": "4zp5rzghvdoq82w",
-            "position": 15,
+            "position": 13,
+            "round_id": "3glrw7h34e1qdyj",
             "round_number": 3,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
-          "16": {
+          "14": {
             "id": "6ypq3nh5kz18md7",
             "home_team_id": "kn54qllh6xwqvy9",
             "away_team_id": "56ypq3nho80md7o",
@@ -1013,11 +1095,14 @@
             "home_score": 8,
             "away_score": 2,
             "winner_team_id": "kn54qllh6xwqvy9",
-            "position": 16,
+            "position": 14,
             "round_id": "pxwrxlhxlwgryk0",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758639600,
               "pen_m5": [
                 0,
@@ -1057,7 +1142,83 @@
             "event_ids": [
               "6ypq3nhv1yp6md7"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
+          },
+          "15": {
+            "id": "bye-4wyrn4hd2djq86p-3-15",
+            "home_team_id": "8y39mp1h80jmojx",
+            "home_team_name": "Fiorentina",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "8y39mp1h80jmojx",
+            "position": 15,
+            "round_id": "3glrw7h34e1qdyj",
+            "round_number": 3,
+            "is_third_place": false,
+            "is_bye": true,
+            "is_tbd": false,
+            "state_id": -2
+          },
+          "16": {
+            "id": "2y8m4zhjvg15ql0",
+            "home_team_id": "z8yomo4hnz4q0j6",
+            "away_team_id": "vjxm8gh49xpr6od",
+            "home_team_name": "Como",
+            "away_team_name": "Sassuolo",
+            "home_score": 3,
+            "away_score": 0,
+            "winner_team_id": "z8yomo4hnz4q0j6",
+            "position": 16,
+            "round_id": "pxwrxlhxlwgryk0",
+            "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "first_leg": {
+              "status_id": 8,
+              "start_time": 1758740400,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 3,
+                "period_2": 0,
+                "corner": 6,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 5,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "z8yomo4hnz4q0j6",
+              "away_team_id": "vjxm8gh49xpr6od",
+              "home_team_name": "Como",
+              "away_team_name": "Sassuolo"
+            },
+            "event_ids": [
+              "8yomo4h1zl8nq0j"
+            ],
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
             "id": "4wyrn4heyd90q86",
@@ -1071,8 +1232,11 @@
             "position": 2,
             "round_id": "pxwrxlhxlwgryk0",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758726000,
               "pen_m5": [
                 4,
@@ -1129,6 +1293,7 @@
               "vjxm8ghexd7jr6o"
             ],
             "state_id": 7,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -1147,6 +1312,7 @@
             ]
           },
           "3": {
+            "id": "bye-4wyrn4hd2djq86p-3-3",
             "home_team_id": "8y39mp1hg44mojx",
             "home_team_name": "Lazio",
             "away_team_name": "BYE",
@@ -1154,8 +1320,11 @@
             "away_score": 0,
             "winner_team_id": "8y39mp1hg44mojx",
             "position": 3,
+            "round_id": "3glrw7h34e1qdyj",
             "round_number": 3,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "4": {
@@ -1170,8 +1339,11 @@
             "position": 4,
             "round_id": "pxwrxlhxlwgryk0",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758654000,
               "pen_m5": [
                 0,
@@ -1211,9 +1383,11 @@
             "event_ids": [
               "pxwrxlhyv80gryk"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "5": {
+            "id": "bye-4wyrn4hd2djq86p-3-5",
             "home_team_id": "gx7lm7phyw6m2wd",
             "home_team_name": "Atalanta",
             "away_team_name": "BYE",
@@ -1221,8 +1395,11 @@
             "away_score": 0,
             "winner_team_id": "gx7lm7phyw6m2wd",
             "position": 5,
+            "round_id": "3glrw7h34e1qdyj",
             "round_number": 3,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "6": {
@@ -1237,8 +1414,11 @@
             "position": 6,
             "round_id": "pxwrxlhxlwgryk0",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758817800,
               "pen_m5": [
                 0,
@@ -1278,9 +1458,11 @@
             "event_ids": [
               "2y8m4zh51y72ql0"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "7": {
+            "id": "bye-4wyrn4hd2djq86p-3-7",
             "home_team_id": "e4wyrn4hn4dq86p",
             "home_team_name": "Juventus",
             "away_team_name": "BYE",
@@ -1288,8 +1470,11 @@
             "away_score": 0,
             "winner_team_id": "e4wyrn4hn4dq86p",
             "position": 7,
+            "round_id": "3glrw7h34e1qdyj",
             "round_number": 3,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "8": {
@@ -1304,8 +1489,11 @@
             "position": 8,
             "round_id": "pxwrxlhxlwgryk0",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758645000,
               "pen_m5": [
                 0,
@@ -1345,9 +1533,11 @@
             "event_ids": [
               "x7lm7phjpy2wm2w"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "9": {
+            "id": "bye-4wyrn4hd2djq86p-3-9",
             "home_team_id": "9dn1m1ghzl2moep",
             "home_team_name": "Inter Milan",
             "away_team_name": "BYE",
@@ -1355,8 +1545,11 @@
             "away_score": 0,
             "winner_team_id": "9dn1m1ghzl2moep",
             "position": 9,
+            "round_id": "3glrw7h34e1qdyj",
             "round_number": 3,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         },
@@ -1373,8 +1566,11 @@
             "position": 11,
             "round_id": "6ypq3nh7kd6md7o",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755285300,
               "pen_m5": [
                 0,
@@ -1414,7 +1610,8 @@
             "event_ids": [
               "x7lm7phjp3eym2w"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "12": {
             "id": "x7lm7phojd0lm2w",
@@ -1428,8 +1625,11 @@
             "position": 12,
             "round_id": "6ypq3nh7kd6md7o",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755273600,
               "pen_m5": [
                 3,
@@ -1483,6 +1683,7 @@
               "dj2ryohljd8dq1z"
             ],
             "state_id": 7,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -1509,8 +1710,11 @@
             "position": 15,
             "round_id": "6ypq3nh7kd6md7o",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755542700,
               "pen_m5": [
                 0,
@@ -1550,7 +1754,8 @@
             "event_ids": [
               "3glrw7hnjldeqdy"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "16": {
             "id": "vjxm8ghgeojzr6o",
@@ -1564,8 +1769,11 @@
             "position": 16,
             "round_id": "6ypq3nh7kd6md7o",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755371700,
               "pen_m5": [
                 4,
@@ -1622,6 +1830,7 @@
               "3glrw7hnjld7qdy"
             ],
             "state_id": 8,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -1651,8 +1860,11 @@
             "position": 19,
             "round_id": "6ypq3nh7kd6md7o",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755532800,
               "pen_m5": [
                 2,
@@ -1708,6 +1920,7 @@
               "n54qllhndp6oqvy"
             ],
             "state_id": 8,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -1736,8 +1949,11 @@
             "position": 20,
             "round_id": "6ypq3nh7kd6md7o",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755360000,
               "pen_m5": [
                 0,
@@ -1777,7 +1993,8 @@
             "event_ids": [
               "6ypq3nhvz4xnmd7"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "23": {
             "id": "pxwrxlh1yw98ryk",
@@ -1791,8 +2008,11 @@
             "position": 23,
             "round_id": "6ypq3nh7kd6md7o",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755544500,
               "pen_m5": [
                 0,
@@ -1832,7 +2052,8 @@
             "event_ids": [
               "vjxm8ghej2y6r6o"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "24": {
             "id": "n54qllheny85qvy",
@@ -1846,8 +2067,11 @@
             "position": 24,
             "round_id": "6ypq3nh7kd6md7o",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755456300,
               "pen_m5": [
                 1,
@@ -1904,6 +2128,7 @@
               "x7lm7phj054xm2w"
             ],
             "state_id": 8,
+            "status_id": 8,
             "pen_array": [
               [
                 0,
@@ -1922,171 +2147,6 @@
             ]
           },
           "27": {
-            "id": "3glrw7h1nej8qdy",
-            "home_team_id": "z8yomo4hnz4q0j6",
-            "away_team_id": "l7oqdehn445r510",
-            "home_team_name": "Como",
-            "away_team_name": "SudTirol",
-            "home_score": 3,
-            "away_score": 1,
-            "winner_team_id": "z8yomo4hnz4q0j6",
-            "position": 27,
-            "round_id": "6ypq3nh7kd6md7o",
-            "round_number": 2,
-            "first_leg": {
-              "state_id": 8,
-              "start_time": 1755361800,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 3,
-                "display": 3,
-                "period_1": 3,
-                "period_2": 0,
-                "corner": 5,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -3,
-                "ft_score_only": 3
-              },
-              "away_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 1,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 1,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -1,
-                "ft_score_only": 1
-              },
-              "home_team_id": "z8yomo4hnz4q0j6",
-              "away_team_id": "l7oqdehn445r510",
-              "home_team_name": "Como",
-              "away_team_name": "SudTirol"
-            },
-            "event_ids": [
-              "pxwrxlhy92dxryk"
-            ],
-            "state_id": 7
-          },
-          "28": {
-            "id": "23xmvkho6zk3qg8",
-            "home_team_id": "vjxm8gh49xpr6od",
-            "away_team_id": "vl7oqdehwlor510",
-            "home_team_name": "Sassuolo",
-            "away_team_name": "Catanzaro",
-            "home_score": 1,
-            "away_score": 0,
-            "winner_team_id": "vjxm8gh49xpr6od",
-            "position": 28,
-            "round_id": "6ypq3nh7kd6md7o",
-            "round_number": 2,
-            "first_leg": {
-              "state_id": 8,
-              "start_time": 1755275400,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 1,
-                "period_2": 0,
-                "corner": 8,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -1,
-                "ft_score_only": 1
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 3,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "vjxm8gh49xpr6od",
-              "away_team_id": "vl7oqdehwlor510",
-              "home_team_name": "Sassuolo",
-              "away_team_name": "Catanzaro"
-            },
-            "event_ids": [
-              "2y8m4zh5g4lnql0"
-            ],
-            "state_id": 7
-          },
-          "3": {
-            "id": "4wyrn4he6jwjq86",
-            "home_team_id": "gy0or5jhkvzqwzv",
-            "away_team_id": "kdj2ryoh6x0q1zp",
-            "home_team_name": "Parma",
-            "away_team_name": "Pescara",
-            "home_score": 2,
-            "away_score": 0,
-            "winner_team_id": "gy0or5jhkvzqwzv",
-            "position": 3,
-            "round_id": "6ypq3nh7kd6md7o",
-            "round_number": 2,
-            "first_leg": {
-              "state_id": 8,
-              "start_time": 1755448200,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 0,
-                "period_2": 2,
-                "corner": 7,
-                "yellow_card": 2,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 1,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "gy0or5jhkvzqwzv",
-              "away_team_id": "kdj2ryoh6x0q1zp",
-              "home_team_name": "Parma",
-              "away_team_name": "Pescara"
-            },
-            "event_ids": [
-              "y0or5jh81zkpqwz"
-            ],
-            "state_id": 7
-          },
-          "31": {
             "id": "4wyrn4he6j9xq86",
             "home_team_id": "kn54qllh6xwqvy9",
             "away_team_id": "z318q66hee4qo9j",
@@ -2095,11 +2155,14 @@
             "home_score": 6,
             "away_score": 5,
             "winner_team_id": "kn54qllh6xwqvy9",
-            "position": 31,
+            "position": 27,
             "round_id": "6ypq3nh7kd6md7o",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755369900,
               "pen_m5": [
                 5,
@@ -2158,6 +2221,7 @@
               "3glrw7hno35eqdy"
             ],
             "state_id": 7,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -2177,7 +2241,7 @@
               ]
             ]
           },
-          "32": {
+          "28": {
             "id": "y0or5jh48de7qwz",
             "home_team_id": "l7oqdehn42er510",
             "away_team_id": "56ypq3nho80md7o",
@@ -2186,11 +2250,14 @@
             "home_score": 0,
             "away_score": 1,
             "winner_team_id": "56ypq3nho80md7o",
-            "position": 32,
+            "position": 28,
             "round_id": "6ypq3nh7kd6md7o",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755446400,
               "pen_m5": [
                 0,
@@ -2230,7 +2297,185 @@
             "event_ids": [
               "vjxm8ghej2yer6o"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
+          },
+          "3": {
+            "id": "4wyrn4he6jwjq86",
+            "home_team_id": "gy0or5jhkvzqwzv",
+            "away_team_id": "kdj2ryoh6x0q1zp",
+            "home_team_name": "Parma",
+            "away_team_name": "Pescara",
+            "home_score": 2,
+            "away_score": 0,
+            "winner_team_id": "gy0or5jhkvzqwzv",
+            "position": 3,
+            "round_id": "6ypq3nh7kd6md7o",
+            "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "first_leg": {
+              "status_id": 8,
+              "start_time": 1755448200,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 0,
+                "period_2": 2,
+                "corner": 7,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 1,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "gy0or5jhkvzqwzv",
+              "away_team_id": "kdj2ryoh6x0q1zp",
+              "home_team_name": "Parma",
+              "away_team_name": "Pescara"
+            },
+            "event_ids": [
+              "y0or5jh81zkpqwz"
+            ],
+            "state_id": 7,
+            "status_id": 8
+          },
+          "31": {
+            "id": "3glrw7h1nej8qdy",
+            "home_team_id": "z8yomo4hnz4q0j6",
+            "away_team_id": "l7oqdehn445r510",
+            "home_team_name": "Como",
+            "away_team_name": "SudTirol",
+            "home_score": 3,
+            "away_score": 1,
+            "winner_team_id": "z8yomo4hnz4q0j6",
+            "position": 31,
+            "round_id": "6ypq3nh7kd6md7o",
+            "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "first_leg": {
+              "status_id": 8,
+              "start_time": 1755361800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 3,
+                "period_2": 0,
+                "corner": 5,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "away_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 1,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "home_team_id": "z8yomo4hnz4q0j6",
+              "away_team_id": "l7oqdehn445r510",
+              "home_team_name": "Como",
+              "away_team_name": "SudTirol"
+            },
+            "event_ids": [
+              "pxwrxlhy92dxryk"
+            ],
+            "state_id": 7,
+            "status_id": 8
+          },
+          "32": {
+            "id": "23xmvkho6zk3qg8",
+            "home_team_id": "vjxm8gh49xpr6od",
+            "away_team_id": "vl7oqdehwlor510",
+            "home_team_name": "Sassuolo",
+            "away_team_name": "Catanzaro",
+            "home_score": 1,
+            "away_score": 0,
+            "winner_team_id": "vjxm8gh49xpr6od",
+            "position": 32,
+            "round_id": "6ypq3nh7kd6md7o",
+            "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "first_leg": {
+              "status_id": 8,
+              "start_time": 1755275400,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 8,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 3,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "vjxm8gh49xpr6od",
+              "away_team_id": "vl7oqdehwlor510",
+              "home_team_name": "Sassuolo",
+              "away_team_name": "Catanzaro"
+            },
+            "event_ids": [
+              "2y8m4zh5g4lnql0"
+            ],
+            "state_id": 7,
+            "status_id": 8
           },
           "4": {
             "id": "3glrw7h1nej9qdy",
@@ -2244,8 +2489,11 @@
             "position": 4,
             "round_id": "6ypq3nh7kd6md7o",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755534600,
               "pen_m5": [
                 4,
@@ -2300,6 +2548,7 @@
               "pxwrxlhy92d0ryk"
             ],
             "state_id": 7,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -2327,8 +2576,11 @@
             "position": 7,
             "round_id": "6ypq3nh7kd6md7o",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755458100,
               "pen_m5": [
                 0,
@@ -2368,7 +2620,8 @@
             "event_ids": [
               "y0or5jh8e075qwz"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "8": {
             "id": "vjxm8ghgeoj7r6o",
@@ -2382,8 +2635,11 @@
             "position": 8,
             "round_id": "6ypq3nh7kd6md7o",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755283500,
               "pen_m5": [
                 0,
@@ -2423,11 +2679,13 @@
             "event_ids": [
               "8yomo4h125nxq0j"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "6": {
           "13": {
+            "id": "bye-4wyrn4hd2djq86p-1-13",
             "home_team_id": "yl5ergph63er8k0",
             "home_team_name": "AC Milan",
             "away_team_name": "BYE",
@@ -2435,11 +2693,15 @@
             "away_score": 0,
             "winner_team_id": "yl5ergph63er8k0",
             "position": 13,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "14": {
+            "id": "bye-4wyrn4hd2djq86p-1-14",
             "home_team_id": "p3glrw7he81qdyj",
             "home_team_name": "Bari",
             "away_team_name": "BYE",
@@ -2447,11 +2709,15 @@
             "away_score": 0,
             "winner_team_id": "p3glrw7he81qdyj",
             "position": 14,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "15": {
+            "id": "bye-4wyrn4hd2djq86p-1-15",
             "home_team_id": "kjw2r09hvnwrz84",
             "home_team_name": "Lecce",
             "away_team_name": "BYE",
@@ -2459,11 +2725,15 @@
             "away_score": 0,
             "winner_team_id": "kjw2r09hvnwrz84",
             "position": 15,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "16": {
+            "id": "bye-4wyrn4hd2djq86p-1-16",
             "home_team_id": "9dn1m1gh60kmoep",
             "home_team_name": "Juve Stabia",
             "away_team_name": "BYE",
@@ -2471,11 +2741,15 @@
             "away_score": 0,
             "winner_team_id": "9dn1m1gh60kmoep",
             "position": 16,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "21": {
+            "id": "bye-4wyrn4hd2djq86p-1-21",
             "home_team_id": "gy0or5jhkkzqwzv",
             "home_team_name": "Genoa",
             "away_team_name": "BYE",
@@ -2483,8 +2757,11 @@
             "away_score": 0,
             "winner_team_id": "gy0or5jhkkzqwzv",
             "position": 21,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "22": {
@@ -2499,8 +2776,11 @@
             "position": 22,
             "round_id": "8yomo4hgy6nq0j6",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1754847000,
               "pen_m5": [
                 0,
@@ -2540,9 +2820,11 @@
             "event_ids": [
               "l5ergph4v5ger8k"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "23": {
+            "id": "bye-4wyrn4hd2djq86p-1-23",
             "home_team_id": "j1l4rjnhoddm7vx",
             "home_team_name": "Empoli",
             "away_team_name": "BYE",
@@ -2550,11 +2832,15 @@
             "away_score": 0,
             "winner_team_id": "j1l4rjnhoddm7vx",
             "position": 23,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "24": {
+            "id": "bye-4wyrn4hd2djq86p-1-24",
             "home_team_id": "2y8m4zh387oql07",
             "home_team_name": "A.C. Reggiana 1919",
             "away_team_name": "BYE",
@@ -2562,11 +2848,15 @@
             "away_score": 0,
             "winner_team_id": "2y8m4zh387oql07",
             "position": 24,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "29": {
+            "id": "bye-4wyrn4hd2djq86p-1-29",
             "home_team_id": "gpxwrxlhwkgryk0",
             "home_team_name": "Udinese",
             "away_team_name": "BYE",
@@ -2574,11 +2864,15 @@
             "away_score": 0,
             "winner_team_id": "gpxwrxlhwkgryk0",
             "position": 29,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "30": {
+            "id": "bye-4wyrn4hd2djq86p-1-30",
             "home_team_id": "pxwrxlhg2y2ryk0",
             "home_team_name": "Carrarese",
             "away_team_name": "BYE",
@@ -2586,11 +2880,15 @@
             "away_score": 0,
             "winner_team_id": "pxwrxlhg2y2ryk0",
             "position": 30,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "31": {
+            "id": "bye-4wyrn4hd2djq86p-1-31",
             "home_team_id": "56ypq3nhx17md7o",
             "home_team_name": "Cremonese",
             "away_team_name": "BYE",
@@ -2598,11 +2896,15 @@
             "away_score": 0,
             "winner_team_id": "56ypq3nhx17md7o",
             "position": 31,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "32": {
+            "id": "bye-4wyrn4hd2djq86p-1-32",
             "home_team_id": "kn54qllh6wkqvy9",
             "home_team_name": "Palermo",
             "away_team_name": "BYE",
@@ -2610,8 +2912,11 @@
             "away_score": 0,
             "winner_team_id": "kn54qllh6wkqvy9",
             "position": 32,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "37": {
@@ -2626,8 +2931,11 @@
             "position": 37,
             "round_id": "8yomo4hgy6nq0j6",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1754850600,
               "pen_m5": [
                 0,
@@ -2667,9 +2975,11 @@
             "event_ids": [
               "jw2r09hkxp8wrz8"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "38": {
+            "id": "bye-4wyrn4hd2djq86p-1-38",
             "home_team_id": "4zp5rzghkgdq82w",
             "home_team_name": "Hellas Verona",
             "away_team_name": "BYE",
@@ -2677,11 +2987,15 @@
             "away_score": 0,
             "winner_team_id": "4zp5rzghkgdq82w",
             "position": 38,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "39": {
+            "id": "bye-4wyrn4hd2djq86p-1-39",
             "home_team_id": "56ypq3nhjjymd7o",
             "home_team_name": "Venezia",
             "away_team_name": "BYE",
@@ -2689,11 +3003,15 @@
             "away_score": 0,
             "winner_team_id": "56ypq3nhjjymd7o",
             "position": 39,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "40": {
+            "id": "bye-4wyrn4hd2djq86p-1-40",
             "home_team_id": "gy0or5jh74zqwzv",
             "home_team_name": "Mantova",
             "away_team_name": "BYE",
@@ -2701,11 +3019,15 @@
             "away_score": 0,
             "winner_team_id": "gy0or5jh74zqwzv",
             "position": 40,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "45": {
+            "id": "bye-4wyrn4hd2djq86p-1-45",
             "home_team_id": "z8yomo4hw6lq0j6",
             "home_team_name": "Torino",
             "away_team_name": "BYE",
@@ -2713,11 +3035,15 @@
             "away_score": 0,
             "winner_team_id": "z8yomo4hw6lq0j6",
             "position": 45,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "46": {
+            "id": "bye-4wyrn4hd2djq86p-1-46",
             "home_team_id": "jednm9wh4p7ryox",
             "home_team_name": "Modena",
             "away_team_name": "BYE",
@@ -2725,11 +3051,15 @@
             "away_score": 0,
             "winner_team_id": "jednm9wh4p7ryox",
             "position": 46,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "47": {
+            "id": "bye-4wyrn4hd2djq86p-1-47",
             "home_team_id": "kdj2ryoh6nlq1zp",
             "home_team_name": "Cesena",
             "away_team_name": "BYE",
@@ -2737,11 +3067,15 @@
             "away_score": 0,
             "winner_team_id": "kdj2ryoh6nlq1zp",
             "position": 47,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "48": {
+            "id": "bye-4wyrn4hd2djq86p-1-48",
             "home_team_id": "1l4rjnh6kx8m7vx",
             "home_team_name": "Pisa",
             "away_team_name": "BYE",
@@ -2749,11 +3083,15 @@
             "away_score": 0,
             "winner_team_id": "1l4rjnh6kx8m7vx",
             "position": 48,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "5": {
+            "id": "bye-4wyrn4hd2djq86p-1-5",
             "home_team_id": "gy0or5jhkvzqwzv",
             "home_team_name": "Parma",
             "away_team_name": "BYE",
@@ -2761,126 +3099,30 @@
             "away_score": 0,
             "winner_team_id": "gy0or5jhkvzqwzv",
             "position": 5,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "53": {
-            "home_team_id": "z8yomo4hnz4q0j6",
-            "home_team_name": "Como",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "z8yomo4hnz4q0j6",
-            "position": 53,
-            "round_number": 1,
-            "is_bye": true,
-            "state_id": -2
-          },
-          "54": {
-            "home_team_id": "l7oqdehn445r510",
-            "home_team_name": "SudTirol",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "l7oqdehn445r510",
-            "position": 54,
-            "round_number": 1,
-            "is_bye": true,
-            "state_id": -2
-          },
-          "55": {
-            "home_team_id": "vjxm8gh49xpr6od",
-            "home_team_name": "Sassuolo",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "vjxm8gh49xpr6od",
-            "position": 55,
-            "round_number": 1,
-            "is_bye": true,
-            "state_id": -2
-          },
-          "56": {
-            "home_team_id": "vl7oqdehwlor510",
-            "home_team_name": "Catanzaro",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "vl7oqdehwlor510",
-            "position": 56,
-            "round_number": 1,
-            "is_bye": true,
-            "state_id": -2
-          },
-          "6": {
-            "id": "6ypq3nh5vdzvmd7",
-            "home_team_id": "kdj2ryoh6x0q1zp",
-            "away_team_id": "p3glrw7hdonqdyj",
-            "home_team_name": "Pescara",
-            "away_team_name": "Rimini",
-            "home_score": 1,
-            "away_score": 0,
-            "winner_team_id": "kdj2ryoh6x0q1zp",
-            "position": 6,
-            "round_id": "8yomo4hgy6nq0j6",
-            "round_number": 1,
-            "first_leg": {
-              "state_id": 8,
-              "start_time": 1754850600,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 1,
-                "display": 1,
-                "period_1": 1,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 1,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -1,
-                "ft_score_only": 1
-              },
-              "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 5,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
-              "home_team_id": "kdj2ryoh6x0q1zp",
-              "away_team_id": "p3glrw7hdonqdyj",
-              "home_team_name": "Pescara",
-              "away_team_name": "Rimini"
-            },
-            "event_ids": [
-              "l7oqdehg4e71r51"
-            ],
-            "state_id": 7
-          },
-          "61": {
+            "id": "bye-4wyrn4hd2djq86p-1-53",
             "home_team_id": "kn54qllh6xwqvy9",
             "home_team_name": "Cagliari",
             "away_team_name": "BYE",
             "home_score": 0,
             "away_score": 0,
             "winner_team_id": "kn54qllh6xwqvy9",
-            "position": 61,
+            "position": 53,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
-          "62": {
+          "54": {
             "id": "pxwrxlh1yw9lryk",
             "home_team_id": "z318q66hee4qo9j",
             "away_team_id": "z8yomo4hddoq0j6",
@@ -2889,11 +3131,14 @@
             "home_score": 4,
             "away_score": 0,
             "winner_team_id": "z318q66hee4qo9j",
-            "position": 62,
+            "position": 54,
             "round_id": "8yomo4hgy6nq0j6",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1754764200,
               "pen_m5": [
                 0,
@@ -2933,33 +3178,166 @@
             "event_ids": [
               "4wyrn4h6d7gdq86"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
-          "63": {
+          "55": {
+            "id": "bye-4wyrn4hd2djq86p-1-55",
             "home_team_id": "l7oqdehn42er510",
             "home_team_name": "Monza",
             "away_team_name": "BYE",
             "home_score": 0,
             "away_score": 0,
             "winner_team_id": "l7oqdehn42er510",
-            "position": 63,
+            "position": 55,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
-          "64": {
+          "56": {
+            "id": "bye-4wyrn4hd2djq86p-1-56",
             "home_team_id": "56ypq3nho80md7o",
             "home_team_name": "Frosinone",
             "away_team_name": "BYE",
             "home_score": 0,
             "away_score": 0,
             "winner_team_id": "56ypq3nho80md7o",
-            "position": 64,
+            "position": 56,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
+            "state_id": -2
+          },
+          "6": {
+            "id": "6ypq3nh5vdzvmd7",
+            "home_team_id": "kdj2ryoh6x0q1zp",
+            "away_team_id": "p3glrw7hdonqdyj",
+            "home_team_name": "Pescara",
+            "away_team_name": "Rimini",
+            "home_score": 1,
+            "away_score": 0,
+            "winner_team_id": "kdj2ryoh6x0q1zp",
+            "position": 6,
+            "round_id": "8yomo4hgy6nq0j6",
+            "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "first_leg": {
+              "status_id": 8,
+              "start_time": 1754850600,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 0,
+                "yellow_card": 5,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "kdj2ryoh6x0q1zp",
+              "away_team_id": "p3glrw7hdonqdyj",
+              "home_team_name": "Pescara",
+              "away_team_name": "Rimini"
+            },
+            "event_ids": [
+              "l7oqdehg4e71r51"
+            ],
+            "state_id": 7,
+            "status_id": 8
+          },
+          "61": {
+            "id": "bye-4wyrn4hd2djq86p-1-61",
+            "home_team_id": "z8yomo4hnz4q0j6",
+            "home_team_name": "Como",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "z8yomo4hnz4q0j6",
+            "position": 61,
+            "round_id": "6ypq3nh7kd6md7o",
+            "round_number": 1,
+            "is_third_place": false,
+            "is_bye": true,
+            "is_tbd": false,
+            "state_id": -2
+          },
+          "62": {
+            "id": "bye-4wyrn4hd2djq86p-1-62",
+            "home_team_id": "l7oqdehn445r510",
+            "home_team_name": "SudTirol",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "l7oqdehn445r510",
+            "position": 62,
+            "round_id": "6ypq3nh7kd6md7o",
+            "round_number": 1,
+            "is_third_place": false,
+            "is_bye": true,
+            "is_tbd": false,
+            "state_id": -2
+          },
+          "63": {
+            "id": "bye-4wyrn4hd2djq86p-1-63",
+            "home_team_id": "vjxm8gh49xpr6od",
+            "home_team_name": "Sassuolo",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "vjxm8gh49xpr6od",
+            "position": 63,
+            "round_id": "6ypq3nh7kd6md7o",
+            "round_number": 1,
+            "is_third_place": false,
+            "is_bye": true,
+            "is_tbd": false,
+            "state_id": -2
+          },
+          "64": {
+            "id": "bye-4wyrn4hd2djq86p-1-64",
+            "home_team_id": "vl7oqdehwlor510",
+            "home_team_name": "Catanzaro",
+            "away_team_name": "BYE",
+            "home_score": 0,
+            "away_score": 0,
+            "winner_team_id": "vl7oqdehwlor510",
+            "position": 64,
+            "round_id": "6ypq3nh7kd6md7o",
+            "round_number": 1,
+            "is_third_place": false,
+            "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "7": {
+            "id": "bye-4wyrn4hd2djq86p-1-7",
             "home_team_id": "kjw2r09hy8prz84",
             "home_team_name": "Spezia",
             "away_team_name": "BYE",
@@ -2967,11 +3345,15 @@
             "away_score": 0,
             "winner_team_id": "kjw2r09hy8prz84",
             "position": 7,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "8": {
+            "id": "bye-4wyrn4hd2djq86p-1-8",
             "home_team_id": "56ypq3nhdj6md7o",
             "home_team_name": "Sampdoria",
             "away_team_name": "BYE",
@@ -2979,8 +3361,11 @@
             "away_score": 0,
             "winner_team_id": "56ypq3nhdj6md7o",
             "position": 8,
+            "round_id": "6ypq3nh7kd6md7o",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         }

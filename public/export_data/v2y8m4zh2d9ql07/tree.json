@@ -7,20 +7,6 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "virtual-r0-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "pxwrxlhx8pgryk0",
-            "round_number": 5,
-            "is_tbd": true,
-            "state_id": -3
-          }
-        },
-        "1": {
-          "1": {
             "id": "dj2ryohyp5ldq1z",
             "home_team_id": "3glrw7hwj5dqdyj",
             "away_team_id": "dj2ryohn348q1zp",
@@ -32,8 +18,11 @@
             "position": 1,
             "round_id": "6ypq3nh7y66md7o",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1762719300,
               "pen_m5": [
                 0,
@@ -71,7 +60,7 @@
               "away_team_name": "Moquegua"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763316000,
               "pen_m5": [
                 0,
@@ -112,22 +101,11 @@
               "318q66hxgon9qo9",
               "dn1m1ghl04k6moe"
             ],
-            "state_id": 8
-          },
-          "2": {
-            "id": "virtual-r1-p2",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 2,
-            "round_id": "6ypq3nh7y66md7o",
-            "round_number": 4,
-            "is_tbd": true,
-            "state_id": -3
+            "state_id": 8,
+            "status_id": 8
           }
         },
-        "2": {
+        "1": {
           "1": {
             "id": "318q66h014z1qo9",
             "home_team_id": "3glrw7hwj5dqdyj",
@@ -140,8 +118,11 @@
             "position": 1,
             "round_id": "8yomo4hgonnq0j6",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761510000,
               "pen_m5": [
                 0,
@@ -179,7 +160,7 @@
               "away_team_name": "Deportivo Union Comercio"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1762114500,
               "pen_m5": [
                 0,
@@ -220,7 +201,8 @@
               "x7lm7phj8d81m2w",
               "k82rekhg6728rep"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
             "id": "dn1m1ghex3vgmoe",
@@ -234,8 +216,11 @@
             "position": 2,
             "round_id": "8yomo4hgonnq0j6",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761501600,
               "pen_m5": [
                 0,
@@ -273,7 +258,7 @@
               "away_team_name": "FC Cajamarca"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1762106400,
               "pen_m5": [
                 0,
@@ -314,35 +299,13 @@
               "318q66hx2dgxqo9",
               "zp5rzghg4l3jq82"
             ],
-            "state_id": 8
-          },
-          "3": {
-            "id": "virtual-r2-p3",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 3,
-            "round_id": "8yomo4hgonnq0j6",
-            "round_number": 3,
-            "is_tbd": true,
-            "state_id": -3
-          },
-          "4": {
-            "id": "virtual-r2-p4",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 4,
-            "round_id": "8yomo4hgonnq0j6",
-            "round_number": 3,
-            "is_tbd": true,
-            "state_id": -3
+            "state_id": 8,
+            "status_id": 8
           }
         },
-        "3": {
+        "2": {
           "1": {
+            "id": "bye-dn1m1ghn08nmoep-2-1",
             "home_team_id": "3glrw7hwj5dqdyj",
             "home_team_name": "Univ.Cesar Vallejo",
             "away_team_name": "BYE",
@@ -350,11 +313,15 @@
             "away_score": 0,
             "winner_team_id": "3glrw7hwj5dqdyj",
             "position": 1,
+            "round_id": "8yomo4hgonnq0j6",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "2": {
+            "id": "bye-dn1m1ghn08nmoep-2-2",
             "home_team_id": "x7lm7phklkdm2wd",
             "home_team_name": "Deportivo Union Comercio",
             "away_team_name": "BYE",
@@ -362,8 +329,11 @@
             "away_score": 0,
             "winner_team_id": "x7lm7phklkdm2wd",
             "position": 2,
+            "round_id": "8yomo4hgonnq0j6",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "3": {
@@ -378,8 +348,11 @@
             "position": 3,
             "round_id": "2y8m4zhw9l2ql07",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760284800,
               "pen_m5": [
                 0,
@@ -417,7 +390,7 @@
               "away_team_name": "Deportivo Union Comercio"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760904900,
               "pen_m5": [
                 0,
@@ -458,7 +431,8 @@
               "4jwq2ghnp0p1m0v",
               "n54qllhn1n2vqvy"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "4": {
             "id": "965mkyh48pl0r1g",
@@ -472,8 +446,11 @@
             "position": 4,
             "round_id": "2y8m4zhw9l2ql07",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760293200,
               "pen_m5": [
                 0,
@@ -511,7 +488,7 @@
               "away_team_name": "FC Cajamarca"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760896800,
               "pen_m5": [
                 0,
@@ -552,142 +529,11 @@
               "3glrw7hn6lpjqdy",
               "23xmvkh696ovqg8"
             ],
-            "state_id": 8
-          },
-          "5": {
-            "id": "virtual-r3-p5",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 5,
-            "round_id": "2y8m4zhw9l2ql07",
-            "round_number": 2,
-            "is_tbd": true,
-            "state_id": -3
-          },
-          "6": {
-            "id": "virtual-r3-p6",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 6,
-            "round_id": "2y8m4zhw9l2ql07",
-            "round_number": 2,
-            "is_tbd": true,
-            "state_id": -3
-          },
-          "7": {
-            "id": "virtual-r3-p7",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 7,
-            "round_id": "2y8m4zhw9l2ql07",
-            "round_number": 2,
-            "is_tbd": true,
-            "state_id": -3
-          },
-          "8": {
-            "id": "virtual-r3-p8",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 8,
-            "round_id": "2y8m4zhw9l2ql07",
-            "round_number": 2,
-            "is_tbd": true,
-            "state_id": -3
+            "state_id": 8,
+            "status_id": 8
           }
         },
-        "4": {
-          "10": {
-            "id": "virtual-r4-p10",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 10,
-            "round_id": "dj2ryohe08zq1zp",
-            "round_number": 1,
-            "is_tbd": true,
-            "state_id": -3
-          },
-          "11": {
-            "id": "virtual-r4-p11",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 11,
-            "round_id": "dj2ryohe08zq1zp",
-            "round_number": 1,
-            "is_tbd": true,
-            "state_id": -3
-          },
-          "12": {
-            "id": "virtual-r4-p12",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 12,
-            "round_id": "dj2ryohe08zq1zp",
-            "round_number": 1,
-            "is_tbd": true,
-            "state_id": -3
-          },
-          "13": {
-            "id": "virtual-r4-p13",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 13,
-            "round_id": "dj2ryohe08zq1zp",
-            "round_number": 1,
-            "is_tbd": true,
-            "state_id": -3
-          },
-          "14": {
-            "id": "virtual-r4-p14",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 14,
-            "round_id": "dj2ryohe08zq1zp",
-            "round_number": 1,
-            "is_tbd": true,
-            "state_id": -3
-          },
-          "15": {
-            "id": "virtual-r4-p15",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 15,
-            "round_id": "dj2ryohe08zq1zp",
-            "round_number": 1,
-            "is_tbd": true,
-            "state_id": -3
-          },
-          "16": {
-            "id": "virtual-r4-p16",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 16,
-            "round_id": "dj2ryohe08zq1zp",
-            "round_number": 1,
-            "is_tbd": true,
-            "state_id": -3
-          },
+        "3": {
           "5": {
             "id": "dj2ryohy70okq1z",
             "home_team_id": "dj2ryohn348q1zp",
@@ -700,8 +546,11 @@
             "position": 5,
             "round_id": "dj2ryohe08zq1zp",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1759687200,
               "pen_m5": [
                 0,
@@ -741,9 +590,11 @@
             "event_ids": [
               "8yomo4h1x0jwq0j"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "6": {
+            "id": "bye-dn1m1ghn08nmoep-1-6",
             "home_team_id": "x7lm7phklkdm2wd",
             "home_team_name": "Deportivo Union Comercio",
             "away_team_name": "BYE",
@@ -751,8 +602,11 @@
             "away_score": 0,
             "winner_team_id": "x7lm7phklkdm2wd",
             "position": 6,
+            "round_id": "2y8m4zhw9l2ql07",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "7": {
@@ -767,8 +621,11 @@
             "position": 7,
             "round_id": "dj2ryohe08zq1zp",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1759695300,
               "pen_m5": [
                 2,
@@ -823,6 +680,7 @@
               "x7lm7phj8920m2w"
             ],
             "state_id": 8,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -839,6 +697,7 @@
             ]
           },
           "8": {
+            "id": "bye-dn1m1ghn08nmoep-1-8",
             "home_team_id": "3glrw7hol1pqdyj",
             "home_team_name": "FC Cajamarca",
             "away_team_name": "BYE",
@@ -846,30 +705,16 @@
             "away_score": 0,
             "winner_team_id": "3glrw7hol1pqdyj",
             "position": 8,
+            "round_id": "2y8m4zhw9l2ql07",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
-          },
-          "9": {
-            "id": "virtual-r4-p9",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 9,
-            "round_id": "dj2ryohe08zq1zp",
-            "round_number": 1,
-            "is_tbd": true,
-            "state_id": -3
           }
         }
       },
       "rounds": [
-        {
-          "id": "pxwrxlhx8pgryk0",
-          "description": "Final",
-          "number": 5
-        },
         {
           "id": "6ypq3nh7y66md7o",
           "description": "Quarter Finals",
@@ -891,7 +736,7 @@
           "number": 1
         }
       ],
-      "total_rounds": 5
+      "total_rounds": 4
     }
   ]
 }

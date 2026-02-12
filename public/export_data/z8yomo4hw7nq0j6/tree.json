@@ -16,8 +16,10 @@
             "position": 1,
             "round_id": "l5ergphllpkr8k0",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Final"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "2": {
             "id": "y39mp1h5zxl4moj",
@@ -31,8 +33,11 @@
             "position": 2,
             "round_id": "l5ergphllpkr8k0",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1749052800,
               "pen_m5": [
                 0,
@@ -72,7 +77,8 @@
             "event_ids": [
               "dn1m1ghl4ykzmoe"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         }
       },

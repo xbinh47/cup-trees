@@ -7,57 +7,49 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "virtual-r0-p1",
+            "id": "virtual-3glrw7h1v4nqdyj-1-1",
             "home_team_name": "TBD",
             "away_team_name": "TBD",
             "home_score": 0,
             "away_score": 0,
             "position": 1,
-            "round_id": "8yomo4hx803q0j6",
-            "round_number": 2,
+            "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
             "is_tbd": true,
             "state_id": -3
           }
         },
         "1": {
           "1": {
-            "id": "virtual-r1-p1",
+            "id": "virtual-3glrw7h1v4nqdyj-2-1",
             "home_team_name": "TBD",
             "away_team_name": "TBD",
             "home_score": 0,
             "away_score": 0,
             "position": 1,
-            "round_id": "2y8m4zhx7zwql07",
-            "round_number": 1,
+            "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
             "is_tbd": true,
             "state_id": -3
           },
           "2": {
-            "id": "virtual-r1-p2",
+            "id": "virtual-3glrw7h1v4nqdyj-2-2",
             "home_team_name": "TBD",
             "away_team_name": "TBD",
             "home_score": 0,
             "away_score": 0,
             "position": 2,
-            "round_id": "2y8m4zhx7zwql07",
-            "round_number": 1,
+            "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
             "is_tbd": true,
             "state_id": -3
           }
         }
       },
-      "rounds": [
-        {
-          "id": "8yomo4hx803q0j6",
-          "description": "Final",
-          "number": 2
-        },
-        {
-          "id": "2y8m4zhx7zwql07",
-          "description": "Semifinals",
-          "number": 1
-        }
-      ],
+      "rounds": [],
       "total_rounds": 2
     },
     {
@@ -77,8 +69,11 @@
             "position": 1,
             "round_id": "23xmvkh9y50qg8n",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1711827000,
               "pen_m5": [
                 0,
@@ -116,7 +111,7 @@
               "away_team_name": "Cruzeiro Esporte Clube"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1712514600,
               "pen_m5": [
                 0,
@@ -157,7 +152,8 @@
               "y39mp1hzp8l7moj",
               "k82rekhwnd7zrep"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "1": {
@@ -173,8 +169,11 @@
             "position": 1,
             "round_id": "n54qllh1401qvy9",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1710012600,
               "pen_m5": [
                 0,
@@ -212,7 +211,7 @@
               "away_team_name": "America MG"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1710712800,
               "pen_m5": [
                 0,
@@ -253,7 +252,8 @@
               "2y8m4zh6n8x4ql0",
               "x7lm7phznw8jm2w"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
             "id": "n54qllhex8z4qvy",
@@ -267,8 +267,11 @@
             "position": 2,
             "round_id": "n54qllh1401qvy9",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1710109800,
               "pen_m5": [
                 0,
@@ -306,7 +309,7 @@
               "away_team_name": "Cruzeiro Esporte Clube"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1710617400,
               "pen_m5": [
                 0,
@@ -347,7 +350,8 @@
               "pxwrxlh57je3ryk",
               "vjxm8ghl983lr6o"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         }
       },

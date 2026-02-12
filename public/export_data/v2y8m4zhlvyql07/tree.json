@@ -7,20 +7,6 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "virtual-r0-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "l7oqdeh8w88r510",
-            "round_number": 7,
-            "is_tbd": true,
-            "state_id": -3
-          }
-        },
-        "1": {
-          "1": {
             "id": "l7oqdeh6zkdyr51",
             "home_team_id": "y0or5jhl969qwzv",
             "away_team_id": "6ypq3nhz2l9md7o",
@@ -31,6 +17,9 @@
             "position": 1,
             "round_id": "jw2r09h6y60rz84",
             "round_number": 6,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "state_id": 1
           },
           "2": {
@@ -44,10 +33,13 @@
             "position": 2,
             "round_id": "jw2r09h6y60rz84",
             "round_number": 6,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "state_id": 1
           }
         },
-        "2": {
+        "1": {
           "1": {
             "id": "2y8m4zhj7o7dql0",
             "home_team_id": "y0or5jhl969qwzv",
@@ -60,8 +52,11 @@
             "position": 1,
             "round_id": "l5ergphlxlyr8k0",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1769868000,
               "pen_m5": [
                 0,
@@ -101,7 +96,8 @@
             "event_ids": [
               "965mkyhk2l36r1g"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
             "id": "dj2ryohypop9q1z",
@@ -115,8 +111,11 @@
             "position": 2,
             "round_id": "l5ergphlxlyr8k0",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1769868000,
               "pen_m5": [
                 0,
@@ -156,7 +155,8 @@
             "event_ids": [
               "ednm9whw28znryo"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "3": {
             "id": "8yomo4hk8p8oq0j",
@@ -170,8 +170,11 @@
             "position": 3,
             "round_id": "l5ergphlxlyr8k0",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1769868000,
               "pen_m5": [
                 0,
@@ -211,7 +214,8 @@
             "event_ids": [
               "4jwq2ghnzovym0v"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "4": {
             "id": "6ypq3nh5898ymd7",
@@ -225,8 +229,11 @@
             "position": 4,
             "round_id": "l5ergphlxlyr8k0",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1769879700,
               "pen_m5": [
                 0,
@@ -266,10 +273,11 @@
             "event_ids": [
               "1l4rjnh9jyz0m7v"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
-        "3": {
+        "2": {
           "1": {
             "id": "x7lm7phov2zwm2w",
             "home_team_id": "318q66h0jvdqo9j",
@@ -282,8 +290,11 @@
             "position": 1,
             "round_id": "4wyrn4hopo0q86p",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1765635300,
               "pen_m5": [
                 3,
@@ -340,6 +351,7 @@
               "pxwrxlhy3w55ryk"
             ],
             "state_id": 8,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -369,8 +381,11 @@
             "position": 2,
             "round_id": "4wyrn4hopo0q86p",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1765645200,
               "pen_m5": [
                 0,
@@ -410,7 +425,8 @@
             "event_ids": [
               "3glrw7hnpe7nqdy"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "3": {
             "id": "318q66h01d4kqo9",
@@ -424,8 +440,11 @@
             "position": 3,
             "round_id": "4wyrn4hopo0q86p",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1765634400,
               "pen_m5": [
                 0,
@@ -465,7 +484,8 @@
             "event_ids": [
               "vjxm8ghewolkr6o"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "4": {
             "id": "y0or5jh45wnxqwz",
@@ -479,8 +499,11 @@
             "position": 4,
             "round_id": "4wyrn4hopo0q86p",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1765634400,
               "pen_m5": [
                 0,
@@ -520,7 +543,8 @@
             "event_ids": [
               "2y8m4zh5pd6xql0"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "5": {
             "id": "pxwrxlh1n05gryk",
@@ -534,8 +558,11 @@
             "position": 5,
             "round_id": "4wyrn4hopo0q86p",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1765634400,
               "pen_m5": [
                 0,
@@ -575,7 +602,8 @@
             "event_ids": [
               "l7oqdehg3zoer51"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "6": {
             "id": "vjxm8ghg07ljr6o",
@@ -589,8 +617,11 @@
             "position": 6,
             "round_id": "4wyrn4hopo0q86p",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1765634400,
               "pen_m5": [
                 0,
@@ -630,7 +661,8 @@
             "event_ids": [
               "6ypq3nhvnd37md7"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "7": {
             "id": "n54qllhe3w7dqvy",
@@ -644,8 +676,11 @@
             "position": 7,
             "round_id": "4wyrn4hopo0q86p",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1765646700,
               "pen_m5": [
                 0,
@@ -685,7 +720,8 @@
             "event_ids": [
               "dj2ryohlx315q1z"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "8": {
             "id": "y0or5jh45wngqwz",
@@ -699,8 +735,11 @@
             "position": 8,
             "round_id": "4wyrn4hopo0q86p",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1765634400,
               "pen_m5": [
                 0,
@@ -740,10 +779,11 @@
             "event_ids": [
               "8yomo4h14j34q0j"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         },
-        "4": {
+        "3": {
           "1": {
             "id": "jw2r09hn3w2grz8",
             "home_team_id": "k82rekhvljzrepz",
@@ -756,8 +796,11 @@
             "position": 1,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763754300,
               "pen_m5": [
                 0,
@@ -797,7 +840,8 @@
             "event_ids": [
               "zp5rzghg4n7dq82"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "10": {
             "id": "1l4rjnh1gk4em7v",
@@ -811,8 +855,11 @@
             "position": 10,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763820000,
               "pen_m5": [
                 0,
@@ -852,7 +899,8 @@
             "event_ids": [
               "dj2ryohl4wjnq1z"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "11": {
             "id": "4wyrn4hewvxyq86",
@@ -866,8 +914,11 @@
             "position": 11,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763754300,
               "pen_m5": [
                 0,
@@ -907,7 +958,8 @@
             "event_ids": [
               "ednm9whwxj9yryo"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "12": {
             "id": "318q66h01jwwqo9",
@@ -921,8 +973,11 @@
             "position": 12,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763820000,
               "pen_m5": [
                 0,
@@ -962,7 +1017,8 @@
             "event_ids": [
               "jw2r09hk9exxrz8"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "13": {
             "id": "8yomo4hk803pq0j",
@@ -976,8 +1032,11 @@
             "position": 13,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763754300,
               "pen_m5": [
                 0,
@@ -1017,7 +1076,8 @@
             "event_ids": [
               "1l4rjnh9581pm7v"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "14": {
             "id": "dn1m1ghex82lmoe",
@@ -1031,8 +1091,11 @@
             "position": 14,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763821800,
               "pen_m5": [
                 0,
@@ -1072,7 +1135,8 @@
             "event_ids": [
               "dn1m1ghl75nvmoe"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "15": {
             "id": "l7oqdeh6xlozr51",
@@ -1086,8 +1150,11 @@
             "position": 15,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763820000,
               "pen_m5": [
                 3,
@@ -1144,6 +1211,7 @@
               "l7oqdehg2v40r51"
             ],
             "state_id": 8,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -1173,8 +1241,11 @@
             "position": 16,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763835300,
               "pen_m5": [
                 0,
@@ -1214,7 +1285,8 @@
             "event_ids": [
               "2y8m4zh5x2g1ql0"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "2": {
             "id": "4jwq2ghkw7e0m0v",
@@ -1227,8 +1299,11 @@
             "position": 2,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764424800,
               "pen_m5": [
                 4,
@@ -1283,6 +1358,7 @@
               "318q66hx290lqo9"
             ],
             "state_id": 6,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -1310,8 +1386,11 @@
             "position": 3,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763820000,
               "pen_m5": [
                 0,
@@ -1351,7 +1430,8 @@
             "event_ids": [
               "4wyrn4h62jd8q86"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "4": {
             "id": "n54qllhe3dp8qvy",
@@ -1363,8 +1443,10 @@
             "position": 4,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
-            "state_id": 7,
-            "note": "Direct qualified for the Round3"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "5": {
             "id": "ednm9wh9og76ryo",
@@ -1378,8 +1460,11 @@
             "position": 5,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763820000,
               "pen_m5": [
                 0,
@@ -1419,7 +1504,8 @@
             "event_ids": [
               "y39mp1h6wx52moj"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "6": {
             "id": "k82rekh9edo3rep",
@@ -1429,8 +1515,10 @@
             "position": 6,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
-            "state_id": 7,
-            "note": "Direct qualified for the Round3"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "7": {
             "id": "965mkyh4wny5r1g",
@@ -1444,8 +1532,11 @@
             "position": 7,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763820000,
               "pen_m5": [
                 0,
@@ -1485,7 +1576,8 @@
             "event_ids": [
               "k82rekhg6595rep"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "8": {
             "id": "dj2ryohypn10q1z",
@@ -1499,8 +1591,11 @@
             "position": 8,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763754300,
               "pen_m5": [
                 0,
@@ -1540,7 +1635,8 @@
             "event_ids": [
               "4jwq2ghnp8kjm0v"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "9": {
             "id": "y39mp1h5o1z4moj",
@@ -1554,8 +1650,11 @@
             "position": 9,
             "round_id": "dn1m1ghpypomoep",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763820000,
               "pen_m5": [
                 0,
@@ -1595,10 +1694,11 @@
             "event_ids": [
               "965mkyhk5j4vr1g"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
-        "5": {
+        "4": {
           "1": {
             "id": "1l4rjnh1nwo1m7v",
             "home_team_id": "l7oqdehn4wzr510",
@@ -1611,8 +1711,11 @@
             "position": 1,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760725800,
               "pen_m5": [
                 0,
@@ -1652,7 +1755,8 @@
             "event_ids": [
               "ednm9whwx60wryo"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "10": {
             "id": "vjxm8ghgkz61r6o",
@@ -1666,8 +1770,11 @@
             "position": 10,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -1707,7 +1814,8 @@
             "event_ids": [
               "jw2r09hk97knrz8"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "11": {
             "id": "l7oqdeh6j5kgr51",
@@ -1721,8 +1829,11 @@
             "position": 11,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -1762,7 +1873,8 @@
             "event_ids": [
               "vjxm8ghe39ewr6o"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "12": {
             "id": "dn1m1ghe9zzjmoe",
@@ -1774,8 +1886,10 @@
             "position": 12,
             "round_id": "dn1m1ghpgw3moep",
             "round_number": 2,
-            "state_id": 1,
-            "note": "Direct qualified for the Round2"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 1
           },
           "13": {
             "id": "jw2r09hn5ov2rz8",
@@ -1789,8 +1903,11 @@
             "position": 13,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -1830,7 +1947,8 @@
             "event_ids": [
               "x7lm7phj8nj3m2w"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "14": {
             "id": "dn1m1ghe9wz7moe",
@@ -1844,8 +1962,11 @@
             "position": 14,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -1885,7 +2006,8 @@
             "event_ids": [
               "ednm9whwx674ryo"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "15": {
             "id": "k82rekh927p8rep",
@@ -1899,8 +2021,11 @@
             "position": 15,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760727600,
               "pen_m5": [
                 0,
@@ -1940,7 +2065,8 @@
             "event_ids": [
               "318q66hx2ngdqo9"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "16": {
             "id": "jw2r09hn5oy2rz8",
@@ -1954,8 +2080,11 @@
             "position": 16,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -1995,7 +2124,8 @@
             "event_ids": [
               "y0or5jh86jnnqwz"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "17": {
             "id": "l5ergph3k96lr8k",
@@ -2009,8 +2139,11 @@
             "position": 17,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -2050,7 +2183,8 @@
             "event_ids": [
               "6ypq3nhvegv4md7"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "18": {
             "id": "3glrw7h14v52qdy",
@@ -2064,8 +2198,11 @@
             "position": 18,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -2105,7 +2242,8 @@
             "event_ids": [
               "pxwrxlhye7y7ryk"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "19": {
             "id": "y0or5jh492kvqwz",
@@ -2119,8 +2257,11 @@
             "position": 19,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -2160,7 +2301,8 @@
             "event_ids": [
               "zp5rzghg4wngq82"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
             "id": "y39mp1h5d2g9moj",
@@ -2174,8 +2316,11 @@
             "position": 2,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -2215,7 +2360,8 @@
             "event_ids": [
               "1l4rjnh9524dm7v"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "20": {
             "id": "965mkyh486xnr1g",
@@ -2229,8 +2375,11 @@
             "position": 20,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -2270,7 +2419,8 @@
             "event_ids": [
               "dj2ryohl45lgq1z"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "21": {
             "id": "dn1m1ghe9wy7moe",
@@ -2284,8 +2434,11 @@
             "position": 21,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760726700,
               "pen_m5": [
                 0,
@@ -2325,7 +2478,8 @@
             "event_ids": [
               "k82rekhg6nxjrep"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "22": {
             "id": "965mkyh486dnr1g",
@@ -2339,8 +2493,11 @@
             "position": 22,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -2380,7 +2537,8 @@
             "event_ids": [
               "x7lm7phj8nz3m2w"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "23": {
             "id": "8yomo4hkydo6q0j",
@@ -2393,8 +2551,10 @@
             "position": 23,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
-            "state_id": 8,
-            "note": "Direct qualified for the Round2"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 8
           },
           "24": {
             "id": "ednm9wh953yvryo",
@@ -2406,8 +2566,10 @@
             "position": 24,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
-            "state_id": 7,
-            "note": "Direct qualified for the Round2"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "25": {
             "id": "23xmvkhoyn1vqg8",
@@ -2421,8 +2583,11 @@
             "position": 25,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -2462,7 +2627,8 @@
             "event_ids": [
               "y39mp1h6wpzlmoj"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "26": {
             "id": "4wyrn4heykplq86",
@@ -2476,8 +2642,11 @@
             "position": 26,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -2517,7 +2686,8 @@
             "event_ids": [
               "2y8m4zh5xn5zql0"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "27": {
             "id": "l5ergph3k9xlr8k",
@@ -2531,8 +2701,11 @@
             "position": 27,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760794200,
               "pen_m5": [
                 0,
@@ -2572,7 +2745,8 @@
             "event_ids": [
               "n54qllhn19nnqvy"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "28": {
             "id": "pxwrxlh1lkooryk",
@@ -2585,8 +2759,10 @@
             "position": 28,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
-            "state_id": 8,
-            "note": "Direct qualified for the Round2"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 8
           },
           "29": {
             "id": "6ypq3nh5kjodmd7",
@@ -2599,8 +2775,10 @@
             "position": 29,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
-            "state_id": 8,
-            "note": "Direct qualified for the Round2"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 8
           },
           "3": {
             "id": "y39mp1h5d2n9moj",
@@ -2614,8 +2792,11 @@
             "position": 3,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -2655,7 +2836,8 @@
             "event_ids": [
               "318q66hx2nw9qo9"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "30": {
             "id": "dj2ryohy7z07q1z",
@@ -2669,8 +2851,11 @@
             "position": 30,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760725800,
               "pen_m5": [
                 0,
@@ -2710,7 +2895,8 @@
             "event_ids": [
               "y39mp1h6wp4omoj"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "31": {
             "id": "318q66h085ynqo9",
@@ -2724,8 +2910,11 @@
             "position": 31,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -2765,7 +2954,8 @@
             "event_ids": [
               "k82rekhg6nw7rep"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "32": {
             "id": "8yomo4hk8kpjq0j",
@@ -2779,6 +2969,9 @@
             "position": 32,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "state_id": 7
           },
           "4": {
@@ -2789,8 +2982,10 @@
             "position": 4,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
-            "state_id": 6,
-            "note": "Direct qualified for the Round2"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 6
           },
           "5": {
             "id": "2y8m4zhjvk97ql0",
@@ -2801,8 +2996,10 @@
             "position": 5,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
-            "state_id": 8,
-            "note": "Direct qualified for the Round2"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 8
           },
           "6": {
             "id": "n54qllhe4o6vqvy",
@@ -2816,8 +3013,11 @@
             "position": 6,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -2857,7 +3057,8 @@
             "event_ids": [
               "4jwq2ghnp6edm0v"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "7": {
             "id": "4jwq2ghkg3yvm0v",
@@ -2869,8 +3070,10 @@
             "position": 7,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
-            "state_id": 7,
-            "note": "Direct qualified for the Round2"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "8": {
             "id": "vjxm8ghg0gnzr6o",
@@ -2882,8 +3085,10 @@
             "position": 8,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
-            "state_id": 7,
-            "note": "Direct qualified for the Round2"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "9": {
             "id": "k82rekh92748rep",
@@ -2897,8 +3102,11 @@
             "position": 9,
             "round_id": "318q66h6y6kqo9j",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1760792400,
               "pen_m5": [
                 0,
@@ -2938,10 +3146,11 @@
             "event_ids": [
               "n54qllhn197nqvy"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
-        "6": {
+        "5": {
           "1": {
             "id": "dj2ryohy7299q1z",
             "home_team_id": "4jwq2gh4x8jm0ve",
@@ -2954,8 +3163,11 @@
             "position": 1,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -2995,7 +3207,8 @@
             "event_ids": [
               "ednm9whwd2o0ryo"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "10": {
             "id": "318q66h08k3gqo9",
@@ -3007,8 +3220,10 @@
             "position": 10,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "11": {
             "id": "6ypq3nh5k1pymd7",
@@ -3020,8 +3235,10 @@
             "position": 11,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "12": {
             "id": "4jwq2ghkg157m0v",
@@ -3033,8 +3250,10 @@
             "position": 12,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "13": {
             "id": "ednm9wh95eperyo",
@@ -3048,8 +3267,11 @@
             "position": 13,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -3089,7 +3311,8 @@
             "event_ids": [
               "jw2r09hkp65vrz8"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "14": {
             "id": "l5ergph3kp74r8k",
@@ -3102,8 +3325,11 @@
             "position": 14,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -3143,7 +3369,8 @@
             "event_ids": [
               "k82rekhg80egrep"
             ],
-            "state_id": 6
+            "state_id": 6,
+            "status_id": 8
           },
           "15": {
             "id": "965mkyh48z0gr1g",
@@ -3153,8 +3380,10 @@
             "position": 15,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 8,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 8
           },
           "16": {
             "id": "4jwq2ghkg358m0v",
@@ -3166,8 +3395,10 @@
             "position": 16,
             "round_id": "k82rekh0p03repz",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "17": {
             "id": "3glrw7h14ogvqdy",
@@ -3180,8 +3411,10 @@
             "position": 17,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 8,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 8
           },
           "18": {
             "id": "y39mp1h5d9epmoj",
@@ -3191,8 +3424,10 @@
             "position": 18,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 8,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 8
           },
           "19": {
             "id": "dn1m1ghe91gpmoe",
@@ -3203,8 +3438,10 @@
             "position": 19,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 8,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 8
           },
           "2": {
             "id": "y0or5jh491wxqwz",
@@ -3218,8 +3455,11 @@
             "position": 2,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -3259,7 +3499,8 @@
             "event_ids": [
               "x7lm7phj53v0m2w"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "20": {
             "id": "k82rekh921j6rep",
@@ -3271,8 +3512,10 @@
             "position": 20,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "21": {
             "id": "jw2r09hn51g5rz8",
@@ -3284,8 +3527,10 @@
             "position": 21,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "22": {
             "id": "dn1m1ghe91dpmoe",
@@ -3299,8 +3544,11 @@
             "position": 22,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758306600,
               "pen_m5": [
                 0,
@@ -3340,7 +3588,8 @@
             "event_ids": [
               "l7oqdehge8jwr51"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "23": {
             "id": "l7oqdeh6j19xr51",
@@ -3352,8 +3601,10 @@
             "position": 23,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "24": {
             "id": "y39mp1h5d98pmoj",
@@ -3365,8 +3616,10 @@
             "position": 24,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "25": {
             "id": "n54qllhe4dy2qvy",
@@ -3376,8 +3629,10 @@
             "position": 25,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 6,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 6
           },
           "26": {
             "id": "2y8m4zhjv1edql0",
@@ -3389,8 +3644,10 @@
             "position": 26,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "27": {
             "id": "8yomo4hkyz6oq0j",
@@ -3404,8 +3661,11 @@
             "position": 27,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -3445,7 +3705,8 @@
             "event_ids": [
               "2y8m4zh54wvkql0"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "28": {
             "id": "zp5rzgh731ezq82",
@@ -3455,8 +3716,10 @@
             "position": 28,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 6,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 6
           },
           "29": {
             "id": "965mkyh48z9gr1g",
@@ -3470,8 +3733,11 @@
             "position": 29,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -3511,7 +3777,8 @@
             "event_ids": [
               "l5ergph45ldjr8k"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "3": {
             "id": "4wyrn4hey95xq86",
@@ -3525,8 +3792,11 @@
             "position": 3,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -3566,7 +3836,8 @@
             "event_ids": [
               "y0or5jh80z53qwz"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "30": {
             "id": "pxwrxlh1lv04ryk",
@@ -3580,8 +3851,11 @@
             "position": 30,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -3621,7 +3895,8 @@
             "event_ids": [
               "8yomo4h15gywq0j"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "31": {
             "id": "y0or5jh491dxqwz",
@@ -3635,8 +3910,11 @@
             "position": 31,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758308400,
               "pen_m5": [
                 0,
@@ -3676,7 +3954,8 @@
             "event_ids": [
               "n54qllhn9d6lqvy"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "32": {
             "id": "vjxm8ghgkx7nr6o",
@@ -3690,8 +3969,11 @@
             "position": 32,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -3731,7 +4013,8 @@
             "event_ids": [
               "dj2ryohlde7oq1z"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "33": {
             "id": "ednm9wh953p1ryo",
@@ -3745,8 +4028,11 @@
             "position": 33,
             "round_id": "k82rekh0p03repz",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758738600,
               "pen_m5": [
                 11,
@@ -3815,6 +4101,7 @@
               "y39mp1h6p6l6moj"
             ],
             "state_id": 7,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -3854,8 +4141,10 @@
             "position": 34,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "35": {
             "id": "23xmvkhoyxzoqg8",
@@ -3867,8 +4156,10 @@
             "position": 35,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "36": {
             "id": "1l4rjnh1nepxm7v",
@@ -3881,8 +4172,11 @@
             "position": 36,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -3922,7 +4216,8 @@
             "event_ids": [
               "23xmvkh6gp2xqg8"
             ],
-            "state_id": 6
+            "state_id": 6,
+            "status_id": 8
           },
           "37": {
             "id": "23xmvkhoynjvqg8",
@@ -3936,8 +4231,11 @@
             "position": 37,
             "round_id": "k82rekh0p03repz",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -3977,7 +4275,8 @@
             "event_ids": [
               "l5ergph45ldjr8k"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "38": {
             "id": "vjxm8ghgkzo0r6o",
@@ -3991,8 +4290,11 @@
             "position": 38,
             "round_id": "k82rekh0p03repz",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -4032,7 +4334,8 @@
             "event_ids": [
               "8yomo4h15gywq0j"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "39": {
             "id": "4jwq2ghkg1d7m0v",
@@ -4044,8 +4347,10 @@
             "position": 39,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "4": {
             "id": "n54qllhe4dw2qvy",
@@ -4059,8 +4364,11 @@
             "position": 4,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -4100,7 +4408,8 @@
             "event_ids": [
               "3glrw7hnl39wqdy"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "40": {
             "id": "n54qllhe4yx9qvy",
@@ -4114,8 +4423,11 @@
             "position": 40,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758978000,
               "pen_m5": [
                 0,
@@ -4155,7 +4467,8 @@
             "event_ids": [
               "n54qllhnkp3jqvy"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "41": {
             "id": "ednm9wh95eleryo",
@@ -4165,10 +4478,13 @@
             "position": 41,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "42": {
+            "id": "bye-pxwrxlh9e0kryk0-1-42",
             "home_team_id": "kn54qllh6joqvy9",
             "home_team_name": "Haverfordwest County",
             "away_team_name": "BYE",
@@ -4176,8 +4492,11 @@
             "away_score": 0,
             "winner_team_id": "kn54qllh6joqvy9",
             "position": 42,
+            "round_id": "318q66h6y6kqo9j",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "43": {
@@ -4192,8 +4511,11 @@
             "position": 43,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -4233,7 +4555,8 @@
             "event_ids": [
               "dj2ryohldepoq1z"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "44": {
             "id": "318q66h08kdgqo9",
@@ -4245,8 +4568,10 @@
             "position": 44,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "45": {
             "id": "23xmvkhoyzd9qg8",
@@ -4256,8 +4581,10 @@
             "position": 45,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "46": {
             "id": "dn1m1ghe9wd3moe",
@@ -4269,8 +4596,10 @@
             "position": 46,
             "round_id": "k82rekh0p03repz",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "47": {
             "id": "zp5rzgh73ezwq82",
@@ -4284,8 +4613,11 @@
             "position": 47,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758738600,
               "pen_m5": [
                 11,
@@ -4354,6 +4686,7 @@
               "y39mp1h6p6l6moj"
             ],
             "state_id": 7,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -4393,10 +4726,13 @@
             "position": 48,
             "round_id": "k82rekh0p03repz",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "49": {
+            "id": "bye-pxwrxlh9e0kryk0-1-49",
             "home_team_id": "56ypq3nhxd5md7o",
             "home_team_name": "UWIC Inter Cardiff",
             "away_team_name": "BYE",
@@ -4404,8 +4740,11 @@
             "away_score": 0,
             "winner_team_id": "56ypq3nhxd5md7o",
             "position": 49,
+            "round_id": "318q66h6y6kqo9j",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "5": {
@@ -4420,8 +4759,11 @@
             "position": 5,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -4461,7 +4803,8 @@
             "event_ids": [
               "2y8m4zh54w7kql0"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "50": {
             "id": "3glrw7h14ve2qdy",
@@ -4473,10 +4816,13 @@
             "position": 50,
             "round_id": "k82rekh0p03repz",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "51": {
+            "id": "bye-pxwrxlh9e0kryk0-1-51",
             "home_team_id": "l5ergphoeypr8k0",
             "home_team_name": "Mold Alexandra",
             "away_team_name": "BYE",
@@ -4484,11 +4830,15 @@
             "away_score": 0,
             "winner_team_id": "l5ergphoeypr8k0",
             "position": 51,
+            "round_id": "318q66h6y6kqo9j",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "52": {
+            "id": "bye-pxwrxlh9e0kryk0-1-52",
             "home_team_id": "e4wyrn4h34wq86p",
             "home_team_name": "The New Saints",
             "away_team_name": "BYE",
@@ -4496,11 +4846,15 @@
             "away_score": 0,
             "winner_team_id": "e4wyrn4h34wq86p",
             "position": 52,
+            "round_id": "318q66h6y6kqo9j",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "53": {
+            "id": "bye-pxwrxlh9e0kryk0-1-53",
             "home_team_id": "gy0or5jhkgpqwzv",
             "home_team_name": "Newtown AFC",
             "away_team_name": "BYE",
@@ -4508,11 +4862,15 @@
             "away_score": 0,
             "winner_team_id": "gy0or5jhkgpqwzv",
             "position": 53,
+            "round_id": "318q66h6y6kqo9j",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "54": {
+            "id": "bye-pxwrxlh9e0kryk0-1-54",
             "home_team_id": "gx7lm7phe9ym2wd",
             "home_team_name": "Caernarfon",
             "away_team_name": "BYE",
@@ -4520,8 +4878,11 @@
             "away_score": 0,
             "winner_team_id": "gx7lm7phe9ym2wd",
             "position": 54,
+            "round_id": "318q66h6y6kqo9j",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "55": {
@@ -4534,8 +4895,10 @@
             "position": 55,
             "round_id": "k82rekh0p03repz",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "56": {
             "id": "zp5rzgh73l9jq82",
@@ -4547,8 +4910,10 @@
             "position": 56,
             "round_id": "k82rekh0p03repz",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "57": {
             "id": "l7oqdeh6j5zdr51",
@@ -4558,10 +4923,13 @@
             "position": 57,
             "round_id": "k82rekh0p03repz",
             "round_number": 1,
-            "state_id": 7,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 7
           },
           "58": {
+            "id": "bye-pxwrxlh9e0kryk0-1-58",
             "home_team_id": "dj2ryohk9v5q1zp",
             "home_team_name": "Treowen Stars",
             "away_team_name": "BYE",
@@ -4569,11 +4937,15 @@
             "away_score": 0,
             "winner_team_id": "dj2ryohk9v5q1zp",
             "position": 58,
+            "round_id": "318q66h6y6kqo9j",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "59": {
+            "id": "bye-pxwrxlh9e0kryk0-1-59",
             "home_team_id": "y39mp1h3y69mojx",
             "home_team_name": "Pontypridd",
             "away_team_name": "BYE",
@@ -4581,8 +4953,11 @@
             "away_score": 0,
             "winner_team_id": "y39mp1h3y69mojx",
             "position": 59,
+            "round_id": "318q66h6y6kqo9j",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "6": {
@@ -4597,8 +4972,11 @@
             "position": 6,
             "round_id": "k82rekh0p03repz",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -4638,7 +5016,8 @@
             "event_ids": [
               "3glrw7hnl39wqdy"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "60": {
             "id": "k82rekh927d9rep",
@@ -4651,10 +5030,13 @@
             "position": 60,
             "round_id": "k82rekh0p03repz",
             "round_number": 1,
-            "state_id": 8,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 8
           },
           "61": {
+            "id": "bye-pxwrxlh9e0kryk0-1-61",
             "home_team_id": "4zp5rzghvkkq82w",
             "home_team_name": "Carmarthen",
             "away_team_name": "BYE",
@@ -4662,11 +5044,15 @@
             "away_score": 0,
             "winner_team_id": "4zp5rzghvkkq82w",
             "position": 61,
+            "round_id": "318q66h6y6kqo9j",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "62": {
+            "id": "bye-pxwrxlh9e0kryk0-1-62",
             "home_team_id": "4wyrn4henzzq86p",
             "home_team_name": "Trey Thomas Drossel",
             "away_team_name": "BYE",
@@ -4674,8 +5060,11 @@
             "away_score": 0,
             "winner_team_id": "4wyrn4henzzq86p",
             "position": 62,
+            "round_id": "318q66h6y6kqo9j",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "63": {
@@ -4690,9 +5079,13 @@
             "position": 63,
             "round_id": "k82rekh0p03repz",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "state_id": 8
           },
           "64": {
+            "id": "bye-pxwrxlh9e0kryk0-1-64",
             "home_team_id": "1l4rjnh6948m7vx",
             "home_team_name": "Colwyn Bay",
             "away_team_name": "BYE",
@@ -4700,8 +5093,11 @@
             "away_score": 0,
             "winner_team_id": "1l4rjnh6948m7vx",
             "position": 64,
+            "round_id": "318q66h6y6kqo9j",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "7": {
@@ -4713,11 +5109,13 @@
             "position": 7,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
-            "state_id": 8,
-            "note": "Direct qualified for the Round1"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 8
           },
           "8": {
-            "id": "virtual-r6-p8",
+            "id": "virtual-pxwrxlh9e0kryk0-1-8",
             "home_team_name": "TBD",
             "away_team_name": "TBD",
             "home_score": 0,
@@ -4725,6 +5123,8 @@
             "position": 8,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
             "is_tbd": true,
             "state_id": -3
           },
@@ -4740,8 +5140,11 @@
             "position": 9,
             "round_id": "318q66h635vqo9j",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1758373200,
               "pen_m5": [
                 0,
@@ -4781,33 +5184,29 @@
             "event_ids": [
               "y39mp1h6k0ozmoj"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         }
       },
       "rounds": [
         {
-          "id": "l7oqdeh8w88r510",
-          "description": "Final",
-          "number": 7
-        },
-        {
-          "id": "l7oqdeh895dr510",
+          "id": "jw2r09h6y60rz84",
           "description": "Semi Finals",
           "number": 6
         },
         {
-          "id": "jw2r09h6goprz84",
+          "id": "l5ergphlxlyr8k0",
           "description": "Round5",
           "number": 5
         },
         {
-          "id": "l5ergphl79pr8k0",
+          "id": "4wyrn4hopo0q86p",
           "description": "Round4",
           "number": 4
         },
         {
-          "id": "4wyrn4ho5kvq86p",
+          "id": "dn1m1ghpypomoep",
           "description": "Round3",
           "number": 3
         },
@@ -4822,7 +5221,7 @@
           "number": 1
         }
       ],
-      "total_rounds": 7
+      "total_rounds": 6
     }
   ]
 }

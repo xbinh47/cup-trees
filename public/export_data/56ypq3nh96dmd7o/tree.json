@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "x7lm7phndjom2wd",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1697824800,
               "pen_m5": [
                 0,
@@ -57,7 +60,7 @@
               "away_team_name": "Los Chankas"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1698436800,
               "pen_m5": [
                 0,
@@ -98,7 +101,8 @@
               "vjxm8ghljol0r6o",
               "ednm9wh7zl21ryo"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         },
         "1": {
@@ -114,8 +118,11 @@
             "position": 1,
             "round_id": "vjxm8gh9oe4r6od",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1696960800,
               "pen_m5": [
                 0,
@@ -153,7 +160,7 @@
               "away_team_name": "Alianza Universidad de Huánuco"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1697389200,
               "pen_m5": [
                 0,
@@ -194,7 +201,8 @@
               "n54qllh7x88lqvy",
               "vjxm8ghlj8z0r6o"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "2": {
             "id": "4wyrn4h8g2ydq86",
@@ -208,8 +216,11 @@
             "position": 2,
             "round_id": "vjxm8gh9oe4r6od",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1697054400,
               "pen_m5": [
                 0,
@@ -247,7 +258,7 @@
               "away_team_name": "Los Chankas"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1697400000,
               "pen_m5": [
                 0,
@@ -288,7 +299,8 @@
               "3glrw7h7jyv4qdy",
               "x7lm7phz0w12m2w"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         },
         "2": {
@@ -304,8 +316,11 @@
             "position": 1,
             "round_id": "3glrw7h0enkqdyj",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1696269600,
               "pen_m5": [
                 0,
@@ -343,7 +358,7 @@
               "away_team_name": "Deportivo Llacuabamba"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1696623300,
               "pen_m5": [
                 0,
@@ -384,9 +399,11 @@
               "dn1m1gh2ew5jmoe",
               "l7oqdeho4nwjr51"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
+            "id": "bye-2y8m4zhje02ql07-1-2",
             "home_team_id": "zp5rzgh7gwxq82w",
             "home_team_name": "Alianza Universidad de Huánuco",
             "away_team_name": "BYE",
@@ -394,8 +411,11 @@
             "away_score": 0,
             "winner_team_id": "zp5rzgh7gwxq82w",
             "position": 2,
+            "round_id": "vjxm8gh9oe4r6od",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "3": {
@@ -410,8 +430,11 @@
             "position": 3,
             "round_id": "3glrw7h0enkqdyj",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1696277700,
               "pen_m5": [
                 0,
@@ -451,9 +474,11 @@
             "event_ids": [
               "4wyrn4hxekjkq86"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "4": {
+            "id": "bye-2y8m4zhje02ql07-1-4",
             "home_team_id": "dj2ryohg10vq1zp",
             "home_team_name": "Los Chankas",
             "away_team_name": "BYE",
@@ -461,8 +486,11 @@
             "away_score": 0,
             "winner_team_id": "dj2ryohg10vq1zp",
             "position": 4,
+            "round_id": "vjxm8gh9oe4r6od",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         }

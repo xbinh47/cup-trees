@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "n54qllh10j0qvy9",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1714917600,
               "pen_m5": [
                 4,
@@ -76,6 +79,7 @@
               "y39mp1hz45dxmoj"
             ],
             "state_id": 7,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -107,8 +111,11 @@
             "position": 1,
             "round_id": "y0or5jh6pgyqwzv",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1714316400,
               "pen_m5": [
                 0,
@@ -148,7 +155,8 @@
             "event_ids": [
               "l7oqdeho25wjr51"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
             "id": "vjxm8ghg85gnr6o",
@@ -162,8 +170,11 @@
             "position": 2,
             "round_id": "y0or5jh6pgyqwzv",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1714235400,
               "pen_m5": [
                 0,
@@ -203,11 +214,13 @@
             "event_ids": [
               "x7lm7phz84e9m2w"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         },
         "2": {
           "1": {
+            "id": "bye-vjxm8ghgnd4r6od-1-1",
             "home_team_id": "zp5rzghjjw5q82w",
             "home_team_name": "Bromley",
             "away_team_name": "BYE",
@@ -215,11 +228,15 @@
             "away_score": 0,
             "winner_team_id": "zp5rzghjjw5q82w",
             "position": 1,
+            "round_id": "y0or5jh6pgyqwzv",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "2": {
+            "id": "bye-vjxm8ghgnd4r6od-1-2",
             "home_team_id": "v2y8m4zh2w5ql07",
             "home_team_name": "Altrincham",
             "away_team_name": "BYE",
@@ -227,8 +244,11 @@
             "away_score": 0,
             "winner_team_id": "v2y8m4zh2w5ql07",
             "position": 2,
+            "round_id": "y0or5jh6pgyqwzv",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "3": {
@@ -242,9 +262,13 @@
             "position": 3,
             "round_id": "x7lm7ph869em2wd",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "state_id": 7
           },
           "4": {
+            "id": "bye-vjxm8ghgnd4r6od-1-4",
             "home_team_id": "23xmvkh317wqg8n",
             "home_team_name": "Solihull Moors",
             "away_team_name": "BYE",
@@ -252,8 +276,11 @@
             "away_score": 0,
             "winner_team_id": "23xmvkh317wqg8n",
             "position": 4,
+            "round_id": "y0or5jh6pgyqwzv",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         }

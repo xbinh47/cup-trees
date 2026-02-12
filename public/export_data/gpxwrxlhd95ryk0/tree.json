@@ -7,42 +7,50 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "virtual-r0-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
+            "id": "4jwq2ghkdjgym0v",
+            "home_team_name": "",
             "home_score": 0,
             "away_score": 0,
             "position": 1,
             "round_id": "l7oqdeh8xj5r510",
             "round_number": 8,
-            "is_tbd": true,
-            "state_id": -3
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false
           }
         },
         "1": {
           "1": {
-            "id": "virtual-r1-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
+            "id": "zp5rzgh7e93eq82",
+            "home_team_id": "4jwq2gh4l81m0ve",
+            "away_team_id": "318q66h07yeqo9j",
+            "home_team_name": "Parma U20",
+            "away_team_name": "Atalanta U20",
             "home_score": 0,
             "away_score": 0,
             "position": 1,
             "round_id": "jw2r09h635zrz84",
             "round_number": 7,
-            "is_tbd": true,
-            "state_id": -3
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 1
           },
           "2": {
-            "id": "virtual-r1-p2",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
+            "id": "1l4rjnh1p0n0m7v",
+            "home_team_id": "965mkyh7y7er1ge",
+            "away_team_id": "y39mp1h5pddmojx",
+            "home_team_name": "Juventus U20",
+            "away_team_name": "Sassuolo U20",
             "home_score": 0,
             "away_score": 0,
             "position": 2,
             "round_id": "jw2r09h635zrz84",
             "round_number": 7,
-            "is_tbd": true,
-            "state_id": -3
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 1
           }
         },
         "2": {
@@ -53,11 +61,57 @@
             "home_team_name": "AS Roma U20",
             "away_team_name": "Parma U20",
             "home_score": 0,
-            "away_score": 0,
+            "away_score": 1,
+            "winner_team_id": "4jwq2gh4l81m0ve",
             "position": 1,
             "round_id": "l5ergphldkxr8k0",
             "round_number": 6,
-            "state_id": 1
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "first_leg": {
+              "status_id": 8,
+              "start_time": 1770814800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 2,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 7,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "home_team_id": "pxwrxlh1pd9ryk0",
+              "away_team_id": "4jwq2gh4l81m0ve",
+              "home_team_name": "AS Roma U20",
+              "away_team_name": "Parma U20"
+            },
+            "event_ids": [
+              "3glrw7hn7jynqdy"
+            ],
+            "state_id": 8,
+            "status_id": 8
           },
           "2": {
             "id": "l5ergph378gdr8k",
@@ -65,12 +119,58 @@
             "away_team_id": "318q66h07yeqo9j",
             "home_team_name": "Verona U20",
             "away_team_name": "Atalanta U20",
-            "home_score": 0,
-            "away_score": 0,
+            "home_score": 4,
+            "away_score": 5,
+            "winner_team_id": "318q66h07yeqo9j",
             "position": 2,
             "round_id": "l5ergphldkxr8k0",
             "round_number": 6,
-            "state_id": 1
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "first_leg": {
+              "status_id": 8,
+              "start_time": 1770816600,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 0,
+                "period_2": 2,
+                "corner": 3,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 2,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "away_score": {
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 6,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 3,
+                "overtime_score_only": -2,
+                "ft_score_only": 2
+              },
+              "home_team_id": "dn1m1ghe3e2moep",
+              "away_team_id": "318q66h07yeqo9j",
+              "home_team_name": "Verona U20",
+              "away_team_name": "Atalanta U20"
+            },
+            "event_ids": [
+              "8yomo4h132v4q0j"
+            ],
+            "state_id": 8,
+            "status_id": 8
           },
           "3": {
             "id": "jw2r09hng08grz8",
@@ -79,11 +179,57 @@
             "home_team_name": "Inter Milan U20",
             "away_team_name": "Juventus U20",
             "home_score": 0,
-            "away_score": 0,
+            "away_score": 3,
+            "winner_team_id": "965mkyh7y7er1ge",
             "position": 3,
             "round_id": "l5ergphldkxr8k0",
             "round_number": 6,
-            "state_id": 1
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "first_leg": {
+              "status_id": 8,
+              "start_time": 1770831000,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 4,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 3,
+                "display": 3,
+                "period_1": 1,
+                "period_2": 2,
+                "corner": 3,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -3,
+                "ft_score_only": 3
+              },
+              "home_team_id": "pxwrxlhgwleryk0",
+              "away_team_id": "965mkyh7y7er1ge",
+              "home_team_name": "Inter Milan U20",
+              "away_team_name": "Juventus U20"
+            },
+            "event_ids": [
+              "pxwrxlhy59j5ryk"
+            ],
+            "state_id": 8,
+            "status_id": 8
           },
           "4": {
             "id": "dj2ryohy9x80q1z",
@@ -91,12 +237,58 @@
             "away_team_id": "pxwrxlhg313ryk0",
             "home_team_name": "Sassuolo U20",
             "away_team_name": "Fiorentina U20",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0,
+            "winner_team_id": "y39mp1h5pddmojx",
             "position": 4,
             "round_id": "l5ergphldkxr8k0",
             "round_number": 6,
-            "state_id": 1
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "first_leg": {
+              "status_id": 8,
+              "start_time": 1770814800,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 0,
+                "yellow_card": 3,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 11,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "y39mp1h5pddmojx",
+              "away_team_id": "pxwrxlhg313ryk0",
+              "home_team_name": "Sassuolo U20",
+              "away_team_name": "Fiorentina U20"
+            },
+            "event_ids": [
+              "6ypq3nhv3zw7md7"
+            ],
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "3": {
@@ -112,6 +304,9 @@
             "position": 1,
             "round_id": "4wyrn4howynq86p",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "state_id": 7
           },
           "2": {
@@ -126,8 +321,11 @@
             "position": 2,
             "round_id": "4wyrn4howynq86p",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1767792600,
               "pen_m5": [
                 0,
@@ -167,7 +365,8 @@
             "event_ids": [
               "2y8m4zh5w536ql0"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "3": {
             "id": "x7lm7phovy3zm2w",
@@ -181,8 +380,11 @@
             "position": 3,
             "round_id": "4wyrn4howynq86p",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1767780000,
               "pen_m5": [
                 3,
@@ -237,6 +439,7 @@
               "l5ergph4lwljr8k"
             ],
             "state_id": 7,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -264,8 +467,11 @@
             "position": 4,
             "round_id": "4wyrn4howynq86p",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1767789000,
               "pen_m5": [
                 0,
@@ -305,7 +511,8 @@
             "event_ids": [
               "dj2ryohle1eoq1z"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "5": {
             "id": "3glrw7h19239qdy",
@@ -319,8 +526,11 @@
             "position": 5,
             "round_id": "4wyrn4howynq86p",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1767794400,
               "pen_m5": [
                 5,
@@ -377,6 +587,7 @@
               "2y8m4zh5w6wkql0"
             ],
             "state_id": 7,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -406,8 +617,11 @@
             "position": 6,
             "round_id": "4wyrn4howynq86p",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1767783600,
               "pen_m5": [
                 0,
@@ -447,7 +661,8 @@
             "event_ids": [
               "l7oqdehg8o8wr51"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "7": {
             "id": "318q66h01yw4qo9",
@@ -461,6 +676,9 @@
             "position": 7,
             "round_id": "4wyrn4howynq86p",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "state_id": 7
           },
           "8": {
@@ -475,8 +693,11 @@
             "position": 8,
             "round_id": "4wyrn4howynq86p",
             "round_number": 5,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1767781800,
               "pen_m5": [
                 0,
@@ -516,11 +737,13 @@
             "event_ids": [
               "jw2r09hk626vrz8"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "4": {
           "1": {
+            "id": "bye-318q66hv22kqo9j-4-1",
             "home_team_id": "pxwrxlh1pd9ryk0",
             "home_team_name": "AS Roma U20",
             "away_team_name": "BYE",
@@ -528,8 +751,11 @@
             "away_score": 0,
             "winner_team_id": "pxwrxlh1pd9ryk0",
             "position": 1,
+            "round_id": "4wyrn4howynq86p",
             "round_number": 4,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "10": {
@@ -544,8 +770,11 @@
             "position": 10,
             "round_id": "dn1m1ghpx9dmoep",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764757800,
               "pen_m5": [
                 0,
@@ -585,9 +814,11 @@
             "event_ids": [
               "x7lm7phj7j36m2w"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "11": {
+            "id": "bye-318q66hv22kqo9j-4-11",
             "home_team_id": "965mkyh7y7er1ge",
             "home_team_name": "Juventus U20",
             "away_team_name": "BYE",
@@ -595,8 +826,11 @@
             "away_score": 0,
             "winner_team_id": "965mkyh7y7er1ge",
             "position": 11,
+            "round_id": "4wyrn4howynq86p",
             "round_number": 4,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "12": {
@@ -611,8 +845,11 @@
             "position": 12,
             "round_id": "dn1m1ghpx9dmoep",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764756000,
               "pen_m5": [
                 0,
@@ -652,9 +889,11 @@
             "event_ids": [
               "3glrw7hnpn35qdy"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "13": {
+            "id": "bye-318q66hv22kqo9j-4-13",
             "home_team_id": "y39mp1h5pddmojx",
             "home_team_name": "Sassuolo U20",
             "away_team_name": "BYE",
@@ -662,8 +901,11 @@
             "away_score": 0,
             "winner_team_id": "y39mp1h5pddmojx",
             "position": 13,
+            "round_id": "4wyrn4howynq86p",
             "round_number": 4,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "14": {
@@ -678,8 +920,11 @@
             "position": 14,
             "round_id": "dn1m1ghpx9dmoep",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764759600,
               "pen_m5": [
                 0,
@@ -719,9 +964,11 @@
             "event_ids": [
               "n54qllhnznplqvy"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "15": {
+            "id": "bye-318q66hv22kqo9j-4-15",
             "home_team_id": "pxwrxlhg313ryk0",
             "home_team_name": "Fiorentina U20",
             "away_team_name": "BYE",
@@ -729,8 +976,11 @@
             "away_score": 0,
             "winner_team_id": "pxwrxlhg313ryk0",
             "position": 15,
+            "round_id": "4wyrn4howynq86p",
             "round_number": 4,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "16": {
@@ -745,8 +995,11 @@
             "position": 16,
             "round_id": "dn1m1ghpx9dmoep",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764756000,
               "pen_m5": [
                 0,
@@ -786,7 +1039,8 @@
             "event_ids": [
               "pxwrxlhy3yxwryk"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "2": {
             "id": "dj2ryohyp4kwq1z",
@@ -800,8 +1054,11 @@
             "position": 2,
             "round_id": "dn1m1ghpx9dmoep",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764757800,
               "pen_m5": [
                 0,
@@ -841,9 +1098,11 @@
             "event_ids": [
               "y0or5jh8o8z2qwz"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "3": {
+            "id": "bye-318q66hv22kqo9j-4-3",
             "home_team_id": "jw2r09hnn9krz84",
             "home_team_name": "AC Milan U20",
             "away_team_name": "BYE",
@@ -851,8 +1110,11 @@
             "away_score": 0,
             "winner_team_id": "jw2r09hnn9krz84",
             "position": 3,
+            "round_id": "4wyrn4howynq86p",
             "round_number": 4,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "4": {
@@ -867,8 +1129,11 @@
             "position": 4,
             "round_id": "dn1m1ghpx9dmoep",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764682200,
               "pen_m5": [
                 0,
@@ -908,9 +1173,11 @@
             "event_ids": [
               "jw2r09hk0k66rz8"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "5": {
+            "id": "bye-318q66hv22kqo9j-4-5",
             "home_team_id": "dn1m1ghe3e2moep",
             "home_team_name": "Verona U20",
             "away_team_name": "BYE",
@@ -918,8 +1185,11 @@
             "away_score": 0,
             "winner_team_id": "dn1m1ghe3e2moep",
             "position": 5,
+            "round_id": "4wyrn4howynq86p",
             "round_number": 4,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "6": {
@@ -934,8 +1204,11 @@
             "position": 6,
             "round_id": "dn1m1ghpx9dmoep",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764756000,
               "pen_m5": [
                 0,
@@ -975,9 +1248,11 @@
             "event_ids": [
               "vjxm8ghewe5dr6o"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "7": {
+            "id": "bye-318q66hv22kqo9j-4-7",
             "home_team_id": "x7lm7pho9y1m2wd",
             "home_team_name": "Cagliari U20",
             "away_team_name": "BYE",
@@ -985,8 +1260,11 @@
             "away_score": 0,
             "winner_team_id": "x7lm7pho9y1m2wd",
             "position": 7,
+            "round_id": "4wyrn4howynq86p",
             "round_number": 4,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "8": {
@@ -1001,8 +1279,11 @@
             "position": 8,
             "round_id": "dn1m1ghpx9dmoep",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1764768600,
               "pen_m5": [
                 0,
@@ -1042,9 +1323,11 @@
             "event_ids": [
               "zp5rzghgwg5yq82"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "9": {
+            "id": "bye-318q66hv22kqo9j-4-9",
             "home_team_id": "pxwrxlhgwleryk0",
             "home_team_name": "Inter Milan U20",
             "away_team_name": "BYE",
@@ -1052,8 +1335,11 @@
             "away_score": 0,
             "winner_team_id": "pxwrxlhgwleryk0",
             "position": 9,
+            "round_id": "4wyrn4howynq86p",
             "round_number": 4,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         },
@@ -1070,8 +1356,11 @@
             "position": 11,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761732000,
               "pen_m5": [
                 0,
@@ -1111,7 +1400,8 @@
             "event_ids": [
               "8yomo4h12e54q0j"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "12": {
             "id": "l5ergph34gvkr8k",
@@ -1125,8 +1415,11 @@
             "position": 12,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761649200,
               "pen_m5": [
                 0,
@@ -1166,7 +1459,8 @@
             "event_ids": [
               "4wyrn4h6dz74q86"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "15": {
             "id": "965mkyh48y5pr1g",
@@ -1180,8 +1474,11 @@
             "position": 15,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761746400,
               "pen_m5": [
                 0,
@@ -1221,7 +1518,8 @@
             "event_ids": [
               "8yomo4h1x68pq0j"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "16": {
             "id": "vjxm8ghgeyjyr6o",
@@ -1235,8 +1533,11 @@
             "position": 16,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761732000,
               "pen_m5": [
                 0,
@@ -1276,7 +1577,8 @@
             "event_ids": [
               "l7oqdehg4yeer51"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "19": {
             "id": "pxwrxlh1yd9kryk",
@@ -1290,8 +1592,11 @@
             "position": 19,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761732000,
               "pen_m5": [
                 0,
@@ -1331,7 +1636,8 @@
             "event_ids": [
               "3glrw7hnjklnqdy"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "20": {
             "id": "318q66h08wg0qo9",
@@ -1345,8 +1651,11 @@
             "position": 20,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761658200,
               "pen_m5": [
                 0,
@@ -1386,7 +1695,8 @@
             "event_ids": [
               "l5ergph4y7kdr8k"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "23": {
             "id": "x7lm7phoj4wgm2w",
@@ -1400,8 +1710,11 @@
             "position": 23,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761660000,
               "pen_m5": [
                 0,
@@ -1441,7 +1754,8 @@
             "event_ids": [
               "dj2ryohljvd5q1z"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "24": {
             "id": "3glrw7h1ndjxqdy",
@@ -1455,8 +1769,11 @@
             "position": 24,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761732000,
               "pen_m5": [
                 0,
@@ -1496,7 +1813,8 @@
             "event_ids": [
               "2y8m4zh5g04xql0"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "27": {
             "id": "y39mp1h5dz4vmoj",
@@ -1510,8 +1828,11 @@
             "position": 27,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761732000,
               "pen_m5": [
                 0,
@@ -1551,7 +1872,8 @@
             "event_ids": [
               "6ypq3nhvep8jmd7"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "28": {
             "id": "6ypq3nh5vxz9md7",
@@ -1565,8 +1887,11 @@
             "position": 28,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761746400,
               "pen_m5": [
                 0,
@@ -1606,7 +1931,8 @@
             "event_ids": [
               "jw2r09hkx4p1rz8"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "3": {
             "id": "k82rekh92wxvrep",
@@ -1620,8 +1946,11 @@
             "position": 3,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761733800,
               "pen_m5": [
                 0,
@@ -1661,22 +1990,26 @@
             "event_ids": [
               "2y8m4zh5xe7yql0"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "31": {
             "id": "l7oqdeh6g749r51",
             "home_team_id": "6ypq3nh5gp1md7o",
-            "away_team_id": "318q66h4ejwqo9j",
+            "away_team_id": "k82rekh1w22repz",
             "home_team_name": "Cesena U20",
-            "away_team_name": "Modena Youth",
+            "away_team_name": "Modena Primavera",
             "home_score": 3,
             "away_score": 0,
             "winner_team_id": "6ypq3nh5gp1md7o",
             "position": 31,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761744600,
               "pen_m5": [
                 0,
@@ -1716,7 +2049,8 @@
             "event_ids": [
               "l5ergph4v05nr8k"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "32": {
             "id": "2y8m4zhj5lg9ql0",
@@ -1730,8 +2064,11 @@
             "position": 32,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761656400,
               "pen_m5": [
                 0,
@@ -1771,7 +2108,8 @@
             "event_ids": [
               "6ypq3nhvz647md7"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "4": {
             "id": "8yomo4hk1n2lq0j",
@@ -1785,8 +2123,11 @@
             "position": 4,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761733800,
               "pen_m5": [
                 0,
@@ -1826,7 +2167,8 @@
             "event_ids": [
               "x7lm7phj0g5vm2w"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "7": {
             "id": "jw2r09hnk8x3rz8",
@@ -1840,8 +2182,11 @@
             "position": 7,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761733800,
               "pen_m5": [
                 0,
@@ -1881,7 +2226,8 @@
             "event_ids": [
               "vjxm8ghejv2kr6o"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "8": {
             "id": "dj2ryohyl8j3q1z",
@@ -1895,8 +2241,11 @@
             "position": 8,
             "round_id": "318q66h6183qo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1761660000,
               "pen_m5": [
                 0,
@@ -1936,11 +2285,13 @@
             "event_ids": [
               "pxwrxlhy9p25ryk"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "6": {
           "13": {
+            "id": "bye-318q66hv22kqo9j-2-13",
             "home_team_id": "vjxm8ghgw35r6od",
             "home_team_name": "Torino U19",
             "away_team_name": "BYE",
@@ -1948,11 +2299,15 @@
             "away_score": 0,
             "winner_team_id": "vjxm8ghgw35r6od",
             "position": 13,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "14": {
+            "id": "bye-318q66hv22kqo9j-2-14",
             "home_team_id": "l7oqdeh668jr510",
             "home_team_name": "Pescara Youth",
             "away_team_name": "BYE",
@@ -1960,11 +2315,15 @@
             "away_score": 0,
             "winner_team_id": "l7oqdeh668jr510",
             "position": 14,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "15": {
+            "id": "bye-318q66hv22kqo9j-2-15",
             "home_team_id": "4jwq2gh4l81m0ve",
             "home_team_name": "Parma U20",
             "away_team_name": "BYE",
@@ -1972,11 +2331,15 @@
             "away_score": 0,
             "winner_team_id": "4jwq2gh4l81m0ve",
             "position": 15,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "16": {
+            "id": "bye-318q66hv22kqo9j-2-16",
             "home_team_id": "ednm9whk6pvryox",
             "home_team_name": "Ascoli U19",
             "away_team_name": "BYE",
@@ -1984,11 +2347,15 @@
             "away_score": 0,
             "winner_team_id": "ednm9whk6pvryox",
             "position": 16,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "21": {
+            "id": "bye-318q66hv22kqo9j-2-21",
             "home_team_id": "d23xmvkhe9zqg8n",
             "home_team_name": "Lazio Youth",
             "away_team_name": "BYE",
@@ -1996,11 +2363,15 @@
             "away_score": 0,
             "winner_team_id": "d23xmvkhe9zqg8n",
             "position": 21,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "22": {
+            "id": "bye-318q66hv22kqo9j-2-22",
             "home_team_id": "1l4rjnh6gv7m7vx",
             "home_team_name": "Vicenza U19",
             "away_team_name": "BYE",
@@ -2008,11 +2379,15 @@
             "away_score": 0,
             "winner_team_id": "1l4rjnh6gv7m7vx",
             "position": 22,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "23": {
+            "id": "bye-318q66hv22kqo9j-2-23",
             "home_team_id": "318q66ho928qo9j",
             "home_team_name": "Bologna U20",
             "away_team_name": "BYE",
@@ -2020,11 +2395,15 @@
             "away_score": 0,
             "winner_team_id": "318q66ho928qo9j",
             "position": 23,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "24": {
+            "id": "bye-318q66hv22kqo9j-2-24",
             "home_team_id": "l7oqdeh6dz6r510",
             "home_team_name": "Como U19",
             "away_team_name": "BYE",
@@ -2032,11 +2411,15 @@
             "away_score": 0,
             "winner_team_id": "l7oqdeh6dz6r510",
             "position": 24,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "29": {
+            "id": "bye-318q66hv22kqo9j-2-29",
             "home_team_id": "318q66h07yeqo9j",
             "home_team_name": "Atalanta U20",
             "away_team_name": "BYE",
@@ -2044,8 +2427,11 @@
             "away_score": 0,
             "winner_team_id": "318q66h07yeqo9j",
             "position": 29,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "30": {
@@ -2060,8 +2446,11 @@
             "position": 30,
             "round_id": "k82rekh0e2erepz",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1757511000,
               "pen_m5": [
                 0,
@@ -2101,9 +2490,11 @@
             "event_ids": [
               "y0or5jh80yojqwz"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "31": {
+            "id": "bye-318q66hv22kqo9j-2-31",
             "home_team_id": "jw2r09hnjn3rz84",
             "home_team_name": "Virtus Entella U20",
             "away_team_name": "BYE",
@@ -2111,11 +2502,15 @@
             "away_score": 0,
             "winner_team_id": "jw2r09hnjn3rz84",
             "position": 31,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "32": {
+            "id": "bye-318q66hv22kqo9j-2-32",
             "home_team_id": "k82rekh9zyerepz",
             "home_team_name": "Palermo U19",
             "away_team_name": "BYE",
@@ -2123,11 +2518,15 @@
             "away_score": 0,
             "winner_team_id": "k82rekh9zyerepz",
             "position": 32,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "37": {
+            "id": "bye-318q66hv22kqo9j-2-37",
             "home_team_id": "l7oqdeh662jr510",
             "home_team_name": "Sampdoria U19",
             "away_team_name": "BYE",
@@ -2135,11 +2534,15 @@
             "away_score": 0,
             "winner_team_id": "l7oqdeh662jr510",
             "position": 37,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "38": {
+            "id": "bye-318q66hv22kqo9j-2-38",
             "home_team_id": "zp5rzghx392q82w",
             "home_team_name": "FC Sudtirol Youth",
             "away_team_name": "BYE",
@@ -2147,11 +2550,15 @@
             "away_score": 0,
             "winner_team_id": "zp5rzghx392q82w",
             "position": 38,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "39": {
+            "id": "bye-318q66hv22kqo9j-2-39",
             "home_team_id": "x7lm7pho5kjm2wd",
             "home_team_name": "US Cremonese U20",
             "away_team_name": "BYE",
@@ -2159,8 +2566,11 @@
             "away_score": 0,
             "winner_team_id": "x7lm7pho5kjm2wd",
             "position": 39,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "40": {
@@ -2175,8 +2585,11 @@
             "position": 40,
             "round_id": "k82rekh0e2erepz",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1757322000,
               "pen_m5": [
                 0,
@@ -2216,9 +2629,11 @@
             "event_ids": [
               "x7lm7phj5y75m2w"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "45": {
+            "id": "bye-318q66hv22kqo9j-2-45",
             "home_team_id": "l7oqdeh6y7vr510",
             "home_team_name": "Frosinone U20",
             "away_team_name": "BYE",
@@ -2226,11 +2641,15 @@
             "away_score": 0,
             "winner_team_id": "l7oqdeh6y7vr510",
             "position": 45,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "46": {
+            "id": "bye-318q66hv22kqo9j-2-46",
             "home_team_id": "pxwrxlh13w8ryk0",
             "home_team_name": "Ternana U19",
             "away_team_name": "BYE",
@@ -2238,11 +2657,15 @@
             "away_score": 0,
             "winner_team_id": "pxwrxlh13w8ryk0",
             "position": 46,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "47": {
+            "id": "bye-318q66hv22kqo9j-2-47",
             "home_team_id": "vjxm8ghgpd1r6od",
             "home_team_name": "Genoa Youth",
             "away_team_name": "BYE",
@@ -2250,11 +2673,15 @@
             "away_score": 0,
             "winner_team_id": "vjxm8ghgpd1r6od",
             "position": 47,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "48": {
+            "id": "bye-318q66hv22kqo9j-2-48",
             "home_team_id": "vjxm8ghjljzr6od",
             "home_team_name": "Cosenza Calcio Youth",
             "away_team_name": "BYE",
@@ -2262,11 +2689,15 @@
             "away_score": 0,
             "winner_team_id": "vjxm8ghjljzr6od",
             "position": 48,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "5": {
+            "id": "bye-318q66hv22kqo9j-2-5",
             "home_team_id": "1l4rjnhxke9m7vx",
             "home_team_name": "Monza U20",
             "away_team_name": "BYE",
@@ -2274,11 +2705,15 @@
             "away_score": 0,
             "winner_team_id": "1l4rjnhxke9m7vx",
             "position": 5,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "53": {
+            "id": "bye-318q66hv22kqo9j-2-53",
             "home_team_id": "pxwrxlh1702ryk0",
             "home_team_name": "Lecce U20",
             "away_team_name": "BYE",
@@ -2286,8 +2721,11 @@
             "away_score": 0,
             "winner_team_id": "pxwrxlh1702ryk0",
             "position": 53,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "54": {
@@ -2302,8 +2740,11 @@
             "position": 54,
             "round_id": "k82rekh0e2erepz",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1757147400,
               "pen_m5": [
                 0,
@@ -2343,9 +2784,11 @@
             "event_ids": [
               "vjxm8ghe2dwxr6o"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "55": {
+            "id": "bye-318q66hv22kqo9j-2-55",
             "home_team_id": "jw2r09hnn6krz84",
             "home_team_name": "Empoli U20",
             "away_team_name": "BYE",
@@ -2353,11 +2796,15 @@
             "away_score": 0,
             "winner_team_id": "jw2r09hnn6krz84",
             "position": 55,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "56": {
+            "id": "bye-318q66hv22kqo9j-2-56",
             "home_team_id": "n54qllhew3oqvy9",
             "home_team_name": "Pisa U19",
             "away_team_name": "BYE",
@@ -2365,8 +2812,11 @@
             "away_score": 0,
             "winner_team_id": "n54qllhew3oqvy9",
             "position": 56,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "6": {
@@ -2381,8 +2831,11 @@
             "position": 6,
             "round_id": "k82rekh0e2erepz",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1757064600,
               "pen_m5": [
                 0,
@@ -2422,9 +2875,11 @@
             "event_ids": [
               "3glrw7hnl2pzqdy"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "61": {
+            "id": "bye-318q66hv22kqo9j-2-61",
             "home_team_id": "6ypq3nh5gp1md7o",
             "home_team_name": "Cesena U20",
             "away_team_name": "BYE",
@@ -2432,23 +2887,31 @@
             "away_score": 0,
             "winner_team_id": "6ypq3nh5gp1md7o",
             "position": 61,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "62": {
-            "home_team_id": "318q66h4ejwqo9j",
-            "home_team_name": "Modena Youth",
+            "id": "bye-318q66hv22kqo9j-2-62",
+            "home_team_id": "k82rekh1w22repz",
+            "home_team_name": "Modena Primavera",
             "away_team_name": "BYE",
             "home_score": 0,
             "away_score": 0,
-            "winner_team_id": "318q66h4ejwqo9j",
+            "winner_team_id": "k82rekh1w22repz",
             "position": 62,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "63": {
+            "id": "bye-318q66hv22kqo9j-2-63",
             "home_team_id": "dj2ryohyyepq1zp",
             "home_team_name": "Napoli U20",
             "away_team_name": "BYE",
@@ -2456,11 +2919,15 @@
             "away_score": 0,
             "winner_team_id": "dj2ryohyyepq1zp",
             "position": 63,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "64": {
+            "id": "bye-318q66hv22kqo9j-2-64",
             "home_team_id": "dn1m1ghez6vmoep",
             "home_team_name": "Renate AC U19",
             "away_team_name": "BYE",
@@ -2468,11 +2935,15 @@
             "away_score": 0,
             "winner_team_id": "dn1m1ghez6vmoep",
             "position": 64,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "7": {
+            "id": "bye-318q66hv22kqo9j-2-7",
             "home_team_id": "y39mp1h59k2mojx",
             "home_team_name": "Udinese U20",
             "away_team_name": "BYE",
@@ -2480,11 +2951,15 @@
             "away_score": 0,
             "winner_team_id": "y39mp1h59k2mojx",
             "position": 7,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "8": {
+            "id": "bye-318q66hv22kqo9j-2-8",
             "home_team_id": "1l4rjnh6ne0m7vx",
             "home_team_name": "Benevento Youth",
             "away_team_name": "BYE",
@@ -2492,8 +2967,11 @@
             "away_score": 0,
             "winner_team_id": "1l4rjnh6ne0m7vx",
             "position": 8,
+            "round_id": "318q66h6183qo9j",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         },
@@ -2510,8 +2988,11 @@
             "position": 107,
             "round_id": "y39mp1h0oddmojx",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755678600,
               "pen_m5": [
                 0,
@@ -2551,7 +3032,8 @@
             "event_ids": [
               "ednm9whwz8ejryo"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "108": {
             "id": "ednm9wh9w1zdryo",
@@ -2565,8 +3047,11 @@
             "position": 108,
             "round_id": "y39mp1h0oddmojx",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755694800,
               "pen_m5": [
                 0,
@@ -2606,7 +3091,8 @@
             "event_ids": [
               "4jwq2ghnvo13m0v"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "11": {
             "id": "dn1m1ghel6n2moe",
@@ -2620,8 +3106,11 @@
             "position": 11,
             "round_id": "y39mp1h0oddmojx",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755698400,
               "pen_m5": [
                 0,
@@ -2661,34 +3150,85 @@
             "event_ids": [
               "y39mp1h6jvkvmoj"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "12": {
             "id": "y39mp1h567jwmoj",
             "home_team_id": "4wyrn4hd8g2q86p",
+            "away_team_id": "23xmvkho082qg8n",
             "home_team_name": "Venezia F.C. Youth",
+            "away_team_name": "Catanzaro U19",
             "home_score": 1,
             "away_score": 5,
+            "winner_team_id": "23xmvkho082qg8n",
             "position": 12,
             "round_id": "y39mp1h0oddmojx",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "first_leg": {
+              "status_id": 8,
+              "start_time": 1756026000,
+              "pen_m5": [
+                0,
+                0
+              ],
+              "home_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 0,
+                "period_2": 1,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 5,
+                "display": 5,
+                "period_1": 3,
+                "period_2": 2,
+                "corner": 0,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 0,
+                "overtime_score_only": -5,
+                "ft_score_only": 5
+              },
+              "home_team_id": "4wyrn4hd8g2q86p",
+              "away_team_id": "23xmvkho082qg8n",
+              "home_team_name": "Venezia F.C. Youth",
+              "away_team_name": "Catanzaro U19"
+            },
+            "event_ids": [
+              "dn1m1ghlnvonmoe"
+            ],
             "state_id": 8,
-            "note": "Direct qualified for the Qualification Round1"
+            "status_id": 8
           },
           "59": {
             "id": "1l4rjnh19vzkm7v",
             "home_team_id": "2y8m4zhjjweql07",
-            "away_team_id": "k82rekh3318repz",
+            "away_team_id": "ednm9wh9vx7ryox",
             "home_team_name": "Pro Vercelli U20",
-            "away_team_name": "FeralpiSalo U19",
+            "away_team_name": "Brescia U19",
             "home_score": 1,
             "away_score": 0,
             "winner_team_id": "2y8m4zhjjweql07",
             "position": 59,
             "round_id": "y39mp1h0oddmojx",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755698400,
               "pen_m5": [
                 0,
@@ -2723,12 +3263,13 @@
               "home_team_id": "2y8m4zhjjweql07",
               "away_team_id": "k82rekh3318repz",
               "home_team_name": "Pro Vercelli U20",
-              "away_team_name": "FeralpiSalo U19"
+              "away_team_name": ""
             },
             "event_ids": [
               "k82rekhgyz8vrep"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "6": {
             "id": "k82rekh9glyxrep",
@@ -2741,8 +3282,11 @@
             "position": 6,
             "round_id": "y39mp1h0oddmojx",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1756371600,
               "pen_m5": [
                 0,
@@ -2782,7 +3326,8 @@
             "event_ids": [
               "318q66hxvz70qo9"
             ],
-            "state_id": 6
+            "state_id": 6,
+            "status_id": 8
           },
           "60": {
             "id": "4jwq2ghknlv1m0v",
@@ -2796,8 +3341,11 @@
             "position": 60,
             "round_id": "y39mp1h0oddmojx",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755680400,
               "pen_m5": [
                 0,
@@ -2837,9 +3385,11 @@
             "event_ids": [
               "3glrw7hno9jgqdy"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "79": {
+            "id": "bye-318q66hv22kqo9j-1-79",
             "home_team_id": "zp5rzghjo8vq82w",
             "home_team_name": "Spezia U20",
             "away_team_name": "BYE",
@@ -2847,8 +3397,11 @@
             "away_score": 0,
             "winner_team_id": "zp5rzghjo8vq82w",
             "position": 79,
+            "round_id": "k82rekh0e2erepz",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "80": {
@@ -2863,8 +3416,11 @@
             "position": 80,
             "round_id": "y39mp1h0oddmojx",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1755698400,
               "pen_m5": [
                 3,
@@ -2921,6 +3477,7 @@
               "965mkyhk3lzpr1g"
             ],
             "state_id": 8,
+            "status_id": 8,
             "pen_array": [
               [
                 0,

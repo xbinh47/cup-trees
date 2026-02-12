@@ -24,12 +24,12 @@
               "round_id": "2y8m4zh6zv7ql07",
               "number": 1,
               "type_id": 6,
-              "state_id": 1,
+              "state_id": 8,
               "home_team_id": "9dn1m1ghwp4moep",
               "away_team_id": "4jwq2gh4jnym0ve",
-              "winner_team_id": "",
-              "home_score": 0,
-              "away_score": 0,
+              "winner_team_id": "4jwq2gh4jnym0ve",
+              "home_score": 1,
+              "away_score": 4,
               "parent_ids": [
                 "ednm9wh9lonlryo"
               ],
@@ -44,12 +44,12 @@
               "round_id": "2y8m4zh6zv7ql07",
               "number": 2,
               "type_id": 6,
-              "state_id": 1,
+              "state_id": 7,
               "home_team_id": "23xmvkh32jwqg8n",
               "away_team_id": "l5ergphoovwr8k0",
-              "winner_team_id": "",
-              "home_score": 0,
-              "away_score": 0,
+              "winner_team_id": "23xmvkh32jwqg8n",
+              "home_score": 3,
+              "away_score": 2,
               "parent_ids": [
                 "ednm9wh9lonlryo"
               ],
@@ -57,6 +57,34 @@
               "event_ids": [
                 "4wyrn4h6xjvkq86",
                 "8yomo4h13wz2q0j"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x7lm7phzp9dm2wd",
+          "bracket_id": "l7oqdeh4ojlr510",
+          "name": "Final",
+          "abbr": "F",
+          "start_time": 0,
+          "end_time": 0,
+          "number": 1,
+          "match_ups": [
+            {
+              "id": "l7oqdeh6zwo1r51",
+              "round_id": "x7lm7phzp9dm2wd",
+              "number": 1,
+              "type_id": 1,
+              "state_id": 8,
+              "home_team_id": "2y8m4zhz0nyql07",
+              "away_team_id": "965mkyh7g1kr1ge",
+              "winner_team_id": "965mkyh7g1kr1ge",
+              "home_score": 1,
+              "away_score": 2,
+              "parent_ids": [],
+              "children_ids": [],
+              "event_ids": [
+                "x7lm7phjzlpnm2w"
               ]
             }
           ]
@@ -75,9 +103,9 @@
               "round_id": "8yomo4h30y6q0j6",
               "number": 1,
               "type_id": 0,
-              "state_id": 0,
-              "home_team_id": "",
-              "away_team_id": "",
+              "state_id": 1,
+              "home_team_id": "4jwq2gh4jnym0ve",
+              "away_team_id": "23xmvkh32jwqg8n",
               "winner_team_id": "",
               "home_score": 0,
               "away_score": 0,
@@ -94,6 +122,10 @@
     }
   ],
   "competitors": {
+    "2y8m4zhz0nyql07": {
+      "id": "2y8m4zhz0nyql07",
+      "name": "Tuntum EC"
+    },
     "9dn1m1ghwp4moep": {
       "id": "9dn1m1ghwp4moep",
       "name": "Moto Club Sao Luis MA"
@@ -105,6 +137,10 @@
     "l5ergphoovwr8k0": {
       "id": "l5ergphoovwr8k0",
       "name": "Sampaio Correa"
+    },
+    "965mkyh7g1kr1ge": {
+      "id": "965mkyh7g1kr1ge",
+      "name": "Imperatriz(MA)"
     },
     "4jwq2gh4jnym0ve": {
       "id": "4jwq2gh4jnym0ve",
@@ -215,22 +251,22 @@
       "home_team_id": "9dn1m1ghwp4moep",
       "away_team_id": "4jwq2gh4jnym0ve",
       "start_timestamp": 1770849000,
-      "status_id": 1,
+      "status_id": 8,
       "sport_event_status": {
-        "status_id": 1,
+        "status_id": 8,
         "away_score": {
-          "corners": 0,
+          "corners": 4,
           "red_card": 0,
-          "yellow_card": 0,
+          "yellow_card": 1,
           "penalty_score": 0,
-          "regular_score": 0,
+          "regular_score": 2,
           "overTime_score": 0,
-          "half_time_score": 0
+          "half_time_score": 1
         },
         "home_score": {
-          "corners": 0,
+          "corners": 3,
           "red_card": 0,
-          "yellow_card": 0,
+          "yellow_card": 3,
           "penalty_score": 0,
           "regular_score": 0,
           "overTime_score": 0,
@@ -239,29 +275,55 @@
         "kick_of_timestamp": 0
       },
       "related_id": "",
-      "incidents": []
+      "incidents": [
+        {
+          "time": 46,
+          "type": 1,
+          "add_time": 1,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 0
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 74,
+          "type": 1,
+          "position": 2,
+          "away_score": 2,
+          "home_score": 0
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
     },
     "8yomo4h13wz2q0j": {
       "id": "8yomo4h13wz2q0j",
       "home_team_id": "23xmvkh32jwqg8n",
       "away_team_id": "l5ergphoovwr8k0",
       "start_timestamp": 1770849000,
-      "status_id": 1,
+      "status_id": 8,
       "sport_event_status": {
-        "status_id": 1,
+        "status_id": 8,
         "away_score": {
-          "corners": 0,
+          "corners": 5,
           "red_card": 0,
-          "yellow_card": 0,
+          "yellow_card": 4,
           "penalty_score": 0,
-          "regular_score": 0,
+          "regular_score": 2,
           "overTime_score": 0,
-          "half_time_score": 0
+          "half_time_score": 1
         },
         "home_score": {
-          "corners": 0,
-          "red_card": 0,
-          "yellow_card": 0,
+          "corners": 10,
+          "red_card": 1,
+          "yellow_card": 5,
           "penalty_score": 0,
           "regular_score": 0,
           "overTime_score": 0,
@@ -270,7 +332,40 @@
         "kick_of_timestamp": 0
       },
       "related_id": "4wyrn4h6xjvkq86",
-      "incidents": []
+      "incidents": [
+        {
+          "time": 44,
+          "type": 1,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 0
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 88,
+          "type": 1,
+          "position": 2,
+          "player_id": "ednm9whgok39ryo",
+          "away_score": 2,
+          "home_score": 0,
+          "player_name": "adriano"
+        },
+        {
+          "time": 97,
+          "type": 4,
+          "add_time": 7,
+          "position": 1
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
     },
     "dn1m1ghl258jmoe": {
       "id": "dn1m1ghl258jmoe",
@@ -369,6 +464,114 @@
         },
         {
           "time": 96,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        }
+      ]
+    },
+    "x7lm7phjzlpnm2w": {
+      "id": "x7lm7phjzlpnm2w",
+      "home_team_id": "2y8m4zhz0nyql07",
+      "away_team_id": "965mkyh7g1kr1ge",
+      "start_timestamp": 1770840300,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 9,
+          "red_card": 0,
+          "yellow_card": 5,
+          "penalty_score": 0,
+          "regular_score": 2,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 4,
+          "penalty_score": 0,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "vjxm8ghelnx2r6o",
+      "incidents": [
+        {
+          "time": 6,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 34,
+          "type": 1,
+          "position": 1,
+          "away_score": 0,
+          "home_score": 1
+        },
+        {
+          "time": 36,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 43,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 46,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 49,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 65,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 69,
+          "type": 3,
+          "position": 1
+        },
+        {
+          "time": 69,
+          "type": 1,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 85,
+          "type": 1,
+          "position": 2,
+          "away_score": 2,
+          "home_score": 1
+        },
+        {
+          "time": 92,
+          "type": 3,
+          "position": 2
+        },
+        {
+          "time": 93,
           "type": 3,
           "position": 2
         },

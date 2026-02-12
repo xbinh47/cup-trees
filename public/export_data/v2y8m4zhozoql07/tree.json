@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "4jwq2gh9oopm0ve",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1716571800,
               "pen_m5": [
                 0,
@@ -57,7 +60,7 @@
               "away_team_name": "TSV Hartberg"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1716915600,
               "pen_m5": [
                 0,
@@ -98,7 +101,8 @@
               "zp5rzgh5wdo4q82",
               "l7oqdeho39x5r51"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "1": {
@@ -114,8 +118,11 @@
             "position": 1,
             "round_id": "1l4rjnhlyy2m7vx",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1716310800,
               "pen_m5": [
                 0,
@@ -155,9 +162,11 @@
             "event_ids": [
               "6ypq3nh3n8lemd7"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "2": {
+            "id": "bye-pxwrxlh1dwzryk0-1-2",
             "home_team_id": "n54qllh25g4qvy9",
             "home_team_name": "TSV Hartberg",
             "away_team_name": "BYE",
@@ -165,8 +174,11 @@
             "away_score": 0,
             "winner_team_id": "n54qllh25g4qvy9",
             "position": 2,
+            "round_id": "4jwq2gh9oopm0ve",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         }

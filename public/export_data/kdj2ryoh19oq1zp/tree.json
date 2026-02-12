@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "x7lm7ph95k4m2wd",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1528914600,
               "pen_m5": [
                 0,
@@ -57,7 +60,7 @@
               "away_team_name": "Frosinone"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1529173800,
               "pen_m5": [
                 0,
@@ -98,7 +101,8 @@
               "4wyrn4h7x52nq86",
               "dn1m1gho2g7dmoe"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         },
         "1": {
@@ -114,8 +118,11 @@
             "position": 1,
             "round_id": "vjxm8ghp24nr6od",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1528311600,
               "pen_m5": [
                 0,
@@ -153,7 +160,7 @@
               "away_team_name": "Palermo"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1528648200,
               "pen_m5": [
                 0,
@@ -194,7 +201,8 @@
               "x7lm7ph53j80m2w",
               "ednm9whd2wx0ryo"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "2": {
             "id": "dj2ryohkg4v6q1z",
@@ -208,8 +216,11 @@
             "position": 2,
             "round_id": "vjxm8ghp24nr6od",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1528302600,
               "pen_m5": [
                 0,
@@ -247,7 +258,7 @@
               "away_team_name": "Frosinone"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1528657200,
               "pen_m5": [
                 0,
@@ -288,7 +299,8 @@
               "n54qllhkpn1jqvy",
               "4jwq2gh0znppm0v"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         },
         "2": {
@@ -304,8 +316,11 @@
             "position": 1,
             "round_id": "3glrw7hzlwvqdyj",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1528053000,
               "pen_m5": [
                 0,
@@ -345,9 +360,11 @@
             "event_ids": [
               "jw2r09hp62p2rz8"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
+            "id": "bye-x7lm7phky6gm2wd-1-2",
             "home_team_id": "kn54qllh6wkqvy9",
             "home_team_name": "Palermo",
             "away_team_name": "BYE",
@@ -355,8 +372,11 @@
             "away_score": 0,
             "winner_team_id": "kn54qllh6wkqvy9",
             "position": 2,
+            "round_id": "vjxm8ghp24nr6od",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "3": {
@@ -371,8 +391,11 @@
             "position": 3,
             "round_id": "3glrw7hzlwvqdyj",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1528043400,
               "pen_m5": [
                 0,
@@ -412,9 +435,11 @@
             "event_ids": [
               "y0or5jh0zo4gqwz"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "4": {
+            "id": "bye-x7lm7phky6gm2wd-1-4",
             "home_team_id": "56ypq3nho80md7o",
             "home_team_name": "Frosinone",
             "away_team_name": "BYE",
@@ -422,8 +447,11 @@
             "away_score": 0,
             "winner_team_id": "56ypq3nho80md7o",
             "position": 4,
+            "round_id": "vjxm8ghp24nr6od",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         }

@@ -275,36 +275,40 @@
               "round_id": "1l4rjnhjwo8m7vx",
               "number": 1,
               "type_id": 1,
-              "state_id": 1,
+              "state_id": 8,
               "home_team_id": "pxwrxlhgz9lryk0",
               "away_team_id": "4wyrn4h86w9q86p",
-              "winner_team_id": "",
-              "home_score": 0,
-              "away_score": 0,
+              "winner_team_id": "4wyrn4h86w9q86p",
+              "home_score": 2,
+              "away_score": 4,
               "parent_ids": [],
               "children_ids": [
                 "l7oqdeh6x98xr51",
                 "8yomo4hk86goq0j"
               ],
-              "event_ids": []
+              "event_ids": [
+                "1l4rjnh996ywm7v"
+              ]
             },
             {
               "id": "dn1m1ghed1wemoe",
               "round_id": "1l4rjnhjwo8m7vx",
               "number": 2,
               "type_id": 1,
-              "state_id": 1,
+              "state_id": 7,
               "home_team_id": "6ypq3nh0lzvmd7o",
               "away_team_id": "x7lm7phpzewm2wd",
-              "winner_team_id": "",
-              "home_score": 0,
-              "away_score": 0,
+              "winner_team_id": "6ypq3nh0lzvmd7o",
+              "home_score": 5,
+              "away_score": 4,
               "parent_ids": [],
               "children_ids": [
                 "dj2ryohyp9e9q1z",
                 "2y8m4zhj7ewdql0"
               ],
-              "event_ids": []
+              "event_ids": [
+                "4jwq2ghnn4o8m0v"
+              ]
             }
           ]
         },
@@ -384,6 +388,116 @@
     }
   },
   "sport_events": {
+    "1l4rjnh996ywm7v": {
+      "id": "1l4rjnh996ywm7v",
+      "home_team_id": "pxwrxlhgz9lryk0",
+      "away_team_id": "4wyrn4h86w9q86p",
+      "start_timestamp": 1770809400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 2,
+          "red_card": 0,
+          "yellow_card": 2,
+          "penalty_score": 4,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "home_score": {
+          "corners": 4,
+          "red_card": 0,
+          "yellow_card": 1,
+          "penalty_score": 2,
+          "regular_score": 0,
+          "overTime_score": 0,
+          "half_time_score": 0
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 0
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 1,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "away_score": 2,
+          "home_score": 1
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 1,
+          "away_score": 2,
+          "home_score": 1
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "away_score": 3,
+          "home_score": 1
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "away_score": 3,
+          "home_score": 2
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "away_score": 4,
+          "home_score": 2
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
+        }
+      ]
+    },
     "2y8m4zh5p0g9ql0": {
       "id": "2y8m4zh5p0g9ql0",
       "home_team_id": "ednm9whzwepryox",
@@ -449,6 +563,151 @@
           "position": 2,
           "away_score": 3,
           "home_score": 0
+        }
+      ]
+    },
+    "4jwq2ghnn4o8m0v": {
+      "id": "4jwq2ghnn4o8m0v",
+      "home_team_id": "6ypq3nh0lzvmd7o",
+      "away_team_id": "x7lm7phpzewm2wd",
+      "start_timestamp": 1770818400,
+      "status_id": 8,
+      "sport_event_status": {
+        "status_id": 8,
+        "away_score": {
+          "corners": 3,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 3,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "home_score": {
+          "corners": 8,
+          "red_card": 0,
+          "yellow_card": 0,
+          "penalty_score": 4,
+          "regular_score": 1,
+          "overTime_score": 0,
+          "half_time_score": 1
+        },
+        "kick_of_timestamp": 0
+      },
+      "related_id": "",
+      "incidents": [
+        {
+          "time": 10,
+          "type": 1,
+          "position": 1,
+          "player_id": "4jwq2gh7y7pxm0v",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Ali El-Fadl"
+        },
+        {
+          "time": 23,
+          "type": 1,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 45,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 12,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 1
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 0
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 1
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "away_score": 1,
+          "home_score": 2
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 2,
+          "away_score": 1,
+          "home_score": 2
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 1,
+          "away_score": 1,
+          "home_score": 2
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "away_score": 2,
+          "home_score": 2
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "away_score": 2,
+          "home_score": 3
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 2,
+          "away_score": 3,
+          "home_score": 3
+        },
+        {
+          "time": 90,
+          "type": 29,
+          "position": 1,
+          "away_score": 3,
+          "home_score": 4
+        },
+        {
+          "time": 90,
+          "type": 30,
+          "position": 2,
+          "away_score": 3,
+          "home_score": 4
+        },
+        {
+          "time": 120,
+          "type": 27,
+          "position": 0
         }
       ]
     },

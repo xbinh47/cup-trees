@@ -7,20 +7,6 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "virtual-r0-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "318q66hgd81qo9j",
-            "round_number": 2,
-            "is_tbd": true,
-            "state_id": -3
-          }
-        },
-        "1": {
-          "1": {
             "id": "pxwrxlh1epogryk",
             "home_team_id": "y0or5jh4elyqwzv",
             "away_team_id": "3glrw7hz1k8qdyj",
@@ -31,8 +17,11 @@
             "position": 1,
             "round_id": "k82rekhxd22repz",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 9,
+              "status_id": 9,
               "start_time": 1728244800,
               "pen_m5": [
                 0,
@@ -72,7 +61,8 @@
             "event_ids": [
               "k82rekhwd094rep"
             ],
-            "state_id": 6
+            "state_id": 6,
+            "status_id": 9
           },
           "2": {
             "id": "3glrw7h16k51qdy",
@@ -85,8 +75,11 @@
             "position": 2,
             "round_id": "k82rekhxd22repz",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 9,
+              "status_id": 9,
               "start_time": 1728237600,
               "pen_m5": [
                 0,
@@ -126,23 +119,19 @@
             "event_ids": [
               "y39mp1hz8058moj"
             ],
-            "state_id": 6
+            "state_id": 6,
+            "status_id": 9
           }
         }
       },
       "rounds": [
-        {
-          "id": "318q66hgd81qo9j",
-          "description": "Final",
-          "number": 2
-        },
         {
           "id": "k82rekhxd22repz",
           "description": "Semi Finals",
           "number": 1
         }
       ],
-      "total_rounds": 2
+      "total_rounds": 1
     }
   ]
 }

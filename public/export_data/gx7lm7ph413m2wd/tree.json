@@ -7,31 +7,93 @@
       "nodes": {
         "0": {
           "1": {
-            "id": "virtual-r0-p1",
-            "home_team_name": "TBD",
-            "away_team_name": "TBD",
-            "home_score": 0,
-            "away_score": 0,
-            "position": 1,
-            "round_id": "4jwq2ghz3ylm0ve",
-            "round_number": 4,
-            "is_tbd": true,
-            "state_id": -3
-          }
-        },
-        "1": {
-          "1": {
             "id": "318q66h0dk5oqo9",
             "home_team_id": "pxwrxlhgz9lryk0",
             "away_team_id": "4wyrn4h86w9q86p",
             "home_team_name": "Al Ahed SC",
             "away_team_name": "CS Sagesse",
-            "home_score": 0,
-            "away_score": 0,
+            "home_score": 2,
+            "away_score": 4,
+            "winner_team_id": "4wyrn4h86w9q86p",
             "position": 1,
             "round_id": "1l4rjnhjwo8m7vx",
             "round_number": 3,
-            "state_id": 1
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "first_leg": {
+              "status_id": 8,
+              "start_time": 1770809400,
+              "pen_m5": [
+                2,
+                4
+              ],
+              "pen_array": [
+                [
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  0,
+                  1,
+                  1,
+                  1
+                ]
+              ],
+              "home_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 4,
+                "yellow_card": 1,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 2,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "away_score": {
+                "current": 0,
+                "display": 0,
+                "period_1": 0,
+                "period_2": 0,
+                "corner": 2,
+                "yellow_card": 2,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 4,
+                "overtime_score_only": 0,
+                "ft_score_only": 0
+              },
+              "home_team_id": "pxwrxlhgz9lryk0",
+              "away_team_id": "4wyrn4h86w9q86p",
+              "home_team_name": "Al Ahed SC",
+              "away_team_name": "CS Sagesse"
+            },
+            "event_ids": [
+              "1l4rjnh996ywm7v"
+            ],
+            "state_id": 8,
+            "status_id": 8,
+            "pen_array": [
+              [
+                1,
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                1,
+                1,
+                1
+              ]
+            ]
           },
           "2": {
             "id": "dn1m1ghed1wemoe",
@@ -39,15 +101,97 @@
             "away_team_id": "x7lm7phpzewm2wd",
             "home_team_name": "Al Nejmeh SC",
             "away_team_name": "Jwayya",
-            "home_score": 0,
-            "away_score": 0,
+            "home_score": 5,
+            "away_score": 4,
+            "winner_team_id": "6ypq3nh0lzvmd7o",
             "position": 2,
             "round_id": "1l4rjnhjwo8m7vx",
             "round_number": 3,
-            "state_id": 1
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "first_leg": {
+              "status_id": 8,
+              "start_time": 1770818400,
+              "pen_m5": [
+                4,
+                3
+              ],
+              "pen_array": [
+                [
+                  0,
+                  1,
+                  1,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0
+                ]
+              ],
+              "home_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 8,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 4,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "away_score": {
+                "current": 1,
+                "display": 1,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 3,
+                "yellow_card": 0,
+                "red_card": 0,
+                "overtime_score": 0,
+                "penalty_score": 3,
+                "overtime_score_only": -1,
+                "ft_score_only": 1
+              },
+              "home_team_id": "6ypq3nh0lzvmd7o",
+              "away_team_id": "x7lm7phpzewm2wd",
+              "home_team_name": "Al Nejmeh SC",
+              "away_team_name": "Jwayya"
+            },
+            "event_ids": [
+              "4jwq2ghnn4o8m0v"
+            ],
+            "state_id": 7,
+            "status_id": 8,
+            "pen_array": [
+              [
+                0,
+                1,
+                1,
+                0,
+                1,
+                1
+              ],
+              [
+                1,
+                0,
+                0,
+                1,
+                1,
+                0
+              ]
+            ]
           }
         },
-        "2": {
+        "1": {
           "1": {
             "id": "8yomo4hk86goq0j",
             "home_team_id": "pxwrxlhgz9lryk0",
@@ -60,8 +204,11 @@
             "position": 1,
             "round_id": "zp5rzgh6lvlq82w",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1768735800,
               "pen_m5": [
                 0,
@@ -101,7 +248,8 @@
             "event_ids": [
               "4wyrn4h6oj00q86"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
             "id": "l7oqdeh6x98xr51",
@@ -115,8 +263,11 @@
             "position": 2,
             "round_id": "zp5rzgh6lvlq82w",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1768649400,
               "pen_m5": [
                 0,
@@ -156,7 +307,8 @@
             "event_ids": [
               "l5ergph4lz2yr8k"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "3": {
             "id": "dj2ryohyp9e9q1z",
@@ -170,8 +322,11 @@
             "position": 3,
             "round_id": "zp5rzgh6lvlq82w",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1768740300,
               "pen_m5": [
                 0,
@@ -211,7 +366,8 @@
             "event_ids": [
               "l7oqdehg8vd8r51"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "4": {
             "id": "2y8m4zhj7ewdql0",
@@ -225,8 +381,11 @@
             "position": 4,
             "round_id": "zp5rzgh6lvlq82w",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1768658400,
               "pen_m5": [
                 0,
@@ -266,10 +425,11 @@
             "event_ids": [
               "jw2r09hk6e70rz8"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
-        "3": {
+        "2": {
           "1": {
             "id": "pxwrxlh1nyj1ryk",
             "home_team_id": "pxwrxlhgz9lryk0",
@@ -282,6 +442,9 @@
             "position": 1,
             "round_id": "23xmvkhpn15qg8n",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "state_id": 7
           },
           "2": {
@@ -296,8 +459,11 @@
             "position": 2,
             "round_id": "23xmvkhpn15qg8n",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763726400,
               "pen_m5": [
                 0,
@@ -337,7 +503,8 @@
             "event_ids": [
               "x7lm7phj7gwgm2w"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "3": {
             "id": "318q66h01604qo9",
@@ -351,6 +518,9 @@
             "position": 3,
             "round_id": "23xmvkhpn15qg8n",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "state_id": 8
           },
           "4": {
@@ -365,8 +535,11 @@
             "position": 4,
             "round_id": "23xmvkhpn15qg8n",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763812800,
               "pen_m5": [
                 0,
@@ -406,9 +579,11 @@
             "event_ids": [
               "2y8m4zh5p0g9ql0"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "5": {
+            "id": "bye-318q66hvg59qo9j-1-5",
             "home_team_id": "6ypq3nh0lzvmd7o",
             "home_team_name": "Al Nejmeh SC",
             "away_team_name": "BYE",
@@ -416,8 +591,11 @@
             "away_score": 0,
             "winner_team_id": "6ypq3nh0lzvmd7o",
             "position": 5,
+            "round_id": "zp5rzgh6lvlq82w",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "6": {
@@ -432,6 +610,9 @@
             "position": 6,
             "round_id": "23xmvkhpn15qg8n",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "state_id": 7
           },
           "7": {
@@ -446,8 +627,11 @@
             "position": 7,
             "round_id": "23xmvkhpn15qg8n",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763726400,
               "pen_m5": [
                 0,
@@ -487,7 +671,8 @@
             "event_ids": [
               "8yomo4h14e2lq0j"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "8": {
             "id": "l7oqdeh6x862r51",
@@ -501,8 +686,11 @@
             "position": 8,
             "round_id": "23xmvkhpn15qg8n",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1763726400,
               "pen_m5": [
                 0,
@@ -542,16 +730,12 @@
             "event_ids": [
               "vjxm8ghewvjyr6o"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         }
       },
       "rounds": [
-        {
-          "id": "4jwq2ghz3ylm0ve",
-          "description": "Final",
-          "number": 4
-        },
         {
           "id": "1l4rjnhjwo8m7vx",
           "description": "Semi Finals",
@@ -568,7 +752,7 @@
           "number": 1
         }
       ],
-      "total_rounds": 4
+      "total_rounds": 3
     }
   ]
 }

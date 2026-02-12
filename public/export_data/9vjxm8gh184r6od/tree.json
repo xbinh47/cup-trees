@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "ednm9wh08oeryox",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1717093800,
               "pen_m5": [
                 0,
@@ -57,7 +60,7 @@
               "away_team_name": "Metz"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1717340400,
               "pen_m5": [
                 0,
@@ -98,7 +101,8 @@
               "zp5rzgh5w9n7q82",
               "1l4rjnh4l08zm7v"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "1": {
@@ -114,8 +118,11 @@
             "position": 1,
             "round_id": "4jwq2gh9ow7m0ve",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1716575400,
               "pen_m5": [
                 0,
@@ -155,9 +162,11 @@
             "event_ids": [
               "dj2ryoh1xp8yq1z"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
+            "id": "bye-23xmvkho7v2qg8n-2-2",
             "home_team_id": "vl7oqdehwner510",
             "home_team_name": "Metz",
             "away_team_name": "BYE",
@@ -165,13 +174,17 @@
             "away_score": 0,
             "winner_team_id": "vl7oqdehwner510",
             "position": 2,
+            "round_id": "ednm9wh08oeryox",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         },
         "2": {
           "1": {
+            "id": "bye-23xmvkho7v2qg8n-1-1",
             "home_team_id": "gx7lm7phynkm2wd",
             "home_team_name": "AS Saint-Étienne",
             "away_team_name": "BYE",
@@ -179,8 +192,11 @@
             "away_score": 0,
             "winner_team_id": "gx7lm7phynkm2wd",
             "position": 1,
+            "round_id": "4jwq2gh9ow7m0ve",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "2": {
@@ -195,8 +211,11 @@
             "position": 2,
             "round_id": "1l4rjnhlygxm7vx",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1716316200,
               "pen_m5": [
                 3,
@@ -255,6 +274,7 @@
               "2y8m4zh6p5o7ql0"
             ],
             "state_id": 7,
+            "status_id": 8,
             "pen_array": [
               [
                 0,

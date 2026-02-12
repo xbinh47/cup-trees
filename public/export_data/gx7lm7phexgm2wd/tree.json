@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "dn1m1gho8xwmoep",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1668899400,
               "pen_m5": [
                 0,
@@ -57,7 +60,7 @@
               "away_team_name": "Estudiantes de Caseros"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1668294600,
               "pen_m5": [
                 0,
@@ -98,7 +101,8 @@
               "n54qllhp42n8qvy",
               "pxwrxlhxy65zryk"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "1": {
@@ -114,8 +118,11 @@
             "position": 1,
             "round_id": "318q66h7j1eqo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1667088600,
               "pen_m5": [
                 0,
@@ -153,7 +160,7 @@
               "away_team_name": "Gimnasia y Esgrima de Mendoza"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1667680200,
               "pen_m5": [
                 0,
@@ -194,7 +201,8 @@
               "6ypq3nh7v3jdmd7",
               "dn1m1ghpld39moe"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           },
           "2": {
             "id": "dn1m1gh4zk4dmoe",
@@ -208,8 +216,11 @@
             "position": 2,
             "round_id": "318q66h7j1eqo9j",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1667163900,
               "pen_m5": [
                 0,
@@ -247,7 +258,7 @@
               "away_team_name": "Instituto de Córdoba"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1667693400,
               "pen_m5": [
                 0,
@@ -288,60 +299,10 @@
               "y0or5jhz8n2vqwz",
               "4wyrn4ho614wq86"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
-        },
-        "2": {
-          "1": {
-            "home_team_id": "ednm9whk7o1ryox",
-            "home_team_name": "Estudiantes de Caseros",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "ednm9whk7o1ryox",
-            "position": 1,
-            "round_number": 2,
-            "is_bye": true,
-            "state_id": -2
-          },
-          "2": {
-            "home_team_id": "jw2r09hlkldrz84",
-            "home_team_name": "Gimnasia y Esgrima de Mendoza",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "jw2r09hlkldrz84",
-            "position": 2,
-            "round_number": 2,
-            "is_bye": true,
-            "state_id": -2
-          },
-          "3": {
-            "home_team_id": "4jwq2gh42yem0ve",
-            "home_team_name": "Defensores de Belgrano",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "4jwq2gh42yem0ve",
-            "position": 3,
-            "round_number": 2,
-            "is_bye": true,
-            "state_id": -2
-          },
-          "4": {
-            "home_team_id": "gx7lm7ph40vm2wd",
-            "home_team_name": "Instituto de Córdoba",
-            "away_team_name": "BYE",
-            "home_score": 0,
-            "away_score": 0,
-            "winner_team_id": "gx7lm7ph40vm2wd",
-            "position": 4,
-            "round_number": 2,
-            "is_bye": true,
-            "state_id": -2
-          }
-        },
-        "3": {}
+        }
       },
       "rounds": [
         {
@@ -353,19 +314,9 @@
           "id": "318q66h7j1eqo9j",
           "description": "Semi Finals",
           "number": 3
-        },
-        {
-          "id": "k82rekh83eprepz",
-          "description": "Quarterfinals",
-          "number": 2
-        },
-        {
-          "id": "y39mp1hk1onmojx",
-          "description": "Round1",
-          "number": 1
         }
       ],
-      "total_rounds": 4
+      "total_rounds": 2
     }
   ]
 }

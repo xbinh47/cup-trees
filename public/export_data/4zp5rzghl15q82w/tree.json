@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "2y8m4zhpy3vql07",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1730797200,
               "pen_m5": [
                 0,
@@ -57,7 +60,7 @@
               "away_team_name": "Hwacheon KSPO WFC"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1731128400,
               "pen_m5": [
                 0,
@@ -98,7 +101,8 @@
               "y39mp1hzndkvmoj",
               "k82rekhw428vrep"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "1": {
@@ -114,8 +118,11 @@
             "position": 1,
             "round_id": "dj2ryohx6klq1zp",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1730523600,
               "pen_m5": [
                 5,
@@ -172,6 +179,7 @@
               "3glrw7h7563eqdy"
             ],
             "state_id": 7,
+            "status_id": 8,
             "pen_array": [
               [
                 1,
@@ -190,6 +198,7 @@
             ]
           },
           "2": {
+            "id": "bye-4jwq2ghvx7ym0ve-1-2",
             "home_team_id": "zp5rzgh7jk6q82w",
             "home_team_name": "Hwacheon KSPO WFC",
             "away_team_name": "BYE",
@@ -197,8 +206,11 @@
             "away_score": 0,
             "winner_team_id": "zp5rzgh7jk6q82w",
             "position": 2,
+            "round_id": "2y8m4zhpy3vql07",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         }

@@ -8,108 +8,80 @@
         "0": {
           "1": {
             "id": "ednm9wh9lonlryo",
-            "home_team_name": "",
+            "home_team_id": "4jwq2gh4jnym0ve",
+            "away_team_id": "23xmvkh32jwqg8n",
+            "home_team_name": "IAPE",
+            "away_team_name": "Maranhao",
             "home_score": 0,
             "away_score": 0,
             "position": 1,
             "round_id": "8yomo4h30y6q0j6",
             "round_number": 2,
-            "note": "Direct qualified for the Final"
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
+            "state_id": 1
           }
         },
         "1": {
           "1": {
-            "id": "1l4rjnh1pg7gm7v",
-            "home_team_id": "9dn1m1ghwp4moep",
-            "away_team_id": "4jwq2gh4jnym0ve",
-            "home_team_name": "Moto Club Sao Luis MA",
-            "away_team_name": "IAPE",
-            "home_score": 0,
-            "away_score": 0,
+            "id": "l7oqdeh6zwo1r51",
+            "home_team_id": "2y8m4zhz0nyql07",
+            "away_team_id": "965mkyh7g1kr1ge",
+            "home_team_name": "Tuntum EC",
+            "away_team_name": "Imperatriz(MA)",
+            "home_score": 1,
+            "away_score": 2,
+            "winner_team_id": "965mkyh7g1kr1ge",
             "position": 1,
-            "round_id": "2y8m4zh6zv7ql07",
+            "round_id": "x7lm7phzp9dm2wd",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
-              "start_time": 1770490800,
+              "status_id": 8,
+              "start_time": 1770840300,
               "pen_m5": [
                 0,
                 0
               ],
               "home_score": {
-                "current": 2,
-                "display": 2,
-                "period_1": 1,
-                "period_2": 1,
-                "corner": 4,
-                "yellow_card": 2,
-                "red_card": 1,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": -2,
-                "ft_score_only": 2
-              },
-              "away_score": {
                 "current": 1,
                 "display": 1,
-                "period_1": 0,
-                "period_2": 1,
-                "corner": 15,
-                "yellow_card": 2,
-                "red_card": 1,
+                "period_1": 1,
+                "period_2": 0,
+                "corner": 2,
+                "yellow_card": 4,
+                "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
                 "overtime_score_only": -1,
                 "ft_score_only": 1
               },
-              "home_team_id": "4jwq2gh4jnym0ve",
-              "away_team_id": "9dn1m1ghwp4moep",
-              "home_team_name": "IAPE",
-              "away_team_name": "Moto Club Sao Luis MA"
-            },
-            "second_leg": {
-              "state_id": 1,
-              "start_time": 1770849000,
-              "pen_m5": [
-                0,
-                0
-              ],
-              "home_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 0,
-                "overtime_score": 0,
-                "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
-              },
               "away_score": {
-                "current": 0,
-                "display": 0,
+                "current": 2,
+                "display": 2,
                 "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "period_2": 2,
+                "corner": 9,
+                "yellow_card": 5,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "overtime_score_only": -2,
+                "ft_score_only": 2
               },
-              "home_team_id": "9dn1m1ghwp4moep",
-              "away_team_id": "4jwq2gh4jnym0ve",
-              "home_team_name": "Moto Club Sao Luis MA",
-              "away_team_name": "IAPE"
+              "home_team_id": "2y8m4zhz0nyql07",
+              "away_team_id": "965mkyh7g1kr1ge",
+              "home_team_name": "Tuntum EC",
+              "away_team_name": "Imperatriz(MA)"
             },
             "event_ids": [
-              "dn1m1ghl258jmoe",
-              "6ypq3nhv321wmd7"
+              "x7lm7phjzlpnm2w"
             ],
-            "state_id": 1
+            "state_id": 8,
+            "status_id": 8
           },
           "2": {
             "id": "4jwq2ghkdw25m0v",
@@ -117,13 +89,17 @@
             "away_team_id": "l5ergphoovwr8k0",
             "home_team_name": "Maranhao",
             "away_team_name": "Sampaio Correa",
-            "home_score": 0,
-            "away_score": 0,
+            "home_score": 3,
+            "away_score": 2,
+            "winner_team_id": "23xmvkh32jwqg8n",
             "position": 2,
             "round_id": "2y8m4zh6zv7ql07",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1770490800,
               "pen_m5": [
                 0,
@@ -161,7 +137,7 @@
               "away_team_name": "Maranhao"
             },
             "second_leg": {
-              "state_id": 1,
+              "status_id": 8,
               "start_time": 1770849000,
               "pen_m5": [
                 0,
@@ -172,26 +148,26 @@
                 "display": 0,
                 "period_1": 0,
                 "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
-                "red_card": 0,
+                "corner": 10,
+                "yellow_card": 5,
+                "red_card": 1,
                 "overtime_score": 0,
                 "penalty_score": 0,
                 "overtime_score_only": 0,
                 "ft_score_only": 0
               },
               "away_score": {
-                "current": 0,
-                "display": 0,
-                "period_1": 0,
-                "period_2": 0,
-                "corner": 0,
-                "yellow_card": 0,
+                "current": 2,
+                "display": 2,
+                "period_1": 1,
+                "period_2": 1,
+                "corner": 5,
+                "yellow_card": 4,
                 "red_card": 0,
                 "overtime_score": 0,
                 "penalty_score": 0,
-                "overtime_score_only": 0,
-                "ft_score_only": 0
+                "overtime_score_only": -2,
+                "ft_score_only": 2
               },
               "home_team_id": "23xmvkh32jwqg8n",
               "away_team_id": "l5ergphoovwr8k0",
@@ -202,7 +178,8 @@
               "4wyrn4h6xjvkq86",
               "8yomo4h13wz2q0j"
             ],
-            "state_id": 1
+            "state_id": 7,
+            "status_id": 8
           }
         }
       },
@@ -213,8 +190,8 @@
           "number": 2
         },
         {
-          "id": "2y8m4zh6zv7ql07",
-          "description": "Semifinals",
+          "id": "x7lm7phzp9dm2wd",
+          "description": "Final",
           "number": 1
         }
       ],

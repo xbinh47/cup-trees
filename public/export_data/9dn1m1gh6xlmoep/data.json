@@ -964,12 +964,12 @@
               "round_id": "23xmvkhpjegqg8n",
               "number": 1,
               "type_id": 11,
-              "state_id": 6,
+              "state_id": 8,
               "home_team_id": "gx7lm7phd1wm2wd",
               "away_team_id": "pxwrxlhg1lxryk0",
-              "winner_team_id": "",
-              "home_score": 0,
-              "away_score": 0,
+              "winner_team_id": "pxwrxlhg1lxryk0",
+              "home_score": 1,
+              "away_score": 4,
               "parent_ids": [],
               "children_ids": [
                 "n54qllhe36d9qvy",
@@ -1017,8 +1017,8 @@
               "round_id": "zp5rzgh69n0q82w",
               "number": 1,
               "type_id": 0,
-              "state_id": 0,
-              "home_team_id": "",
+              "state_id": 2,
+              "home_team_id": "pxwrxlhg1lxryk0",
               "away_team_id": "",
               "winner_team_id": "",
               "home_score": 0,
@@ -4064,31 +4064,236 @@
       "home_team_id": "pxwrxlhg1lxryk0",
       "away_team_id": "gx7lm7phd1wm2wd",
       "start_timestamp": 1770838200,
-      "status_id": 1,
+      "status_id": 8,
       "sport_event_status": {
-        "status_id": 1,
+        "status_id": 8,
         "away_score": {
-          "corners": 0,
-          "red_card": 0,
-          "yellow_card": 0,
+          "corners": 4,
+          "red_card": 1,
+          "yellow_card": 2,
           "penalty_score": 0,
-          "regular_score": 0,
+          "regular_score": 1,
           "overTime_score": 0,
-          "half_time_score": 0
+          "half_time_score": 1
         },
         "home_score": {
-          "corners": 0,
+          "corners": 4,
           "red_card": 0,
-          "yellow_card": 0,
+          "yellow_card": 2,
           "penalty_score": 0,
-          "regular_score": 0,
+          "regular_score": 4,
           "overTime_score": 0,
-          "half_time_score": 0
+          "half_time_score": 1
         },
         "kick_of_timestamp": 0
       },
       "related_id": "l5ergph4lzlkr8k",
-      "incidents": []
+      "incidents": [
+        {
+          "time": 1,
+          "type": 1,
+          "position": 1,
+          "player_id": "4jwq2ghxngwym0v",
+          "away_score": 0,
+          "home_score": 1,
+          "player_name": "Promise Emmanuel David"
+        },
+        {
+          "time": 3,
+          "type": 1,
+          "position": 2,
+          "player_id": "318q66hv2kn3qo9",
+          "assist1_id": "dj2ryohj1vn2q1z",
+          "away_score": 1,
+          "home_score": 1,
+          "player_name": "Aurelien Scheidler",
+          "assist1_name": "Mardochée Nzita"
+        },
+        {
+          "time": 19,
+          "type": 3,
+          "position": 1,
+          "player_id": "pxwrxlh1wd14ryk",
+          "player_name": "Kevin Mac Allister",
+          "reason_type": 1
+        },
+        {
+          "time": 27,
+          "type": 3,
+          "position": 2,
+          "player_id": "23xmvkhkpkooqg8",
+          "player_name": "Yacine Titraoui",
+          "reason_type": 22
+        },
+        {
+          "time": 45,
+          "type": 19,
+          "add_time": 2,
+          "position": 0
+        },
+        {
+          "time": 48,
+          "type": 11,
+          "position": 0
+        },
+        {
+          "time": 50,
+          "type": 1,
+          "position": 1,
+          "player_id": "l7oqdeh094xzr51",
+          "assist1_id": "4jwq2ghxngwym0v",
+          "away_score": 1,
+          "home_score": 2,
+          "player_name": "Mohammed Fuseini",
+          "assist1_name": "Promise Emmanuel David"
+        },
+        {
+          "time": 57,
+          "type": 3,
+          "position": 2,
+          "player_id": "l7oqdeh0vdxwr51",
+          "player_name": "Amine Boukamir",
+          "reason_type": 1
+        },
+        {
+          "time": 59,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "4jwq2ghxp459m0v",
+          "out_player_id": "8yomo4h2zw1oq0j",
+          "in_player_name": "Lewin Blum",
+          "out_player_name": "Antoine Bernier"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "pxwrxlhjy4e2ryk",
+          "out_player_id": "6ypq3nhzgnemd7o",
+          "in_player_name": "Jakob Napoleon Romsaas",
+          "out_player_name": "Patrick Pflücke"
+        },
+        {
+          "time": 71,
+          "type": 9,
+          "position": 2,
+          "reason_type": 4,
+          "in_player_id": "zp5rzghzge16q82",
+          "out_player_id": "l7oqdeh0vdxwr51",
+          "in_player_name": "Filip Szymczak",
+          "out_player_name": "Amine Boukamir"
+        },
+        {
+          "time": 72,
+          "type": 15,
+          "position": 2,
+          "player_id": "23xmvkhkpkooqg8",
+          "player_name": "Yacine Titraoui"
+        },
+        {
+          "time": 74,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "ednm9whvl998ryo",
+          "out_player_id": "l7oqdeh094xzr51",
+          "in_player_name": "Mateo Biondic",
+          "out_player_name": "Mohammed Fuseini"
+        },
+        {
+          "time": 80,
+          "type": 3,
+          "position": 2,
+          "player_id": "4jwq2ghxp459m0v",
+          "player_name": "Lewin Blum",
+          "reason_type": 1
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "318q66h02w9qo9j",
+          "out_player_id": "3glrw7hjp74yqdy",
+          "in_player_name": "Rob Schoofs",
+          "out_player_name": "Anouar Ait El Hadj"
+        },
+        {
+          "time": 80,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "dj2ryohgylvpq1z",
+          "out_player_id": "ednm9whv26eeryo",
+          "in_player_name": "Louis Patris",
+          "out_player_name": "Guilherme Henriques da Silva Carvalho"
+        },
+        {
+          "time": 84,
+          "type": 1,
+          "position": 1,
+          "player_id": "dj2ryohnw3nq1zp",
+          "assist1_id": "318q66h02w9qo9j",
+          "away_score": 1,
+          "home_score": 3,
+          "player_name": "Ross Sykes",
+          "assist1_name": "Rob Schoofs"
+        },
+        {
+          "time": 90,
+          "type": 19,
+          "add_time": 6,
+          "position": 0
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "k82rekhygkyvrep",
+          "out_player_id": "pxwrxlh1wd14ryk",
+          "in_player_name": "Fedde Leysen",
+          "out_player_name": "Kevin Mac Allister"
+        },
+        {
+          "time": 90,
+          "type": 9,
+          "position": 1,
+          "reason_type": 4,
+          "in_player_id": "3glrw7hj9nl7qdy",
+          "out_player_id": "4jwq2ghxngwym0v",
+          "in_player_name": "Raul Florucz",
+          "out_player_name": "Promise Emmanuel David"
+        },
+        {
+          "time": 92,
+          "type": 3,
+          "add_time": 2,
+          "position": 1,
+          "player_id": "1l4rjnhxllvvm7v",
+          "player_name": "Anan Khalaily",
+          "reason_type": 1
+        },
+        {
+          "time": 93,
+          "type": 1,
+          "add_time": 3,
+          "position": 1,
+          "player_id": "3glrw7hj9nl7qdy",
+          "assist1_id": "pxwrxlh9yexpryk",
+          "away_score": 1,
+          "home_score": 4,
+          "player_name": "Raul Florucz",
+          "assist1_name": "Adem Zorgane"
+        },
+        {
+          "time": 97,
+          "type": 12,
+          "position": 0
+        }
+      ]
     },
     "jw2r09hk7zgerz8": {
       "id": "jw2r09hk7zgerz8",

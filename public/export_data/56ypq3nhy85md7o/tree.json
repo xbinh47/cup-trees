@@ -18,8 +18,11 @@
             "position": 1,
             "round_id": "ednm9whxvylryox",
             "round_number": 4,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1701885600,
               "pen_m5": [
                 0,
@@ -57,7 +60,7 @@
               "away_team_name": "Vålerenga Fotball Elite"
             },
             "second_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1702224000,
               "pen_m5": [
                 0,
@@ -98,7 +101,8 @@
               "23xmvkh8kyn4qg8",
               "zp5rzgh5p3l1q82"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "1": {
@@ -114,8 +118,11 @@
             "position": 1,
             "round_id": "4jwq2ghpxy5m0ve",
             "round_number": 3,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1701608400,
               "pen_m5": [
                 0,
@@ -155,9 +162,11 @@
             "event_ids": [
               "pxwrxlh5j5kxryk"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           },
           "2": {
+            "id": "bye-318q66h0yv4qo9j-3-2",
             "home_team_id": "9k82rekh43zrepz",
             "home_team_name": "Vålerenga Fotball Elite",
             "away_team_name": "BYE",
@@ -165,13 +174,17 @@
             "away_score": 0,
             "winner_team_id": "9k82rekh43zrepz",
             "position": 2,
+            "round_id": "ednm9whxvylryox",
             "round_number": 3,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           }
         },
         "2": {
           "1": {
+            "id": "bye-318q66h0yv4qo9j-2-1",
             "home_team_id": "l5ergphov48r8k0",
             "home_team_name": "Kongsvinger",
             "away_team_name": "BYE",
@@ -179,8 +192,11 @@
             "away_score": 0,
             "winner_team_id": "l5ergphov48r8k0",
             "position": 1,
+            "round_id": "4jwq2ghpxy5m0ve",
             "round_number": 2,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "2": {
@@ -195,8 +211,11 @@
             "position": 2,
             "round_id": "1l4rjnh5xogm7vx",
             "round_number": 2,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1701280800,
               "pen_m5": [
                 0,
@@ -236,11 +255,13 @@
             "event_ids": [
               "4wyrn4hx4oloq86"
             ],
-            "state_id": 7
+            "state_id": 7,
+            "status_id": 8
           }
         },
         "3": {
           "3": {
+            "id": "bye-318q66h0yv4qo9j-1-3",
             "home_team_id": "2y8m4zh38p7ql07",
             "home_team_name": "Kristiansund BK",
             "away_team_name": "BYE",
@@ -248,8 +269,11 @@
             "away_score": 0,
             "winner_team_id": "2y8m4zh38p7ql07",
             "position": 3,
+            "round_id": "1l4rjnh5xogm7vx",
             "round_number": 1,
+            "is_third_place": false,
             "is_bye": true,
+            "is_tbd": false,
             "state_id": -2
           },
           "4": {
@@ -264,8 +288,11 @@
             "position": 4,
             "round_id": "zp5rzgh4pv3q82w",
             "round_number": 1,
+            "is_third_place": false,
+            "is_bye": false,
+            "is_tbd": false,
             "first_leg": {
-              "state_id": 8,
+              "status_id": 8,
               "start_time": 1700935200,
               "pen_m5": [
                 0,
@@ -305,7 +332,8 @@
             "event_ids": [
               "y39mp1hzykxjmoj"
             ],
-            "state_id": 8
+            "state_id": 8,
+            "status_id": 8
           }
         }
       },
