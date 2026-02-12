@@ -665,25 +665,33 @@
         // ==================== END ENCODE FUNCTIONS ====================
 
         function isLegFinished(leg) {
-            if (!leg || !leg.status) return false;
+            if (!leg) return false;
+            if (leg.status_id && [100, 110, 120].includes(leg.status_id)) return true;
+            if (!leg.status) return false;
             // 100: Ended, 110: AET, 120: AP (Penalties)
             return [100, 110, 120].includes(leg.status.code);
         }
 
         function isMatchFinished(m) {
-            // Check legs first as per new logic
-            if (m.first_leg) {
-                const l1 = isLegFinished(m.first_leg);
-                if (m.second_leg) {
-                    return l1 && isLegFinished(m.second_leg);
-                }
-                return l1;
+            // Check legs first - PRIMARY SOURCE OF TRUTH
+            if (m.second_leg) {
+                if (isLegFinished(m.second_leg)) return true;
             }
-            // Fallback for legacy data or simple structure
+            if (m.first_leg) {
+                if (isLegFinished(m.first_leg)) {
+                    // If second leg status is explicitly scheduled/not finished, return false?
+                    // Or if there IS a second leg but not finished, match isn't finished.
+                    if (m.second_leg && !isLegFinished(m.second_leg)) return false;
+                    return true;
+                }
+            }
+
+            // Fallback: If no legs object structure is present, maybe it's a legacy single match data?
+            // User said "match will never have status", so we strictly look for legs if following new rule. 
+            // But to be safe for any weird edge case or legacy data in other tools:
+            if (m.status_id && [100, 110, 120].includes(m.status_id)) return true;
             if (m.status) {
-                // Check code first
                 if (m.status.code) return [100, 110, 120].includes(m.status.code);
-                // Check type string
                 const t = (m.status.type || '').toLowerCase();
                 return ['finished', 'ft', 'aet', 'pen'].includes(t);
             }
@@ -729,18 +737,53 @@
             const hw = isWinner(m, true);
             const aw = isWinner(m, false);
 
-            // Status Text: Prefer Leg Status if node status is missing/deprecated
+            // Status Text: DERIVE FROM LEGS
             let statusStr = '';
-            if (m.status && m.status.description) {
-                statusStr = m.status.description;
-            } else if (m.first_leg && m.first_leg.status) {
-                statusStr = m.first_leg.status.description;
+
+            // Helper to map ID to string
+            const idToStr = (sid) => {
+                if (sid === 100) return 'FT';
+                if (sid === 110) return 'AET';
+                if (sid === 120) return 'PEN';
+                return '';
+            };
+
+            // 1. Second Leg (Final status of the tie)
+            if (m.second_leg) {
+                if (m.second_leg.status_id) statusStr = idToStr(m.second_leg.status_id);
+                else if (m.second_leg.status && m.second_leg.status.description) statusStr = m.second_leg.status.description;
+            }
+            // 2. First Leg (If no second leg or second leg not started? Usually strictly strictly logic)
+            // If single match (wrapped in first_leg), use it.
+            if (!statusStr && m.first_leg) {
+                if (m.first_leg.status_id) statusStr = idToStr(m.first_leg.status_id);
+                else if (m.first_leg.status && m.first_leg.status.description) statusStr = m.first_leg.status.description;
             }
 
-            // Check for penalty
-            const hasPen = (m.home_score !== undefined && m.away_score !== undefined && m.status && (m.status.code === 120 || m.status.type === 'PEN' || m.status.code === 13));
-            // Also check leg for penalty indication if main status is missing?
-            // For now, adhere to existing logic plus code 13 support
+            // Fallback to root (Legacy compatibility)
+            if (!statusStr) {
+                if (m.status && m.status.description) {
+                    statusStr = m.status.description;
+                } else if (m.status_id) {
+                    statusStr = idToStr(m.status_id) || ('ID:' + m.status_id);
+                }
+            }
+
+            // Check for penalty (ANY leg having penalties implies penalties happened)
+            let hasPen = false;
+
+            // Check 2nd leg
+            if (m.second_leg) {
+                if (m.second_leg.status_id === 120 || (m.second_leg.status && m.second_leg.status.code === 120)) hasPen = true;
+            }
+            // Check 1st leg (if single match)
+            if (!hasPen && m.first_leg) {
+                if (m.first_leg.status_id === 120 || (m.first_leg.status && m.first_leg.status.code === 120)) hasPen = true;
+            }
+
+            // Fallback Root
+            if (!hasPen && (m.status_id === 120 || (m.status && m.status.code === 120))) hasPen = true;
+
             const penBadge = hasPen ? '<span style="background:#e94560; color:#fff; font-size:0.6rem; padding:1px 3px; border-radius:3px; margin-left:4px;">P</span>' : '';
 
             return `<div class="match" onclick='openMatchDetails(${JSON.stringify(m).replace(/'/g, "&#39;")})'>
@@ -842,6 +885,12 @@
             // Helper to get status description
             const getStatusDesc = (obj) => {
                 if (obj && obj.status && obj.status.description) return obj.status.description;
+                if (obj && obj.status_id) {
+                    if (obj.status_id === 100) return 'FT';
+                    if (obj.status_id === 110) return 'AET';
+                    if (obj.status_id === 120) return 'PEN';
+                    return 'ID:' + obj.status_id;
+                }
                 if (obj && obj.status && obj.status.type) return obj.status.type;
                 if (obj && obj.status_id) return 'ID: ' + obj.status_id;
                 return '';
@@ -1544,7 +1593,12 @@
                 const FINISHED_STATUSES = ['finished', 'ft', 'aet', 'pen'];
 
                 const isBye = m.is_bye || statusStr === 'BYE' || statusStr === 'BYE_ADVANCED';
-                const isFinished = FINISHED_STATUSES.includes(statusLower);
+
+                // Use refined isMatchFinished which looks at LEGS
+                let isFinished = isMatchFinished(m);
+                // Also legacy check just in case
+                if (!isFinished && FINISHED_STATUSES.includes(statusLower)) isFinished = true;
+                if (!isFinished && m.status_id && [100, 110, 120].includes(m.status_id)) isFinished = true;
 
                 // 2.0 Internal Consistency (Enhanced)
                 if (isFinished) {
