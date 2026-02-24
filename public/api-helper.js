@@ -11,14 +11,18 @@ const API_CONFIG = {
 /**
  * Fetch cup trees data from API
  * @param {string} seasonId - The season ID to fetch
+ * @param {string} language - Language code (default: 'en')
  * @returns {Promise<Object>} - The processed data ready for rendering
  */
-async function fetchCupTreesFromAPI(seasonId) {
+async function fetchCupTreesFromAPI(seasonId, language = 'en') {
     if (!seasonId || seasonId.trim() === '') {
         throw new Error('Season ID is required');
     }
 
-    const url = `${API_CONFIG.BASE_URL}/season/${seasonId}/cup-trees?language=${API_CONFIG.LANGUAGE}`;
+    const lang = language || API_CONFIG.LANGUAGE;
+    const url = `${API_CONFIG.BASE_URL}/season/${seasonId}/cup-trees?language=${lang}`;
+    
+    console.log('🌐 Fetching from:', url);
     
     const response = await fetch(url);
     
@@ -40,15 +44,17 @@ async function fetchCupTreesFromAPI(seasonId) {
     // Transform API data to match expected format
     return {
         season_id: apiData.data.season_id,
-        cup_trees: apiData.data.cup_trees
+        cup_trees: apiData.data.cup_trees,
+        language: lang
     };
 }
 
 /**
  * Fetch and render season data from API
  * @param {string} seasonId - The season ID to fetch and render
+ * @param {string} language - Language code (default: 'en')
  */
-async function loadSeasonFromAPI(seasonId) {
+async function loadSeasonFromAPI(seasonId, language = 'en') {
     const errEl = document.getElementById('error');
     const jsonInput = document.getElementById('jsonInput');
     
@@ -56,10 +62,10 @@ async function loadSeasonFromAPI(seasonId) {
         // Show loading state
         errEl.style.display = 'block';
         errEl.style.background = 'rgba(0, 123, 255, 0.2)';
-        errEl.innerHTML = '🔄 Loading from API...';
+        errEl.innerHTML = `🔄 Loading from API (${language.toUpperCase()})...`;
         
         // Fetch data
-        const data = await fetchCupTreesFromAPI(seasonId);
+        const data = await fetchCupTreesFromAPI(seasonId, language);
         
         // Update textarea with formatted JSON
         jsonInput.value = JSON.stringify(data, null, 2);
@@ -77,8 +83,8 @@ async function loadSeasonFromAPI(seasonId) {
         
         // Show success message briefly
         const successMsg = document.createElement('div');
-        successMsg.style.cssText = 'position: fixed; top: 20px; right: 20px; background: rgba(0, 255, 0, 0.2); color: #0f0; padding: 10px 20px; border-radius: 5px; z-index: 9999;';
-        successMsg.textContent = '✅ Data loaded successfully!';
+        successMsg.style.cssText = 'position: fixed; top: 20px; right: 20px; background: rgba(0, 255, 0, 0.2); color: #0f0; padding: 10px 20px; border-radius: 5px; z-index: 9999; border: 1px solid #0f0;';
+        successMsg.textContent = `✅ Data loaded successfully! (${language.toUpperCase()})`;
         document.body.appendChild(successMsg);
         
         setTimeout(() => {
@@ -99,7 +105,9 @@ async function loadSeasonFromAPI(seasonId) {
  */
 function testAPICall() {
     const testSeasonId = 'c9dxsq8ov73r5s2';
-    loadSeasonFromAPI(testSeasonId);
+    const langInput = document.getElementById('langInput');
+    const language = langInput ? langInput.value.trim() : 'en';
+    loadSeasonFromAPI(testSeasonId, language);
 }
 
 // Export functions for use in HTML
