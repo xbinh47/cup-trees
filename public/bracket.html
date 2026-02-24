@@ -508,6 +508,8 @@
 
             <input type="text" id="seasonIdInput" placeholder="Season ID" style="width: 100px;">
             <button class="btn-primary" onclick="loadDirectSeason()">ByID</button>
+            <button class="btn-primary" onclick="loadSeasonFromAPI(document.getElementById('seasonIdInput').value.trim())" style="background: #4a9eff;">🌐 API Call</button>
+            <button class="btn-secondary" onclick="testAPICall()" style="background: #28a745;">🧪 Test API</button>
         </div>
 
         <div class="divider-text">- OR PASTE JSON -</div>
@@ -546,6 +548,8 @@
         </div>
     </div>
 
+    <!-- Load API Helper -->
+    <script src="api-helper.js"></script>
     <script>
         // Constants for Layout Formula
         const CONFIG = {
