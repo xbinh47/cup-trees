@@ -718,26 +718,29 @@
             // Helper to get logo IMG
             const getLogo = (id) => id ? `<img src="https://img.uniscore.cc/football/team/${id}/image/small/dark" class="team-logo" onerror="this.style.display='none'">` : '';
 
-            // Check IsTBD (either from JSON or JS virtual)
-            if (m.is_tbd || m.is_virtual) {
-                return `<div class="match virtual">
+            // Check if it's a BYE match
+            const bye = m.is_bye || (m.note && m.note.includes('Direct qualified'));
+            if (bye) {
+                return `<div class="match bye" onclick='openMatchDetails(${JSON.stringify(m).replace(/'/g, "&#39;")})'>
+                    <div class="debug-info">${debugId}</div>
+                    <div class="team">
+                        <div class="team-info">
+                             ${getLogo(m.home_team_id)}
+                             <span class="team-name">${m.home_team_name || 'TBD'}</span>
+                        </div>
+                    </div>
+                    <div class="match-status">BYE</div>
+                </div>`;
+            }
+
+            // Check if both teams are missing (TBD from API)
+            if (!m.home_team_name && !m.away_team_name) {
+                return `<div class="match virtual" onclick='openMatchDetails(${JSON.stringify(m).replace(/'/g, "&#39;")})'>
                     <div class="debug-info">${debugId}</div>
                     <div class="team"><span class="team-name">TBD</span></div>
                     <div class="team"><span class="team-name">TBD</span></div>
                 </div>`;
             }
-
-            const bye = m.is_bye || (m.status && m.status.type === 'BYE_ADVANCED');
-            if (bye) return `<div class="match bye">
-                <div class="debug-info">${debugId}</div>
-                <div class="team">
-                    <div class="team-info">
-                         ${getLogo(m.home_team_id)}
-                         <span class="team-name">${m.home_team_name || 'TBD'}</span>
-                    </div>
-                </div>
-                <div class="match-status">BYE</div>
-            </div>`;
 
             const hw = isWinner(m, true);
             const aw = isWinner(m, false);
@@ -815,12 +818,21 @@
 
         // Modal Logic
         function openMatchDetails(m) {
+            console.log('📊 Match Details Data:', m);
+            
             const modal = document.getElementById('detailsModal');
             const content = modal.querySelector('.modal-content');
             document.getElementById('modalRound').innerText = m.round_name_ui || (m.round_number ? ('Round ' + m.round_number) : '');
 
             // Helper for safely getting values
-            const getVal = (obj, key) => (obj && obj[key] !== undefined) ? obj[key] : '-';
+            const getVal = (obj, key) => {
+                if (!obj) return '-';
+                // Handle nested object structure from API
+                if (typeof obj === 'object' && obj[key] !== undefined) {
+                    return obj[key];
+                }
+                return '-';
+            };
 
             const statsConfig = [
                 { label: "Quarter 1 / Period 1", k: "period_1" },
@@ -883,7 +895,22 @@
 
             // Helper to extract display score from complex object
             const extractScore = (sObj, flatScore) => {
-                if (sObj && (sObj.display !== undefined || sObj.current !== undefined)) return sObj.display ?? sObj.current;
+                // Handle different score structures
+                if (sObj === null || sObj === undefined) return flatScore ?? 0;
+                
+                // If it's already a number, return it
+                if (typeof sObj === 'number') return sObj;
+                
+                // If it's an object, try different properties
+                if (typeof sObj === 'object') {
+                    // Try display first (most accurate)
+                    if (sObj.display !== undefined) return sObj.display;
+                    // Try current
+                    if (sObj.current !== undefined) return sObj.current;
+                    // Try ft_score_only (full time score)
+                    if (sObj.ft_score_only !== undefined) return sObj.ft_score_only;
+                }
+                
                 return flatScore ?? 0;
             };
 
@@ -903,76 +930,115 @@
 
             let bodyHtml = '';
 
-            // Aggregate Header (Always show result)
-            bodyHtml += `
-                 <div style="text-align:center; margin-bottom:10px;">
-                    <div style="font-size:0.8rem; color:#888;">AGGREGATE</div>
-                    <div class="big-score">${m.home_score ?? 0} - ${m.away_score ?? 0}</div>
-                 </div>
-            `;
+            // Check if it's a BYE match
+            if (m.is_bye || (m.note && m.note.includes('Direct qualified'))) {
+                bodyHtml += `
+                    <div style="text-align:center; margin-bottom:10px;">
+                        <div style="font-size:1rem; color:#e94560; font-weight:bold;">BYE MATCH</div>
+                        <div style="font-size:0.9rem; color:#888; margin-top:10px;">${m.note || 'Direct qualification'}</div>
+                    </div>
+                    <div style="margin-top:20px;">
+                        <div style="font-size:0.9rem; color:#fff; margin-bottom:5px;">Qualified Team:</div>
+                        <div style="font-size:1.1rem; color:#4a9eff; font-weight:bold;">${m.home_team_name || 'TBD'}</div>
+                    </div>
+                `;
+            } 
+            // Check if it's a TBD match (no teams yet)
+            else if (!m.home_team_name && !m.away_team_name) {
+                bodyHtml += `
+                    <div style="text-align:center; margin-bottom:10px;">
+                        <div style="font-size:1rem; color:#888; font-weight:bold;">TO BE DETERMINED</div>
+                        <div style="font-size:0.8rem; color:#666; margin-top:10px;">Teams not yet determined</div>
+                    </div>
+                `;
+            }
+            // Normal match with data
+            else {
+                // Aggregate Header (Always show result)
+                bodyHtml += `
+                     <div style="text-align:center; margin-bottom:10px;">
+                        <div style="font-size:0.8rem; color:#888;">AGGREGATE</div>
+                        <div class="big-score">${m.home_score ?? 0} - ${m.away_score ?? 0}</div>
+                     </div>
+                `;
 
-            if (m.first_leg && m.second_leg) {
-                // Two Legs Mode - Side by Side
-                content.classList.add('wide');
+                if (m.first_leg && m.second_leg) {
+                    // Two Legs Mode - Side by Side
+                    content.classList.add('wide');
 
-                bodyHtml += `<div style="display:flex; gap:15px; flex-wrap:wrap;">`;
+                    bodyHtml += `<div style="display:flex; gap:15px; flex-wrap:wrap;">`;
 
-                // Leg 1
-                bodyHtml += generateStatBlock(
-                    "First Leg",
-                    m.first_leg.home_team_name || m.home_team_name,
-                    m.first_leg.away_team_name || m.away_team_name,
-                    m.first_leg.home_score || {},
-                    m.first_leg.away_score || {},
-                    extractScore(m.first_leg.home_score, m.first_leg.home_score),
-                    extractScore(m.first_leg.away_score, m.first_leg.away_score),
-                    m.first_leg.pen_array,
-                    getStatusDesc(m.first_leg)
-                );
+                    // Leg 1
+                    const leg1HomeScore = extractScore(m.first_leg.home_score, m.first_leg.home_score);
+                    const leg1AwayScore = extractScore(m.first_leg.away_score, m.first_leg.away_score);
+                    
+                    bodyHtml += generateStatBlock(
+                        "First Leg",
+                        m.first_leg.home_team_name || m.home_team_name || 'TBD',
+                        m.first_leg.away_team_name || m.away_team_name || 'TBD',
+                        m.first_leg.home_score || {},
+                        m.first_leg.away_score || {},
+                        leg1HomeScore,
+                        leg1AwayScore,
+                        m.first_leg.pen_array,
+                        getStatusDesc(m.first_leg)
+                    );
 
-                // Leg 2
-                bodyHtml += generateStatBlock(
-                    "Second Leg",
-                    m.second_leg.home_team_name || m.away_team_name,
-                    m.second_leg.away_team_name || m.home_team_name,
-                    m.second_leg.home_score || {},
-                    m.second_leg.away_score || {},
-                    extractScore(m.second_leg.home_score, m.second_leg.home_score),
-                    extractScore(m.second_leg.away_score, m.second_leg.away_score),
-                    m.second_leg.pen_array,
-                    getStatusDesc(m.second_leg)
-                );
+                    // Leg 2
+                    const leg2HomeScore = extractScore(m.second_leg.home_score, m.second_leg.home_score);
+                    const leg2AwayScore = extractScore(m.second_leg.away_score, m.second_leg.away_score);
+                    
+                    bodyHtml += generateStatBlock(
+                        "Second Leg",
+                        m.second_leg.home_team_name || m.away_team_name || 'TBD',
+                        m.second_leg.away_team_name || m.home_team_name || 'TBD',
+                        m.second_leg.home_score || {},
+                        m.second_leg.away_score || {},
+                        leg2HomeScore,
+                        leg2AwayScore,
+                        m.second_leg.pen_array,
+                        getStatusDesc(m.second_leg)
+                    );
 
-                bodyHtml += `</div>`;
+                    bodyHtml += `</div>`;
 
-            } else if (m.first_leg) {
-                // Single Leg Mode (but maybe inside first_leg object)
-                content.classList.remove('wide');
-                bodyHtml += generateStatBlock(
-                    "Match Stats",
-                    m.first_leg.home_team_name || m.home_team_name,
-                    m.first_leg.away_team_name || m.away_team_name,
-                    m.first_leg.home_score || {},
-                    m.first_leg.away_score || {},
-                    extractScore(m.first_leg.home_score, m.first_leg.home_score),
-                    extractScore(m.first_leg.away_score, m.first_leg.away_score),
-                    m.first_leg.pen_array,
-                    getStatusDesc(m.first_leg)
-                );
-            } else {
-                // Single Match Mode (Finals etc - root object)
-                content.classList.remove('wide');
-                bodyHtml += generateStatBlock(
-                    "Match Stats",
-                    m.home_team_name,
-                    m.away_team_name,
-                    m.home_score || {},
-                    m.away_score || {},
-                    m.home_score ?? 0,
-                    m.away_score ?? 0,
-                    m.pen_array,
-                    getStatusDesc(m)
-                );
+                } else if (m.first_leg) {
+                    // Single Leg Mode (but maybe inside first_leg object)
+                    content.classList.remove('wide');
+                    
+                    const legHomeScore = extractScore(m.first_leg.home_score, m.first_leg.home_score);
+                    const legAwayScore = extractScore(m.first_leg.away_score, m.first_leg.away_score);
+                    
+                    bodyHtml += generateStatBlock(
+                        "Match Stats",
+                        m.first_leg.home_team_name || m.home_team_name || 'TBD',
+                        m.first_leg.away_team_name || m.away_team_name || 'TBD',
+                        m.first_leg.home_score || {},
+                        m.first_leg.away_score || {},
+                        legHomeScore,
+                        legAwayScore,
+                        m.first_leg.pen_array,
+                        getStatusDesc(m.first_leg)
+                    );
+                } else {
+                    // Single Match Mode (Finals etc - root object)
+                    content.classList.remove('wide');
+                    
+                    const homeScore = extractScore(m.home_score, m.home_score);
+                    const awayScore = extractScore(m.away_score, m.away_score);
+                    
+                    bodyHtml += generateStatBlock(
+                        "Match Stats",
+                        m.home_team_name || 'TBD',
+                        m.away_team_name || 'TBD',
+                        m.home_score || {},
+                        m.away_score || {},
+                        homeScore,
+                        awayScore,
+                        m.pen_array,
+                        getStatusDesc(m)
+                    );
+                }
             }
 
             // Raw JSON Data
@@ -1096,66 +1162,8 @@
                 }
             });
 
-            // --- 2.5 Fill Missing Children (Virtual TBD Nodes) (REVERSED) ---
-            // REVERSED: Iterate from Min Layer (Final=0) -> Max Layer (R16=3)
-            for (let l = minRound; l < maxRound; l++) {
-                const nodesInLayer = allMatches.filter(n => n.layerIdx === l);
-
-                nodesInLayer.forEach(node => {
-                    const childLayer = l + 1;
-                    const expectedChild1Pos = (node.pos * 2) - 1;
-                    const expectedChild2Pos = (node.pos * 2);
-
-                    const ensureChild = (cPos) => {
-                        const cId = `${cid}-L${childLayer}-P${cPos}`;
-                        if (!matchMap[cId]) {
-                            // Create Virtual Node
-                            const vNode = {
-                                data: {
-                                    home_team_name: "TBD",
-                                    away_team_name: "TBD",
-                                    status: {
-                                        code: -2,
-                                        type: "TBD",
-                                        description: "To Be Determined"
-                                    },
-                                    is_tbd: true,
-                                    is_virtual: true
-                                },
-                                layerIdx: childLayer,
-                                pos: cPos,
-                                id: cId,
-                                children: [],
-                                parent: node,
-                                x: 0,
-                                y: 0,
-                                height: 0,
-                                el: null,
-                                childrenPaths: []
-                            };
-                            matchMap[cId] = vNode;
-                            allMatches.push(vNode);
-                            node.children.push(vNode);
-                        } else {
-                            const existingChild = matchMap[cId];
-                            if (!existingChild.parent) {
-                                existingChild.parent = node;
-                                node.children.push(existingChild);
-                            }
-                        }
-                    };
-
-                    ensureChild(expectedChild1Pos);
-                    ensureChild(expectedChild2Pos);
-                });
-            }
-
-            // Re-sort children now that we may have added virtual ones and order matters
-            allMatches.forEach(node => {
-                if (node.children.length > 0) {
-                    node.children.sort((a, b) => a.pos - b.pos);
-                }
-            });
+            // --- 2.5 NO LONGER CREATE VIRTUAL NODES ---
+            // Just use what API provides, no client-side TBD generation
 
             // Detect Roots (REVERSED: roots are at MAX layer - R16/R32)
             const roots = allMatches.filter(n => !n.parent);
